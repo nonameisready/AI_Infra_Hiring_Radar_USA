@@ -1,4 +1,4 @@
-# AI Infrastructure Hiring Radar (USA) — v2.2
+# AI Infrastructure Hiring Radar (USA)
 
 Fixes:
 - Prisma relation back-reference (Job.notes)
