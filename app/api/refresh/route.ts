@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { PrismaClient } from "@prisma/client";
-import { fetchGreenhouseJobs } from "../../../lib/ingest/greenhouse";
-import { fetchLeverJobs } from "../../../lib/ingest/lever";
+import { fetchGreenhouseJobsAll } from "../../../lib/ingest/greenhouse";
+import { fetchLeverJobsAll } from "../../../lib/ingest/lever";
+
 
 const prisma = new PrismaClient();
 
@@ -51,8 +52,8 @@ async function runRefresh() {
     try {
       const jobs =
         c.atsType === "greenhouse"
-          ? await fetchGreenhouseJobs(c.atsKey!)
-          : await fetchLeverJobs(c.atsKey!);
+          ? await fetchGreenhouseJobsAll(c.atsKey!)
+          : await fetchLeverJobsAll(c.atsKey!);
 
       let companyUpserts = 0;
 
