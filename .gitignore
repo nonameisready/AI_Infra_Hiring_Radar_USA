@@ -6,3 +6,4 @@ dist
 dev.db
 *.db
 .env
+.vercel
