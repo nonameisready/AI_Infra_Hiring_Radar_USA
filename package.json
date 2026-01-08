@@ -12,8 +12,12 @@
     "postinstall": "prisma generate",
     "vercel-build": "prisma migrate deploy && next build"
   },
+  "prisma": {
+    "seed": "node prisma/seed.mjs"
+  },
   "dependencies": {
     "@prisma/client": "^5.22.0",
+    "dotenv": "^17.2.3",
     "next": "14.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

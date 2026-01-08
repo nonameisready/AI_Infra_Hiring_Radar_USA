@@ -57,16 +57,89 @@ async function runRefresh() {
 
       let companyUpserts = 0;
 
-      for (const j of jobs) {
+      // for (const j of jobs) {
+      //   await prisma.job.upsert({
+      //     where: {
+      //       source_sourceJobId: { source: j.source, sourceJobId: j.sourceJobId },
+      //     },
+      //     create: { ...j, companyId: c.id },
+      //     update: { ...j, companyId: c.id },
+      //   });
+      //   companyUpserts++;
+      // }
+      for (const j of jobs as any[]) {
+        // Normalize ATS → your Job model
+        const source = c.atsType ?? "unknown";
+
+        // greenhouse: job.id, lever: job.id (usually string)
+        const sourceJobId =
+          j?.sourceJobId ??
+          (j?.id != null ? String(j.id) : (j?.internal_job_id != null ? String(j.internal_job_id) : ""));
+
+        if (!sourceJobId) {
+          console.warn("Skipping job with no sourceJobId for", c.name, j);
+          continue;
+        }
+
+        const title = String(j?.title ?? "").trim();
+        if (!title) continue;
+
+        const url =
+          j?.url ??
+          j?.absolute_url ??
+          (source === "greenhouse" && c.atsKey
+            ? `https://job-boards.greenhouse.io/${c.atsKey}/jobs/${sourceJobId}`
+            : null);
+
+        const location =
+          (j?.location && typeof j.location === "object" ? j.location.name : j?.location) ??
+          (j?.categories?.location ?? null) ??
+          null;
+
+        // greenhouse: first_published; lever: createdAt / created_at / created
+        const postedAtRaw = j?.postedAt ?? j?.first_published ?? j?.createdAt ?? j?.created_at ?? j?.created;
+        const postedAt = postedAtRaw ? new Date(postedAtRaw) : null;
+
+        // try infer remote
+        const remote =
+          Boolean(j?.remote) ||
+          /remote|anywhere|distributed/i.test(title) ||
+          /remote/i.test(String(location ?? ""));
+
+        // Optional: rough seniority flag
+        const seniority =
+          /(staff|principal|senior|lead|director|head|manager)\b/i.test(title) ? "senior" : null;
+
+        const data = {
+          // REQUIRED by your schema
+          id: `${source}:${sourceJobId}`,
+          updatedAt: new Date(),
+
+          // REQUIRED-ish / model fields
+          companyId: c.id,
+          source,
+          sourceJobId,
+          title,
+          location,
+          remote,
+          team: null as string | null,
+          url: url ?? "",
+          postedAt,
+          matchedTypes: null as string | null,
+          seniority,
+        };
+
         await prisma.job.upsert({
           where: {
-            source_sourceJobId: { source: j.source, sourceJobId: j.sourceJobId },
+            source_sourceJobId: { source, sourceJobId },
           },
-          create: { ...j, companyId: c.id },
-          update: { ...j, companyId: c.id },
+          create: data,
+          update: data,
         });
+
         companyUpserts++;
       }
+
 
       totalUpserts += companyUpserts;
 
