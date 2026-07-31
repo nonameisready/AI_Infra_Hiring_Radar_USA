@@ -2,5 +2,195 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { color-scheme: dark; }
-body { @apply bg-zinc-950 text-zinc-100; }
+:root {
+  color-scheme: dark;
+  --bg: #08090c;
+  --panel: #101218;
+  --panel-2: #14171f;
+  --line: #232733;
+  --line-soft: #1a1d26;
+  --text: #e8eaf0;
+  --muted: #8b93a7;
+  --accent: #6ee7b7;
+  --accent-dim: #34d399;
+  --fde: #a78bfa;
+  --warn: #fbbf24;
+  --danger: #fb7185;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  background-image:
+    radial-gradient(60rem 30rem at 15% -10%, rgba(52, 211, 153, 0.07), transparent 60%),
+    radial-gradient(50rem 26rem at 95% -5%, rgba(167, 139, 250, 0.06), transparent 60%);
+  background-attachment: fixed;
+}
+
+@layer components {
+  .panel {
+    @apply rounded-xl border;
+    background: var(--panel);
+    border-color: var(--line);
+  }
+
+  .panel-soft {
+    @apply rounded-lg border;
+    background: var(--panel-2);
+    border-color: var(--line-soft);
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-lg border px-3 py-1.5 text-sm font-medium
+           transition-colors disabled:cursor-not-allowed disabled:opacity-40;
+    border-color: var(--line);
+    background: var(--panel-2);
+    color: var(--text);
+  }
+  .btn:hover:not(:disabled) {
+    background: #1b1f29;
+    border-color: #313747;
+  }
+
+  .btn-primary {
+    background: linear-gradient(180deg, #34d399, #10b981);
+    border-color: #059669;
+    color: #04120c;
+    font-weight: 600;
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: linear-gradient(180deg, #6ee7b7, #34d399);
+    border-color: #34d399;
+  }
+
+  .btn-fde {
+    background: linear-gradient(180deg, #a78bfa, #8b5cf6);
+    border-color: #7c3aed;
+    color: #120a24;
+    font-weight: 600;
+  }
+  .btn-fde:hover:not(:disabled) {
+    background: linear-gradient(180deg, #c4b5fd, #a78bfa);
+    border-color: #a78bfa;
+  }
+
+  .btn-ghost {
+    @apply border-transparent bg-transparent;
+    color: var(--muted);
+  }
+  .btn-ghost:hover:not(:disabled) {
+    color: var(--text);
+    background: var(--panel-2);
+  }
+
+  .btn-xs {
+    @apply px-2 py-1 text-xs;
+  }
+
+  .input {
+    @apply w-full rounded-lg border px-3 py-1.5 text-sm outline-none transition-colors;
+    background: #0c0e13;
+    border-color: var(--line);
+    color: var(--text);
+  }
+  .input::placeholder {
+    color: #5c6479;
+  }
+  .input:focus {
+    border-color: var(--accent-dim);
+    box-shadow: 0 0 0 3px rgba(52, 211, 153, 0.12);
+  }
+
+  .label {
+    @apply mb-1 block text-xs font-medium;
+    color: var(--muted);
+  }
+
+  .chip {
+    @apply inline-flex select-none items-center gap-1 rounded-full border px-2.5 py-1 text-xs
+           transition-colors;
+    border-color: var(--line);
+    background: var(--panel-2);
+    color: var(--muted);
+  }
+  .chip:hover {
+    color: var(--text);
+    border-color: #333a4a;
+  }
+  .chip-on {
+    background: rgba(52, 211, 153, 0.13);
+    border-color: rgba(52, 211, 153, 0.45);
+    color: #a7f3d0;
+  }
+  .chip-on-fde {
+    background: rgba(167, 139, 250, 0.13);
+    border-color: rgba(167, 139, 250, 0.45);
+    color: #ddd6fe;
+  }
+
+  .tag {
+    @apply inline-flex items-center rounded border px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide;
+    border-color: var(--line);
+    color: var(--muted);
+  }
+}
+
+/* Scrollbars that match the panels instead of the OS. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2a3040 transparent;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #2a3040;
+  border-radius: 8px;
+  border: 2px solid var(--bg);
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@keyframes radar-pulse {
+  0% {
+    opacity: 0.35;
+    transform: scale(0.85);
+  }
+  70% {
+    opacity: 0;
+    transform: scale(1.6);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.6);
+  }
+}
+.radar-ping::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: currentColor;
+  animation: radar-pulse 2.4s ease-out infinite;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fade-up {
+  animation: fade-up 0.18s ease-out both;
+}

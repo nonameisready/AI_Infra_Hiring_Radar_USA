@@ -1,0 +1,113 @@
+<!doctype html>
+<!-- Mirrors the field names and labels a real Greenhouse application form uses. -->
+<html>
+  <head><meta charset="utf-8" /><title>Software Engineer — Application</title></head>
+  <body>
+    <h1>Apply for this job</h1>
+    <form id="application_form">
+      <div class="field">
+        <label for="first_name">First Name <span>*</span></label>
+        <input type="text" name="job_application[first_name]" id="first_name" />
+      </div>
+      <div class="field">
+        <label for="last_name">Last Name <span>*</span></label>
+        <input type="text" name="job_application[last_name]" id="last_name" />
+      </div>
+      <div class="field">
+        <label for="email">Email <span>*</span></label>
+        <input type="email" name="job_application[email]" id="email" />
+      </div>
+      <div class="field">
+        <label for="phone">Phone</label>
+        <input type="tel" name="job_application[phone]" id="phone" />
+      </div>
+      <div class="field">
+        <label for="resume">Resume/CV <span>*</span></label>
+        <input type="file" name="job_application[resume]" id="resume" />
+      </div>
+      <div class="field">
+        <label for="cover_letter">Cover Letter</label>
+        <input type="file" name="job_application[cover_letter]" id="cover_letter" />
+      </div>
+      <div class="field">
+        <label for="question_linkedin">LinkedIn Profile</label>
+        <input type="text" name="job_application[answers_attributes][0][text_value]" id="question_linkedin" />
+      </div>
+      <div class="field">
+        <label for="question_github">GitHub URL</label>
+        <input type="text" id="question_github" />
+      </div>
+      <div class="field">
+        <label for="question_website">Website / Portfolio</label>
+        <input type="text" id="question_website" />
+      </div>
+      <div class="field">
+        <label for="question_location">Current location (City, State)</label>
+        <input type="text" id="question_location" />
+      </div>
+      <div class="field">
+        <label for="q_authorized">Are you legally authorized to work in the United States? <span>*</span></label>
+        <select id="q_authorized">
+          <option value="">Please select</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="q_sponsor">Will you now or in the future require sponsorship for an employment visa? <span>*</span></label>
+        <select id="q_sponsor">
+          <option value="">Please select</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="q_hear">How did you hear about this role?</label>
+        <input type="text" id="q_hear" />
+      </div>
+      <div class="field">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="">Please select</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Decline To Self Identify</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="hispanic_ethnicity">Race &amp; Ethnicity</label>
+        <select id="hispanic_ethnicity">
+          <option value="">Please select</option>
+          <option>Asian</option>
+          <option>White</option>
+          <option>Decline To Self Identify</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="veteran_status">Veteran Status</label>
+        <select id="veteran_status">
+          <option value="">Please select</option>
+          <option>I identify as one or more of the classifications of a protected veteran</option>
+          <option>I am not a protected veteran</option>
+          <option>I don't wish to answer</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="disability_status">Disability Status</label>
+        <select id="disability_status">
+          <option value="">Please select</option>
+          <option>Yes, I have a disability</option>
+          <option>No, I do not have a disability</option>
+          <option>I do not want to answer</option>
+        </select>
+      </div>
+      <button type="button" id="submit_app">Submit Application</button>
+    </form>
+    <script>
+      document.getElementById("submit_app").addEventListener("click", () => {
+        window.__submitted = true;
+        document.body.setAttribute("data-submitted", "true");
+      });
+    </script>
+  </body>
+</html>

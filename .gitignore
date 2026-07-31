@@ -6,4 +6,6 @@ dist
 dev.db
 *.db
 .env
+.env.local
 .vercel
+.worker-screenshots

@@ -17,6 +17,7 @@ model Company {
   atsType   String?
   atsKey    String?
   starred   Boolean  @default(false)
+  disabled  Boolean  @default(false)
 
   jobs      Job[]
   notes     Note[]
@@ -31,6 +32,7 @@ model Job {
   company      Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
 
   notes        Note[]
+  applications Application[]
 
   source       String
   sourceJobId  String
@@ -43,12 +45,33 @@ model Job {
   matchedTypes String?
   seniority    String?
 
+  // --- Radar v2 ---
+  /// "ai" (AI infra / AI eng / SWE / agentic) or "fde" (forward deployed)
+  track        String?
+  /// 0-100 relevance score used for default ordering
+  score        Int      @default(0)
+  /// true when the posting looks USA-based (or remote-US)
+  usa          Boolean  @default(true)
+  /// plain-text job description, truncated
+  description  String?
+  /// direct application URL (may differ from the listing url)
+  applyUrl     String?
+  /// greenhouse_api | lever_api | assisted | manual
+  applyMethod  String   @default("assisted")
+  /// board token on the ATS, needed to build apply endpoints
+  atsBoardKey  String?
+  active       Boolean  @default(true)
+  firstSeenAt  DateTime @default(now())
+  lastSeenAt   DateTime @default(now())
+
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
 
   @@unique([source, sourceJobId])
   @@index([companyId])
   @@index([postedAt])
+  @@index([track, active, postedAt])
+  @@index([score])
 }
 
 model Note {
@@ -61,4 +84,75 @@ model Note {
 
   content   String
   createdAt DateTime @default(now())
+}
+
+/// An uploaded resume. Bytes live in the DB so the app stays stateless on Vercel.
+model Resume {
+  id           String   @id @default(cuid())
+  label        String
+  /// "ai" | "fde" | "any" — which tab this resume is the default for
+  track        String   @default("any")
+  fileName     String
+  mimeType     String
+  size         Int
+  data         Bytes
+  isDefault    Boolean  @default(false)
+
+  applications Application[]
+
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([track])
+}
+
+/// Single-row table holding the details every application form asks for.
+model Profile {
+  id            String   @id @default("singleton")
+  firstName     String   @default("")
+  lastName      String   @default("")
+  email         String   @default("")
+  phone         String   @default("")
+  location      String   @default("")
+  linkedin      String   @default("")
+  github        String   @default("")
+  website       String   @default("")
+  /// e.g. "US Citizen", "Green Card", "H-1B"
+  workAuth      String   @default("")
+  /// true = will need visa sponsorship now or in the future
+  needsSponsor  Boolean  @default(false)
+  /// answer to "are you legally authorized to work in the US"
+  usAuthorized  Boolean  @default(true)
+  gender        String   @default("")
+  race          String   @default("")
+  veteran       String   @default("")
+  disability    String   @default("")
+  coverLetter   String   @default("")
+  /// extra Q&A the autofiller falls back to, JSON: [{ match, value }]
+  customAnswers String   @default("[]")
+
+  updatedAt     DateTime @updatedAt
+}
+
+model Application {
+  id          String   @id @default(cuid())
+  jobId       String   @unique
+  job         Job      @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  resumeId    String?
+  resume      Resume?  @relation(fields: [resumeId], references: [id], onDelete: SetNull)
+
+  /// queued | submitted | failed | needs_manual | opened | skipped
+  status      String   @default("queued")
+  /// greenhouse_api | lever_api | assisted | worker | manual
+  method      String   @default("assisted")
+  error       String?
+  detail      String?
+  attempts    Int      @default(0)
+  submittedAt DateTime?
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([status])
+  @@index([createdAt])
 }

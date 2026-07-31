@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        width: 300px;
+        margin: 0;
+        padding: 14px;
+        background: #08090c;
+        color: #e8eaf0;
+        font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      h1 { font-size: 14px; margin: 0 0 10px; }
+      label { display: block; font-size: 11px; color: #8b93a7; margin: 10px 0 4px; }
+      input {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 7px 9px;
+        border-radius: 7px;
+        border: 1px solid #232733;
+        background: #0c0e13;
+        color: #e8eaf0;
+        font-size: 13px;
+      }
+      button {
+        margin-top: 12px;
+        width: 100%;
+        padding: 8px;
+        border-radius: 7px;
+        border: 1px solid #059669;
+        background: linear-gradient(180deg, #34d399, #10b981);
+        color: #04120c;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      #status { margin-top: 10px; font-size: 11px; color: #8b93a7; white-space: pre-wrap; }
+      p.hint { font-size: 11px; color: #8b93a7; margin: 8px 0 0; }
+    </style>
+  </head>
+  <body>
+    <h1>AI Hiring Radar</h1>
+
+    <label for="url">Radar URL</label>
+    <input id="url" placeholder="http://localhost:3000" />
+
+    <label for="token">Access token (RADAR_TOKEN, optional)</label>
+    <input id="token" type="password" placeholder="leave blank if unset" />
+
+    <button id="save">Save &amp; test connection</button>
+    <div id="status"></div>
+
+    <p class="hint">
+      Open any Greenhouse, Lever, Ashby or Workday application page and use the ⚡ Autofill button
+      in the bottom-right corner.
+    </p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

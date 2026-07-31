@@ -1,0 +1,1082 @@
+[
+  {
+    "name": "Anthropic",
+    "stage": "frontier-lab",
+    "website": "https://www.anthropic.com/careers",
+    "tags": "ai-infra,foundation-models,fde",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "anthropic"
+  },
+  {
+    "name": "Anyscale (Ray)",
+    "stage": "growth",
+    "website": "https://www.anyscale.com/careers",
+    "tags": "ray,distributed,ai-infra",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "anyscale"
+  },
+  {
+    "name": "Baseten",
+    "stage": "growth",
+    "website": "https://www.baseten.co/careers",
+    "tags": "inference,model-serving",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "baseten"
+  },
+  {
+    "name": "Browserbase",
+    "stage": "series-b",
+    "website": "https://www.browserbase.com/careers",
+    "tags": "agent-infra,browser-automation",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "browserbase"
+  },
+  {
+    "name": "Cartesia",
+    "stage": "series-b",
+    "website": "https://cartesia.ai/careers",
+    "tags": "audio-ai,ssm,inference",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "cartesia"
+  },
+  {
+    "name": "Cloudflare",
+    "stage": "public",
+    "website": "https://www.cloudflare.com/careers",
+    "tags": "edge,infra,ai-inference",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "cloudflare"
+  },
+  {
+    "name": "Cognition (Devin)",
+    "stage": "growth",
+    "website": "https://cognition.ai/careers",
+    "tags": "agentic-ai,coding-agents",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "cognition"
+  },
+  {
+    "name": "CoreWeave",
+    "stage": "public",
+    "website": "https://www.coreweave.com/careers",
+    "tags": "gpu-cloud,ai-infra",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "coreweave"
+  },
+  {
+    "name": "Cresta",
+    "stage": "growth",
+    "website": "https://cresta.com/careers",
+    "tags": "contact-center-ai,fde",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "cresta"
+  },
+  {
+    "name": "Databricks",
+    "stage": "late-stage",
+    "website": "https://www.databricks.com/company/careers",
+    "tags": "data,distributed-systems,ai-platform",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "databricks"
+  },
+  {
+    "name": "Decagon",
+    "stage": "growth",
+    "website": "https://decagon.ai/careers",
+    "tags": "agentic-ai,fde",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "decagon"
+  },
+  {
+    "name": "ElevenLabs",
+    "stage": "growth",
+    "website": "https://elevenlabs.io/careers",
+    "tags": "audio-ai,inference",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "elevenlabs"
+  },
+  {
+    "name": "Exa",
+    "stage": "series-b",
+    "website": "https://exa.ai/careers",
+    "tags": "search,ai-infra",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "exa"
+  },
+  {
+    "name": "Fireworks AI",
+    "stage": "growth",
+    "website": "https://fireworks.ai/careers",
+    "tags": "inference,ai-infra",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "fireworksai"
+  },
+  {
+    "name": "Harvey",
+    "stage": "growth",
+    "website": "https://www.harvey.ai/careers",
+    "tags": "legal-ai,fde",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "harvey"
+  },
+  {
+    "name": "Imbue",
+    "stage": "growth",
+    "website": "https://imbue.com/careers",
+    "tags": "agentic-ai,research",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "imbue"
+  },
+  {
+    "name": "LangChain",
+    "stage": "series-b",
+    "website": "https://www.langchain.com/careers",
+    "tags": "agentic-ai,llm-tooling",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "langchain"
+  },
+  {
+    "name": "Lovable",
+    "stage": "growth",
+    "website": "https://lovable.dev/careers",
+    "tags": "coding-agents,ai-product",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "lovable"
+  },
+  {
+    "name": "Mercor",
+    "stage": "growth",
+    "website": "https://mercor.com/careers",
+    "tags": "ai-data,agentic-ai",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "mercor"
+  },
+  {
+    "name": "Modal",
+    "stage": "growth",
+    "website": "https://modal.com/careers",
+    "tags": "serverless,gpu,ai-infra",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "modal"
+  },
+  {
+    "name": "OpenAI",
+    "stage": "frontier-lab",
+    "website": "https://openai.com/careers",
+    "tags": "ai-infra,foundation-models,fde",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "openai"
+  },
+  {
+    "name": "OpenEvidence",
+    "stage": "growth",
+    "website": "https://www.openevidence.com/careers",
+    "tags": "health-ai",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "openevidence"
+  },
+  {
+    "name": "Palantir",
+    "stage": "public",
+    "website": "https://www.palantir.com/careers/",
+    "tags": "fde,enterprise,deployment-strategy",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "palantir"
+  },
+  {
+    "name": "Perplexity",
+    "stage": "growth",
+    "website": "https://www.perplexity.ai/careers",
+    "tags": "search,ai-infra",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "perplexity"
+  },
+  {
+    "name": "Pinecone",
+    "stage": "growth",
+    "website": "https://www.pinecone.io/careers",
+    "tags": "vector-db,ai-infra",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "pinecone"
+  },
+  {
+    "name": "Ramp",
+    "stage": "late-stage",
+    "website": "https://ramp.com/careers",
+    "tags": "fintech,ai-product",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "ramp"
+  },
+  {
+    "name": "Replit",
+    "stage": "growth",
+    "website": "https://replit.com/careers",
+    "tags": "coding-agents,dev-infra",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "replit"
+  },
+  {
+    "name": "Rogo",
+    "stage": "series-b",
+    "website": "https://www.rogo.ai/careers",
+    "tags": "fintech-ai,fde",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "rogo"
+  },
+  {
+    "name": "Runway",
+    "stage": "late-stage",
+    "website": "https://runwayml.com/careers",
+    "tags": "video-gen,ml-infra",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "runway"
+  },
+  {
+    "name": "Samsara",
+    "stage": "public",
+    "website": "https://www.samsara.com/company/careers",
+    "tags": "iot,ml-infra,fde",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "samsara"
+  },
+  {
+    "name": "Saronic",
+    "stage": "growth",
+    "website": "https://www.saronic.com/careers",
+    "tags": "defense,autonomy",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "saronic"
+  },
+  {
+    "name": "Scale AI",
+    "stage": "late-stage",
+    "website": "https://scale.com/careers",
+    "tags": "data,ai-platform,fde",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "scaleai"
+  },
+  {
+    "name": "Sesame",
+    "stage": "growth",
+    "website": "https://www.sesame.com/careers",
+    "tags": "voice-ai,hardware",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "sesame"
+  },
+  {
+    "name": "Shield AI",
+    "stage": "late-stage",
+    "website": "https://shield.ai/careers/",
+    "tags": "defense,autonomy,fde",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "shieldai"
+  },
+  {
+    "name": "Temporal",
+    "stage": "growth",
+    "website": "https://temporal.io/careers",
+    "tags": "distributed-systems,durable-execution",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "temporaltechnologies"
+  },
+  {
+    "name": "Tenstorrent",
+    "stage": "growth",
+    "website": "https://tenstorrent.com/careers",
+    "tags": "ai-chips,compilers",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "tenstorrent"
+  },
+  {
+    "name": "Together AI",
+    "stage": "growth",
+    "website": "https://www.together.ai/careers",
+    "tags": "gpu-cloud,inference,open-models",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "togetherai"
+  },
+  {
+    "name": "Vercel",
+    "stage": "late-stage",
+    "website": "https://vercel.com/careers",
+    "tags": "cloud-infra,ai-sdk",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "vercel"
+  },
+  {
+    "name": "Verkada",
+    "stage": "late-stage",
+    "website": "https://www.verkada.com/careers",
+    "tags": "cv,edge-ai,fde",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "verkada"
+  },
+  {
+    "name": "Warp",
+    "stage": "series-b",
+    "website": "https://www.warp.dev/careers",
+    "tags": "agentic-ai,dev-tools",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "warp"
+  },
+  {
+    "name": "Waymo",
+    "stage": "big-tech",
+    "website": "https://waymo.com/careers",
+    "tags": "autonomy,ml-infra",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "waymo"
+  },
+  {
+    "name": "Affirm",
+    "stage": "public",
+    "website": "https://www.affirm.com/careers",
+    "tags": "fintech,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "affirm"
+  },
+  {
+    "name": "Airtable",
+    "stage": "late-stage",
+    "website": "https://www.airtable.com/careers",
+    "tags": "product,ai",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "airtable"
+  },
+  {
+    "name": "Alloy",
+    "stage": "growth",
+    "website": "https://www.alloy.com/careers",
+    "tags": "fintech,identity",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "alloy"
+  },
+  {
+    "name": "Amplitude",
+    "stage": "public",
+    "website": "https://amplitude.com/careers",
+    "tags": "analytics",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "amplitude"
+  },
+  {
+    "name": "Anchorage Digital",
+    "stage": "late-stage",
+    "website": "https://www.anchorage.com/careers",
+    "tags": "crypto,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "anchorage"
+  },
+  {
+    "name": "Asana",
+    "stage": "public",
+    "website": "https://asana.com/jobs",
+    "tags": "product,ai",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "asana"
+  },
+  {
+    "name": "AssemblyAI",
+    "stage": "growth",
+    "website": "https://www.assemblyai.com/careers",
+    "tags": "speech-ai,inference",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "assemblyai"
+  },
+  {
+    "name": "Attentive",
+    "stage": "late-stage",
+    "website": "https://www.attentive.com/careers",
+    "tags": "marketing-ai",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "attentive"
+  },
+  {
+    "name": "Brex",
+    "stage": "late-stage",
+    "website": "https://www.brex.com/careers",
+    "tags": "fintech,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "brex"
+  },
+  {
+    "name": "Carta",
+    "stage": "late-stage",
+    "website": "https://carta.com/careers/",
+    "tags": "fintech",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "carta"
+  },
+  {
+    "name": "Checkr",
+    "stage": "late-stage",
+    "website": "https://checkr.com/careers",
+    "tags": "background-checks,ml",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "checkr"
+  },
+  {
+    "name": "Chime",
+    "stage": "late-stage",
+    "website": "https://careers.chime.com",
+    "tags": "fintech,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "chime"
+  },
+  {
+    "name": "Chroma",
+    "stage": "series-a",
+    "website": "https://www.trychroma.com/careers",
+    "tags": "vector-db,ai-infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "trychroma"
+  },
+  {
+    "name": "CircleCI",
+    "stage": "late-stage",
+    "website": "https://circleci.com/careers/",
+    "tags": "ci-cd,dev-infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "circleci"
+  },
+  {
+    "name": "ClickHouse",
+    "stage": "growth",
+    "website": "https://clickhouse.com/careers",
+    "tags": "database,distributed-systems",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "clickhouse"
+  },
+  {
+    "name": "Cockroach Labs",
+    "stage": "late-stage",
+    "website": "https://www.cockroachlabs.com/careers/",
+    "tags": "database,distributed-systems",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "cockroachlabs"
+  },
+  {
+    "name": "Coinbase",
+    "stage": "public",
+    "website": "https://www.coinbase.com/careers",
+    "tags": "crypto,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "coinbase"
+  },
+  {
+    "name": "Datadog",
+    "stage": "public",
+    "website": "https://careers.datadoghq.com",
+    "tags": "observability,distributed-systems",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "datadog"
+  },
+  {
+    "name": "Deepgram",
+    "stage": "growth",
+    "website": "https://deepgram.com/careers",
+    "tags": "speech-ai,inference",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "deepgram"
+  },
+  {
+    "name": "Discord",
+    "stage": "late-stage",
+    "website": "https://discord.com/careers",
+    "tags": "scale,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "discord"
+  },
+  {
+    "name": "Dropbox",
+    "stage": "public",
+    "website": "https://www.dropbox.com/jobs",
+    "tags": "storage,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "dropbox"
+  },
+  {
+    "name": "Dust",
+    "stage": "series-a",
+    "website": "https://dust.tt/jobs",
+    "tags": "agentic-ai",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "dust"
+  },
+  {
+    "name": "Encord",
+    "stage": "series-b",
+    "website": "https://encord.com/careers",
+    "tags": "ai-data,labeling",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "encord"
+  },
+  {
+    "name": "Fastly",
+    "stage": "public",
+    "website": "https://www.fastly.com/about/careers",
+    "tags": "edge,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "fastly"
+  },
+  {
+    "name": "Figma",
+    "stage": "public",
+    "website": "https://www.figma.com/careers",
+    "tags": "product-infra,ai",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "figma"
+  },
+  {
+    "name": "Fireworks AI (Ashby)",
+    "stage": "growth",
+    "website": "https://fireworks.ai/careers",
+    "tags": "inference,ai-infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "fireworks"
+  },
+  {
+    "name": "Flexport",
+    "stage": "late-stage",
+    "website": "https://www.flexport.com/careers/",
+    "tags": "logistics,ai",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "flexport"
+  },
+  {
+    "name": "Galileo",
+    "stage": "series-b",
+    "website": "https://www.rungalileo.io/careers",
+    "tags": "llm-evals,ai-infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "galileo"
+  },
+  {
+    "name": "Genspark",
+    "stage": "series-a",
+    "website": "https://www.genspark.ai/careers",
+    "tags": "agentic-ai",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "genspark"
+  },
+  {
+    "name": "GitLab",
+    "stage": "public",
+    "website": "https://about.gitlab.com/jobs/",
+    "tags": "devops,ai-product",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "gitlab"
+  },
+  {
+    "name": "Grafana Labs",
+    "stage": "late-stage",
+    "website": "https://grafana.com/about/careers/",
+    "tags": "observability,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "grafanalabs"
+  },
+  {
+    "name": "Gusto",
+    "stage": "late-stage",
+    "website": "https://gusto.com/about/careers",
+    "tags": "hr-tech",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "gusto"
+  },
+  {
+    "name": "Instacart",
+    "stage": "public",
+    "website": "https://instacart.careers",
+    "tags": "ml-infra,marketplace",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "instacart"
+  },
+  {
+    "name": "LaunchDarkly",
+    "stage": "late-stage",
+    "website": "https://launchdarkly.com/careers/",
+    "tags": "dev-infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "launchdarkly"
+  },
+  {
+    "name": "Linear",
+    "stage": "growth",
+    "website": "https://linear.app/careers",
+    "tags": "dev-tools",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "linear"
+  },
+  {
+    "name": "Lyft",
+    "stage": "public",
+    "website": "https://www.lyft.com/careers",
+    "tags": "ml-infra,marketplace",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "lyft"
+  },
+  {
+    "name": "Marqeta",
+    "stage": "public",
+    "website": "https://www.marqeta.com/company/careers",
+    "tags": "fintech,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "marqeta"
+  },
+  {
+    "name": "Mercury",
+    "stage": "late-stage",
+    "website": "https://mercury.com/jobs",
+    "tags": "fintech,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "mercury"
+  },
+  {
+    "name": "Mixpanel",
+    "stage": "late-stage",
+    "website": "https://mixpanel.com/careers/",
+    "tags": "analytics",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "mixpanel"
+  },
+  {
+    "name": "Neon",
+    "stage": "growth",
+    "website": "https://neon.tech/careers",
+    "tags": "database,serverless",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "neon"
+  },
+  {
+    "name": "Netlify",
+    "stage": "growth",
+    "website": "https://www.netlify.com/careers/",
+    "tags": "cloud-infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "netlify"
+  },
+  {
+    "name": "Notion",
+    "stage": "late-stage",
+    "website": "https://www.notion.so/careers",
+    "tags": "ai-product,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "notion"
+  },
+  {
+    "name": "Nuro",
+    "stage": "late-stage",
+    "website": "https://www.nuro.ai/careers",
+    "tags": "autonomy,ml-infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "nuro"
+  },
+  {
+    "name": "Observe.AI",
+    "stage": "growth",
+    "website": "https://www.observe.ai/careers",
+    "tags": "contact-center-ai",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "observeai"
+  },
+  {
+    "name": "Otter.ai",
+    "stage": "growth",
+    "website": "https://otter.ai/careers",
+    "tags": "speech-ai",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "otter"
+  },
+  {
+    "name": "Pika",
+    "stage": "series-b",
+    "website": "https://pika.art/careers",
+    "tags": "video-gen",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "pika"
+  },
+  {
+    "name": "Pinterest",
+    "stage": "public",
+    "website": "https://www.pinterestcareers.com",
+    "tags": "ml-infra,recsys",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "pinterest"
+  },
+  {
+    "name": "PlanetScale",
+    "stage": "growth",
+    "website": "https://planetscale.com/careers",
+    "tags": "database,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "planetscale"
+  },
+  {
+    "name": "Postman",
+    "stage": "late-stage",
+    "website": "https://www.postman.com/company/careers/",
+    "tags": "dev-tools",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "postman"
+  },
+  {
+    "name": "Railway",
+    "stage": "series-b",
+    "website": "https://railway.com/careers",
+    "tags": "cloud-infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "railway"
+  },
+  {
+    "name": "Reddit",
+    "stage": "public",
+    "website": "https://redditinc.com/careers",
+    "tags": "ml-infra,scale",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "reddit"
+  },
+  {
+    "name": "Render",
+    "stage": "growth",
+    "website": "https://render.com/careers",
+    "tags": "cloud-infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "render"
+  },
+  {
+    "name": "Rime",
+    "stage": "seed",
+    "website": "https://rime.ai/careers",
+    "tags": "speech-ai",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "rime"
+  },
+  {
+    "name": "Robinhood",
+    "stage": "public",
+    "website": "https://careers.robinhood.com",
+    "tags": "fintech,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "robinhood"
+  },
+  {
+    "name": "Roboflow",
+    "stage": "series-b",
+    "website": "https://roboflow.com/careers",
+    "tags": "cv,ml-infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "roboflow"
+  },
+  {
+    "name": "Sardine",
+    "stage": "growth",
+    "website": "https://www.sardine.ai/careers",
+    "tags": "fintech,fraud-ai",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "sardine"
+  },
+  {
+    "name": "Speechmatics",
+    "stage": "growth",
+    "website": "https://www.speechmatics.com/careers",
+    "tags": "speech-ai",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "speechmatics"
+  },
+  {
+    "name": "Starburst",
+    "stage": "late-stage",
+    "website": "https://www.starburst.io/careers/",
+    "tags": "data,query-engine",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "starburst"
+  },
+  {
+    "name": "Stripe",
+    "stage": "late-stage",
+    "website": "https://stripe.com/jobs",
+    "tags": "payments,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "stripe"
+  },
+  {
+    "name": "Suno",
+    "stage": "growth",
+    "website": "https://suno.com/careers",
+    "tags": "audio-gen,inference",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "suno"
+  },
+  {
+    "name": "Supabase",
+    "stage": "growth",
+    "website": "https://supabase.com/careers",
+    "tags": "database,dev-infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "supabase"
+  },
+  {
+    "name": "Synthesia",
+    "stage": "late-stage",
+    "website": "https://www.synthesia.io/careers",
+    "tags": "video-gen,inference",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "synthesia"
+  },
+  {
+    "name": "Twilio",
+    "stage": "public",
+    "website": "https://www.twilio.com/en-us/company/jobs",
+    "tags": "comms,infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "twilio"
+  },
+  {
+    "name": "Ultralytics",
+    "stage": "seed",
+    "website": "https://www.ultralytics.com/careers",
+    "tags": "cv,open-source",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "ultralytics"
+  },
+  {
+    "name": "Vanta",
+    "stage": "late-stage",
+    "website": "https://www.vanta.com/careers",
+    "tags": "security,compliance",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "vanta"
+  },
+  {
+    "name": "Weaviate",
+    "stage": "series-b",
+    "website": "https://weaviate.io/company/careers",
+    "tags": "vector-db,ai-infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "weaviate"
+  },
+  {
+    "name": "Zoox",
+    "stage": "big-tech",
+    "website": "https://zoox.com/careers",
+    "tags": "autonomy,ml-infra",
+    "starred": false,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "zoox"
+  }
+]

@@ -1,16 +1,22 @@
 {
-  "name": "ai-infra-hiring-dashboard-v2-2",
+  "name": "ai-hiring-radar",
   "private": true,
-  "version": "0.1.2",
+  "version": "2.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
     "prisma:generate": "prisma generate",
-    "prisma:migrate": "prisma migrate dev --name init",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:deploy": "prisma migrate deploy",
     "prisma:seed": "node prisma/seed.mjs",
+    "refresh": "node scripts/refresh.mjs",
+    "worker": "node worker/auto-apply.mjs",
     "postinstall": "prisma generate",
-    "vercel-build": "prisma migrate deploy && next build"
+    "vercel-build": "prisma migrate deploy && next build",
+    "test": "node test/autofill.test.mjs"
   },
   "prisma": {
     "seed": "node prisma/seed.mjs"
@@ -23,9 +29,11 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "25.0.3",
-    "@types/react": "19.2.7",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
     "autoprefixer": "^10.4.20",
+    "playwright": "^1.49.0",
     "postcss": "^8.4.41",
     "prisma": "^5.22.0",
     "tailwindcss": "^3.4.10",

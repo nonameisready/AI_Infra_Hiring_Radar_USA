@@ -1,0 +1,95 @@
+<!doctype html>
+<!--
+  A genuinely React-controlled application form, in the shape Ashby renders.
+  This is the case that breaks naive autofillers: assigning `input.value`
+  directly is silently reverted by React, so the runtime has to go through the
+  native value setter. The submitted-state readout below proves what React
+  actually holds, not just what the DOM shows.
+-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Apply — Senior Software Engineer</title>
+    <script src="/vendor/react.js"></script>
+    <script src="/vendor/react-dom.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      const { useState, createElement: h } = React;
+
+      function Field({ label, value, onChange, type }) {
+        const id = label.toLowerCase().replace(/[^a-z]+/g, "_");
+        return h(
+          "div",
+          { className: "_fieldEntry" },
+          h("label", { htmlFor: id }, label),
+          h("input", { id, type: type || "text", value, onChange: (e) => onChange(e.target.value) }),
+        );
+      }
+
+      function App() {
+        const [state, setState] = useState({
+          name: "", email: "", phone: "", location: "",
+          linkedin: "", github: "", website: "",
+        });
+        const [auth, setAuth] = useState("");
+        const [sponsor, setSponsor] = useState("");
+        const [submitted, setSubmitted] = useState(false);
+        const set = (k) => (v) => setState((s) => ({ ...s, [k]: v }));
+
+        return h(
+          "form",
+          null,
+          h(Field, { label: "Full Name", value: state.name, onChange: set("name") }),
+          h(Field, { label: "Email", type: "email", value: state.email, onChange: set("email") }),
+          h(Field, { label: "Phone", value: state.phone, onChange: set("phone") }),
+          h(Field, { label: "Location", value: state.location, onChange: set("location") }),
+          h(Field, { label: "LinkedIn", value: state.linkedin, onChange: set("linkedin") }),
+          h(Field, { label: "GitHub", value: state.github, onChange: set("github") }),
+          h(Field, { label: "Website", value: state.website, onChange: set("website") }),
+          h(
+            "div",
+            { className: "_fieldEntry" },
+            h("label", { htmlFor: "resume_file" }, "Resume"),
+            h("input", { id: "resume_file", type: "file" }),
+          ),
+          h(
+            "fieldset",
+            { className: "_fieldEntry" },
+            h("legend", null, "Are you legally authorized to work in the United States?"),
+            h("label", null, h("input", {
+              type: "radio", name: "auth", value: "Yes",
+              checked: auth === "Yes", onChange: () => setAuth("Yes"),
+            }), " Yes"),
+            h("label", null, h("input", {
+              type: "radio", name: "auth", value: "No",
+              checked: auth === "No", onChange: () => setAuth("No"),
+            }), " No"),
+          ),
+          h(
+            "fieldset",
+            { className: "_fieldEntry" },
+            h("legend", null, "Will you now or in the future require sponsorship?"),
+            h("label", null, h("input", {
+              type: "radio", name: "sponsor", value: "Yes",
+              checked: sponsor === "Yes", onChange: () => setSponsor("Yes"),
+            }), " Yes"),
+            h("label", null, h("input", {
+              type: "radio", name: "sponsor", value: "No",
+              checked: sponsor === "No", onChange: () => setSponsor("No"),
+            }), " No"),
+          ),
+          h("button", {
+            type: "button",
+            onClick: () => { setSubmitted(true); document.body.setAttribute("data-submitted", "true"); },
+          }, "Submit Application"),
+          // Mirrors React state so the test asserts on state, not the DOM.
+          h("pre", { id: "react-state" }, JSON.stringify({ ...state, auth, sponsor, submitted })),
+        );
+      }
+
+      ReactDOM.createRoot(document.getElementById("root")).render(h(App));
+    </script>
+  </body>
+</html>

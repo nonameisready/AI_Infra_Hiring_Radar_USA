@@ -1,0 +1,56 @@
+<!doctype html>
+<!-- Mirrors a Lever hosted application: single "name" field, urls[...] inputs, radio work-auth. -->
+<html>
+  <head><meta charset="utf-8" /><title>Apply — Staff Engineer</title></head>
+  <body>
+    <form id="application-form">
+      <div class="application-field">
+        <label>Full name<input type="text" name="name" required /></label>
+      </div>
+      <div class="application-field">
+        <label>Email<input type="email" name="email" required /></label>
+      </div>
+      <div class="application-field">
+        <label>Phone<input type="tel" name="phone" /></label>
+      </div>
+      <div class="application-field">
+        <label>Current location<input type="text" name="location" /></label>
+      </div>
+      <div class="application-field">
+        <label>Resume/CV<input type="file" name="resume" /></label>
+      </div>
+      <div class="application-field">
+        <label>LinkedIn URL<input type="text" name="urls[LinkedIn]" /></label>
+      </div>
+      <div class="application-field">
+        <label>GitHub URL<input type="text" name="urls[GitHub]" /></label>
+      </div>
+      <div class="application-field">
+        <label>Portfolio<input type="text" name="urls[Portfolio]" /></label>
+      </div>
+      <div class="application-field">
+        <label for="comments">Additional information</label>
+        <textarea name="comments" id="comments"></textarea>
+      </div>
+
+      <fieldset class="application-question">
+        <legend>Are you legally authorized to work in the United States?</legend>
+        <label><input type="radio" name="cards[auth][field0]" value="Yes" /> Yes</label>
+        <label><input type="radio" name="cards[auth][field0]" value="No" /> No</label>
+      </fieldset>
+
+      <fieldset class="application-question">
+        <legend>Will you now or in the future require visa sponsorship?</legend>
+        <label><input type="radio" name="cards[sponsor][field0]" value="Yes" /> Yes</label>
+        <label><input type="radio" name="cards[sponsor][field0]" value="No" /> No</label>
+      </fieldset>
+
+      <button type="button" id="btn-submit">Submit application</button>
+    </form>
+    <script>
+      document.getElementById("btn-submit").addEventListener("click", () => {
+        document.body.setAttribute("data-submitted", "true");
+      });
+    </script>
+  </body>
+</html>
