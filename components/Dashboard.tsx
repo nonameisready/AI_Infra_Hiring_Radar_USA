@@ -256,6 +256,8 @@ export function Dashboard() {
           onMarkApplied={markOpened}
           busyIds={busyIds}
           loading={loading}
+          boardCount={stats?.companies ?? 0}
+          trackTotal={trackStats?.total ?? 0}
         />
       </div>
 

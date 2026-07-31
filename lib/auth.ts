@@ -22,6 +22,27 @@ export function isAuthorized(req: Request) {
   return provided === expected || provided === process.env.CRON_SECRET;
 }
 
+/**
+ * Browsers set Sec-Fetch-Site on every fetch and script-set headers cannot
+ * override it, so another website cannot make a visitor's browser send
+ * "same-origin". It does stop nothing at all from a plain curl — which is fine
+ * for the endpoints that use it, because the token exists to keep other sites
+ * and stray crawlers from triggering expensive work, not to authenticate a
+ * user. The app has no login; see the README on putting access control in
+ * front of a public deployment.
+ */
+export function isSameOriginRequest(req: Request) {
+  return req.headers.get("sec-fetch-site") === "same-origin";
+}
+
+/**
+ * For endpoints the app's own UI calls. Without this, setting RADAR_TOKEN or
+ * CRON_SECRET breaks the Refresh button, since the browser has no token to send.
+ */
+export function isAuthorizedOrSameOrigin(req: Request) {
+  return isAuthorized(req) || isSameOriginRequest(req);
+}
+
 export function unauthorized() {
   return NextResponse.json({ error: "unauthorized" }, { status: 401 });
 }

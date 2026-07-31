@@ -46,6 +46,8 @@ export function JobList({
   onMarkApplied,
   busyIds,
   loading,
+  boardCount,
+  trackTotal,
 }: {
   jobs: JobRow[];
   track: Track;
@@ -55,6 +57,10 @@ export function JobList({
   onMarkApplied: (job: JobRow) => void;
   busyIds: Set<string>;
   loading: boolean;
+  /** Number of registered company boards; 0 means the registry was never seeded. */
+  boardCount: number;
+  /** Total active roles in this track, ignoring filters. */
+  trackTotal: number;
 }) {
   if (loading) {
     return (
@@ -67,14 +73,41 @@ export function JobList({
   }
 
   if (!jobs.length) {
+    // Distinguish "your filters are too tight" from "there is no data at all",
+    // which are very different problems with very different fixes.
+    const noBoards = boardCount === 0;
+    const neverScanned = !noBoards && trackTotal === 0;
+
     return (
       <div className="panel p-10 text-center">
-        <p className="text-sm text-[color:var(--muted)]">
-          No roles match these filters.
-        </p>
-        <p className="mt-1 text-xs text-[color:var(--muted)]">
-          Try widening the date range, turning off “Hide applied”, or running a refresh.
-        </p>
+        {noBoards ? (
+          <>
+            <p className="text-sm text-amber-300/90">No job boards loaded.</p>
+            <p className="mx-auto mt-2 max-w-md text-xs leading-relaxed text-[color:var(--muted)]">
+              The company registry is empty, so there is nothing to scan. Run the{" "}
+              <b className="text-[color:var(--text)]">Database Repair</b> workflow in GitHub
+              Actions with <code className="text-[color:var(--text)]">repair-and-seed</code>, or
+              locally <code className="text-[color:var(--text)]">npm run prisma:seed</code>.
+            </p>
+          </>
+        ) : neverScanned ? (
+          <>
+            <p className="text-sm text-[color:var(--muted)]">
+              {boardCount} boards are registered, but nothing has been scanned yet.
+            </p>
+            <p className="mt-2 text-xs text-[color:var(--muted)]">
+              Press <b className="text-[color:var(--text)]">↻ Refresh jobs</b> — the first scan
+              takes about 15 seconds.
+            </p>
+          </>
+        ) : (
+          <>
+            <p className="text-sm text-[color:var(--muted)]">No roles match these filters.</p>
+            <p className="mt-1 text-xs text-[color:var(--muted)]">
+              Try widening the date range, turning off “Hide applied”, or running a refresh.
+            </p>
+          </>
+        )}
       </div>
     );
   }

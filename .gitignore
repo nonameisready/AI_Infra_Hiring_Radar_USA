@@ -9,3 +9,4 @@ dev.db
 .env.local
 .vercel
 .worker-screenshots
+*.tsbuildinfo

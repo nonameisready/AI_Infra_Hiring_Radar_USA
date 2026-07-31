@@ -145,12 +145,36 @@ try {
   console.log("\nApplying migrations…\n");
   prismaCli(["migrate", "deploy"], url);
 
-  if (SEED) {
+  // The company registry is static reference data, and the app shows an empty
+  // radar without it. Seeding is an upsert keyed by name, so loading it
+  // whenever the table is empty is safe and saves a manual step after every
+  // fresh or rebuilt database.
+  let shouldSeed = SEED;
+  if (!shouldSeed) {
+    const after = client(url);
+    try {
+      const [{ count }] = await after.$queryRaw`SELECT count(*)::int AS count FROM "Company"`;
+      if (count === 0) {
+        console.log("\nNo job boards in the database yet — seeding the registry.");
+        shouldSeed = true;
+      } else {
+        console.log(`\n${count} job boards already registered.`);
+      }
+    } catch (e) {
+      console.log(`\nCould not check the company registry: ${e.message}`);
+    } finally {
+      await after.$disconnect().catch(() => {});
+    }
+  }
+
+  if (shouldSeed) {
     console.log("\nSeeding job boards…\n");
     execFileSync("node", ["prisma/seed.mjs"], {
       stdio: "inherit",
       env: { ...process.env, DATABASE_URL: url },
     });
+    console.log("\nBoards loaded. Postings arrive on the first scan — press");
+    console.log('"Refresh jobs" in the app, or wait for the daily cron.');
   }
 
   console.log("\nDatabase is up to date.");

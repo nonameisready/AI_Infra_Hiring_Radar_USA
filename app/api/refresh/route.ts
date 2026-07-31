@@ -1,12 +1,14 @@
 import { NextResponse } from "next/server";
 import { runRefresh } from "../../../lib/ingest";
-import { isAuthorized, unauthorized } from "../../../lib/auth";
+import { isAuthorizedOrSameOrigin, unauthorized } from "../../../lib/auth";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 300;
 
 async function handle(req: Request) {
-  if (!isAuthorized(req)) return unauthorized();
+  // The Refresh button in the UI has no token to send, so same-origin
+  // browser requests are allowed through alongside the cron/CLI token.
+  if (!isAuthorizedOrSameOrigin(req)) return unauthorized();
 
   const url = new URL(req.url);
   const only = url.searchParams.get("companyIds");
