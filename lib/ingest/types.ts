@@ -63,13 +63,15 @@ const RETRYABLE = new Set([429, 500, 502, 503, 504]);
  * backoff for the 503s Greenhouse hands out when several boards are pulled at
  * once.
  */
-export async function fetchJson(url: string, timeoutMs = 20_000, attempts = 3): Promise<any> {
+export async function fetchJson(url: string, timeoutMs = 20_000, attempts = 4): Promise<any> {
   let lastError = "";
 
   for (let attempt = 0; attempt < attempts; attempt++) {
     if (attempt > 0) {
-      // 600ms, 1.8s — enough for Greenhouse's per-IP throttle to clear.
-      await new Promise((r) => setTimeout(r, 600 * 3 ** (attempt - 1)));
+      // 1s, 3s, 9s plus jitter. Ashby in particular throttles a burst of
+      // boards hard, and retrying in lockstep just reproduces the burst.
+      const backoff = 1000 * 3 ** (attempt - 1);
+      await new Promise((r) => setTimeout(r, backoff + Math.random() * 500));
     }
 
     let res: Response;

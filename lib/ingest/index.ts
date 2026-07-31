@@ -38,6 +38,13 @@ const FETCHERS: Record<AtsType, (key: string) => Promise<RawJob[]>> = {
   ashby: fetchAshby,
 };
 
+/** How many boards to pull at once per ATS, tuned against their throttles. */
+const HOST_CONCURRENCY: Record<AtsType, number> = {
+  greenhouse: 4,
+  lever: 3,
+  ashby: 2,
+};
+
 /** Run `worker` over `items` with a bounded number in flight at once. */
 async function mapPool<T, R>(items: T[], concurrency: number, worker: (item: T) => Promise<R>) {
   const out: R[] = new Array(items.length);
@@ -73,7 +80,7 @@ export async function runRefresh(options: { companyIds?: string[] } = {}): Promi
 
   const seenJobIds = new Set<string>();
 
-  const results = await mapPool(companies, 6, async (c): Promise<SourceResult> => {
+  const scanCompany = async (c: (typeof companies)[number]): Promise<SourceResult> => {
     const base: SourceResult = {
       company: c.name,
       atsType: c.atsType,
@@ -145,12 +152,32 @@ export async function runRefresh(options: { companyIds?: string[] } = {}): Promi
     } catch (e: any) {
       return { ...base, ok: false, error: String(e?.message ?? e).slice(0, 300) };
     }
-  });
+  };
+
+  // Each ATS rate-limits per host, so give each its own budget instead of one
+  // shared pool. Ashby throttles a burst of boards hardest, and it is also the
+  // provider we pull the most boards from.
+  const byAts = new Map<AtsType, typeof companies>();
+  for (const c of companies) {
+    const key = c.atsType as AtsType;
+    if (!byAts.has(key)) byAts.set(key, []);
+    byAts.get(key)!.push(c);
+  }
+
+  const outcomes = new Map<string, SourceResult>();
+  await Promise.all(
+    Array.from(byAts.entries()).map(async ([ats, list]) => {
+      const done = await mapPool(list, HOST_CONCURRENCY[ats] ?? 3, scanCompany);
+      list.forEach((c, i) => outcomes.set(c.id, done[i]));
+    }),
+  );
+
+  const results = companies.map((c) => outcomes.get(c.id)!).filter(Boolean);
 
   // Postings that disappeared from a successfully-fetched board are closed.
-  const okCompanyIds = companies
-    .filter((c, i) => results[i]?.ok)
-    .map((c) => c.id);
+  // A board that errored is left alone, so a rate-limited scan never looks
+  // like every one of that company's roles was pulled down.
+  const okCompanyIds = companies.filter((c) => outcomes.get(c.id)?.ok).map((c) => c.id);
 
   let deactivated = 0;
   if (okCompanyIds.length) {

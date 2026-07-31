@@ -122,15 +122,36 @@ because they do not expose a public Greenhouse/Lever/Ashby board under a slug th
 
 ## Keeping it fresh
 
-`vercel.json` runs `/api/refresh` daily at 13:00 UTC. Anywhere else, hit the endpoint on a
-schedule:
+Both tabs refresh on a daily schedule, from two independent paths.
+
+**GitHub Actions — `Daily Job Scan`, 12:00 UTC.** This is the one to rely on. It runs
+`npm run scan`, which talks to Postgres directly, so it does not depend on the deployment being
+up, on a token, or on a serverless function finishing in time. It needs one repository secret,
+`DATABASE_URL`, and writes a summary to the run page so you can see what happened. Trigger it by
+hand any time from the Actions tab.
+
+Scan more often by editing the cron in `.github/workflows/refresh.yml` — `0 6,18 * * *` for
+twice a day. Overlapping runs are prevented by a concurrency group.
+
+**Vercel cron — 13:00 UTC.** A backup that calls `/api/refresh` over HTTP. Vercel only
+authenticates this if the **`CRON_SECRET`** environment variable is set: it injects
+`Authorization: Bearer $CRON_SECRET` only when that exact variable exists. If you protect the
+app with `RADAR_TOKEN`, set `CRON_SECRET` to the same value, or this cron silently 401s.
+
+You can also scan on demand: the **↻ Refresh jobs** button, or
 
 ```bash
+DATABASE_URL="<url>" npm run scan
 curl -X POST https://your-app/api/refresh -H "Authorization: Bearer $RADAR_TOKEN"
 ```
 
-Postings that disappear from a board are marked inactive rather than deleted, so your
-application history survives.
+A scan takes about 20 seconds for 108 boards. Postings that disappear from a board are marked
+inactive rather than deleted, so your application history survives — and a board that errors is
+skipped entirely rather than having all its roles closed, so a rate-limited scan never wipes a
+company out.
+
+If the header says the last scan was more than two days ago it turns amber and says so, rather
+than letting a broken schedule look like a quiet hiring week.
 
 ## Tests
 

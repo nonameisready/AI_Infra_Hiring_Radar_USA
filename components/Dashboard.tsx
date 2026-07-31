@@ -330,6 +330,12 @@ function Header({
   const queued = stats?.applications.queued ?? 0;
   const submitted = stats?.applications.submitted ?? 0;
 
+  // The scan runs daily, so more than two days without one means the schedule
+  // is broken. Say so rather than letting it look like a quiet hiring week.
+  const stale = stats?.lastRefreshedAt
+    ? Date.now() - new Date(stats.lastRefreshedAt).getTime() > 2 * 86_400_000
+    : false;
+
   return (
     <header className="flex flex-wrap items-start justify-between gap-4">
       <div>
@@ -345,8 +351,10 @@ function Header({
             : "Loading the radar…"}
         </p>
         {stats?.lastRefreshedAt && (
-          <p className="mt-0.5 text-xs text-[color:var(--muted)]">
+          <p className={`mt-0.5 text-xs ${stale ? "text-amber-300/90" : "text-[color:var(--muted)]"}`}>
+            {stale && "⚠ "}
             Last scan {relativeDate(stats.lastRefreshedAt)}
+            {stale && " — the daily scan may have stopped"}
             {queued > 0 && ` · ${queued} queued for the worker`}
             {submitted > 0 && ` · ${submitted} submitted`}
           </p>

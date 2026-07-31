@@ -1,15 +1,53 @@
-name: Refresh Jobs
+name: Daily Job Scan
+
+# Keeps both dashboards current. Runs against Postgres directly, so it does not
+# depend on the deployment URL, a shared token, or a serverless timeout.
+#
+# Required repository secret:
+#   DATABASE_URL   your Postgres connection string
+#
+# Change the cron below to scan more often — "0 6,18 * * *" for twice a day.
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 12 * * *" # 12:00 UTC daily
   workflow_dispatch:
 
+# Never let two scans overlap; they would disagree about which postings closed.
+concurrency:
+  group: job-scan
+  cancel-in-progress: false
+
 jobs:
-  refresh:
+  scan:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - name: Call refresh endpoint
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Scan job boards
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: |
-          curl -sS -X POST "${{ secrets.REFRESH_URL }}" \
-            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}"
+          if [ -z "$DATABASE_URL" ]; then
+            echo "::error::The DATABASE_URL repository secret is not set."
+            exit 1
+          fi
+          npm run scan 2>&1 | tee scan.log
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "## Job scan"
+            echo '```'
+            cat scan.log 2>/dev/null || echo "the scan produced no output"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
