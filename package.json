@@ -16,7 +16,8 @@
     "worker": "node worker/auto-apply.mjs",
     "postinstall": "prisma generate",
     "vercel-build": "prisma migrate deploy && next build",
-    "test": "node test/autofill.test.mjs"
+    "test": "node test/autofill.test.mjs",
+    "db:recover": "node scripts/db-recover.mjs"
   },
   "prisma": {
     "seed": "node prisma/seed.mjs"

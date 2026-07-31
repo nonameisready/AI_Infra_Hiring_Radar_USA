@@ -149,6 +149,28 @@ groups, resume attachment, and the submit path.
 Set `DATABASE_URL` and `RADAR_TOKEN` in your host, then deploy. `vercel-build` runs
 `prisma migrate deploy` first.
 
+### If a deploy fails on migrations
+
+`P3018` (a migration failed) or `P3009` (failed migrations found, new ones will not be applied)
+means Prisma has recorded a migration as failed and will block every later deploy until it is
+cleared. Point at the production database and run:
+
+```bash
+DATABASE_URL="<your production url>" npm run db:recover
+```
+
+It prints which tables exist and what the migration history says, marks failed migrations as
+rolled back, and re-applies them. Then redeploy.
+
+This is safe to re-run: the migrations use `CREATE TABLE IF NOT EXISTS`, `ADD COLUMN IF NOT
+EXISTS` and name-guarded constraints, so re-applying one that partially ran leaves existing data
+alone.
+
+If the output shows tables `MISSING` while the history says `applied`, the database is not the
+one that history was written against. That usually means `DATABASE_URL` was repointed at a
+different database, or migrations were run through a transaction-mode connection pooler —
+Prisma needs a direct connection for migrations, not the pooled port.
+
 ### Read this before putting it on the public internet
 
 **The app has no login.** It is a single-user tool, and `RADAR_TOKEN` is not a substitute for

@@ -1,20 +1,83 @@
--- AlterTable
-ALTER TABLE "Company" ADD COLUMN     "disabled" BOOLEAN NOT NULL DEFAULT false;
+-- Radar v2 schema.
+--
+-- Written defensively rather than as a plain diff. A deployment hit
+-- "relation Company does not exist" here because the target database had the
+-- init migration recorded as applied without its tables actually being
+-- present. A migration that assumes an exact prior state cannot recover from
+-- that; this one converges to the correct schema from any partial state and is
+-- safe to run more than once.
 
--- AlterTable
-ALTER TABLE "Job" ADD COLUMN     "active" BOOLEAN NOT NULL DEFAULT true,
-ADD COLUMN     "applyMethod" TEXT NOT NULL DEFAULT 'assisted',
-ADD COLUMN     "applyUrl" TEXT,
-ADD COLUMN     "atsBoardKey" TEXT,
-ADD COLUMN     "description" TEXT,
-ADD COLUMN     "firstSeenAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-ADD COLUMN     "lastSeenAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-ADD COLUMN     "score" INTEGER NOT NULL DEFAULT 0,
-ADD COLUMN     "track" TEXT,
-ADD COLUMN     "usa" BOOLEAN NOT NULL DEFAULT true;
+-- ---------------------------------------------------------------- base tables
+-- Normally created by 20260106171436_init. Recreated here only when missing.
 
--- CreateTable
-CREATE TABLE "Resume" (
+CREATE TABLE IF NOT EXISTS "Company" (
+    "id" TEXT NOT NULL,
+    "name" TEXT NOT NULL,
+    "website" TEXT,
+    "hq" TEXT,
+    "stage" TEXT,
+    "tags" TEXT,
+    "atsType" TEXT,
+    "atsKey" TEXT,
+    "starred" BOOLEAN NOT NULL DEFAULT false,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
+
+    CONSTRAINT "Company_pkey" PRIMARY KEY ("id")
+);
+
+CREATE TABLE IF NOT EXISTS "Job" (
+    "id" TEXT NOT NULL,
+    "companyId" TEXT NOT NULL,
+    "source" TEXT NOT NULL,
+    "sourceJobId" TEXT NOT NULL,
+    "title" TEXT NOT NULL,
+    "location" TEXT,
+    "remote" BOOLEAN NOT NULL DEFAULT false,
+    "team" TEXT,
+    "url" TEXT NOT NULL,
+    "postedAt" TIMESTAMP(3),
+    "matchedTypes" TEXT,
+    "seniority" TEXT,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
+
+    CONSTRAINT "Job_pkey" PRIMARY KEY ("id")
+);
+
+CREATE TABLE IF NOT EXISTS "Note" (
+    "id" TEXT NOT NULL,
+    "companyId" TEXT,
+    "jobId" TEXT,
+    "content" TEXT NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "Note_pkey" PRIMARY KEY ("id")
+);
+
+CREATE UNIQUE INDEX IF NOT EXISTS "Company_name_key" ON "Company"("name");
+CREATE INDEX IF NOT EXISTS "Job_companyId_idx" ON "Job"("companyId");
+CREATE INDEX IF NOT EXISTS "Job_postedAt_idx" ON "Job"("postedAt");
+CREATE UNIQUE INDEX IF NOT EXISTS "Job_source_sourceJobId_key" ON "Job"("source", "sourceJobId");
+
+-- ------------------------------------------------------------- new v2 columns
+
+ALTER TABLE "Company" ADD COLUMN IF NOT EXISTS "disabled" BOOLEAN NOT NULL DEFAULT false;
+
+ALTER TABLE "Job" ADD COLUMN IF NOT EXISTS "active" BOOLEAN NOT NULL DEFAULT true;
+ALTER TABLE "Job" ADD COLUMN IF NOT EXISTS "applyMethod" TEXT NOT NULL DEFAULT 'assisted';
+ALTER TABLE "Job" ADD COLUMN IF NOT EXISTS "applyUrl" TEXT;
+ALTER TABLE "Job" ADD COLUMN IF NOT EXISTS "atsBoardKey" TEXT;
+ALTER TABLE "Job" ADD COLUMN IF NOT EXISTS "description" TEXT;
+ALTER TABLE "Job" ADD COLUMN IF NOT EXISTS "firstSeenAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP;
+ALTER TABLE "Job" ADD COLUMN IF NOT EXISTS "lastSeenAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP;
+ALTER TABLE "Job" ADD COLUMN IF NOT EXISTS "score" INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE "Job" ADD COLUMN IF NOT EXISTS "track" TEXT;
+ALTER TABLE "Job" ADD COLUMN IF NOT EXISTS "usa" BOOLEAN NOT NULL DEFAULT true;
+
+-- -------------------------------------------------------------- new v2 tables
+
+CREATE TABLE IF NOT EXISTS "Resume" (
     "id" TEXT NOT NULL,
     "label" TEXT NOT NULL,
     "track" TEXT NOT NULL DEFAULT 'any',
@@ -29,8 +92,7 @@ CREATE TABLE "Resume" (
     CONSTRAINT "Resume_pkey" PRIMARY KEY ("id")
 );
 
--- CreateTable
-CREATE TABLE "Profile" (
+CREATE TABLE IF NOT EXISTS "Profile" (
     "id" TEXT NOT NULL DEFAULT 'singleton',
     "firstName" TEXT NOT NULL DEFAULT '',
     "lastName" TEXT NOT NULL DEFAULT '',
@@ -54,8 +116,7 @@ CREATE TABLE "Profile" (
     CONSTRAINT "Profile_pkey" PRIMARY KEY ("id")
 );
 
--- CreateTable
-CREATE TABLE "Application" (
+CREATE TABLE IF NOT EXISTS "Application" (
     "id" TEXT NOT NULL,
     "jobId" TEXT NOT NULL,
     "resumeId" TEXT,
@@ -71,26 +132,49 @@ CREATE TABLE "Application" (
     CONSTRAINT "Application_pkey" PRIMARY KEY ("id")
 );
 
--- CreateIndex
-CREATE INDEX "Resume_track_idx" ON "Resume"("track");
+-- ------------------------------------------------------------------- indexes
 
--- CreateIndex
-CREATE UNIQUE INDEX "Application_jobId_key" ON "Application"("jobId");
+CREATE INDEX IF NOT EXISTS "Resume_track_idx" ON "Resume"("track");
+CREATE UNIQUE INDEX IF NOT EXISTS "Application_jobId_key" ON "Application"("jobId");
+CREATE INDEX IF NOT EXISTS "Application_status_idx" ON "Application"("status");
+CREATE INDEX IF NOT EXISTS "Application_createdAt_idx" ON "Application"("createdAt");
+CREATE INDEX IF NOT EXISTS "Job_track_active_postedAt_idx" ON "Job"("track", "active", "postedAt");
+CREATE INDEX IF NOT EXISTS "Job_score_idx" ON "Job"("score");
 
--- CreateIndex
-CREATE INDEX "Application_status_idx" ON "Application"("status");
+-- --------------------------------------------------------------- foreign keys
+-- ADD CONSTRAINT has no IF NOT EXISTS, so each one is guarded by name.
 
--- CreateIndex
-CREATE INDEX "Application_createdAt_idx" ON "Application"("createdAt");
+DO $$ BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'Job_companyId_fkey') THEN
+    ALTER TABLE "Job" ADD CONSTRAINT "Job_companyId_fkey"
+      FOREIGN KEY ("companyId") REFERENCES "Company"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+  END IF;
+END $$;
 
--- CreateIndex
-CREATE INDEX "Job_track_active_postedAt_idx" ON "Job"("track", "active", "postedAt");
+DO $$ BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'Note_companyId_fkey') THEN
+    ALTER TABLE "Note" ADD CONSTRAINT "Note_companyId_fkey"
+      FOREIGN KEY ("companyId") REFERENCES "Company"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+  END IF;
+END $$;
 
--- CreateIndex
-CREATE INDEX "Job_score_idx" ON "Job"("score");
+DO $$ BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'Note_jobId_fkey') THEN
+    ALTER TABLE "Note" ADD CONSTRAINT "Note_jobId_fkey"
+      FOREIGN KEY ("jobId") REFERENCES "Job"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+  END IF;
+END $$;
 
--- AddForeignKey
-ALTER TABLE "Application" ADD CONSTRAINT "Application_jobId_fkey" FOREIGN KEY ("jobId") REFERENCES "Job"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+DO $$ BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'Application_jobId_fkey') THEN
+    ALTER TABLE "Application" ADD CONSTRAINT "Application_jobId_fkey"
+      FOREIGN KEY ("jobId") REFERENCES "Job"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+  END IF;
+END $$;
 
--- AddForeignKey
-ALTER TABLE "Application" ADD CONSTRAINT "Application_resumeId_fkey" FOREIGN KEY ("resumeId") REFERENCES "Resume"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+DO $$ BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conname = 'Application_resumeId_fkey') THEN
+    ALTER TABLE "Application" ADD CONSTRAINT "Application_resumeId_fkey"
+      FOREIGN KEY ("resumeId") REFERENCES "Resume"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+  END IF;
+END $$;
