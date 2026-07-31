@@ -1,0 +1,72 @@
+name: Database Repair
+
+# Run this from the Actions tab when a deploy fails with P3009 / P3018, or
+# after repointing DATABASE_URL at a new database.
+#
+# Required repository secret:
+#   DATABASE_URL  your Postgres connection string
+# Recommended:
+#   DIRECT_URL    the non-pooled connection string. Migrations must not run
+#                 through a transaction-mode pooler. On Neon this is the same
+#                 host without the "-pooler" part.
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to do"
+        required: true
+        default: report
+        type: choice
+        options:
+          - report
+          - repair
+          - repair-and-seed
+      refresh:
+        description: "Scan job boards afterwards"
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Diagnose
+        if: inputs.mode == 'report'
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          DIRECT_URL: ${{ secrets.DIRECT_URL }}
+        run: node scripts/db-deploy.mjs --report
+
+      - name: Repair
+        if: inputs.mode == 'repair'
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          DIRECT_URL: ${{ secrets.DIRECT_URL }}
+        run: node scripts/db-deploy.mjs
+
+      - name: Repair and seed
+        if: inputs.mode == 'repair-and-seed'
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          DIRECT_URL: ${{ secrets.DIRECT_URL }}
+        run: node scripts/db-deploy.mjs --seed
+
+      # Ingestion runs inside the app, so this asks the deployment to scan.
+      # Uses the same secrets as the Refresh Jobs workflow.
+      - name: Scan job boards
+        if: inputs.refresh && inputs.mode != 'report'
+        run: |
+          curl -sS --fail-with-body -X POST "${{ secrets.REFRESH_URL }}" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}"

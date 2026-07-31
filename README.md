@@ -149,27 +149,49 @@ groups, resume attachment, and the submit path.
 Set `DATABASE_URL` and `RADAR_TOKEN` in your host, then deploy. `vercel-build` runs
 `prisma migrate deploy` first.
 
+### Use a direct connection for migrations
+
+Managed Postgres hands out a **pooled** connection string by default — Neon's ends in
+`-pooler.<region>.aws.neon.tech`, Supabase's uses port `6543`. Running DDL through a
+transaction-mode pooler is how a database ends up with migrations recorded as applied but their
+tables missing.
+
+Set `DIRECT_URL` to the non-pooled string (on Neon: the same host without `-pooler`) and keep
+`DATABASE_URL` pooled for the app itself. If `DIRECT_URL` is unset and the URL looks pooled,
+`scripts/db-deploy.mjs` derives the direct endpoint, probes it, and uses it when it answers.
+
 ### If a deploy fails on migrations
 
 `P3018` (a migration failed) or `P3009` (failed migrations found, new ones will not be applied)
 means Prisma has recorded a migration as failed and will block every later deploy until it is
-cleared. Point at the production database and run:
+cleared.
+
+`vercel-build` runs `scripts/db-deploy.mjs`, which clears that state itself, so a redeploy is
+usually enough. To do it without deploying, run the **Database Repair** workflow from the Actions
+tab:
+
+| Mode | Effect |
+| --- | --- |
+| `report` | Diagnose only — prints tables and migration history, changes nothing |
+| `repair` | Clear failed migrations and apply |
+| `repair-and-seed` | The above, then load the 108 job boards |
+
+It needs the `DATABASE_URL` repository secret, and ideally `DIRECT_URL`. Locally the same script
+is available:
 
 ```bash
-DATABASE_URL="<your production url>" npm run db:recover
+DATABASE_URL="<url>" npm run db:report    # diagnose
+DATABASE_URL="<url>" npm run db:deploy    # repair + apply
+DATABASE_URL="<url>" npm run db:recover   # repair + apply + seed
 ```
 
-It prints which tables exist and what the migration history says, marks failed migrations as
-rolled back, and re-applies them. Then redeploy.
+Clearing a failed migration automatically is only safe because the migrations here are
+idempotent — `CREATE TABLE IF NOT EXISTS`, `ADD COLUMN IF NOT EXISTS`, name-guarded constraints
+— so re-applying one that partially ran leaves existing data alone.
 
-This is safe to re-run: the migrations use `CREATE TABLE IF NOT EXISTS`, `ADD COLUMN IF NOT
-EXISTS` and name-guarded constraints, so re-applying one that partially ran leaves existing data
-alone.
-
-If the output shows tables `MISSING` while the history says `applied`, the database is not the
-one that history was written against. That usually means `DATABASE_URL` was repointed at a
-different database, or migrations were run through a transaction-mode connection pooler —
-Prisma needs a direct connection for migrations, not the pooled port.
+If the report shows tables `MISSING` while history says `applied`, the database is not the one
+that history was written against: `DATABASE_URL` was repointed, or migrations went through a
+pooler.
 
 ### Read this before putting it on the public internet
 
