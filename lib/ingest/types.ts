@@ -1,4 +1,12 @@
-export type AtsType = "greenhouse" | "lever" | "ashby";
+export type AtsType =
+  | "greenhouse"
+  | "lever"
+  | "ashby"
+  | "workday"
+  | "smartrecruiters"
+  | "workable"
+  | "recruitee"
+  | "personio";
 
 /** Shape every ATS adapter normalizes to before classification + persistence. */
 export type RawJob = {

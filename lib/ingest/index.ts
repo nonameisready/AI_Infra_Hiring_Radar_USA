@@ -3,6 +3,11 @@ import { classify, isUsaLocation } from "../classify";
 import { fetchGreenhouse } from "./greenhouse";
 import { fetchLever } from "./lever";
 import { fetchAshby } from "./ashby";
+import { fetchWorkday } from "./workday";
+import { fetchSmartRecruiters } from "./smartrecruiters";
+import { fetchWorkable } from "./workable";
+import { fetchRecruitee } from "./recruitee";
+import { fetchPersonio } from "./personio";
 import { AtsType, RawJob } from "./types";
 import { resolveApplyMethod } from "../apply/keys";
 
@@ -32,10 +37,16 @@ export type RefreshSummary = {
   results: SourceResult[];
 };
 
-const FETCHERS: Record<AtsType, (key: string) => Promise<RawJob[]>> = {
+/** Every supported ATS. Also used by the add-a-board endpoint to verify keys. */
+export const FETCHERS: Record<AtsType, (key: string) => Promise<RawJob[]>> = {
   greenhouse: fetchGreenhouse,
   lever: fetchLever,
   ashby: fetchAshby,
+  workday: fetchWorkday,
+  smartrecruiters: fetchSmartRecruiters,
+  workable: fetchWorkable,
+  recruitee: fetchRecruitee,
+  personio: fetchPersonio,
 };
 
 /** How many boards to pull at once per ATS, tuned against their throttles. */
@@ -43,6 +54,13 @@ const HOST_CONCURRENCY: Record<AtsType, number> = {
   greenhouse: 4,
   lever: 3,
   ashby: 2,
+  // Each Workday board costs dozens of requests, so run more of them at once —
+  // they are separate tenants and do not share a rate limit.
+  workday: 6,
+  smartrecruiters: 3,
+  workable: 4,
+  recruitee: 4,
+  personio: 2,
 };
 
 /** Run `worker` over `items` with a bounded number in flight at once. */
@@ -72,7 +90,7 @@ export async function runRefresh(options: { companyIds?: string[] } = {}): Promi
     where: {
       ...(options.companyIds?.length ? { id: { in: options.companyIds } } : {}),
       disabled: false,
-      atsType: { in: ["greenhouse", "lever", "ashby"] },
+      atsType: { in: Object.keys(FETCHERS) },
       atsKey: { not: null },
     },
     orderBy: [{ starred: "desc" }, { name: "asc" }],

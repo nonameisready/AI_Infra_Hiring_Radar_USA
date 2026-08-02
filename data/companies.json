@@ -1,5 +1,25 @@
 [
   {
+    "name": "Accenture",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "accenture/wd103/AccentureCareers"
+  },
+  {
+    "name": "Adobe",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "adobe/wd5/External_Experienced"
+  },
+  {
     "name": "Anthropic",
     "stage": "frontier-lab",
     "website": "https://www.anthropic.com/careers",
@@ -38,6 +58,16 @@
     "hq": "USA",
     "atsType": "ashby",
     "atsKey": "browserbase"
+  },
+  {
+    "name": "Cadence Design Systems",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "cadence/wd1/External_Careers"
   },
   {
     "name": "Cartesia",
@@ -120,6 +150,16 @@
     "atsKey": "elevenlabs"
   },
   {
+    "name": "Equinix",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "equinix/wd1/external"
+  },
+  {
     "name": "Exa",
     "stage": "series-b",
     "website": "https://exa.ai/careers",
@@ -150,6 +190,16 @@
     "atsKey": "harvey"
   },
   {
+    "name": "Hugging Face",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "workable",
+    "atsKey": "huggingface"
+  },
+  {
     "name": "Imbue",
     "stage": "growth",
     "website": "https://imbue.com/careers",
@@ -170,6 +220,16 @@
     "atsKey": "langchain"
   },
   {
+    "name": "Leidos",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "leidos/wd5/external"
+  },
+  {
     "name": "Lovable",
     "stage": "growth",
     "website": "https://lovable.dev/careers",
@@ -178,6 +238,16 @@
     "hq": "USA",
     "atsType": "ashby",
     "atsKey": "lovable"
+  },
+  {
+    "name": "Marvell Technology",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "marvell/wd1/MarvellCareers"
   },
   {
     "name": "Mercor",
@@ -190,6 +260,16 @@
     "atsKey": "mercor"
   },
   {
+    "name": "Micron Technology",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "micron/wd1/external"
+  },
+  {
     "name": "Modal",
     "stage": "growth",
     "website": "https://modal.com/careers",
@@ -198,6 +278,16 @@
     "hq": "USA",
     "atsType": "ashby",
     "atsKey": "modal"
+  },
+  {
+    "name": "NVIDIA",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "nvidia/wd5/NvidiaExternalCareerSite"
   },
   {
     "name": "OpenAI",
@@ -298,6 +388,16 @@
     "hq": "USA",
     "atsType": "ashby",
     "atsKey": "runway"
+  },
+  {
+    "name": "Salesforce",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "salesforce/wd12/External_Career_Site"
   },
   {
     "name": "Samsara",
@@ -630,6 +730,16 @@
     "atsKey": "alphasense"
   },
   {
+    "name": "Amgen",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "amgen/wd1/Careers"
+  },
+  {
     "name": "Amplitude",
     "stage": "public",
     "website": "https://amplitude.com/careers",
@@ -780,6 +890,16 @@
     "atsKey": "augury"
   },
   {
+    "name": "Autodesk",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "autodesk/wd1/Ext"
+  },
+  {
     "name": "Benchling",
     "stage": null,
     "website": null,
@@ -798,6 +918,16 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "block"
+  },
+  {
+    "name": "Boeing",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "boeing/wd1/External_Careers"
   },
   {
     "name": "Bolt.new",
@@ -848,6 +978,36 @@
     "hq": "USA",
     "atsType": "ashby",
     "atsKey": "bunny"
+  },
+  {
+    "name": "CACI International",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "caci/wd1/external"
+  },
+  {
+    "name": "Canva",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "smartrecruiters",
+    "atsKey": "Canva"
+  },
+  {
+    "name": "Carrier",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "carrier/wd5/jobs"
   },
   {
     "name": "Carta",
@@ -940,6 +1100,16 @@
     "atsKey": "trychroma"
   },
   {
+    "name": "Ciena",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "ciena/wd5/Careers"
+  },
+  {
     "name": "CircleCI",
     "stage": "late-stage",
     "website": "https://circleci.com/careers/",
@@ -1008,6 +1178,16 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "coinbase"
+  },
+  {
+    "name": "Comcast",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "comcast/wd5/comcast_careers"
   },
   {
     "name": "Comet",
@@ -1108,6 +1288,16 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "descript"
+  },
+  {
+    "name": "Devoted Health",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "smartrecruiters",
+    "atsKey": "DevotedHealth"
   },
   {
     "name": "Dexterity",
@@ -1310,6 +1500,16 @@
     "atsKey": "fireworks"
   },
   {
+    "name": "Fiserv",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "fiserv/wd5/Ext"
+  },
+  {
     "name": "Fivetran ",
     "stage": null,
     "website": null,
@@ -1408,6 +1608,16 @@
     "hq": "USA",
     "atsType": "ashby",
     "atsKey": "genspark"
+  },
+  {
+    "name": "Gilead Sciences",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "gilead/wd1/GileadCareers"
   },
   {
     "name": "GitLab",
@@ -1710,6 +1920,16 @@
     "atsKey": "kairospower"
   },
   {
+    "name": "KLA",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "kla/wd1/Search"
+  },
+  {
     "name": "Kodiak",
     "stage": null,
     "website": null,
@@ -1828,6 +2048,16 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "marqeta"
+  },
+  {
+    "name": "Medtronic",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "medtronic/wd1/MedtronicCareers"
   },
   {
     "name": "Mercury",
@@ -2050,6 +2280,26 @@
     "atsKey": "pathrobotics"
   },
   {
+    "name": "PayPal",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "paypal/wd1/jobs"
+  },
+  {
+    "name": "Pfizer",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "pfizer/wd1/PfizerCareers"
+  },
+  {
     "name": "Phantom AI",
     "stage": null,
     "website": null,
@@ -2188,6 +2438,16 @@
     "hq": "USA",
     "atsType": "ashby",
     "atsKey": "reflectionai"
+  },
+  {
+    "name": "Regeneron",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "regeneron/wd1/Careers"
   },
   {
     "name": "Render",
@@ -2360,6 +2620,16 @@
     "atsKey": "stripe"
   },
   {
+    "name": "Stryker",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "stryker/wd1/StrykerCareers"
+  },
+  {
     "name": "Suno",
     "stage": "growth",
     "website": "https://suno.com/careers",
@@ -2418,6 +2688,36 @@
     "hq": "USA",
     "atsType": "lever",
     "atsKey": "sysdig"
+  },
+  {
+    "name": "T-Mobile",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "tmobile/wd1/External"
+  },
+  {
+    "name": "Target",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "target/wd5/TargetCareers"
+  },
+  {
+    "name": "Thermo Fisher Scientific",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "thermofisher/wd5/ThermofisherCareers"
   },
   {
     "name": "Tray",
@@ -2540,6 +2840,16 @@
     "atsKey": "vellum"
   },
   {
+    "name": "Visa",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "visa/wd5/Visa"
+  },
+  {
     "name": "Weaviate",
     "stage": "series-b",
     "website": "https://weaviate.io/company/careers",
@@ -2578,6 +2888,16 @@
     "hq": "USA",
     "atsType": "lever",
     "atsKey": "zilliz"
+  },
+  {
+    "name": "Zoom",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "workday",
+    "atsKey": "zoom/wd5/Zoom"
   },
   {
     "name": "Zoox",

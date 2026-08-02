@@ -1,12 +1,24 @@
 {
   "manifest_version": 3,
-  "name": "AI Hiring Radar — Autofill",
+  "name": "AI Hiring Radar \u2014 Autofill",
   "version": "2.0.0",
   "description": "Fill and submit job applications with the profile and resume stored in your AI Hiring Radar.",
-  "permissions": ["storage", "activeTab", "scripting"],
-  "host_permissions": ["http://localhost/*", "https://*/*"],
-  "background": { "service_worker": "background.js" },
-  "action": { "default_popup": "popup.html", "default_title": "Radar Autofill" },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://localhost/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Radar Autofill"
+  },
   "content_scripts": [
     {
       "matches": [
@@ -16,10 +28,18 @@
         "https://jobs.lever.co/*",
         "https://jobs.ashbyhq.com/*",
         "https://*.myworkdayjobs.com/*",
-        "https://*.wd1.myworkdayjobs.com/*",
-        "https://*.wd5.myworkdayjobs.com/*"
+        "https://jobs.smartrecruiters.com/*",
+        "https://careers.smartrecruiters.com/*",
+        "https://apply.workable.com/*",
+        "https://*.workable.com/*",
+        "https://*.recruitee.com/*",
+        "https://*.jobs.personio.de/*",
+        "https://*.jobs.personio.com/*"
       ],
-      "js": ["autofill.js", "content.js"],
+      "js": [
+        "autofill.js",
+        "content.js"
+      ],
       "run_at": "document_idle"
     }
   ]

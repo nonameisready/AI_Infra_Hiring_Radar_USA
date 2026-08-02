@@ -35,6 +35,9 @@ jobs:
       - name: Scan job boards
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          # No serverless time limit here, so page Workday boards much deeper
+          # than the in-app refresh does.
+          WORKDAY_MAX_PAGES: "30"
         run: |
           if [ -z "$DATABASE_URL" ]; then
             echo "::error::The DATABASE_URL repository secret is not set."

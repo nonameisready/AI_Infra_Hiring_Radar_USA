@@ -1,13 +1,9 @@
 import { NextResponse } from "next/server";
 import { prisma } from "../../../lib/db";
-import { fetchGreenhouse } from "../../../lib/ingest/greenhouse";
-import { fetchLever } from "../../../lib/ingest/lever";
-import { fetchAshby } from "../../../lib/ingest/ashby";
+import { FETCHERS } from "../../../lib/ingest";
 import { AtsType } from "../../../lib/ingest/types";
 
 export const dynamic = "force-dynamic";
-
-const FETCHERS = { greenhouse: fetchGreenhouse, lever: fetchLever, ashby: fetchAshby };
 
 export async function GET() {
   const companies = await prisma.company.findMany({
@@ -58,11 +54,14 @@ export async function POST(req: Request) {
   const name = String(body.name ?? "").trim();
 
   if (!FETCHERS[atsType]) {
-    return NextResponse.json({ error: "atsType must be greenhouse, lever or ashby" }, { status: 400 });
+    return NextResponse.json(
+      { error: `atsType must be one of ${Object.keys(FETCHERS).join(", ")}` },
+      { status: 400 },
+    );
   }
   if (!atsKey) return NextResponse.json({ error: "atsKey is required" }, { status: 400 });
 
-  let probe: Awaited<ReturnType<typeof fetchGreenhouse>>;
+  let probe: Awaited<ReturnType<(typeof FETCHERS)[AtsType]>>;
   try {
     probe = await FETCHERS[atsType](atsKey);
   } catch (e: any) {
