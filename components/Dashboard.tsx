@@ -15,6 +15,7 @@ import {
   Track,
   api,
   jobsQuery,
+  PAGE_SIZE,
   relativeDate,
 } from "../lib/client";
 
@@ -32,6 +33,8 @@ export function Dashboard() {
 
   const [jobs, setJobs] = useState<JobRow[]>([]);
   const [loading, setLoading] = useState(true);
+  const [loadingMore, setLoadingMore] = useState(false);
+  const [matchTotal, setMatchTotal] = useState(0);
   const [stats, setStats] = useState<Stats | null>(null);
   const [resumes, setResumes] = useState<ResumeMeta[]>([]);
   const [resumeByTrack, setResumeByTrack] = useState<Record<Track, string | null>>({
@@ -80,14 +83,38 @@ export function Dashboard() {
   const loadJobs = useCallback(async () => {
     setLoading(true);
     try {
-      const { jobs } = await api<{ jobs: JobRow[] }>(`/api/jobs?${jobsQuery(track, activeFilters)}`);
-      setJobs(jobs);
+      const res = await api<{ jobs: JobRow[]; total: number }>(
+        `/api/jobs?${jobsQuery(track, activeFilters)}`,
+      );
+      setJobs(res.jobs);
+      setMatchTotal(res.total);
     } catch (e: any) {
       notify("err", `Could not load jobs: ${e.message}`);
     } finally {
       setLoading(false);
     }
   }, [track, activeFilters, notify]);
+
+  // Rows are fetched a page at a time; without this the list silently stopped
+  // at the first page and looked like the whole result set.
+  const loadMore = useCallback(async () => {
+    setLoadingMore(true);
+    try {
+      const res = await api<{ jobs: JobRow[]; total: number }>(
+        `/api/jobs?${jobsQuery(track, activeFilters, jobs.length)}`,
+      );
+      // Guard against a refresh landing between pages and duplicating rows.
+      setJobs((prev) => {
+        const seen = new Set(prev.map((j) => j.id));
+        return [...prev, ...res.jobs.filter((j) => !seen.has(j.id))];
+      });
+      setMatchTotal(res.total);
+    } catch (e: any) {
+      notify("err", `Could not load more: ${e.message}`);
+    } finally {
+      setLoadingMore(false);
+    }
+  }, [track, activeFilters, jobs.length, notify]);
 
   useEffect(() => {
     loadResumes().catch(() => {});
@@ -244,7 +271,7 @@ export function Dashboard() {
           filters={activeFilters}
           onChange={(next) => setFilters((p) => ({ ...p, [track]: next }))}
           count={jobs.length}
-          total={trackStats?.total ?? jobs.length}
+          total={matchTotal}
         />
 
         <JobList
@@ -259,6 +286,19 @@ export function Dashboard() {
           boardCount={stats?.companies ?? 0}
           trackTotal={trackStats?.total ?? 0}
         />
+
+        {jobs.length < matchTotal && (
+          <div className="flex flex-col items-center gap-2 py-2">
+            <button className="btn" onClick={loadMore} disabled={loadingMore}>
+              {loadingMore
+                ? "Loading…"
+                : `Load ${Math.min(PAGE_SIZE, matchTotal - jobs.length)} more`}
+            </button>
+            <span className="text-xs text-[color:var(--muted)]">
+              Showing {jobs.length} of {matchTotal}
+            </span>
+          </div>
+        )}
       </div>
 
       {selectedJobs.length > 0 && (

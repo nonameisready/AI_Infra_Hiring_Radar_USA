@@ -101,9 +101,13 @@ export const DEFAULT_FILTERS: Filters = {
   sort: "fresh",
 };
 
-export function jobsQuery(track: Track, f: Filters) {
+export const PAGE_SIZE = 300;
+
+export function jobsQuery(track: Track, f: Filters, offset = 0) {
   const sp = new URLSearchParams();
   sp.set("track", track);
+  sp.set("limit", String(PAGE_SIZE));
+  if (offset) sp.set("offset", String(offset));
   if (f.q) sp.set("q", f.q);
   if (f.days) sp.set("days", String(f.days));
   if (f.remote) sp.set("remote", "1");

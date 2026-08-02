@@ -23,7 +23,12 @@ export type JobRow = {
   applyMethod: string;
   usa: boolean;
   snippet: string | null;
-  application: { status: string; method: string; error: string | null; submittedAt: string | null } | null;
+  application: {
+    status: string;
+    method: string;
+    error: string | null;
+    submittedAt: string | null;
+  } | null;
 };
 
 export async function GET(req: Request) {
@@ -39,7 +44,8 @@ export async function GET(req: Request) {
   const seniority = sp.getAll("seniority").filter(Boolean);
   const types = sp.getAll("type").filter(Boolean);
   const sort = sp.get("sort") ?? "fresh";
-  const take = Math.min(Number(sp.get("limit") ?? 300), 1000);
+  const take = Math.min(Math.max(Number(sp.get("limit") ?? 300), 1), 1000);
+  const skip = Math.max(Number(sp.get("offset") ?? 0), 0);
 
   // Free-text search and role-type filters are both unions, so they go into
   // separate AND clauses instead of a single OR that would clobber the other.
@@ -67,7 +73,9 @@ export async function GET(req: Request) {
     ...(seniority.length ? { seniority: { in: seniority } } : {}),
     ...(starredOnly ? { company: { starred: true } } : {}),
     ...(hideApplied ? { applications: { none: {} } } : {}),
-    ...(days > 0 ? { postedAt: { gte: new Date(Date.now() - days * 86_400_000) } } : {}),
+    ...(days > 0
+      ? { postedAt: { gte: new Date(Date.now() - days * 86_400_000) } }
+      : {}),
     ...(and.length ? { AND: and } : {}),
   };
 
@@ -78,17 +86,27 @@ export async function GET(req: Request) {
         ? [{ company: { name: "asc" } }, { postedAt: "desc" }]
         : [{ postedAt: { sort: "desc", nulls: "last" } }, { score: "desc" }];
 
-  const jobs = await prisma.job.findMany({
-    where,
-    orderBy,
-    take,
-    include: {
-      company: { select: { name: true, starred: true, tags: true } },
-      applications: {
-        select: { status: true, method: true, error: true, submittedAt: true },
+  // The total is what tells the UI whether there is another page to load.
+  const [total, jobs] = await Promise.all([
+    prisma.job.count({ where }),
+    prisma.job.findMany({
+      where,
+      orderBy,
+      take,
+      skip,
+      include: {
+        company: { select: { name: true, starred: true, tags: true } },
+        applications: {
+          select: {
+            status: true,
+            method: true,
+            error: true,
+            submittedAt: true,
+          },
+        },
       },
-    },
-  });
+    }),
+  ]);
 
   const rows: JobRow[] = jobs.map((j) => {
     const app = j.applications[0];
@@ -122,5 +140,11 @@ export async function GET(req: Request) {
     };
   });
 
-  return NextResponse.json({ jobs: rows, count: rows.length });
+  return NextResponse.json({
+    jobs: rows,
+    count: rows.length,
+    total,
+    offset: skip,
+    hasMore: skip + rows.length < total,
+  });
 }

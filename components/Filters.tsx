@@ -56,7 +56,7 @@ export function FiltersBar({
         </select>
 
         <span className="whitespace-nowrap text-xs text-[color:var(--muted)]">
-          {count === total ? `${count} roles` : `${count} of ${total}`}
+          {count >= total ? `${total} roles` : `showing ${count} of ${total}`}
         </span>
       </div>
 
