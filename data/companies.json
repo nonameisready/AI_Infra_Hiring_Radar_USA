@@ -20,6 +20,16 @@
     "atsKey": "adobe/wd5/External_Experienced"
   },
   {
+    "name": "Amazon",
+    "stage": "big-tech",
+    "website": null,
+    "tags": "big-tech,ai-infra",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "amazon",
+    "atsKey": "USA"
+  },
+  {
     "name": "Anthropic",
     "stage": "frontier-lab",
     "website": "https://www.anthropic.com/careers",
@@ -180,6 +190,16 @@
     "atsKey": "fal-ai"
   },
   {
+    "name": "Google",
+    "stage": "big-tech",
+    "website": null,
+    "tags": "big-tech,ai-infra",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "googlecareers",
+    "atsKey": "United States"
+  },
+  {
     "name": "Harvey",
     "stage": "growth",
     "website": "https://www.harvey.ai/careers",
@@ -268,6 +288,16 @@
     "hq": "USA",
     "atsType": "workday",
     "atsKey": "micron/wd1/external"
+  },
+  {
+    "name": "Microsoft",
+    "stage": "big-tech",
+    "website": null,
+    "tags": "big-tech,ai-infra",
+    "starred": true,
+    "hq": "USA",
+    "atsType": "microsoft",
+    "atsKey": "United States"
   },
   {
     "name": "Modal",

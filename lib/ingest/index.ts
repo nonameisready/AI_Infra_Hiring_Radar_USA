@@ -8,6 +8,9 @@ import { fetchSmartRecruiters } from "./smartrecruiters";
 import { fetchWorkable } from "./workable";
 import { fetchRecruitee } from "./recruitee";
 import { fetchPersonio } from "./personio";
+import { fetchAmazon } from "./amazon";
+import { fetchGoogleCareers } from "./googlecareers";
+import { fetchMicrosoft } from "./microsoft";
 import { AtsType, RawJob } from "./types";
 import { resolveApplyMethod } from "../apply/keys";
 
@@ -47,6 +50,9 @@ export const FETCHERS: Record<AtsType, (key: string) => Promise<RawJob[]>> = {
   workable: fetchWorkable,
   recruitee: fetchRecruitee,
   personio: fetchPersonio,
+  amazon: fetchAmazon,
+  googlecareers: fetchGoogleCareers,
+  microsoft: fetchMicrosoft,
 };
 
 /** How many boards to pull at once per ATS, tuned against their throttles. */
@@ -61,6 +67,10 @@ const HOST_CONCURRENCY: Record<AtsType, number> = {
   workable: 4,
   recruitee: 4,
   personio: 2,
+  // Single-board sources; the adapter parallelises its search terms itself.
+  amazon: 1,
+  googlecareers: 1,
+  microsoft: 1,
 };
 
 /** Run `worker` over `items` with a bounded number in flight at once. */
@@ -95,8 +105,6 @@ export async function runRefresh(options: { companyIds?: string[] } = {}): Promi
     },
     orderBy: [{ starred: "desc" }, { name: "asc" }],
   });
-
-  const seenJobIds = new Set<string>();
 
   const scanCompany = async (c: (typeof companies)[number]): Promise<SourceResult> => {
     const base: SourceResult = {
@@ -157,11 +165,9 @@ export async function runRefresh(options: { companyIds?: string[] } = {}): Promi
           select: { id: true },
         });
 
-        const saved = existing
-          ? await prisma.job.update({ where: { id: existing.id }, data })
-          : await prisma.job.create({ data: { ...data, firstSeenAt: new Date() } });
+        if (existing) await prisma.job.update({ where: { id: existing.id }, data });
+        else await prisma.job.create({ data: { ...data, firstSeenAt: new Date() } });
 
-        seenJobIds.add(saved.id);
         if (existing) base.updated++;
         else base.created++;
       }
@@ -192,9 +198,13 @@ export async function runRefresh(options: { companyIds?: string[] } = {}): Promi
 
   const results = companies.map((c) => outcomes.get(c.id)!).filter(Boolean);
 
-  // Postings that disappeared from a successfully-fetched board are closed.
-  // A board that errored is left alone, so a rate-limited scan never looks
-  // like every one of that company's roles was pulled down.
+  // Close postings that have not been seen for two days, on boards that
+  // fetched successfully. Not "postings missing from this scan": scans run at
+  // different depths — the in-app refresh pages Workday and the big-tech
+  // sources shallower than the Actions scan — and closing on membership made
+  // deep-only roles flap inactive after every shallow scan. A board that
+  // errored is left alone entirely, so a rate-limited scan never looks like
+  // every one of that company's roles was pulled down.
   const okCompanyIds = companies.filter((c) => outcomes.get(c.id)?.ok).map((c) => c.id);
 
   let deactivated = 0;
@@ -203,7 +213,7 @@ export async function runRefresh(options: { companyIds?: string[] } = {}): Promi
       where: {
         companyId: { in: okCompanyIds },
         active: true,
-        id: { notIn: Array.from(seenJobIds) },
+        lastSeenAt: { lt: new Date(Date.now() - 2 * 86_400_000) },
       },
       data: { active: false },
     });

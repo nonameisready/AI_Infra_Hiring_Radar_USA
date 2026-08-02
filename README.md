@@ -1,6 +1,6 @@
 # AI Hiring Radar
 
-Finds fresh engineering roles across 291 verified company job boards, sorts them into two
+Finds fresh engineering roles across 294 verified company job boards, sorts them into two
 tabs, and applies for you with the resume you picked for that tab.
 
 - **Tab 1 — AI · Infra · Agentic**: AI infrastructure, AI engineer, agentic/LLM, ML, platform,
@@ -12,8 +12,9 @@ Each tab holds its own resume, so the AI resume goes to AI roles and the FDE res
 roles without you re-picking every time. Select any number of roles and apply to all of them in
 one action.
 
-A live scan pulls ~37,800 postings and keeps ~10,600 that match a track — 8,245 in the AI tab
-and 2,373 in Forward Deployed.
+A deep scan pulls ~40,900 postings and keeps ~12,000 that match a track — 9,232 in the AI tab
+and 2,737 in Forward Deployed — including Amazon and Google, read straight from their own
+career-site endpoints.
 
 ## Quickstart
 
@@ -21,7 +22,7 @@ and 2,373 in Forward Deployed.
 npm install
 cp .env.example .env          # set DATABASE_URL
 npm run prisma:deploy         # create the schema
-npm run prisma:seed           # load the 291 verified job boards
+npm run prisma:seed           # load the 294 verified job boards
 npm run dev                   # http://localhost:3000
 ```
 
@@ -111,9 +112,19 @@ Everything else falls back to browser automation, which needs no credentials.
 
 ## Job boards
 
-`data/companies.json` holds 291 boards, every one of which was checked against the live ATS API
-and returns real postings — 136 Greenhouse, 107 Ashby, 29 Workday, 16 Lever, 2 SmartRecruiters,
-1 Workable.
+`data/companies.json` holds 294 boards, every one of which was checked against the live API and
+returns real postings — 136 Greenhouse, 107 Ashby, 29 Workday, 16 Lever, 2 SmartRecruiters,
+1 Workable, plus Amazon, Google and Microsoft as dedicated sources.
+
+**Big tech** is read from the same endpoints each company's own careers page calls: Amazon's
+`amazon.jobs` search JSON and Google's server-rendered results pages (parsed per job card — id,
+title, locations, level and minimum qualifications). Both are search-driven like Workday, with
+depth set by `BIGTECH_MAX_PAGES`. Microsoft's careers API is wired in too but consistently
+answered 503 from the network this was built on — it appears to filter by egress IP — so the
+first scheduled scan from GitHub's runners is the real test; if it fails there as well, it shows
+up as one failed board and nothing else. Apple's search API is CSRF-locked with no data in the
+server-rendered page, and Meta's GraphQL rejects non-browser clients — neither is fetchable
+server-side, honestly.
 
 Six ATS providers are read: **Greenhouse**, **Lever**, **Ashby**, **Workday**, **SmartRecruiters**
 and **Workable**, plus adapters for **Recruitee** and **Personio** that are wired in and ready for
@@ -141,7 +152,8 @@ Add your own in **Settings → Job boards**. The board token is the slug in the 
 - **iCIMS, Taleo, BambooHR, JazzHR** — each would need its own adapter.
 - SmartRecruiters, Workable, Recruitee and Personio are supported, but barely used by AI and
   infrastructure companies, so they contribute little here.
-- **Google, Meta, Amazon, Microsoft, Apple** run proprietary career sites with no public API.
+- **Apple and Meta** — Apple's search API is CSRF-locked and its pages carry no server-rendered
+  data; Meta's GraphQL requires browser session tokens. Neither can be read server-side.
 - **LinkedIn and Indeed** have no public jobs API, and scraping them breaks their terms.
 
 So this is a deep index of startup and scale-up boards, not a complete index of the market.

@@ -6,7 +6,10 @@ export type AtsType =
   | "smartrecruiters"
   | "workable"
   | "recruitee"
-  | "personio";
+  | "personio"
+  | "amazon"
+  | "googlecareers"
+  | "microsoft";
 
 /** Shape every ATS adapter normalizes to before classification + persistence. */
 export type RawJob = {

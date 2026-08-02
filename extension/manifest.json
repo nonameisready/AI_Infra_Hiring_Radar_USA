@@ -34,7 +34,12 @@
         "https://*.workable.com/*",
         "https://*.recruitee.com/*",
         "https://*.jobs.personio.de/*",
-        "https://*.jobs.personio.com/*"
+        "https://*.jobs.personio.com/*",
+        "https://www.amazon.jobs/*",
+        "https://amazon.jobs/*",
+        "https://www.google.com/about/careers/*",
+        "https://careers.google.com/*",
+        "https://jobs.careers.microsoft.com/*"
       ],
       "js": [
         "autofill.js",

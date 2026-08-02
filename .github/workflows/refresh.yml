@@ -38,6 +38,7 @@ jobs:
           # No serverless time limit here, so page Workday boards much deeper
           # than the in-app refresh does.
           WORKDAY_MAX_PAGES: "30"
+          BIGTECH_MAX_PAGES: "15"
         run: |
           if [ -z "$DATABASE_URL" ]; then
             echo "::error::The DATABASE_URL repository secret is not set."
