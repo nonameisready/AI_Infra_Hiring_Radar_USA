@@ -91,7 +91,10 @@ export type Filters = {
 
 export const DEFAULT_FILTERS: Filters = {
   q: "",
-  days: 30,
+  // No date cut-off by default. A posting only stays in the list while it is
+  // still live on the company's board, so an older one is still a real opening
+  // — dating it out by default hid most of the roles for no good reason.
+  days: 0,
   remote: false,
   usa: true,
   starred: false,
@@ -100,6 +103,33 @@ export const DEFAULT_FILTERS: Filters = {
   types: [],
   sort: "fresh",
 };
+
+/** Human-readable list of the filters currently narrowing the results. */
+export function activeFilterLabels(f: Filters): string[] {
+  const out: string[] = [];
+  if (f.q) out.push(`“${f.q}”`);
+  if (f.days) out.push(`last ${f.days} days`);
+  if (f.remote) out.push("remote only");
+  if (f.usa) out.push("USA only");
+  if (f.starred) out.push("priority companies");
+  if (f.hideApplied) out.push("hiding applied");
+  if (f.seniority.length) out.push(f.seniority.join("/"));
+  if (f.types.length) out.push(f.types.join("/"));
+  return out;
+}
+
+export function isDefaultFilters(f: Filters) {
+  return (
+    f.q === DEFAULT_FILTERS.q &&
+    f.days === DEFAULT_FILTERS.days &&
+    f.remote === DEFAULT_FILTERS.remote &&
+    f.usa === DEFAULT_FILTERS.usa &&
+    f.starred === DEFAULT_FILTERS.starred &&
+    f.hideApplied === DEFAULT_FILTERS.hideApplied &&
+    f.seniority.length === 0 &&
+    f.types.length === 0
+  );
+}
 
 export const PAGE_SIZE = 300;
 

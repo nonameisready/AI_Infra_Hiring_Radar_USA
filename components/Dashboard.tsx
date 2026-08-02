@@ -272,6 +272,7 @@ export function Dashboard() {
           onChange={(next) => setFilters((p) => ({ ...p, [track]: next }))}
           count={jobs.length}
           total={matchTotal}
+          trackTotal={trackStats?.total ?? 0}
         />
 
         <JobList

@@ -1,6 +1,13 @@
 "use client";
 
-import { Filters, SENIORITY_OPTIONS, TYPE_OPTIONS, Track } from "../lib/client";
+import {
+  DEFAULT_FILTERS,
+  Filters,
+  SENIORITY_OPTIONS,
+  TYPE_OPTIONS,
+  Track,
+  activeFilterLabels,
+} from "../lib/client";
 
 const DAY_OPTIONS = [
   { value: 3, label: "3d" },
@@ -16,12 +23,17 @@ export function FiltersBar({
   onChange,
   count,
   total,
+  trackTotal,
 }: {
   track: Track;
   filters: Filters;
   onChange: (next: Filters) => void;
+  /** Rows currently loaded. */
   count: number;
+  /** Rows matching the filters. */
   total: number;
+  /** Every live role in this tab, ignoring filters — the number on the tab badge. */
+  trackTotal: number;
 }) {
   const onChip = track === "fde" ? "chip-on-fde" : "chip-on";
   const set = (patch: Partial<Filters>) => onChange({ ...filters, ...patch });
@@ -59,6 +71,39 @@ export function FiltersBar({
           {count >= total ? `${total} roles` : `showing ${count} of ${total}`}
         </span>
       </div>
+
+      {/* The tab badge counts every live role, so without this the smaller
+          number here reads like the radar lost jobs rather than filtered them. */}
+      {trackTotal > total && (
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-[color:var(--muted)]">
+          <span>
+            <b className="text-[color:var(--text)]">{total}</b> of {trackTotal} shown — filtered by{" "}
+            {activeFilterLabels(filters).join(", ")}
+          </span>
+          <button
+            className="underline decoration-dotted underline-offset-2 hover:text-[color:var(--text)]"
+            onClick={() => onChange({ ...DEFAULT_FILTERS })}
+          >
+            reset
+          </button>
+          {filters.usa && (
+            <button
+              className="underline decoration-dotted underline-offset-2 hover:text-[color:var(--text)]"
+              onClick={() => onChange({ ...filters, usa: false })}
+            >
+              include non-US
+            </button>
+          )}
+          {filters.days > 0 && (
+            <button
+              className="underline decoration-dotted underline-offset-2 hover:text-[color:var(--text)]"
+              onClick={() => onChange({ ...filters, days: 0 })}
+            >
+              any date
+            </button>
+          )}
+        </div>
+      )}
 
       <div className="flex flex-wrap items-center gap-1.5">
         <span className="mr-1 text-[11px] uppercase tracking-wide text-[color:var(--muted)]">
