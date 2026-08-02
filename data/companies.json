@@ -130,6 +130,16 @@
     "atsKey": "exa"
   },
   {
+    "name": "Fal",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "fal-ai"
+  },
+  {
     "name": "Harvey",
     "stage": "growth",
     "website": "https://www.harvey.ai/careers",
@@ -250,6 +260,16 @@
     "atsKey": "ramp"
   },
   {
+    "name": "Reka AI",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "reka"
+  },
+  {
     "name": "Replit",
     "stage": "growth",
     "website": "https://replit.com/careers",
@@ -330,6 +350,46 @@
     "atsKey": "shieldai"
   },
   {
+    "name": "Sierra",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "sierra"
+  },
+  {
+    "name": "Snorkel AI",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "snorkelai"
+  },
+  {
+    "name": "Standard Bots",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "standardbots"
+  },
+  {
+    "name": "Tailscale",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "tailscale"
+  },
+  {
     "name": "Temporal",
     "stage": "growth",
     "website": "https://temporal.io/careers",
@@ -358,6 +418,36 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "togetherai"
+  },
+  {
+    "name": "Torc Robotics",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "torcrobotics"
+  },
+  {
+    "name": "TRM Labs",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "trm-labs"
+  },
+  {
+    "name": "Ursa Major",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "ursamajor"
   },
   {
     "name": "Vercel",
@@ -400,6 +490,66 @@
     "atsKey": "waymo"
   },
   {
+    "name": "Wayve",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "wayve"
+  },
+  {
+    "name": "World Labs",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "worldlabs"
+  },
+  {
+    "name": "Zed Industries",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": true,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "zed"
+  },
+  {
+    "name": "Abnormal",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "abnormalsecurity"
+  },
+  {
+    "name": "Abridge",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "abridge"
+  },
+  {
+    "name": "Adyen",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "adyen"
+  },
+  {
     "name": "Affirm",
     "stage": "public",
     "website": "https://www.affirm.com/careers",
@@ -408,6 +558,36 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "affirm"
+  },
+  {
+    "name": "Agility Robotics",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "agilityrobotics"
+  },
+  {
+    "name": "Airbnb",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "airbnb"
+  },
+  {
+    "name": "Airbyte",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "airbyte"
   },
   {
     "name": "Airtable",
@@ -420,6 +600,16 @@
     "atsKey": "airtable"
   },
   {
+    "name": "Alchemy",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "alchemy"
+  },
+  {
     "name": "Alloy",
     "stage": "growth",
     "website": "https://www.alloy.com/careers",
@@ -428,6 +618,16 @@
     "hq": "USA",
     "atsType": "lever",
     "atsKey": "alloy"
+  },
+  {
+    "name": "AlphaSense",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "alphasense"
   },
   {
     "name": "Amplitude",
@@ -450,6 +650,66 @@
     "atsKey": "anchorage"
   },
   {
+    "name": "Antora Energy",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "antora"
+  },
+  {
+    "name": "Anyscale",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "anyscale"
+  },
+  {
+    "name": "Applied Intuition",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "applied"
+  },
+  {
+    "name": "Apptronik",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "apptronik"
+  },
+  {
+    "name": "Archer Veterinary Clinic",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "archer"
+  },
+  {
+    "name": "Arize AI",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "arizeai"
+  },
+  {
     "name": "Asana",
     "stage": "public",
     "website": "https://asana.com/jobs",
@@ -470,6 +730,26 @@
     "atsKey": "assemblyai"
   },
   {
+    "name": "Astranis",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "astranis"
+  },
+  {
+    "name": "Astronomer",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "astronomer"
+  },
+  {
     "name": "Attentive",
     "stage": "late-stage",
     "website": "https://www.attentive.com/careers",
@@ -478,6 +758,66 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "attentive"
+  },
+  {
+    "name": "Attio",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "attio"
+  },
+  {
+    "name": "Augury",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "augury"
+  },
+  {
+    "name": "Benchling",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "benchling"
+  },
+  {
+    "name": "Block",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "block"
+  },
+  {
+    "name": "Bolt.new",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "stackblitz"
+  },
+  {
+    "name": "Braintrust",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "braintrust"
   },
   {
     "name": "Brex",
@@ -490,6 +830,26 @@
     "atsKey": "brex"
   },
   {
+    "name": "Buildkite",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "buildkite"
+  },
+  {
+    "name": "Bunny",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "bunny"
+  },
+  {
     "name": "Carta",
     "stage": "late-stage",
     "website": "https://carta.com/careers/",
@@ -498,6 +858,56 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "carta"
+  },
+  {
+    "name": "cBEYONData + SMX",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "ess"
+  },
+  {
+    "name": "Cerebras",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "cerebras"
+  },
+  {
+    "name": "Chai Discovery",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "chaidiscovery"
+  },
+  {
+    "name": "Chainguard",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "chainguard"
+  },
+  {
+    "name": "Chalk",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "chalk"
   },
   {
     "name": "Checkr",
@@ -540,6 +950,16 @@
     "atsKey": "circleci"
   },
   {
+    "name": "Clari + Salesloft",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "salesloft"
+  },
+  {
     "name": "ClickHouse",
     "stage": "growth",
     "website": "https://clickhouse.com/careers",
@@ -560,6 +980,26 @@
     "atsKey": "cockroachlabs"
   },
   {
+    "name": "Coder",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "coder"
+  },
+  {
+    "name": "Cohere",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "cohere"
+  },
+  {
     "name": "Coinbase",
     "stage": "public",
     "website": "https://www.coinbase.com/careers",
@@ -568,6 +1008,56 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "coinbase"
+  },
+  {
+    "name": "Comet",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "comet"
+  },
+  {
+    "name": "Confluent",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "confluent"
+  },
+  {
+    "name": "Cribl",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "cribl"
+  },
+  {
+    "name": "Crusoe",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "crusoe"
+  },
+  {
+    "name": "Cursor",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "cursor"
   },
   {
     "name": "Datadog",
@@ -590,6 +1080,46 @@
     "atsKey": "deepgram"
   },
   {
+    "name": "Deepset",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "deepsetai"
+  },
+  {
+    "name": "Depot",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "depot"
+  },
+  {
+    "name": "Descript",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "descript"
+  },
+  {
+    "name": "Dexterity",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "dexterity"
+  },
+  {
     "name": "Discord",
     "stage": "late-stage",
     "website": "https://discord.com/careers",
@@ -598,6 +1128,46 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "discord"
+  },
+  {
+    "name": "Distyl AI",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "distyl"
+  },
+  {
+    "name": "Doppler",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "doppler"
+  },
+  {
+    "name": "Drata",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "drata"
+  },
+  {
+    "name": "Dremio",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "dremio"
   },
   {
     "name": "Dropbox",
@@ -620,6 +1190,16 @@
     "atsKey": "dust"
   },
   {
+    "name": "Emerald AI",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "emerald-ai"
+  },
+  {
     "name": "Encord",
     "stage": "series-b",
     "website": "https://encord.com/careers",
@@ -628,6 +1208,46 @@
     "hq": "USA",
     "atsType": "ashby",
     "atsKey": "encord"
+  },
+  {
+    "name": "Epirus",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "epirus"
+  },
+  {
+    "name": "Etched",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "etched"
+  },
+  {
+    "name": "Eve",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "eve"
+  },
+  {
+    "name": "Extend",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "extend"
   },
   {
     "name": "Fastly",
@@ -650,6 +1270,36 @@
     "atsKey": "figma"
   },
   {
+    "name": "Figure",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "figureai"
+  },
+  {
+    "name": "Fin",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "intercom"
+  },
+  {
+    "name": "Fireblocks",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "fireblocks"
+  },
+  {
     "name": "Fireworks AI",
     "stage": "growth",
     "website": "https://fireworks.ai/careers",
@@ -658,6 +1308,16 @@
     "hq": "USA",
     "atsType": "ashby",
     "atsKey": "fireworks"
+  },
+  {
+    "name": "Fivetran ",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "fivetran"
   },
   {
     "name": "Flexport",
@@ -670,6 +1330,26 @@
     "atsKey": "flexport"
   },
   {
+    "name": "Form Energy",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "formenergy"
+  },
+  {
+    "name": "Formic",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "formic"
+  },
+  {
     "name": "Galileo",
     "stage": "series-b",
     "website": "https://www.rungalileo.io/careers",
@@ -678,6 +1358,46 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "galileo"
+  },
+  {
+    "name": "Gecko Robotics",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "gecko-robotics"
+  },
+  {
+    "name": "Gemini",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "gemini"
+  },
+  {
+    "name": "General Assembly Remote Jobs ",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "remote"
+  },
+  {
+    "name": "Genesis Therapeutics",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "genesis"
   },
   {
     "name": "Genspark",
@@ -700,6 +1420,16 @@
     "atsKey": "gitlab"
   },
   {
+    "name": "Gorgias",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "gorgias"
+  },
+  {
     "name": "Grafana Labs",
     "stage": "late-stage",
     "website": "https://grafana.com/about/careers/",
@@ -708,6 +1438,36 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "grafanalabs"
+  },
+  {
+    "name": "Granola",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "granola"
+  },
+  {
+    "name": "Group14 Technologies",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "group14"
+  },
+  {
+    "name": "Grow Therapy",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "grow-therapy"
   },
   {
     "name": "Gusto",
@@ -720,6 +1480,176 @@
     "atsKey": "gusto"
   },
   {
+    "name": "Headway",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "headway"
+  },
+  {
+    "name": "Hebbia",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "hebbia-ai"
+  },
+  {
+    "name": "Helion Energy",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "helion"
+  },
+  {
+    "name": "Helius",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "helius"
+  },
+  {
+    "name": "Hermeus",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "hermeus"
+  },
+  {
+    "name": "HeyGen",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "heygen"
+  },
+  {
+    "name": "Higgsfield",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "higgsfieldai"
+  },
+  {
+    "name": "Highnote",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "highnote"
+  },
+  {
+    "name": "Hinge Health",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "hinge-health"
+  },
+  {
+    "name": "Honeycomb.io",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "honeycomb"
+  },
+  {
+    "name": "Hume AI",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "humeai"
+  },
+  {
+    "name": "Hyperscience",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "hyperscience"
+  },
+  {
+    "name": "Included Health",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "includedhealth"
+  },
+  {
+    "name": "Infisical",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "infisical"
+  },
+  {
+    "name": "Inngest",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "inngest"
+  },
+  {
+    "name": "Insitro",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "insitro"
+  },
+  {
+    "name": "Instabase",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "instabase"
+  },
+  {
     "name": "Instacart",
     "stage": "public",
     "website": "https://instacart.careers",
@@ -728,6 +1658,96 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "instacart"
+  },
+  {
+    "name": "Invisible General Opportunities",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "invisible"
+  },
+  {
+    "name": "Isomorphic Labs",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "isomorphiclabs"
+  },
+  {
+    "name": "JFrog",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "jfrog"
+  },
+  {
+    "name": "Justworks",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "justworks"
+  },
+  {
+    "name": "Kairos Power",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "kairospower"
+  },
+  {
+    "name": "Kodiak",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "kodiak"
+  },
+  {
+    "name": "Komodo Health",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "komodohealth"
+  },
+  {
+    "name": "Labelbox",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "labelbox"
+  },
+  {
+    "name": "LanceDB",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "lancedb"
   },
   {
     "name": "LaunchDarkly",
@@ -740,6 +1760,16 @@
     "atsKey": "launchdarkly"
   },
   {
+    "name": "Lightmatter",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "lightmatter"
+  },
+  {
     "name": "Linear",
     "stage": "growth",
     "website": "https://linear.app/careers",
@@ -750,6 +1780,26 @@
     "atsKey": "linear"
   },
   {
+    "name": "Lithic",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "lithic"
+  },
+  {
+    "name": "LM Studio",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "lm-studio"
+  },
+  {
     "name": "Lyft",
     "stage": "public",
     "website": "https://www.lyft.com/careers",
@@ -758,6 +1808,16 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "lyft"
+  },
+  {
+    "name": "Lyra Health",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "lyrahealth"
   },
   {
     "name": "Marqeta",
@@ -780,6 +1840,16 @@
     "atsKey": "mercury"
   },
   {
+    "name": "Merge",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "merge"
+  },
+  {
     "name": "Mixpanel",
     "stage": "late-stage",
     "website": "https://mixpanel.com/careers/",
@@ -788,6 +1858,46 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "mixpanel"
+  },
+  {
+    "name": "MongoDB",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "mongodb"
+  },
+  {
+    "name": "Motive",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "motive"
+  },
+  {
+    "name": "Muon Space",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "muonspace"
+  },
+  {
+    "name": "Nebius",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "nebius"
   },
   {
     "name": "Neon",
@@ -840,6 +1950,56 @@
     "atsKey": "observeai"
   },
   {
+    "name": "Oklo",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "oklo"
+  },
+  {
+    "name": "Ollama",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "ollama"
+  },
+  {
+    "name": "Omada Health",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "omadahealth"
+  },
+  {
+    "name": "Orca Security",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "orcasecurity"
+  },
+  {
+    "name": "Oscar Health",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "oscar"
+  },
+  {
     "name": "Otter.ai",
     "stage": "growth",
     "website": "https://otter.ai/careers",
@@ -848,6 +2008,56 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "otter"
+  },
+  {
+    "name": "Outreach",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "outreach"
+  },
+  {
+    "name": "PandaDoc",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "pandadoc"
+  },
+  {
+    "name": "Parloa",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "parloa"
+  },
+  {
+    "name": "Path Robotics",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "pathrobotics"
+  },
+  {
+    "name": "Phantom AI",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "phantomai"
   },
   {
     "name": "Pika",
@@ -870,6 +2080,16 @@
     "atsKey": "pinterest"
   },
   {
+    "name": "Planet",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "planetlabs"
+  },
+  {
     "name": "PlanetScale",
     "stage": "growth",
     "website": "https://planetscale.com/careers",
@@ -878,6 +2098,26 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "planetscale"
+  },
+  {
+    "name": "Poolside",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "poolside"
+  },
+  {
+    "name": "Porter",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "porter"
   },
   {
     "name": "Postman",
@@ -890,6 +2130,16 @@
     "atsKey": "postman"
   },
   {
+    "name": "QuickNode",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "quicknode"
+  },
+  {
     "name": "Railway",
     "stage": "series-b",
     "website": "https://railway.com/careers",
@@ -900,6 +2150,16 @@
     "atsKey": "railway"
   },
   {
+    "name": "Rain",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "rain"
+  },
+  {
     "name": "Reddit",
     "stage": "public",
     "website": "https://redditinc.com/careers",
@@ -908,6 +2168,26 @@
     "hq": "USA",
     "atsType": "greenhouse",
     "atsKey": "reddit"
+  },
+  {
+    "name": "Redwood Materials",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "redwoodmaterials"
+  },
+  {
+    "name": "Reflection AI",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "reflectionai"
   },
   {
     "name": "Render",
@@ -940,6 +2220,16 @@
     "atsKey": "robinhood"
   },
   {
+    "name": "Roblox",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "roblox"
+  },
+  {
     "name": "Roboflow",
     "stage": "series-b",
     "website": "https://roboflow.com/careers",
@@ -950,6 +2240,26 @@
     "atsKey": "roboflow"
   },
   {
+    "name": "Rondo Energy",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "rondoenergy"
+  },
+  {
+    "name": "S.H.I.E.L.D.",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "shield"
+  },
+  {
     "name": "Sardine",
     "stage": "growth",
     "website": "https://www.sardine.ai/careers",
@@ -958,6 +2268,66 @@
     "hq": "USA",
     "atsType": "ashby",
     "atsKey": "sardine"
+  },
+  {
+    "name": "Secureframe",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "secureframe"
+  },
+  {
+    "name": "Sentry",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "sentry"
+  },
+  {
+    "name": "Sigma Computing",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "sigmacomputing"
+  },
+  {
+    "name": "SingleStore",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "singlestore"
+  },
+  {
+    "name": "Socket",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "socket"
+  },
+  {
+    "name": "SpaceXAI",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "xai"
   },
   {
     "name": "Speechmatics",
@@ -1010,6 +2380,26 @@
     "atsKey": "supabase"
   },
   {
+    "name": "Surge",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "surge-ai"
+  },
+  {
+    "name": "Sword Health",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "swordhealth"
+  },
+  {
     "name": "Synthesia",
     "stage": "late-stage",
     "website": "https://www.synthesia.io/careers",
@@ -1018,6 +2408,56 @@
     "hq": "USA",
     "atsType": "ashby",
     "atsKey": "synthesia"
+  },
+  {
+    "name": "Sysdig",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "sysdig"
+  },
+  {
+    "name": "Tray",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "tray-ai"
+  },
+  {
+    "name": "Tribe AI",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "tribe-ai"
+  },
+  {
+    "name": "Tulip Interfaces",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "tulip"
+  },
+  {
+    "name": "Turbopuffer",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "turbopuffer"
   },
   {
     "name": "Twilio",
@@ -1030,6 +2470,26 @@
     "atsKey": "twilio"
   },
   {
+    "name": "Twitch",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "twitch"
+  },
+  {
+    "name": "Typeface",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "typeface"
+  },
+  {
     "name": "Ultralytics",
     "stage": "seed",
     "website": "https://www.ultralytics.com/careers",
@@ -1038,6 +2498,26 @@
     "hq": "USA",
     "atsType": "ashby",
     "atsKey": "ultralytics"
+  },
+  {
+    "name": "Unstructured",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "unstructured"
+  },
+  {
+    "name": "Vannevar",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "vannevarlabs"
   },
   {
     "name": "Vanta",
@@ -1050,6 +2530,16 @@
     "atsKey": "vanta"
   },
   {
+    "name": "Vellum",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "ashby",
+    "atsKey": "vellum"
+  },
+  {
     "name": "Weaviate",
     "stage": "series-b",
     "website": "https://weaviate.io/company/careers",
@@ -1058,6 +2548,36 @@
     "hq": "USA",
     "atsType": "ashby",
     "atsKey": "weaviate"
+  },
+  {
+    "name": "Workato",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "workato"
+  },
+  {
+    "name": "YugabyteDB",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "greenhouse",
+    "atsKey": "yugabyte"
+  },
+  {
+    "name": "Zilliz",
+    "stage": null,
+    "website": null,
+    "tags": null,
+    "starred": false,
+    "hq": "USA",
+    "atsType": "lever",
+    "atsKey": "zilliz"
   },
   {
     "name": "Zoox",

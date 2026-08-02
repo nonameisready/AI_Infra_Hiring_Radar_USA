@@ -1,6 +1,6 @@
 # AI Hiring Radar
 
-Finds fresh engineering roles across 107 verified company job boards, sorts them into two
+Finds fresh engineering roles across 259 verified company job boards, sorts them into two
 tabs, and applies for you with the resume you picked for that tab.
 
 - **Tab 1 — AI · Infra · Agentic**: AI infrastructure, AI engineer, agentic/LLM, ML, platform,
@@ -12,7 +12,7 @@ Each tab holds its own resume, so the AI resume goes to AI roles and the FDE res
 roles without you re-picking every time. Select any number of roles and apply to all of them in
 one action.
 
-A live scan pulls ~12,400 postings in about 12 seconds and keeps ~3,900 that match a track.
+A live scan pulls ~21,500 postings in about 20 seconds and keeps ~6,100 that match a track.
 
 ## Quickstart
 
@@ -20,7 +20,7 @@ A live scan pulls ~12,400 postings in about 12 seconds and keeps ~3,900 that mat
 npm install
 cp .env.example .env          # set DATABASE_URL
 npm run prisma:deploy         # create the schema
-npm run prisma:seed           # load the 107 verified job boards
+npm run prisma:seed           # load the 259 verified job boards
 npm run dev                   # http://localhost:3000
 ```
 
@@ -29,7 +29,7 @@ Then, in the app:
 1. **Settings → Profile** — name, email, phone, links, work authorization. Applications cannot
    be sent until name and email are set.
 2. **Upload resume** on each tab. The tab you upload from decides which track it defaults to.
-3. **↻ Refresh jobs** — first scan takes about 12 seconds.
+3. **↻ Refresh jobs** — first scan takes about 20 seconds.
 4. Select roles and hit **⚡ Apply**.
 
 ## How applying actually works
@@ -110,15 +110,30 @@ Everything else falls back to browser automation, which needs no credentials.
 
 ## Job boards
 
-`data/companies.json` holds 107 boards, every one of which was checked against the live ATS API
-and returns real postings — 57 Greenhouse, 44 Ashby, 6 Lever.
+`data/companies.json` holds 259 boards, every one of which was checked against the live ATS API
+and returns real postings — 136 Greenhouse, 107 Ashby, 16 Lever.
+
+Boards were found by generating slug variants for ~410 company names and probing all three ATS
+APIs, then verifying identity: Greenhouse exposes the real board name, so that is used instead
+of the guess, and Lever/Ashby boards with short generic slugs were checked against their actual
+postings. That last step matters — `lever:safe` is a sales organisation rather than Safe
+Superintelligence, `lever:sila` is an HVAC contractor, and `lever:neon` is a Brazilian bank.
 
 Add your own in **Settings → Job boards**. The board token is the slug in the careers URL
 (`boards.greenhouse.io/`**`anthropic`**, `jobs.lever.co/`**`palantir`**,
 `jobs.ashbyhq.com/`**`openai`**). It is verified against the live API before it is saved.
 
-Some large employers — xAI, Anduril, Groq, Cerebras, Lambda, Mistral, Cursor — are not included
-because they do not expose a public Greenhouse/Lever/Ashby board under a slug that resolves.
+### What is still not covered
+
+Only Greenhouse, Lever and Ashby are read. That leaves real gaps:
+
+- **Workday** employers — NVIDIA, Salesforce, Adobe and much of the Fortune 500. A different
+  API shape, so it needs its own adapter.
+- **SmartRecruiters, Workable, Recruitee, Personio, iCIMS, Taleo** — each its own adapter.
+- **Google, Meta, Amazon, Microsoft, Apple** run proprietary career sites with no public API.
+- **LinkedIn and Indeed** have no public jobs API, and scraping them breaks their terms.
+
+So this is a deep index of startup and scale-up boards, not a complete index of the market.
 
 ## Keeping it fresh
 
@@ -138,7 +153,8 @@ authenticates this if the **`CRON_SECRET`** environment variable is set: it inje
 `Authorization: Bearer $CRON_SECRET` only when that exact variable exists. If you protect the
 app with `RADAR_TOKEN`, set `CRON_SECRET` to the same value, or this cron silently 401s.
 
-A full scan takes about 12 seconds, against a `maxDuration` of 60 — the Hobby plan ceiling.
+A full scan of 259 boards takes about 20 seconds, against a `maxDuration` of 60 — the Hobby
+plan ceiling.
 Do not raise `maxDuration` past your plan's limit: Vercel rejects the deployment outright rather
 than clamping it. If a scan ever does run over, the postings already written are kept and the
 close-out pass simply does not run, so a timeout costs freshness, never data.
@@ -199,7 +215,7 @@ tab:
 | --- | --- |
 | `report` | Diagnose only — prints tables and migration history, changes nothing |
 | `repair` | Clear failed migrations and apply |
-| `repair-and-seed` | The above, then load the 107 job boards |
+| `repair-and-seed` | The above, then load the 259 job boards |
 
 It needs the `DATABASE_URL` repository secret, and ideally `DIRECT_URL`. Locally the same script
 is available:
@@ -246,7 +262,7 @@ public/autofill.js   The form-filling runtime, shared by all three apply paths
 worker/              Playwright worker
 extension/           Chrome MV3 extension
 test/                Autofill tests and ATS form fixtures
-data/companies.json  The 107 verified boards
+data/companies.json  The 259 verified boards
 ```
 
 ## A word of advice
