@@ -130,16 +130,6 @@
     "atsKey": "exa"
   },
   {
-    "name": "Fireworks AI",
-    "stage": "growth",
-    "website": "https://fireworks.ai/careers",
-    "tags": "inference,ai-infra",
-    "starred": true,
-    "hq": "USA",
-    "atsType": "greenhouse",
-    "atsKey": "fireworksai"
-  },
-  {
     "name": "Harvey",
     "stage": "growth",
     "website": "https://www.harvey.ai/careers",
@@ -660,7 +650,7 @@
     "atsKey": "figma"
   },
   {
-    "name": "Fireworks AI (Ashby)",
+    "name": "Fireworks AI",
     "stage": "growth",
     "website": "https://fireworks.ai/careers",
     "tags": "inference,ai-infra",

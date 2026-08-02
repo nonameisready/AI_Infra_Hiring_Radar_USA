@@ -2,7 +2,8 @@ import { NextResponse } from "next/server";
 import { applyToJobs } from "../../../lib/apply";
 
 export const dynamic = "force-dynamic";
-export const maxDuration = 300;
+// Kept under the Hobby plan ceiling; a deployment is rejected if it is over.
+export const maxDuration = 60;
 
 const MAX_BATCH = 50;
 

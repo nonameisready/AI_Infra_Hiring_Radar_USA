@@ -3,7 +3,11 @@ import { runRefresh } from "../../../lib/ingest";
 import { isAuthorizedOrSameOrigin, unauthorized } from "../../../lib/auth";
 
 export const dynamic = "force-dynamic";
-export const maxDuration = 300;
+// 60s is the ceiling on Vercel's Hobby plan, and a deployment is rejected
+// outright if this exceeds the plan limit. A full 108-board scan runs in
+// 15-25s. If it ever does time out, the upserts already committed survive and
+// the close-out pass simply does not run, so nothing is lost.
+export const maxDuration = 60;
 
 async function handle(req: Request) {
   // The Refresh button in the UI has no token to send, so same-origin

@@ -63,13 +63,15 @@ const RETRYABLE = new Set([429, 500, 502, 503, 504]);
  * backoff for the 503s Greenhouse hands out when several boards are pulled at
  * once.
  */
-export async function fetchJson(url: string, timeoutMs = 20_000, attempts = 4): Promise<any> {
+export async function fetchJson(url: string, timeoutMs = 12_000, attempts = 3): Promise<any> {
   let lastError = "";
 
   for (let attempt = 0; attempt < attempts; attempt++) {
     if (attempt > 0) {
-      // 1s, 3s, 9s plus jitter. Ashby in particular throttles a burst of
-      // boards hard, and retrying in lockstep just reproduces the burst.
+      // 1s then 3s, plus jitter. Ashby throttles a burst of boards hard and
+      // retrying in lockstep just reproduces the burst. The ceiling matters:
+      // one dead board must not eat the whole serverless budget, so the worst
+      // case here is bounded at roughly 3 x 12s of fetch plus 4s of waiting.
       const backoff = 1000 * 3 ** (attempt - 1);
       await new Promise((r) => setTimeout(r, backoff + Math.random() * 500));
     }
