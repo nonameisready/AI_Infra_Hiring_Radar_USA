@@ -1,0 +1,34 @@
+{
+  "firstName": "Hui",
+  "lastName": "Mao",
+  "fullName": "Hui Mao",
+  "email": "huiluckylucky@gmail.com",
+  "phone": "281-250-7589",
+  "headline": "Senior Software Engineer — Backend / Distributed Systems / AI Infrastructure",
+  "yearsExperience": 7,
+  "location": "",
+  "linkedin": "",
+  "github": "",
+  "website": "",
+  "workAuth": "",
+  "needsSponsor": null,
+  "usAuthorized": null,
+  "salaryExpectation": "",
+  "noticePeriod": "",
+  "education": [
+    { "school": "University of Pennsylvania", "degree": "M.S., Computer Science" },
+    { "school": "Rice University", "degree": "M.S., Applied Mathematics & Statistics" },
+    { "school": "Shanghai University of Finance and Economics", "degree": "B.A., Economics" }
+  ],
+  "recentEmployers": [
+    { "company": "Bank of America (via Innova Solutions)", "title": "Senior Software Engineer", "period": "Jun 2024 - Dec 2025" },
+    { "company": "BlackRock – Hedge Fund Solutions", "title": "Quantitative Research Engineer / Software Engineer", "period": "Oct 2018 - Feb 2024" }
+  ],
+  "skills": [
+    "Python", "Go", "TypeScript", "SQL", "PySpark",
+    "Distributed systems", "Backend services", "REST APIs", "CI/CD", "Docker", "AWS",
+    "LLM inference pipelines", "RAG systems", "vector databases", "vLLM", "SgLang"
+  ],
+  "resumeFile": "Hui_Mao_Backend_Software_Engineer.pdf",
+  "resumeNote": "The canonical resume lives in Jobright (already uploaded there). For direct-site applications the agent downloads the default resume from the radar app (Settings → resumes) or asks for a fresh copy."
+}

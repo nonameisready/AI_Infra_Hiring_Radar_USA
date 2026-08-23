@@ -1,11 +1,13 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { AgentTab } from "./AgentTab";
 import { FiltersBar } from "./Filters";
 import { JobList } from "./JobList";
 import { ResumeBar } from "./ResumeBar";
 import { SettingsDrawer } from "./SettingsDrawer";
 import {
+  AgentState,
   ApplyOutcome,
   DEFAULT_FILTERS,
   Filters,
@@ -19,13 +21,18 @@ import {
   relativeDate,
 } from "../lib/client";
 
-const TABS: Array<{ id: Track; label: string; hint: string }> = [
+type View = Track | "agent";
+
+const TABS: Array<{ id: View; label: string; hint: string }> = [
   { id: "ai", label: "AI · Infra · Agentic", hint: "AI infra, AI engineer, agentic, software engineering" },
   { id: "fde", label: "Forward Deployed", hint: "FDE, solutions & customer-facing engineering" },
+  { id: "agent", label: "🤖 Jobright Agent", hint: "Daily auto-apply from Jobright's ≥80% matches" },
 ];
 
 export function Dashboard() {
+  const [view, setView] = useState<View>("ai");
   const [track, setTrack] = useState<Track>("ai");
+  const [agent, setAgent] = useState<AgentState | null>(null);
   const [filters, setFilters] = useState<Record<Track, Filters>>({
     ai: { ...DEFAULT_FILTERS },
     fde: { ...DEFAULT_FILTERS },
@@ -80,6 +87,10 @@ export function Dashboard() {
     setStats(await api<Stats>("/api/stats"));
   }, []);
 
+  const loadAgent = useCallback(async () => {
+    setAgent(await api<AgentState>("/api/agent"));
+  }, []);
+
   const loadJobs = useCallback(async () => {
     setLoading(true);
     try {
@@ -119,7 +130,8 @@ export function Dashboard() {
   useEffect(() => {
     loadResumes().catch(() => {});
     loadStats().catch(() => {});
-  }, [loadResumes, loadStats]);
+    loadAgent().catch(() => {});
+  }, [loadResumes, loadStats, loadAgent]);
 
   // Debounced so typing in the search box does not fire a request per keystroke.
   useEffect(() => {
@@ -235,21 +247,38 @@ export function Dashboard() {
 
       <nav className="mt-6 flex flex-wrap items-end gap-1 border-b border-[color:var(--line)]">
         {TABS.map((t) => {
-          const on = track === t.id;
-          const accent = t.id === "fde" ? "border-violet-400 text-violet-200" : "border-emerald-400 text-emerald-200";
+          const on = view === t.id;
+          const accent =
+            t.id === "fde"
+              ? "border-violet-400 text-violet-200"
+              : t.id === "agent"
+                ? "border-sky-400 text-sky-200"
+                : "border-emerald-400 text-emerald-200";
+          const badge =
+            t.id === "agent"
+              ? (agent?.stats.pending ?? 0) + (agent?.stats.openQuestions ?? 0) || null
+              : stats?.[t.id].total ?? null;
           return (
             <button
               key={t.id}
-              onClick={() => setTrack(t.id)}
+              onClick={() => {
+                setView(t.id);
+                if (t.id !== "agent") setTrack(t.id);
+                else loadAgent().catch(() => {});
+              }}
               title={t.hint}
               className={`-mb-px border-b-2 px-4 py-2.5 text-sm font-medium transition-colors ${
                 on ? accent : "border-transparent text-[color:var(--muted)] hover:text-[color:var(--text)]"
               }`}
             >
               {t.label}
-              {stats && (
-                <span className="ml-2 rounded-full bg-white/5 px-1.5 py-0.5 text-[11px] tabular-nums">
-                  {stats[t.id].total}
+              {badge != null && (
+                <span
+                  className={`ml-2 rounded-full px-1.5 py-0.5 text-[11px] tabular-nums ${
+                    t.id === "agent" ? "bg-amber-500/15 text-amber-300" : "bg-white/5"
+                  }`}
+                >
+                  {badge}
                 </span>
               )}
             </button>
@@ -257,6 +286,11 @@ export function Dashboard() {
         })}
       </nav>
 
+      {view === "agent" ? (
+        <div className="mt-4">
+          <AgentTab state={agent} onReload={() => loadAgent().catch(() => {})} notify={notify} />
+        </div>
+      ) : (
       <div className="mt-4 space-y-3">
         <ResumeBar
           track={track}
@@ -301,8 +335,9 @@ export function Dashboard() {
           </div>
         )}
       </div>
+      )}
 
-      {selectedJobs.length > 0 && (
+      {view !== "agent" && selectedJobs.length > 0 && (
         <div className="fixed inset-x-0 bottom-0 z-40 border-t border-[color:var(--line)] bg-[color:var(--panel)]/95 backdrop-blur">
           <div className="mx-auto flex max-w-[1180px] flex-wrap items-center gap-3 px-4 py-3 sm:px-6">
             <span className="text-sm">

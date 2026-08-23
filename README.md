@@ -7,6 +7,9 @@ tabs, and applies for you with the resume you picked for that tab.
   backend and general software engineering.
 - **Tab 2 — Forward Deployed**: FDE, solutions/customer/implementation engineering, sales
   engineering, developer relations.
+- **Tab 3 — 🤖 Jobright Agent**: a daily AI agent that logs into [jobright.ai](https://jobright.ai),
+  applies to every recommendation matching ≥80% (up to 50/day), and reports back here. See
+  [Jobright auto-apply agent](#jobright-auto-apply-agent) below.
 
 Each tab holds its own resume, so the AI resume goes to AI roles and the FDE resume goes to FDE
 roles without you re-picking every time. Select any number of roles and apply to all of them in
@@ -99,6 +102,36 @@ LEVER_APPLY_KEYS='{"palantir":"<posting api key>"}'
 ```
 
 Everything else falls back to browser automation, which needs no credentials.
+
+## Jobright auto-apply agent
+
+The **🤖 Jobright Agent** tab is the front end of a daily agent run, not another job index.
+Once a day a Claude Code session (fired by a scheduled Routine) follows `agent/RUNBOOK.md`:
+
+1. **Log in to Jobright** as the account's email. Google OAuth is avoided in automation
+   (Google blocks bot browsers and the agent never types the Google password); instead set a
+   Jobright account password and store it as the `JOBRIGHT_PASSWORD` environment variable in
+   the Claude environment — never in the repo. Email verification codes are read from the
+   connected Gmail automatically.
+2. **Fetch today's matches** and keep those with match ≥ `minMatchPercent` (default 80), up to
+   `dailyCap` (default 50) — both in `data/agent/config.json`.
+3. **Dedupe** against `data/agent/applied.json` — a job is applied to once, ever, keyed by
+   Jobright id and by normalized company+title.
+4. **Apply**: Jobright's own flow first; if Jobright hands off to the company ATS, the agent
+   fills the form on the original site with the same autofill runtime the worker uses. Unknown
+   form questions are answered from `data/agent/memory.json`; questions it cannot answer
+   safely (work auth, salary, relocation…) are never guessed — the job is parked and the
+   question appears in the tab. Answer it once and the agent remembers it forever.
+5. **Record**: successes are appended to `data/agent/APPLIED.md` (the tab renders it);
+   failures land in `data/agent/pending.json` and show in the tab with both links so you can
+   apply by hand and tick them off. The run ends with a commit of `data/agent/**` to `main`,
+   which redeploys the app with the fresh state.
+
+The browser mechanics live in `worker/jobright-agent.mjs` (login / matches / apply / snapshot,
+JSON output, evidence screenshots on failure) — the agent falls back to driving the browser
+itself when Jobright's DOM drifts. The whole procedure, including the hard rules (never
+duplicate, never guess blocking answers, never commit secrets, polite pacing), is in
+`agent/RUNBOOK.md`; `/jobright-agent` in any Claude session on this repo runs it on demand.
 
 ## Application states
 
@@ -282,10 +315,12 @@ lib/classify.ts      Which tab a posting lands in, and its match score
 lib/ingest/          Greenhouse, Lever and Ashby adapters + the refresh pass
 lib/apply/           Apply dispatch and direct ATS submission
 public/autofill.js   The form-filling runtime, shared by all three apply paths
-worker/              Playwright worker
+worker/              Playwright worker + Jobright agent browser driver
 extension/           Chrome MV3 extension
 test/                Autofill tests and ATS form fixtures
 data/companies.json  The 291 verified boards
+data/agent/          Jobright agent state: config, profile, memory, applied registry, APPLIED.md
+agent/RUNBOOK.md     The daily Jobright agent procedure (run by a scheduled Claude session)
 ```
 
 ## A word of advice

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-23T00:00:00Z",
+  "answers": [
+    { "match": "first\\s*name", "answer": "Hui", "source": "resume", "learnedAt": "2026-08-23" },
+    { "match": "last\\s*name|family\\s*name|surname", "answer": "Mao", "source": "resume", "learnedAt": "2026-08-23" },
+    { "match": "full\\s*name|your\\s*name", "answer": "Hui Mao", "source": "resume", "learnedAt": "2026-08-23" },
+    { "match": "e-?mail", "answer": "huiluckylucky@gmail.com", "source": "resume", "learnedAt": "2026-08-23" },
+    { "match": "phone|mobile", "answer": "281-250-7589", "source": "resume", "learnedAt": "2026-08-23" },
+    { "match": "years.*(experience|backend|software)", "answer": "7", "source": "resume", "learnedAt": "2026-08-23" },
+    { "match": "how did you hear|referral source", "answer": "Job board", "source": "default", "learnedAt": "2026-08-23" },
+    { "match": "18 years|age of 18|older than 18", "answer": "Yes", "source": "default", "learnedAt": "2026-08-23" }
+  ],
+  "note": "Regex `match` is tested case-insensitively against a form question's label. Answers the user gives to open questions in questions.json get appended here so the agent never asks twice. Never store passwords or secrets in this file."
+}
