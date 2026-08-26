@@ -7,6 +7,9 @@ const nextConfig = {
     // (Top-level in Next 15; still experimental in 14.)
     outputFileTracingIncludes: {
       "/api/autofill/bookmarklet": ["./public/autofill.js"],
+      // The Jobright Agent tab reads the agent's committed state files at
+      // request time, so they too must be traced into the serverless bundle.
+      "/api/agent": ["./data/agent/**"],
     },
   },
 };

@@ -1,0 +1,11 @@
+{
+  "minMatchPercent": 80,
+  "dailyCap": 50,
+  "jobrightEmail": "huiluckylucky@gmail.com",
+  "jobrightBaseUrl": "https://jobright.ai",
+  "preferJobrightApply": true,
+  "fallbackToOriginalSite": true,
+  "politeDelayMs": 4000,
+  "runAtUtc": "13:30",
+  "notes": "minMatchPercent — only Jobright recommendations at or above this match are applied. dailyCap — hard stop per run. preferJobrightApply — try Jobright's own apply flow first, then the original posting URL."
+}

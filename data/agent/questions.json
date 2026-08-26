@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-26T18:20:00Z",
+  "open": [],
+  "answered": [
+    {
+      "id": "q-login-method",
+      "question": "Jobright 登录方式：设置密码并存入 Claude 环境变量 JOBRIGHT_PASSWORD。",
+      "field": "loginMethod",
+      "askedAt": "2026-08-23",
+      "answer": "已设置。2026-08-26 验证通过：JOBRIGHT_PASSWORD 在环境中，密码登录成功且无需验证码，推荐列表抓取正常。",
+      "answeredAt": "2026-08-26"
+    },
+    {
+      "id": "q-work-auth",
+      "question": "工作授权状态，以及是否需要公司 sponsor 签证（现在或将来）？",
+      "field": "workAuth,needsSponsor,usAuthorized",
+      "askedAt": "2026-08-23",
+      "answer": "F-1 CPT，I-485 pending。需要 sponsor（现在或将来）：Yes。目前有合法工作授权（CPT）：Yes。",
+      "answeredAt": "2026-08-26"
+    },
+    {
+      "id": "q-location",
+      "question": "目前所在城市/州，以及能否 relocate？",
+      "field": "location",
+      "askedAt": "2026-08-23",
+      "answer": "New York, NY（NYC）。可以 relocate。",
+      "answeredAt": "2026-08-26"
+    },
+    {
+      "id": "q-linkedin",
+      "question": "LinkedIn 个人主页 URL？",
+      "field": "linkedin",
+      "askedAt": "2026-08-23",
+      "answer": "没有 LinkedIn（N/A）。GitHub: https://github.com/nonameisready。LinkedIn 为必填的表单挂起为 needs_manual，绝不拿 GitHub 顶替。",
+      "answeredAt": "2026-08-26"
+    },
+    {
+      "id": "q-salary",
+      "question": "期望薪资范围？",
+      "field": "salaryExpectation",
+      "askedAt": "2026-08-23",
+      "answer": "$150,000 以上（base）。",
+      "answeredAt": "2026-08-26"
+    }
+  ],
+  "note": "The agent appends questions it cannot answer here, keeps the job in pending.json, and continues. When the user answers (in the Agent tab while running locally, or by telling Claude in any session), the answer moves to `answered`, profile.json/memory.json are updated, and the next run uses it automatically. `blocking: true` means applications that need this answer are held as needs_info instead of being submitted with a guess."
+}

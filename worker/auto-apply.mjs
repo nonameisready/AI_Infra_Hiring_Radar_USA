@@ -195,7 +195,14 @@ async function main() {
     ...(process.env.HTTPS_PROXY || process.env.https_proxy
       ? { proxy: { server: process.env.HTTPS_PROXY ?? process.env.https_proxy } }
       : {}),
-    args: ["--disable-blink-features=AutomationControlled", "--no-sandbox"],
+    args: [
+      "--disable-blink-features=AutomationControlled",
+      "--no-sandbox",
+      // In a Claude remote container the egress gateway resets Chromium's
+      // TLS 1.3 handshake; TLS 1.2 passes. See agent/setup-browser-trust.sh
+      // for the matching NSS trust setup. No effect outside the container.
+      ...(process.env.CCR_AGENT_PROXY_ENABLED ? ["--ssl-version-max=tls1.2"] : []),
+    ],
   });
   const context = await browser.newContext({
     viewport: { width: 1440, height: 1000 },

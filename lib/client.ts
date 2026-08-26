@@ -77,6 +77,48 @@ export type ApplyOutcome = {
   message: string;
 };
 
+export type AgentPendingItem = {
+  id: string;
+  title: string;
+  company: string;
+  matchPercent: number | null;
+  jobrightUrl: string | null;
+  originalUrl: string | null;
+  reason: string;
+  status: "needs_manual" | "needs_info" | "manual_done";
+  addedAt: string;
+  resolvedAt?: string;
+};
+
+export type AgentQuestion = {
+  id: string;
+  question: string;
+  field?: string;
+  blocking?: boolean;
+  askedAt?: string;
+  answer?: string;
+  answeredAt?: string;
+};
+
+export type AgentState = {
+  config: {
+    minMatchPercent?: number;
+    dailyCap?: number;
+    jobrightEmail?: string;
+    runAtUtc?: string;
+  };
+  stats: {
+    total: number;
+    byStatus: Record<string, number>;
+    pending: number;
+    openQuestions: number;
+    lastRunAt: string | null;
+  };
+  pending: AgentPendingItem[];
+  questions: { open: AgentQuestion[]; answered: AgentQuestion[] };
+  appliedMd: string;
+};
+
 export type Filters = {
   q: string;
   days: number;

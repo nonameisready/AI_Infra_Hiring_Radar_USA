@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-23T00:00:00Z",
+  "items": [],
+  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
+}
