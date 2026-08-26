@@ -185,3 +185,31 @@ fires again tomorrow either way.
   ATS_ACCOUNT_PASSWORD, the agent may register site-native accounts with the user's email +
   that password (verification codes read from Gmail), then apply. NEVER ask for or use the
   user's Google account password, and never automate a Google OAuth password prompt.
+
+## Quota mechanics (updated 2026-08-26: 100/day)
+
+The user's target is up to `dailyCap` (100) engineer applications per day:
+
+1. **≥ `minMatchPercent` (80) is applied, always** — these are never skipped.
+2. The recommended list lazy-loads: keep scrolling until no new cards appear for 3 rounds,
+   not a fixed 12 scrolls. Then also run Jobright's search for each `targetKeywords` term
+   (US, full-time, engineer roles) and merge results by job id.
+3. If still under the cap, continue down the match-sorted list **but never below
+   `fillToCapMinPercent` (70)** — record each job's match in APPLIED.md so lower-match
+   applies are visible.
+4. Dedupe against applied.json at every step; the cap counts *submissions attempted today*,
+   not jobs looked at. Pace with `politeDelayMs`; if any ATS starts rate-limiting or
+   challenging repeatedly, stop for the day and note where you stopped.
+5. Expectation to report honestly: a large share of a 100-job day will land in
+   pending.json (captcha/IP-blocked boards, account-gated ATSes). That is normal — report
+   "X submitted, Y parked manual, Z skipped" rather than pretending 100 submissions.
+
+## Site-account policy (updated)
+
+- **Microsoft careers: permanently manual.** Sign-up is OAuth-only (Microsoft/LinkedIn/
+  Google/Facebook) with no email registration; per the user's decision these jobs go
+  straight to pending.json with a "user applies manually" note. Never attempt OAuth.
+- **Cisco / Workday tenants**: the user registered an account with huiluckylucky@gmail.com.
+  When `ATS_ACCOUNT_PASSWORD` is present in the environment, sign in with it (verification
+  emails via Gmail) and apply; the two parked Cisco jobs in pending.json go first. If the
+  variable is absent, leave them parked — never ask for the password in chat.

@@ -38,3 +38,16 @@ Employment-restrictions answer (No), primary language and open-source links are 
 memory.json — future forms asking the same get answered automatically. Visa option chosen:
 "Yes, but not one of the visas listed here" (F-1 CPT, I-485 pending — no listed option matches;
 never claim OPT).
+
+### 2026-08-26 — user manual applies + daily quota raised to 100
+
+| Company | Title | Match | Via | Status |
+| ------- | ----- | ----- | --- | ------ |
+| Rippling | Senior Software Engineer, Backend - HR Product | 90% | manual | ✅ user applied |
+| Grow Therapy | Senior Software Engineer, Backend | 84% | manual | ✅ user applied |
+| Wise | Senior Software Engineer | 84% | manual | ✅ user applied |
+
+Running total for 2026-08-26: **6 applications** (3 automated, 3 manual). Microsoft is
+permanently manual (OAuth-only sign-up). Cisco ×2 auto-apply once ATS_ACCOUNT_PASSWORD lands
+in the environment. Daily cap raised to 100 (≥80% always; fill to cap down to 70%, engineer
+keywords).

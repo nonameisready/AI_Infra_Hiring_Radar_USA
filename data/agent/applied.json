@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-26T20:15:00Z",
+ "updatedAt": "2026-08-26T21:00:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -10,10 +10,10 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5582404119652ff38661ee",
    "originalUrl": "https://ats.rippling.com/rippling/jobs/c3d4a64f-8e8f-4e31-9b44-1db5fc6b3433",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "LinkedIn resolved (user provided). Form now fully verified: all fields, LinkedIn, location committed, SMS-consent No, resume attached. Blocked ONLY by Cloudflare Turnstile rejecting the datacenter IP at final submit - 2-minute manual submit from user's own network.",
-   "at": "2026-08-26T18:55:00Z"
+   "status": "manual_done",
+   "via": "manual",
+   "detail": "LinkedIn resolved (user provided). Form now fully verified: all fields, LinkedIn, location committed, SMS-consent No, resume attached. Blocked ONLY by Cloudflare Turnstile rejecting the datacenter IP at final submit - 2-minute manual submit from user's own network. -> User applied manually on 2026-08-26.",
+   "at": "2026-08-26T21:00:00Z"
   },
   "6a8e124ed34f700f87fd7c0d": {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -25,8 +25,9 @@
    "originalUrl": "https://apply.careers.microsoft.com/careers/job/1970393556929363",
    "status": "needs_manual",
    "via": null,
-   "detail": "Microsoft careers (Eightfold) requires signing in with a Microsoft/Google/LinkedIn account - agent never automates those logins.",
-   "at": "2026-08-26T18:55:00Z"
+   "detail": "Microsoft careers sign-up offers OAuth only (Microsoft/LinkedIn/Google/Facebook) - no email registration, so it can never be automated safely. Per user: Microsoft jobs stay on the board for manual applying.",
+   "at": "2026-08-26T18:55:00Z",
+   "manualOnly": true
   },
   "69eaa4ed7820c036924ef052": {
    "id": "69eaa4ed7820c036924ef052",
@@ -49,10 +50,10 @@
    "matchPercent": 84,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a2a4fc21de59e0682a83f93",
    "originalUrl": "https://jobs.ashbyhq.com/grow-therapy/16179a07-5099-4034-941c-7b2f28d91e83/application",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "Ashby anti-bot flagged the datacenter IP as spam ('turn off your VPN or proxy'), twice. Form itself fully auto-fills (name, resume, sponsorship Yes, EEO declines) - submitting from your own network takes 2 minutes.",
-   "at": "2026-08-26T18:55:00Z"
+   "status": "manual_done",
+   "via": "manual",
+   "detail": "Ashby anti-bot flagged the datacenter IP as spam ('turn off your VPN or proxy'), twice. Form itself fully auto-fills (name, resume, sponsorship Yes, EEO declines) - submitting from your own network takes 2 minutes. -> User applied manually on 2026-08-26.",
+   "at": "2026-08-26T21:00:00Z"
   },
   "6a7f5d64927c79391ad0834b": {
    "id": "6a7f5d64927c79391ad0834b",
@@ -75,10 +76,10 @@
    "matchPercent": 84,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f151d382b237ac80c4235",
    "originalUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/Wise/publication/c0f0edeb-406c-44a9-b84a-a0dcd9b4d65b",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "SmartRecruiters hard-blocked the datacenter IP ('Access is temporarily restricted - automated activity'). Apply from your own network.",
-   "at": "2026-08-26T18:55:00Z"
+   "status": "manual_done",
+   "via": "manual",
+   "detail": "SmartRecruiters hard-blocked the datacenter IP ('Access is temporarily restricted - automated activity'). Apply from your own network. -> User applied manually on 2026-08-26.",
+   "at": "2026-08-26T21:00:00Z"
   },
   "6a8eeaa7a10ee661e24d5672": {
    "id": "6a8eeaa7a10ee661e24d5672",
@@ -88,9 +89,9 @@
    "matchPercent": 82,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8eeaa7a10ee661e24d5672",
    "originalUrl": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Richardson-Texas-US/Sr-Software-Engineer_2021855-1",
-   "status": "needs_manual",
+   "status": "needs_info",
    "via": null,
-   "detail": "Cisco uses Workday, which requires creating a per-tenant account through a multi-step wizard - not automated yet.",
+   "detail": "User registered a Cisco Workday account (huiluckylucky@gmail.com). Auto-apply as soon as ATS_ACCOUNT_PASSWORD is set in the Claude environment - next daily run logs in and submits.",
    "at": "2026-08-26T18:55:00Z"
   },
   "6a8eeaaa382b237ac80c3377": {
@@ -101,9 +102,9 @@
    "matchPercent": 82,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8eeaaa382b237ac80c3377",
    "originalUrl": null,
-   "status": "needs_manual",
+   "status": "needs_info",
    "via": null,
-   "detail": "Cisco / Workday - same as above.",
+   "detail": "User registered a Cisco Workday account (huiluckylucky@gmail.com). Auto-apply as soon as ATS_ACCOUNT_PASSWORD is set in the Claude environment - next daily run logs in and submits.",
    "at": "2026-08-26T18:55:00Z"
   }
  },

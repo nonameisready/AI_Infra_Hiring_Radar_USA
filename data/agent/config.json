@@ -1,11 +1,20 @@
 {
-  "minMatchPercent": 80,
-  "dailyCap": 50,
-  "jobrightEmail": "huiluckylucky@gmail.com",
-  "jobrightBaseUrl": "https://jobright.ai",
-  "preferJobrightApply": true,
-  "fallbackToOriginalSite": true,
-  "politeDelayMs": 4000,
-  "runAtUtc": "13:30",
-  "notes": "minMatchPercent — only Jobright recommendations at or above this match are applied. dailyCap — hard stop per run. preferJobrightApply — try Jobright's own apply flow first, then the original posting URL."
+ "minMatchPercent": 80,
+ "dailyCap": 100,
+ "jobrightEmail": "huiluckylucky@gmail.com",
+ "jobrightBaseUrl": "https://jobright.ai",
+ "preferJobrightApply": true,
+ "fallbackToOriginalSite": true,
+ "politeDelayMs": 4000,
+ "runAtUtc": "13:30",
+ "notes": "minMatchPercent - every recommendation at or above this is applied, always. dailyCap - target applications per day. When fewer than dailyCap qualify at minMatchPercent, the agent keeps going down the recommended list (match-sorted) and jobright search results for targetKeywords, but never below fillToCapMinPercent. preferJobrightApply - Jobright flow first, company site fallback.",
+ "fillToCapMinPercent": 70,
+ "targetKeywords": [
+  "engineer",
+  "software",
+  "backend",
+  "infrastructure",
+  "platform",
+  "ai"
+ ]
 }
