@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-26T19:20:00Z",
+ "updatedAt": "2026-08-26T20:05:00Z",
  "answers": [
   {
    "match": "first\\s*name",
@@ -103,6 +103,42 @@
   {
    "match": "linked\\s*-?in",
    "answer": "https://www.linkedin.com/in/belindamao",
+   "source": "user",
+   "learnedAt": "2026-08-26"
+  },
+  {
+   "match": "non-?compete|employment agreement|post-?employment restriction",
+   "answer": "No",
+   "source": "user",
+   "learnedAt": "2026-08-26"
+  },
+  {
+   "match": "primary programming language",
+   "answer": "Python (also Go, TypeScript)",
+   "source": "resume",
+   "learnedAt": "2026-08-26"
+  },
+  {
+   "match": "open source project",
+   "answer": "https://github.com/nonameisready",
+   "source": "user",
+   "learnedAt": "2026-08-26"
+  },
+  {
+   "match": "previously worked (at|for)|consulted for",
+   "answer": "No",
+   "source": "default",
+   "learnedAt": "2026-08-26"
+  },
+  {
+   "match": "country of residence",
+   "answer": "United States",
+   "source": "user",
+   "learnedAt": "2026-08-26"
+  },
+  {
+   "match": "located in the (us|united states)",
+   "answer": "Yes",
    "source": "user",
    "learnedAt": "2026-08-26"
   }

@@ -27,3 +27,14 @@ Notes: Jobright login + ≥80% match scrape fully automated (password + Gmail co
 flow is fully automated including the emailed security code. Ashby/SmartRecruiters flag the
 remote container's datacenter IP — forms verified fillable, submission needs a residential
 network (or the user's 2 minutes). Workday needs an account-creation flow (future work).
+
+### 2026-08-26 follow-up — GitLab submitted after user unblocked the question
+
+| Company | Title | Match | Via | Status |
+| ------- | ----- | ----- | --- | ------ |
+| GitLab | Senior Backend Engineer | 84% | direct (Greenhouse) | ✅ submitted — "Thank you for applying to GitLab!" |
+
+Employment-restrictions answer (No), primary language and open-source links are now in
+memory.json — future forms asking the same get answered automatically. Visa option chosen:
+"Yes, but not one of the visas listed here" (F-1 CPT, I-485 pending — no listed option matches;
+never claim OPT).

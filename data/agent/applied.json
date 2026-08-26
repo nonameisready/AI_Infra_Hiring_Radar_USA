@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-26T19:45:00Z",
+ "updatedAt": "2026-08-26T20:15:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -62,10 +62,10 @@
    "matchPercent": 84,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7f5d64927c79391ad0834b",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=gitlab&token=8715968002",
-   "status": "needs_info",
-   "via": null,
-   "detail": "Blocked on q-employment-restrictions (GitLab asks 'Are you subject to any employment agreements and/or post-employment restrictions?' - a legal question the agent will not guess). Also asks for open-source links and primary language; agent can answer those once unblocked.",
-   "at": "2026-08-26T18:55:00Z"
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Submitted after user answered employment-restrictions question (No). Answers: country of residence United States, located in US Yes, employment restrictions No, sponsorship 'Yes, but not one of the visas listed here' (F-1 CPT + I-485 pending, honest closest option), never worked for GitLab, open-source links github.com/nonameisready + project notes, primary language Python (also Go, TypeScript). Security code auto-read from Gmail. Confirmation: 'Thank you for applying to GitLab!'",
+   "at": "2026-08-26T20:15:00Z"
   },
   "6a8f151d382b237ac80c4235": {
    "id": "6a8f151d382b237ac80c4235",

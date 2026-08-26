@@ -63,5 +63,8 @@
   "SgLang"
  ],
  "resumeFile": "Hui_Mao_Backend_Software_Engineer.pdf",
- "resumeNote": "The canonical resume lives in Jobright (already uploaded there). For direct-site applications the agent downloads the default resume from the radar app (Settings → resumes) or asks for a fresh copy."
+ "resumeNote": "The canonical resume lives in Jobright (already uploaded there). For direct-site applications the agent downloads the default resume from the radar app (Settings → resumes) or asks for a fresh copy.",
+ "employmentRestrictions": "None - not subject to any employment agreements or post-employment restrictions (confirmed by user 2026-08-26)",
+ "primaryLanguage": "Python (also Go, TypeScript)",
+ "openSourceLinks": "https://github.com/nonameisready"
 }

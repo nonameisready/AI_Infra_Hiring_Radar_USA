@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-26T19:45:00Z",
+ "updatedAt": "2026-08-26T20:15:00Z",
  "items": [
   {
    "id": "6a5582404119652ff38661ee",
@@ -33,17 +33,6 @@
    "originalUrl": "https://jobs.ashbyhq.com/grow-therapy/16179a07-5099-4034-941c-7b2f28d91e83/application",
    "reason": "Ashby anti-bot flagged the datacenter IP as spam ('turn off your VPN or proxy'), twice. Form itself fully auto-fills (name, resume, sponsorship Yes, EEO declines) - submitting from your own network takes 2 minutes.",
    "status": "needs_manual",
-   "addedAt": "2026-08-26"
-  },
-  {
-   "id": "6a7f5d64927c79391ad0834b",
-   "title": "Senior Backend Engineer",
-   "company": "GitLab",
-   "matchPercent": 84,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a7f5d64927c79391ad0834b",
-   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=gitlab&token=8715968002",
-   "reason": "Blocked on q-employment-restrictions (GitLab asks 'Are you subject to any employment agreements and/or post-employment restrictions?' - a legal question the agent will not guess). Also asks for open-source links and primary language; agent can answer those once unblocked.",
-   "status": "needs_info",
    "addedAt": "2026-08-26"
   },
   {

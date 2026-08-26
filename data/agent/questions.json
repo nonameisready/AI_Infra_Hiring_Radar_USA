@@ -1,15 +1,7 @@
 {
  "version": 1,
- "updatedAt": "2026-08-26T19:20:00Z",
- "open": [
-  {
-   "id": "q-employment-restrictions",
-   "question": "你是否受任何雇佣协议或离职后限制约束（例如竞业限制 non-compete、post-employment restrictions）？GitLab 等公司的申请表必答。另外：GitLab 还问开源贡献链接和主力语言——主力语言我打算答 'Python (also Go, TypeScript)'，开源链接用 https://github.com/nonameisready，可以吗？",
-   "field": "employmentRestrictions,primaryLanguage,openSourceLinks",
-   "askedAt": "2026-08-26",
-   "blocking": true
-  }
- ],
+ "updatedAt": "2026-08-26T20:05:00Z",
+ "open": [],
  "answered": [
   {
    "id": "q-login-method",
@@ -49,6 +41,15 @@
    "field": "salaryExpectation",
    "askedAt": "2026-08-23",
    "answer": "$150,000 以上（base）。",
+   "answeredAt": "2026-08-26"
+  },
+  {
+   "id": "q-employment-restrictions",
+   "question": "你是否受任何雇佣协议或离职后限制约束（例如竞业限制 non-compete、post-employment restrictions）？GitLab 等公司的申请表必答。另外：GitLab 还问开源贡献链接和主力语言——主力语言我打算答 'Python (also Go, TypeScript)'，开源链接用 https://github.com/nonameisready，可以吗？",
+   "field": "employmentRestrictions,primaryLanguage,openSourceLinks",
+   "askedAt": "2026-08-26",
+   "blocking": true,
+   "answer": "No — 不受任何雇佣协议/竞业限制约束。主力语言 Python (also Go, TypeScript)；开源链接 github.com/nonameisready。",
    "answeredAt": "2026-08-26"
   }
  ],

@@ -93,7 +93,13 @@ try {
     let pick = options.find((o) => new RegExp(c.prefer, "i").test(o));
     if (!pick && options.length === 1) pick = options[0];
     if (pick) {
-      await page.locator('[role="option"]', { hasText: pick }).first().click();
+      // Hidden phone-country <li role=option> entries also match by text —
+      // getByRole only sees elements exposed to the accessibility tree.
+      await page.getByRole("option", { name: pick, exact: true }).first()
+        .click({ timeout: 10000 })
+        .catch(async () => {
+          await page.getByRole("option", { name: pick }).first().click({ timeout: 10000 });
+        });
       out.combos.push({ label: target.label, picked: pick, options: options.slice(0, 8) });
     } else {
       out.combos.push({ label: target.label, result: "no_option_matched", options: options.slice(0, 10) });
