@@ -1,23 +1,111 @@
 {
-  "version": 1,
-  "updatedAt": "2026-08-26T18:20:00Z",
-  "answers": [
-    { "match": "first\\s*name", "answer": "Hui", "source": "resume", "learnedAt": "2026-08-23" },
-    { "match": "last\\s*name|family\\s*name|surname", "answer": "Mao", "source": "resume", "learnedAt": "2026-08-23" },
-    { "match": "full\\s*name|your\\s*name", "answer": "Hui Mao", "source": "resume", "learnedAt": "2026-08-23" },
-    { "match": "e-?mail", "answer": "huiluckylucky@gmail.com", "source": "resume", "learnedAt": "2026-08-23" },
-    { "match": "phone|mobile", "answer": "281-250-7589", "source": "resume", "learnedAt": "2026-08-23" },
-    { "match": "years.*(experience|backend|software)", "answer": "7", "source": "resume", "learnedAt": "2026-08-23" },
-    { "match": "how did you hear|referral source", "answer": "Job board", "source": "default", "learnedAt": "2026-08-23" },
-    { "match": "18 years|age of 18|older than 18", "answer": "Yes", "source": "default", "learnedAt": "2026-08-23" },
-    { "match": "legally authorized|authoriz(ed|ation) to work", "answer": "Yes", "source": "user", "learnedAt": "2026-08-26" },
-    { "match": "sponsor(ship)?|require.*visa|visa.*(now|future)", "answer": "Yes", "source": "user", "learnedAt": "2026-08-26", "note": "Needs sponsorship now or in the future — always Yes." },
-    { "match": "visa status|immigration status|work authorization status|current visa", "answer": "F-1 (CPT), I-485 pending", "source": "user", "learnedAt": "2026-08-26" },
-    { "match": "current (city|location)|where (are you|do you).*(located|based)|city.*state", "answer": "New York, NY", "source": "user", "learnedAt": "2026-08-26" },
-    { "match": "relocat", "answer": "Yes", "source": "user", "learnedAt": "2026-08-26" },
-    { "match": "salary|compensation|pay expectation|desired pay", "answer": "$150,000+", "source": "user", "learnedAt": "2026-08-26" },
-    { "match": "github", "answer": "https://github.com/nonameisready", "source": "user", "learnedAt": "2026-08-26" },
-    { "match": "commut|on-?site.*(willing|able)|hybrid.*(willing|able)", "answer": "Yes", "source": "derived", "learnedAt": "2026-08-26", "note": "Based in NYC and willing to relocate, so onsite/hybrid is workable." }
-  ],
-  "note": "Regex `match` is tested case-insensitively against a form question's label. Answers the user gives to open questions in questions.json get appended here so the agent never asks twice. Never store passwords or secrets in this file."
+ "version": 1,
+ "updatedAt": "2026-08-26T19:20:00Z",
+ "answers": [
+  {
+   "match": "first\\s*name",
+   "answer": "Hui",
+   "source": "resume",
+   "learnedAt": "2026-08-23"
+  },
+  {
+   "match": "last\\s*name|family\\s*name|surname",
+   "answer": "Mao",
+   "source": "resume",
+   "learnedAt": "2026-08-23"
+  },
+  {
+   "match": "full\\s*name|your\\s*name",
+   "answer": "Hui Mao",
+   "source": "resume",
+   "learnedAt": "2026-08-23"
+  },
+  {
+   "match": "e-?mail",
+   "answer": "huiluckylucky@gmail.com",
+   "source": "resume",
+   "learnedAt": "2026-08-23"
+  },
+  {
+   "match": "phone|mobile",
+   "answer": "281-250-7589",
+   "source": "resume",
+   "learnedAt": "2026-08-23"
+  },
+  {
+   "match": "years.*(experience|backend|software)",
+   "answer": "7",
+   "source": "resume",
+   "learnedAt": "2026-08-23"
+  },
+  {
+   "match": "how did you hear|referral source",
+   "answer": "Job board",
+   "source": "default",
+   "learnedAt": "2026-08-23"
+  },
+  {
+   "match": "18 years|age of 18|older than 18",
+   "answer": "Yes",
+   "source": "default",
+   "learnedAt": "2026-08-23"
+  },
+  {
+   "match": "legally authorized|authoriz(ed|ation) to work",
+   "answer": "Yes",
+   "source": "user",
+   "learnedAt": "2026-08-26"
+  },
+  {
+   "match": "sponsor(ship)?|require.*visa|visa.*(now|future)",
+   "answer": "Yes",
+   "source": "user",
+   "learnedAt": "2026-08-26",
+   "note": "Needs sponsorship now or in the future — always Yes."
+  },
+  {
+   "match": "visa status|immigration status|work authorization status|current visa",
+   "answer": "F-1 (CPT), I-485 pending",
+   "source": "user",
+   "learnedAt": "2026-08-26"
+  },
+  {
+   "match": "current (city|location)|where (are you|do you).*(located|based)|city.*state",
+   "answer": "New York, NY",
+   "source": "user",
+   "learnedAt": "2026-08-26"
+  },
+  {
+   "match": "relocat",
+   "answer": "Yes",
+   "source": "user",
+   "learnedAt": "2026-08-26"
+  },
+  {
+   "match": "salary|compensation|pay expectation|desired pay",
+   "answer": "$150,000+",
+   "source": "user",
+   "learnedAt": "2026-08-26"
+  },
+  {
+   "match": "github",
+   "answer": "https://github.com/nonameisready",
+   "source": "user",
+   "learnedAt": "2026-08-26"
+  },
+  {
+   "match": "commut|on-?site.*(willing|able)|hybrid.*(willing|able)",
+   "answer": "Yes",
+   "source": "derived",
+   "learnedAt": "2026-08-26",
+   "note": "Based in NYC and willing to relocate, so onsite/hybrid is workable."
+  },
+  {
+   "match": "linked\\s*-?in",
+   "answer": "https://www.linkedin.com/in/belindamao",
+   "source": "user",
+   "learnedAt": "2026-08-26"
+  }
+ ],
+ "note": "Regex `match` is tested case-insensitively against a form question's label. Answers the user gives to open questions in questions.json get appended here so the agent never asks twice. Never store passwords or secrets in this file."
 }

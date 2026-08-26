@@ -176,3 +176,12 @@ fires again tomorrow either way.
   the most that is worth doing.
 - Microsoft (Eightfold) requires account sign-in; Workday tenants (Cisco…) require the
   account-creation wizard — park both kinds as needs_manual until a dedicated flow exists.
+- Rippling's own ATS gates the final submit behind Cloudflare Turnstile, which rejects the
+  container's datacenter IP no matter how the form was filled. Fill + verify, then park as
+  needs_manual. Do not attempt captcha circumvention.
+- LinkedIn: https://www.linkedin.com/in/belindamao (user provided 2026-08-26) — in
+  profile/memory now; the "no LinkedIn" policy note is obsolete.
+- Account-gated sites (Microsoft/Eightfold, Workday tenants): if the environment provides
+  ATS_ACCOUNT_PASSWORD, the agent may register site-native accounts with the user's email +
+  that password (verification codes read from Gmail), then apply. NEVER ask for or use the
+  user's Google account password, and never automate a Google OAuth password prompt.

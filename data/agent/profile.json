@@ -1,37 +1,67 @@
 {
-  "firstName": "Hui",
-  "lastName": "Mao",
-  "fullName": "Hui Mao",
-  "email": "huiluckylucky@gmail.com",
-  "phone": "281-250-7589",
-  "headline": "Senior Software Engineer — Backend / Distributed Systems / AI Infrastructure",
-  "yearsExperience": 7,
-  "location": "New York, NY",
-  "willingToRelocate": true,
-  "linkedin": "",
-  "linkedinNote": "No LinkedIn profile (user said N/A). Leave optional LinkedIn fields empty; if a form REQUIRES one, park the job as needs_manual — never substitute the GitHub URL.",
-  "github": "https://github.com/nonameisready",
-  "website": "",
-  "workAuth": "F-1 (CPT), I-485 pending",
-  "needsSponsor": true,
-  "usAuthorized": true,
-  "workAuthNote": "Currently authorized to work in the US on F-1 CPT with I-485 pending, and WILL need sponsorship now or in the future — answer 'Yes' to 'legally authorized to work in the US' and 'Yes' to 'require sponsorship'. Never claim citizen/green-card status.",
-  "salaryExpectation": "$150,000+ base",
-  "noticePeriod": "",
-  "education": [
-    { "school": "University of Pennsylvania", "degree": "M.S., Computer Science" },
-    { "school": "Rice University", "degree": "M.S., Applied Mathematics & Statistics" },
-    { "school": "Shanghai University of Finance and Economics", "degree": "B.A., Economics" }
-  ],
-  "recentEmployers": [
-    { "company": "Bank of America (via Innova Solutions)", "title": "Senior Software Engineer", "period": "Jun 2024 - Dec 2025" },
-    { "company": "BlackRock – Hedge Fund Solutions", "title": "Quantitative Research Engineer / Software Engineer", "period": "Oct 2018 - Feb 2024" }
-  ],
-  "skills": [
-    "Python", "Go", "TypeScript", "SQL", "PySpark",
-    "Distributed systems", "Backend services", "REST APIs", "CI/CD", "Docker", "AWS",
-    "LLM inference pipelines", "RAG systems", "vector databases", "vLLM", "SgLang"
-  ],
-  "resumeFile": "Hui_Mao_Backend_Software_Engineer.pdf",
-  "resumeNote": "The canonical resume lives in Jobright (already uploaded there). For direct-site applications the agent downloads the default resume from the radar app (Settings → resumes) or asks for a fresh copy."
+ "firstName": "Hui",
+ "lastName": "Mao",
+ "fullName": "Hui Mao",
+ "email": "huiluckylucky@gmail.com",
+ "phone": "281-250-7589",
+ "headline": "Senior Software Engineer — Backend / Distributed Systems / AI Infrastructure",
+ "yearsExperience": 7,
+ "location": "New York, NY",
+ "willingToRelocate": true,
+ "linkedin": "https://www.linkedin.com/in/belindamao",
+ "linkedinNote": "LinkedIn provided by user on 2026-08-26.",
+ "github": "https://github.com/nonameisready",
+ "website": "",
+ "workAuth": "F-1 (CPT), I-485 pending",
+ "needsSponsor": true,
+ "usAuthorized": true,
+ "workAuthNote": "Currently authorized to work in the US on F-1 CPT with I-485 pending, and WILL need sponsorship now or in the future — answer 'Yes' to 'legally authorized to work in the US' and 'Yes' to 'require sponsorship'. Never claim citizen/green-card status.",
+ "salaryExpectation": "$150,000+ base",
+ "noticePeriod": "",
+ "education": [
+  {
+   "school": "University of Pennsylvania",
+   "degree": "M.S., Computer Science"
+  },
+  {
+   "school": "Rice University",
+   "degree": "M.S., Applied Mathematics & Statistics"
+  },
+  {
+   "school": "Shanghai University of Finance and Economics",
+   "degree": "B.A., Economics"
+  }
+ ],
+ "recentEmployers": [
+  {
+   "company": "Bank of America (via Innova Solutions)",
+   "title": "Senior Software Engineer",
+   "period": "Jun 2024 - Dec 2025"
+  },
+  {
+   "company": "BlackRock – Hedge Fund Solutions",
+   "title": "Quantitative Research Engineer / Software Engineer",
+   "period": "Oct 2018 - Feb 2024"
+  }
+ ],
+ "skills": [
+  "Python",
+  "Go",
+  "TypeScript",
+  "SQL",
+  "PySpark",
+  "Distributed systems",
+  "Backend services",
+  "REST APIs",
+  "CI/CD",
+  "Docker",
+  "AWS",
+  "LLM inference pipelines",
+  "RAG systems",
+  "vector databases",
+  "vLLM",
+  "SgLang"
+ ],
+ "resumeFile": "Hui_Mao_Backend_Software_Engineer.pdf",
+ "resumeNote": "The canonical resume lives in Jobright (already uploaded there). For direct-site applications the agent downloads the default resume from the radar app (Settings → resumes) or asks for a fresh copy."
 }

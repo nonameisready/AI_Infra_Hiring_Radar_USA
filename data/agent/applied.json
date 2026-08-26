@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-26T18:55:00Z",
+ "updatedAt": "2026-08-26T19:45:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -12,7 +12,7 @@
    "originalUrl": "https://ats.rippling.com/rippling/jobs/c3d4a64f-8e8f-4e31-9b44-1db5fc6b3433",
    "status": "needs_manual",
    "via": null,
-   "detail": "Form fully auto-filled and verified, but LinkedIn Link is REQUIRED and user has no LinkedIn - policy: never substitute. 2-min manual submit.",
+   "detail": "LinkedIn resolved (user provided). Form now fully verified: all fields, LinkedIn, location committed, SMS-consent No, resume attached. Blocked ONLY by Cloudflare Turnstile rejecting the datacenter IP at final submit - 2-minute manual submit from user's own network.",
    "at": "2026-08-26T18:55:00Z"
   },
   "6a8e124ed34f700f87fd7c0d": {

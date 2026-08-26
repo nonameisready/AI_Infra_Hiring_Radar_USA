@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-26T18:55:00Z",
+ "updatedAt": "2026-08-26T19:45:00Z",
  "items": [
   {
    "id": "6a5582404119652ff38661ee",
@@ -9,7 +9,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5582404119652ff38661ee",
    "originalUrl": "https://ats.rippling.com/rippling/jobs/c3d4a64f-8e8f-4e31-9b44-1db5fc6b3433",
-   "reason": "Form fully auto-filled and verified, but LinkedIn Link is REQUIRED and user has no LinkedIn - policy: never substitute. 2-min manual submit.",
+   "reason": "表单已全部自动填好并验证（LinkedIn 已补上）：只差最后的 Cloudflare 人机验证拦截了云端 IP。你打开链接，字段会由简历解析自动填充，核对后点 Apply + 勾人机验证即可（约 2 分钟）。",
    "status": "needs_manual",
    "addedAt": "2026-08-26"
   },

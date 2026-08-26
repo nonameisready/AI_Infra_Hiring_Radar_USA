@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-26T18:55:00Z",
+ "updatedAt": "2026-08-26T19:20:00Z",
  "open": [
   {
    "id": "q-employment-restrictions",
@@ -40,7 +40,7 @@
    "question": "LinkedIn 个人主页 URL？",
    "field": "linkedin",
    "askedAt": "2026-08-23",
-   "answer": "没有 LinkedIn（N/A）。GitHub: https://github.com/nonameisready。LinkedIn 为必填的表单挂起为 needs_manual，绝不拿 GitHub 顶替。",
+   "answer": "https://www.linkedin.com/in/belindamao（用户 2026-08-26 补充提供）",
    "answeredAt": "2026-08-26"
   },
   {
