@@ -1,6 +1,84 @@
 {
-  "version": 1,
-  "updatedAt": "2026-08-23T00:00:00Z",
-  "items": [],
-  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
+ "version": 1,
+ "updatedAt": "2026-08-26T18:55:00Z",
+ "items": [
+  {
+   "id": "6a5582404119652ff38661ee",
+   "title": "Senior Software Engineer, Backend - HR Product",
+   "company": "Rippling",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5582404119652ff38661ee",
+   "originalUrl": "https://ats.rippling.com/rippling/jobs/c3d4a64f-8e8f-4e31-9b44-1db5fc6b3433",
+   "reason": "Form fully auto-filled and verified, but LinkedIn Link is REQUIRED and user has no LinkedIn - policy: never substitute. 2-min manual submit.",
+   "status": "needs_manual",
+   "addedAt": "2026-08-26"
+  },
+  {
+   "id": "6a8e124ed34f700f87fd7c0d",
+   "title": "Software Engineer II",
+   "company": "Microsoft",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8e124ed34f700f87fd7c0d",
+   "originalUrl": "https://apply.careers.microsoft.com/careers/job/1970393556929363",
+   "reason": "Microsoft careers (Eightfold) requires signing in with a Microsoft/Google/LinkedIn account - agent never automates those logins.",
+   "status": "needs_manual",
+   "addedAt": "2026-08-26"
+  },
+  {
+   "id": "6a2a4fc21de59e0682a83f93",
+   "title": "Senior Software Engineer, Backend",
+   "company": "Grow Therapy",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a2a4fc21de59e0682a83f93",
+   "originalUrl": "https://jobs.ashbyhq.com/grow-therapy/16179a07-5099-4034-941c-7b2f28d91e83/application",
+   "reason": "Ashby anti-bot flagged the datacenter IP as spam ('turn off your VPN or proxy'), twice. Form itself fully auto-fills (name, resume, sponsorship Yes, EEO declines) - submitting from your own network takes 2 minutes.",
+   "status": "needs_manual",
+   "addedAt": "2026-08-26"
+  },
+  {
+   "id": "6a7f5d64927c79391ad0834b",
+   "title": "Senior Backend Engineer",
+   "company": "GitLab",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7f5d64927c79391ad0834b",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=gitlab&token=8715968002",
+   "reason": "Blocked on q-employment-restrictions (GitLab asks 'Are you subject to any employment agreements and/or post-employment restrictions?' - a legal question the agent will not guess). Also asks for open-source links and primary language; agent can answer those once unblocked.",
+   "status": "needs_info",
+   "addedAt": "2026-08-26"
+  },
+  {
+   "id": "6a8f151d382b237ac80c4235",
+   "title": "Senior Software Engineer",
+   "company": "Wise",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8f151d382b237ac80c4235",
+   "originalUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/Wise/publication/c0f0edeb-406c-44a9-b84a-a0dcd9b4d65b",
+   "reason": "SmartRecruiters hard-blocked the datacenter IP ('Access is temporarily restricted - automated activity'). Apply from your own network.",
+   "status": "needs_manual",
+   "addedAt": "2026-08-26"
+  },
+  {
+   "id": "6a8eeaa7a10ee661e24d5672",
+   "title": "Sr Software Engineer",
+   "company": "Cisco",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8eeaa7a10ee661e24d5672",
+   "originalUrl": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Richardson-Texas-US/Sr-Software-Engineer_2021855-1",
+   "reason": "Cisco uses Workday, which requires creating a per-tenant account through a multi-step wizard - not automated yet.",
+   "status": "needs_manual",
+   "addedAt": "2026-08-26"
+  },
+  {
+   "id": "6a8eeaaa382b237ac80c3377",
+   "title": "Software Engineer",
+   "company": "Cisco",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8eeaaa382b237ac80c3377",
+   "originalUrl": null,
+   "reason": "Cisco / Workday - same as above.",
+   "status": "needs_manual",
+   "addedAt": "2026-08-26"
+  }
+ ],
+ "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
 }

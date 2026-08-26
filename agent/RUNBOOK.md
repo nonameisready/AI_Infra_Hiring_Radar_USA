@@ -154,3 +154,25 @@ Finish with a short report: applied N (list the companies), parked M with reason
 that need the user, and anything that looked broken (login flow, selectors, captcha). If
 nothing could run at all, say exactly which blocker and what the user must do — the Routine
 fires again tomorrow either way.
+
+## Field notes from the 2026-08-26 supervised run
+
+- `agent/finishers/` holds the working drivers from the first real run: `run-apply.mjs`
+  (jobright page → decline the extension pitch → company ATS, dry-fill + required-field
+  report), `gh-finish.mjs` (Greenhouse: comboboxes, custom answers file, emailed
+  security-code wait via `$AGENT_WORK_DIR/gh-code.txt`), `ashby-finish.mjs` (Ashby: name,
+  sponsorship buttons, EEO declines). They expect `AGENT_WORK_DIR`, `REPO_DIR`,
+  `autofill-profile.json` and the resume PDF in the work dir — see each header.
+- Jobright's "APPLY WITH AUTOFILL" first pitches their Chrome extension; click
+  **"No, Apply Manually"** and catch the popup — that is the company ATS.
+- Do NOT trust "Applied" appearing in jobright page text — it is a nav label. Only a real
+  ATS confirmation page counts as submitted.
+- Greenhouse asks for an 8-char security code emailed to the account; search Gmail
+  `from:greenhouse subject:"Security code"`, take the NEWEST message, write the code to
+  the code file. One code per submit attempt — resubmitting invalidates older codes.
+- Ashby and SmartRecruiters block the remote container's datacenter IP (spam/VPN flags),
+  independent of form correctness. Verify the fill, then park as needs_manual with a note
+  that it takes 2 minutes from a residential network. Retrying once after a few minutes is
+  the most that is worth doing.
+- Microsoft (Eightfold) requires account sign-in; Workday tenants (Cisco…) require the
+  account-creation wizard — park both kinds as needs_manual until a dedicated flow exists.
