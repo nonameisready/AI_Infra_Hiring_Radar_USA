@@ -213,3 +213,36 @@ The user's target is up to `dailyCap` (100) engineer applications per day:
   When `ATS_ACCOUNT_PASSWORD` is present in the environment, sign in with it (verification
   emails via Gmail) and apply; the two parked Cisco jobs in pending.json go first. If the
   variable is absent, leave them parked — never ask for the password in chat.
+
+## Phase R — Radar fill to quota (added 2026-08-26)
+
+After Step 3 clears the Jobright pool, top the day up to `dailyCap` from the user's own
+AI Hiring Radar — both tabs, using the resume uploaded for each tab.
+
+Prerequisite: `DATABASE_URL` in the environment (the radar's Postgres). Without it, skip this
+phase and say so in the report.
+
+```bash
+node scripts/agent-radar-apply.mjs --quota <dailyCap minus jobright submissions> --plan  # review the selection
+node scripts/agent-radar-apply.mjs --quota <same>                                        # queue + browser pass
+```
+
+What it does: boots the app locally against the production DB, selects the best-scored
+unapplied USA jobs across `ai` and `fde` (skipping anything already in applied.json by
+company::title, non-fillable sources, and jobs with an application row), queues them through
+the app's own `/api/apply`, then runs `worker/auto-apply.mjs --submit --once`. The worker
+overlays the agent's learned answers (memory.json) onto the server profile, and it reports
+"submitted" only when the ATS shows a real confirmation — a clicked button with no
+confirmation page comes back as needs_manual, and "too many requests" comes back as failed
+for a later retry.
+
+Afterwards:
+- The Radar UI itself shows every outcome (states are in the shared DB) — no extra bookkeeping
+  needed for the tabs.
+- Mirror the script's `failures` array into data/agent/pending.json (with track and reason) so
+  the manual list in the agent tab stays the single place the user checks.
+- Append `submitted` to APPLIED.md with per-job match/score, and count them in applied.json
+  (key: company::title) so Jobright and Radar never double-apply to the same posting.
+- Greenhouse rate-limits repeated submissions per IP (observed after ~5 rapid submits): the
+  worker paces 2.5s between jobs, but if failures with "too many requests" start, stop the
+  Greenhouse portion for ~45 minutes and continue with other sources, or resume next run.

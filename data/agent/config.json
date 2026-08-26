@@ -16,5 +16,15 @@
   "infrastructure",
   "platform",
   "ai"
- ]
+ ],
+ "radarFill": {
+  "enabled": true,
+  "tracks": [
+   "ai",
+   "fde"
+  ],
+  "script": "scripts/agent-radar-apply.mjs",
+  "requiresEnv": "DATABASE_URL",
+  "note": "After the Jobright pool is cleared, fill the remaining daily quota from the AI Hiring Radar, best score first, per-tab resumes, browser worker submits with confirmation verification."
+ }
 }

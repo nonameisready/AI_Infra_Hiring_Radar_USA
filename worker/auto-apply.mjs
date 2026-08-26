@@ -34,6 +34,42 @@ const AUTOFILL_SRC = fs.readFileSync(
   "utf8",
 );
 
+/**
+ * The Jobright agent keeps a richer profile + learned Q&A regex rules under
+ * data/agent/. When present, overlay them onto the server profile so forms
+ * get the same answers (sponsorship, salary, LinkedIn…) on every path.
+ */
+function agentOverlay(profile) {
+  const read = (f) => {
+    try {
+      return JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "agent", f), "utf8"));
+    } catch {
+      return null;
+    }
+  };
+  const ap = read("profile.json");
+  const mem = read("memory.json");
+  const merged = { ...profile };
+  if (ap) {
+    for (const [k, v] of Object.entries({
+      firstName: ap.firstName, lastName: ap.lastName, email: ap.email, phone: ap.phone,
+      location: ap.location, linkedin: ap.linkedin, github: ap.github, website: ap.website,
+      workAuth: ap.workAuth, needsSponsor: ap.needsSponsor, usAuthorized: ap.usAuthorized,
+    })) {
+      if ((merged[k] === "" || merged[k] == null) && v != null && v !== "") merged[k] = v;
+    }
+  }
+  if (mem?.answers?.length) {
+    let existing = [];
+    try {
+      existing = JSON.parse(merged.customAnswers || "[]");
+    } catch { /* keep [] */ }
+    const fromMemory = mem.answers.map((a) => ({ match: a.match, value: a.answer }));
+    merged.customAnswers = JSON.stringify([...existing, ...fromMemory]);
+  }
+  return merged;
+}
+
 function log(...a) {
   console.log(`[${new Date().toISOString().slice(11, 19)}]`, ...a);
 }
@@ -125,7 +161,25 @@ async function processItem(context, profile, item) {
     const shot = path.join(SHOTS, `${item.applicationId}.png`);
     await page.screenshot({ path: shot, fullPage: true }).catch(() => {});
 
-    if (SUBMIT) await page.waitForTimeout(4000);
+    // A clicked submit is not a submitted application: require the page to
+    // actually acknowledge it, otherwise report needs_manual honestly.
+    let confirmed = false;
+    if (SUBMIT && result.submitted) {
+      await page.waitForTimeout(6000);
+      const text = await page.evaluate(() => document.body?.innerText ?? "").catch(() => "");
+      confirmed =
+        /thank you|application (was |has been )?(received|submitted|sent)|successfully (applied|submitted)|we('|’)ve received/i.test(
+          text,
+        );
+      if (!confirmed && /too many requests/i.test(text)) {
+        await report({
+          applicationId: item.applicationId,
+          status: "failed",
+          error: "ATS rate-limited this IP (too many requests) — retry later",
+        });
+        return;
+      }
+    }
 
     const detail = JSON.stringify(
       {
@@ -144,7 +198,15 @@ async function processItem(context, profile, item) {
     // Filling nothing means the page was not the application form.
     const usable = result.filled.length >= 3 && attached > 0;
 
-    if (SUBMIT && result.submitted && usable) {
+    if (SUBMIT && result.submitted && usable && !confirmed) {
+      log(`  • submit clicked but no confirmation page — handing to manual`);
+      await report({
+        applicationId: item.applicationId,
+        status: "needs_manual",
+        detail,
+        error: "Submit was clicked but the page showed no confirmation — verify and finish manually",
+      });
+    } else if (SUBMIT && result.submitted && usable) {
       log(`  ✓ submitted (${result.filled.length} fields, resume attached)`);
       await report({ applicationId: item.applicationId, status: "submitted", detail });
     } else if (usable) {
@@ -233,7 +295,7 @@ async function main() {
 
       log(`Picked up ${batch.items.length} application(s)`);
       for (const item of batch.items) {
-        await processItem(context, batch.profile, item);
+        await processItem(context, agentOverlay(batch.profile), item);
         await new Promise((r) => setTimeout(r, 2500)); // be polite to the ATS
       }
     }
