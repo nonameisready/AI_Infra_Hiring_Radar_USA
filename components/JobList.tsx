@@ -37,6 +37,35 @@ function ScoreDot({ score }: { score: number }) {
   );
 }
 
+/** Personal fit badge, jobright-style: how well this posting fits the résumé. */
+function MatchBadge({ job }: { job: JobRow }) {
+  const m = job.match;
+  const b = job.matchBreakdown;
+  const tone =
+    m >= 80
+      ? "bg-emerald-500/15 text-emerald-300"
+      : m >= 65
+        ? "bg-lime-500/15 text-lime-300"
+        : m >= 50
+          ? "bg-amber-500/15 text-amber-300"
+          : "bg-zinc-500/15 text-zinc-400";
+  const tip = [
+    `Skills ${b.skills}%`,
+    `Seniority ${b.seniority}%`,
+    `Relevance ${b.relevance}%`,
+    `Location ${b.location}%`,
+    ...(b.flags.length ? [`⚠ ${b.flags.join(", ")}`] : []),
+  ].join(" · ");
+  return (
+    <span
+      title={tip}
+      className={`shrink-0 cursor-help rounded-full px-1.5 py-0.5 text-[11px] font-medium tabular-nums ${tone}`}
+    >
+      {m}%{b.flags.length > 0 && " ⚠"}
+    </span>
+  );
+}
+
 export function JobList({
   jobs,
   track,
@@ -141,6 +170,7 @@ export function JobList({
               <div className="min-w-0 flex-1">
                 <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
                   <ScoreDot score={job.score} />
+                  <MatchBadge job={job} />
                   <a
                     href={job.applyUrl ?? job.url}
                     target="_blank"

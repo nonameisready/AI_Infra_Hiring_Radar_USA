@@ -10,6 +10,8 @@ const nextConfig = {
       // The Jobright Agent tab reads the agent's committed state files at
       // request time, so they too must be traced into the serverless bundle.
       "/api/agent": ["./data/agent/**"],
+      // The personal match score reads the candidate profile the same way.
+      "/api/jobs": ["./data/agent/profile.json"],
     },
   },
 };

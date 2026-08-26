@@ -15,6 +15,14 @@ export type JobRow = {
   seniority: string | null;
   matchedTypes: string[];
   score: number;
+  match: number;
+  matchBreakdown: {
+    skills: number;
+    seniority: number;
+    relevance: number;
+    location: number;
+    flags: string[];
+  };
   source: string;
   applyMethod: string;
   usa: boolean;
@@ -128,7 +136,7 @@ export type Filters = {
   hideApplied: boolean;
   seniority: string[];
   types: string[];
-  sort: "fresh" | "score" | "company";
+  sort: "fresh" | "score" | "match" | "company";
 };
 
 export const DEFAULT_FILTERS: Filters = {

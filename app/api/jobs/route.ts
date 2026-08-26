@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { Prisma } from "@prisma/client";
 import { prisma } from "../../../lib/db";
+import { computeMatch, MatchBreakdown } from "../../../lib/match";
 
 export const dynamic = "force-dynamic";
 
@@ -19,6 +20,8 @@ export type JobRow = {
   seniority: string | null;
   matchedTypes: string[];
   score: number;
+  match: number;
+  matchBreakdown: MatchBreakdown;
   source: string;
   applyMethod: string;
   usa: boolean;
@@ -79,8 +82,11 @@ export async function GET(req: Request) {
     ...(and.length ? { AND: and } : {}),
   };
 
+  // "match" is computed per row after the query; the classifier score is its
+  // best DB-side proxy, so match-sorted pages are drawn from the highest
+  // scores and re-ranked exactly within the page.
   const orderBy: Prisma.JobOrderByWithRelationInput[] =
-    sort === "score"
+    sort === "score" || sort === "match"
       ? [{ score: "desc" }, { postedAt: "desc" }]
       : sort === "company"
         ? [{ company: { name: "asc" } }, { postedAt: "desc" }]
@@ -110,6 +116,15 @@ export async function GET(req: Request) {
 
   const rows: JobRow[] = jobs.map((j) => {
     const app = j.applications[0];
+    const { match, breakdown } = computeMatch({
+      title: j.title,
+      description: j.description,
+      seniority: j.seniority,
+      location: j.location,
+      remote: j.remote,
+      usa: j.usa,
+      score: j.score,
+    });
     return {
       id: j.id,
       title: j.title,
@@ -125,6 +140,8 @@ export async function GET(req: Request) {
       seniority: j.seniority,
       matchedTypes: (j.matchedTypes ?? "").split(",").filter(Boolean),
       score: j.score,
+      match,
+      matchBreakdown: breakdown,
       source: j.source,
       applyMethod: j.applyMethod,
       usa: j.usa,
@@ -139,6 +156,8 @@ export async function GET(req: Request) {
         : null,
     };
   });
+
+  if (sort === "match") rows.sort((a, b) => b.match - a.match);
 
   return NextResponse.json({
     jobs: rows,

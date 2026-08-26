@@ -88,7 +88,7 @@ try {
   const perTrack = Math.ceil(QUOTA / TRACKS.length);
   const picked = [];
   for (const track of TRACKS) {
-    const res = await api(`/api/jobs?track=${track}&hideApplied=1&usa=1&sort=score&limit=300`);
+    const res = await api(`/api/jobs?track=${track}&hideApplied=1&usa=1&sort=match&limit=300`);
     let took = 0;
     for (const j of res.jobs) {
       if (took >= perTrack || picked.length >= QUOTA) break;
@@ -96,13 +96,18 @@ try {
       if (appliedKeys.has(key)) continue;
       if (j.application) continue;
       if (!FILLABLE.has(j.source)) continue;
-      picked.push({ id: j.id, track, title: j.title, company: j.company, score: j.score, source: j.source, url: j.applyUrl || j.url });
+      // Skip jobs the match scorer flags as sponsorship-blocked — applying
+      // would waste quota on honest rejections. Other flags (off-track,
+      // seniority) just rank lower; they are not auto-rejections.
+      const flags = j.matchBreakdown?.flags ?? [];
+      if (flags.some((f) => /citizenship|clearance|sponsorship/.test(f))) continue;
+      picked.push({ id: j.id, track, title: j.title, company: j.company, match: j.match ?? j.score, source: j.source, url: j.applyUrl || j.url });
       took++;
     }
   }
   out.selected = picked.length;
   out.byTrack = Object.fromEntries(TRACKS.map((t) => [t, picked.filter((p) => p.track === t).length]));
-  out.jobs = picked.map((p) => `${p.score} ${p.track} ${p.source} | ${p.company} — ${p.title}`);
+  out.jobs = picked.map((p) => `${p.match}% ${p.track} ${p.source} | ${p.company} — ${p.title}`);
   if (PLAN_ONLY) {
     console.log(JSON.stringify(out, null, 1));
     process.exit(0);

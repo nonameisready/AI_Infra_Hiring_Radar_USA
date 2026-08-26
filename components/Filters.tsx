@@ -63,7 +63,8 @@ export function FiltersBar({
           aria-label="Sort order"
         >
           <option value="fresh">Newest first</option>
-          <option value="score">Best match</option>
+          <option value="match">Best match for me</option>
+          <option value="score">Track relevance</option>
           <option value="company">By company</option>
         </select>
 
