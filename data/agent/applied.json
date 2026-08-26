@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-26T21:50:00Z",
+ "updatedAt": "2026-08-26T21:05:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -130,7 +130,7 @@
    "originalUrl": "https://thatch.com/jobs/software-engineer-backend-5113759008",
    "status": "retrying",
    "via": null,
-   "detail": "Form fully verified (both essays, 5-7 years, sponsorship Yes, LinkedIn) but Greenhouse rate-limits this IP: 'Too many requests' twice. Agent retries later today; if still limited, tomorrow's run submits it first.",
+   "detail": "Form fully verified (both essays, 5-7 years, sponsorship Yes, LinkedIn). Greenhouse rate-limited this container's IP three times across ~1.5h ('Too many requests') - the window outlasts same-day retries. Tomorrow's daily run (fresh container, likely fresh egress IP) submits it FIRST, before any other Greenhouse job.",
    "at": "2026-08-26T21:50:00Z"
   }
  },
