@@ -82,6 +82,12 @@ try {
       await manual.click().catch(() => {});
       step("declined-extension-pitch");
     }
+    // Second upsell variant: "Customize Your Resume in 10 seconds".
+    const plain = page.getByText(/apply without customizing/i).first();
+    if (await plain.isVisible().catch(() => false)) {
+      await plain.click().catch(() => {});
+      step("declined-resume-customize-pitch");
+    }
     ats = await popupP;
     if (!ats) {
       await page.waitForTimeout(3000);

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-26T21:00:00Z",
+ "updatedAt": "2026-08-26T21:50:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -106,6 +106,32 @@
    "via": null,
    "detail": "User registered a Cisco Workday account (huiluckylucky@gmail.com). Auto-apply as soon as ATS_ACCOUNT_PASSWORD is set in the Claude environment - next daily run logs in and submits.",
    "at": "2026-08-26T18:55:00Z"
+  },
+  "6a26b10130042e7539084993": {
+   "id": "6a26b10130042e7539084993",
+   "key": "motion (creative analytics)::senior software engineer (backend)",
+   "title": "Senior Software Engineer (Backend)",
+   "company": "Motion (Creative Analytics)",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a26b10130042e7539084993",
+   "originalUrl": "https://jobs.gem.com/motion/am9icG9zdDqxbz-koq8Idk9y5HOFUq5_",
+   "status": "applied_direct",
+   "via": "gem",
+   "detail": "Gem ATS. All fields + three tailored essays (Why Motion drew the genuine Adscream/ad-creative connection; AI workflow; GUTI accomplishment). Source picked honestly as 'Other' (no Jobright option), region North America. Confirmation: 'Congratulations! Your application has been received!'",
+   "at": "2026-08-26T21:50:00Z"
+  },
+  "6a8f2f4c382b237ac80c4b59": {
+   "id": "6a8f2f4c382b237ac80c4b59",
+   "key": "thatch::software engineer: backend",
+   "title": "Software Engineer: Backend",
+   "company": "Thatch",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8f2f4c382b237ac80c4b59",
+   "originalUrl": "https://thatch.com/jobs/software-engineer-backend-5113759008",
+   "status": "retrying",
+   "via": null,
+   "detail": "Form fully verified (both essays, 5-7 years, sponsorship Yes, LinkedIn) but Greenhouse rate-limits this IP: 'Too many requests' twice. Agent retries later today; if still limited, tomorrow's run submits it first.",
+   "at": "2026-08-26T21:50:00Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
