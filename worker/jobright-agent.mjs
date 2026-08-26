@@ -68,7 +68,15 @@ async function launch() {
     ...(process.env.HTTPS_PROXY || process.env.https_proxy
       ? { proxy: { server: process.env.HTTPS_PROXY ?? process.env.https_proxy } }
       : {}),
-    args: ["--disable-blink-features=AutomationControlled", "--no-sandbox"],
+    args: [
+      "--disable-blink-features=AutomationControlled",
+      "--no-sandbox",
+      // The remote container's egress gateway resets Chromium's TLS 1.3
+      // ClientHello inside CONNECT tunnels but accepts TLS 1.2, and Chromium
+      // reads trust from ~/.pki/nssdb, which agent/setup-browser-trust.sh
+      // must have populated with the proxy CA first.
+      ...(process.env.CCR_AGENT_PROXY_ENABLED ? ["--ssl-version-max=tls1.2"] : []),
+    ],
   });
   const context = await browser.newContext({
     viewport: { width: 1440, height: 1000 },
@@ -218,9 +226,12 @@ async function login() {
         ...(await saveEvidence(page, "login")),
       });
     }
+    // The modal's submit shares its "SIGN IN" label with the navbar button, so
+    // target a submit-type button first — the role query alone hits the navbar.
     await clickFirstVisible(page, [
-      () => page.getByRole("button", { name: /sign in|log ?in|continue/i }),
+      () => page.locator('button[type="submit"]', { hasText: /sign in|log ?in|continue/i }),
       () => page.locator('button[type="submit"]'),
+      () => page.getByRole("button", { name: /sign in|log ?in|continue/i }),
     ]);
     await page.waitForTimeout(5000);
 
@@ -265,11 +276,13 @@ async function matches() {
     }
 
     const jobs = await page.evaluate(() => {
+      // Jobright renders the score as e.g. "84%" + "GOOD MATCH" on separate
+      // lines, and each card names title/company adjacent to a "/" separator.
+      const MATCH_RE = /(\d{2,3})\s*%\s*(?:(?:good|strong|fair|great)\s+)?match/i;
       const seen = new Map();
-      // A "card" is any element that mentions an N% match and links to a job.
       const nodes = Array.from(document.querySelectorAll("div,li,article,section")).filter((el) => {
         const t = el.innerText ?? "";
-        return /\d{2,3}%\s*match/i.test(t) && t.length < 1200;
+        return MATCH_RE.test(t.replace(/\n/g, " ")) && t.length < 2500;
       });
       for (const el of nodes) {
         // Keep the innermost matching element per job link.
@@ -278,23 +291,41 @@ async function matches() {
           (el.closest('a[href*="/jobs/info"], a[href*="/job/"]') || null);
         const href = a?.getAttribute("href") ?? "";
         const text = (el.innerText ?? "").trim();
-        const pm = text.match(/(\d{2,3})%\s*match/i);
+        const pm = text.replace(/\n/g, " ").match(MATCH_RE);
         if (!pm) continue;
         const lines = text.split("\n").map((s) => s.trim()).filter(Boolean);
-        const pctIdx = lines.findIndex((l) => /%\s*match/i.test(l));
-        const around = lines.filter((l, i2) => i2 !== pctIdx && l.length > 1 && l.length < 120);
-        const key = href || lines.slice(0, 2).join("::");
+        const slashIdx = lines.findIndex((l) => l === "/");
+        let title = "";
+        let company = "";
+        if (slashIdx >= 2) {
+          company = lines[slashIdx - 1];
+          title = lines[slashIdx - 2];
+        } else {
+          const around = lines.filter((l) => l.length > 1 && l.length < 120 && !MATCH_RE.test(l));
+          title = around[0] ?? "";
+          company = around[1] ?? "";
+        }
+        const key = href || `${company}::${title}`;
         const entry = {
           jobrightUrl: href ? new URL(href, location.origin).toString() : "",
           matchPercent: Number(pm[1]),
-          title: around[0] ?? "",
-          company: around[1] ?? "",
-          lines: lines.slice(0, 8),
+          title,
+          company,
+          lines: lines.slice(0, 10),
+          _len: text.length,
+          _full: slashIdx >= 2,
         };
+        // Prefer the smallest element that still holds the whole card (it has
+        // the title/company "/" block); the innermost hit is just the score
+        // badge, which knows the percentage but not the job.
         const prev = seen.get(key);
-        if (!prev || text.length < prev._len) seen.set(key, { ...entry, _len: text.length });
+        const better =
+          !prev ||
+          (entry._full && !prev._full) ||
+          (entry._full === prev._full && entry._len < prev._len);
+        if (better) seen.set(key, entry);
       }
-      return Array.from(seen.values()).map(({ _len, ...e }) => e);
+      return Array.from(seen.values()).map(({ _len, _full, ...e }) => e);
     });
 
     const evidence = await saveEvidence(page, "matches");

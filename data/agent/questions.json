@@ -1,14 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-23T00:00:00Z",
+  "updatedAt": "2026-08-26T18:00:00Z",
   "open": [
-    {
-      "id": "q-login-method",
-      "question": "Jobright 登录方式：无头浏览器里 Google OAuth 经常被 Google 风控拦截。最稳的方式是给 Jobright 账号设置一个密码（Jobright → Settings → 或通过 forgot-password 用 huiluckylucky@gmail.com 设置），然后把密码存到 Claude 环境变量 JOBRIGHT_PASSWORD（不要写进仓库）。设置好了吗？",
-      "field": "loginMethod",
-      "askedAt": "2026-08-23",
-      "blocking": true
-    },
     {
       "id": "q-work-auth",
       "question": "工作授权状态是什么？(US Citizen / Green Card / H-1B / OPT / 其他)，以及是否需要公司 sponsor 签证（现在或将来）？申请表几乎必问。",
@@ -38,6 +31,15 @@
       "blocking": false
     }
   ],
-  "answered": [],
+  "answered": [
+    {
+      "id": "q-login-method",
+      "question": "Jobright 登录方式：设置密码并存入 Claude 环境变量 JOBRIGHT_PASSWORD。",
+      "field": "loginMethod",
+      "askedAt": "2026-08-23",
+      "answer": "已设置。2026-08-26 验证通过：JOBRIGHT_PASSWORD 在环境中，密码登录成功且无需验证码，推荐列表抓取正常。",
+      "answeredAt": "2026-08-26"
+    }
+  ],
   "note": "The agent appends questions it cannot answer here, keeps the job in pending.json, and continues. When the user answers (in the Agent tab while running locally, or by telling Claude in any session), the answer moves to `answered`, profile.json/memory.json are updated, and the next run uses it automatically. `blocking: true` means applications that need this answer are held as needs_info instead of being submitted with a guess."
 }

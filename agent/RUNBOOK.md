@@ -39,7 +39,15 @@ cd <repo> && git checkout main && git pull origin main
 npm install                      # once per container
 export AGENT_WORK_DIR=<scratchpad>/agent-work && mkdir -p "$AGENT_WORK_DIR"
 export PLAYWRIGHT_CHROMIUM_PATH=/opt/pw-browsers/chromium   # remote container
+bash agent/setup-browser-trust.sh   # once per container: trust the egress-proxy CA in NSS
 ```
+
+In a remote container Chromium needs two accommodations or every HTTPS page dies with
+`ERR_CONNECTION_RESET`: the proxy CA must be in `~/.pki/nssdb` (the script above does it), and
+the browser must be launched with `--ssl-version-max=tls1.2` — the egress gateway resets
+Chromium's TLS 1.3 handshake. `worker/jobright-agent.mjs` and `worker/auto-apply.mjs` add the
+flag automatically when `CCR_AGENT_PROXY_ENABLED` is set; add it yourself whenever you drive
+Playwright directly.
 
 Read all of `data/agent/` first: `config.json`, `profile.json`, `memory.json`,
 `questions.json`, `applied.json`, `pending.json`.
