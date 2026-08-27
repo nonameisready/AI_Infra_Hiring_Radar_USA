@@ -67,7 +67,7 @@
    "prefer": "n/?a|not applicable|^yes"
   },
   {
-   "label": "certify that the information|i certify",
+   "label": "certify that the information|i certify|i confirm that all the information",
    "prefer": "^yes|agree|acknowledge"
   },
   {
@@ -199,6 +199,9 @@
   },
   {
    "label": "^US$"
+  },
+  {
+   "label": "i confirm that all the information|certify that the information"
   }
  ],
  "manualTriggers": [
