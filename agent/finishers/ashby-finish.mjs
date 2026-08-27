@@ -108,6 +108,14 @@ try {
     const text = await page.evaluate(() => document.body?.innerText ?? "");
     out.confirmation = /thank you|application (was )?(received|submitted|sent)|successfully|we('|’)ve received/i.test(text);
     out.confirmationSnippet = text.slice(0, 400);
+    if (!out.confirmation) {
+      out.finalUrl = page.url();
+      out.errors = await page.evaluate(() =>
+        Array.from(document.querySelectorAll('[role="alert"], [class*="error" i], [class*="Error"]'))
+          .map((e) => e.innerText?.trim())
+          .filter((t) => t && t.length > 2 && t.length < 200)
+          .slice(0, 10));
+    }
     out.submitScreenshot = path.join(WORK, `ashby-submit-${tag}.png`);
     await page.screenshot({ path: out.submitScreenshot, fullPage: true });
   }

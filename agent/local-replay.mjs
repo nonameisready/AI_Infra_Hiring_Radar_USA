@@ -117,6 +117,7 @@ for (const job of jobs) {
 
   const ok = Boolean(res?.confirmation);
   results.push({ job, ok, res });
+  fs.appendFileSync(path.join(WORK, "results.jsonl"), JSON.stringify({ id: job.id, company: job.company, ...res }) + "\n");
   if (DRY) {
     console.log(`  filled — screenshot: ${res?.filledScreenshot ?? "?"}  missing: ${JSON.stringify(res?.missingRequired ?? "?")}\n`);
     continue;
@@ -133,7 +134,16 @@ for (const job of jobs) {
     };
     pend.items = pend.items.filter((i) => i.id !== job.id);
   } else {
-    console.log(`  ✗ not confirmed — ${JSON.stringify(res?.missingRequired ?? res?.error ?? "see screenshots").slice(0, 120)}\n`);
+    const why =
+      (res?.errors?.length && `page errors: ${JSON.stringify(res.errors)}`) ||
+      (res?.error && `crash: ${res.error}`) ||
+      (res?.note) ||
+      (res?.confirmationSnippet && `page said: ${res.confirmationSnippet.slice(0, 200).replace(/\n/g, " | ")}`) ||
+      "no result";
+    console.log(`  ✗ not confirmed — ${why}`);
+    if (res?.finalUrl) console.log(`    final url: ${res.finalUrl}`);
+    if (res?.submitScreenshot) console.log(`    submit screenshot: ${res.submitScreenshot}`);
+    console.log("");
   }
   await new Promise((r) => setTimeout(r, 150_000)); // pace between submissions
 }
