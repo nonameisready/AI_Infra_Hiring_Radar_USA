@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T03:50:00Z",
+ "updatedAt": "2026-08-27T03:55:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -244,11 +244,11 @@
    "company": "Stripe",
    "matchPercent": 95,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a402c3a1afc66714d3c9bb2",
-   "at": "2026-08-27T03:50:00Z",
-   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&jr_id=6a402c3a1afc66714d3c9bb2&token=6176758&utm_source=jobright",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "定制必答题待第二遍处理"
+   "originalUrl": null,
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Stripe Money as a Service — same template, third Stripe of the night. Confirmation verified.",
+   "at": "2026-08-27T03:55:00Z"
   },
   "6a8f75e80bd89e205d246e6a": {
    "id": "6a8f75e80bd89e205d246e6a",
