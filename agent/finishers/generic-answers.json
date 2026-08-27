@@ -1,19 +1,80 @@
 {
-  "combos": [
-    { "label": "^Country", "prefer": "^United States" },
-    { "label": "country of residence", "prefer": "^United States" },
-    { "label": "require sponsorship|sponsorship for employment|visa", "prefer": "^yes$|yes, but not one" },
-    { "label": "legally authorized|authorized to work|eligible to work", "prefer": "^yes" },
-    { "label": "how did you (hear|learn)", "prefer": "job board|other" },
-    { "label": "years of.*experience", "prefer": "5.7|^7|7\\+|5\\+|6|8.10|5.10" },
-    { "label": "located in the (us|united states)", "prefer": "^yes" },
-    { "label": "disability", "prefer": "do not (want|wish) to answer|don'?t wish|decline" },
-    { "label": "veteran", "prefer": "don'?t wish|decline|not a protected" },
-    { "label": "gender", "prefer": "decline" },
-    { "label": "race|ethnicit", "prefer": "decline|choose not" },
-    { "label": "hispanic", "prefer": "decline|no" }
-  ],
-  "texts": [
-    { "label": "linkedin", "text": "https://www.linkedin.com/in/belindamao" }
-  ]
+ "combos": [
+  {
+   "label": "location.*city|^location",
+   "prefer": "new york",
+   "type": "New York"
+  },
+  {
+   "label": "^country|country of residence|country do you live",
+   "prefer": "^united states",
+   "type": "United States"
+  },
+  {
+   "label": "^Country",
+   "prefer": "^United States"
+  },
+  {
+   "label": "country of residence",
+   "prefer": "^United States"
+  },
+  {
+   "label": "require sponsorship|sponsorship for employment|visa",
+   "prefer": "^yes$|yes, but not one"
+  },
+  {
+   "label": "legally authorized|authorized to work|eligible to work",
+   "prefer": "^yes"
+  },
+  {
+   "label": "how did you (hear|learn)",
+   "prefer": "job board|other"
+  },
+  {
+   "label": "years of.*experience",
+   "prefer": "5.7|^7|7\\+|5\\+|6|8.10|5.10"
+  },
+  {
+   "label": "located in the (us|united states)",
+   "prefer": "^yes"
+  },
+  {
+   "label": "disability",
+   "prefer": "do not (want|wish) to answer|don'?t wish|decline"
+  },
+  {
+   "label": "veteran",
+   "prefer": "don'?t wish|decline|not a protected"
+  },
+  {
+   "label": "gender",
+   "prefer": "decline"
+  },
+  {
+   "label": "race|ethnicit",
+   "prefer": "decline|choose not"
+  },
+  {
+   "label": "hispanic",
+   "prefer": "decline|no"
+  },
+  {
+   "label": "based in the (nyc|new york)",
+   "prefer": "^yes"
+  },
+  {
+   "label": "if you are not currently based",
+   "prefer": "n/?a|not applicable|^yes"
+  },
+  {
+   "label": "certify that the information|i certify",
+   "prefer": "^yes|agree|acknowledge"
+  }
+ ],
+ "texts": [
+  {
+   "label": "linkedin",
+   "text": "https://www.linkedin.com/in/belindamao"
+  }
+ ]
 }

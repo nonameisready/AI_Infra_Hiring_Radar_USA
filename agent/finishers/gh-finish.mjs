@@ -67,8 +67,22 @@ try {
       for (let i = 0; i < n; i++) {
         const el = all.nth(i);
         if (!(await el.isVisible().catch(() => false))) continue;
-        const label = await el.evaluate((e) =>
-          (e.labels?.[0]?.innerText || e.getAttribute("aria-label") || e.closest("div,fieldset")?.querySelector("label")?.innerText || "").trim());
+        const label = await el.evaluate((e) => {
+          const direct =
+            e.labels?.[0]?.innerText || e.getAttribute("aria-label") ||
+            e.closest("div,fieldset")?.querySelector("label")?.innerText || "";
+          if (direct.trim()) return direct.trim();
+          // Greenhouse's remix UI: no label association — the question text is
+          // the first meaningful line of an enclosing container.
+          let node = e.parentElement;
+          for (let d = 0; d < 6 && node; d++) {
+            const line = (node.innerText ?? "").split("\n").map((t) => t.trim())
+              .find((t) => t && !/^select\.{0,3}$/i.test(t));
+            if (line) return line;
+            node = node.parentElement;
+          }
+          return "";
+        });
         if (new RegExp(c.label, "i").test(label)) return { el, label };
       }
       return null;
@@ -88,8 +102,14 @@ try {
     }
     await target.el.click();
     await page.waitForTimeout(1000);
-    const options = await page.evaluate(() =>
+    let options = await page.evaluate(() =>
       Array.from(document.querySelectorAll('[role="option"]')).filter((o) => o.offsetParent !== null).map((o) => o.innerText.trim()));
+    if (!options.length && c.type) {
+      await target.el.type(c.type, { delay: 60 });
+      await page.waitForTimeout(1500);
+      options = await page.evaluate(() =>
+        Array.from(document.querySelectorAll('[role="option"]')).filter((o) => o.offsetParent !== null).map((o) => o.innerText.trim()));
+    }
     let pick = options.find((o) => new RegExp(c.prefer, "i").test(o));
     if (!pick && options.length === 1) pick = options[0];
     if (pick) {
@@ -126,16 +146,30 @@ try {
 
   await page.waitForTimeout(1000);
   out.missingRequired = await page.evaluate(() => {
+    const walkLabel = (e) => {
+      const direct = e.labels?.[0]?.innerText || e.getAttribute("aria-label") || e.placeholder || "";
+      if (direct.trim()) return direct.trim().slice(0, 70);
+      let node = e.parentElement;
+      for (let d = 0; d < 6 && node; d++) {
+        const line = (node.innerText ?? "").split("\n").map((t) => t.trim())
+          .find((t) => t && !/^select\.{0,3}$/i.test(t));
+        if (line) return line.slice(0, 70);
+        node = node.parentElement;
+      }
+      return e.name || e.id || "?";
+    };
     const seen = new Set(); const res = [];
     for (const e of document.querySelectorAll("input,select,textarea")) {
-      if (e.type === "file" || e.type === "hidden") continue;
-      if (e.getAttribute("role") === "combobox" || e.closest('[role="combobox"]')) continue;
-      const req = e.required || e.getAttribute("aria-required") === "true";
-      if (!req || e.offsetParent === null) continue;
+      if (e.type === "file" || e.type === "hidden" || e.offsetParent === null) continue;
+      const isSentinel = /requiredinput/i.test(e.className ?? "");
+      const isCombo = e.getAttribute("role") === "combobox" || e.closest('[role="combobox"]');
+      if (isCombo && !isSentinel) continue; // the sentinel carries the required state
+      const req = isSentinel || e.required || e.getAttribute("aria-required") === "true";
+      if (!req) continue;
       const filled = e.type === "radio" || e.type === "checkbox"
         ? Array.from(document.getElementsByName(e.name)).some((r) => r.checked) : Boolean(e.value);
       if (filled) continue;
-      const label = (e.labels?.[0]?.innerText || e.getAttribute("aria-label") || e.placeholder || e.name || "?").trim().slice(0, 70);
+      const label = walkLabel(e);
       if (!seen.has(label)) { seen.add(label); res.push(label); }
     }
     return res;

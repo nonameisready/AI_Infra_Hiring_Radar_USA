@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-26T21:05:00Z",
+ "updatedAt": "2026-08-27T03:20:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -128,10 +128,23 @@
    "matchPercent": 85,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f2f4c382b237ac80c4b59",
    "originalUrl": "https://thatch.com/jobs/software-engineer-backend-5113759008",
-   "status": "retrying",
+   "status": "needs_manual",
    "via": null,
-   "detail": "Form fully verified (both essays, 5-7 years, sponsorship Yes, LinkedIn). Greenhouse rate-limited this container's IP three times across ~1.5h ('Too many requests') - the window outlasts same-day retries. Tomorrow's daily run (fresh container, likely fresh egress IP) submits it FIRST, before any other Greenhouse job.",
+   "detail": "Greenhouse rate-limits at the applicant-x-job level too: 4th submission attempt for this exact posting still returns 'Too many requests' even though Betterment succeeded from the same IP minutes earlier. All answers verified and visible in the agent's screenshots (5-7 years, sponsorship Yes, both essays, LinkedIn, New York NY). Submit once manually from your own network - copy the answers as-is.",
    "at": "2026-08-26T21:50:00Z"
+  },
+  "6a4cebce35e45603c4bb1fba": {
+   "id": "6a4cebce35e45603c4bb1fba",
+   "key": "betterment::sr. software engineer, backend",
+   "title": "Sr. Software Engineer, Backend",
+   "company": "Betterment",
+   "matchPercent": 96,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a4cebce35e45603c4bb1fba",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=betterment&token=7220419",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "First submission through the upgraded remix-UI flow: location autocomplete committed to New York, NYC-metro Yes (true), certification acknowledged, security code auto-fed from Gmail. Confirmation: 'Thank you for applying! Your application has been received.'",
+   "at": "2026-08-27T03:20:00Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

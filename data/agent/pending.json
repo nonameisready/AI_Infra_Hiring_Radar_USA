@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-26T21:00:00Z",
+ "updatedAt": "2026-08-27T03:20:00Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -34,6 +34,17 @@
    "reason": "你已注册 Cisco Workday 账号。把该账号密码存到环境变量 ATS_ACCOUNT_PASSWORD 后，下一次每日运行会自动登录投递这两个。",
    "status": "needs_info",
    "addedAt": "2026-08-26"
+  },
+  {
+   "id": "6a8f2f4c382b237ac80c4b59",
+   "title": "Software Engineer: Backend",
+   "company": "Thatch",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8f2f4c382b237ac80c4b59",
+   "originalUrl": "https://thatch.com/jobs/software-engineer-backend-5113759008",
+   "reason": "Greenhouse 对「同一申请人×同一职位」的重复提交限流（第4次尝试仍 429，而同 IP 的 Betterment 刚成功）。答案全部验证过：年限 5–7、签证 Yes、两篇短文见截图。请在你自己网络手动提交一次。",
+   "status": "needs_manual",
+   "addedAt": "2026-08-27"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."

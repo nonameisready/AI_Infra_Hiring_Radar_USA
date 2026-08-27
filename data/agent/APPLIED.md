@@ -62,3 +62,14 @@ keywords).
 Jobright's recommended pool contained 11 unique jobs today (all ≥80%); every one is now
 applied, parked with reasons, or retrying. Day total: 7 applications submitted (4 automated,
 3 manual by user).
+
+## 2026-08-27 — interactive quota run (in progress)
+
+| Company | Title | Match | Via | Status |
+| ------- | ----- | ----- | --- | ------ |
+| Betterment | Sr. Software Engineer, Backend | 96% | direct (Greenhouse) | ✅ "Thank you for applying! Your application has been received." |
+| Thatch | Software Engineer: Backend | 85% | — | 🖐 manual: applicant-level rate limit after 4 attempts; answers verified |
+
+Learnings: Greenhouse's new remix UI (sentinel required-inputs, label-less comboboxes,
+type-to-search location) is now fully handled by gh-finish; rate limiting is applicant-x-job
+scoped as well as IP scoped — never retry the same posting more than twice by machine.
