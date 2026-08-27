@@ -165,6 +165,18 @@
   {
    "label": "at least 5\\+? years|5\\+ years of experience in software",
    "prefer": "^yes"
+  },
+  {
+   "label": "experienced? working with llms?|experience with (llms?|large language)",
+   "prefer": "^yes"
+  },
+  {
+   "label": "must currently reside|reside in the united states",
+   "prefer": "^yes|acknowledge|i (confirm|understand)"
+  },
+  {
+   "label": "as part of our hiring process",
+   "prefer": "^yes|acknowledge|agree|i understand"
   }
  ],
  "texts": [
