@@ -73,3 +73,19 @@ applied, parked with reasons, or retrying. Day total: 7 applications submitted (
 Learnings: Greenhouse's new remix UI (sentinel required-inputs, label-less comboboxes,
 type-to-search location) is now fully handled by gh-finish; rate limiting is applicant-x-job
 scoped as well as IP scoped — never retry the same posting more than twice by machine.
+
+### 2026-08-27 overnight interactive run — 6 submitted so far
+
+| Company | Title | Match | Via | Status |
+| ------- | ----- | ----- | --- | ------ |
+| Betterment | Sr. Software Engineer, Backend | 96% | Greenhouse | ✅ confirmed |
+| Self Financial | Backend Software Engineer | 96% | Greenhouse | ✅ confirmed |
+| Brex | Senior Software Engineer, Backend (Product) | 94% | Greenhouse | ✅ confirmed |
+| Robinhood | Senior Software Engineer, Backend | 94% | Greenhouse | ✅ confirmed |
+| Stripe | Backend Eng, Developer & End-user Experience | 96% | Greenhouse | ✅ confirmed |
+| Stripe | Backend Engineer, Link (US) | 96% | Greenhouse | ✅ confirmed |
+
+Queue positions 5-34 (91-95% band) were enterprise-ATS dominated: Workday x10, Oracle x4,
+LinkedIn x3, custom portals — all parked to the manual list honestly. Second-pass adaptations
+added tonight: remix-UI comboboxes, type-to-search for huge lists, consent checkboxes,
+country-option variants (USA), competitor/prior-employment wordings, education fields.
