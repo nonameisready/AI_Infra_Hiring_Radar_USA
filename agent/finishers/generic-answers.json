@@ -32,7 +32,7 @@
   },
   {
    "label": "years of.*experience",
-   "prefer": "5.7|^7|7\\+|5\\+|6|8.10|5.10"
+   "prefer": "5.7|^7|7\\+|5\\+|5\\s*-\\s*10|6|8\\s*-\\s*10"
   },
   {
    "label": "located in the (us|united states)",
@@ -52,7 +52,7 @@
   },
   {
    "label": "race|ethnicit",
-   "prefer": "decline|choose not"
+   "prefer": "decline|choose not|don'?t wish|prefer not"
   },
   {
    "label": "hispanic",
@@ -112,12 +112,72 @@
   {
    "label": "(currently|previously),? (or .* )?worked at",
    "prefer": "^no"
+  },
+  {
+   "label": "ever worked (for|at) .* (employee|intern|contractor)",
+   "prefer": "never worked"
+  },
+  {
+   "label": "preferred office location",
+   "prefer": "new york|nyc|remote"
+  },
+  {
+   "label": "personal/?familial relationship",
+   "prefer": "^no|none|neither"
+  },
+  {
+   "label": "government official|adheres to applicable laws",
+   "prefer": "^no|none|not applicable|neither"
+  },
+  {
+   "label": "gender identity",
+   "prefer": "don'?t wish|decline|prefer not"
+  },
+  {
+   "label": "gender pronouns|what .* pronouns",
+   "prefer": "don'?t wish|decline|prefer not"
+  },
+  {
+   "label": "military status",
+   "prefer": "don'?t wish|not a protected|decline"
+  },
+  {
+   "label": "require .* to sponsor|work permit",
+   "prefer": "^yes"
+  },
+  {
+   "label": "years of full-time industry experience",
+   "prefer": "5\\s*-\\s*10"
+  },
+  {
+   "label": "whatsapp",
+   "prefer": "^no|opt.?out|do not"
+  },
+  {
+   "label": "work from a remote location|option to work remote",
+   "prefer": "^yes"
   }
  ],
  "texts": [
   {
    "label": "linkedin",
    "text": "https://www.linkedin.com/in/belindamao"
+  },
+  {
+   "label": "current or previous employer",
+   "text": "Bank of America (via Innova Solutions)"
+  },
+  {
+   "label": "current or previous job title",
+   "text": "Senior Software Engineer"
+  }
+ ],
+ "checkboxes": [
+  {
+   "label": "i consent to .*(collect|stor|process|privacy)|by checking this box"
+  },
+  {
+   "label": "^US$"
   }
  ]
 }

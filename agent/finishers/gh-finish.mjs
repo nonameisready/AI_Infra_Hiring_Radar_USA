@@ -104,7 +104,10 @@ try {
     await page.waitForTimeout(1000);
     let options = await page.evaluate(() =>
       Array.from(document.querySelectorAll('[role="option"]')).filter((o) => o.offsetParent !== null).map((o) => o.innerText.trim()));
-    if (!options.length && c.type) {
+    // Type-to-search when the list is empty OR when the preloaded options
+    // don't contain the preferred value (huge lists like School paginate).
+    const preferRe = new RegExp(c.prefer, "i");
+    if (c.type && (!options.length || !options.some((o) => preferRe.test(o)))) {
       await target.el.type(c.type, { delay: 60 });
       await page.waitForTimeout(1500);
       options = await page.evaluate(() =>
@@ -142,6 +145,23 @@ try {
       if (new RegExp(t.label, "i").test(label)) { await el.fill(t.text); out.texts.push({ label, len: t.text.length }); done = true; break; }
     }
     if (!done) out.texts.push({ label: t.label, result: "not_found" });
+  }
+
+  // Consent-style checkboxes, matched by walked label text.
+  for (const cb of ANSWERS.checkboxes ?? []) {
+    const done = await page.evaluate((labelSrc) => {
+      const re = new RegExp(labelSrc, "i");
+      for (const e of document.querySelectorAll('input[type="checkbox"]')) {
+        if (e.offsetParent === null || e.checked) continue;
+        let lbl = e.labels?.[0]?.innerText || "";
+        let node = e.parentElement;
+        for (let d = 0; d < 5 && node && !lbl.trim(); d++) { lbl = node.innerText ?? ""; node = node.parentElement; }
+        if (re.test(lbl)) { e.click(); return lbl.trim().slice(0, 60); }
+      }
+      return null;
+    }, cb.label);
+    out.combos.push({ label: cb.label, picked: done ? `checked: ${done}` : null, result: done ? undefined : "checkbox not found" });
+    await page.waitForTimeout(300);
   }
 
   await page.waitForTimeout(1000);
