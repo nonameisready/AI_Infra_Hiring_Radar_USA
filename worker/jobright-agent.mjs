@@ -261,6 +261,58 @@ async function login() {
 }
 
 // -------------------------------------------------------------- matches ----
+
+/** Harvest every visible job card: percent, title/company via the "/" line. */
+async function collectCards(page) {
+  return page.evaluate(() => {
+    const MATCH_RE = /(\d{2,3})\s*%\s*(?:(?:good|strong|fair|great)\s+)?match/i;
+    const seen = new Map();
+    const nodes = Array.from(document.querySelectorAll("div,li,article,section")).filter((el) => {
+      const t = el.innerText ?? "";
+      return MATCH_RE.test(t.replace(/\n/g, " ")) && t.length < 2500;
+    });
+    for (const el of nodes) {
+      const a =
+        el.querySelector('a[href*="/jobs/info"], a[href*="/job/"], a[href*="jobId"]') ??
+        (el.closest('a[href*="/jobs/info"], a[href*="/job/"]') || null);
+      const href = a?.getAttribute("href") ?? "";
+      const text = (el.innerText ?? "").trim();
+      const pm = text.replace(/\n/g, " ").match(MATCH_RE);
+      if (!pm) continue;
+      const lines = text.split("\n").map((s) => s.trim()).filter(Boolean);
+      const slashIdx = lines.findIndex((l) => l === "/");
+      let title = "";
+      let company = "";
+      if (slashIdx >= 2) {
+        company = lines[slashIdx - 1];
+        title = lines[slashIdx - 2];
+      } else {
+        const around = lines.filter((l) => l.length > 1 && l.length < 120 && !MATCH_RE.test(l));
+        title = around[0] ?? "";
+        company = around[1] ?? "";
+      }
+      const key = href || `${company}::${title}`;
+      const entry = {
+        jobrightUrl: href ? new URL(href, location.origin).toString() : "",
+        matchPercent: Number(pm[1]),
+        title,
+        company,
+        _len: text.length,
+        _full: slashIdx >= 2,
+      };
+      // Prefer the smallest element that still holds the whole card — the
+      // innermost hit is just the score badge, which knows no title.
+      const prev = seen.get(key);
+      const better =
+        !prev ||
+        (entry._full && !prev._full) ||
+        (entry._full === prev._full && entry._len < prev._len);
+      if (better) seen.set(key, entry);
+    }
+    return Array.from(seen.values()).map(({ _len, _full, ...e }) => e);
+  });
+}
+
 async function matches() {
   const { browser, context } = await launch();
   const page = await context.newPage();
@@ -269,65 +321,48 @@ async function matches() {
       return emit({ ok: false, reason: "not_logged_in", hint: "Run the login command first.", ...(await saveEvidence(page, "matches")) });
     }
 
-    // Recommended list is virtualised/lazy — scroll to materialise cards.
-    for (let i = 0; i < 12; i++) {
-      await page.evaluate(() => window.scrollBy(0, window.innerHeight * 2));
-      await page.waitForTimeout(900);
+    // Widen the pool: the user wants the whole past week, not the first
+    // screen of today. Best-effort — the scrape still works if this drifts.
+    const dateFilter = page.getByText(/^Date Posted$/i).first();
+    if (await dateFilter.isVisible().catch(() => false)) {
+      await dateFilter.click().catch(() => {});
+      await page.waitForTimeout(1200);
+      const pastWeek = page.getByText(/^Past week$/i).first();
+      if (await pastWeek.isVisible().catch(() => false)) {
+        await pastWeek.click().catch(() => {});
+        await page.waitForTimeout(2500);
+      } else {
+        await page.keyboard.press("Escape").catch(() => {});
+      }
     }
 
-    const jobs = await page.evaluate(() => {
-      // Jobright renders the score as e.g. "84%" + "GOOD MATCH" on separate
-      // lines, and each card names title/company adjacent to a "/" separator.
-      const MATCH_RE = /(\d{2,3})\s*%\s*(?:(?:good|strong|fair|great)\s+)?match/i;
-      const seen = new Map();
-      const nodes = Array.from(document.querySelectorAll("div,li,article,section")).filter((el) => {
-        const t = el.innerText ?? "";
-        return MATCH_RE.test(t.replace(/\n/g, " ")) && t.length < 2500;
-      });
-      for (const el of nodes) {
-        // Keep the innermost matching element per job link.
-        const a =
-          el.querySelector('a[href*="/jobs/info"], a[href*="/job/"], a[href*="jobId"]') ??
-          (el.closest('a[href*="/jobs/info"], a[href*="/job/"]') || null);
-        const href = a?.getAttribute("href") ?? "";
-        const text = (el.innerText ?? "").trim();
-        const pm = text.replace(/\n/g, " ").match(MATCH_RE);
-        if (!pm) continue;
-        const lines = text.split("\n").map((s) => s.trim()).filter(Boolean);
-        const slashIdx = lines.findIndex((l) => l === "/");
-        let title = "";
-        let company = "";
-        if (slashIdx >= 2) {
-          company = lines[slashIdx - 1];
-          title = lines[slashIdx - 2];
-        } else {
-          const around = lines.filter((l) => l.length > 1 && l.length < 120 && !MATCH_RE.test(l));
-          title = around[0] ?? "";
-          company = around[1] ?? "";
+    // The list lives in an inner scrollable container — scrolling the window
+    // does nothing, which silently caps the pool at the first screen. It is
+    // also virtualised, so harvest every round and merge rather than
+    // collecting once at the end.
+    const harvested = new Map();
+    let dry = 0;
+    for (let i = 0; i < 120 && dry < 4; i++) {
+      const before = harvested.size;
+      for (const j of await collectCards(page)) if (j.jobrightUrl) harvested.set(j.jobrightUrl, j);
+      await page.evaluate(() => {
+        let best = null;
+        for (const el of document.querySelectorAll("*")) {
+          const s = getComputedStyle(el);
+          if ((s.overflowY === "auto" || s.overflowY === "scroll") && el.scrollHeight > el.clientHeight + 100) {
+            if (!best || el.scrollHeight > best.scrollHeight) best = el;
+          }
         }
-        const key = href || `${company}::${title}`;
-        const entry = {
-          jobrightUrl: href ? new URL(href, location.origin).toString() : "",
-          matchPercent: Number(pm[1]),
-          title,
-          company,
-          lines: lines.slice(0, 10),
-          _len: text.length,
-          _full: slashIdx >= 2,
-        };
-        // Prefer the smallest element that still holds the whole card (it has
-        // the title/company "/" block); the innermost hit is just the score
-        // badge, which knows the percentage but not the job.
-        const prev = seen.get(key);
-        const better =
-          !prev ||
-          (entry._full && !prev._full) ||
-          (entry._full === prev._full && entry._len < prev._len);
-        if (better) seen.set(key, entry);
-      }
-      return Array.from(seen.values()).map(({ _len, _full, ...e }) => e);
-    });
+        if (best) best.scrollTop = best.scrollHeight;
+        else window.scrollTo(0, document.body.scrollHeight);
+      });
+      await page.waitForTimeout(1500);
+      for (const j of await collectCards(page)) if (j.jobrightUrl) harvested.set(j.jobrightUrl, j);
+      if (harvested.size <= before) dry++;
+      else dry = 0;
+    }
 
+    const jobs = Array.from(harvested.values());
     const evidence = await saveEvidence(page, "matches");
     if (!jobs.length) {
       return emit({ ok: false, reason: "no_cards_parsed", hint: "The card selectors drifted — read the text dump and extract jobs yourself.", ...evidence });
@@ -335,6 +370,7 @@ async function matches() {
     jobs.sort((a, b) => b.matchPercent - a.matchPercent);
     return emit({ ok: true, count: jobs.length, jobs, ...evidence });
   } finally {
+    await persistState(context).catch(() => {});
     await browser.close().catch(() => {});
   }
 }

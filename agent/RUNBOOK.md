@@ -246,3 +246,19 @@ Afterwards:
 - Greenhouse rate-limits repeated submissions per IP (observed after ~5 rapid submits): the
   worker paces 2.5s between jobs, but if failures with "too many requests" start, stop the
   Greenhouse portion for ~45 minutes and continue with other sources, or resume next run.
+
+## Pool-size correction (2026-08-27)
+
+With the inner-container scroll + "Past week" date filter fixes in
+worker/jobright-agent.mjs, the Jobright pool is NOT ~10 jobs — a full harvest returns
+600+ cards with 400+ at ≥80% match. Consequences for the quota mechanics above:
+
+- The daily 100 comes entirely from ≥80% matches, taken in descending match order. The
+  70% floor fill and the Phase R radar fill are now BACKUPS, used only when the Jobright
+  harvest genuinely runs short.
+- Harvest first, then plan: dedupe the full list against applied.json before choosing the
+  day's 100, and commit the day's plan to applied.json as you go, batch by batch.
+- The binding constraint is now ATS-side rate limiting, not pool size. Interleave ATS
+  platforms (don't run 20 Greenhouse submissions back to back), keep ≥3 minutes between
+  submissions to the same platform, and stop a platform for the day on its first
+  "too many requests".
