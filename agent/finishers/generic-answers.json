@@ -161,6 +161,10 @@
    "label": "(from )?where do you (intend|plan) to work",
    "prefer": "new york|ny|^remote",
    "type": "New York"
+  },
+  {
+   "label": "at least 5\\+? years|5\\+ years of experience in software",
+   "prefer": "^yes"
   }
  ],
  "texts": [
