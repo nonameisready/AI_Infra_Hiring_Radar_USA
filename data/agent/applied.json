@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T04:55:00Z",
+ "updatedAt": "2026-08-27T05:05:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -665,32 +665,6 @@
    "status": "applied_direct",
    "via": "greenhouse",
    "detail": "Stripe Core Technology — 4th Stripe, batch flow. Confirmation verified."
-  },
-  "6a68eb9c3b549b0b531d2c02": {
-   "id": "6a68eb9c3b549b0b531d2c02",
-   "key": "ergo next insurance::backend software engineer (agents channel)",
-   "title": "Backend Software Engineer (Agents Channel)",
-   "company": "ERGO NEXT Insurance",
-   "matchPercent": 89,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a68eb9c3b549b0b531d2c02",
-   "originalUrl": null,
-   "at": "2026-08-27T04:55:00Z",
-   "status": "applied_direct",
-   "via": "greenhouse",
-   "detail": "Next Insurance — I-confirm truth acknowledgment. Confirmation verified."
-  },
-  "6a5208278ef95364ead8c885": {
-   "id": "6a5208278ef95364ead8c885",
-   "key": "mercury::senior backend engineer - product",
-   "title": "Senior Backend Engineer - Product",
-   "company": "Mercury",
-   "matchPercent": 83,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a5208278ef95364ead8c885",
-   "originalUrl": null,
-   "at": "2026-08-27T04:55:00Z",
-   "status": "applied_direct",
-   "via": "greenhouse",
-   "detail": "Mercury — visa-sponsorship wording widened, intended-work-location as free text. Confirmation verified."
   },
   "6a89b48d680f314a29d3f487": {
    "id": "6a89b48d680f314a29d3f487",
