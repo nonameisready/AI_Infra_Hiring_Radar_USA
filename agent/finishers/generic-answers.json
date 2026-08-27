@@ -19,7 +19,7 @@
    "prefer": "^United States"
   },
   {
-   "label": "require sponsorship|sponsorship for employment|visa",
+   "label": "require (immigration )?sponsorship|sponsorship for employment|visa status",
    "prefer": "^yes$|yes, but not one"
   },
   {
@@ -177,6 +177,10 @@
   {
    "label": "as part of our hiring process",
    "prefer": "^yes|acknowledge|agree|i understand"
+  },
+  {
+   "label": "take.?home (challenge|assignment|assessment)",
+   "prefer": "^yes"
   }
  ],
  "texts": [
