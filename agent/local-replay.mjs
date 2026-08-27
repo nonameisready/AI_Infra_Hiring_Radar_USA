@@ -73,7 +73,8 @@ const jobs = targets
   .map((i) => ({ ...i, platform: platformOf(i.originalUrl) }))
   .filter((i) => i.platform && (!ONLY || i.platform === ONLY));
 console.log(`${jobs.length} job(s) to replay (${DRY ? "DRY RUN — no submissions" : "submitting for real"})`);
-console.log(`Screenshots and work files: ${WORK}\n`);
+console.log(`Screenshots and work files: ${WORK}`);
+console.log("A real browser window will open for each job — you can watch, but don't click or type in it.\n");
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 const ask = (q) => new Promise((r) => rl.question(q, r));
@@ -82,7 +83,7 @@ function runFinisher(script, args) {
   return new Promise((resolve) => {
     const p = spawn("node", [path.join(REPO, "agent/finishers", script), ...args], {
       cwd: REPO,
-      env: { ...process.env, AGENT_WORK_DIR: WORK, REPO_DIR: REPO },
+      env: { ...process.env, AGENT_WORK_DIR: WORK, REPO_DIR: REPO, HEADED: "1" },
     });
     let out = "";
     let err = "";

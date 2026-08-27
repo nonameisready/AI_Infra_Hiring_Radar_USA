@@ -16,7 +16,7 @@ const tag = Date.now();
 const out = { url, combos: [], texts: [], submit: SUBMIT };
 
 const browser = await chromium.launch({
-  headless: true, executablePath: process.env.PLAYWRIGHT_CHROMIUM_PATH,
+  headless: !process.env.HEADED, executablePath: process.env.PLAYWRIGHT_CHROMIUM_PATH,
   ...(process.env.HTTPS_PROXY ? { proxy: { server: process.env.HTTPS_PROXY } } : {}),
   args: ["--no-sandbox", "--disable-blink-features=AutomationControlled",
          ...(process.env.HTTPS_PROXY ? ["--ssl-version-max=tls1.2"] : [])],

@@ -10,7 +10,7 @@ const tag = Date.now();
 const out = { url, actions: [] };
 
 const browser = await chromium.launch({
-  headless: true, executablePath: process.env.PLAYWRIGHT_CHROMIUM_PATH,
+  headless: !process.env.HEADED, executablePath: process.env.PLAYWRIGHT_CHROMIUM_PATH,
   ...(process.env.HTTPS_PROXY ? { proxy: { server: process.env.HTTPS_PROXY } } : {}),
   args: ["--no-sandbox", "--disable-blink-features=AutomationControlled",
          ...(process.env.HTTPS_PROXY ? ["--ssl-version-max=tls1.2"] : [])],
@@ -78,6 +78,43 @@ try {
     else out.actions.push("sponsorship control not found");
   }
 
+  // Yes/No button groups and radio questions, answered from the shared rules file.
+  let COMBOS = [];
+  try {
+    const ansFile = process.env.ANSWERS_FILE ||
+      path.join(process.env.REPO_DIR ?? path.join(path.dirname(new URL(import.meta.url).pathname), "../.."), "agent/finishers/generic-answers.json");
+    COMBOS = JSON.parse(fs.readFileSync(ansFile, "utf8")).combos ?? [];
+  } catch {}
+  for (const rule of COMBOS) {
+    const prefer = rule.prefer ?? rule.pick;
+    if (!prefer) continue;
+    let labelRe, preferRe;
+    try { labelRe = new RegExp(rule.label, "i"); preferRe = new RegExp(prefer, "i"); } catch { continue; }
+    const grp = page.locator("div,fieldset").filter({ hasText: labelRe }).last();
+    if (!(await grp.count().catch(() => 0))) continue;
+    if (await grp.locator('[aria-pressed="true"], [aria-checked="true"], input:checked').count().catch(() => 0)) continue;
+    const btn = grp.getByRole("button", { name: preferRe }).first();
+    if (await btn.isVisible().catch(() => false)) { await btn.click().catch(() => {}); out.actions.push(`group: ${rule.label.slice(0, 45)}`); continue; }
+    const radio = grp.getByRole("radio", { name: preferRe }).first();
+    if (await radio.isVisible().catch(() => false)) { await radio.click().catch(() => {}); out.actions.push(`radio: ${rule.label.slice(0, 45)}`); }
+  }
+
+  // Type-to-search dropdowns we know the honest answer to.
+  const DROPS = [{ label: /current immigration status/i, type: "F-1", option: /f-?1/i, note: "immigration status: F-1" }];
+  for (const d of DROPS) {
+    const grp = page.locator("div,fieldset").filter({ hasText: d.label }).last();
+    if (!(await grp.count().catch(() => 0))) continue;
+    const input = grp.locator("input").first();
+    if (!(await input.isVisible().catch(() => false))) continue;
+    if (await input.inputValue().catch(() => "")) continue;
+    await input.click().catch(() => {});
+    await input.pressSequentially(d.type, { delay: 80 }).catch(() => {});
+    await page.waitForTimeout(1200);
+    const optEl = page.getByRole("option", { name: d.option }).first();
+    if (await optEl.isVisible().catch(() => false)) { await optEl.click().catch(() => {}); out.actions.push(d.note); }
+    else await page.keyboard.press("Escape").catch(() => {});
+  }
+
   // Voluntary EEO — decline options, honestly.
   for (const txt of ["Decline to self-identify", "I decline to self-identify for protected veteran status"]) {
     const els = page.getByText(txt, { exact: false });
@@ -105,7 +142,18 @@ try {
   if (SUBMIT) {
     await page.getByRole("button", { name: /submit application/i }).first().click();
     await page.waitForTimeout(8000);
-    const text = await page.evaluate(() => document.body?.innerText ?? "");
+    let text = await page.evaluate(() => document.body?.innerText ?? "");
+    // Ashby's spam-flag page itself says "please submit your application again" — one retry.
+    if (/flagged as possible spam/i.test(text)) {
+      await page.waitForTimeout(20000);
+      const again = page.getByRole("button", { name: /submit application/i }).first();
+      if (await again.isVisible().catch(() => false)) {
+        await again.click().catch(() => {});
+        await page.waitForTimeout(8000);
+        text = await page.evaluate(() => document.body?.innerText ?? "");
+        out.retriedAfterSpamFlag = true;
+      }
+    }
     out.confirmation = /thank you|application (was )?(received|submitted|sent)|successfully|we('|’)ve received/i.test(text);
     out.confirmationSnippet = text.slice(0, 400);
     if (!out.confirmation) {

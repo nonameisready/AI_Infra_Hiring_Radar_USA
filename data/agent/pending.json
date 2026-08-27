@@ -42,7 +42,7 @@
    "matchPercent": 85,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f2f4c382b237ac80c4b59",
    "originalUrl": "https://thatch.com/jobs/software-engineer-backend-5113759008",
-   "reason": "Greenhouse rate-limits repeat submissions per applicant+job (4th attempt still 429 while other boards succeeded from the same IP). Every answer is verified — submit once from your own network, or run the local replay script.",
+   "reason": "Greenhouse rate-limits this applicant on this posting (6 machine attempts) — please apply personally in your browser; the verified answers are stored and the form takes 2 minutes.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },

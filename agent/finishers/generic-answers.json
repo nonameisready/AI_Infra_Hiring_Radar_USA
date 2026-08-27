@@ -241,6 +241,18 @@
   {
    "label": "veteran status",
    "prefer": "don'?t wish|decline|not a protected"
+  },
+  {
+   "label": "days? a week in-?office|in-?office policy.*open to|is this something you'?re open to",
+   "prefer": "^yes$"
+  },
+  {
+   "label": "ever been employed by .*(subsidiaries|affiliates)",
+   "prefer": "^no$"
+  },
+  {
+   "label": "provided (any )?contract work (by|for)|contract engagement or work through an agency",
+   "prefer": "^no$"
   }
  ],
  "texts": [
