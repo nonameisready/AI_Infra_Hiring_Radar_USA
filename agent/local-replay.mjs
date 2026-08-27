@@ -97,7 +97,7 @@ function runFinisher(script, args) {
     p.on("exit", () => {
       const start = out.indexOf("{");
       try { resolve(JSON.parse(out.slice(start))); } catch {
-        const tail = err.trim().split("\n").slice(-8).join("\n");
+        const tail = err.trim().split("\n").slice(-25).join("\n");
         if (tail) console.error(`  ⚠ finisher crashed:\n${tail.replace(/^/gm, "    ")}`);
         resolve(null);
       }
