@@ -290,3 +290,20 @@ Some applications ask directly whether an automated system or AI is completing t
 (e.g. PrizePicks). NEVER answer these as if a human filled the form — that is a lie about
 the process itself. Park the job as needs_manual with the reason stated, so the user can
 apply personally. Honest automation means being honest about the automation.
+
+## Site language & backlog-relief mechanisms (2026-08-27)
+
+- **All user-facing site text is English** — UI strings, pending.json `reason` fields,
+  questions.json questions, APPLIED.md entries. Chinese stays in the chat only.
+- The manual list renders as ACTION GROUPS (AgentTab): agent-queued (no user action),
+  local-replay eligible, LinkedIn Easy Apply, policy questions, truly manual. Write every
+  park reason so it lands in the right group (mention "local replay" only for
+  ashby/greenhouse URLs the script supports).
+- `agent/local-replay.mjs` lets the user clear anti-bot/rate-limited Ashby+Greenhouse parks
+  from their own machine (interactive security codes, verified confirmations, updates the
+  state files directly).
+- **Workday flow is the next build item**: with ATS_ACCOUNT_PASSWORD present, sign in to
+  each tenant (create the per-tenant account on first visit using the user's email + that
+  password, verification codes via Gmail), then drive the multi-step wizard with the
+  autofill profile. ~20 parked roles (Cisco, Capital One ×7, FINRA, Santander, Thomson
+  Reuters, Wisconsin SWIB, Early Warning…) unlock when this ships.

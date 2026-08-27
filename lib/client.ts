@@ -114,6 +114,7 @@ export type AgentState = {
     dailyCap?: number;
     jobrightEmail?: string;
     runAtUtc?: string;
+    runWindowsUtc?: string[];
   };
   stats: {
     total: number;

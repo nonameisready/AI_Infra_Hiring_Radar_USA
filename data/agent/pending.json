@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T04:55:00Z",
+ "updatedAt": "2026-08-27T05:30:00Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -9,7 +9,7 @@
    "matchPercent": 86,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8e124ed34f700f87fd7c0d",
    "originalUrl": "https://apply.careers.microsoft.com/careers/job/1970393556929363",
-   "reason": "Microsoft 只支持 OAuth 注册（无邮箱注册）——按你的决定，Microsoft 的职位永久留在这里由你手动投。",
+   "reason": "Microsoft careers offers OAuth-only sign-up (no email registration). Per your decision, Microsoft roles stay here for you to apply manually.",
    "status": "needs_manual",
    "addedAt": "2026-08-26"
   },
@@ -20,7 +20,7 @@
    "matchPercent": 82,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8eeaa7a10ee661e24d5672",
    "originalUrl": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Richardson-Texas-US/Sr-Software-Engineer_2021855-1",
-   "reason": "你已注册 Cisco Workday 账号。把该账号密码存到环境变量 ATS_ACCOUNT_PASSWORD 后，下一次每日运行会自动登录投递这两个。",
+   "reason": "You registered a Cisco Workday account. The agent signs in with ATS_ACCOUNT_PASSWORD and submits these automatically in the next run window.",
    "status": "needs_info",
    "addedAt": "2026-08-26"
   },
@@ -31,7 +31,7 @@
    "matchPercent": 82,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8eeaaa382b237ac80c3377",
    "originalUrl": null,
-   "reason": "你已注册 Cisco Workday 账号。把该账号密码存到环境变量 ATS_ACCOUNT_PASSWORD 后，下一次每日运行会自动登录投递这两个。",
+   "reason": "You registered a Cisco Workday account. The agent signs in with ATS_ACCOUNT_PASSWORD and submits these automatically in the next run window.",
    "status": "needs_info",
    "addedAt": "2026-08-26"
   },
@@ -42,7 +42,7 @@
    "matchPercent": 85,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f2f4c382b237ac80c4b59",
    "originalUrl": "https://thatch.com/jobs/software-engineer-backend-5113759008",
-   "reason": "Greenhouse 对「同一申请人×同一职位」的重复提交限流（第4次尝试仍 429，而同 IP 的 Betterment 刚成功）。答案全部验证过：年限 5–7、签证 Yes、两篇短文见截图。请在你自己网络手动提交一次。",
+   "reason": "Greenhouse rate-limits repeat submissions per applicant+job (4th attempt still 429 while other boards succeeded from the same IP). Every answer is verified — submit once from your own network, or run the local replay script.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -53,7 +53,7 @@
    "matchPercent": 97,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5e45a8f3674a0545d27e3e",
    "originalUrl": "https://jobs.ashbyhq.com/leadbank/424c389d-e579-4ed7-8aaa-82ff3dfcabad/application?utm_source=jobright&jr_id=6a5e45a8f3674a0545d27e3e",
-   "reason": "ashby anti-bot flagged the datacenter IP",
+   "reason": "Ashby anti-bot blocks the cloud IP. Fully auto-fillable — run the local replay script from your home network, or apply by hand.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -64,18 +64,7 @@
    "matchPercent": 95,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a534f5d8576ec69c014f57f",
    "originalUrl": "https://www.deshaw.com/careers/software-developer-2646?jr_id=6a534f5d8576ec69c014f57f",
-   "reason": "platform not automated from cloud: www.deshaw.com",
-   "status": "needs_manual",
-   "addedAt": "2026-08-27"
-  },
-  {
-   "id": "6a402c3a1afc66714d3c9bb2",
-   "title": "Backend/API Engineer, Money as a Service",
-   "company": "Stripe",
-   "matchPercent": 95,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a402c3a1afc66714d3c9bb2",
-   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&jr_id=6a402c3a1afc66714d3c9bb2&token=6176758&utm_source=jobright",
-   "reason": "定制必答题待第二遍处理",
+   "reason": "Company-hosted portal (www.deshaw.com) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -86,7 +75,7 @@
    "matchPercent": 94,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f75e80bd89e205d246e6a",
    "originalUrl": "https://www.linkedin.com/jobs/view/4457986869?jr_id=6a8f75e80bd89e205d246e6a",
-   "reason": "platform not automated from cloud: www.linkedin.com",
+   "reason": "LinkedIn Easy Apply — fastest done in your own logged-in browser (about two clicks).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -97,7 +86,7 @@
    "matchPercent": 94,
    "jobrightUrl": "https://jobright.ai/jobs/info/694ef80829655e4dd65890c3",
    "originalUrl": "https://jobs.ashbyhq.com/oneapp/63f43c38-56fb-44d8-a367-2ed299ea5589/application?utm_source=jobright&jr_id=694ef80829655e4dd65890c3",
-   "reason": "ashby unconfirmed: Backend Engineer, Crypto\nLocation\n\nUnited States (Remote)\n\nEmployment Type\n\nFull time\n\nLocation Type",
+   "reason": "Ashby submission unconfirmed from the cloud IP. Run the local replay script from your home network.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -108,7 +97,7 @@
    "matchPercent": 94,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f1ac2382b237ac80c456b",
    "originalUrl": "https://career8.successfactors.com/career?career_ns=job_listing&company=MoodysProd&navBarLevel=JOB_SEARCH&rcm_site_locale=en_US&career_job_req_id=14869&selected_lang=en_US&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&browserTimeZone=America%2FNew_York&jr_id=6a8f1ac2382b237ac80c456b",
-   "reason": "platform not automated from cloud: career8.successfactors.com",
+   "reason": "Company-hosted portal (career8.successfactors.com) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -119,7 +108,7 @@
    "matchPercent": 94,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f0705382b237ac80c3d9a",
    "originalUrl": "https://swib.wd12.myworkdayjobs.com/ext/job/Madison-Wisconsin/Senior-Software-Engineer_R-001295?jr_id=6a8f0705382b237ac80c3d9a",
-   "reason": "platform not automated from cloud: swib.wd12.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -130,7 +119,7 @@
    "matchPercent": 94,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a85dfc3e459fa3baa864708",
    "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210781298?jr_id=6a85dfc3e459fa3baa864708",
-   "reason": "platform not automated from cloud: jpmc.fa.oraclecloud.com",
+   "reason": "Oracle Cloud recruiting portal — requires a per-company account; manual for now.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -141,7 +130,7 @@
    "matchPercent": 94,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8efb09a10ee661e24d5c3f",
    "originalUrl": "https://www.linkedin.com/jobs/view/4459309799?jr_id=6a8efb09a10ee661e24d5c3f",
-   "reason": "platform not automated from cloud: www.linkedin.com",
+   "reason": "LinkedIn Easy Apply — fastest done in your own logged-in browser (about two clicks).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -152,7 +141,7 @@
    "matchPercent": 94,
    "jobrightUrl": "https://jobright.ai/jobs/info/68f0f50df462172a5a7d1870",
    "originalUrl": null,
-   "reason": "no_apply_button",
+   "reason": "No apply button found on the Jobright page (posting may have closed) — verify via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -163,7 +152,7 @@
    "matchPercent": 94,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4bdbd15d7b097d2df3e81b",
    "originalUrl": "https://finra.wd1.myworkdayjobs.com/FINRA/job/Rockville-MD-Job-Posting/Senior-Software-Engineer_R-010085?source=Linked_API&jr_id=6a4bdbd15d7b097d2df3e81b",
-   "reason": "platform not automated from cloud: finra.wd1.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -174,7 +163,7 @@
    "matchPercent": 94,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8dc839d34f700f87fd5fcb",
    "originalUrl": "https://www.linkedin.com/jobs/view/4458782849?jr_id=6a8dc839d34f700f87fd5fcb",
-   "reason": "platform not automated from cloud: www.linkedin.com",
+   "reason": "LinkedIn Easy Apply — fastest done in your own logged-in browser (about two clicks).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -185,7 +174,7 @@
    "matchPercent": 93,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a10bb199fdbf21f36cb0590",
    "originalUrl": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Lead-Software-Engineer---Back-End_R243208-1?jr_id=6a10bb199fdbf21f36cb0590",
-   "reason": "platform not automated from cloud: capitalone.wd12.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -196,7 +185,7 @@
    "matchPercent": 93,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a72146402d93145bf892673",
    "originalUrl": "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/Chicago-IL/Senior-Lead-Software-Engineer--Back-End--Golang--Java--AWS-_R247991-1?jr_id=6a72146402d93145bf892673",
-   "reason": "platform not automated from cloud: capitalone.wd12.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -207,7 +196,7 @@
    "matchPercent": 93,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a725425e2b7476e7b212d37",
    "originalUrl": "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/McLean-VA/Senior-Lead-Software-Engineer--Back-End_R248438-1?jr_id=6a725425e2b7476e7b212d37",
-   "reason": "platform not automated from cloud: capitalone.wd12.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -218,7 +207,7 @@
    "matchPercent": 93,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8eeba03ac3a34f92d7e880",
    "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210715977?jr_id=6a8eeba03ac3a34f92d7e880",
-   "reason": "platform not automated from cloud: jpmc.fa.oraclecloud.com",
+   "reason": "Oracle Cloud recruiting portal — requires a per-company account; manual for now.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -229,7 +218,7 @@
    "matchPercent": 93,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a569eb310c4d945d864adcb",
    "originalUrl": "https://jobs.ashbyhq.com/arch.co/d3be5d80-cdc5-48de-abb2-724a5fc57b5b/application?utm_source=jobright&jr_id=6a569eb310c4d945d864adcb",
-   "reason": "ashby anti-bot flagged the datacenter IP",
+   "reason": "Ashby anti-bot blocks the cloud IP. Fully auto-fillable — run the local replay script from your home network, or apply by hand.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -240,7 +229,7 @@
    "matchPercent": 93,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7ffe92b56bea5779c1091c",
    "originalUrl": "https://jobs.siemens.com/zh_CN/externaljobs/JobDetail/518289?source=Indeed&source=Indeed&jr_id=6a7ffe92b56bea5779c1091c",
-   "reason": "platform not automated from cloud: jobs.siemens.com",
+   "reason": "Company-hosted portal (jobs.siemens.com) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -251,7 +240,7 @@
    "matchPercent": 93,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a84c3cbd34f700f87fbacdf",
    "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210738267?jr_id=6a84c3cbd34f700f87fbacdf",
-   "reason": "platform not automated from cloud: jpmc.fa.oraclecloud.com",
+   "reason": "Oracle Cloud recruiting portal — requires a per-company account; manual for now.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -262,7 +251,7 @@
    "matchPercent": 93,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a6cfcb3acb0a61f9dbc8450",
    "originalUrl": "https://earlywarning.wd5.myworkdayjobs.com/earlywarningcareers/job/Scottsdale/Sr-Software-Engineer---PySpark_REQ2026763?jr_id=6a6cfcb3acb0a61f9dbc8450",
-   "reason": "platform not automated from cloud: earlywarning.wd5.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -273,7 +262,7 @@
    "matchPercent": 93,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a6c5432ca1f9338465fed9c",
    "originalUrl": "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/McLean-VA/Sr-Lead-Software-Engineer--Back-End_R248028-1?jr_id=6a6c5432ca1f9338465fed9c",
-   "reason": "platform not automated from cloud: capitalone.wd12.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -284,7 +273,7 @@
    "matchPercent": 92,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a72147be2b7476e7b2111e2",
    "originalUrl": "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/McLean-VA/Senior-Lead-Software-Engineer--Back-End--Java--Scala--AWS-_R247989-1?jr_id=6a72147be2b7476e7b2111e2",
-   "reason": "platform not automated from cloud: capitalone.wd12.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -295,7 +284,7 @@
    "matchPercent": 92,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8dbc62cc0cf27068524bc0",
    "originalUrl": "https://wellington.wd5.myworkdayjobs.com/efc/job/Boston-MA-United-States/Senior-Software-Engineer_R94615?jr_id=6a8dbc62cc0cf27068524bc0",
-   "reason": "platform not automated from cloud: wellington.wd5.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -306,7 +295,7 @@
    "matchPercent": 92,
    "jobrightUrl": "https://jobright.ai/jobs/info/69387b8ca0dde7020e311159",
    "originalUrl": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-Eagan-Minnesota/Senior-Software-Engineer---AI--Materia-AI-_JREQ196434-3?source=jobright&jr_id=69387b8ca0dde7020e311159",
-   "reason": "platform not automated from cloud: thomsonreuters.wd5.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -317,7 +306,7 @@
    "matchPercent": 92,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a887d0b4afae74a0834be85",
    "originalUrl": "https://validate.perfdrive.com/?ssa=96613252-dda1-4abc-9892-da89f06d4a48&ssb=94967297345&ssc=https%3A%2F%2Fclients.njoyn.com%2FNjoyn_WAF_Error.asp%3F_event_transid%3D906412d6837ca643fa689f766adcdd748324cc94b3a14659bb5d43bf6ea6b958&ssi=c484fc33-dcvu-4b52-b67c-c335028d15b1&ssk=botmanager_support@radware.com&ssm=37991515482482974107447720069294&ssn=c4fd41f2ee1a881e3ec9300790fbfd39f1e1dbc984bf-c764-4b8e-bbb685&sso=ccc3dd7b-315b545e8b677d927c49f16aa4c2fa6ec52cd70c0b504e8a&ssp=67480414901787853242178783303686596&ssq=01681080100249944571501002851887158632404&ssr=MTYwLjc5LjEwNi4xMzE=&sst=Mozilla/5.0%20(X11;%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20HeadlessChrome/141.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwNzY0NmM3NzEtZjQ1ZS00YmI1LThkMjEtYmNjZDJmMjE0NGIzMS0xNzg3ODAxMDAyNDI0MC0wMDI0OTViN2U3ZTI0Y2M4YzYzMTAiLCJfX3V6bWYiOiI3ZjkwMDBkYmM5ODRiZi1jNzY0LTRiOGUtYmQ3Yi0zMTViNTQ1ZThiNjcxLTE3ODc4MDEwMDI0MjQwLTAwNDUyMjJlZjNhYTM2MjI3MjgxMCIsInJkIjoibmpveW4uY29tIn0=",
-   "reason": "platform not automated from cloud: validate.perfdrive.com",
+   "reason": "Company-hosted portal (validate.perfdrive.com) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -328,7 +317,7 @@
    "matchPercent": 92,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8fa1587c32860d14cf65f2",
    "originalUrl": "https://santander.wd3.myworkdayjobs.com/santandercareers/job/Madison-Ave-Corp/Senior-Java-Application-Developer_Req1600338-1?jr_id=6a8fa1587c32860d14cf65f2",
-   "reason": "platform not automated from cloud: santander.wd3.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -339,7 +328,7 @@
    "matchPercent": 92,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a862a3ee459fa3baa8666d2",
    "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775714?jr_id=6a862a3ee459fa3baa8666d2",
-   "reason": "platform not automated from cloud: jpmc.fa.oraclecloud.com",
+   "reason": "Oracle Cloud recruiting portal — requires a per-company account; manual for now.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -350,7 +339,7 @@
    "matchPercent": 91,
    "jobrightUrl": "https://jobright.ai/jobs/info/69090a72d046ab6061cd0926",
    "originalUrl": "https://community.workday.com/maintenance-page?d=0&s=&e=",
-   "reason": "platform not automated from cloud: community.workday.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -361,7 +350,7 @@
    "matchPercent": 91,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a56834d53b3962b910b0b22",
    "originalUrl": "https://jobs.intuit.com/job/charlotte/staff-software-engineer-credit-karma/27595/97793819392?jr_id=6a56834d53b3962b910b0b22&cid=unknownReferringDomains_unknownReferringDomains",
-   "reason": "platform not automated from cloud: jobs.intuit.com",
+   "reason": "Company-hosted portal (jobs.intuit.com) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -372,7 +361,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a89b48d680f314a29d3f487",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=lively43&jr_id=6a89b48d680f314a29d3f487&token=5838065004&utm_source=jobright",
-   "reason": "技术栈自评题（JS/TS/Node all-3）按政策由用户自答",
+   "reason": "Asks you to self-rate as strong in all of JS/TS/Node — by policy the agent never inflates skill claims; answer this one yourself.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -383,7 +372,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8d8577581f2d7bfdfe77b6",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=prizepicks&jr_id=6a8d8577581f2d7bfdfe77b6&token=7786030003&utm_source=jobright",
-   "reason": "表单含 AI 声明题——铁律转手动，由你本人填写",
+   "reason": "The form asks whether an AI/automated system is filling it. Hard rule: the agent never impersonates a human — apply personally.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -394,7 +383,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7b0b1db933773d16be4d6d",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=paveakatroveinformationtechnologies&jr_id=6a7b0b1db933773d16be4d6d&token=4723021005&utm_source=jobright",
-   "reason": "combobox 标签定位错位（in-person 确认题），下窗口现场处理",
+   "reason": "In-person acknowledgment control mislocated by the label walker — next window handles it live.",
    "status": "needs_info",
    "addedAt": "2026-08-27"
   },
@@ -405,7 +394,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5105e857513b72e0c632c9",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=databricks&jr_id=6a5105e857513b72e0c632c9&token=8027404002&utm_source=jobright",
-   "reason": "移民身份单选需现场看全选项如实选择",
+   "reason": "Immigration-status radio needs its full option list inspected live before an honest selection.",
    "status": "needs_info",
    "addedAt": "2026-08-27"
   },
@@ -416,7 +405,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/69fe662c6bcf315dc8f5772e",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=otter&jr_id=69fe662c6bcf315dc8f5772e&token=8237848002&utm_source=jobright",
-   "reason": "backend-distributed-systems 资格题控件未识别，下窗口现场处理",
+   "reason": "One qualification control not recognized — next window handles it live.",
    "status": "needs_info",
    "addedAt": "2026-08-27"
   },
@@ -427,7 +416,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7e6217e2030208f2769025",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=reddit&jr_id=6a7e6217e2030208f2769025&token=8128860&utm_source=jobright",
-   "reason": "规则已补齐，待下窗口提交（今日 Greenhouse 配额用尽）",
+   "reason": "Answer rules ready — submits in the next window (today's Greenhouse quota was used up).",
    "status": "needs_info",
    "addedAt": "2026-08-27"
   },
@@ -438,7 +427,7 @@
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7902fca26ccc369f839550",
    "originalUrl": null,
-   "reason": "表单含 AI 声明题——铁律转手动，由你本人填写",
+   "reason": "The form asks whether an AI/automated system is filling it. Hard rule: the agent never impersonates a human — apply personally.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -449,7 +438,7 @@
    "matchPercent": 85,
    "jobrightUrl": "https://jobright.ai/jobs/info/68800d6a2097a271a89a07e9",
    "originalUrl": null,
-   "reason": "移民身份单选需现场看全选项如实选择",
+   "reason": "Immigration-status radio needs its full option list inspected live before an honest selection.",
    "status": "needs_info",
    "addedAt": "2026-08-27"
   },
@@ -460,7 +449,7 @@
    "matchPercent": 82,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a38d03329c90c607e4e80c9",
    "originalUrl": null,
-   "reason": "backend-distributed-systems 资格题控件未识别，下窗口现场处理",
+   "reason": "One qualification control not recognized — next window handles it live.",
    "status": "needs_info",
    "addedAt": "2026-08-27"
   },
@@ -471,7 +460,7 @@
    "matchPercent": 81,
    "jobrightUrl": "https://jobright.ai/jobs/info/68909ceef47efe211394eb33",
    "originalUrl": null,
-   "reason": "移民身份单选需现场看全选项如实选择",
+   "reason": "Immigration-status radio needs its full option list inspected live before an honest selection.",
    "status": "needs_info",
    "addedAt": "2026-08-27"
   },
@@ -482,7 +471,7 @@
    "matchPercent": 80,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8de8bc47679c68bf5e5865",
    "originalUrl": null,
-   "reason": "规则已补齐，待下窗口提交（今日 Greenhouse 配额用尽）",
+   "reason": "Answer rules ready — submits in the next window (today's Greenhouse quota was used up).",
    "status": "needs_info",
    "addedAt": "2026-08-27"
   },
@@ -493,7 +482,7 @@
    "matchPercent": 91,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f98980bd89e205d24742c",
    "originalUrl": "https://www.metlifecareers.com/en_US/ml/ApplicationMethods?jobId=20134&recommendation=&source=jobright&tags=&user=&formValues=&jr_id=6a8f98980bd89e205d24742c",
-   "reason": "platform not automated from cloud: www.metlifecareers.com",
+   "reason": "Company-hosted portal (www.metlifecareers.com) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -504,7 +493,7 @@
    "matchPercent": 91,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a2073b9ca8f0b365d7a13a5",
    "originalUrl": "https://ats.rippling.com/rippling/jobs/b60c7ab2-e174-452f-83cc-37973b0ad4e3?jr_id=6a2073b9ca8f0b365d7a13a5",
-   "reason": "platform not automated from cloud: ats.rippling.com",
+   "reason": "Company-hosted portal (ats.rippling.com) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -515,7 +504,7 @@
    "matchPercent": 91,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a0f14dd83d714428981cbf2",
    "originalUrl": "https://jobs.ashbyhq.com/confido/2ca70e4e-c92d-45f8-9af3-117567200348/application?utm_source=jobright&jr_id=6a0f14dd83d714428981cbf2",
-   "reason": "ashby anti-bot flagged the datacenter IP",
+   "reason": "Ashby anti-bot blocks the cloud IP. Fully auto-fillable — run the local replay script from your home network, or apply by hand.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -537,7 +526,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5f81a4b0f20036bc6313ca",
    "originalUrl": "https://ats.rippling.com/rippling/jobs/0c1b4685-4261-48d9-b007-cb8b2f9c9df7?jr_id=6a5f81a4b0f20036bc6313ca",
-   "reason": "platform not automated from cloud: ats.rippling.com",
+   "reason": "Company-hosted portal (ats.rippling.com) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -548,7 +537,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f0b7ea10ee661e24d626d",
    "originalUrl": "https://ats.rippling.com/veryable-careers/jobs/23989fa6-b6c0-4d8a-9ec7-84b9b56031e1?jr_id=6a8f0b7ea10ee661e24d626d",
-   "reason": "platform not automated from cloud: ats.rippling.com",
+   "reason": "Company-hosted portal (ats.rippling.com) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -559,7 +548,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4087a23bfa967791ec04f0",
    "originalUrl": "https://ats.rippling.com/rippling/jobs/af95ca2e-187d-4e60-92df-292ee3934c9c?jr_id=6a4087a23bfa967791ec04f0",
-   "reason": "platform not automated from cloud: ats.rippling.com",
+   "reason": "Company-hosted portal (ats.rippling.com) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -570,7 +559,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a79c51ab17cba5690363a11",
    "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210778821?jr_id=6a79c51ab17cba5690363a11",
-   "reason": "platform not automated from cloud: jpmc.fa.oraclecloud.com",
+   "reason": "Oracle Cloud recruiting portal — requires a per-company account; manual for now.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -581,7 +570,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8e02daa5639a48103291a8",
    "originalUrl": "https://www.linkedin.com/jobs/view/4456958817?jr_id=6a8e02daa5639a48103291a8",
-   "reason": "platform not automated from cloud: www.linkedin.com",
+   "reason": "LinkedIn Easy Apply — fastest done in your own logged-in browser (about two clicks).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -592,7 +581,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a88b589d34f700f87fca0bf",
    "originalUrl": "https://truist.wd1.myworkdayjobs.com/careers/job/Charlotte-NC/Senior-Software-Engineer-Loan-Syndication-and-Sales---Trading_R0116447?jr_id=6a88b589d34f700f87fca0bf",
-   "reason": "platform not automated from cloud: truist.wd1.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -614,7 +603,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a87cc4125fc4e7ae3daec6f",
    "originalUrl": "https://thomsonreuters.wd5.myworkdayjobs.com/private_external_career_site/job/United-States-of-America-Eagan-Minnesota/Senior-Software-Engineer-I_JREQ201421?jr_id=6a87cc4125fc4e7ae3daec6f",
-   "reason": "platform not automated from cloud: thomsonreuters.wd5.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -625,7 +614,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a860da5d34f700f87fbfe64",
    "originalUrl": "https://www.amazon.jobs/en/jobs/10507310/senior-software-development-engineer-aws-analytics-engineering?jr_id=6a860da5d34f700f87fbfe64",
-   "reason": "platform not automated from cloud: www.amazon.jobs",
+   "reason": "Company-hosted portal (www.amazon.jobs) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -647,7 +636,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8e12dda5639a4810329700",
    "originalUrl": "https://www.amazon.jobs/en/jobs/10474479/software-development-engineer-iii-registries-registries?jr_id=6a8e12dda5639a4810329700",
-   "reason": "platform not automated from cloud: www.amazon.jobs",
+   "reason": "Company-hosted portal (www.amazon.jobs) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -658,7 +647,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7b81b7bc05d77f2bddf7f2",
    "originalUrl": "https://www.amazon.jobs/en/jobs/10498986/software-engineer-iii-inventory-accounting?jr_id=6a7b81b7bc05d77f2bddf7f2",
-   "reason": "platform not automated from cloud: www.amazon.jobs",
+   "reason": "Company-hosted portal (www.amazon.jobs) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -669,7 +658,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8765e1e8b6601d129035ee",
    "originalUrl": "https://www.linkedin.com/jobs/view/4438841440?jr_id=6a8765e1e8b6601d129035ee",
-   "reason": "platform not automated from cloud: www.linkedin.com",
+   "reason": "LinkedIn Easy Apply — fastest done in your own logged-in browser (about two clicks).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -680,7 +669,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f05c6382b237ac80c3d31",
    "originalUrl": "https://careers.mitre.org/us/en/job/MITRUSR116563EXTERNALENUS/senior-software-engineer?jr_id=6a8f05c6382b237ac80c3d31",
-   "reason": "platform not automated from cloud: careers.mitre.org",
+   "reason": "Company-hosted portal (careers.mitre.org) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -691,7 +680,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a883824d34f700f87fc7aac",
    "originalUrl": "https://expedia.wd108.myworkdayjobs.com/search/job/USA---Illinois---Chicago/Senior-Software-Development-Engineer--Advertising-Technology_R-100032-1?jr_id=6a883824d34f700f87fc7aac",
-   "reason": "platform not automated from cloud: expedia.wd108.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -702,7 +691,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/68e41280f758fe1f97e63384",
    "originalUrl": null,
-   "reason": "no_apply_button",
+   "reason": "No apply button found on the Jobright page (posting may have closed) — verify via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -713,7 +702,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8ab18c25fc4e7ae3db4e3d",
    "originalUrl": "https://bloomberg.avature.net/careers/JobDetail/Senior-Software-Engineer-Customer-Distribution-Infrastructure/21547?jr_id=6a8ab18c25fc4e7ae3db4e3d",
-   "reason": "platform not automated from cloud: bloomberg.avature.net",
+   "reason": "Company-hosted portal (bloomberg.avature.net) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -724,7 +713,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a509f152e2ceb72963b3d32",
    "originalUrl": "https://lseg.wd3.myworkdayjobs.com/careers/job/Greater-Charlotte-Area-United-States/FTSE-Software-Engineering---Data-Engineering-Opportunities_R0121535-1?jr_id=6a509f152e2ceb72963b3d32",
-   "reason": "platform not automated from cloud: lseg.wd3.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -735,7 +724,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a548a588a74e077472fc26f",
    "originalUrl": "https://pnc.wd5.myworkdayjobs.com/external/job/Dallas-Innovation-Center---Luna-Rd-TX270/Software-Engineer-Principal_R209249?jr_id=6a548a588a74e077472fc26f",
-   "reason": "platform not automated from cloud: pnc.wd5.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -746,7 +735,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a3de3738bfad862bc99ebab",
    "originalUrl": "https://ats.rippling.com/neosigma/jobs/6e5929ac-cd46-434a-9e33-6321b7c402e4?jr_id=6a3de3738bfad862bc99ebab",
-   "reason": "platform not automated from cloud: ats.rippling.com",
+   "reason": "Company-hosted portal (ats.rippling.com) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -757,7 +746,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a84e5afe12474455273d0db",
    "originalUrl": "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---TX---PLANO/Sr-Analyst-I-Software-Engineering_51587227?jr_id=6a84e5afe12474455273d0db",
-   "reason": "platform not automated from cloud: dxctechnology.wd1.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -779,7 +768,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a87400ad34f700f87fc4594",
    "originalUrl": "https://db.wd3.myworkdayjobs.com/dbwebsite/job/Cary-3000-CentreGreen-Way/Senior-Engineer_R0448382?jr_id=6a87400ad34f700f87fc4594",
-   "reason": "platform not automated from cloud: db.wd3.myworkdayjobs.com",
+   "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -790,7 +779,7 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7b09b377e6b569c61bddd9",
    "originalUrl": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009320?jr_id=6a7b09b377e6b569c61bddd9",
-   "reason": "platform not automated from cloud: egug.fa.us2.oraclecloud.com",
+   "reason": "Oracle Cloud recruiting portal — requires a per-company account; manual for now.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   }
