@@ -287,9 +287,11 @@ fingerprint games. Three levers, in order:
 ## AI-disclosure questions (hard rule, 2026-08-27)
 
 Some applications ask directly whether an automated system or AI is completing the form
-(e.g. PrizePicks). NEVER answer these as if a human filled the form — that is a lie about
-the process itself. Park the job as needs_manual with the reason stated, so the user can
-apply personally. Honest automation means being honest about the automation.
+(e.g. PrizePicks). Policy (user-authorized 2026-08-27): answer TRUTHFULLY that AI
+assistance was used with the applicant's authorization and review — e.g. "Yes — completed
+with AI assistance, authorized and reviewed by the applicant." NEVER deny AI involvement
+and never phrase the answer to imply a human typed the form unaided. Honest automation
+means being honest about the automation.
 
 ## Site language & backlog-relief mechanisms (2026-08-27)
 

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-26T20:05:00Z",
+ "updatedAt": "2026-08-27T06:00:00Z",
  "open": [],
  "answered": [
   {
@@ -51,6 +51,14 @@
    "blocking": true,
    "answer": "No — 不受任何雇佣协议/竞业限制约束。主力语言 Python (also Go, TypeScript)；开源链接 github.com/nonameisready。",
    "answeredAt": "2026-08-26"
+  },
+  {
+   "id": "q-skill-ratings-and-ai-disclosure",
+   "question": "How to answer stack self-ratings, and AI-disclosure questions on applications?",
+   "field": "skillRatings,aiDisclosure",
+   "askedAt": "2026-08-27",
+   "answer": "TypeScript: strong/proficient. JavaScript, Node and other non-core stacks: moderate. 'Strong in all of JS/TS/Node?' → No (honest). AI-disclosure questions: always answer truthfully that AI assistance was used with the applicant's authorization and review — never deny AI use, never impersonate a human.",
+   "answeredAt": "2026-08-27"
   }
  ],
  "note": "The agent appends questions it cannot answer here, keeps the job in pending.json, and continues. When the user answers (in the Agent tab while running locally, or by telling Claude in any session), the answer moves to `answered`, profile.json/memory.json are updated, and the next run uses it automatically. `blocking: true` means applications that need this answer are held as needs_info instead of being submitted with a guess."

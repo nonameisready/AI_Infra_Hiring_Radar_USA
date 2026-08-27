@@ -193,6 +193,26 @@
   {
    "label": "office 5.days|5.days? a week|five days",
    "prefer": "^yes"
+  },
+  {
+   "label": "strong experience with all|all 3.*(javascript|typescript|node)",
+   "prefer": "^no"
+  },
+  {
+   "label": "proficien(t|cy)?.*typescript",
+   "prefer": "strong|advanced|expert|proficient"
+  },
+  {
+   "label": "proficien(t|cy)?.*(javascript|node)",
+   "prefer": "moderate|intermediate|some"
+  },
+  {
+   "label": "automated system or ai|using an ai|ai (tool|assistance)",
+   "prefer": "yes|ai.?assist|disclose|acknowledge"
+  },
+  {
+   "label": "athlete or esports",
+   "prefer": "^no"
   }
  ],
  "texts": [
@@ -211,6 +231,10 @@
   {
    "label": "(from )?where do you (intend|plan) to work",
    "text": "New York, NY"
+  },
+  {
+   "label": "if you are an automated system or ai",
+   "text": "Yes \u2014 this application was completed with AI assistance, authorized and reviewed by the applicant (Hui Mao)."
   }
  ],
  "checkboxes": [
@@ -227,8 +251,5 @@
    "label": "in-person work|in-?office (work|days)|hybrid (schedule|model)"
   }
  ],
- "manualTriggers": [
-  "are you using an ai|completed by (an )?ai",
-  "if you are an automated system or ai"
- ]
+ "manualTriggers": []
 }

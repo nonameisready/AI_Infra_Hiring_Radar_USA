@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-26T20:05:00Z",
+ "updatedAt": "2026-08-27T06:00:00Z",
  "answers": [
   {
    "match": "first\\s*name",
@@ -141,6 +141,32 @@
    "answer": "Yes",
    "source": "user",
    "learnedAt": "2026-08-26"
+  },
+  {
+   "match": "proficien(t|cy)?.*typescript|typescript.*(proficiency|level|experience)",
+   "answer": "Strong / proficient",
+   "source": "user",
+   "learnedAt": "2026-08-27"
+  },
+  {
+   "match": "proficien(t|cy)?.*(javascript|node)|(javascript|node).*(proficiency|level)",
+   "answer": "Moderate — working experience",
+   "source": "user",
+   "learnedAt": "2026-08-27"
+  },
+  {
+   "match": "strong experience with all|all 3.*(javascript|typescript|node)",
+   "answer": "No",
+   "source": "user",
+   "learnedAt": "2026-08-27",
+   "note": "TypeScript strong; JavaScript/Node moderate — so 'strong in all three' is honestly No."
+  },
+  {
+   "match": "automated system or ai|using an ai|completed .*by (an )?ai|ai (tool|assistance|assistant)",
+   "answer": "Yes — this application was completed with AI assistance, authorized and reviewed by the applicant.",
+   "source": "user",
+   "learnedAt": "2026-08-27",
+   "note": "User authorized 2026-08-27: always disclose AI assistance truthfully; never deny it."
   }
  ],
  "note": "Regex `match` is tested case-insensitively against a form question's label. Answers the user gives to open questions in questions.json get appended here so the agent never asks twice. Never store passwords or secrets in this file."
