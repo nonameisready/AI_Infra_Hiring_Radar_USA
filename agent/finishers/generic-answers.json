@@ -96,6 +96,14 @@
    "label": "^discipline|field of study",
    "prefer": "computer science",
    "type": "Computer Science"
+  },
+  {
+   "label": "ever (worked|been employed) (for|at|by)",
+   "prefer": "^no"
+  },
+  {
+   "label": "willing to work from the office|work from the office\\(s\\)|onsite requirement",
+   "prefer": "^yes"
   }
  ],
  "texts": [
