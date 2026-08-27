@@ -156,6 +156,11 @@
   {
    "label": "work from a remote location|option to work remote",
    "prefer": "^yes"
+  },
+  {
+   "label": "(from )?where do you (intend|plan) to work",
+   "prefer": "new york|ny|^remote",
+   "type": "New York"
   }
  ],
  "texts": [
