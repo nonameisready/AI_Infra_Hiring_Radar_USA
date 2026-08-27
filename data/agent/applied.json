@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T05:05:00Z",
+ "updatedAt": "2026-08-27T17:25:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -674,10 +674,10 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a89b48d680f314a29d3f487",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=lively43&jr_id=6a89b48d680f314a29d3f487&token=5838065004&utm_source=jobright",
-   "at": "2026-08-27T04:55:00Z",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "技术栈自评题（JS/TS/Node all-3）按政策由用户自答"
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Skill ratings per user policy: TypeScript strong, JS/Node moderate, 'all three strong' honestly No; relational DBs Yes. Confirmation verified.",
+   "at": "2026-08-27T17:25:00Z"
   },
   "6a8d8577581f2d7bfdfe77b6": {
    "id": "6a8d8577581f2d7bfdfe77b6",
@@ -687,10 +687,10 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8d8577581f2d7bfdfe77b6",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=prizepicks&jr_id=6a8d8577581f2d7bfdfe77b6&token=7786030003&utm_source=jobright",
-   "at": "2026-08-27T04:55:00Z",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "表单含 AI 声明题——铁律转手动，由你本人填写"
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "AI-disclosure answered truthfully per user authorization: 'completed with AI assistance, authorized and reviewed by the applicant'. Athlete/esports No. Confirmation verified.",
+   "at": "2026-08-27T17:25:00Z"
   },
   "6a7b0b1db933773d16be4d6d": {
    "id": "6a7b0b1db933773d16be4d6d",

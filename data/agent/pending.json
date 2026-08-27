@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T05:30:00Z",
+ "updatedAt": "2026-08-27T17:25:00Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -351,28 +351,6 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a56834d53b3962b910b0b22",
    "originalUrl": "https://jobs.intuit.com/job/charlotte/staff-software-engineer-credit-karma/27595/97793819392?jr_id=6a56834d53b3962b910b0b22&cid=unknownReferringDomains_unknownReferringDomains",
    "reason": "Company-hosted portal (jobs.intuit.com) — not automatable from the cloud; apply via the link.",
-   "status": "needs_manual",
-   "addedAt": "2026-08-27"
-  },
-  {
-   "id": "6a89b48d680f314a29d3f487",
-   "title": "Sr. Software Engineer - Backend",
-   "company": "Lively, Inc.",
-   "matchPercent": 89,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a89b48d680f314a29d3f487",
-   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=lively43&jr_id=6a89b48d680f314a29d3f487&token=5838065004&utm_source=jobright",
-   "reason": "Asks you to self-rate as strong in all of JS/TS/Node — by policy the agent never inflates skill claims; answer this one yourself.",
-   "status": "needs_manual",
-   "addedAt": "2026-08-27"
-  },
-  {
-   "id": "6a8d8577581f2d7bfdfe77b6",
-   "title": "Senior Software Engineer (GO)",
-   "company": "PrizePicks",
-   "matchPercent": 89,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a8d8577581f2d7bfdfe77b6",
-   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=prizepicks&jr_id=6a8d8577581f2d7bfdfe77b6&token=7786030003&utm_source=jobright",
-   "reason": "The form asks whether an AI/automated system is filling it. Hard rule: the agent never impersonates a human — apply personally.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },

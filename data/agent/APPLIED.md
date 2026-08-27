@@ -112,3 +112,15 @@ All with ATS confirmation pages, all >=89% match. Greenhouse window quota 13/15 
 Next-window queue: Pave, Otter, Reddit, Databricks. Policy-manual: Lively (stack self-rating),
 PrizePicks (AI-disclosure question — never impersonate a human). ~60 enterprise-ATS roles
 (Workday/Oracle/LinkedIn/custom) parked to the manual tab with links.
+
+### 2026-08-27 — Lively & PrizePicks submitted after user set answer policies (day total: 15)
+
+| Company | Title | Match | Via | Status |
+| ------- | ----- | ----- | --- | ------ |
+| Lively, Inc. | Sr. Software Engineer - Backend | 89% | Greenhouse | ✅ confirmed — TS rated strong, JS/Node moderate (honest) |
+| PrizePicks | Senior Software Engineer (GO) | 89% | Greenhouse | ✅ confirmed — AI assistance disclosed truthfully per user authorization |
+
+Greenhouse window quota exactly 15/15. New standing policies in memory.json: TypeScript
+strong / other stacks moderate; AI-disclosure questions answered truthfully ("completed with
+AI assistance, authorized and reviewed by the applicant") — never denied, never impersonating
+a human.
