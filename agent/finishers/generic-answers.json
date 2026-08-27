@@ -106,7 +106,7 @@
    "prefer": "^yes"
   },
   {
-   "label": "requires in-?office|in-?office work.*(days|week)|hybrid schedule",
+   "label": "requires in-?office|in-?office (work|days)|hybrid (schedule|model)|in-person work",
    "prefer": "^yes|acknowledge|agree|i understand"
   },
   {
