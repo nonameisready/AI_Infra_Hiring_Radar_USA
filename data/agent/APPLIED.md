@@ -89,3 +89,26 @@ Queue positions 5-34 (91-95% band) were enterprise-ATS dominated: Workday x10, O
 LinkedIn x3, custom portals — all parked to the manual list honestly. Second-pass adaptations
 added tonight: remix-UI comboboxes, type-to-search for huge lists, consent checkboxes,
 country-option variants (USA), competitor/prior-employment wordings, education fields.
+
+### 2026-08-27 final — 13 confirmed submissions in one overnight session
+
+| # | Company | Title | Match |
+| - | ------- | ----- | ----- |
+| 1 | Betterment | Sr. Software Engineer, Backend | 96% |
+| 2 | Self Financial | Backend Software Engineer | 96% |
+| 3 | Stripe | Backend Eng, Developer & End-user Experience Platform | 96% |
+| 4 | Stripe | Backend Engineer, Link (US) | 96% |
+| 5 | Stripe | Backend/API Engineer, Money as a Service | 95% |
+| 6 | Brex | Senior Software Engineer, Backend (Product) | 94% |
+| 7 | Robinhood | Senior Software Engineer, Backend | 94% |
+| 8 | Kikoff | Senior Backend Engineer | 91% |
+| 9 | Mercury | Senior Software Engineer, Banking Integrations | 90% |
+| 10 | Stripe | Backend Engineer, Core Technology | 89% |
+| 11 | Imply | Senior Software Engineer (Remote) | 89% |
+| 12 | SmarterDx | Senior Software Engineer (Applied AI) | 89% |
+| 13 | Next Insurance | Backend Software Engineer (Payments) | 89% |
+
+All with ATS confirmation pages, all >=89% match. Greenhouse window quota 13/15 used.
+Next-window queue: Pave, Otter, Reddit, Databricks. Policy-manual: Lively (stack self-rating),
+PrizePicks (AI-disclosure question — never impersonate a human). ~60 enterprise-ATS roles
+(Workday/Oracle/LinkedIn/custom) parked to the manual tab with links.

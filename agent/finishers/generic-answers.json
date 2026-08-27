@@ -19,7 +19,7 @@
    "prefer": "^United States"
   },
   {
-   "label": "require (immigration )?sponsorship|sponsorship for employment|visa status",
+   "label": "require (immigration |visa |work )?(visa )?sponsorship|sponsorship for employment|visa status",
    "prefer": "^yes$|yes, but not one"
   },
   {
@@ -185,6 +185,14 @@
   {
    "label": "by selecting .?i agree|i understand that the information",
    "prefer": "^i agree|^yes|agree"
+  },
+  {
+   "label": "experience building backend|backend distributed systems",
+   "prefer": "^yes"
+  },
+  {
+   "label": "office 5.days|5.days? a week|five days",
+   "prefer": "^yes"
   }
  ],
  "texts": [
@@ -199,6 +207,10 @@
   {
    "label": "current or previous job title",
    "text": "Senior Software Engineer"
+  },
+  {
+   "label": "(from )?where do you (intend|plan) to work",
+   "text": "New York, NY"
   }
  ],
  "checkboxes": [
@@ -210,6 +222,9 @@
   },
   {
    "label": "i confirm that all the information|certify that the information"
+  },
+  {
+   "label": "in-person work|in-?office (work|days)|hybrid (schedule|model)"
   }
  ],
  "manualTriggers": [
