@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T21:45:00Z",
+ "updatedAt": "2026-08-27T22:35:00Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -681,17 +681,6 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a87400ad34f700f87fc4594",
    "originalUrl": "https://db.wd3.myworkdayjobs.com/dbwebsite/job/Cary-3000-CentreGreen-Way/Senior-Engineer_R0448382?jr_id=6a87400ad34f700f87fc4594",
    "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
-   "status": "needs_manual",
-   "addedAt": "2026-08-27"
-  },
-  {
-   "id": "6a7b09b377e6b569c61bddd9",
-   "title": "Senior Backend Software Engineer - Global Commercial Services Technology",
-   "company": "American Express",
-   "matchPercent": 89,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a7b09b377e6b569c61bddd9",
-   "originalUrl": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009320?jr_id=6a7b09b377e6b569c61bddd9",
-   "reason": "Oracle Cloud recruiting portal — requires a per-company account; manual for now.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   }

@@ -155,3 +155,14 @@ limit; user applies personally tomorrow.
 The user's pre-existing Bloomberg account was recovered by email password reset
 (login details in accounts.json; secret stays in the environment). Compliance and
 family disclosures answered per the user's explicit 2026-08-27 instructions.
+
+### 2026-08-27 evening — American Express submitted (day total: 22)
+
+| Company | Title | Match | Via | Status |
+| ------- | ----- | ----- | --- | ------ |
+| American Express | Senior Backend Software Engineer - Global Commercial Services Tech | 89% | Oracle Cloud CX (agent) | ✅ profile shows "Application Submitted 08/27/2026" |
+
+Passwordless Oracle CX flow (email OTP read from Gmail). Compliance questionnaire
+(19 questions) answered per the user's explicit instructions; side projects
+disclosed truthfully. Note: the user had a previous Amex application (Feb 2026),
+which pre-filled their candidate profile.

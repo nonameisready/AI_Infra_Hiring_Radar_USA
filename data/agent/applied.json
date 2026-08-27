@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T21:45:00Z",
+ "updatedAt": "2026-08-27T22:35:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1168,10 +1168,10 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7b09b377e6b569c61bddd9",
    "originalUrl": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009320?jr_id=6a7b09b377e6b569c61bddd9",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "platform not automated from cloud: egug.fa.us2.oraclecloud.com",
-   "at": "2026-08-27T04:55:00Z"
+   "status": "applied_direct",
+   "via": "Oracle Cloud CX (agent, email-verified profile)",
+   "detail": "Email OTP verification (Gmail), 4-section wizard incl. compliance questionnaire per user's answers; profile page shows 'Application Submitted' on 08/27/2026.",
+   "at": "2026-08-27T22:35:00Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
