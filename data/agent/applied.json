@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T03:20:00Z",
+ "updatedAt": "2026-08-27T03:30:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -145,6 +145,19 @@
    "via": "greenhouse",
    "detail": "First submission through the upgraded remix-UI flow: location autocomplete committed to New York, NYC-metro Yes (true), certification acknowledged, security code auto-fed from Gmail. Confirmation: 'Thank you for applying! Your application has been received.'",
    "at": "2026-08-27T03:20:00Z"
+  },
+  "6a793a36b17cba569036273f": {
+   "id": "6a793a36b17cba569036273f",
+   "key": "self financial, inc.::backend software engineer - evergreen posting",
+   "title": "Backend Software Engineer - Evergreen Posting",
+   "company": "Self Financial, Inc.",
+   "matchPercent": 96,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a793a36b17cba569036273f",
+   "originalUrl": null,
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Remix-UI flow, generic answers, security code reused from the earlier attempt's email (Greenhouse issues one code per applicant+job and honors it across attempts). Confirmation: 'Thank you for your interest in working at Self!'",
+   "at": "2026-08-27T03:30:00Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
