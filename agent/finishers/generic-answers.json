@@ -181,6 +181,10 @@
   {
    "label": "take.?home (challenge|assignment|assessment)",
    "prefer": "^yes"
+  },
+  {
+   "label": "by selecting .?i agree|i understand that the information",
+   "prefer": "^i agree|^yes|agree"
   }
  ],
  "texts": [
@@ -189,7 +193,7 @@
    "text": "https://www.linkedin.com/in/belindamao"
   },
   {
-   "label": "current or previous employer",
+   "label": "current or previous employer|current \\(or most recent\\) company|most recent (company|employer)",
    "text": "Bank of America (via Innova Solutions)"
   },
   {
