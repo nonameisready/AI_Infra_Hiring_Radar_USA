@@ -72,7 +72,8 @@ const platformOf = (u) =>
 const jobs = targets
   .map((i) => ({ ...i, platform: platformOf(i.originalUrl) }))
   .filter((i) => i.platform && (!ONLY || i.platform === ONLY));
-console.log(`${jobs.length} job(s) to replay (${DRY ? "DRY RUN — no submissions" : "submitting for real"})\n`);
+console.log(`${jobs.length} job(s) to replay (${DRY ? "DRY RUN — no submissions" : "submitting for real"})`);
+console.log(`Screenshots and work files: ${WORK}\n`);
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 const ask = (q) => new Promise((r) => rl.question(q, r));
@@ -84,8 +85,10 @@ function runFinisher(script, args) {
       env: { ...process.env, AGENT_WORK_DIR: WORK, REPO_DIR: REPO },
     });
     let out = "";
+    let err = "";
     p.stdout.on("data", (d) => { out += d; });
     p.stderr.on("data", async (d) => {
+      err += d;
       if (/WAITING_FOR_CODE/.test(d.toString())) {
         const code = await ask("  📧 Greenhouse emailed you a security code — type it here: ");
         fs.writeFileSync(path.join(WORK, "gh-code.txt"), code.trim());
@@ -93,7 +96,11 @@ function runFinisher(script, args) {
     });
     p.on("exit", () => {
       const start = out.indexOf("{");
-      try { resolve(JSON.parse(out.slice(start))); } catch { resolve(null); }
+      try { resolve(JSON.parse(out.slice(start))); } catch {
+        const tail = err.trim().split("\n").slice(-8).join("\n");
+        if (tail) console.error(`  ⚠ finisher crashed:\n${tail.replace(/^/gm, "    ")}`);
+        resolve(null);
+      }
     });
   });
 }

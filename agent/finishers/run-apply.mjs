@@ -21,8 +21,9 @@ const tag = Date.now();
 const browser = await chromium.launch({
   headless: true,
   executablePath: process.env.PLAYWRIGHT_CHROMIUM_PATH,
-  proxy: { server: process.env.HTTPS_PROXY },
-  args: ["--no-sandbox", "--disable-blink-features=AutomationControlled", "--ssl-version-max=tls1.2"],
+  ...(process.env.HTTPS_PROXY ? { proxy: { server: process.env.HTTPS_PROXY } } : {}),
+  args: ["--no-sandbox", "--disable-blink-features=AutomationControlled",
+         ...(process.env.HTTPS_PROXY ? ["--ssl-version-max=tls1.2"] : [])],
 });
 const ctx = await browser.newContext({
   viewport: { width: 1440, height: 1200 },

@@ -17,8 +17,9 @@ const out = { url, combos: [], texts: [], submit: SUBMIT };
 
 const browser = await chromium.launch({
   headless: true, executablePath: process.env.PLAYWRIGHT_CHROMIUM_PATH,
-  proxy: { server: process.env.HTTPS_PROXY },
-  args: ["--no-sandbox", "--disable-blink-features=AutomationControlled", "--ssl-version-max=tls1.2"],
+  ...(process.env.HTTPS_PROXY ? { proxy: { server: process.env.HTTPS_PROXY } } : {}),
+  args: ["--no-sandbox", "--disable-blink-features=AutomationControlled",
+         ...(process.env.HTTPS_PROXY ? ["--ssl-version-max=tls1.2"] : [])],
 });
 const page = await (await browser.newContext({ viewport: { width: 1440, height: 1400 } })).newPage();
 
