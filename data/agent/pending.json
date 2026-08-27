@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T21:40:00Z",
+ "updatedAt": "2026-08-27T21:45:00Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -615,17 +615,6 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/68e41280f758fe1f97e63384",
    "originalUrl": null,
    "reason": "No apply button found on the Jobright page (posting may have closed) — verify via the link.",
-   "status": "needs_manual",
-   "addedAt": "2026-08-27"
-  },
-  {
-   "id": "6a8ab18c25fc4e7ae3db4e3d",
-   "title": "Senior Software Engineer - Customer Distribution Infrastructure",
-   "company": "Bloomberg",
-   "matchPercent": 89,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a8ab18c25fc4e7ae3db4e3d",
-   "originalUrl": "https://bloomberg.avature.net/careers/JobDetail/Senior-Software-Engineer-Customer-Distribution-Infrastructure/21547?jr_id=6a8ab18c25fc4e7ae3db4e3d",
-   "reason": "Company-hosted portal (bloomberg.avature.net) — not automatable from the cloud; apply via the link.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },

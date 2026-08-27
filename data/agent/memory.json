@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T06:00:00Z",
+ "updatedAt": "2026-08-27T21:45:00Z",
  "answers": [
   {
    "match": "first\\s*name",
@@ -167,6 +167,31 @@
    "source": "user",
    "learnedAt": "2026-08-27",
    "note": "User authorized 2026-08-27: always disclose AI assistance truthfully; never deny it."
+  },
+  {
+   "match": "relatives?.*(employed|providing services)|family.*(work|employed).*(bloomberg|hiring company)",
+   "answer": "No",
+   "note": "user 2026-08-27"
+  },
+  {
+   "match": "(family member|close personal relationship).*(competitors?|american express)",
+   "answer": "No",
+   "note": "user 2026-08-27"
+  },
+  {
+   "match": "pricewaterhousecoopers|pwc",
+   "answer": "No",
+   "note": "no PwC relationships — user 2026-08-27"
+  },
+  {
+   "match": "prominent government official",
+   "answer": "No",
+   "note": "user 2026-08-27"
+  },
+  {
+   "match": "additional (paid|unpaid) work.*(continue|second job)|running a small business",
+   "answer": "Yes — independent software side projects (EarningsStory, Adscream), personal products outside employment.",
+   "note": "user 2026-08-27"
   }
  ],
  "note": "Regex `match` is tested case-insensitively against a form question's label. Answers the user gives to open questions in questions.json get appended here so the agent never asks twice. Never store passwords or secrets in this file."

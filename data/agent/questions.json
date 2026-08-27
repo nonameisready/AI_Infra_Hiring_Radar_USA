@@ -1,15 +1,7 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T21:30:00Z",
- "open": [
-  {
-   "id": "q-compliance-family",
-   "question": "Compliance/personal disclosures needed by Bloomberg and American Express applications (asked 2026-08-27): (1) any relatives/spouse/partner employed by or providing services to Bloomberg? (2) family or close personal relationship with anyone at American Express or its obvious competitors (banks/payment companies)? (3) you or family: partner/principal/shareholder/employee of PricewaterhouseCoopers or affiliates in past 3 years, or any PwC relationship? (4) you or immediate family a Prominent Government Official in last 5 years? (5) ever worked for, been offered a position at, or hired by American Express or subsidiaries (incl. Accertify)? (6) do you currently run any paid side work you'd continue (your resume's EarningsStory/Adscream projects — are they revenue-generating businesses)?",
-   "field": "compliance.family,compliance.pwc,compliance.gov,compliance.amexHistory,compliance.sideWork",
-   "askedAt": "2026-08-27",
-   "blocking": true
-  }
- ],
+ "updatedAt": "2026-08-27T21:45:00Z",
+ "open": [],
  "answered": [
   {
    "id": "q-login-method",
@@ -75,6 +67,15 @@
    "askedAt": "2026-08-27",
    "blocking": true,
    "answer": "UPenn M.S. CS: May 2021; Rice M.S.: Dec 2017; SUFE B.A.: May 2012 (user, 2026-08-27)",
+   "answeredAt": "2026-08-27"
+  },
+  {
+   "id": "q-compliance-family",
+   "question": "Compliance/personal disclosures needed by Bloomberg and American Express applications (asked 2026-08-27): (1) any relatives/spouse/partner employed by or providing services to Bloomberg? (2) family or close personal relationship with anyone at American Express or its obvious competitors (banks/payment companies)? (3) you or family: partner/principal/shareholder/employee of PricewaterhouseCoopers or affiliates in past 3 years, or any PwC relationship? (4) you or immediate family a Prominent Government Official in last 5 years? (5) ever worked for, been offered a position at, or hired by American Express or subsidiaries (incl. Accertify)? (6) do you currently run any paid side work you'd continue (your resume's EarningsStory/Adscream projects — are they revenue-generating businesses)?",
+   "field": "compliance.family,compliance.pwc,compliance.gov,compliance.amexHistory,compliance.sideWork",
+   "askedAt": "2026-08-27",
+   "blocking": true,
+   "answer": "All No (Bloomberg relatives, Amex competitor relationships, PwC, government official, prior Amex history). Side work: Yes — EarningsStory/Adscream are active side projects.",
    "answeredAt": "2026-08-27"
   }
  ],

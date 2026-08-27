@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T21:40:00Z",
+ "updatedAt": "2026-08-27T21:45:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1077,10 +1077,10 @@
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8ab18c25fc4e7ae3db4e3d",
    "originalUrl": "https://bloomberg.avature.net/careers/JobDetail/Senior-Software-Engineer-Customer-Distribution-Infrastructure/21547?jr_id=6a8ab18c25fc4e7ae3db4e3d",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "platform not automated from cloud: bloomberg.avature.net",
-   "at": "2026-08-27T04:55:00Z"
+   "status": "applied_direct",
+   "via": "Avature (agent, logged-in account)",
+   "detail": "Existing Bloomberg account recovered via email reset; 3-step wizard completed; confirmation page verified.",
+   "at": "2026-08-27T21:45:00Z"
   },
   "6a509f152e2ceb72963b3d32": {
    "id": "6a509f152e2ceb72963b3d32",

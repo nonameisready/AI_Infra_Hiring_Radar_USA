@@ -145,3 +145,13 @@ limit; user applies personally tomorrow.
 | Company | Title | Match | Via | Status |
 | ------- | ----- | ----- | --- | ------ |
 | Thatch | Software Engineer: Backend | 85% | Greenhouse (manual, verified answers) | ✅ user applied |
+
+### 2026-08-27 evening — enterprise-ATS session: Bloomberg submitted (day total: 21)
+
+| Company | Title | Match | Via | Status |
+| ------- | ----- | ----- | --- | ------ |
+| Bloomberg | Senior Software Engineer - Customer Distribution Infrastructure | 89% | Avature (agent, account recovered) | ✅ "Thank you for applying." |
+
+The user's pre-existing Bloomberg account was recovered by email password reset
+(login details in accounts.json; secret stays in the environment). Compliance and
+family disclosures answered per the user's explicit 2026-08-27 instructions.
