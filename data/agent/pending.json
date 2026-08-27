@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T20:30:00Z",
+ "updatedAt": "2026-08-27T21:10:00Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -47,17 +47,6 @@
    "addedAt": "2026-08-27"
   },
   {
-   "id": "6a5e45a8f3674a0545d27e3e",
-   "title": "Software Engineer III",
-   "company": "Lead",
-   "matchPercent": 97,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a5e45a8f3674a0545d27e3e",
-   "originalUrl": "https://jobs.ashbyhq.com/leadbank/424c389d-e579-4ed7-8aaa-82ff3dfcabad/application?utm_source=jobright&jr_id=6a5e45a8f3674a0545d27e3e",
-   "reason": "Ashby rejects automated submissions (spam flag) even from a real browser on a home network — apply personally in your own browser; the resume upload autofills most fields and the answer sheet covers the rest (2 minutes).",
-   "status": "needs_manual",
-   "addedAt": "2026-08-27"
-  },
-  {
    "id": "6a534f5d8576ec69c014f57f",
    "title": "Software Developer",
    "company": "The D. E. Shaw Group",
@@ -76,17 +65,6 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f75e80bd89e205d246e6a",
    "originalUrl": "https://www.linkedin.com/jobs/view/4457986869?jr_id=6a8f75e80bd89e205d246e6a",
    "reason": "LinkedIn Easy Apply — fastest done in your own logged-in browser (about two clicks).",
-   "status": "needs_manual",
-   "addedAt": "2026-08-27"
-  },
-  {
-   "id": "694ef80829655e4dd65890c3",
-   "title": "Backend Engineer, Crypto",
-   "company": "OnePay",
-   "matchPercent": 94,
-   "jobrightUrl": "https://jobright.ai/jobs/info/694ef80829655e4dd65890c3",
-   "originalUrl": "https://jobs.ashbyhq.com/oneapp/63f43c38-56fb-44d8-a367-2ed299ea5589/application?utm_source=jobright&jr_id=694ef80829655e4dd65890c3",
-   "reason": "Ashby rejects automated submissions (spam flag) even from a real browser on a home network — apply personally in your own browser; the resume upload autofills most fields and the answer sheet covers the rest (2 minutes).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -208,17 +186,6 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8eeba03ac3a34f92d7e880",
    "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210715977?jr_id=6a8eeba03ac3a34f92d7e880",
    "reason": "Oracle Cloud recruiting portal — requires a per-company account; manual for now.",
-   "status": "needs_manual",
-   "addedAt": "2026-08-27"
-  },
-  {
-   "id": "6a569eb310c4d945d864adcb",
-   "title": "Senior Software Engineer",
-   "company": "Arch",
-   "matchPercent": 93,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a569eb310c4d945d864adcb",
-   "originalUrl": "https://jobs.ashbyhq.com/arch.co/d3be5d80-cdc5-48de-abb2-724a5fc57b5b/application?utm_source=jobright&jr_id=6a569eb310c4d945d864adcb",
-   "reason": "Ashby rejects automated submissions (spam flag) even from a real browser on a home network — apply personally in your own browser; the resume upload autofills most fields and the answer sheet covers the rest (2 minutes).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -472,17 +439,6 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a2073b9ca8f0b365d7a13a5",
    "originalUrl": "https://ats.rippling.com/rippling/jobs/b60c7ab2-e174-452f-83cc-37973b0ad4e3?jr_id=6a2073b9ca8f0b365d7a13a5",
    "reason": "Company-hosted portal (ats.rippling.com) — not automatable from the cloud; apply via the link.",
-   "status": "needs_manual",
-   "addedAt": "2026-08-27"
-  },
-  {
-   "id": "6a0f14dd83d714428981cbf2",
-   "title": "Senior Software Engineer",
-   "company": "Confido",
-   "matchPercent": 91,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a0f14dd83d714428981cbf2",
-   "originalUrl": "https://jobs.ashbyhq.com/confido/2ca70e4e-c92d-45f8-9af3-117567200348/application?utm_source=jobright&jr_id=6a0f14dd83d714428981cbf2",
-   "reason": "Ashby rejects automated submissions (spam flag) even from a real browser on a home network — apply personally in your own browser; the resume upload autofills most fields and the answer sheet covers the rest (2 minutes).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },

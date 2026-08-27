@@ -124,3 +124,18 @@ Greenhouse window quota exactly 15/15. New standing policies in memory.json: Typ
 strong / other stacks moderate; AI-disclosure questions answered truthfully ("completed with
 AI assistance, authorized and reviewed by the applicant") — never denied, never impersonating
 a human.
+
+### 2026-08-27 — user applied the 4 Ashby jobs with the agent's answer sheet (day total: 19)
+
+| Company | Title | Match | Via | Status |
+| ------- | ----- | ----- | --- | ------ |
+| Lead Bank | Software Engineer III | 97% | Ashby (manual, answer sheet) | ✅ user applied |
+| OnePay | Backend Engineer, Crypto | 94% | Ashby (manual, answer sheet) | ✅ user applied |
+| Arch | Senior Software Engineer | 93% | Ashby (manual, answer sheet) | ✅ user applied |
+| Confido | Senior Software Engineer | 91% | Ashby (manual, answer sheet) | ✅ user applied |
+
+Ashby refuses automated submissions even from a headed browser on a residential
+network, so these went assisted-manual: agent verified each form and prepared
+all answers, user submitted. Day total 2026-08-27: **19** (15 automated
+Greenhouse + 4 manual Ashby). Thatch (85%) stays pending — applicant-level rate
+limit; user applies personally tomorrow.

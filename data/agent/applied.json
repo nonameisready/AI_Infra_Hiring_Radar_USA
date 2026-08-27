@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T17:25:00Z",
+ "updatedAt": "2026-08-27T21:10:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -218,11 +218,11 @@
    "company": "Lead",
    "matchPercent": 97,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5e45a8f3674a0545d27e3e",
-   "at": "2026-08-27T03:50:00Z",
    "originalUrl": "https://jobs.ashbyhq.com/leadbank/424c389d-e579-4ed7-8aaa-82ff3dfcabad/application?utm_source=jobright&jr_id=6a5e45a8f3674a0545d27e3e",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "ashby anti-bot flagged the datacenter IP"
+   "status": "applied_manual",
+   "via": "ashby (user applied personally)",
+   "detail": "Agent verified the form and prepared the answer sheet; user submitted in their own browser on 2026-08-27.",
+   "at": "2026-08-27T21:10:00Z"
   },
   "6a534f5d8576ec69c014f57f": {
    "id": "6a534f5d8576ec69c014f57f",
@@ -270,11 +270,11 @@
    "company": "OnePay",
    "matchPercent": 94,
    "jobrightUrl": "https://jobright.ai/jobs/info/694ef80829655e4dd65890c3",
-   "at": "2026-08-27T03:50:00Z",
    "originalUrl": "https://jobs.ashbyhq.com/oneapp/63f43c38-56fb-44d8-a367-2ed299ea5589/application?utm_source=jobright&jr_id=694ef80829655e4dd65890c3",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "ashby unconfirmed: Backend Engineer, Crypto\nLocation\n\nUnited States (Remote)\n\nEmployment Type\n\nFull time\n\nLocation Type"
+   "status": "applied_manual",
+   "via": "ashby (user applied personally)",
+   "detail": "Agent verified the form and prepared the answer sheet; user submitted in their own browser on 2026-08-27.",
+   "at": "2026-08-27T21:10:00Z"
   },
   "6a8f1ac2382b237ac80c456b": {
    "id": "6a8f1ac2382b237ac80c456b",
@@ -426,11 +426,11 @@
    "company": "Arch",
    "matchPercent": 93,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a569eb310c4d945d864adcb",
-   "at": "2026-08-27T03:50:00Z",
    "originalUrl": "https://jobs.ashbyhq.com/arch.co/d3be5d80-cdc5-48de-abb2-724a5fc57b5b/application?utm_source=jobright&jr_id=6a569eb310c4d945d864adcb",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "ashby anti-bot flagged the datacenter IP"
+   "status": "applied_manual",
+   "via": "ashby (user applied personally)",
+   "detail": "Agent verified the form and prepared the answer sheet; user submitted in their own browser on 2026-08-27.",
+   "at": "2026-08-27T21:10:00Z"
   },
   "6a7ffe92b56bea5779c1091c": {
    "id": "6a7ffe92b56bea5779c1091c",
@@ -843,10 +843,10 @@
    "matchPercent": 91,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a0f14dd83d714428981cbf2",
    "originalUrl": "https://jobs.ashbyhq.com/confido/2ca70e4e-c92d-45f8-9af3-117567200348/application?utm_source=jobright&jr_id=6a0f14dd83d714428981cbf2",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "ashby anti-bot flagged the datacenter IP",
-   "at": "2026-08-27T04:55:00Z"
+   "status": "applied_manual",
+   "via": "ashby (user applied personally)",
+   "detail": "Agent verified the form and prepared the answer sheet; user submitted in their own browser on 2026-08-27.",
+   "at": "2026-08-27T21:10:00Z"
   },
   "6a73d5be1ce9647cdbcaa4d4": {
    "id": "6a73d5be1ce9647cdbcaa4d4",
