@@ -69,6 +69,33 @@
   {
    "label": "certify that the information|i certify",
    "prefer": "^yes|agree|acknowledge"
+  },
+  {
+   "label": "country (are you based|where you currently reside|do you (live|reside))",
+   "prefer": "^united states",
+   "type": "United States"
+  },
+  {
+   "label": "live in, or plan to relocate|willing to relocate|able to relocate",
+   "prefer": "^yes"
+  },
+  {
+   "label": "consent to .*(processing|process).*(personal|data)|privacy (notice|policy).*agree",
+   "prefer": "^yes|consent|agree|acknowledge"
+  },
+  {
+   "label": "^school",
+   "prefer": "university of pennsylvania",
+   "type": "University of Pennsylvania"
+  },
+  {
+   "label": "^degree",
+   "prefer": "master"
+  },
+  {
+   "label": "^discipline|field of study",
+   "prefer": "computer science",
+   "type": "Computer Science"
   }
  ],
  "texts": [
