@@ -1,0 +1,19 @@
+{
+  "combos": [
+    { "label": "^Country", "prefer": "^United States" },
+    { "label": "country of residence", "prefer": "^United States" },
+    { "label": "require sponsorship|sponsorship for employment|visa", "prefer": "^yes$|yes, but not one" },
+    { "label": "legally authorized|authorized to work|eligible to work", "prefer": "^yes" },
+    { "label": "how did you (hear|learn)", "prefer": "job board|other" },
+    { "label": "years of.*experience", "prefer": "5.7|^7|7\\+|5\\+|6|8.10|5.10" },
+    { "label": "located in the (us|united states)", "prefer": "^yes" },
+    { "label": "disability", "prefer": "do not (want|wish) to answer|don'?t wish|decline" },
+    { "label": "veteran", "prefer": "don'?t wish|decline|not a protected" },
+    { "label": "gender", "prefer": "decline" },
+    { "label": "race|ethnicit", "prefer": "decline|choose not" },
+    { "label": "hispanic", "prefer": "decline|no" }
+  ],
+  "texts": [
+    { "label": "linkedin", "text": "https://www.linkedin.com/in/belindamao" }
+  ]
+}

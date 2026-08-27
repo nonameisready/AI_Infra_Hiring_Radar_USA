@@ -10,3 +10,13 @@ dev.db
 .vercel
 .worker-screenshots
 *.tsbuildinfo
+
+# Transient root-level copies of agent/finishers scripts (placed here at run
+# time so node resolves the repo's playwright; never commit them)
+.run-apply.mjs
+.gh-finish.mjs
+.ashby-finish.mjs
+.gem-finish.mjs
+.rippling-finish.mjs
+.batch-apply.mjs
+.pwtest.mjs
