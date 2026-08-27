@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T21:10:00Z",
+ "updatedAt": "2026-08-27T21:40:00Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -34,17 +34,6 @@
    "reason": "You registered a Cisco Workday account. The agent signs in with ATS_ACCOUNT_PASSWORD and submits these automatically in the next run window.",
    "status": "needs_info",
    "addedAt": "2026-08-26"
-  },
-  {
-   "id": "6a8f2f4c382b237ac80c4b59",
-   "title": "Software Engineer: Backend",
-   "company": "Thatch",
-   "matchPercent": 85,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a8f2f4c382b237ac80c4b59",
-   "originalUrl": "https://thatch.com/jobs/software-engineer-backend-5113759008",
-   "reason": "Greenhouse rate-limits this applicant on this posting (6 machine attempts) — please apply personally in your browser; the verified answers are stored and the form takes 2 minutes.",
-   "status": "needs_manual",
-   "addedAt": "2026-08-27"
   },
   {
    "id": "6a534f5d8576ec69c014f57f",

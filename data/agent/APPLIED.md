@@ -139,3 +139,9 @@ network, so these went assisted-manual: agent verified each form and prepared
 all answers, user submitted. Day total 2026-08-27: **19** (15 automated
 Greenhouse + 4 manual Ashby). Thatch (85%) stays pending — applicant-level rate
 limit; user applies personally tomorrow.
+
+### 2026-08-27 — Thatch submitted by the user (day total: 20)
+
+| Company | Title | Match | Via | Status |
+| ------- | ----- | ----- | --- | ------ |
+| Thatch | Software Engineer: Backend | 85% | Greenhouse (manual, verified answers) | ✅ user applied |

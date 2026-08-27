@@ -1,0 +1,8 @@
+{
+ "version": 1,
+ "updatedAt": "2026-08-27T21:40:00Z",
+ "note": "Company ATS accounts the agent registered for the applicant. Passwords are NEVER stored here or anywhere in the repo — every account uses the email below plus the password in the ATS_ACCOUNT_PASSWORD environment variable (Claude Code env settings). To apply to a company already listed: sign in with these credentials instead of registering again.",
+ "loginEmail": "huiluckylucky@gmail.com",
+ "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+ "accounts": []
+}

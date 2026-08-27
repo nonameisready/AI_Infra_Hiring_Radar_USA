@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T21:10:00Z",
+ "updatedAt": "2026-08-27T21:40:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -128,10 +128,10 @@
    "matchPercent": 85,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f2f4c382b237ac80c4b59",
    "originalUrl": "https://thatch.com/jobs/software-engineer-backend-5113759008",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "Greenhouse rate-limits at the applicant-x-job level too: 4th submission attempt for this exact posting still returns 'Too many requests' even though Betterment succeeded from the same IP minutes earlier. All answers verified and visible in the agent's screenshots (5-7 years, sponsorship Yes, both essays, LinkedIn, New York NY). Submit once manually from your own network - copy the answers as-is.",
-   "at": "2026-08-26T21:50:00Z"
+   "status": "applied_manual",
+   "via": "greenhouse (user applied personally)",
+   "detail": "User submitted in their own browser with the agent's verified answers after the applicant-level rate limit.",
+   "at": "2026-08-27T21:40:00Z"
   },
   "6a4cebce35e45603c4bb1fba": {
    "id": "6a4cebce35e45603c4bb1fba",
