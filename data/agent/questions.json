@@ -1,7 +1,15 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T06:00:00Z",
- "open": [],
+ "updatedAt": "2026-08-27T22:10:00Z",
+ "open": [
+  {
+   "id": "q-graduation-dates",
+   "question": "Graduation month/year for each degree (required by ATS registration forms): (1) University of Pennsylvania, M.S. Computer Science; (2) Rice University, M.S. Applied Mathematics & Statistics; (3) Shanghai University of Finance and Economics, B.A. Economics. Approximate month is fine if exact is unknown (e.g. 2018-05).",
+   "field": "education[].graduation",
+   "askedAt": "2026-08-27",
+   "blocking": true
+  }
+ ],
  "answered": [
   {
    "id": "q-login-method",
