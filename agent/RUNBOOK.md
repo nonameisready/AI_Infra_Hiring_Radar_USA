@@ -262,3 +262,24 @@ worker/jobright-agent.mjs, the Jobright pool is NOT ~10 jobs — a full harvest 
   platforms (don't run 20 Greenhouse submissions back to back), keep ≥3 minutes between
   submissions to the same platform, and stop a platform for the day on its first
   "too many requests".
+
+## Greenhouse rate-limit playbook (2026-08-27)
+
+Greenhouse throttles submissions per source IP, and a datacenter IP earns a stricter
+budget. We work WITH the limit — never around it: no proxies, no IP rotation, no
+fingerprint games. Three levers, in order:
+
+1. **Three windows a day (13:30 / 17:30 / 21:30 UTC).** Each firing is a fresh container
+   (usually a fresh egress IP) with a budget of dailyCap ÷ remaining windows, adjusted by
+   what applied.json shows already submitted today. Within a window: at most
+   `greenhousePerWindowCap` (15) Greenhouse submissions, `platformPacingSeconds` (180s)
+   between same-platform submissions, platforms interleaved. First "too many requests"
+   from a platform ends that platform for the window — move on, don't hammer.
+2. **Queue the overflow for the user's own machine.** Greenhouse jobs beyond the window
+   budget are queued as Application rows (status `queued`) rather than parked. From a
+   residential IP they submit like any normal applicant:
+   `DATABASE_URL=<url> npm run dev` + `npm run worker -- --submit` on the user's laptop
+   drains the queue through the same autofill + confirmation-verified pipeline. Mention
+   the current queue depth in the daily report so the user knows when it's worth running.
+3. **Manual tab as the final catch.** Anything rate-limited at the end of the last window
+   goes to pending.json as usual — visible, linked, honest.
