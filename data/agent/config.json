@@ -1,6 +1,6 @@
 {
  "minMatchPercent": 80,
- "dailyCap": 100,
+ "dailyCap": 50,
  "jobrightEmail": "huiluckylucky@gmail.com",
  "jobrightBaseUrl": "https://jobright.ai",
  "preferJobrightApply": true,
