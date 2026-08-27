@@ -309,3 +309,21 @@ means being honest about the automation.
   password, verification codes via Gmail), then drive the multi-step wizard with the
   autofill profile. ~20 parked roles (Cisco, Capital One ×7, FINRA, Santander, Thomson
   Reuters, Wisconsin SWIB, Early Warning…) unlock when this ships.
+
+## Ashby verdict: assisted manual only (2026-08-27)
+
+Ashby's spam detection rejects Playwright submissions regardless of IP or
+headless mode — tested from the user's own residential network with a real
+(headed) browser window and it still flagged. Per our hard rule we do not
+evade anti-bot protections, so Ashby jobs are **assisted manual**: the agent
+verifies the form, works out every answer, and hands the user a per-job answer
+sheet; the user submits in their own browser (resume upload autofills most
+fields; ~2 minutes per job). Do not queue ashbyhq.com URLs for local replay.
+Greenhouse remains fully automatable (rate limits permitting); local replay is
+still the right tool for Greenhouse jobs blocked only by datacenter-IP checks.
+
+Standing Ashby answer sheet (from memory/profile — always verify against the
+actual form): work authorization Yes · sponsorship needed Yes · immigration
+status F-1 · hybrid/in-office ack Yes · prior employment or contract work for
+the hiring company No · years of professional experience ~7 (pick the honest
+bracket) · salary $150,000+ · EEO/veteran/disability: decline to answer.
