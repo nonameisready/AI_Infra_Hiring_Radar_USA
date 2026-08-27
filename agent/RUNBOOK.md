@@ -283,3 +283,10 @@ fingerprint games. Three levers, in order:
    the current queue depth in the daily report so the user knows when it's worth running.
 3. **Manual tab as the final catch.** Anything rate-limited at the end of the last window
    goes to pending.json as usual — visible, linked, honest.
+
+## AI-disclosure questions (hard rule, 2026-08-27)
+
+Some applications ask directly whether an automated system or AI is completing the form
+(e.g. PrizePicks). NEVER answer these as if a human filled the form — that is a lie about
+the process itself. Park the job as needs_manual with the reason stated, so the user can
+apply personally. Honest automation means being honest about the automation.

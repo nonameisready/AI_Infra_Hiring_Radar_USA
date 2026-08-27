@@ -200,5 +200,9 @@
   {
    "label": "^US$"
   }
+ ],
+ "manualTriggers": [
+  "are you using an ai|completed by (an )?ai",
+  "if you are an automated system or ai"
  ]
 }
