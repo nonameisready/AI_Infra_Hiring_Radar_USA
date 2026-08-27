@@ -1,15 +1,7 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T22:10:00Z",
- "open": [
-  {
-   "id": "q-graduation-dates",
-   "question": "Graduation month/year for each degree (required by ATS registration forms): (1) University of Pennsylvania, M.S. Computer Science; (2) Rice University, M.S. Applied Mathematics & Statistics; (3) Shanghai University of Finance and Economics, B.A. Economics. Approximate month is fine if exact is unknown (e.g. 2018-05).",
-   "field": "education[].graduation",
-   "askedAt": "2026-08-27",
-   "blocking": true
-  }
- ],
+ "updatedAt": "2026-08-27T22:30:00Z",
+ "open": [],
  "answered": [
   {
    "id": "q-login-method",
@@ -66,6 +58,15 @@
    "field": "skillRatings,aiDisclosure",
    "askedAt": "2026-08-27",
    "answer": "TypeScript: strong/proficient. JavaScript, Node and other non-core stacks: moderate. 'Strong in all of JS/TS/Node?' → No (honest). AI-disclosure questions: always answer truthfully that AI assistance was used with the applicant's authorization and review — never deny AI use, never impersonate a human.",
+   "answeredAt": "2026-08-27"
+  },
+  {
+   "id": "q-graduation-dates",
+   "question": "Graduation month/year for each degree (required by ATS registration forms): (1) University of Pennsylvania, M.S. Computer Science; (2) Rice University, M.S. Applied Mathematics & Statistics; (3) Shanghai University of Finance and Economics, B.A. Economics. Approximate month is fine if exact is unknown (e.g. 2018-05).",
+   "field": "education[].graduation",
+   "askedAt": "2026-08-27",
+   "blocking": true,
+   "answer": "UPenn M.S. CS: May 2021; Rice M.S.: Dec 2017; SUFE B.A.: May 2012 (user, 2026-08-27)",
    "answeredAt": "2026-08-27"
   }
  ],

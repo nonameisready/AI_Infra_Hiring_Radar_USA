@@ -21,15 +21,18 @@
  "education": [
   {
    "school": "University of Pennsylvania",
-   "degree": "M.S., Computer Science"
+   "degree": "M.S., Computer Science",
+   "graduation": "2021-05"
   },
   {
    "school": "Rice University",
-   "degree": "M.S., Applied Mathematics & Statistics"
+   "degree": "M.S., Applied Mathematics & Statistics",
+   "graduation": "2017-12"
   },
   {
    "school": "Shanghai University of Finance and Economics",
-   "degree": "B.A., Economics"
+   "degree": "B.A., Economics",
+   "graduation": "2012-05"
   }
  ],
  "recentEmployers": [
