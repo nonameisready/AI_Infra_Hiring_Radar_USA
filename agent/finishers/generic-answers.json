@@ -110,7 +110,7 @@
    "prefer": "^yes|acknowledge|agree|i understand"
   },
   {
-   "label": "(currently|previously),? (or .* )?worked at",
+   "label": "(currently|previously),? (or .* )?worked (at|for)",
    "prefer": "^no"
   },
   {
