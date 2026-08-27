@@ -46,6 +46,28 @@ try {
   await fill("^email", "huiluckylucky@gmail.com");
   await fill("^phone", "281-250-7589");
 
+  // Any other empty text field whose label matches a memory rule (autofill-profile customAnswers).
+  let RULES = [];
+  try {
+    const prof = JSON.parse(fs.readFileSync(path.join(WORK, "autofill-profile.json"), "utf8"));
+    RULES = typeof prof.customAnswers === "string" ? JSON.parse(prof.customAnswers) : (prof.customAnswers ?? []);
+  } catch {}
+  const blanks = page.locator('input[type="text"], input[type="email"], input[type="tel"], input:not([type]), textarea');
+  const bn = await blanks.count();
+  for (let i = 0; i < bn; i++) {
+    const el = blanks.nth(i);
+    if (!(await el.isVisible().catch(() => false))) continue;
+    if (await el.inputValue().catch(() => "")) continue;
+    const label = await el.evaluate((e) =>
+      (e.labels?.[0]?.innerText || e.getAttribute("aria-label") || e.closest("div,fieldset")?.querySelector("label")?.innerText || "").trim());
+    if (!label) continue;
+    const rule = RULES.find((r) => { try { return new RegExp(r.match, "i").test(label); } catch { return false; } });
+    if (rule) {
+      await el.fill(String(rule.value ?? rule.answer ?? "")).catch(() => {});
+      out.actions.push(`memory: ${label.slice(0, 50)}`);
+    }
+  }
+
   // Sponsorship yes/no button group.
   const spons = page.locator("div,fieldset").filter({ hasText: /require sponsorship to work in the United States/i }).last();
   const yes = spons.getByRole("button", { name: /^yes$/i }).first();

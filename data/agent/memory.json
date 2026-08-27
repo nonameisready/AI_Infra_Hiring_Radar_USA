@@ -15,7 +15,7 @@
    "learnedAt": "2026-08-23"
   },
   {
-   "match": "full\\s*name|your\\s*name",
+   "match": "full\\s*(legal\\s*)?name|legal\\s*name|your\\s*name",
    "answer": "Hui Mao",
    "source": "resume",
    "learnedAt": "2026-08-23"

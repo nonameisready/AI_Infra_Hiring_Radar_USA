@@ -217,6 +217,30 @@
   {
    "label": "relational data.?bases?|understanding of (sql|databases)",
    "prefer": "^yes"
+  },
+  {
+   "label": "years of professional software engineering",
+   "prefer": "5.7 years"
+  },
+  {
+   "label": "how did you learn",
+   "prefer": "job board|other"
+  },
+  {
+   "label": "would that work for you",
+   "prefer": "^yes"
+  },
+  {
+   "label": "visa sponsorship",
+   "prefer": "^yes"
+  },
+  {
+   "label": "disability status",
+   "prefer": "do not want to answer"
+  },
+  {
+   "label": "veteran status",
+   "prefer": "don'?t wish|decline|not a protected"
   }
  ],
  "texts": [
@@ -238,7 +262,31 @@
   },
   {
    "label": "if you are an automated system or ai",
-   "text": "Yes \u2014 this application was completed with AI assistance, authorized and reviewed by the applicant (Hui Mao)."
+   "text": "Yes — this application was completed with AI assistance, authorized and reviewed by the applicant (Hui Mao)."
+  },
+  {
+   "label": "linkedin profile",
+   "text": "https://www.linkedin.com/in/belindamao"
+  },
+  {
+   "label": "most meaningful impact",
+   "text": "At Bank of America I built the end-to-end Global Unique Transaction Identifier (GUTI) workflow used to track and report OTC derivatives transactions across global regulatory jurisdictions. The core problem was that million-record trading datasets had to be reported accurately inside strict, time-sensitive regulatory windows, and the existing serial pipeline could not keep up. As the engineer owning the workflow, I designed parallel-processing pipelines partitioned by asset class and region and hardened the system with unit tests and mocks for external API interactions. The result was throughput that met every reporting window and a workflow reliable enough to serve as the backbone of the bank's OTC derivatives regulatory reporting."
+  },
+  {
+   "label": "technically complex problem",
+   "text": "In my Adscream project I engineered a Go backend that turns a product URL into a finished multi-segment AI video ad. The hard part was orchestrating long-running, failure-prone external providers (Veo/Gemini for video, Gemini TTS, stock footage APIs) into one reliable pipeline. I used NATS JetStream work queues with explicit job-state transitions, crash redelivery, per-segment traceability and provider polling with mock fallbacks, then composed results with FFmpeg. The key tradeoff was synchronous simplicity versus an asynchronous worker architecture; I chose horizontally scalable worker replicas with idempotent state transitions, which made retries safe and let the system survive provider outages without losing customers' paid jobs."
+  },
+  {
+   "label": "timeline constraints",
+   "text": "No timeline constraints."
+  },
+  {
+   "label": "^website$",
+   "text": "https://github.com/nonameisready"
+  },
+  {
+   "label": "remote work location",
+   "text": "New York, NY"
   }
  ],
  "checkboxes": [
