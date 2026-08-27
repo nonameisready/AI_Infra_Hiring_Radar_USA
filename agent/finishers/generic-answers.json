@@ -7,7 +7,7 @@
   },
   {
    "label": "^country|country of residence|country do you live",
-   "prefer": "^united states",
+   "prefer": "^united states|^usa$|^u\\.?s\\.?a?$",
    "type": "United States"
   },
   {
@@ -72,7 +72,7 @@
   },
   {
    "label": "country (are you based|where you currently reside|do you (live|reside))",
-   "prefer": "^united states",
+   "prefer": "^united states|^usa$|^u\\.?s\\.?a?$",
    "type": "United States"
   },
   {
@@ -104,6 +104,14 @@
   {
    "label": "willing to work from the office|work from the office\\(s\\)|onsite requirement",
    "prefer": "^yes"
+  },
+  {
+   "label": "requires in-?office|in-?office work.*(days|week)|hybrid schedule",
+   "prefer": "^yes|acknowledge|agree|i understand"
+  },
+  {
+   "label": "(currently|previously),? (or .* )?worked at",
+   "prefer": "^no"
   }
  ],
  "texts": [
