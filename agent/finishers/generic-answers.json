@@ -213,6 +213,10 @@
   {
    "label": "athlete or esports",
    "prefer": "^no"
+  },
+  {
+   "label": "relational data.?bases?|understanding of (sql|databases)",
+   "prefer": "^yes"
   }
  ],
  "texts": [
