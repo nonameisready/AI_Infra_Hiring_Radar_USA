@@ -166,3 +166,14 @@ Passwordless Oracle CX flow (email OTP read from Gmail). Compliance questionnair
 (19 questions) answered per the user's explicit instructions; side projects
 disclosed truthfully. Note: the user had a previous Amex application (Feb 2026),
 which pre-filled their candidate profile.
+
+### 2026-08-27 late evening — Intuit submitted (day total: 23)
+
+| Company | Title | Match | Via | Status |
+| ------- | ----- | ----- | --- | ------ |
+| Intuit | Staff Software Engineer - Credit Karma | — | Avature (agent, existing account) | ✅ "Thank you for applying" |
+
+User's pre-existing Intuit account logged straight in with the standard password.
+Personal info refreshed (BofA marked ended 2025-12, LinkedIn added), talent
+community joined, SMS consent declined, veteran/disability declined, legal
+questions answered honestly (sponsorship Yes / authorized Yes).

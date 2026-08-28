@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T22:35:00Z",
+ "updatedAt": "2026-08-27T23:20:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -580,13 +580,12 @@
    "key": "intuit::staff software engineer - credit karma",
    "title": "Staff Software Engineer - Credit Karma",
    "company": "Intuit",
-   "matchPercent": 91,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a56834d53b3962b910b0b22",
-   "at": "2026-08-27T03:50:00Z",
-   "originalUrl": "https://jobs.intuit.com/job/charlotte/staff-software-engineer-credit-karma/27595/97793819392?jr_id=6a56834d53b3962b910b0b22&cid=unknownReferringDomains_unknownReferringDomains",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "platform not automated from cloud: jobs.intuit.com"
+   "matchPercent": null,
+   "originalUrl": "https://intuit.avature.net/en_US/externalCareers/JobApplication?pipelineId=22620",
+   "status": "applied_direct",
+   "via": "Avature (agent, logged-in account)",
+   "detail": "User's existing Intuit account (standard password worked); 3-step wizard completed; Success page: 'Thank you for applying'.",
+   "at": "2026-08-27T23:20:00Z"
   },
   "69ae87393de6821aaccde50a": {
    "id": "69ae87393de6821aaccde50a",
