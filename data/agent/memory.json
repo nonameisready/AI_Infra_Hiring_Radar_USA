@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T21:45:00Z",
+ "updatedAt": "2026-08-28T04:50:00Z",
  "answers": [
   {
    "match": "first\\s*name",
@@ -192,6 +192,41 @@
    "match": "additional (paid|unpaid) work.*(continue|second job)|running a small business",
    "answer": "Yes — independent software side projects (EarningsStory, Adscream), personal products outside employment.",
    "note": "user 2026-08-27"
+  },
+  {
+   "match": "h-?1b (status|petition)|held h-?1b",
+   "answer": "Yes",
+   "note": "user 2026-08-28: H-1B held or petition approved within past 6 years"
+  },
+  {
+   "match": "j-?1 (status|visa)|held j-?1",
+   "answer": "No",
+   "note": "user 2026-08-28"
+  },
+  {
+   "match": "country.*citizenship|citizen of which",
+   "answer": "China (Mainland China)",
+   "note": "user 2026-08-28"
+  },
+  {
+   "match": "previously applied to amazon",
+   "answer": "Yes",
+   "note": "user 2026-08-28"
+  },
+  {
+   "match": "require.*(curricular practical training|cpt)",
+   "answer": "Yes",
+   "note": "works on F-1 CPT; a new employer needs school CPT authorization"
+  },
+  {
+   "match": "permanent resident in any other country",
+   "answer": "No",
+   "note": "derived: Chinese citizen, US I-485 pending only"
+  },
+  {
+   "match": "nonimmigrant status",
+   "answer": "F-1",
+   "note": "user profile"
   }
  ],
  "note": "Regex `match` is tested case-insensitively against a form question's label. Answers the user gives to open questions in questions.json get appended here so the agent never asks twice. Never store passwords or secrets in this file."

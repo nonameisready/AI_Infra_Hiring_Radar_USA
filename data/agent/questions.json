@@ -1,7 +1,15 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T21:45:00Z",
- "open": [],
+ "updatedAt": "2026-08-28T04:50:00Z",
+ "open": [
+  {
+   "id": "q-i140-status",
+   "question": "Amazon work-eligibility form (all 3 Amazon applications): 'Has an I-140 (Immigration Visa Petition) been filed and approved on your behalf?' — answer Yes only if an employment-based I-140 was APPROVED (not just filed). If your I-485 is family-based, or the I-140 is still pending, the answer is No. One word (Yes/No) unblocks all three Amazon submissions — the applications are saved as drafts.",
+   "field": "immigration.i140Approved",
+   "askedAt": "2026-08-28",
+   "blocking": true
+  }
+ ],
  "answered": [
   {
    "id": "q-login-method",
