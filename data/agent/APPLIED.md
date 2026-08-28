@@ -177,3 +177,9 @@ User's pre-existing Intuit account logged straight in with the standard password
 Personal info refreshed (BofA marked ended 2025-12, LinkedIn added), talent
 community joined, SMS consent declined, veteran/disability declined, legal
 questions answered honestly (sponsorship Yes / authorized Yes).
+
+### 2026-08-28 — MetLife submitted after user's password reset (running total: 24)
+
+| Company | Title | Match | Via | Status |
+| ------- | ----- | ----- | --- | ------ |
+| MetLife | Senior Developer, Sales Technology | 91% | Avature (agent + user password reset) | ✅ "Application Submitted — Thank you for applying!" |

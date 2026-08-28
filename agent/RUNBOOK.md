@@ -327,3 +327,19 @@ actual form): work authorization Yes · sponsorship needed Yes · immigration
 status F-1 · hybrid/in-office ack Yes · prior employment or contract work for
 the hiring company No · years of professional experience ~7 (pick the honest
 bracket) · salary $150,000+ · EEO/veteran/disability: decline to answer.
+
+## Company ATS accounts — standing login authorization (2026-08-28)
+
+The user's instruction: for any company listed in `data/agent/accounts.json`
+(currently Bloomberg, Intuit, MetLife, American Express — all using the login
+email plus the ATS_ACCOUNT_PASSWORD env var, Amex via email OTP), the agent
+logs in directly and applies to new postings without asking again. Add every
+newly registered account to accounts.json (never the password itself). The
+persistent remote-browser driver lives at the scratchpad's agent-work/driver.mjs;
+select2 widgets need the container-click + dropdown-search + li:text-is pattern,
+Oracle CX radios need jsClick via their labels.
+
+Hard limits that remain: Amazon.jobs is bound to the user's Google login (agent
+never enters the Google password) and JPMC's Oracle tenant shows an hCaptcha —
+both stay personal-apply. The permission classifier blocks agent-driven
+password-reset flows; when a reset is needed, the user does that one step.

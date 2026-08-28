@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T23:45:00Z",
+ "updatedAt": "2026-08-28T00:20:00Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -407,17 +407,6 @@
    "originalUrl": null,
    "reason": "Answer rules ready — submits in the next window (today's Greenhouse quota was used up).",
    "status": "needs_info",
-   "addedAt": "2026-08-27"
-  },
-  {
-   "id": "6a8f98980bd89e205d24742c",
-   "title": "Senior Developer, Sales Technology",
-   "company": "MetLife",
-   "matchPercent": 91,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a8f98980bd89e205d24742c",
-   "originalUrl": "https://www.metlifecareers.com/en_US/ml/ApplicationMethods?jobId=20134&recommendation=&source=jobright&tags=&user=&formValues=&jr_id=6a8f98980bd89e205d24742c",
-   "reason": "Company-hosted portal (www.metlifecareers.com) — not automatable from the cloud; apply via the link.",
-   "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
   {

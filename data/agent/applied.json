@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T23:20:00Z",
+ "updatedAt": "2026-08-28T00:20:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -816,10 +816,10 @@
    "matchPercent": 91,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f98980bd89e205d24742c",
    "originalUrl": "https://www.metlifecareers.com/en_US/ml/ApplicationMethods?jobId=20134&recommendation=&source=jobright&tags=&user=&formValues=&jr_id=6a8f98980bd89e205d24742c",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "platform not automated from cloud: www.metlifecareers.com",
-   "at": "2026-08-27T04:55:00Z"
+   "status": "applied_direct",
+   "via": "Avature (agent, account created + user password reset)",
+   "detail": "Account registered by agent; user completed the password reset; agent logged in and finished the 5-step wizard. Success page: 'Application Submitted'.",
+   "at": "2026-08-28T00:20:00Z"
   },
   "6a2073b9ca8f0b365d7a13a5": {
    "id": "6a2073b9ca8f0b365d7a13a5",
