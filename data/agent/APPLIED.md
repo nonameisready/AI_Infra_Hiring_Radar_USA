@@ -234,10 +234,12 @@ unauthorized AI assistance — do any Amazon online assessment yourself.
 | Pindrop | Senior Software Engineer (Platform Core) | 83% | Greenhouse | ✅ confirmed |
 | Verkada | Senior Software Engineer - Alarms | 83% | Greenhouse | ✅ confirmed |
 | Figma | Software Engineer - Distributed Systems | 82% | Greenhouse | ✅ confirmed |
+| CoreWeave | Senior Software Engineer, SaaS Infrastructure - Weights & Biases | 82% | Greenhouse | ✅ confirmed |
+| Customer.io | Senior Software Engineer - Backend Platform | 82% | Greenhouse | ✅ confirmed |
 
 Opto Investments (92%) dropped without applying: their JD says they are unable to
 sponsor employment visas, and the applicant requires sponsorship.
 
-Day total so far: 24 unique (4 Amazon + 17 Greenhouse). One accidental duplicate: Robinhood Security Platform was submitted under two Jobright ids pointing at the same Greenhouse posting; Greenhouse merges by email. Fresh 646-job pool harvested with
+Day total so far: 26 unique (4 Amazon + 17 Greenhouse). One accidental duplicate: Robinhood Security Platform was submitted under two Jobright ids pointing at the same Greenhouse posting; Greenhouse merges by email. Fresh 646-job pool harvested with
 saved cookies (JOBRIGHT_PASSWORD missing in this container); 339-job deduped queue.
 MX and Otter parked after two code-reset attempts each.

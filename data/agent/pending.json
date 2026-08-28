@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T22:58:28Z",
+ "updatedAt": "2026-08-28T23:26:04Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -657,6 +657,16 @@
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=fivetran&jr_id=6a7e049d19ce4e6e9d930ac2&token=7865559003&utm_source=jobright",
    "status": "park",
    "reason": "Form renders every field twice (two visible copies); filling the first copy leaves the duplicate's required check unsatisfied. Needs a bespoke driver session. 3 fill attempts, never submitted."
+  },
+  {
+   "id": "6a4ffe869469c0662034fa7c",
+   "company": "Signifyd",
+   "title": "Senior Software Engineer II",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a4ffe869469c0662034fa7c",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=signifyd95&jr_id=6a4ffe869469c0662034fa7c&token=8046396&utm_source=jobright",
+   "status": "park",
+   "reason": "One required field left: 'highest level of school' typeahead never loads options for automated typing (5 fill attempts, never submitted). Good candidate for a quick manual apply — everything else auto-fills."
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
