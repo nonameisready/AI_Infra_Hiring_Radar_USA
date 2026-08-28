@@ -337,6 +337,14 @@
   {
    "label": "paired coding exercise in python|coding exercise .*python",
    "prefer": "^yes"
+  },
+  {
+   "label": "employer sponsorship to work",
+   "prefer": "^yes"
+  },
+  {
+   "label": "highest level of (school|education)",
+   "prefer": "master"
   }
  ],
  "texts": [
