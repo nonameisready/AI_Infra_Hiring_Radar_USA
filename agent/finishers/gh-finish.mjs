@@ -236,7 +236,7 @@ try {
       }
     }
 
-    out.confirmation = /thank you|application (was )?(received|submitted|sent)|successfully/i.test(text);
+    out.confirmation = /thanks? (you|for)|application (was )?(received|submitted|sent)|successfully/i.test(text);
     out.confirmationSnippet = text.slice(0, 400);
     if (!out.confirmation) {
       out.finalUrl = page.url();
