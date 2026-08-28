@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T20:05:22Z",
+ "updatedAt": "2026-08-28T20:08:25Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1312,6 +1312,19 @@
    "via": "amazon.jobs (agent, alias account)",
    "detail": "Submitted via alias account with profile reuse; job-specific BQs answered per resume (7 yrs, senior, M.S. CS); work eligibility per user's standing immigration answers. Confirmation: 'Thank you for applying!'",
    "at": "2026-08-28T20:05:22Z"
+  },
+  "6a46c4eb3dbab558e29a884e": {
+   "id": "6a46c4eb3dbab558e29a884e",
+   "key": "fora travel::senior/staff backend engineer, applied ai",
+   "title": "Senior/Staff Backend Engineer, Applied AI",
+   "company": "Fora Travel",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a46c4eb3dbab558e29a884e",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=foratravel&jr_id=6a46c4eb3dbab558e29a884e&token=5239338008&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted on repass with NYC/comp-range answers; confirmation verified.",
+   "at": "2026-08-28T20:08:25Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
