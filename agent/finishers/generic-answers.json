@@ -299,7 +299,7 @@
    "prefer": "^yes"
   },
   {
-   "label": "in nyc or willing to move to nyc|do you live in (the )?nyc area",
+   "label": "in nyc or willing to move to nyc|do you live in (the )?nyc|hybrid in nyc",
    "prefer": "^yes"
   }
  ],
