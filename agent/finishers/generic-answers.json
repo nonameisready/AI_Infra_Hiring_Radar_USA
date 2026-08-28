@@ -32,7 +32,7 @@
   },
   {
    "label": "years of.*experience",
-   "prefer": "5.7|^7|7\\+|5\\+|5\\s*-\\s*10|6|8\\s*-\\s*10"
+   "prefer": "5.7|^7|7\\+|5\\+|5\\s*[-–—]\\s*10|^6|8\\s*[-–—]\\s*10|5\\s*[-–—]\\s*7"
   },
   {
    "label": "located in the (us|united states)",
@@ -345,6 +345,34 @@
   {
    "label": "highest level of (school|education)",
    "prefer": "master"
+  },
+  {
+   "label": "i acknowledge that i have read and understand",
+   "prefer": "^yes|agree"
+  },
+  {
+   "label": "worked for a technical product or data product",
+   "prefer": "^yes"
+  },
+  {
+   "label": "located in the denver",
+   "prefer": "^no"
+  },
+  {
+   "label": "metropolitan area",
+   "prefer": "new york"
+  },
+  {
+   "label": "paired coding exercise",
+   "prefer": "^python"
+  },
+  {
+   "label": "authorized to work in country of residence",
+   "prefer": "^yes"
+  },
+  {
+   "label": "ever worked for (figma|fivetran|customer\\.io) before|worked for .* before,? as an employee",
+   "prefer": "^no"
   }
  ],
  "texts": [
@@ -431,6 +459,26 @@
   {
    "label": "postal/?\\s*zip code",
    "text": "07306"
+  },
+  {
+   "label": "province/state",
+   "text": "New Jersey"
+  },
+  {
+   "label": "^country \\*?$|^country$",
+   "text": "United States"
+  },
+  {
+   "label": "^address line 1",
+   "text": "225 Saint Pauls Ave"
+  },
+  {
+   "label": "^address line 2",
+   "text": "APT 5P"
+  },
+  {
+   "label": "^city$|^city \\*?$",
+   "text": "Jersey City"
   }
  ],
  "checkboxes": [
