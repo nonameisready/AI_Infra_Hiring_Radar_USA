@@ -367,6 +367,14 @@
   {
    "label": "leveled as senior-?level or higher",
    "text": "Yes"
+  },
+  {
+   "label": "do you live in (the )?nyc area|hybrid in nyc",
+   "text": "Yes"
+  },
+  {
+   "label": "basis of your current employment authorization",
+   "text": "Current authorization: F-1 student visa with CPT work authorization (issued through my school and renewable). An I-140 has been filed and approved on my behalf, and my I-485 is pending. For long-term employment I will require company sponsorship (e.g., H-1B)."
   }
  ],
  "checkboxes": [
