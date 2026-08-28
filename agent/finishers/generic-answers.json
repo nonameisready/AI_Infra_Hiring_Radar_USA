@@ -289,6 +289,18 @@
   {
    "label": "identify your race|race/ethnicity|^race\\b",
    "prefer": "decline|do not wish|don'?t wish|prefer not"
+  },
+  {
+   "label": "ai agent applying on behalf of a candidate",
+   "prefer": "^yes"
+  },
+  {
+   "label": "comfortable with the compensation range",
+   "prefer": "^yes"
+  },
+  {
+   "label": "in nyc or willing to move to nyc|do you live in (the )?nyc area",
+   "prefer": "^yes"
   }
  ],
  "texts": [
