@@ -343,3 +343,23 @@ Hard limits that remain: Amazon.jobs is bound to the user's Google login (agent
 never enters the Google password) and JPMC's Oracle tenant shows an hCaptcha —
 both stay personal-apply. The permission classifier blocks agent-driven
 password-reset flows; when a reset is needed, the user does that one step.
+
+## Scheduled-window failure mode (2026-08-28)
+
+All three scheduled windows on 2026-08-28 ended "SUCCEEDED" in ~9 minutes with
+zero commits. Root cause: each scheduled firing gets a FRESH container with no
+`JOBRIGHT_PASSWORD` in the environment and no saved Jobright cookies (storage
+state lives in an interactive session's scratchpad and is never committed), so
+the harvest step cannot log in and the run winds down with nothing to do.
+
+Fix (user-side, still open): add `JOBRIGHT_PASSWORD` as a secret environment
+variable on the Claude Code environment used by the Routine, via
+claude.ai/code environment settings.
+
+Rule for scheduled runs from now on: if you cannot harvest (no
+`JOBRIGHT_PASSWORD`, no working cookie state) do NOT end quietly — first work
+whatever you can without login (pending.json backlog items that need no new
+harvest, accounts.json company career pages for new postings), then send a
+PushNotification telling the user the window ran but could not harvest and why,
+and append one line to APPLIED.md's current day section noting the skipped
+window so the day's history is visible in-repo.

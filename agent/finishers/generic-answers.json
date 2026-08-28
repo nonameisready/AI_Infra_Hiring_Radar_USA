@@ -257,6 +257,38 @@
   {
    "label": "company sponsorship (to|for) (retain|obtain|maintain)|require company sponsorship",
    "prefer": "^yes"
+  },
+  {
+   "label": "require employment sponsorship|employment sponsorship\\?",
+   "prefer": "^yes"
+  },
+  {
+   "label": "^gender\\b",
+   "prefer": "decline|do not wish|don'?t wish|choose not|prefer not"
+  },
+  {
+   "label": "days? a week in.?office|in.?office, including",
+   "prefer": "^yes$|acknowledge|i understand"
+  },
+  {
+   "label": "years of professional,? (full.?time )?software engineering",
+   "prefer": "^7|7\\s*[-–]|5\\s*[-–]\\s*(7|10)|^6|6\\s*[-–]\\s*(8|9|10)|6\\s*\\+"
+  },
+  {
+   "label": "leveled as senior|senior-?level or (higher|above)",
+   "prefer": "^yes"
+  },
+  {
+   "label": "at least 3 years of python|3\\+? years.*python",
+   "prefer": "^yes"
+  },
+  {
+   "label": "(know|related to),? (or are you related to,? )?anyone at|know anyone (at|who works)",
+   "prefer": "^no"
+  },
+  {
+   "label": "identify your race|race/ethnicity|^race\\b",
+   "prefer": "decline|do not wish|don'?t wish|prefer not"
   }
  ],
  "texts": [
@@ -315,6 +347,14 @@
   {
    "label": "main programming languages and technologies",
    "text": "Python (primary), Go, TypeScript. Distributed backend services, REST APIs, PostgreSQL, AWS, Docker, message queues (NATS JetStream), CI/CD, and LLM/RAG pipelines."
+  },
+  {
+   "label": "programming languages.*(most )?comfortable|comfortable with\\?",
+   "text": "Python (primary), Go, TypeScript. Distributed backend services, REST APIs, PostgreSQL, AWS, Docker, message queues (NATS JetStream), CI/CD, and LLM/RAG pipelines."
+  },
+  {
+   "label": "leveled as senior-?level or higher",
+   "text": "Yes"
   }
  ],
  "checkboxes": [
