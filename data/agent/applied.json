@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T19:32:07Z",
+ "updatedAt": "2026-08-28T20:05:22Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1299,6 +1299,19 @@
    "via": "greenhouse (agent)",
    "detail": "Submitted after adding free-text 'leveled as Senior' answer; confirmation verified.",
    "at": "2026-08-28T19:32:07Z"
+  },
+  "69ce12decfdc6132f94241e3": {
+   "id": "69ce12decfdc6132f94241e3",
+   "key": "amazon::sr. software development engineer, advanced analytics",
+   "title": "Sr. Software Development Engineer, Advanced Analytics (ID: 10508484)",
+   "company": "Amazon",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69ce12decfdc6132f94241e3",
+   "originalUrl": "https://www.amazon.jobs/en/jobs/10508484",
+   "status": "applied_direct",
+   "via": "amazon.jobs (agent, alias account)",
+   "detail": "Submitted via alias account with profile reuse; job-specific BQs answered per resume (7 yrs, senior, M.S. CS); work eligibility per user's standing immigration answers. Confirmation: 'Thank you for applying!'",
+   "at": "2026-08-28T20:05:22Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

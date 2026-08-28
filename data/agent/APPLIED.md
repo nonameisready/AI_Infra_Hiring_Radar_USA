@@ -223,10 +223,11 @@ unauthorized AI assistance — do any Amazon online assessment yourself.
 | GiveDirectly | Senior Software Engineer (Remote) | 92% | Greenhouse | ✅ confirmed |
 | Standard Metrics | Software Engineer (Backend) | 88% | Greenhouse | ✅ confirmed |
 | Hex | Software Engineer, Foundations | 87% | Greenhouse | ✅ confirmed |
+| Amazon | Sr. SDE, Advanced Analytics (10508484) | 90% | amazon.jobs (agent) | ✅ "Thank you for applying" |
 
 Opto Investments (92%) dropped without applying: their JD says they are unable to
 sponsor employment visas, and the applicant requires sponsorship.
 
-Day total so far: 13 (3 Amazon + 10 Greenhouse). Fresh 646-job pool harvested with
+Day total so far: 14 (4 Amazon + 10 Greenhouse). Fresh 646-job pool harvested with
 saved cookies (JOBRIGHT_PASSWORD missing in this container); 339-job deduped queue.
 MX and Otter parked after two code-reset attempts each.
