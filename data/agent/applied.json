@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T19:22:45Z",
+ "updatedAt": "2026-08-28T19:27:53Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1273,6 +1273,19 @@
    "via": "greenhouse (agent)",
    "detail": "Submitted on repass round 3 after essay answers were added; confirmation verified.",
    "at": "2026-08-28T19:22:45Z"
+  },
+  "6a42eb6b6c326942b4e84a43": {
+   "id": "6a42eb6b6c326942b4e84a43",
+   "key": "standard metrics::software engineer (backend)",
+   "title": "Software Engineer (Backend)",
+   "company": "Standard Metrics",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a42eb6b6c326942b4e84a43",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=standardmetrics&jr_id=6a42eb6b6c326942b4e84a43",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted after adding 'Over 3' years option and languages answer; confirmation verified.",
+   "at": "2026-08-28T19:27:53Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

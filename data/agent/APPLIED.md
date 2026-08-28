@@ -221,10 +221,11 @@ unauthorized AI assistance — do any Amazon online assessment yourself.
 | MongoDB | Senior Software Engineer, Storage Layer Services | 88% | Greenhouse | ✅ confirmed (double-submitted before a confirmation-regex bug was found; Greenhouse dedupes by email) |
 | EvolutionIQ | Senior Software Engineer (Python / AI Insurance SaaS) | 87% | Greenhouse | ✅ confirmed (regex false negative, screenshot-verified) |
 | GiveDirectly | Senior Software Engineer (Remote) | 92% | Greenhouse | ✅ confirmed |
+| Standard Metrics | Software Engineer (Backend) | 88% | Greenhouse | ✅ confirmed |
 
 Opto Investments (92%) dropped without applying: their JD says they are unable to
 sponsor employment visas, and the applicant requires sponsorship.
 
-Day total so far: 11 (3 Amazon + 8 Greenhouse). Fresh 646-job pool harvested with
+Day total so far: 12 (3 Amazon + 9 Greenhouse). Fresh 646-job pool harvested with
 saved cookies (JOBRIGHT_PASSWORD missing in this container); 339-job deduped queue.
 MX and Otter parked after two code-reset attempts each.
