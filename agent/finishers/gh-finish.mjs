@@ -110,7 +110,7 @@ try {
     const preferRe = new RegExp(c.prefer, "i");
     if (c.type && (!options.length || !options.some((o) => preferRe.test(o)))) {
       await target.el.type(c.type, { delay: 60 });
-      await page.waitForTimeout(1500);
+      await page.waitForTimeout(3500);
       options = await page.evaluate(() =>
         Array.from(document.querySelectorAll('[role="option"]')).filter((o) => o.offsetParent !== null).map((o) => o.innerText.trim()));
     }

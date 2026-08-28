@@ -390,6 +390,10 @@
   {
    "label": "working 3 days from one of our office hubs|office hubs in nyc",
    "prefer": "^yes"
+  },
+  {
+   "label": "whether you are a .{0,3}u\\.?s\\.?.{0,2} person",
+   "prefer": "not a|^no"
   }
  ],
  "texts": [
@@ -500,6 +504,10 @@
   {
    "label": "were you referred to this position",
    "text": "No"
+  },
+  {
+   "label": "if you answered .{0,3}yes.{0,3} to the question above",
+   "text": "N/A"
   }
  ],
  "checkboxes": [
