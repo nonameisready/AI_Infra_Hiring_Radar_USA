@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T22:04:38Z",
+ "updatedAt": "2026-08-28T22:05:54Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -637,6 +637,16 @@
    "originalUrl": "https://www.amazon.jobs/en/jobs/10515707",
    "status": "user_action_needed",
    "reason": "Application 90% complete in the alias account (huiluckylucky+amazon@gmail.com): contact, all 8 job-specific questions, and work eligibility are filled and auto-saved. This posting requires an IDENTITY VERIFICATION step (government-ID photo + live selfie in the verification portal) that the applicant must do personally. To finish: log in at amazon.jobs with the alias account, open Applications -> this job -> 'Begin identity verification', complete it with your ID and camera, then Review & submit."
+  },
+  {
+   "id": "6a91a0ca8e596854533769f8",
+   "company": "Varda Space Industries",
+   "title": "Senior Ground Systems Software Engineer, Space",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a91a0ca8e596854533769f8",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=vardaspace&jr_id=6a91a0ca8e596854533769f8&token=7980398003&utm_source=jobright",
+   "status": "dropped",
+   "reason": "Dropped, do not apply: export-controlled (ITAR) role requiring U.S. citizen / lawful permanent resident / protected individual. Applicant is a PRC citizen on F-1 with I-485 pending (not yet an LPR) — honestly ineligible. Kept for dedupe."
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."

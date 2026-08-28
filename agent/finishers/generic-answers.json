@@ -301,6 +301,42 @@
   {
    "label": "in nyc or willing to move to nyc|do you live in (the )?nyc|hybrid in nyc",
    "prefer": "^yes"
+  },
+  {
+   "label": "what is your gender",
+   "prefer": "decline|do not wish|don'?t wish|prefer not"
+  },
+  {
+   "label": "privacy notice and do you accept|read .*candidate privacy notice",
+   "prefer": "^yes|accept"
+  },
+  {
+   "label": "acknowledgement of application accuracy|accuracy and completeness",
+   "prefer": "^yes|i (agree|acknowledge|confirm)"
+  },
+  {
+   "label": "were you referred|referred to this position",
+   "prefer": "^no"
+  },
+  {
+   "label": "previously been employed (with|by)|ever provided services to|currently work for,? or",
+   "prefer": "^no"
+  },
+  {
+   "label": "right to work in the country",
+   "prefer": "^yes"
+  },
+  {
+   "label": "on any kind of work visa currently|work visa currently",
+   "prefer": "^yes"
+  },
+  {
+   "label": "province/state",
+   "prefer": "New Jersey"
+  },
+  {
+   "label": "paired coding exercise in python|coding exercise .*python",
+   "prefer": "^yes"
   }
  ],
  "texts": [
@@ -375,6 +411,18 @@
   {
    "label": "basis of your current employment authorization",
    "text": "Current authorization: F-1 student visa with CPT work authorization (issued through my school and renewable). An I-140 has been filed and approved on my behalf, and my I-485 is pending. For long-term employment I will require company sponsorship (e.g., H-1B)."
+  },
+  {
+   "label": "why do you want to join figma",
+   "text": "Figma's core product is one of the hardest distributed-systems problems in consumer software: real-time multiplayer editing that has to feel instant at massive scale. I've spent seven years building low-latency backend and data systems in finance (BlackRock, Bank of America), and I want to apply that experience to infrastructure that millions of designers and developers feel every day. I also admire how openly Figma's engineering team writes about its technical decisions — the multiplayer protocol, LiveGraph, the databases behind them — and I want to work somewhere that treats that rigor as part of the product."
+  },
+  {
+   "label": "^current company",
+   "text": "Bank of America (via Innova Solutions) — most recent role; currently between positions"
+  },
+  {
+   "label": "postal/?\\s*zip code",
+   "text": "07306"
   }
  ],
  "checkboxes": [
@@ -389,6 +437,9 @@
   },
   {
    "label": "in-person work|in-?office (work|days)|hybrid (schedule|model)"
+  },
+  {
+   "label": "acknowledgement of application accuracy|accuracy and completeness|i acknowledge"
   }
  ],
  "manualTriggers": []
