@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T04:50:00Z",
+ "updatedAt": "2026-08-28T14:00:00Z",
  "answers": [
   {
    "match": "first\\s*name",
@@ -227,6 +227,11 @@
    "match": "nonimmigrant status",
    "answer": "F-1",
    "note": "user profile"
+  },
+  {
+   "match": "i-?140.*(filed|approved)",
+   "answer": "Yes",
+   "note": "user 2026-08-28: I-140 filed and approved"
   }
  ],
  "note": "Regex `match` is tested case-insensitively against a form question's label. Answers the user gives to open questions in questions.json get appended here so the agent never asks twice. Never store passwords or secrets in this file."

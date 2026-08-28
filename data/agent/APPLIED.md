@@ -194,3 +194,17 @@ Amazon note: even after the user added a password, amazon.jobs' pre-login router
 force-redirects this Google-linked account to Google sign-in with no password
 option — Amazon remains personal-apply permanently (agent never enters the
 user's Google password).
+
+## 2026-08-28 — Amazon three-for-three via the new alias account
+
+| Company | Title | Match | Via | Status |
+| ------- | ----- | ----- | --- | ------ |
+| Amazon | Senior SDE, AWS Analytics Engineering (10507310) | 90% | amazon.jobs (agent) | ✅ "Thank you for applying" |
+| Amazon | SDE III, Registries (10474479) | 90% | amazon.jobs (agent) | ✅ "Thank you for applying" |
+| Amazon | SWE III, Inventory Accounting (10498986) | 90% | amazon.jobs (agent) | ✅ "Thank you for applying" |
+
+Alias account huiluckylucky+amazon@gmail.com (user registered past the signup
+captcha once; codes readable in Gmail). Immigration answers per the user's
+explicit instructions. NOTE for the user: Amazon's acknowledgement commits the
+applicant to complete all assessments and interviews independently without
+unauthorized AI assistance — do any Amazon online assessment yourself.

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T01:00:00Z",
+ "updatedAt": "2026-08-28T14:55:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -972,10 +972,10 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a860da5d34f700f87fbfe64",
    "originalUrl": "https://www.amazon.jobs/en/jobs/10507310/senior-software-development-engineer-aws-analytics-engineering?jr_id=6a860da5d34f700f87fbfe64",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "platform not automated from cloud: www.amazon.jobs",
-   "at": "2026-08-27T04:55:00Z"
+   "status": "applied_direct",
+   "via": "amazon.jobs (agent, alias account)",
+   "detail": "Submitted via huiluckylucky+amazon@gmail.com account; success page 'Thank you for applying' (Job ID 10507310). Immigration answers per user (H-1B history Yes, I-140 approved Yes, F-1, CPT needed, PRC citizen).",
+   "at": "2026-08-28T14:55:00Z"
   },
   "6a86634de459fa3baa8674cf": {
    "id": "6a86634de459fa3baa8674cf",
@@ -992,16 +992,16 @@
   },
   "6a8e12dda5639a4810329700": {
    "id": "6a8e12dda5639a4810329700",
-   "key": "amazon::software development engineer iii, registries, registries",
+   "key": "amazon::software development engineer iii, registries",
    "title": "Software Development Engineer III, Registries, Registries",
    "company": "Amazon",
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8e12dda5639a4810329700",
    "originalUrl": "https://www.amazon.jobs/en/jobs/10474479/software-development-engineer-iii-registries-registries?jr_id=6a8e12dda5639a4810329700",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "platform not automated from cloud: www.amazon.jobs",
-   "at": "2026-08-27T04:55:00Z"
+   "status": "applied_direct",
+   "via": "amazon.jobs (agent, alias account)",
+   "detail": "Submitted via huiluckylucky+amazon@gmail.com account; success page 'Thank you for applying' (Job ID 10474479). Immigration answers per user (H-1B history Yes, I-140 approved Yes, F-1, CPT needed, PRC citizen).",
+   "at": "2026-08-28T14:55:00Z"
   },
   "6a7b81b7bc05d77f2bddf7f2": {
    "id": "6a7b81b7bc05d77f2bddf7f2",
@@ -1011,10 +1011,10 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7b81b7bc05d77f2bddf7f2",
    "originalUrl": "https://www.amazon.jobs/en/jobs/10498986/software-engineer-iii-inventory-accounting?jr_id=6a7b81b7bc05d77f2bddf7f2",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "platform not automated from cloud: www.amazon.jobs",
-   "at": "2026-08-27T04:55:00Z"
+   "status": "applied_direct",
+   "via": "amazon.jobs (agent, alias account)",
+   "detail": "Submitted via huiluckylucky+amazon@gmail.com account; success page 'Thank you for applying' (Job ID 10498986). Immigration answers per user (H-1B history Yes, I-140 approved Yes, F-1, CPT needed, PRC citizen).",
+   "at": "2026-08-28T14:55:00Z"
   },
   "6a8765e1e8b6601d129035ee": {
    "id": "6a8765e1e8b6601d129035ee",

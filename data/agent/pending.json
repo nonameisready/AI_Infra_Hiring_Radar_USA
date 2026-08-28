@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T01:00:00Z",
+ "updatedAt": "2026-08-28T14:55:00Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -509,17 +509,6 @@
    "addedAt": "2026-08-27"
   },
   {
-   "id": "6a860da5d34f700f87fbfe64",
-   "title": "Senior Software Development Engineer, AWS Analytics Engineering",
-   "company": "Amazon",
-   "matchPercent": 90,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a860da5d34f700f87fbfe64",
-   "originalUrl": "https://www.amazon.jobs/en/jobs/10507310/senior-software-development-engineer-aws-analytics-engineering?jr_id=6a860da5d34f700f87fbfe64",
-   "reason": "Your Amazon.jobs account uses Google sign-in, and the agent never enters your Google password — please apply personally (Sign in with Google, then the form is short).",
-   "status": "needs_manual",
-   "addedAt": "2026-08-27"
-  },
-  {
    "id": "6a86634de459fa3baa8674cf",
    "title": "Backend Engineer, Payments",
    "company": "Chariot",
@@ -527,28 +516,6 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a86634de459fa3baa8674cf",
    "originalUrl": "https://jobs.ashbyhq.com/chariot/90bf844a-4fbd-4805-a5f3-bd21d6ebad2b/application?utm_source=W4zrmPKAJA&jr_id=6a86634de459fa3baa8674cf",
    "reason": "ashby blocked this IP earlier",
-   "status": "needs_manual",
-   "addedAt": "2026-08-27"
-  },
-  {
-   "id": "6a8e12dda5639a4810329700",
-   "title": "Software Development Engineer III, Registries, Registries",
-   "company": "Amazon",
-   "matchPercent": 90,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a8e12dda5639a4810329700",
-   "originalUrl": "https://www.amazon.jobs/en/jobs/10474479/software-development-engineer-iii-registries-registries?jr_id=6a8e12dda5639a4810329700",
-   "reason": "Your Amazon.jobs account uses Google sign-in, and the agent never enters your Google password — please apply personally (Sign in with Google, then the form is short).",
-   "status": "needs_manual",
-   "addedAt": "2026-08-27"
-  },
-  {
-   "id": "6a7b81b7bc05d77f2bddf7f2",
-   "title": "Software Engineer III, Inventory Accounting",
-   "company": "Amazon",
-   "matchPercent": 90,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a7b81b7bc05d77f2bddf7f2",
-   "originalUrl": "https://www.amazon.jobs/en/jobs/10498986/software-engineer-iii-inventory-accounting?jr_id=6a7b81b7bc05d77f2bddf7f2",
-   "reason": "Your Amazon.jobs account uses Google sign-in, and the agent never enters your Google password — please apply personally (Sign in with Google, then the form is short).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },

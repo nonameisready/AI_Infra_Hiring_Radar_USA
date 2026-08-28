@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T01:30:00Z",
+ "updatedAt": "2026-08-28T14:55:00Z",
  "note": "Company ATS accounts the agent registered for the applicant. Passwords are NEVER stored here or anywhere in the repo — every account uses the email below plus the password in the ATS_ACCOUNT_PASSWORD environment variable (Claude Code env settings). To apply to a company already listed: sign in with these credentials instead of registering again.",
  "loginEmail": "huiluckylucky@gmail.com",
  "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
@@ -33,7 +33,8 @@
    "site": "www.amazon.jobs",
    "company": "Amazon",
    "loginUrl": "https://passport.amazon.jobs/",
-   "status": "personal-only — account is Google-linked; the pre-login router forces Google sign-in with no password path, so the agent cannot log in (never enters the Google password)"
+   "status": "active — alias account huiluckylucky+amazon@gmail.com (user-registered 2026-08-28), standard password + email OTP; original Google-linked account remains personal-only",
+   "loginEmail": "huiluckylucky+amazon@gmail.com"
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."
