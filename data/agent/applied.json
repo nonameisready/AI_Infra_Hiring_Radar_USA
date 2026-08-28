@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T14:55:00Z",
+ "updatedAt": "2026-08-28T17:20:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1171,6 +1171,30 @@
    "via": "Oracle Cloud CX (agent, email-verified profile)",
    "detail": "Email OTP verification (Gmail), 4-section wizard incl. compliance questionnaire per user's answers; profile page shows 'Application Submitted' on 08/27/2026.",
    "at": "2026-08-27T22:35:00Z"
+  },
+  "6a9186d9c12c90443efc6816": {
+   "id": "6a9186d9c12c90443efc6816",
+   "key": "navan::sr. software engineer, backend",
+   "title": "Sr. Software Engineer, Backend",
+   "company": "Navan",
+   "matchPercent": 91,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9186d9c12c90443efc6816",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Confirmation page verified; security code from Gmail.",
+   "at": "2026-08-28T17:20:00Z"
+  },
+  "6a74cba120b26a6e93f48e23": {
+   "id": "6a74cba120b26a6e93f48e23",
+   "key": "robinhood::senior software engineer, wallet",
+   "title": "Senior Software Engineer, Wallet",
+   "company": "Robinhood",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a74cba120b26a6e93f48e23",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Confirmation page verified; security code from Gmail.",
+   "at": "2026-08-28T17:20:00Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

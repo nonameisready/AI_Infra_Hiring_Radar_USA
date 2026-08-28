@@ -232,6 +232,11 @@
    "match": "i-?140.*(filed|approved)",
    "answer": "Yes",
    "note": "user 2026-08-28: I-140 filed and approved"
+  },
+  {
+   "match": "state of residence",
+   "answer": "New Jersey",
+   "note": "home address Jersey City NJ (user's ATS profiles)"
   }
  ],
  "note": "Regex `match` is tested case-insensitively against a form question's label. Answers the user gives to open questions in questions.json get appended here so the agent never asks twice. Never store passwords or secrets in this file."

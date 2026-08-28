@@ -253,6 +253,10 @@
   {
    "label": "provided (any )?contract work (by|for)|contract engagement or work through an agency",
    "prefer": "^no$"
+  },
+  {
+   "label": "company sponsorship (to|for) (retain|obtain|maintain)|require company sponsorship",
+   "prefer": "^yes"
   }
  ],
  "texts": [
@@ -299,6 +303,18 @@
   {
    "label": "remote work location",
    "text": "New York, NY"
+  },
+  {
+   "label": "current state of residence",
+   "text": "New Jersey"
+  },
+  {
+   "label": "(know|related to).*(anyone|someone).*(at|who works)",
+   "text": "No"
+  },
+  {
+   "label": "main programming languages and technologies",
+   "text": "Python (primary), Go, TypeScript. Distributed backend services, REST APIs, PostgreSQL, AWS, Docker, message queues (NATS JetStream), CI/CD, and LLM/RAG pipelines."
   }
  ],
  "checkboxes": [

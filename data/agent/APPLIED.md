@@ -208,3 +208,14 @@ captcha once; codes readable in Gmail). Immigration answers per the user's
 explicit instructions. NOTE for the user: Amazon's acknowledgement commits the
 applicant to complete all assessments and interviews independently without
 unauthorized AI assistance — do any Amazon online assessment yourself.
+
+### 2026-08-28 — make-up daily batch (in progress; scheduled windows produced nothing)
+
+| Company | Title | Match | Via | Status |
+| ------- | ----- | ----- | --- | ------ |
+| Navan | Sr. Software Engineer, Backend | 91% | Greenhouse | ✅ confirmed |
+| Robinhood | Senior Software Engineer, Wallet | 88% | Greenhouse | ✅ confirmed |
+
+Day total so far: 5 (3 Amazon + 2 Greenhouse). Fresh 646-job pool harvested with
+saved cookies (JOBRIGHT_PASSWORD missing in this container); 339-job deduped queue.
+MX and Otter parked after two code-reset attempts each.
