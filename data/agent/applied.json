@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T19:27:53Z",
+ "updatedAt": "2026-08-28T19:32:07Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1286,6 +1286,19 @@
    "via": "greenhouse (agent)",
    "detail": "Submitted after adding 'Over 3' years option and languages answer; confirmation verified.",
    "at": "2026-08-28T19:27:53Z"
+  },
+  "6a50dc9f6a85fe03ca8561bc": {
+   "id": "6a50dc9f6a85fe03ca8561bc",
+   "key": "hex::software engineer, foundations",
+   "title": "Software Engineer, Foundations",
+   "company": "Hex",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a50dc9f6a85fe03ca8561bc",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=hextechnologies&jr_id=6a50dc9f6a85fe03ca8561bc",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted after adding free-text 'leveled as Senior' answer; confirmation verified.",
+   "at": "2026-08-28T19:32:07Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
