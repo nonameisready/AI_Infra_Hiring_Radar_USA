@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-27T22:35:00Z",
+ "updatedAt": "2026-08-27T23:45:00Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -86,7 +86,7 @@
    "matchPercent": 94,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a85dfc3e459fa3baa864708",
    "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210781298?jr_id=6a85dfc3e459fa3baa864708",
-   "reason": "Oracle Cloud recruiting portal — requires a per-company account; manual for now.",
+   "reason": "JPMC's application shows an hCaptcha image challenge at the email step; the agent does not bypass captchas — please apply personally. Standard answers: sponsorship Yes, authorized Yes, salary $150,000+, graduation dates on file.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -174,7 +174,7 @@
    "matchPercent": 93,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8eeba03ac3a34f92d7e880",
    "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210715977?jr_id=6a8eeba03ac3a34f92d7e880",
-   "reason": "Oracle Cloud recruiting portal — requires a per-company account; manual for now.",
+   "reason": "JPMC's application shows an hCaptcha image challenge at the email step; the agent does not bypass captchas — please apply personally. Standard answers: sponsorship Yes, authorized Yes, salary $150,000+, graduation dates on file.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -196,7 +196,7 @@
    "matchPercent": 93,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a84c3cbd34f700f87fbacdf",
    "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210738267?jr_id=6a84c3cbd34f700f87fbacdf",
-   "reason": "Oracle Cloud recruiting portal — requires a per-company account; manual for now.",
+   "reason": "JPMC's application shows an hCaptcha image challenge at the email step; the agent does not bypass captchas — please apply personally. Standard answers: sponsorship Yes, authorized Yes, salary $150,000+, graduation dates on file.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -284,7 +284,7 @@
    "matchPercent": 92,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a862a3ee459fa3baa8666d2",
    "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775714?jr_id=6a862a3ee459fa3baa8666d2",
-   "reason": "Oracle Cloud recruiting portal — requires a per-company account; manual for now.",
+   "reason": "JPMC's application shows an hCaptcha image challenge at the email step; the agent does not bypass captchas — please apply personally. Standard answers: sponsorship Yes, authorized Yes, salary $150,000+, graduation dates on file.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -482,7 +482,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a79c51ab17cba5690363a11",
    "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210778821?jr_id=6a79c51ab17cba5690363a11",
-   "reason": "Oracle Cloud recruiting portal — requires a per-company account; manual for now.",
+   "reason": "JPMC's application shows an hCaptcha image challenge at the email step; the agent does not bypass captchas — please apply personally. Standard answers: sponsorship Yes, authorized Yes, salary $150,000+, graduation dates on file.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -537,7 +537,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a860da5d34f700f87fbfe64",
    "originalUrl": "https://www.amazon.jobs/en/jobs/10507310/senior-software-development-engineer-aws-analytics-engineering?jr_id=6a860da5d34f700f87fbfe64",
-   "reason": "Company-hosted portal (www.amazon.jobs) — not automatable from the cloud; apply via the link.",
+   "reason": "Your Amazon.jobs account uses Google sign-in, and the agent never enters your Google password — please apply personally (Sign in with Google, then the form is short).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -559,7 +559,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8e12dda5639a4810329700",
    "originalUrl": "https://www.amazon.jobs/en/jobs/10474479/software-development-engineer-iii-registries-registries?jr_id=6a8e12dda5639a4810329700",
-   "reason": "Company-hosted portal (www.amazon.jobs) — not automatable from the cloud; apply via the link.",
+   "reason": "Your Amazon.jobs account uses Google sign-in, and the agent never enters your Google password — please apply personally (Sign in with Google, then the form is short).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
@@ -570,7 +570,7 @@
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7b81b7bc05d77f2bddf7f2",
    "originalUrl": "https://www.amazon.jobs/en/jobs/10498986/software-engineer-iii-inventory-accounting?jr_id=6a7b81b7bc05d77f2bddf7f2",
-   "reason": "Company-hosted portal (www.amazon.jobs) — not automatable from the cloud; apply via the link.",
+   "reason": "Your Amazon.jobs account uses Google sign-in, and the agent never enters your Google password — please apply personally (Sign in with Google, then the form is short).",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },
