@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T00:20:00Z",
+ "updatedAt": "2026-08-28T01:00:00Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -76,17 +76,6 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f0705382b237ac80c3d9a",
    "originalUrl": "https://swib.wd12.myworkdayjobs.com/ext/job/Madison-Wisconsin/Senior-Software-Engineer_R-001295?jr_id=6a8f0705382b237ac80c3d9a",
    "reason": "Workday tenant — automated Workday flow ships in the next run window (your ATS account password is set).",
-   "status": "needs_manual",
-   "addedAt": "2026-08-27"
-  },
-  {
-   "id": "6a85dfc3e459fa3baa864708",
-   "title": "Software Engineer [Multiple Positions Available]",
-   "company": "JPMorganChase",
-   "matchPercent": 94,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a85dfc3e459fa3baa864708",
-   "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210781298?jr_id=6a85dfc3e459fa3baa864708",
-   "reason": "JPMC's application shows an hCaptcha image challenge at the email step; the agent does not bypass captchas — please apply personally. Standard answers: sponsorship Yes, authorized Yes, salary $150,000+, graduation dates on file.",
    "status": "needs_manual",
    "addedAt": "2026-08-27"
   },

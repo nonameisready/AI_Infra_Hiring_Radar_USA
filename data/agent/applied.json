@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T00:20:00Z",
+ "updatedAt": "2026-08-28T01:00:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -309,11 +309,11 @@
    "company": "JPMorganChase",
    "matchPercent": 94,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a85dfc3e459fa3baa864708",
-   "at": "2026-08-27T03:50:00Z",
    "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210781298?jr_id=6a85dfc3e459fa3baa864708",
-   "status": "needs_manual",
-   "via": null,
-   "detail": "platform not automated from cloud: jpmc.fa.oraclecloud.com"
+   "status": "applied_manual",
+   "via": "Oracle Cloud CX (user applied personally)",
+   "detail": "User applied in their own browser (hCaptcha at the email gate keeps this tenant personal-apply).",
+   "at": "2026-08-28T01:00:00Z"
   },
   "6a8efb09a10ee661e24d5c3f": {
    "id": "6a8efb09a10ee661e24d5c3f",

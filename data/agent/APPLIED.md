@@ -183,3 +183,14 @@ questions answered honestly (sponsorship Yes / authorized Yes).
 | Company | Title | Match | Via | Status |
 | ------- | ----- | ----- | --- | ------ |
 | MetLife | Senior Developer, Sales Technology | 91% | Avature (agent + user password reset) | ✅ "Application Submitted — Thank you for applying!" |
+
+### 2026-08-28 — JPMC applied by the user (running total: 25)
+
+| Company | Title | Match | Via | Status |
+| ------- | ----- | ----- | --- | ------ |
+| JPMorganChase | Software Engineer [Multiple Positions Available] | 94% | Oracle CX (user, hCaptcha gate) | ✅ user applied |
+
+Amazon note: even after the user added a password, amazon.jobs' pre-login router
+force-redirects this Google-linked account to Google sign-in with no password
+option — Amazon remains personal-apply permanently (agent never enters the
+user's Google password).
