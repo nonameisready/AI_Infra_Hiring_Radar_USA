@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T22:05:54Z",
+ "updatedAt": "2026-08-28T22:58:28Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -647,6 +647,16 @@
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=vardaspace&jr_id=6a91a0ca8e596854533769f8&token=7980398003&utm_source=jobright",
    "status": "dropped",
    "reason": "Dropped, do not apply: export-controlled (ITAR) role requiring U.S. citizen / lawful permanent resident / protected individual. Applicant is a PRC citizen on F-1 with I-485 pending (not yet an LPR) — honestly ineligible. Kept for dedupe."
+  },
+  {
+   "id": "6a7e049d19ce4e6e9d930ac2",
+   "company": "Fivetran",
+   "title": "Senior Software Engineer - Metadata",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7e049d19ce4e6e9d930ac2",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=fivetran&jr_id=6a7e049d19ce4e6e9d930ac2&token=7865559003&utm_source=jobright",
+   "status": "park",
+   "reason": "Form renders every field twice (two visible copies); filling the first copy leaves the duplicate's required check unsatisfied. Needs a bespoke driver session. 3 fill attempts, never submitted."
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."

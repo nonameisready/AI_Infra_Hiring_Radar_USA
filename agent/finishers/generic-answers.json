@@ -378,6 +378,18 @@
   {
    "label": "categories best describes your employment",
    "prefer": "decline|don.?t wish|prefer not|do not wish"
+  },
+  {
+   "label": "partner agency that uses|worked for, a company or partner",
+   "prefer": "^no"
+  },
+  {
+   "label": "are you a former .* employee",
+   "prefer": "^no"
+  },
+  {
+   "label": "working 3 days from one of our office hubs|office hubs in nyc",
+   "prefer": "^yes"
   }
  ],
  "texts": [
@@ -484,6 +496,10 @@
   {
    "label": "^city$|^city \\*?$",
    "text": "Jersey City"
+  },
+  {
+   "label": "were you referred to this position",
+   "text": "No"
   }
  ],
  "checkboxes": [

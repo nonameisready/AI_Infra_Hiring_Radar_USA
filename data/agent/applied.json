@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T22:04:38Z",
+ "updatedAt": "2026-08-28T22:58:28Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1403,6 +1403,45 @@
    "via": "greenhouse (agent)",
    "detail": "Submitted; confirmation verified.",
    "at": "2026-08-28T22:04:38Z"
+  },
+  "6a55592e4119652ff386523a": {
+   "id": "6a55592e4119652ff386523a",
+   "key": "pindrop::senior software engineer (platform core)",
+   "title": "Senior Software Engineer (Platform Core)",
+   "company": "Pindrop",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a55592e4119652ff386523a",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=pindropsecurity&jr_id=6a55592e4119652ff386523a&token=8044561&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted on repass; privacy-notice and accuracy acknowledgements answered; confirmation verified.",
+   "at": "2026-08-28T22:58:28Z"
+  },
+  "6a8c99ce1d96e6541c8c1e04": {
+   "id": "6a8c99ce1d96e6541c8c1e04",
+   "key": "verkada::senior software engineer - alarms",
+   "title": "Senior Software Engineer - Alarms",
+   "company": "Verkada",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8c99ce1d96e6541c8c1e04",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=verkada&jr_id=6a8c99ce1d96e6541c8c1e04&token=5119627007&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted on repass; race self-ID declined honestly; confirmation verified.",
+   "at": "2026-08-28T22:58:28Z"
+  },
+  "6a5269098ef95364ead8e328": {
+   "id": "6a5269098ef95364ead8e328",
+   "key": "figma::software engineer - distributed systems",
+   "title": "Software Engineer - Distributed Systems",
+   "company": "Figma",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5269098ef95364ead8e328",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=figma&jr_id=6a5269098ef95364ead8e328&token=5552549004&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted on repass with genuine why-Figma essay and 5-10 years experience bucket; confirmation verified.",
+   "at": "2026-08-28T22:58:28Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
