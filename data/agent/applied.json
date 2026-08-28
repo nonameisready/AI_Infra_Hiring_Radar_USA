@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T20:08:25Z",
+ "updatedAt": "2026-08-28T20:50:29Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1325,6 +1325,19 @@
    "via": "greenhouse (agent)",
    "detail": "Submitted on repass with NYC/comp-range answers; confirmation verified.",
    "at": "2026-08-28T20:08:25Z"
+  },
+  "69ea801658811370cb133cc4": {
+   "id": "69ea801658811370cb133cc4",
+   "key": "attentive::senior software engineer, onsite customer growth",
+   "title": "Senior Software Engineer, Onsite Customer Growth",
+   "company": "Attentive",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69ea801658811370cb133cc4",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=attentive&jr_id=69ea801658811370cb133cc4&token=4227854009&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted on repass. Site's AI-agent question answered 'Yes' per its own instruction (AI agent applying on behalf of the candidate). Employment-authorization basis stated in full (F-1 CPT, I-140 approved, I-485 pending).",
+   "at": "2026-08-28T20:50:29Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
