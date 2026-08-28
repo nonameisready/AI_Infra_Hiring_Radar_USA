@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T20:50:29Z",
+ "updatedAt": "2026-08-28T22:04:38Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1338,6 +1338,71 @@
    "via": "greenhouse (agent)",
    "detail": "Submitted on repass. Site's AI-agent question answered 'Yes' per its own instruction (AI agent applying on behalf of the candidate). Employment-authorization basis stated in full (F-1 CPT, I-140 approved, I-485 pending).",
    "at": "2026-08-28T20:50:29Z"
+  },
+  "6a51c38e02522b5b722eb1e3": {
+   "id": "6a51c38e02522b5b722eb1e3",
+   "key": "robinhood::senior software engineer, security platform",
+   "title": "Senior Software Engineer, Security Platform",
+   "company": "Robinhood",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a51c38e02522b5b722eb1e3",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=robinhood&jr_id=6a51c38e02522b5b722eb1e3&token=7899482&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted; confirmation verified. NOTE: a second Jobright entry (69fb903effa73664aeb0065b) for the SAME Greenhouse posting (token 7899482) was also submitted before token-level dedupe existed — Greenhouse merges duplicates by email.",
+   "at": "2026-08-28T22:04:38Z"
+  },
+  "69f21553f154d768fbaa51bf": {
+   "id": "69f21553f154d768fbaa51bf",
+   "key": "next insurance::backend engineer- devex team",
+   "title": "Backend Engineer- DevEx Team",
+   "company": "Next Insurance",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69f21553f154d768fbaa51bf",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=nextinsurance66&jr_id=69f21553f154d768fbaa51bf&token=7719281003&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted; confirmation verified.",
+   "at": "2026-08-28T22:04:38Z"
+  },
+  "6a78e2f0a26ccc369f8392d9": {
+   "id": "6a78e2f0a26ccc369f8392d9",
+   "key": "verse::software engineer, distributed systems",
+   "title": "Software Engineer, Distributed Systems",
+   "company": "Verse",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a78e2f0a26ccc369f8392d9",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=verse&jr_id=6a78e2f0a26ccc369f8392d9&token=5383955008&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted; confirmation verified.",
+   "at": "2026-08-28T22:04:38Z"
+  },
+  "6a344f717f3fdd180d4c9d4e": {
+   "id": "6a344f717f3fdd180d4c9d4e",
+   "key": "otter::senior backend software engineer",
+   "title": "Senior Backend Software Engineer",
+   "company": "Otter",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a344f717f3fdd180d4c9d4e",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=otter&jr_id=6a344f717f3fdd180d4c9d4e&token=8237843002&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted after earlier code-feed races; fresh code fed promptly this time; confirmation verified.",
+   "at": "2026-08-28T22:04:38Z"
+  },
+  "6a3b02dfdd879c60912b1905": {
+   "id": "6a3b02dfdd879c60912b1905",
+   "key": "pantheon::senior software engineer - new customer experience",
+   "title": "Senior Software Engineer - New Customer Experience",
+   "company": "Pantheon",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a3b02dfdd879c60912b1905",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=pantheon&jr_id=6a3b02dfdd879c60912b1905&token=8024927&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted; confirmation verified.",
+   "at": "2026-08-28T22:04:38Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

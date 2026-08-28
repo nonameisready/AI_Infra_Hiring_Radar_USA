@@ -226,10 +226,15 @@ unauthorized AI assistance — do any Amazon online assessment yourself.
 | Amazon | Sr. SDE, Advanced Analytics (10508484) | 90% | amazon.jobs (agent) | ✅ "Thank you for applying" |
 | Fora Travel | Senior/Staff Backend Engineer, Applied AI | 84% | Greenhouse | ✅ confirmed |
 | Attentive | Senior Software Engineer, Onsite Customer Growth | 84% | Greenhouse | ✅ confirmed (AI-agent question answered Yes, per the site's own instruction) |
+| Robinhood | Senior Software Engineer, Security Platform | 84% | Greenhouse | ✅ confirmed |
+| Next Insurance | Backend Engineer- DevEx Team | 84% | Greenhouse | ✅ confirmed |
+| Verse | Software Engineer, Distributed Systems | 84% | Greenhouse | ✅ confirmed |
+| Otter | Senior Backend Software Engineer | 83% | Greenhouse | ✅ confirmed |
+| Pantheon | Senior Software Engineer - New Customer Experience | 82% | Greenhouse | ✅ confirmed |
 
 Opto Investments (92%) dropped without applying: their JD says they are unable to
 sponsor employment visas, and the applicant requires sponsorship.
 
-Day total so far: 16 (4 Amazon + 12 Greenhouse). Fresh 646-job pool harvested with
+Day total so far: 21 unique (4 Amazon + 17 Greenhouse). One accidental duplicate: Robinhood Security Platform was submitted under two Jobright ids pointing at the same Greenhouse posting; Greenhouse merges by email. Fresh 646-job pool harvested with
 saved cookies (JOBRIGHT_PASSWORD missing in this container); 339-job deduped queue.
 MX and Otter parked after two code-reset attempts each.

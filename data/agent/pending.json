@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T20:17:06Z",
+ "updatedAt": "2026-08-28T22:04:38Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -322,17 +322,6 @@
    "addedAt": "2026-08-27"
   },
   {
-   "id": "69fe662c6bcf315dc8f5772e",
-   "title": "Senior Software Engineer, Menu Platform - Mountain View, CA",
-   "company": "Otter",
-   "matchPercent": 89,
-   "jobrightUrl": "https://jobright.ai/jobs/info/69fe662c6bcf315dc8f5772e",
-   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=otter&jr_id=69fe662c6bcf315dc8f5772e&token=8237848002&utm_source=jobright",
-   "reason": "One qualification control not recognized — next window handles it live.",
-   "status": "needs_info",
-   "addedAt": "2026-08-27"
-  },
-  {
    "id": "6a7e6217e2030208f2769025",
    "title": "Senior Backend Engineer, Compliance Engineering",
    "company": "Reddit, Inc.",
@@ -362,17 +351,6 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/68800d6a2097a271a89a07e9",
    "originalUrl": null,
    "reason": "Immigration-status radio needs its full option list inspected live before an honest selection.",
-   "status": "needs_info",
-   "addedAt": "2026-08-27"
-  },
-  {
-   "id": "6a38d03329c90c607e4e80c9",
-   "title": "Senior Software Engineer - Menu Platform",
-   "company": "Otter",
-   "matchPercent": 82,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a38d03329c90c607e4e80c9",
-   "originalUrl": null,
-   "reason": "One qualification control not recognized — next window handles it live.",
    "status": "needs_info",
    "addedAt": "2026-08-27"
   },
@@ -638,17 +616,6 @@
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=mxtechnologiesinc&token=4385268009",
    "status": "needs_manual",
    "reason": "Greenhouse security-code submissions kept resetting after two machine attempts — run the local replay from your laptop or apply personally (answers are all on file).",
-   "at": "2026-08-28T17:20:00Z"
-  },
-  {
-   "id": "69fcd960938a651755f97037",
-   "company": "Otter",
-   "title": "Staff Software Engineer - Menu Platform - Mountain View, CA",
-   "matchPercent": 89,
-   "jobrightUrl": "https://jobright.ai/jobs/info/69fcd960938a651755f97037",
-   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=otter&token=8486303002",
-   "status": "needs_manual",
-   "reason": "Greenhouse security-code submissions kept resetting after two machine attempts — run the local replay from your laptop or apply personally.",
    "at": "2026-08-28T17:20:00Z"
   },
   {
