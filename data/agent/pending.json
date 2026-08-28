@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T19:18:12Z",
+ "updatedAt": "2026-08-28T20:17:06Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -660,6 +660,16 @@
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=optoinvest&jr_id=6a8384dc2dbaf907b07695d1",
    "status": "dropped",
    "reason": "Dropped, do not apply: JD states 'unable to sponsor or take over sponsorship of an employment visa'; applicant requires sponsorship. Also requires a cover letter. Kept here so dedupe never re-queues it."
+  },
+  {
+   "id": "6a8f1002a10ee661e24d6414",
+   "company": "Amazon",
+   "title": "Software Development Engineer, WW Deals and Promotions (ID: 10515707)",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8f1002a10ee661e24d6414",
+   "originalUrl": "https://www.amazon.jobs/en/jobs/10515707",
+   "status": "user_action_needed",
+   "reason": "Application 90% complete in the alias account (huiluckylucky+amazon@gmail.com): contact, all 8 job-specific questions, and work eligibility are filled and auto-saved. This posting requires an IDENTITY VERIFICATION step (government-ID photo + live selfie in the verification portal) that the applicant must do personally. To finish: log in at amazon.jobs with the alias account, open Applications -> this job -> 'Begin identity verification', complete it with your ID and camera, then Review & submit."
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
