@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T17:20:00Z",
+ "updatedAt": "2026-08-28T19:18:12Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -650,6 +650,16 @@
    "status": "needs_manual",
    "reason": "Greenhouse security-code submissions kept resetting after two machine attempts — run the local replay from your laptop or apply personally.",
    "at": "2026-08-28T17:20:00Z"
+  },
+  {
+   "id": "6a8384dc2dbaf907b07695d1",
+   "company": "Opto Investments",
+   "title": "Software Engineer, Backend",
+   "matchPercent": 92,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8384dc2dbaf907b07695d1",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=optoinvest&jr_id=6a8384dc2dbaf907b07695d1",
+   "status": "dropped",
+   "reason": "Dropped, do not apply: JD states 'unable to sponsor or take over sponsorship of an employment visa'; applicant requires sponsorship. Also requires a cover letter. Kept here so dedupe never re-queues it."
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."

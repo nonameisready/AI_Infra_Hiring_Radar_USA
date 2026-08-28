@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T17:20:00Z",
+ "updatedAt": "2026-08-28T19:18:12Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1195,6 +1195,71 @@
    "via": "greenhouse (agent)",
    "detail": "Confirmation page verified; security code from Gmail.",
    "at": "2026-08-28T17:20:00Z"
+  },
+  "6a90a2f3d96ad228f12626f6": {
+   "id": "6a90a2f3d96ad228f12626f6",
+   "key": "savant bio::backend engineer — data platform",
+   "title": "Backend Engineer — Data Platform",
+   "company": "Savant Bio",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a90a2f3d96ad228f12626f6",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=savantbio&jr_id=6a90a2f3d96ad228f12626f6",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted by batch run; confirmation page verified.",
+   "at": "2026-08-28T19:18:12Z"
+  },
+  "69fcd9685cff890b03f33ee2": {
+   "id": "69fcd9685cff890b03f33ee2",
+   "key": "nuro::senior software engineer, map platform",
+   "title": "Senior Software Engineer, Map Platform",
+   "company": "Nuro",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69fcd9685cff890b03f33ee2",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=nuro&jr_id=69fcd9685cff890b03f33ee2",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted on repass round 2; confirmation page verified.",
+   "at": "2026-08-28T19:18:12Z"
+  },
+  "6a8cca0125fc4e7ae3dba6f1": {
+   "id": "6a8cca0125fc4e7ae3dba6f1",
+   "key": "picnic::senior backend engineer",
+   "title": "Senior Backend Engineer",
+   "company": "Picnic",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8cca0125fc4e7ae3dba6f1",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=try-picnic&jr_id=6a8cca0125fc4e7ae3dba6f1",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted on repass round 2; confirmation page verified.",
+   "at": "2026-08-28T19:18:12Z"
+  },
+  "6a35f5b029c90c607e4e4161": {
+   "id": "6a35f5b029c90c607e4e4161",
+   "key": "mongodb::senior software engineer, storage layer services",
+   "title": "Senior Software Engineer, Storage Layer Services",
+   "company": "MongoDB",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a35f5b029c90c607e4e4161",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=mongodb&jr_id=6a35f5b029c90c607e4e4161",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted round 1 (confirmation regex false negative, verified by screenshot). Round 2 re-submitted before the bug was found — Greenhouse merges duplicate applications on the same email.",
+   "at": "2026-08-28T19:18:12Z"
+  },
+  "6a74e39f37da8525e8cdb328": {
+   "id": "6a74e39f37da8525e8cdb328",
+   "key": "evolutioniq::senior software engineer (python / ai insurance saas)",
+   "title": "Senior Software Engineer (Python / AI Insurance SaaS)",
+   "company": "EvolutionIQ",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a74e39f37da8525e8cdb328",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=evolutioniq&jr_id=6a74e39f37da8525e8cdb328",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted round 1 (confirmation regex false negative, verified by screenshot 'Thanks for your application!'). No second submission.",
+   "at": "2026-08-28T19:18:12Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

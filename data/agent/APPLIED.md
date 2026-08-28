@@ -215,7 +215,15 @@ unauthorized AI assistance — do any Amazon online assessment yourself.
 | ------- | ----- | ----- | --- | ------ |
 | Navan | Sr. Software Engineer, Backend | 91% | Greenhouse | ✅ confirmed |
 | Robinhood | Senior Software Engineer, Wallet | 88% | Greenhouse | ✅ confirmed |
+| Savant Bio | Backend Engineer — Data Platform | 86% | Greenhouse | ✅ confirmed |
+| Nuro | Senior Software Engineer, Map Platform | 88% | Greenhouse | ✅ confirmed |
+| Picnic | Senior Backend Engineer | 89% | Greenhouse | ✅ confirmed |
+| MongoDB | Senior Software Engineer, Storage Layer Services | 88% | Greenhouse | ✅ confirmed (double-submitted before a confirmation-regex bug was found; Greenhouse dedupes by email) |
+| EvolutionIQ | Senior Software Engineer (Python / AI Insurance SaaS) | 87% | Greenhouse | ✅ confirmed (regex false negative, screenshot-verified) |
 
-Day total so far: 5 (3 Amazon + 2 Greenhouse). Fresh 646-job pool harvested with
+Opto Investments (92%) dropped without applying: their JD says they are unable to
+sponsor employment visas, and the applicant requires sponsorship.
+
+Day total so far: 10 (3 Amazon + 7 Greenhouse). Fresh 646-job pool harvested with
 saved cookies (JOBRIGHT_PASSWORD missing in this container); 339-job deduped queue.
 MX and Otter parked after two code-reset attempts each.
