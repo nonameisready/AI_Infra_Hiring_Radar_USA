@@ -304,7 +304,7 @@
   },
   {
    "label": "what is your gender",
-   "prefer": "decline|do not wish|don'?t wish|prefer not"
+   "prefer": "decline|do not wish|don.?t wish|prefer not"
   },
   {
    "label": "privacy notice and do you accept|read .*candidate privacy notice",
@@ -344,7 +344,8 @@
   },
   {
    "label": "highest level of (school|education)",
-   "prefer": "master"
+   "prefer": "master",
+   "type": "Master"
   },
   {
    "label": "i acknowledge that i have read and understand",
@@ -373,6 +374,10 @@
   {
    "label": "ever worked for (figma|fivetran|customer\\.io) before|worked for .* before,? as an employee",
    "prefer": "^no"
+  },
+  {
+   "label": "categories best describes your employment",
+   "prefer": "decline|don.?t wish|prefer not|do not wish"
   }
  ],
  "texts": [
