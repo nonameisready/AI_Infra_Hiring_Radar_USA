@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T00:20:46Z",
+ "updatedAt": "2026-08-29T05:25:15Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1494,6 +1494,19 @@
    "via": "greenhouse (agent)",
    "detail": "Submitted in final queue chunk; confirmation verified.",
    "at": "2026-08-29T00:20:46Z"
+  },
+  "693ca0ba50bbaf76504fe73b": {
+   "id": "693ca0ba50bbaf76504fe73b",
+   "key": "stripe::backend/api engineer, money as a service",
+   "title": "Backend/API Engineer, Money as a Service",
+   "company": "Stripe",
+   "matchPercent": 96,
+   "jobrightUrl": "https://jobright.ai/jobs/info/693ca0ba50bbaf76504fe73b",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&jr_id=693ca0ba50bbaf76504fe73b&token=6176758&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "1am ET window 2026-08-29; confirmation verified.",
+   "at": "2026-08-29T05:25:15Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

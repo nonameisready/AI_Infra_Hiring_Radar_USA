@@ -410,6 +410,14 @@
   {
    "label": "available to start full-time employment within the next 30 days",
    "prefer": "^yes"
+  },
+  {
+   "label": "onsite at least 4 days a week",
+   "prefer": "^yes"
+  },
+  {
+   "label": "how/?where did you first learn",
+   "prefer": "job board|linkedin|other"
   }
  ],
  "texts": [
@@ -524,6 +532,10 @@
   {
    "label": "if you answered .{0,3}yes.{0,3} to the question above",
    "text": "N/A"
+  },
+  {
+   "label": "minimum annual salary desired",
+   "text": "150000"
   }
  ],
  "checkboxes": [

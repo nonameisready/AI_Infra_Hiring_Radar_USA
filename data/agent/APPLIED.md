@@ -249,3 +249,9 @@ MX and Otter parked after two code-reset attempts each.
 41 Ashby postings (incl. ether.fi 92%, Brellium 90%, Axion 90%, Ramp 89%) are blocked by
 Ashby's anti-bot from the cloud and are queued in pending.json for local replay:
 run `node agent/local-replay.mjs --resume <your resume pdf> --only ashby` on the Mac.
+
+### 2026-08-29 — scheduled windows (self-bind routine, v2 architecture)
+
+| Company | Title | Match | Via | Status |
+| --- | --- | --- | --- | --- |
+| Stripe | Backend/API Engineer, Money as a Service | 96% | Greenhouse | ✅ confirmed |
