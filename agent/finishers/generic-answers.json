@@ -418,6 +418,22 @@
   {
    "label": "how/?where did you first learn",
    "prefer": "job board|linkedin|other"
+  },
+  {
+   "label": "employer visa sponsorship",
+   "prefer": "^yes"
+  },
+  {
+   "label": "employed full-?time at block|provided any contract work for block",
+   "prefer": "^no"
+  },
+  {
+   "label": "experience in cybersecurity, vulnerability management",
+   "prefer": "^no"
+  },
+  {
+   "label": "what is your current location.*unable to hire|current location\\? please note",
+   "prefer": "remote"
   }
  ],
  "texts": [
@@ -536,6 +552,10 @@
   {
    "label": "minimum annual salary desired",
    "text": "150000"
+  },
+  {
+   "label": "why are you interested in working at seatgeek",
+   "text": "SeatGeek sits at the intersection of live events and serious engineering: high-concurrency onsales, dynamic pricing, and a marketplace where reliability directly decides whether a fan gets into the building. I've spent seven years building low-latency, high-throughput backend systems in finance, and I'd love to point that experience at a product people are genuinely excited about. I also respect how SeatGeek's engineering team writes openly about its platform work — that culture of craft is what I'm looking for."
   }
  ],
  "checkboxes": [
