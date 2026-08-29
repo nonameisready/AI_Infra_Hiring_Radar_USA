@@ -255,3 +255,4 @@ run `node agent/local-replay.mjs --resume <your resume pdf> --only ashby` on the
 | Company | Title | Match | Via | Status |
 | --- | --- | --- | --- | --- |
 | Stripe | Backend/API Engineer, Money as a Service | 96% | Greenhouse | ✅ confirmed |
+| Stripe | Backend Engineer, Link | 95% | Greenhouse | ✅ confirmed |
