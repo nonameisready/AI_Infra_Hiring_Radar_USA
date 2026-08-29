@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T12:07:23Z",
+ "updatedAt": "2026-08-29T12:27:16Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1702,6 +1702,19 @@
    "via": "greenhouse (agent)",
    "detail": "5am ET window 2026-08-29 repass; work-location acknowledgement answered; confirmation verified.",
    "at": "2026-08-29T12:07:23Z"
+  },
+  "6a738bed8cd88e7ccbf59165": {
+   "id": "6a738bed8cd88e7ccbf59165",
+   "key": "zynga::senior software engineer (server/full-stack) - hit it rich!",
+   "title": "Senior Software Engineer (Server/Full-stack) - Hit It Rich!",
+   "company": "Zynga",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a738bed8cd88e7ccbf59165",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=zyngacareers&jr_id=6a738bed8cd88e7ccbf59165&token=6134521004&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "5am ET window 2026-08-29 repass; privacy consent + work authorization answered; confirmation verified.",
+   "at": "2026-08-29T12:27:16Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

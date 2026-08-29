@@ -278,3 +278,4 @@ Navan 91% re-appeared under a new Jobright id and was re-submitted before token-
 | --- | --- | --- | --- | --- |
 | DRW | Senior Software Engineer, Unified Platform | 82% | Greenhouse | ✅ confirmed |
 | Oscar Health | Senior Software Engineer, Backend | 90% | Greenhouse | ✅ confirmed |
+| Zynga | Senior Software Engineer (Server/Full-stack) - Hit It Rich! | 88% | Greenhouse | ✅ confirmed |
