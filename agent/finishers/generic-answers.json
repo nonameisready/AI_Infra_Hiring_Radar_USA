@@ -551,6 +551,10 @@
   {
    "label": "hold or have previously held any securities industry",
    "prefer": "^no"
+  },
+  {
+   "label": "minimum annual salary desired",
+   "prefer": "1[45]\\d[,.]?\\d*|150"
   }
  ],
  "texts": [
