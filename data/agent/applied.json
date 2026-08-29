@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T15:04:27Z",
+ "updatedAt": "2026-08-29T15:43:16Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1754,6 +1754,19 @@
    "via": "greenhouse (agent)",
    "detail": "9am ET window 2026-08-29; third distinct Otter posting; confirmation verified.",
    "at": "2026-08-29T15:04:27Z"
+  },
+  "6a51c4fcae4052672fe9a887": {
+   "id": "6a51c4fcae4052672fe9a887",
+   "key": "old mission::senior python software engineer",
+   "title": "Senior Python Software Engineer",
+   "company": "Old Mission",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a51c4fcae4052672fe9a887",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=oldmissioncapital&jr_id=6a51c4fcae4052672fe9a887&token=7724739003&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "9am ET window 2026-08-29 repass with fresh code; confirmation verified.",
+   "at": "2026-08-29T15:43:16Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
