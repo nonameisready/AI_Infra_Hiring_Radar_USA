@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T10:16:36Z",
+ "updatedAt": "2026-08-29T11:22:47Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -1106,6 +1106,26 @@
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=andurilindustries&jr_id=6a919926c12c90443efc6dbc&token=5225023007&utm_source=jobright",
    "status": "dropped",
    "reason": "Dropped, do not apply: requires an active/obtainable U.S. security clearance (U.S. citizens only) plus export-controlled access. Applicant is a PRC citizen on F-1 — honestly ineligible. Kept for dedupe."
+  },
+  {
+   "id": "6a06f43324dcb03739f1a85d",
+   "company": "STR",
+   "title": "Lead Software Engineer",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a06f43324dcb03739f1a85d",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=systemstechnologyresearch&jr_id=6a06f43324dcb03739f1a85d&token=4675482006&utm_source=jobright",
+   "status": "dropped",
+   "reason": "Dropped, do not apply: requires U.S. citizenship and DoD security clearance — honestly ineligible. Kept for dedupe."
+  },
+  {
+   "id": "69fc4c89bb117f6b3f2b41e0",
+   "company": "STR",
+   "title": "Senior Software Engineer (CLEARANCE REQUIRED)",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69fc4c89bb117f6b3f2b41e0",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=systemstechnologyresearch&jr_id=69fc4c89bb117f6b3f2b41e0&token=4678598006&utm_source=jobright",
+   "status": "dropped",
+   "reason": "Dropped, do not apply: requires U.S. citizenship and DoD security clearance — honestly ineligible. Kept for dedupe."
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
