@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T06:06:57Z",
+ "updatedAt": "2026-08-29T10:16:36Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -1066,6 +1066,46 @@
    "originalUrl": "https://jobs.ashbyhq.com/creditgenie/2385c5a6-7f15-483e-9a30-2b8f66eb4a90/application?utm_source=jobright&jr_id=6a3611fe29c90c607e4e438f",
    "status": "park",
    "reason": "Ashby anti-bot blocks cloud submissions — queued for local replay from the user's machine (agent/local-replay.mjs)."
+  },
+  {
+   "id": "6a51c0e98d7d3e6cf1cc2567",
+   "company": "Anduril Industries",
+   "title": "Software Engineer, Connected Warfare (Active Clearance)",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a51c0e98d7d3e6cf1cc2567",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=andurilindustries&jr_id=6a51c0e98d7d3e6cf1cc2567&token=4263030007&utm_source=jobright",
+   "status": "dropped",
+   "reason": "Dropped, do not apply: requires an active/obtainable U.S. security clearance (U.S. citizens only) plus export-controlled access. Applicant is a PRC citizen on F-1 — honestly ineligible. Kept for dedupe."
+  },
+  {
+   "id": "6a51ab1fae4052672fe98cdf",
+   "company": "Anduril Industries",
+   "title": "Software Engineer, Connected Warfare (Active Clearance)",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a51ab1fae4052672fe98cdf",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=andurilindustries&jr_id=6a51ab1fae4052672fe98cdf&token=4263023007&utm_source=jobright",
+   "status": "dropped",
+   "reason": "Dropped, do not apply: requires an active/obtainable U.S. security clearance (U.S. citizens only) plus export-controlled access. Applicant is a PRC citizen on F-1 — honestly ineligible. Kept for dedupe."
+  },
+  {
+   "id": "6a51c6d257513b72e0c67afa",
+   "company": "Anduril Industries",
+   "title": "Software Engineer, Connected Warfare (Active Clearance)",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a51c6d257513b72e0c67afa",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=andurilindustries&jr_id=6a51c6d257513b72e0c67afa&token=4263021007&utm_source=jobright",
+   "status": "dropped",
+   "reason": "Dropped, do not apply: requires an active/obtainable U.S. security clearance (U.S. citizens only) plus export-controlled access. Applicant is a PRC citizen on F-1 — honestly ineligible. Kept for dedupe."
+  },
+  {
+   "id": "6a919926c12c90443efc6dbc",
+   "company": "Anduril Industries",
+   "title": "Senior Software Engineer, Backend - SIG",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a919926c12c90443efc6dbc",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=andurilindustries&jr_id=6a919926c12c90443efc6dbc&token=5225023007&utm_source=jobright",
+   "status": "dropped",
+   "reason": "Dropped, do not apply: requires an active/obtainable U.S. security clearance (U.S. citizens only) plus export-controlled access. Applicant is a PRC citizen on F-1 — honestly ineligible. Kept for dedupe."
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
