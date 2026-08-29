@@ -258,5 +258,6 @@ run `node agent/local-replay.mjs --resume <your resume pdf> --only ashby` on the
 | Stripe | Backend Engineer, Link | 95% | Greenhouse | ✅ confirmed |
 | Brex | Senior Software Engineer, Backend (Product Engineering) | 94% | Greenhouse | ✅ confirmed |
 | Brex | Senior Software Engineer, Backend (Product Engineering) — second posting, distinct token | 94% | Greenhouse | ✅ confirmed |
+| Capstone Investment Advisors | Risk Engineer | 90% | Greenhouse | ✅ confirmed |
 
 Navan 91% re-appeared under a new Jobright id and was re-submitted before token-level dedupe existed — same posting as 2026-08-28, not counted. batch-apply now skips already-submitted board tokens.
