@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T07:03:11Z",
+ "updatedAt": "2026-08-29T07:42:09Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1611,6 +1611,19 @@
    "via": "greenhouse (agent)",
    "detail": "1am ET window 2026-08-29; confirmation verified.",
    "at": "2026-08-29T07:03:11Z"
+  },
+  "6a3ae6a5dd879c60912b0ed9": {
+   "id": "6a3ae6a5dd879c60912b0ed9",
+   "key": "otter::senior software engineer (2026-08-29)",
+   "title": "Senior Software Engineer",
+   "company": "Otter",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a3ae6a5dd879c60912b0ed9",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=otter&jr_id=6a3ae6a5dd879c60912b0ed9&token=8584390002&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "1am ET window 2026-08-29; distinct board token from the 2026-08-28 Otter submission (token dedupe active); confirmation verified.",
+   "at": "2026-08-29T07:42:09Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
