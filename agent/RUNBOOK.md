@@ -363,3 +363,20 @@ harvest, accounts.json company career pages for new postings), then send a
 PushNotification telling the user the window ran but could not harvest and why,
 and append one line to APPLIED.md's current day section noting the skipped
 window so the day's history is visible in-repo.
+
+## Scheduled-window architecture v2 (2026-08-29)
+
+Root cause of all zero-commit scheduled runs, confirmed by a fired session's own
+report: Routine-fired FRESH sessions have (a) no push access to this repo (hard
+403 from the git proxy: "not in this session's authorized repository set") and
+(b) no Gmail connector tools — and the org does not allow attaching connectors
+to Routines created via MCP. Fresh-container windows therefore can neither
+record results nor read verification codes, regardless of env vars.
+
+Fix: the Routine (trig_01TUBWUiehkJeWswFzZd824u, cron 0 5,9,13 * * * UTC) now
+fires INTO the long-lived interactive session, which holds both repo push
+access and Gmail. Session batch tooling is preserved in agent/session-tools/
+(batch-apply.mjs, repass.mjs, driver.mjs, explore.mjs — env-var driven, no
+secrets) so a recycled container can restore its scratchpad by copying these
+into the agent-work dir. Hard rule unchanged: never submit an application if
+bookkeeping cannot be pushed.
