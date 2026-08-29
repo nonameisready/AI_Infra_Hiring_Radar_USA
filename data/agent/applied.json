@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T08:28:15Z",
+ "updatedAt": "2026-08-29T08:35:36Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1650,6 +1650,19 @@
    "via": "greenhouse (agent)",
    "detail": "1am ET window 2026-08-29; confirmation verified.",
    "at": "2026-08-29T08:28:15Z"
+  },
+  "6a56a45d10c4d945d864b18c": {
+   "id": "6a56a45d10c4d945d864b18c",
+   "key": "kunai::senior software engineer (java)",
+   "title": "Senior Software Engineer (Java)",
+   "company": "Kunai",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a56a45d10c4d945d864b18c",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=kunai&jr_id=6a56a45d10c4d945d864b18c&token=5047053007&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "1am ET window 2026-08-29; confirmation verified.",
+   "at": "2026-08-29T08:35:36Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
