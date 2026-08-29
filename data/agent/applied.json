@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T13:45:00Z",
+ "updatedAt": "2026-08-29T13:45:33Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1728,6 +1728,19 @@
    "via": "greenhouse (agent)",
    "detail": "9am ET window 2026-08-29; confirmation verified.",
    "at": "2026-08-29T13:45:00Z"
+  },
+  "6a76dcfaa26ccc369f836770": {
+   "id": "6a76dcfaa26ccc369f836770",
+   "key": "drw::software engineer - apex",
+   "title": "Software Engineer - APEX",
+   "company": "DRW",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a76dcfaa26ccc369f836770",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=drweng&jr_id=6a76dcfaa26ccc369f836770&token=8103460&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "9am ET window 2026-08-29; second DRW posting, distinct token; confirmation verified.",
+   "at": "2026-08-29T13:45:33Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

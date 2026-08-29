@@ -285,3 +285,4 @@ Navan 91% re-appeared under a new Jobright id and was re-submitted before token-
 | Company | Title | Match | Via | Status |
 | --- | --- | --- | --- | --- |
 | Otter | Backend Engineer (Mountain View) | 89% | Greenhouse | ✅ confirmed |
+| DRW | Software Engineer - APEX | 87% | Greenhouse | ✅ confirmed |
