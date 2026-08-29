@@ -60,6 +60,31 @@ for (let i = 0; i < slice.length; i++) {
       continue;
     }
     const host = new URL(atsUrl).hostname;
+    // Token-level dedupe: Jobright often lists the same Greenhouse posting under
+    // several job ids. Skip any board token we have already submitted to.
+    const tokMatch = /[?&]token=(\d+)/.exec(atsUrl);
+    if (tokMatch) {
+      if (!globalThis.__seenTokens) {
+        const seen = new Set();
+        try {
+          for (const line of fs.readFileSync(path.join(WORK, "batch-results.jsonl"), "utf8").split("\n")) {
+            if (!line.trim()) continue;
+            try { const r = JSON.parse(line); if (r.status === "submitted" && r.atsUrl) { const m = /[?&]token=(\d+)/.exec(r.atsUrl); if (m) seen.add(m[1]); } } catch {}
+          }
+        } catch {}
+        try {
+          const ap = JSON.parse(fs.readFileSync(path.join(REPO, "data/agent/applied.json"), "utf8"));
+          for (const v of Object.values(ap.jobs)) { const m = /[?&]token=(\d+)/.exec(v.originalUrl ?? ""); if (m) seen.add(m[1]); }
+        } catch {}
+        globalThis.__seenTokens = seen;
+      }
+      if (globalThis.__seenTokens.has(tokMatch[1])) {
+        log({ ...job, atsUrl, status: "park", reason: `duplicate posting: board token ${tokMatch[1]} already submitted under another Jobright id` });
+        say(`DUP-TOKEN ${tag}: ${job.company} — ${job.title}`);
+        continue;
+      }
+      globalThis.__seenTokens.add(tokMatch[1]);
+    }
 
     // 2. Dispatch by platform.
     if (/greenhouse\.io$/.test(host) || /greenhouse/.test(host)) {
