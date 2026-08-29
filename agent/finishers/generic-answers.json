@@ -523,6 +523,22 @@
   {
    "label": "what level of experience do you have",
    "prefer": "senior|expert|advanced|5\\+|7"
+  },
+  {
+   "label": "do you hold a security clearance",
+   "prefer": "^no"
+  },
+  {
+   "label": "current employee of the u\\.?s\\.? government",
+   "prefer": "^no"
+  },
+  {
+   "label": "worked at accenture in the past",
+   "prefer": "^no"
+  },
+  {
+   "label": "project with (the )?u\\.?s\\.? government|working on a project with",
+   "prefer": "^no"
   }
  ],
  "texts": [
