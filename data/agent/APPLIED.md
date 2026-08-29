@@ -288,3 +288,4 @@ Navan 91% re-appeared under a new Jobright id and was re-submitted before token-
 | DRW | Software Engineer - APEX | 87% | Greenhouse | ✅ confirmed |
 | Otter | Senior Backend Software Engineer | 82% | Greenhouse | ✅ confirmed |
 | Old Mission | Senior Python Software Engineer | 89% | Greenhouse | ✅ confirmed |
+| Speechify | Software Engineer, Platform - Bellevue, WA, USA | 88% | Greenhouse | ✅ confirmed |
