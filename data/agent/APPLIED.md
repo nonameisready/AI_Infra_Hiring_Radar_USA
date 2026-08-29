@@ -290,3 +290,10 @@ Navan 91% re-appeared under a new Jobright id and was re-submitted before token-
 | Old Mission | Senior Python Software Engineer | 89% | Greenhouse | ✅ confirmed |
 | Speechify | Software Engineer, Platform - Bellevue, WA, USA | 88% | Greenhouse | ✅ confirmed |
 | Speechify | Software Engineer, Platform - Columbus (Backend) | 88% | Greenhouse | ✅ confirmed |
+
+2026-08-29 final: 24 unique agent submissions across three self-bind windows
+(1am: 13, 5am: 3, 9am: 7) + 1 token-duplicate (Navan, not counted). Architecture v2
+(routine fires into the long-lived session) worked end to end on its first day.
+Dropped as honestly ineligible: Anduril x4, STR, new Opto listing. Waiting on the user:
+OneEthos (non-smoker question), Clear Street (securities licenses), plus the Ashby
+local-replay results from the user's machine.
