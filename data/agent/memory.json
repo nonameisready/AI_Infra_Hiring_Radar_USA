@@ -257,6 +257,56 @@
    "match": "securities industry (registrations?|licenses?)|series (7|63)",
    "answer": "No",
    "note": "user 2026-08-29: holds no securities licenses"
+  },
+  {
+   "match": "ship(ped)? code to production|deploy.*to production.*(frequen|often)",
+   "answer": "Daily",
+   "note": "user 2026-08-29"
+  },
+  {
+   "match": "use of ai in your daily development|ai (tools?|usage).*(daily|development|workflow)",
+   "answer": "Deep usage — AI is a core part of my daily development workflow.",
+   "note": "user confirmed 2026-08-29"
+  },
+  {
+   "match": "willing to (work|relocate|commute|be) .*(office|on-?site|in-?person|days)|open to working (in|from|out of)",
+   "answer": "Yes",
+   "note": "user 2026-08-29: willing for ALL onsite/hybrid/relocation arrangements, any US city (SF, Menlo Park, Boston, NYC, etc.)"
+  },
+  {
+   "match": "mailing address",
+   "answer": "225 Saint Pauls Ave, APT 5P",
+   "note": "user address"
+  },
+  {
+   "match": "^city\\b",
+   "answer": "Jersey City",
+   "note": "user address"
+  },
+  {
+   "match": "^state\\b",
+   "answer": "New Jersey",
+   "note": "user address"
+  },
+  {
+   "match": "^zip( code)?\\b",
+   "answer": "07306",
+   "note": "user address"
+  },
+  {
+   "match": "what college/?university did you attend",
+   "answer": "University of Pennsylvania",
+   "note": "M.S. CS"
+  },
+  {
+   "match": "desired compensation",
+   "answer": "$150,000+",
+   "note": "user"
+  },
+  {
+   "match": "when (could|can) you start",
+   "answer": "Immediately — within 30 days.",
+   "note": "between roles"
   }
  ],
  "note": "Regex `match` is tested case-insensitively against a form question's label. Answers the user gives to open questions in questions.json get appended here so the agent never asks twice. Never store passwords or secrets in this file."

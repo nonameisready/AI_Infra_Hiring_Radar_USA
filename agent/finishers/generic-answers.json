@@ -555,6 +555,115 @@
   {
    "label": "minimum annual salary desired",
    "prefer": "1[45]\\d[,.]?\\d*|150"
+  },
+  {
+   "label": "willing to work (either )?(out of|in|from) (our|the)|days? per week\\?|onsite|on-?site|in-?person|in-?office|hybrid setup|commut",
+   "prefer": "^yes"
+  },
+  {
+   "label": "willing to (re)?locate|located in or are you willing",
+   "prefer": "^yes"
+  },
+  {
+   "label": "office of choice",
+   "prefer": "bay|san francisco|new york|any"
+  },
+  {
+   "label": "bay area/?bangalore",
+   "prefer": "^yes"
+  },
+  {
+   "label": "ship(ped)? code to production",
+   "prefer": "daily|every ?day"
+  },
+  {
+   "label": "use of ai in your daily development",
+   "prefer": "core|deeply|heavily|every ?day|daily|integral"
+  },
+  {
+   "label": "prior us government employment",
+   "prefer": "^no"
+  },
+  {
+   "label": "worked at snowflake in the past",
+   "prefer": "^no"
+  },
+  {
+   "label": "u\\.?s\\.? person.? status|best describes your .?u\\.?s\\.? person",
+   "prefer": "none|not a|other"
+  },
+  {
+   "label": "candidate privacy notice",
+   "prefer": "acknowledge|agree|^yes|accept"
+  },
+  {
+   "label": "arbitration agreement acknowledgement",
+   "prefer": "acknowledge|agree|^yes|accept"
+  },
+  {
+   "label": "how did you hear about (this opportunity|decagon)",
+   "prefer": "job board|other|linkedin"
+  },
+  {
+   "label": "7\\+? years of professional software engineering",
+   "prefer": "^yes"
+  },
+  {
+   "label": "led the technical design and implementation",
+   "prefer": "^yes"
+  },
+  {
+   "label": "requirements or solutions are highly ambiguous",
+   "prefer": "^yes"
+  },
+  {
+   "label": "currently located in north america|currently based in the united states",
+   "prefer": "^yes"
+  },
+  {
+   "label": "prepared to work at a startup",
+   "prefer": "^yes"
+  },
+  {
+   "label": "bachelor.?s degree in computer science, software engineering",
+   "prefer": "^yes"
+  },
+  {
+   "label": "at least two years of professional experience in software development",
+   "prefer": "^yes"
+  },
+  {
+   "label": "designing and implementing scalable solutions in python",
+   "prefer": "^yes"
+  },
+  {
+   "label": "maintaining and enhancing inherited code",
+   "prefer": "^yes"
+  },
+  {
+   "label": "which of the following have you used professionally",
+   "prefer": "python|aws|postgres"
+  },
+  {
+   "label": "factors are most important to you",
+   "prefer": "technical|growth|impact|team"
+  },
+  {
+   "label": "when (could|can) you start",
+   "prefer": "immediately|30 days|1 month|less than"
+  },
+  {
+   "label": "work from our us office three days",
+   "prefer": "^yes"
+  },
+  {
+   "label": "what college/?university did you attend",
+   "prefer": "pennsylvania",
+   "type": "University of Pennsylvania"
+  },
+  {
+   "label": "restrictive covenant agreements",
+   "prefer": "^no"
   }
  ],
  "texts": [
@@ -701,6 +810,74 @@
   {
    "label": "list of licenses that you currently hold",
    "text": "None"
+  },
+  {
+   "label": "why are you interested in working at whoop",
+   "text": "WHOOP is one of the few places where backend engineering directly serves a physical product people wear every day. My background is data-heavy backend systems in finance, and I'd like to apply that rigor to health and performance data. The Business Systems focus also matches my experience integrating internal platforms end to end."
+  },
+  {
+   "label": "why are you interested in working at character",
+   "text": "Character.AI runs some of the highest-throughput consumer AI serving in the world. I build backend and distributed systems and have been working with LLM pipelines; serving conversational models at that scale is exactly the engineering I want to do next."
+  },
+  {
+   "label": "why do you want to work at par",
+   "text": "PAR's platform processes real-world commerce for thousands of restaurants — high-volume, reliability-critical backend work. That matches my seven years building transaction and data systems in finance, and I want to keep doing it where uptime directly affects a business's day."
+  },
+  {
+   "label": "what draws you to an environment like that",
+   "text": "I've spent years inside large financial institutions; what draws me to a Series B pace is owning problems end to end and seeing changes land the same week. I work fast, I like being in the office with the team, and helping people avoid financial distress is a mission worth being in the room for."
+  },
+  {
+   "label": "something you built that you are proudest of",
+   "text": "A portfolio-analytics computation pipeline I rebuilt at BlackRock: risk aggregation across thousands of positions with strict latency budgets, solved with a dependency-graph scheduler and incremental, idempotent recomputation. It became the backbone of the team's daily workflow."
+  },
+  {
+   "label": "describe a backend distributed system you designed",
+   "text": "At BlackRock I designed and maintained a distributed portfolio-analytics pipeline aggregating risk across thousands of positions; I owned the computation scheduler and the correctness of incremental recomputation under concurrent updates."
+  },
+  {
+   "label": "experience building scalable web applications",
+   "text": "I've built and operated scalable backend services and APIs on AWS (PostgreSQL, Docker, message queues), most recently at Bank of America."
+  },
+  {
+   "label": "what type of visa are you currently on and when does it expire",
+   "text": "F-1 with CPT-based work authorization (renewed through my school; no fixed near-term expiry). An approved I-140 is on file and my I-485 is pending; I will require H-1B or similar sponsorship for long-term employment."
+  },
+  {
+   "label": "where have you most recently worked",
+   "text": "Bank of America (via Innova Solutions) — most recent role; currently between positions."
+  },
+  {
+   "label": "share a link \\(url\\) to a dev-?tool company",
+   "text": "N/A — my professional background is financial technology (BlackRock, Bank of America)."
+  },
+  {
+   "label": "knowledge of typescript.{0,3}(&|and) node",
+   "text": "TypeScript: strong and daily. Node: solid working experience in production services."
+  },
+  {
+   "label": "how much software engineering experience do you have",
+   "text": "7 years of professional software engineering."
+  },
+  {
+   "label": "mailing address",
+   "text": "225 Saint Pauls Ave, APT 5P"
+  },
+  {
+   "label": "^city\\b",
+   "text": "Jersey City"
+  },
+  {
+   "label": "^zip( code)?\\b",
+   "text": "07306"
+  },
+  {
+   "label": "desired compensation",
+   "text": "$150,000+"
+  },
+  {
+   "label": "when (could|can) you start",
+   "text": "Immediately — within 30 days."
   }
  ],
  "checkboxes": [

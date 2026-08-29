@@ -380,3 +380,21 @@ access and Gmail. Session batch tooling is preserved in agent/session-tools/
 secrets) so a recycled container can restore its scratchpad by copying these
 into the agent-work dir. Hard rule unchanged: never submit an application if
 bookkeeping cannot be pushed.
+
+## Standing rule: defense / clearance companies (user, 2026-08-29)
+
+The applicant is a PRC citizen, not a U.S. person, and cannot hold a U.S.
+security clearance. NEVER apply to positions or companies that require U.S.
+citizenship, U.S.-person status, or an active/obtainable security clearance
+(defense, military, ITAR-restricted work). Record each such company in
+pending.json as status "dropped" so dedupe never re-queues it. Known so far:
+Anduril Industries, Varda Space Industries, STR, HavocAI. A factual
+export-control QUESTION (e.g. Snowflake's U.S.-person classification) is not
+a requirement — answer it honestly and continue.
+
+## Standing answers (user, 2026-08-29)
+
+- Onsite/hybrid/relocation: willing for ALL arrangements anywhere in the US,
+  including 4-5 days/week in SF, Menlo Park, Boston, NYC.
+- Ships code to production: daily. AI in daily development: deep usage, core
+  of the workflow (answer proudly and honestly).

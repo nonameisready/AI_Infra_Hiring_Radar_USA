@@ -46,6 +46,17 @@ try {
   await fill("^email", "huiluckylucky@gmail.com");
   await fill("^phone", "281-250-7589");
 
+  // Yes/No button groups and radio questions, answered from the shared rules file.
+  let COMBOS = [];
+  let TEXTS = [];
+  try {
+    const ansFile = process.env.ANSWERS_FILE ||
+      path.join(process.env.REPO_DIR ?? path.join(path.dirname(new URL(import.meta.url).pathname), "../.."), "agent/finishers/generic-answers.json");
+    const shared = JSON.parse(fs.readFileSync(ansFile, "utf8"));
+    COMBOS = shared.combos ?? [];
+    TEXTS = shared.texts ?? [];
+  } catch {}
+
   // Any other empty text field whose label matches a memory rule (autofill-profile customAnswers).
   let RULES = [];
   try {
@@ -58,13 +69,59 @@ try {
     const el = blanks.nth(i);
     if (!(await el.isVisible().catch(() => false))) continue;
     if (await el.inputValue().catch(() => "")) continue;
-    const label = await el.evaluate((e) =>
-      (e.labels?.[0]?.innerText || e.getAttribute("aria-label") || e.closest("div,fieldset")?.querySelector("label")?.innerText || "").trim());
+    const label = await el.evaluate((e) => {
+      const direct = (e.labels?.[0]?.innerText || e.getAttribute("aria-label") || e.closest("div,fieldset")?.querySelector("label")?.innerText || "").trim();
+      if (direct) return direct;
+      let node = e.parentElement;
+      for (let d = 0; d < 6 && node; d++) {
+        const line = (node.innerText ?? "").split("\n").map((t) => t.trim()).find((t) => t);
+        if (line) return line;
+        node = node.parentElement;
+      }
+      return "";
+    });
     if (!label) continue;
-    const rule = RULES.find((r) => { try { return new RegExp(r.match, "i").test(label); } catch { return false; } });
+    const rule = TEXTS.find((r) => { try { return new RegExp(r.label, "i").test(label); } catch { return false; } })
+      ?? RULES.find((r) => { try { return new RegExp(r.match, "i").test(label); } catch { return false; } });
     if (rule) {
-      await el.fill(String(rule.value ?? rule.answer ?? "")).catch(() => {});
+      await el.fill(String(rule.value ?? rule.answer ?? rule.text ?? "")).catch(() => {});
       out.actions.push(`memory: ${label.slice(0, 50)}`);
+    }
+  }
+
+  // Ashby Location fields are autocomplete comboboxes: typing text is not
+  // enough — an option must be selected from the listbox.
+  for (const locRe of [/^location$|^current location$|^what is your current location|where are you (currently )?located|what city do you live in/i]) {
+    const inputs2 = page.locator('input');
+    const n2 = await inputs2.count();
+    for (let i = 0; i < n2; i++) {
+      const el = inputs2.nth(i);
+      if (!(await el.isVisible().catch(() => false))) continue;
+      const label = await el.evaluate((e) => {
+        const direct = (e.labels?.[0]?.innerText || e.getAttribute("aria-label") || "").trim();
+        if (direct) return direct;
+        let node = e.parentElement;
+        for (let d = 0; d < 6 && node; d++) {
+          const line = (node.innerText ?? "").split("\n").map((t) => t.trim()).find((t) => t);
+          if (line) return line;
+          node = node.parentElement;
+        }
+        return "";
+      });
+      if (!locRe.test(label)) continue;
+      await el.click().catch(() => {});
+      await el.fill("").catch(() => {});
+      await el.pressSequentially("New York", { delay: 70 }).catch(() => {});
+      await page.waitForTimeout(1800);
+      const opt = page.locator('[role="option"]').first();
+      if (await opt.isVisible().catch(() => false)) {
+        await opt.click().catch(() => {});
+        out.actions.push(`location autocomplete: ${label.slice(0, 40)}`);
+      } else {
+        await page.keyboard.press("Enter").catch(() => {});
+        out.actions.push(`location typed (no listbox): ${label.slice(0, 40)}`);
+      }
+      await page.waitForTimeout(600);
     }
   }
 
@@ -78,13 +135,6 @@ try {
     else out.actions.push("sponsorship control not found");
   }
 
-  // Yes/No button groups and radio questions, answered from the shared rules file.
-  let COMBOS = [];
-  try {
-    const ansFile = process.env.ANSWERS_FILE ||
-      path.join(process.env.REPO_DIR ?? path.join(path.dirname(new URL(import.meta.url).pathname), "../.."), "agent/finishers/generic-answers.json");
-    COMBOS = JSON.parse(fs.readFileSync(ansFile, "utf8")).combos ?? [];
-  } catch {}
   for (const rule of COMBOS) {
     const prefer = rule.prefer ?? rule.pick;
     if (!prefer) continue;

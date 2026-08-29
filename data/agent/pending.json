@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T17:24:25Z",
+ "updatedAt": "2026-08-29T19:10:33Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -904,8 +904,8 @@
    "matchPercent": 82,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4dcc57c643fd23fed3ded8",
    "originalUrl": "https://jobs.ashbyhq.com/havocai/64fa6ff1-15fd-40e9-9dc5-58ad9628347d/application?utm_source=jobright&jr_id=6a4dcc57c643fd23fed3ded8",
-   "status": "park",
-   "reason": "Ashby anti-bot blocks cloud submissions — queued for local replay from the user's machine (agent/local-replay.mjs)."
+   "status": "dropped",
+   "reason": "Dropped, do not apply (standing rule 2026-08-29): requires U.S. citizenship and security-clearance eligibility — defense company. Kept for dedupe."
   },
   {
    "id": "68c1ac1c3fd8b059a20f1634",
