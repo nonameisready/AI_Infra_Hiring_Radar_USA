@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T12:27:16Z",
+ "updatedAt": "2026-08-29T13:45:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1715,6 +1715,19 @@
    "via": "greenhouse (agent)",
    "detail": "5am ET window 2026-08-29 repass; privacy consent + work authorization answered; confirmation verified.",
    "at": "2026-08-29T12:27:16Z"
+  },
+  "6a070d05078fec52738a7999": {
+   "id": "6a070d05078fec52738a7999",
+   "key": "otter::backend engineer, mountain view",
+   "title": "Backend Engineer, Otter - Mountain View, CA",
+   "company": "Otter",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a070d05078fec52738a7999",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=otter&jr_id=6a070d05078fec52738a7999&token=7820368002&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "9am ET window 2026-08-29; confirmation verified.",
+   "at": "2026-08-29T13:45:00Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
