@@ -297,3 +297,5 @@ Navan 91% re-appeared under a new Jobright id and was re-submitted before token-
 Dropped as honestly ineligible: Anduril x4, STR, new Opto listing. Waiting on the user:
 OneEthos (non-smoker question), Clear Street (securities licenses), plus the Ashby
 local-replay results from the user's machine.
+
+| OneEthos | Senior Software Engineer, Fintech | 95% | Greenhouse | ✅ confirmed (user confirmed non-smoker) |
