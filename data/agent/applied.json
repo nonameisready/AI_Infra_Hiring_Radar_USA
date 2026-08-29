@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T05:32:51Z",
+ "updatedAt": "2026-08-29T05:33:22Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1520,6 +1520,19 @@
    "via": "greenhouse (agent)",
    "detail": "1am ET window 2026-08-29; confirmation verified.",
    "at": "2026-08-29T05:32:51Z"
+  },
+  "6a3ddea4882f121f56a390fc": {
+   "id": "6a3ddea4882f121f56a390fc",
+   "key": "brex::senior software engineer, backend (product engineering)",
+   "title": "Senior Software Engineer, Backend (Product Engineering)",
+   "company": "Brex",
+   "matchPercent": 94,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a3ddea4882f121f56a390fc",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=brex&jr_id=6a3ddea4882f121f56a390fc&token=8461333002&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "1am ET window 2026-08-29; confirmation verified.",
+   "at": "2026-08-29T05:33:22Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

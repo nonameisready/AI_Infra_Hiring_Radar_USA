@@ -256,3 +256,4 @@ run `node agent/local-replay.mjs --resume <your resume pdf> --only ashby` on the
 | --- | --- | --- | --- | --- |
 | Stripe | Backend/API Engineer, Money as a Service | 96% | Greenhouse | ✅ confirmed |
 | Stripe | Backend Engineer, Link | 95% | Greenhouse | ✅ confirmed |
+| Brex | Senior Software Engineer, Backend (Product Engineering) | 94% | Greenhouse | ✅ confirmed |
