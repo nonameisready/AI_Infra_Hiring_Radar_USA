@@ -698,6 +698,15 @@
   },
   {
    "label": "acknowledgement of application accuracy|accuracy and completeness|i acknowledge"
+  },
+  {
+   "label": "^python$"
+  },
+  {
+   "label": "^go(lang)?$"
+  },
+  {
+   "label": "^typescript$"
   }
  ],
  "manualTriggers": []
