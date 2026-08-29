@@ -434,6 +434,47 @@
   {
    "label": "what is your current location.*unable to hire|current location\\? please note",
    "prefer": "remote"
+  },
+  {
+   "label": "authoris(ed|ation) to work",
+   "prefer": "^yes"
+  },
+  {
+   "label": "require immigration sponsorship at any point|immigration sponsorship .* future",
+   "prefer": "^yes"
+  },
+  {
+   "label": "^pronouns",
+   "prefer": "prefer not|decline"
+  },
+  {
+   "label": "which u\\.?s\\.? state or canadian province do you reside",
+   "prefer": "new jersey",
+   "type": "New Jersey"
+  },
+  {
+   "label": "acknowledge the work location expectations",
+   "prefer": "^yes|acknowledge"
+  },
+  {
+   "label": "data privacy consent|privacy consent",
+   "prefer": "^yes|consent|agree|accept"
+  },
+  {
+   "label": "experience coding in go",
+   "prefer": "^yes"
+  },
+  {
+   "label": "legally authorized to work in the country where this position",
+   "prefer": "^yes"
+  },
+  {
+   "label": "located near, or planning to relocate near",
+   "prefer": "^yes"
+  },
+  {
+   "label": "how involved have you been in system design decisions",
+   "prefer": "led|highly involved|very involved|primary"
   }
  ],
  "texts": [
@@ -556,6 +597,26 @@
   {
    "label": "why are you interested in working at seatgeek",
    "text": "SeatGeek sits at the intersection of live events and serious engineering: high-concurrency onsales, dynamic pricing, and a marketplace where reliability directly decides whether a fan gets into the building. I've spent seven years building low-latency, high-throughput backend systems in finance, and I'd love to point that experience at a product people are genuinely excited about. I also respect how SeatGeek's engineering team writes openly about its platform work — that culture of craft is what I'm looking for."
+  },
+  {
+   "label": "hard technical problems? you have worked on",
+   "text": "One of the hardest problems I've worked on was rebuilding a portfolio-analytics computation pipeline at BlackRock: risk and performance aggregation across thousands of positions with strict latency budgets. The hard parts were incremental recomputation (avoiding full re-aggregation on every update) and correctness under concurrent updates — solved with a dependency-graph scheduler and idempotent, versioned computation steps. More recently I've built LLM/RAG pipelines where the real engineering problems were retrieval quality, evaluation, and cost control rather than the model calls themselves."
+  },
+  {
+   "label": "reasons why you.?re excited to apply|why you.?re excited about this role",
+   "text": "I focus on backend and distributed systems, and this role sits squarely in that space: real scale, real reliability constraints, and a product people actually use. I'm looking for a team that treats operational excellence as part of the craft, and this position matches both my experience and what I want to build next."
+  },
+  {
+   "label": "where are you currently employed or where were you last employed",
+   "text": "Bank of America (via Innova Solutions) — most recent role; currently between positions."
+  },
+  {
+   "label": "notice period",
+   "text": "None — currently between roles, available immediately."
+  },
+  {
+   "label": "which state do you currently live in|what state do you currently reside",
+   "text": "New Jersey"
   }
  ],
  "checkboxes": [
