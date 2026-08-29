@@ -141,8 +141,17 @@ try {
     for (let i = 0; i < n; i++) {
       const el = all.nth(i);
       if (!(await el.isVisible().catch(() => false))) continue;
-      const label = await el.evaluate((e) =>
-        (e.labels?.[0]?.innerText || e.getAttribute("aria-label") || e.closest("div,fieldset")?.querySelector("label")?.innerText || "").trim());
+      const label = await el.evaluate((e) => {
+        const direct = (e.labels?.[0]?.innerText || e.getAttribute("aria-label") || e.closest("div,fieldset")?.querySelector("label")?.innerText || "").trim();
+        if (direct) return direct;
+        let node = e.parentElement;
+        for (let d = 0; d < 6 && node; d++) {
+          const line = (node.innerText ?? "").split("\n").map((t2) => t2.trim()).find((t2) => t2);
+          if (line) return line;
+          node = node.parentElement;
+        }
+        return "";
+      });
       if (new RegExp(t.label, "i").test(label)) { await el.fill(t.text); out.texts.push({ label, len: t.text.length }); done = true; break; }
     }
     if (!done) out.texts.push({ label: t.label, result: "not_found" });

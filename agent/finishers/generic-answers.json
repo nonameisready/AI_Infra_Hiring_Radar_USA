@@ -723,6 +723,12 @@
   },
   {
    "label": "^typescript$"
+  },
+  {
+   "label": "a non-?smoker"
+  },
+  {
+   "label": "quitting cigarettes within 90 days"
   }
  ],
  "manualTriggers": []
