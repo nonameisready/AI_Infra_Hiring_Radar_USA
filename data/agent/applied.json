@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T08:54:42Z",
+ "updatedAt": "2026-08-29T10:11:50Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1676,6 +1676,19 @@
    "via": "greenhouse (agent)",
    "detail": "1am ET window 2026-08-29; distinct posting from Risk Engineer 90%; confirmation verified.",
    "at": "2026-08-29T08:54:42Z"
+  },
+  "6a509d2242c6dc326e8e9d0d": {
+   "id": "6a509d2242c6dc326e8e9d0d",
+   "key": "drw::senior software engineer, unified platform",
+   "title": "Senior Software Engineer, Unified Platform - Trade Management, Trade and Order Processing, Platform Services",
+   "company": "DRW",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a509d2242c6dc326e8e9d0d",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=drweng&jr_id=6a509d2242c6dc326e8e9d0d&token=7939741&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "5am ET window 2026-08-29; confirmation verified.",
+   "at": "2026-08-29T10:11:50Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

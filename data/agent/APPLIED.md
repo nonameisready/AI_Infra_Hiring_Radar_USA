@@ -271,3 +271,9 @@ run `node agent/local-replay.mjs --resume <your resume pdf> --only ashby` on the
 1am ET window total: 13 unique confirmations (+1 Navan token-duplicate, not counted). Queue position: 240/323; NEEDS-ANSWERS backlog (Clear Street, Block, VulnCheck, Upstart, SeatGeek, Fora-style) carried to the 5am window.
 
 Navan 91% re-appeared under a new Jobright id and was re-submitted before token-level dedupe existed — same posting as 2026-08-28, not counted. batch-apply now skips already-submitted board tokens.
+
+5am ET window:
+
+| Company | Title | Match | Via | Status |
+| --- | --- | --- | --- | --- |
+| DRW | Senior Software Engineer, Unified Platform | 82% | Greenhouse | ✅ confirmed |
