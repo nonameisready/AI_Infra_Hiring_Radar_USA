@@ -261,5 +261,6 @@ run `node agent/local-replay.mjs --resume <your resume pdf> --only ashby` on the
 | Capstone Investment Advisors | Risk Engineer | 90% | Greenhouse | ✅ confirmed |
 | MX Technologies | Senior Software Engineer II | 89% | Greenhouse | ✅ confirmed |
 | PhaseV | Senior Software Engineer | 88% | Greenhouse | ✅ confirmed |
+| Northbeam | Senior Software Engineer, Python | 87% | Greenhouse | ✅ confirmed |
 
 Navan 91% re-appeared under a new Jobright id and was re-submitted before token-level dedupe existed — same posting as 2026-08-28, not counted. batch-apply now skips already-submitted board tokens.
