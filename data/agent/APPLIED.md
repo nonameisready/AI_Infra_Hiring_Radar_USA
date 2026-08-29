@@ -314,3 +314,14 @@ local-replay results from the user's machine.
 | depthfirst | Backend Engineer | 82% | Ashby (local replay) | ✅ confirmed |
 | Axion | Senior/Staff Software Engineer, Data Platform | 90% | Ashby (local replay) | ✅ confirmed |
 | LangChain | Senior Backend Software Engineer, AI Observability & Evals Platform (LangSmith) | 80% | Ashby (local replay) | ✅ confirmed |
+
+Ashby local replay round 4 (dropdown/location fixes active):
+
+| Company | Title | Match | Via | Status |
+| --- | --- | --- | --- | --- |
+| Emerald AI | Software Engineer - Backend/Distributed Systems | 87% | Ashby (local replay) | ✅ confirmed |
+| DualEntry | Senior Backend Engineer (NYC) | 84% | Ashby (local replay) | ✅ confirmed |
+| Moment | Distributed Systems Engineer | 83% | Ashby (local replay) | ✅ confirmed |
+| Horizon3.ai | Senior Engineer, Back-End (Security Controls) | 81% | Ashby (local replay) | ✅ confirmed |
+| Hippocratic AI | Senior Software Engineer, Research | 81% | Ashby (local replay) | ✅ confirmed |
+| Credit Genie | Senior Software Engineer, Trust Platform | 80% | Ashby (local replay) | ✅ confirmed |

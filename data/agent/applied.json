@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T17:24:25Z",
+ "updatedAt": "2026-08-29T21:29:01Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1910,6 +1910,84 @@
    "via": "ashby (local replay)",
    "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
    "at": "2026-08-29T04:07:43.014Z"
+  },
+  "69e5e2fcf8fa2f3ec329f020": {
+   "id": "69e5e2fcf8fa2f3ec329f020",
+   "key": "emerald ai::software engineer - backend/distributed systems",
+   "title": "Software Engineer - Backend/Distributed Systems",
+   "company": "Emerald AI",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69e5e2fcf8fa2f3ec329f020",
+   "originalUrl": "https://jobs.ashbyhq.com/emerald-ai/ca65afd7-4b42-45ac-9e17-ea88f07240af/application?utm_source=jobright&jr_id=69e5e2fcf8fa2f3ec329f020",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-29T19:26:55.794Z"
+  },
+  "6a19a3f4e24ef365258262df": {
+   "id": "6a19a3f4e24ef365258262df",
+   "key": "dualentry::senior backend engineer (nyc)",
+   "title": "Senior Backend Engineer (NYC)",
+   "company": "DualEntry",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a19a3f4e24ef365258262df",
+   "originalUrl": "https://jobs.ashbyhq.com/dualentry/d1d22fef-d704-4141-a08e-94ccfc4be1e5/application?utm_source=jobright&jr_id=6a19a3f4e24ef365258262df",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-29T19:26:55.794Z"
+  },
+  "6a1e8eabc5277c00c647fd70": {
+   "id": "6a1e8eabc5277c00c647fd70",
+   "key": "moment::distributed systems engineer",
+   "title": "Distributed Systems Engineer",
+   "company": "Moment",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a1e8eabc5277c00c647fd70",
+   "originalUrl": "https://jobs.ashbyhq.com/moment/b13c29c2-fe72-4055-86c8-fa8efbae416f/application?utm_source=jobright&jr_id=6a1e8eabc5277c00c647fd70",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-29T19:26:55.794Z"
+  },
+  "6a9070f47c32860d14cf96d4": {
+   "id": "6a9070f47c32860d14cf96d4",
+   "key": "horizon3.ai::senior engineer, back-end (security controls)",
+   "title": "Senior Engineer, Back-End (Security Controls)",
+   "company": "Horizon3.ai",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9070f47c32860d14cf96d4",
+   "originalUrl": "https://jobs.ashbyhq.com/horizon3ai/7305c82f-fddd-4e11-a539-34a401cc9cc5/application?utm_source=jobright&jr_id=6a9070f47c32860d14cf96d4",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-29T19:26:55.794Z"
+  },
+  "6a8c595625fc4e7ae3db7ba2": {
+   "id": "6a8c595625fc4e7ae3db7ba2",
+   "key": "hippocratic ai::senior software engineer, research",
+   "title": "Senior Software Engineer, Research",
+   "company": "Hippocratic AI",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8c595625fc4e7ae3db7ba2",
+   "originalUrl": "https://jobs.ashbyhq.com/hippocratic%20ai/184f3142-fbd1-4b1e-a421-c4044e9db375/application?utm_source=jobright&jr_id=6a8c595625fc4e7ae3db7ba2",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-29T19:26:55.794Z"
+  },
+  "6a3611fe29c90c607e4e438f": {
+   "id": "6a3611fe29c90c607e4e438f",
+   "key": "credit genie::senior software engineer, trust platform",
+   "title": "Senior Software Engineer, Trust Platform",
+   "company": "Credit Genie",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a3611fe29c90c607e4e438f",
+   "originalUrl": "https://jobs.ashbyhq.com/creditgenie/2385c5a6-7f15-483e-9a30-2b8f66eb4a90/application?utm_source=jobright&jr_id=6a3611fe29c90c607e4e438f",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-29T19:26:55.794Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

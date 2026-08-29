@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T19:10:33Z",
+ "updatedAt": "2026-08-29T21:29:01Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -728,16 +728,6 @@
    "reason": "Ashby anti-bot blocks cloud submissions — queued for local replay from the user's machine (agent/local-replay.mjs)."
   },
   {
-   "id": "69e5e2fcf8fa2f3ec329f020",
-   "company": "Emerald AI",
-   "title": "Software Engineer - Backend/Distributed Systems",
-   "matchPercent": 87,
-   "jobrightUrl": "https://jobright.ai/jobs/info/69e5e2fcf8fa2f3ec329f020",
-   "originalUrl": "https://jobs.ashbyhq.com/emerald-ai/ca65afd7-4b42-45ac-9e17-ea88f07240af/application?utm_source=jobright&jr_id=69e5e2fcf8fa2f3ec329f020",
-   "status": "park",
-   "reason": "Ashby anti-bot blocks cloud submissions — queued for local replay from the user's machine (agent/local-replay.mjs)."
-  },
-  {
    "id": "6a86f05125fc4e7ae3daa6bc",
    "company": "Kong",
    "title": "Senior Software Engineer - Golang",
@@ -848,16 +838,6 @@
    "reason": "Ashby anti-bot blocks cloud submissions — queued for local replay from the user's machine (agent/local-replay.mjs)."
   },
   {
-   "id": "6a19a3f4e24ef365258262df",
-   "company": "DualEntry",
-   "title": "Senior Backend Engineer (NYC)",
-   "matchPercent": 84,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a19a3f4e24ef365258262df",
-   "originalUrl": "https://jobs.ashbyhq.com/dualentry/d1d22fef-d704-4141-a08e-94ccfc4be1e5/application?utm_source=jobright&jr_id=6a19a3f4e24ef365258262df",
-   "status": "park",
-   "reason": "Ashby anti-bot blocks cloud submissions — queued for local replay from the user's machine (agent/local-replay.mjs)."
-  },
-  {
    "id": "6a56b396f7517b519ad57843",
    "company": "Decagon",
    "title": "Senior Software Engineer, Agent Platform",
@@ -888,16 +868,6 @@
    "reason": "Ashby anti-bot blocks cloud submissions — queued for local replay from the user's machine (agent/local-replay.mjs)."
   },
   {
-   "id": "6a1e8eabc5277c00c647fd70",
-   "company": "Moment",
-   "title": "Distributed Systems Engineer",
-   "matchPercent": 83,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a1e8eabc5277c00c647fd70",
-   "originalUrl": "https://jobs.ashbyhq.com/moment/b13c29c2-fe72-4055-86c8-fa8efbae416f/application?utm_source=jobright&jr_id=6a1e8eabc5277c00c647fd70",
-   "status": "park",
-   "reason": "Ashby anti-bot blocks cloud submissions — queued for local replay from the user's machine (agent/local-replay.mjs)."
-  },
-  {
    "id": "6a4dcc57c643fd23fed3ded8",
    "company": "HavocAI",
    "title": "Senior Backend Software Engineer - Distributed Systems",
@@ -914,16 +884,6 @@
    "matchPercent": 82,
    "jobrightUrl": "https://jobright.ai/jobs/info/68c1ac1c3fd8b059a20f1634",
    "originalUrl": "https://jobs.ashbyhq.com/kin/2b57a949-a4bb-440f-a170-eda3ccf49b6c/application?utm_source=jobright&jr_id=68c1ac1c3fd8b059a20f1634",
-   "status": "park",
-   "reason": "Ashby anti-bot blocks cloud submissions — queued for local replay from the user's machine (agent/local-replay.mjs)."
-  },
-  {
-   "id": "6a9070f47c32860d14cf96d4",
-   "company": "Horizon3.ai",
-   "title": "Senior Engineer, Back-End (Security Controls)",
-   "matchPercent": 81,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a9070f47c32860d14cf96d4",
-   "originalUrl": "https://jobs.ashbyhq.com/horizon3ai/7305c82f-fddd-4e11-a539-34a401cc9cc5/application?utm_source=jobright&jr_id=6a9070f47c32860d14cf96d4",
    "status": "park",
    "reason": "Ashby anti-bot blocks cloud submissions — queued for local replay from the user's machine (agent/local-replay.mjs)."
   },
@@ -974,26 +934,6 @@
    "matchPercent": 81,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8887f04afae74a0834c329",
    "originalUrl": "https://jobs.ashbyhq.com/openai/990397de-c00c-4577-b093-d8c82b4e9145/application?utm_source=jobright&jr_id=6a8887f04afae74a0834c329",
-   "status": "park",
-   "reason": "Ashby anti-bot blocks cloud submissions — queued for local replay from the user's machine (agent/local-replay.mjs)."
-  },
-  {
-   "id": "6a8c595625fc4e7ae3db7ba2",
-   "company": "Hippocratic AI",
-   "title": "Senior Software Engineer, Research",
-   "matchPercent": 81,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a8c595625fc4e7ae3db7ba2",
-   "originalUrl": "https://jobs.ashbyhq.com/hippocratic%20ai/184f3142-fbd1-4b1e-a421-c4044e9db375/application?utm_source=jobright&jr_id=6a8c595625fc4e7ae3db7ba2",
-   "status": "park",
-   "reason": "Ashby anti-bot blocks cloud submissions — queued for local replay from the user's machine (agent/local-replay.mjs)."
-  },
-  {
-   "id": "6a3611fe29c90c607e4e438f",
-   "company": "Credit Genie",
-   "title": "Senior Software Engineer, Trust Platform",
-   "matchPercent": 80,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a3611fe29c90c607e4e438f",
-   "originalUrl": "https://jobs.ashbyhq.com/creditgenie/2385c5a6-7f15-483e-9a30-2b8f66eb4a90/application?utm_source=jobright&jr_id=6a3611fe29c90c607e4e438f",
    "status": "park",
    "reason": "Ashby anti-bot blocks cloud submissions — queued for local replay from the user's machine (agent/local-replay.mjs)."
   },
