@@ -264,5 +264,6 @@ run `node agent/local-replay.mjs --resume <your resume pdf> --only ashby` on the
 | Northbeam | Senior Software Engineer, Python | 87% | Greenhouse | ✅ confirmed |
 | Otter | Senior Software Engineer | 86% | Greenhouse | ✅ confirmed |
 | Mercury | Senior Backend Engineer - Product | 83% | Greenhouse | ✅ confirmed |
+| Cresta | Senior Software Engineer, Backend (AI Agent) | 83% | Greenhouse | ✅ confirmed |
 
 Navan 91% re-appeared under a new Jobright id and was re-submitted before token-level dedupe existed — same posting as 2026-08-28, not counted. batch-apply now skips already-submitted board tokens.
