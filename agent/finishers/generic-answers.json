@@ -664,6 +664,34 @@
   {
    "label": "restrictive covenant agreements",
    "prefer": "^no"
+  },
+  {
+   "label": "require (visa |employment )?sponsorship|sponsorship for employment visa|need sponsorship to work|require.*sponsorship to work in the country",
+   "prefer": "^yes"
+  },
+  {
+   "label": "does this setup align",
+   "prefer": "^yes"
+  },
+  {
+   "label": "how many years of professional software development experience",
+   "prefer": "^7|7\\+|7-9|6-9|5-9|5\\+"
+  },
+  {
+   "label": "how often did you interact directly with non-technical stakeholders",
+   "prefer": "daily|weekly|frequent|often|regular"
+  },
+  {
+   "label": "desired compensation",
+   "prefer": "150"
+  },
+  {
+   "label": "how did you hear about us",
+   "prefer": "job board|other|linkedin"
+  },
+  {
+   "label": "snowflake will process your personal information",
+   "prefer": "acknowledge|agree|^yes|accept|consent"
   }
  ],
  "texts": [
@@ -878,6 +906,30 @@
   {
    "label": "when (could|can) you start",
    "text": "Immediately — within 30 days."
+  },
+  {
+   "label": "describe a time you significantly improved the (reliability|performance)",
+   "text": "At BlackRock I cut a portfolio-analytics pipeline's recompute time and failure rate by replacing full re-aggregation with a dependency-graph scheduler and idempotent incremental steps — it went from a daily operational headache to a system the team stopped thinking about."
+  },
+  {
+   "label": "why are you interested in this position",
+   "text": "Nango is exactly the kind of backend infrastructure I want to build: API integrations as a product, where correctness, retries, and observability ARE the feature. I've spent seven years building data- and API-heavy backend systems, and I'd rather build developer-facing infrastructure than another internal tool."
+  },
+  {
+   "label": "briefly describe your experience with backend software development",
+   "text": "Seven years of backend development, primarily in Python: scalable services and data pipelines on AWS with PostgreSQL, Docker, and message queues. Much of my work at BlackRock and Bank of America was maintaining and enhancing large inherited codebases to production standard."
+  },
+  {
+   "label": "preferred last name",
+   "text": "Mao"
+  },
+  {
+   "label": "city and state/?province that you are located in today",
+   "text": "New York, NY"
+  },
+  {
+   "label": "if yes to the previous question",
+   "text": "N/A"
   }
  ],
  "checkboxes": [
@@ -910,6 +962,9 @@
   },
   {
    "label": "quitting cigarettes within 90 days"
+  },
+  {
+   "label": "snowflake will process your personal information|arbitration agreement acknowledgement"
   }
  ],
  "manualTriggers": []

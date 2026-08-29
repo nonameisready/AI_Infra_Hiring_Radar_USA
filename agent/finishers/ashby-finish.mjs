@@ -63,31 +63,34 @@ try {
     const prof = JSON.parse(fs.readFileSync(path.join(WORK, "autofill-profile.json"), "utf8"));
     RULES = typeof prof.customAnswers === "string" ? JSON.parse(prof.customAnswers) : (prof.customAnswers ?? []);
   } catch {}
-  const blanks = page.locator('input[type="text"], input[type="email"], input[type="tel"], input:not([type]), textarea');
-  const bn = await blanks.count();
-  for (let i = 0; i < bn; i++) {
-    const el = blanks.nth(i);
-    if (!(await el.isVisible().catch(() => false))) continue;
-    if (await el.inputValue().catch(() => "")) continue;
-    const label = await el.evaluate((e) => {
-      const direct = (e.labels?.[0]?.innerText || e.getAttribute("aria-label") || e.closest("div,fieldset")?.querySelector("label")?.innerText || "").trim();
-      if (direct) return direct;
-      let node = e.parentElement;
-      for (let d = 0; d < 6 && node; d++) {
-        const line = (node.innerText ?? "").split("\n").map((t) => t.trim()).find((t) => t);
-        if (line) return line;
-        node = node.parentElement;
+  const fillBlanks = async () => {
+    const blanks = page.locator('input[type="text"], input[type="email"], input[type="tel"], input[type="url"], input[type="number"], input:not([type]), textarea');
+    const bn = await blanks.count();
+    for (let i = 0; i < bn; i++) {
+      const el = blanks.nth(i);
+      if (!(await el.isVisible().catch(() => false))) continue;
+      if (await el.inputValue().catch(() => "")) continue;
+      const label = await el.evaluate((e) => {
+        const direct = (e.labels?.[0]?.innerText || e.getAttribute("aria-label") || e.closest("div,fieldset")?.querySelector("label")?.innerText || "").trim();
+        if (direct) return direct;
+        let node = e.parentElement;
+        for (let d = 0; d < 6 && node; d++) {
+          const line = (node.innerText ?? "").split("\n").map((t) => t.trim()).find((t) => t);
+          if (line) return line;
+          node = node.parentElement;
+        }
+        return "";
+      });
+      if (!label) continue;
+      const rule = TEXTS.find((r) => { try { return new RegExp(r.label, "i").test(label); } catch { return false; } })
+        ?? RULES.find((r) => { try { return new RegExp(r.match, "i").test(label); } catch { return false; } });
+      if (rule) {
+        await el.fill(String(rule.value ?? rule.answer ?? rule.text ?? "")).catch(() => {});
+        out.actions.push(`memory: ${label.slice(0, 50)}`);
       }
-      return "";
-    });
-    if (!label) continue;
-    const rule = TEXTS.find((r) => { try { return new RegExp(r.label, "i").test(label); } catch { return false; } })
-      ?? RULES.find((r) => { try { return new RegExp(r.match, "i").test(label); } catch { return false; } });
-    if (rule) {
-      await el.fill(String(rule.value ?? rule.answer ?? rule.text ?? "")).catch(() => {});
-      out.actions.push(`memory: ${label.slice(0, 50)}`);
     }
-  }
+  };
+  await fillBlanks();
 
   // Ashby Location fields are autocomplete comboboxes: typing text is not
   // enough — an option must be selected from the listbox.
@@ -164,6 +167,56 @@ try {
     if (await optEl.isVisible().catch(() => false)) { await optEl.click().catch(() => {}); out.actions.push(d.note); }
     else await page.keyboard.press("Escape").catch(() => {});
   }
+
+  // Ashby select-style dropdowns: a trigger that opens a [role=option] listbox.
+  // Handles single selects and "select all that apply" (clicks up to 3 matches).
+  for (const rule of COMBOS) {
+    const prefer = rule.prefer ?? rule.pick;
+    if (!prefer) continue;
+    let labelRe, preferRe;
+    try { labelRe = new RegExp(rule.label, "i"); preferRe = new RegExp(prefer, "i"); } catch { continue; }
+    const grp = page.locator("div,fieldset").filter({ hasText: labelRe }).last();
+    if (!(await grp.count().catch(() => 0))) continue;
+    if (await grp.locator('[aria-pressed="true"], [aria-checked="true"], input:checked').count().catch(() => 0)) continue;
+    const trigger = grp.locator('[role="combobox"], [aria-haspopup="listbox"], button:has-text("Select"), input[aria-autocomplete]').first();
+    if (!(await trigger.isVisible().catch(() => false))) continue;
+    const cur = await trigger.evaluate((e) => (e.value ?? e.innerText ?? "").trim()).catch(() => "");
+    if (cur && !/^select/i.test(cur)) continue;
+    await trigger.click().catch(() => {});
+    await page.waitForTimeout(900);
+    const opts = page.locator('[role="option"]');
+    const n = await opts.count().catch(() => 0);
+    const multi = /select (all|\d)/i.test(rule.label) || /mark all/i.test(rule.label);
+    let clicks = 0;
+    for (let i = 0; i < n && clicks < (multi ? 3 : 1); i++) {
+      const o = opts.nth(i);
+      if (!(await o.isVisible().catch(() => false))) continue;
+      const t = ((await o.innerText().catch(() => "")) || "").trim();
+      if (preferRe.test(t)) {
+        await o.click().catch(() => {});
+        out.actions.push(`dropdown: ${rule.label.slice(0, 40)} = ${t.slice(0, 35)}`);
+        clicks++;
+        if (multi) await page.waitForTimeout(400);
+      }
+    }
+    if (!clicks && n) {
+      // Fallback for pure yes/no listboxes when prefer is ^yes/^no.
+      if (/\^yes/.test(prefer)) {
+        for (let i = 0; i < n; i++) {
+          const o = opts.nth(i);
+          const t = ((await o.innerText().catch(() => "")) || "").trim();
+          if (/^yes\b/i.test(t) && (await o.isVisible().catch(() => false))) { await o.click().catch(() => {}); clicks++; break; }
+        }
+      }
+    }
+    if (!clicks) await page.keyboard.press("Escape").catch(() => {});
+    await page.waitForTimeout(400);
+  }
+
+  // Conditional fields (e.g. visa details after sponsorship=Yes) appear only
+  // after dropdowns are answered — run the text fill a second time.
+  await page.waitForTimeout(1200);
+  await fillBlanks();
 
   // Voluntary EEO — decline options, honestly.
   for (const txt of ["Decline to self-identify", "I decline to self-identify for protected veteran status"]) {
