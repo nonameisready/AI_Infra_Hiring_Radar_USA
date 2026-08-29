@@ -299,3 +299,6 @@ OneEthos (non-smoker question), Clear Street (securities licenses), plus the Ash
 local-replay results from the user's machine.
 
 | OneEthos | Senior Software Engineer, Fintech | 95% | Greenhouse | ✅ confirmed (user confirmed non-smoker) |
+| Clear Street | Backend Software Engineer - Reference Data Services | 96% | Greenhouse | ✅ confirmed (user confirmed no securities licenses) |
+
+2026-08-29 closing total: 26 unique agent submissions.

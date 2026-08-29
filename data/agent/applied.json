@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T16:26:26Z",
+ "updatedAt": "2026-08-29T16:33:01Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1806,6 +1806,19 @@
    "via": "greenhouse (agent)",
    "detail": "Submitted after the user confirmed non-smoker; confirmation verified.",
    "at": "2026-08-29T16:26:26Z"
+  },
+  "6a1d79ebe24ef36525837d2b": {
+   "id": "6a1d79ebe24ef36525837d2b",
+   "key": "clear street::backend software engineer - reference data services",
+   "title": "Backend Software Engineer - Reference Data Services",
+   "company": "Clear Street",
+   "matchPercent": 96,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a1d79ebe24ef36525837d2b",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=clearstreet&jr_id=6a1d79ebe24ef36525837d2b&token=6675504&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (agent)",
+   "detail": "Submitted after user confirmed no securities licenses; salary dropdown $150k band; honest No on 8+ yrs Golang-scale (7 yrs); confirmation verified.",
+   "at": "2026-08-29T16:33:01Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
