@@ -394,6 +394,22 @@
   {
    "label": "whether you are a .{0,3}u\\.?s\\.?.{0,2} person",
    "prefer": "not a|^no"
+  },
+  {
+   "label": "experience designing, developing and maintaining backend services",
+   "prefer": "^yes"
+  },
+  {
+   "label": "designing, implementing and maintaining apis",
+   "prefer": "^yes"
+  },
+  {
+   "label": "involves being in .{0,40} days per week|please mark .?yes.? that you read",
+   "prefer": "^yes"
+  },
+  {
+   "label": "available to start full-time employment within the next 30 days",
+   "prefer": "^yes"
   }
  ],
  "texts": [
