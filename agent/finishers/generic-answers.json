@@ -539,6 +539,18 @@
   {
    "label": "project with (the )?u\\.?s\\.? government|working on a project with",
    "prefer": "^no"
+  },
+  {
+   "label": "a non-?smoker",
+   "prefer": "^yes|non-?smoker"
+  },
+  {
+   "label": "quitting cigarettes within 90 days|commit to quitting",
+   "prefer": "^yes|n/?a|not applicable"
+  },
+  {
+   "label": "hold or have previously held any securities industry",
+   "prefer": "^no"
   }
  ],
  "texts": [
@@ -681,6 +693,10 @@
   {
    "label": "which state do you currently live in|what state do you currently reside",
    "text": "New Jersey"
+  },
+  {
+   "label": "list of licenses that you currently hold",
+   "text": "None"
   }
  ],
  "checkboxes": [

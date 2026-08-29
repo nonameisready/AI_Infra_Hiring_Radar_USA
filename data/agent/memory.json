@@ -247,6 +247,16 @@
    "match": "available to start .*30 days|earliest possible start date",
    "answer": "Yes — available to start within 30 days.",
    "note": "currently between roles; agent 2026-08-29"
+  },
+  {
+   "match": "non-?smoker|do you smoke|tobacco use",
+   "answer": "Yes — non-smoker",
+   "note": "user 2026-08-29: does not smoke"
+  },
+  {
+   "match": "securities industry (registrations?|licenses?)|series (7|63)",
+   "answer": "No",
+   "note": "user 2026-08-29: holds no securities licenses"
   }
  ],
  "note": "Regex `match` is tested case-insensitively against a form question's label. Answers the user gives to open questions in questions.json get appended here so the agent never asks twice. Never store passwords or secrets in this file."
