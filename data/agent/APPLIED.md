@@ -302,3 +302,15 @@ local-replay results from the user's machine.
 | Clear Street | Backend Software Engineer - Reference Data Services | 96% | Greenhouse | ✅ confirmed (user confirmed no securities licenses) |
 
 2026-08-29 closing total: 26 unique agent submissions.
+
+### Ashby local replay (user's Mac, merged from ashby-local-results)
+
+| Company | Title | Match | Via | Status |
+| --- | --- | --- | --- | --- |
+| ether.fi | Senior Software Engineer - Backend | 92% | Ashby (local replay) | ✅ confirmed |
+| Hebbia | Backend Engineer, Agent Collaboration Platform | 88% | Ashby (local replay) | ✅ confirmed |
+| Hebbia | Backend Engineer, Agent Collaboration Platform | 87% | Ashby (local replay) | ✅ confirmed |
+| Cognition | Software Engineer | 85% | Ashby (local replay) | ✅ confirmed |
+| depthfirst | Backend Engineer | 82% | Ashby (local replay) | ✅ confirmed |
+| Axion | Senior/Staff Software Engineer, Data Platform | 90% | Ashby (local replay) | ✅ confirmed |
+| LangChain | Senior Backend Software Engineer, AI Observability & Evals Platform (LangSmith) | 80% | Ashby (local replay) | ✅ confirmed |

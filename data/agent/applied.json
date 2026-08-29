@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T16:33:01Z",
+ "updatedAt": "2026-08-29T17:24:25Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1819,6 +1819,97 @@
    "via": "greenhouse (agent)",
    "detail": "Submitted after user confirmed no securities licenses; salary dropdown $150k band; honest No on 8+ yrs Golang-scale (7 yrs); confirmation verified.",
    "at": "2026-08-29T16:33:01Z"
+  },
+  "6a0ff5d272b52f7225f41156": {
+   "id": "6a0ff5d272b52f7225f41156",
+   "key": "ether.fi::senior software engineer - backend",
+   "title": "Senior Software Engineer - Backend",
+   "company": "ether.fi",
+   "matchPercent": 92,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a0ff5d272b52f7225f41156",
+   "originalUrl": "https://jobs.ashbyhq.com/ether.fi/ad7d37b7-b4f2-462f-8fb9-fa5f54b2b2b1/application?utm_source=jobright&jr_id=6a0ff5d272b52f7225f41156",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-29T01:26:23.689Z"
+  },
+  "6a16c2cea429fd279da9a5d6": {
+   "id": "6a16c2cea429fd279da9a5d6",
+   "key": "hebbia::backend engineer, agent collaboration platform",
+   "title": "Backend Engineer, Agent Collaboration Platform",
+   "company": "Hebbia",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a16c2cea429fd279da9a5d6",
+   "originalUrl": "https://jobs.ashbyhq.com/hebbia-ai/d4efb36c-c59b-4468-b572-88264d555167/application?utm_source=jobright&jr_id=6a16c2cea429fd279da9a5d6",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-29T01:26:23.689Z"
+  },
+  "6a55b6c9fdf4fa71202b3e12": {
+   "id": "6a55b6c9fdf4fa71202b3e12",
+   "key": "hebbia::backend engineer, agent collaboration platform",
+   "title": "Backend Engineer, Agent Collaboration Platform",
+   "company": "Hebbia",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a55b6c9fdf4fa71202b3e12",
+   "originalUrl": "https://jobs.ashbyhq.com/hebbia-ai/d4efb36c-c59b-4468-b572-88264d555167/application?utm_source=jobright&jr_id=6a55b6c9fdf4fa71202b3e12",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-29T01:26:23.689Z"
+  },
+  "6a847d4ae459fa3baa85eadd": {
+   "id": "6a847d4ae459fa3baa85eadd",
+   "key": "cognition::software engineer",
+   "title": "Software Engineer",
+   "company": "Cognition",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a847d4ae459fa3baa85eadd",
+   "originalUrl": "https://jobs.ashbyhq.com/cognition/e8086415-62bc-4cc0-96a4-84bb56182d35/application?utm_source=jobright&jr_id=6a847d4ae459fa3baa85eadd",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-29T01:26:23.689Z"
+  },
+  "6a56acabefb06a45240d77f8": {
+   "id": "6a56acabefb06a45240d77f8",
+   "key": "depthfirst::backend engineer",
+   "title": "Backend Engineer",
+   "company": "depthfirst",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a56acabefb06a45240d77f8",
+   "originalUrl": "https://jobs.ashbyhq.com/depthfirst/a2416174-4eee-416f-bf5e-e3b7d9c0b4d5/application?utm_source=jobright&jr_id=6a56acabefb06a45240d77f8",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-29T01:26:23.689Z"
+  },
+  "6a904a298ffa38557e6cbef7": {
+   "id": "6a904a298ffa38557e6cbef7",
+   "key": "axion::senior/staff software engineer, data platform",
+   "title": "Senior/Staff Software Engineer, Data Platform",
+   "company": "Axion",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a904a298ffa38557e6cbef7",
+   "originalUrl": "https://jobs.ashbyhq.com/axion/682bf0bf-bff0-4836-8295-51c8d6289a17/application?utm_source=jobright&jr_id=6a904a298ffa38557e6cbef7",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-29T04:07:43.014Z"
+  },
+  "6a3530c229c90c607e4e160e": {
+   "id": "6a3530c229c90c607e4e160e",
+   "key": "langchain::senior backend software engineer, ai observability & evals platform (langsmith)",
+   "title": "Senior Backend Software Engineer, AI Observability & Evals Platform (LangSmith)",
+   "company": "LangChain",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a3530c229c90c607e4e160e",
+   "originalUrl": "https://jobs.ashbyhq.com/langchain/f07c1416-f126-4925-8606-5dd7c5a90f6f/application?utm_source=jobright&jr_id=6a3530c229c90c607e4e160e",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-29T04:07:43.014Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
