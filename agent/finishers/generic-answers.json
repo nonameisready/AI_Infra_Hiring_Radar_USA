@@ -495,6 +495,34 @@
   {
    "label": "familiar with financial market data",
    "prefer": "^yes"
+  },
+  {
+   "label": "where are you located\\?",
+   "prefer": "new york|united states|remote|east"
+  },
+  {
+   "label": "able to commute|hq is in san mateo",
+   "prefer": "^yes"
+  },
+  {
+   "label": "7\\+? years of professional backend engineering",
+   "prefer": "^yes"
+  },
+  {
+   "label": "how did you first learn about",
+   "prefer": "job board|other|linkedin"
+  },
+  {
+   "label": "previously been employed at affirm",
+   "prefer": "^no"
+  },
+  {
+   "label": "which backend programming languages have you been using",
+   "prefer": "python|go"
+  },
+  {
+   "label": "what level of experience do you have",
+   "prefer": "senior|expert|advanced|5\\+|7"
   }
  ],
  "texts": [
