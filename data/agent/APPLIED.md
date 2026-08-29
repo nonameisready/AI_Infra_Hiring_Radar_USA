@@ -266,5 +266,8 @@ run `node agent/local-replay.mjs --resume <your resume pdf> --only ashby` on the
 | Mercury | Senior Backend Engineer - Product | 83% | Greenhouse | ✅ confirmed |
 | Cresta | Senior Software Engineer, Backend (AI Agent) | 83% | Greenhouse | ✅ confirmed |
 | Kunai | Senior Software Engineer (Java) | 82% | Greenhouse | ✅ confirmed |
+| Capstone Investment Advisors | Senior Risk Engineer | 82% | Greenhouse | ✅ confirmed |
+
+1am ET window total: 13 unique confirmations (+1 Navan token-duplicate, not counted). Queue position: 240/323; NEEDS-ANSWERS backlog (Clear Street, Block, VulnCheck, Upstart, SeatGeek, Fora-style) carried to the 5am window.
 
 Navan 91% re-appeared under a new Jobright id and was re-submitted before token-level dedupe existed — same posting as 2026-08-28, not counted. batch-apply now skips already-submitted board tokens.
