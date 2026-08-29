@@ -240,8 +240,8 @@
   },
   {
    "match": "where are you (currently )?located\\??",
-   "answer": "Jersey City, NJ (New York City metro area)",
-   "note": "agent 2026-08-29"
+   "answer": "New York, NY",
+   "note": "user 2026-08-29: answer NYC for location questions"
   },
   {
    "match": "available to start .*30 days|earliest possible start date",
