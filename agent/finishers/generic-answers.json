@@ -475,6 +475,26 @@
   {
    "label": "how involved have you been in system design decisions",
    "prefer": "led|highly involved|very involved|primary"
+  },
+  {
+   "label": "eight \\(8\\) years of professional experience implementing",
+   "prefer": "^no"
+  },
+  {
+   "label": "how would you describe your gender identity",
+   "prefer": "don.?t wish|prefer not"
+  },
+  {
+   "label": "ever worked for .{2,40} as a (full|part).?-?time",
+   "prefer": "^no"
+  },
+  {
+   "label": "solid understanding,? and professional working experience",
+   "prefer": "^yes"
+  },
+  {
+   "label": "familiar with financial market data",
+   "prefer": "^yes"
   }
  ],
  "texts": [

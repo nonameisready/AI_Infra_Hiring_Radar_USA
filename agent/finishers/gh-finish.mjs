@@ -135,7 +135,7 @@ try {
   // Free-text answers by label.
   for (const t of ANSWERS.texts ?? []) {
     const ta = page.locator("textarea, input[type=text]").filter({ has: page.locator(":scope") });
-    const all = page.locator("textarea, input[type='text']");
+    const all = page.locator("textarea, input[type='text'], input[type='number']");
     const n = await all.count();
     let done = false;
     for (let i = 0; i < n; i++) {
