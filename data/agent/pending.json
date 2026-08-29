@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T00:20:46Z",
+ "updatedAt": "2026-08-29T01:23:04Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -635,8 +635,8 @@
    "matchPercent": 84,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f1002a10ee661e24d6414",
    "originalUrl": "https://www.amazon.jobs/en/jobs/10515707",
-   "status": "user_action_needed",
-   "reason": "Application 90% complete in the alias account (huiluckylucky+amazon@gmail.com): contact, all 8 job-specific questions, and work eligibility are filled and auto-saved. This posting requires an IDENTITY VERIFICATION step (government-ID photo + live selfie in the verification portal) that the applicant must do personally. To finish: log in at amazon.jobs with the alias account, open Applications -> this job -> 'Begin identity verification', complete it with your ID and camera, then Review & submit."
+   "status": "withdrawn",
+   "reason": "User withdrew the application on 2026-08-29 (identity-verification step not worth completing). Do not re-apply. Kept for dedupe."
   },
   {
    "id": "6a91a0ca8e596854533769f8",
