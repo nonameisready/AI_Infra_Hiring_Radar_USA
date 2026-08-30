@@ -705,6 +705,130 @@
    "label": "^state\\b",
    "prefer": "new jersey",
    "type": "New Jersey"
+  },
+  {
+   "label": "gender",
+   "prefer": "decline|don.?t wish|prefer not"
+  },
+  {
+   "label": "pronoun",
+   "prefer": "prefer not|decline|don'?t wish|self.?describe"
+  },
+  {
+   "label": "need visa sponsorship|immigration support or visa|require.*(immigration|employment visa) sponsor",
+   "prefer": "^yes"
+  },
+  {
+   "label": "which u\\.?s\\.? state|state (or|/) (canadian )?province|state.*do you (reside|live)",
+   "prefer": "new jersey",
+   "type": "New Jersey"
+  },
+  {
+   "label": "previously been employed (at|by)|been employed by .* before|worked (at|for) (this company|us) before",
+   "prefer": "^no"
+  },
+  {
+   "label": "privacy (notice|policy)",
+   "prefer": "acknowledge|agree|^yes|i have read"
+  },
+  {
+   "label": "arbitration",
+   "prefer": "acknowledge|agree|^yes"
+  },
+  {
+   "label": "time ?zone",
+   "prefer": "eastern",
+   "type": "Eastern Time (ET) — New York"
+  },
+  {
+   "label": "reside in the location specified|currently reside in the location|currently based in",
+   "prefer": "^yes"
+  },
+  {
+   "label": "onsite (monday|[45] days)|in.person|report to the office|commute|new hire onboarding|hq is in",
+   "prefer": "^yes"
+  },
+  {
+   "label": "minimum annual salary|desired salary|salary expectation",
+   "prefer": "^1[45]\\d|150"
+  },
+  {
+   "label": "salary fall within our estimated range",
+   "prefer": "^yes"
+  },
+  {
+   "label": "legal right to work|eligible to legally work|legally eligible",
+   "prefer": "^yes"
+  },
+  {
+   "label": "(five \\(?5\\)?|[35]\\+?) years.*(implement|design|software|scalab)|proficient in modern programming|system design|microservices",
+   "prefer": "^yes"
+  },
+  {
+   "label": "user.?interfaces? using typescript|efficient user.interfaces",
+   "prefer": "^no"
+  },
+  {
+   "label": "procurement or contract award",
+   "prefer": "^no"
+  },
+  {
+   "label": "most proficient programming language",
+   "prefer": "python",
+   "type": "Python"
+  },
+  {
+   "label": "how soon.*start|when (can|could) you start|able to start",
+   "prefer": "immediate|within (2 weeks|a month|30)|less than",
+   "type": "Immediately — within 2 weeks"
+  },
+  {
+   "label": "18\\+ years of age|at least 18",
+   "prefer": "^yes"
+  },
+  {
+   "label": "employed by upstart",
+   "prefer": "^no"
+  },
+  {
+   "label": "familiar were you with",
+   "prefer": "somewhat|heard of|a little"
+  },
+  {
+   "label": "^remote$",
+   "prefer": "^yes|^remote"
+  },
+  {
+   "label": "live locally to the greater boston",
+   "prefer": "^no"
+  },
+  {
+   "label": "sexual orientation",
+   "prefer": "decline|prefer not|don'?t wish"
+  },
+  {
+   "label": "worked at a startup",
+   "prefer": "^no"
+  },
+  {
+   "label": "scaled saas.*hypergrowth|hypergrowth",
+   "prefer": "^yes"
+  },
+  {
+   "label": "which languages do you speak",
+   "prefer": "english|mandarin"
+  },
+  {
+   "label": "require an employment visa|employment visa or sponsorship",
+   "prefer": "^yes"
+  },
+  {
+   "label": "time ?zone",
+   "prefer": "eastern|^e\\.?s\\.?t\\.?$|\\(est\\)|gmt\\s*[-−]\\s*0?[45]|new york"
+  },
+  {
+   "label": "how soon.*(start|able)",
+   "prefer": "immediate|asap|2 ?week|30 ?day|1 ?month|within|less than"
   }
  ],
  "texts": [
@@ -951,6 +1075,58 @@
   {
    "label": "real-?world, high-?impact problems.*(excite|motivate)|aspects of solving.*excite",
    "text": "What excites me about ambiguous, real-world problems is the moment a messy physical reality becomes a system someone can trust. At BlackRock I rebuilt a portfolio-analytics pipeline that portfolio managers relied on every morning — the math was not the hard part; the hard part was that inputs were late, inconsistent, and human. Making it boring and dependable changed how a whole team started their day, and that beat any clever algorithm. Energy, real estate, and infrastructure are the same shape of problem at higher stakes: imperfect data because the world is imperfect, and software that must stay honest about uncertainty while letting people act. I want to work where 'it works' means something physical happened correctly."
+  },
+  {
+   "label": "what specifically about this role",
+   "text": "GiveDirectly's model of unconditional cash transfers is the kind of evidence-backed, high-leverage engineering problem I want to work on: the backend systems that move money reliably to recipients are directly the product. My background is exactly this — high-throughput, correctness-critical payment and reporting pipelines at Bank of America and BlackRock — and I would rather apply it to direct impact than to another trading desk."
+  },
+  {
+   "label": "why do you want to work at|what.s motivating you",
+   "text": "I build reliable backend and data systems for a living, and I want to do it on a product whose impact I believe in. My experience with high-throughput pipelines, distributed services, and pragmatic API design maps directly to this role, and I ship independently as my side projects show."
+  },
+  {
+   "label": "technical tool or approach you introduced",
+   "text": "At my Adscream side project I introduced NATS JetStream work queues to replace ad-hoc async handling: explicit job-state transitions, crash redelivery, and idempotent workers turned a flaky pipeline into one that survives provider outages without losing paid jobs. At Bank of America I championed partitioned parallel processing for regulatory reporting pipelines, which was adopted as the standard pattern for meeting reporting windows."
+  },
+  {
+   "label": "disagree with about how most companies build",
+   "text": "Most teams over-invest in new-framework churn and under-invest in operability: explicit state, idempotency, retries, and observability. I have seen more incidents caused by clever abstractions than by boring code. I would rather ship a plain, well-instrumented service whose failure modes are understood than an elegant one that only its author can debug — and I think code review culture should prize that."
+  },
+  {
+   "label": "minimum annual salary|desired salary|salary expectation",
+   "text": "150000"
+  },
+  {
+   "label": "current company",
+   "text": "Bank of America (via Innova Solutions)"
+  },
+  {
+   "label": "current title",
+   "text": "Senior Software Engineer"
+  },
+  {
+   "label": "if you have startup experience",
+   "text": "N/A — my industry experience is at BlackRock and Bank of America, where I built greenfield systems at startup pace inside large firms."
+  },
+  {
+   "label": "please explain your answer to the previous question",
+   "text": "At Bank of America I scaled a real-time transaction-data platform through 10x traffic growth (to millions of requests/day), redesigning the ingestion layer, adding horizontal partitioning and caching, and cutting p99 latency 60% — the same scaling problems a hypergrowth SaaS faces: capacity planning under fast-moving demand, zero-downtime migrations, and reliability while shipping weekly."
+  },
+  {
+   "label": "which languages do you speak",
+   "text": "English (fluent), Mandarin Chinese (native)"
+  },
+  {
+   "label": "why are you passionate about joining team clerkie",
+   "text": "Clerkie sits exactly where my background and interests meet: applying AI to messy, high-stakes financial data. I spent five years at BlackRock building quantitative systems and two at Bank of America scaling backend transaction platforms, and I have seen how much consumer financial stress comes down to information problems software can actually fix. Building an AI copilot that helps real people get out of debt — with the engineering bar that fintech correctness demands — is the kind of mission I want to ship code for every day."
+  },
+  {
+   "label": "fun fact",
+   "text": "I have collected three quite different degrees — economics, applied mathematics, and computer science — because every few years I fall for a harder problem. My friends say my hobby is switching hobbies rigorously."
+  },
+  {
+   "label": "how.?(where)? did you first learn|how did you (hear|learn)",
+   "text": "Job board (Jobright)"
   }
  ],
  "checkboxes": [
