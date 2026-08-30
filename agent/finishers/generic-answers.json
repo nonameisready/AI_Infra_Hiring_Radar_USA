@@ -943,6 +943,14 @@
   {
    "label": "if yes to the previous question",
    "text": "N/A"
+  },
+  {
+   "label": "external api call.*(fastapi|block|database write)|slow, external api call",
+   "text": "My default pattern is the transactional outbox: inside the same PostgreSQL transaction as the primary write, I insert an event row describing the external call, then commit. The API returns immediately. A separate async worker (Celery/ARQ, or a poller on LISTEN/NOTIFY) makes the external call with timeouts and exponential-backoff retries, marking the row done or dead-lettered after N attempts. This gives at-least-once delivery with clean consistency: the event exists if and only if the write committed, so we never notify about rolled-back data and never lose work if the process dies after commit. Because delivery is at-least-once, the call must be idempotent — I attach the outbox row ID as an idempotency key so the third party deduplicates. FastAPI BackgroundTasks is fine for low-stakes fire-and-forget, but it loses work on restart, so anything that matters goes through the outbox. Failures surface via dead-letter state plus alerts on outbox lag."
+  },
+  {
+   "label": "real-?world, high-?impact problems.*(excite|motivate)|aspects of solving.*excite",
+   "text": "What excites me about ambiguous, real-world problems is the moment a messy physical reality becomes a system someone can trust. At BlackRock I rebuilt a portfolio-analytics pipeline that portfolio managers relied on every morning — the math was not the hard part; the hard part was that inputs were late, inconsistent, and human. Making it boring and dependable changed how a whole team started their day, and that beat any clever algorithm. Energy, real estate, and infrastructure are the same shape of problem at higher stakes: imperfect data because the world is imperfect, and software that must stay honest about uncertainty while letting people act. I want to work where 'it works' means something physical happened correctly."
   }
  ],
  "checkboxes": [
