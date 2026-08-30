@@ -1,6 +1,6 @@
 {
  "minMatchPercent": 80,
- "dailyCap": 50,
+ "dailyCap": 100,
  "jobrightEmail": "huiluckylucky@gmail.com",
  "jobrightBaseUrl": "https://jobright.ai",
  "preferJobrightApply": true,
@@ -27,12 +27,12 @@
   "requiresEnv": "DATABASE_URL",
   "note": "After the Jobright pool is cleared, fill the remaining daily quota from the AI Hiring Radar, best score first, per-tab resumes, browser worker submits with confirmation verification."
  },
- "runsPerDay": 3,
+ "runsPerDay": 1,
  "runWindowsUtc": [
-  "13:30",
-  "17:30",
-  "21:30"
+  "05:00"
  ],
- "greenhousePerWindowCap": 15,
- "platformPacingSeconds": 180
+ "greenhousePerWindowCap": 45,
+ "platformPacingSeconds": 180,
+ "costOptimized": true,
+ "costNotes": "Single 1:00am ET run. greenhousePerWindowCap is now per-run (one window/day): 45 keeps the old 3x15 daily Greenhouse total with 180s pacing (~2.3h worst case). Batch bookkeeping: commit/push every ~5 confirmations, one consolidated log line per job, one watcher per chunk."
 }

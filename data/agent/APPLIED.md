@@ -327,3 +327,5 @@ Ashby local replay round 4 (dropdown/location fixes active):
 | Credit Genie | Senior Software Engineer, Trust Platform | 80% | Ashby (local replay) | ✅ confirmed |
 
 | Beacon AI | Lead Backend Software Engineer | 90% | Ashby (user manual) | ✅ submitted |
+
+2026-08-30: the entire Ashby local-replay backlog (26 remaining postings) is closed — submitted via assist-mode rounds and the user's manual completion. All-time applied: 180.

@@ -398,3 +398,55 @@ a requirement — answer it honestly and continue.
   including 4-5 days/week in SF, Menlo Park, Boston, NYC.
 - Ships code to production: daily. AI in daily development: deep usage, core
   of the workflow (answer proudly and honestly).
+
+## Cost-optimized daily-100 workflow (user directive, 2026-08-30)
+
+The user's directive: one run per day at 1:00am ET, dailyCap restored to 100,
+answers composed semantically by the model (the varied phrasings all map to
+answers already given), and the whole thing run at minimum token cost.
+
+Schedule: the Routine now fires ONCE daily — cron `0 5 * * *` UTC (= 1:00am
+ET during DST) — into the long-lived interactive session (architecture v2).
+Config: dailyCap 100, runsPerDay 1, greenhousePerWindowCap 45 per run
+(equals the old 3x15 daily total; 180s pacing spreads it over ~2.3h).
+
+Token-economy rules for the nightly run — the goal is ONE pass, minimal
+round-trips, no redundant reads:
+
+1. **One harvest, one queue.** Fetch matches once, dedupe (Jobright id AND
+   Greenhouse board token), write today-queue.json sorted by match desc.
+   Budget = 100 minus jobs already applied today. Do not re-harvest
+   mid-run; if the queue runs dry below budget, note it and stop.
+2. **Chunked batch, one watcher per chunk.** Run batch-apply.mjs in chunks
+   of ~10-15 with a single background watcher per chunk
+   (`timeout N sh -c "tail -n0 -f LOG | grep -m1 -E 'NEED_CODE|BATCH DONE'"`).
+   Never poll with repeated short Bash reads; never one watcher per job.
+3. **Batch the Gmail code fetches.** When NEED_CODE fires, fetch the code
+   with ONE get_thread call (MINIMAL, newest message — search_threads
+   previews hide recent messages) and write gh-code.txt. If several
+   NEED_CODEs queue up, resolve them in one Gmail round-trip where possible.
+4. **Batch bookkeeping.** Update applied.json/pending.json/APPLIED.md in
+   memory as results land, but commit/push only every ~5 confirmations and
+   once at end-of-run. One consolidated commit message per push, standard
+   trailer. Never submit if bookkeeping cannot be pushed.
+5. **Minimal diagnostics.** On a per-job failure: park it (pending.json,
+   status needs_answers/parked) with the recorded question list and move
+   on. No screenshot archaeology mid-batch; repass.mjs handles the
+   needs_answers pile once at the end with repass-answers.json.
+6. **Semantic answering is the model's job.** Before the repass, read the
+   parked questions and answer them from memory.json + generic-answers.json
+   SEMANTICALLY — a new phrasing of a known question gets the known answer
+   written as a new rule (regex on meaning-bearing tokens), composed in
+   natural English for essays. Only a genuinely NEW personal fact (one the
+   user has never given) is parked for the user; everything else the model
+   answers itself. Same for data/agent/replay-failures.jsonl pushed from
+   the user's Mac: read the questions from data, write rules, never ask
+   the user to re-paste what is already in the repo.
+7. **Ashby stays local.** Park Ashby postings as "local replay"; the user
+   runs agent/local-replay.mjs on the Mac (HEADED=1 ASSIST=1), pushes
+   results to branch ashby-local-results; the session merges the data and
+   answers replay-failures.jsonl per rule 6.
+8. **All standing rules unchanged**: never duplicate (id + token), never
+   defense/clearance companies, honest AI-disclosure and export-control
+   answers, no captcha/anti-bot bypass, secrets env-only, <=2 submit
+   retries, park at night instead of asking.
