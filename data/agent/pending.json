@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-30T08:10:58.044Z",
+ "updatedAt": "2026-08-30T15:52:11.080Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -887,18 +887,6 @@
    "note": "platform not automated from cloud: www.paraform.com"
   },
   {
-   "id": "6a9099a18ffa38557e6cdd76",
-   "key": "amazon::senior software engineer - fauna robotics inc, fauna robotics",
-   "title": "Senior Software Engineer - Fauna Robotics Inc, Fauna Robotics",
-   "company": "Amazon",
-   "matchPercent": 90,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a9099a18ffa38557e6cdd76",
-   "atsUrl": "https://www.amazon.jobs/en/jobs/10517267/senior-software-engineer-fauna-robotics-inc-fauna-robotics?jr_id=6a9099a18ffa38557e6cdd76",
-   "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
-  },
-  {
    "id": "6a8dab80cc0cf27068524600",
    "key": "david joseph & company::amari ai — senior backend engineer",
    "title": "Amari AI — Senior Backend Engineer",
@@ -1081,18 +1069,6 @@
    "addedAt": "2026-08-30",
    "status": "parked",
    "note": "platform not automated from cloud: ats.rippling.com"
-  },
-  {
-   "id": "6a8f4850382b237ac80c527a",
-   "key": "amazon::senior software development engineer, s3 storage cells",
-   "title": "Senior Software Development Engineer, S3 Storage Cells",
-   "company": "Amazon",
-   "matchPercent": 88,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a8f4850382b237ac80c527a",
-   "atsUrl": "https://www.amazon.jobs/en/jobs/10516064/senior-software-development-engineer-s3-storage-cells?jr_id=6a8f4850382b237ac80c527a",
-   "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
   },
   {
    "id": "6a55be9dec54dd532d813052",
@@ -1300,18 +1276,6 @@
    ]
   },
   {
-   "id": "6a9061bfa198864866760b07",
-   "key": "amazon::software dev engineer iii, data nexus",
-   "title": "Software Dev Engineer III, Data Nexus",
-   "company": "Amazon",
-   "matchPercent": 85,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a9061bfa198864866760b07",
-   "atsUrl": "https://www.amazon.jobs/en/jobs/10516948/software-dev-engineer-iii-data-nexus?jr_id=6a9061bfa198864866760b07",
-   "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
-  },
-  {
    "id": "69af2c1d749500645093a4c2",
    "key": "signify technology::scala developer",
    "title": "Scala Developer",
@@ -1403,18 +1367,6 @@
    "atsUrl": "https://jobs.ashbyhq.com/legora/3fcdc6ba-e35f-470e-823e-7c4563c933a2/application?utm_source=jobright&jr_id=6a0c6f7ea235d749afa8c945",
    "addedAt": "2026-08-30",
    "status": "local replay"
-  },
-  {
-   "id": "6a92a06dc12c90443efca142",
-   "key": "amazon web services (aws)::senior software engineer, iac provider experience, aws cloudformation, iac provider experience, aws cloudformation",
-   "title": "Senior Software Engineer, IaC Provider Experience, AWS CloudFormation, IaC Provider Experience, AWS CloudFormation",
-   "company": "Amazon Web Services (AWS)",
-   "matchPercent": 84,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a92a06dc12c90443efca142",
-   "atsUrl": "https://www.amazon.jobs/en/jobs/3201381/senior-software-engineer-iac-provider-experience-aws-cloudformation-iac-provider-experience-aws-cloudformation?cmpid=DA_INAD200785B&jr_id=6a92a06dc12c90443efca142",
-   "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
   },
   {
    "id": "6a2a5afb0c4972328e7e872f",

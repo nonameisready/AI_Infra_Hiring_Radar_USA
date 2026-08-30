@@ -343,3 +343,5 @@ Repass (semantic answers): Pipe (94%), Nebius (90%), Flip (90%), Verkada (87%), 
 - Billtrust — Senior Software Engineer (84%) — greenhouse, confirmed (retry round)
 
 Day total: 14 auto-confirmed (4 batch + 9 repass + 1 retry). 8 one-control-away jobs parked as needs_answers (custom widgets — finisher capability gap), Canonical parked for the user, Ashby items parked for local replay, rest parked by platform.
+
+User-requested follow-up: 4 Amazon roles submitted via alias account (Fauna Robotics 90, S3 Storage Cells 88, Data Nexus 85, AWS CloudFormation 84) — all result=success.
