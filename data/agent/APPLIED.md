@@ -325,3 +325,5 @@ Ashby local replay round 4 (dropdown/location fixes active):
 | Horizon3.ai | Senior Engineer, Back-End (Security Controls) | 81% | Ashby (local replay) | ✅ confirmed |
 | Hippocratic AI | Senior Software Engineer, Research | 81% | Ashby (local replay) | ✅ confirmed |
 | Credit Genie | Senior Software Engineer, Trust Platform | 80% | Ashby (local replay) | ✅ confirmed |
+
+| Beacon AI | Lead Backend Software Engineer | 90% | Ashby (user manual) | ✅ submitted |

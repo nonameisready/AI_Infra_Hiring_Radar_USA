@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T21:29:01Z",
+ "updatedAt": "2026-08-30T01:10:21Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -656,16 +656,6 @@
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=signifyd95&jr_id=6a4ffe869469c0662034fa7c&token=8046396&utm_source=jobright",
    "status": "park",
    "reason": "One required field left: 'highest level of school' typeahead never loads options for automated typing (5 fill attempts, never submitted). Good candidate for a quick manual apply — everything else auto-fills."
-  },
-  {
-   "id": "6a90c676d96ad228f12633cc",
-   "company": "Beacon AI",
-   "title": "Lead Backend Software Engineer",
-   "matchPercent": 90,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a90c676d96ad228f12633cc",
-   "originalUrl": "https://jobs.ashbyhq.com/beaconai/0d73c33f-d71d-407e-9dd4-19a56e768e15/application?utm_source=jobright&jr_id=6a90c676d96ad228f12633cc",
-   "status": "park",
-   "reason": "Ashby anti-bot blocks cloud submissions — queued for local replay from the user's machine (agent/local-replay.mjs)."
   },
   {
    "id": "6a15027fc48b503aeffc05f4",

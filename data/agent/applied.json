@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-29T21:29:01Z",
+ "updatedAt": "2026-08-30T01:10:21Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -1988,6 +1988,19 @@
    "via": "ashby (local replay)",
    "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
    "at": "2026-08-29T19:26:55.794Z"
+  },
+  "6a90c676d96ad228f12633cc": {
+   "id": "6a90c676d96ad228f12633cc",
+   "key": "beacon ai::lead backend software engineer",
+   "title": "Lead Backend Software Engineer",
+   "company": "Beacon AI",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a90c676d96ad228f12633cc",
+   "originalUrl": "https://jobs.ashbyhq.com/beaconai/0d73c33f-d71d-407e-9dd4-19a56e768e15/application",
+   "status": "applied_direct",
+   "via": "ashby (user applied manually)",
+   "detail": "User completed and submitted personally on 2026-08-30.",
+   "at": "2026-08-30T01:10:21Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
