@@ -700,6 +700,11 @@
   {
    "label": "payment systems processing high transaction volumes",
    "prefer": "^yes"
+  },
+  {
+   "label": "^state\\b",
+   "prefer": "new jersey",
+   "type": "New Jersey"
   }
  ],
  "texts": [

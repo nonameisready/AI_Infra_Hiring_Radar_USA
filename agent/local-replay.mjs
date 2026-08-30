@@ -145,6 +145,13 @@ for (const job of jobs) {
       (res?.confirmationSnippet && `page said: ${res.confirmationSnippet.slice(0, 200).replace(/\n/g, " | ")}`) ||
       "no result";
     console.log(`  ✗ not confirmed — ${why}`);
+    // Push the exact unanswered questions into the repo so the cloud agent can
+    // read them, answer semantically, and ship rules for the next run.
+    fs.appendFileSync(
+      path.join(REPO, "data/agent/replay-failures.jsonl"),
+      JSON.stringify({ id: job.id, company: job.company, title: job.title, match: job.matchPercent,
+        url: job.originalUrl, missing: res?.missingRequired ?? [], errors: res?.errors ?? [], at: now }) + "\n",
+    );
     if (res?.finalUrl) console.log(`    final url: ${res.finalUrl}`);
     if (res?.submitScreenshot) console.log(`    submit screenshot: ${res.submitScreenshot}`);
     console.log("");
