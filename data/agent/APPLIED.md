@@ -329,3 +329,12 @@ Ashby local replay round 4 (dropdown/location fixes active):
 | Beacon AI | Lead Backend Software Engineer | 90% | Ashby (user manual) | ✅ submitted |
 
 2026-08-30: the entire Ashby local-replay backlog (26 remaining postings) is closed — submitted via assist-mode rounds and the user's manual completion. All-time applied: 180.
+
+## 2026-08-30 (1:00am ET single window, cap 100, budget 73)
+
+Batch pass: 73 queued -> 4 submitted+confirmed, 18 to repass, 51 parked (Workday/Lever/LinkedIn/Amazon/Oracle/iCIMS etc.), Ashby -> local replay, Canonical parked (own-words pledge + academic history — needs the user personally).
+
+- Current — Senior Software Engineer (94%) — greenhouse, confirmed
+- Cortex — Lead Software Engineer, Backend (89%) — greenhouse, confirmed
+- Otter — Senior Backend Engineer (84%) — greenhouse, confirmed
+- Atoms — Backend Engineer (87%) — greenhouse, confirmed by email

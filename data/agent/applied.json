@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-30T02:58:22Z",
+ "updatedAt": "2026-08-30T06:29:04.998Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -2339,6 +2339,50 @@
    "via": "ashby (local replay + user manual)",
    "detail": "Completed during the 2026-08-30 local-replay assist rounds; the user confirmed all remaining Ashby postings were submitted (auto-filled + manually finished).",
    "at": "2026-08-30T02:58:22Z"
+  },
+  "6a537686d007ee02d95fb77d": {
+   "key": "current::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Current",
+   "matchPercent": 94,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a537686d007ee02d95fb77d",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=current81&jr_id=6a537686d007ee02d95fb77d&token=8052027&utm_source=jobright",
+   "appliedAt": "2026-08-30",
+   "via": "greenhouse (cloud batch)",
+   "detail": "Submitted in the 1:00am ET window; confirmation email received"
+  },
+  "6a74c2c7b17cba569035768b": {
+   "key": "cortex::lead software engineer, backend",
+   "title": "Lead Software Engineer, Backend",
+   "company": "Cortex",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a74c2c7b17cba569035768b",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cortex&jr_id=6a74c2c7b17cba569035768b&token=5131543008&utm_source=jobright",
+   "appliedAt": "2026-08-30",
+   "via": "greenhouse (cloud batch)",
+   "detail": "Submitted in the 1:00am ET window; confirmation email received"
+  },
+  "6a4556b748d2f00f2a86d3b1": {
+   "key": "otter::senior backend engineer",
+   "title": "Senior Backend Engineer",
+   "company": "Otter",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a4556b748d2f00f2a86d3b1",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=otter&jr_id=6a4556b748d2f00f2a86d3b1&token=8362925002&utm_source=jobright",
+   "appliedAt": "2026-08-30",
+   "via": "greenhouse (cloud batch)",
+   "detail": "Submitted in the 1:00am ET window; confirmation email received"
+  },
+  "6a51c8b98d7d3e6cf1cc2df9": {
+   "key": "atoms::backend engineer",
+   "title": "Backend Engineer",
+   "company": "Atoms",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a51c8b98d7d3e6cf1cc2df9",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cssmerge&jr_id=6a51c8b98d7d3e6cf1cc2df9&token=8583340002&utm_source=jobright",
+   "appliedAt": "2026-08-30",
+   "via": "greenhouse (cloud batch)",
+   "detail": "Page showed Thanks-for-applying and confirmation email arrived 05:51 UTC; script had logged it unconfirmed"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
