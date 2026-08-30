@@ -692,6 +692,14 @@
   {
    "label": "snowflake will process your personal information",
    "prefer": "acknowledge|agree|^yes|accept|consent"
+  },
+  {
+   "label": "development experience in both c# and \\.net",
+   "prefer": "^no"
+  },
+  {
+   "label": "payment systems processing high transaction volumes",
+   "prefer": "^yes"
   }
  ],
  "texts": [

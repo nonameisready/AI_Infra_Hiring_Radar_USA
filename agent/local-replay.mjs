@@ -83,13 +83,16 @@ function runFinisher(script, args) {
   return new Promise((resolve) => {
     const p = spawn("node", [path.join(REPO, "agent/finishers", script), ...args], {
       cwd: REPO,
-      env: { ...process.env, AGENT_WORK_DIR: WORK, REPO_DIR: REPO, HEADED: "1" },
+      env: { ...process.env, AGENT_WORK_DIR: WORK, REPO_DIR: REPO, HEADED: "1", ASSIST: "1" },
     });
     let out = "";
     let err = "";
     p.stdout.on("data", (d) => { out += d; });
     p.stderr.on("data", async (d) => {
       err += d;
+      if (/ASSIST_NEEDED/.test(d.toString())) {
+        console.log("  🖐  这个岗位差一两个答案 — 请到浏览器窗口里补选并点 Submit,工具会自动检测(最多等6分钟)");
+      }
       if (/WAITING_FOR_CODE/.test(d.toString())) {
         const code = await ask("  📧 Greenhouse emailed you a security code — type it here: ");
         fs.writeFileSync(path.join(WORK, "gh-code.txt"), code.trim());

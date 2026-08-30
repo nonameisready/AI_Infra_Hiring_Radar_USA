@@ -258,6 +258,23 @@ try {
       }
     }
     out.confirmation = /thank you|application (was )?(received|submitted|sent)|successfully|we('|’)ve received/i.test(text);
+    // Assist mode: the run is headed and a human is watching. On a failed
+    // submit, keep the window open so they can answer the remaining fields
+    // and click Submit themselves; poll for the confirmation page.
+    if (!out.confirmation && process.env.ASSIST) {
+      console.error("ASSIST_NEEDED: 请在浏览器窗口里补答标红的问题并点 Submit(最多等 6 分钟,完成后自动继续)");
+      const deadline = Date.now() + 360000;
+      while (Date.now() < deadline) {
+        await page.waitForTimeout(4000);
+        const t2 = await page.evaluate(() => document.body?.innerText ?? "").catch(() => "");
+        if (/thank you|application (was )?(received|submitted|sent)|successfully|we('|’)ve received/i.test(t2)) {
+          out.confirmation = true;
+          out.confirmationSnippet = t2.slice(0, 400);
+          out.assisted = true;
+          break;
+        }
+      }
+    }
     out.confirmationSnippet = text.slice(0, 400);
     if (!out.confirmation) {
       out.finalUrl = page.url();
