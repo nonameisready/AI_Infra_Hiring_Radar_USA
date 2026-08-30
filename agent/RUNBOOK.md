@@ -505,3 +505,30 @@ still runs the nightly batch (the Routine fires into the cloud session — the
 Mac's localhost is not reachable from the cloud), reviews Qwen's rules, and
 keeps the knowledge files in sync. The user's personal-fact and own-words
 questions remain human-only, whichever brain is asking.
+
+## Qwen rule factory (2026-08-31) — Claude token diet, phase 2
+
+Division of labor to minimize Claude API cost:
+- CLOUD (Claude, 1am window only): merge the side branch, sanity-audit Qwen's
+  rules (drop anything contradicting KNOWLEDGE.md or the honesty policy),
+  retry yesterday's parked jobs, harvest, run the batch, fetch Gmail codes,
+  keep the books. Claude does NOT write answer rules anymore — anything
+  unanswered after a rules-only repass goes to data/agent/brain-queue.jsonl
+  as {id, company, title, missing[]}.
+- MAC (Qwen, daytime, automatic): agent/brain-rules.mjs pulls main, feeds
+  brain-queue + replay-failures + needs_answers to the local model, merges
+  new rules into generic-answers.json, pushes to ashby-local-results.
+  Install once:
+    cp agent/launchd/com.huimao.brain-rules.plist ~/Library/LaunchAgents/
+    launchctl load ~/Library/LaunchAgents/com.huimao.brain-rules.plist
+  (runs 10:30am daily; log at /tmp/brain-rules.log; adjust the node path in
+  the plist if `which node` differs.)
+- Parked stragglers are retried in the NEXT 1am window with Qwen's rules —
+  deliberately no extra cloud window: each extra wake pays a full context
+  reload, which costs more than the 24h delay is worth.
+- POLICY questions (defense/clearance, honesty pledges, personal facts) are
+  never delegated to Qwen or answered by rules — Claude handles per standing
+  rules or parks for the user.
+Future option (needs user setup, not done): move the whole Greenhouse batch to
+the Mac for home-IP submissions — blocked only on reading security-code emails
+locally; would need the user's own Gmail OAuth (never the account password).

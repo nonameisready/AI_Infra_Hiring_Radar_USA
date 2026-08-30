@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.huimao.brain-rules</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-lc</string>
+    <string>cd ~/AI_Infra_Hiring_Radar_USA && /usr/local/bin/node agent/brain-rules.mjs >> /tmp/brain-rules.log 2>&1 || node agent/brain-rules.mjs >> /tmp/brain-rules.log 2>&1</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>10</integer><key>Minute</key><integer>30</integer></dict>
+  <key>StandardOutPath</key><string>/tmp/brain-rules.log</string>
+  <key>StandardErrorPath</key><string>/tmp/brain-rules.log</string>
+</dict>
+</plist>
