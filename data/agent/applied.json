@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-30T17:59:45.062Z",
+ "updatedAt": "2026-08-30T19:14:44.601Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -2603,6 +2603,102 @@
    "appliedAt": "2026-08-30",
    "via": "workday (new tenant account)",
    "detail": "crowdstrike.wd5 account created; why-CrowdStrike essay + AI-acknowledgment (interviews personal); Candidate Home confirms"
+  },
+  "6a5f569ab0f20036bc6307ef": {
+   "id": "6a5f569ab0f20036bc6307ef",
+   "key": "nubank::lead software engineer",
+   "title": "Lead Software Engineer",
+   "company": "Nubank",
+   "matchPercent": 94,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5f569ab0f20036bc6307ef",
+   "originalUrl": "https://jobs.ashbyhq.com/nubank/4e0373cd-d0d5-44f0-a57f-616aae821059/application?utm_source=jobright&jr_id=6a5f569ab0f20036bc6307ef",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-30T18:39:46.199Z"
+  },
+  "6a55f04210c4d945d8645dc4": {
+   "id": "6a55f04210c4d945d8645dc4",
+   "key": "ramp::software engineer, backend, marketing product",
+   "title": "Software Engineer, Backend, Marketing Product",
+   "company": "Ramp",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a55f04210c4d945d8645dc4",
+   "originalUrl": "https://jobs.ashbyhq.com/ramp/428f41e2-48e8-409d-b5e3-8053f7fc7a27/application?utm_source=jobright&jr_id=6a55f04210c4d945d8645dc4",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-30T18:39:46.199Z"
+  },
+  "6a8fe71b7c32860d14cf7164": {
+   "id": "6a8fe71b7c32860d14cf7164",
+   "key": "nexxa.ai::backend ai engineer",
+   "title": "Backend AI Engineer",
+   "company": "Nexxa.ai",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8fe71b7c32860d14cf7164",
+   "originalUrl": "https://jobs.ashbyhq.com/nexxa/2780339a-486c-4b12-95b9-63a416fd95a6/application?utm_source=jobright&jr_id=6a8fe71b7c32860d14cf7164",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-30T18:39:46.199Z"
+  },
+  "6a563eebe9b77f668bd62033": {
+   "id": "6a563eebe9b77f668bd62033",
+   "key": "medal::senior / lead backend engineer",
+   "title": "Senior / Lead Backend Engineer",
+   "company": "Medal",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a563eebe9b77f668bd62033",
+   "originalUrl": "https://jobs.ashbyhq.com/generalintuition-medal/9f974f5b-ded9-4b4f-8a81-113e7866305c/application?utm_source=jobright&jr_id=6a563eebe9b77f668bd62033",
+   "status": "applied_direct",
+   "via": "ashby (local replay)",
+   "detail": "Submitted from the user's own network via agent/local-replay.mjs; confirmation page verified.",
+   "at": "2026-08-30T18:39:46.199Z"
+  },
+  "6a16c2e6202ae849ed8d504d": {
+   "key": "hebbia::backend engineer, growth and data",
+   "title": "Backend Engineer, Growth and Data",
+   "company": "Hebbia",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a16c2e6202ae849ed8d504d",
+   "originalUrl": "https://jobs.ashbyhq.com/hebbia-ai/1710a563-14df-45c5-a6b1-a62adcdead89/application?utm_source=jobright&jr_id=6a16c2e6202ae849ed8d504d",
+   "appliedAt": "2026-08-30",
+   "via": "ashby (local replay + user manual)",
+   "detail": "User completed and submitted manually during the 2026-08-30 local replay round; script logged it as failed but the user confirmed submission"
+  },
+  "698133edabff4c399aa01a84": {
+   "key": "semgrep::senior backend software engineer",
+   "title": "Senior Backend Software Engineer",
+   "company": "Semgrep",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/698133edabff4c399aa01a84",
+   "originalUrl": "https://jobs.ashbyhq.com/semgrep/92b21a3a-fba8-4d71-9f4d-217850689f5f/application?utm_source=jobright&jr_id=698133edabff4c399aa01a84",
+   "appliedAt": "2026-08-30",
+   "via": "ashby (local replay + user manual)",
+   "detail": "User completed and submitted manually during the 2026-08-30 local replay round; script logged it as failed but the user confirmed submission"
+  },
+  "6a3e3323882f121f56a39a19": {
+   "key": "harvey::senior software engineer, backend",
+   "title": "Senior Software Engineer, Backend",
+   "company": "Harvey",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a3e3323882f121f56a39a19",
+   "originalUrl": "https://jobs.ashbyhq.com/harvey/1406ae6f-1dfc-4b5a-985d-cccbffe283e1/application?utm_source=jobright&jr_id=6a3e3323882f121f56a39a19",
+   "appliedAt": "2026-08-30",
+   "via": "ashby (local replay + user manual)",
+   "detail": "User completed and submitted manually during the 2026-08-30 local replay round; script logged it as failed but the user confirmed submission"
+  },
+  "6a0c6f7ea235d749afa8c945": {
+   "key": "legora::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Legora",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a0c6f7ea235d749afa8c945",
+   "originalUrl": "https://jobs.ashbyhq.com/legora/3fcdc6ba-e35f-470e-823e-7c4563c933a2/application?utm_source=jobright&jr_id=6a0c6f7ea235d749afa8c945",
+   "appliedAt": "2026-08-30",
+   "via": "ashby (local replay + user manual)",
+   "detail": "User completed and submitted manually during the 2026-08-30 local replay round; script logged it as failed but the user confirmed submission"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
