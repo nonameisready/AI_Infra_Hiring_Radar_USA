@@ -338,3 +338,5 @@ Batch pass: 73 queued -> 4 submitted+confirmed, 18 to repass, 51 parked (Workday
 - Cortex — Lead Software Engineer, Backend (89%) — greenhouse, confirmed
 - Otter — Senior Backend Engineer (84%) — greenhouse, confirmed
 - Atoms — Backend Engineer (87%) — greenhouse, confirmed by email
+
+Repass (semantic answers): Pipe (94%), Nebius (90%), Flip (90%), Verkada (87%), Flex (84%), Hi Marley (84%), Lightning AI (84%), You.com (83%), Postman (83%) — all confirmed.

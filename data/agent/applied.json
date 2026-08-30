@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-30T06:29:04.998Z",
+ "updatedAt": "2026-08-30T07:47:19.336Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -2383,6 +2383,105 @@
    "appliedAt": "2026-08-30",
    "via": "greenhouse (cloud batch)",
    "detail": "Page showed Thanks-for-applying and confirmation email arrived 05:51 UTC; script had logged it unconfirmed"
+  },
+  "6a6b7dd15c54bc4752ce940a": {
+   "key": "pipe::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Pipe",
+   "matchPercent": 94,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a6b7dd15c54bc4752ce940a",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=pipetechnologies&jr_id=6a6b7dd15c54bc4752ce940a&token=4265275009&utm_source=jobright",
+   "appliedAt": "2026-08-30",
+   "via": "greenhouse (cloud repass)",
+   "detail": "Answered semantically in repass; confirmation page verified"
+  },
+  "69818f4949964d25b5e4a937": {
+   "key": "nebius::senior/staff software engineer (backend)",
+   "title": "Senior/Staff Software Engineer (Backend)",
+   "company": "Nebius",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69818f4949964d25b5e4a937",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=nebius&jr_id=69818f4949964d25b5e4a937&token=4765226101&utm_source=jobright",
+   "appliedAt": "2026-08-30",
+   "via": "greenhouse (cloud repass)",
+   "detail": "Answered semantically in repass; confirmation page verified"
+  },
+  "6a70b99bcb96192a3684518f": {
+   "key": "flip::staff software engineer",
+   "title": "Staff Software Engineer",
+   "company": "Flip",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a70b99bcb96192a3684518f",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=flip&jr_id=6a70b99bcb96192a3684518f&token=5129882008&utm_source=jobright",
+   "appliedAt": "2026-08-30",
+   "via": "greenhouse (cloud repass)",
+   "detail": "Answered semantically in repass; confirmation page verified"
+  },
+  "6a1e8e5a09442629a6854035": {
+   "key": "verkada::senior backend software engineer - workplace products",
+   "title": "Senior Backend Software Engineer - Workplace Products",
+   "company": "Verkada",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a1e8e5a09442629a6854035",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=verkada&jr_id=6a1e8e5a09442629a6854035&token=5120808007&utm_source=jobright",
+   "appliedAt": "2026-08-30",
+   "via": "greenhouse (cloud repass)",
+   "detail": "Answered semantically in repass; confirmation page verified"
+  },
+  "6a5967d0856af468ab003c40": {
+   "key": "flex::senior software engineer, backend finplatform",
+   "title": "Senior Software Engineer, Backend FinPlatform",
+   "company": "Flex",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5967d0856af468ab003c40",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=flex&jr_id=6a5967d0856af468ab003c40&token=4716085005&utm_source=jobright",
+   "appliedAt": "2026-08-30",
+   "via": "greenhouse (cloud repass)",
+   "detail": "Answered semantically in repass; confirmation page verified"
+  },
+  "69a0422a81476f6176ba6dfe": {
+   "key": "hi marley::sr. software engineer",
+   "title": "Sr. Software Engineer",
+   "company": "Hi Marley",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69a0422a81476f6176ba6dfe",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=himarley&jr_id=69a0422a81476f6176ba6dfe&token=7484747003&utm_source=jobright",
+   "appliedAt": "2026-08-30",
+   "via": "greenhouse (cloud repass)",
+   "detail": "Answered semantically in repass; confirmation page verified"
+  },
+  "6a678fe82bf1fb2b71925cba": {
+   "key": "lightning ai::senior backend engineer, managed services",
+   "title": "Senior Backend Engineer, Managed Services",
+   "company": "Lightning AI",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a678fe82bf1fb2b71925cba",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=lightningai&jr_id=6a678fe82bf1fb2b71925cba&token=7816026003&utm_source=jobright",
+   "appliedAt": "2026-08-30",
+   "via": "greenhouse (cloud repass)",
+   "detail": "Answered semantically in repass; confirmation page verified"
+  },
+  "6901114bf8ce7a040fdbbb16": {
+   "key": "you.com::senior back end engineer",
+   "title": "Senior Back End Engineer",
+   "company": "You.com",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6901114bf8ce7a040fdbbb16",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=youcom&jr_id=6901114bf8ce7a040fdbbb16&token=4528457008&utm_source=jobright",
+   "appliedAt": "2026-08-30",
+   "via": "greenhouse (cloud repass)",
+   "detail": "Answered semantically in repass; confirmation page verified"
+  },
+  "69e19cb5fd1c0456f3faf0ef": {
+   "key": "postman::senior software engineer, monetization",
+   "title": "Senior Software Engineer, Monetization",
+   "company": "Postman",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69e19cb5fd1c0456f3faf0ef",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=postman&jr_id=69e19cb5fd1c0456f3faf0ef&token=7703523003&utm_source=jobright",
+   "appliedAt": "2026-08-30",
+   "via": "greenhouse (cloud repass)",
+   "detail": "Answered semantically in repass; confirmation page verified"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
