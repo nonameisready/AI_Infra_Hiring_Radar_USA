@@ -13,11 +13,14 @@ import path from "node:path";
 
 const CANDIDATE_BASES = [
   process.env.QWEN_BASE_URL,
+  "http://127.0.0.1:8080/v1", // user's llama.cpp/MLX server (Qwen3.5-35B-A3B-4bit)
   "http://localhost:11434/v1",
   "http://127.0.0.1:11434/v1",
   "http://localhost:1234/v1",
   "http://localhost:8000/v1",
 ].filter(Boolean);
+const API_KEY = process.env.QWEN_API_KEY || "local";
+const AUTH_HEADERS = { authorization: `Bearer ${API_KEY}` };
 
 let resolved = null; // { base, model }
 
@@ -25,7 +28,7 @@ async function resolveServer() {
   if (resolved) return resolved;
   for (const base of CANDIDATE_BASES) {
     try {
-      const r = await fetch(`${base}/models`, { signal: AbortSignal.timeout(2500) });
+      const r = await fetch(`${base}/models`, { headers: AUTH_HEADERS, signal: AbortSignal.timeout(2500) });
       if (!r.ok) continue;
       const j = await r.json();
       const model = process.env.QWEN_MODEL || j?.data?.[0]?.id;
@@ -47,7 +50,7 @@ async function chat(system, user, maxTokens = 1400) {
   if (!srv) throw new Error("no local model reachable (set QWEN_BASE_URL)");
   const r = await fetch(`${srv.base}/chat/completions`, {
     method: "POST",
-    headers: { "content-type": "application/json" },
+    headers: { "content-type": "application/json", ...AUTH_HEADERS },
     signal: AbortSignal.timeout(180_000),
     body: JSON.stringify({
       model: srv.model,
@@ -69,7 +72,9 @@ function knowledgeText(repo) {
 }
 
 function extractJson(text) {
-  // tolerate ```json fences and prose around the object
+  // Qwen3 emits <think>…</think> reasoning blocks — strip them first,
+  // then tolerate ```json fences and prose around the object
+  text = text.replace(/<think>[\s\S]*?(<\/think>|$)/g, "");
   const m = text.match(/\{[\s\S]*\}/);
   if (!m) throw new Error("model returned no JSON object");
   return JSON.parse(m[0]);
