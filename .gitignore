@@ -20,3 +20,4 @@ dev.db
 .rippling-finish.mjs
 .batch-apply.mjs
 .pwtest.mjs
+.agent-work/
