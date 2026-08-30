@@ -470,7 +470,7 @@ async function snapshot() {
 // session state as soon as the app recognizes them. One-time bootstrap for
 // machines where the automated modal flow misbehaves.
 async function manualLogin() {
-  process.argv.push("--headed"); // force a visible window
+  argv.push("--headed"); // force a visible window (flag() reads this array)
   const { browser, context } = await launch();
   const page = await context.newPage();
   await page.goto(`${BASE}/`, { waitUntil: "domcontentloaded", timeout: 60_000 });
