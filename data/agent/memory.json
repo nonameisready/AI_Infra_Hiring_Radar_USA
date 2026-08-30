@@ -314,5 +314,13 @@
    "note": "user 2026-08-30: never a Chinese or U.S. government employee"
   }
  ],
- "note": "Regex `match` is tested case-insensitively against a form question's label. Answers the user gives to open questions in questions.json get appended here so the agent never asks twice. Never store passwords or secrets in this file."
+ "note": "Regex `match` is tested case-insensitively against a form question's label. Answers the user gives to open questions in questions.json get appended here so the agent never asks twice. Never store passwords or secrets in this file.",
+ "facts": [
+  {
+   "match": "valid (up )?to|work authorization.*(expir|valid)|ead.*(expir|valid)|cpt.*(expir|valid)",
+   "answer": "05/31/2027",
+   "note": "F-1 CPT / work-authorization Valid Up To date, user-confirmed 2026-08-30. Use for all Workday visa-date fields.",
+   "addedAt": "2026-08-30"
+  }
+ ]
 }

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-30T15:52:11.080Z",
+ "updatedAt": "2026-08-30T16:46:34.151Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -757,18 +757,6 @@
     "How did you first learn about Affirm as an employer? *",
     "Have you previously been employed at Affirm for any length of time?*"
    ]
-  },
-  {
-   "id": "6a0233693053db70a1175854",
-   "key": "finastra::senior back-end engineer",
-   "title": "Senior Back-End Engineer",
-   "company": "Finastra",
-   "matchPercent": 96,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a0233693053db70a1175854",
-   "atsUrl": "https://finastra.wd3.myworkdayjobs.com/finc/job/Atlanta/Senior-Back-End-Engineer_REQ0526_0037229?jr_id=6a0233693053db70a1175854",
-   "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: finastra.wd3.myworkdayjobs.com"
   },
   {
    "id": "6a628a38d5caab4af8baeafd",

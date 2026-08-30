@@ -450,3 +450,27 @@ round-trips, no redundant reads:
    defense/clearance companies, honest AI-disclosure and export-control
    answers, no captcha/anti-bot bypass, secrets env-only, <=2 submit
    retries, park at night instead of asking.
+
+## Workday cloud playbook (2026-08-30, proven on Finastra)
+
+Workday tenants CAN be driven from the cloud driver. The blockers and fixes:
+1. **UA**: default headless UA ("HeadlessChrome") makes Workday silently drop
+   account creation/sign-in. Launch the driver with DRIVER_UA set to a normal
+   Chrome UA string.
+2. **click_filter**: the Create Account/Sign In submit is covered by
+   `div[data-automation-id=click_filter]` inside `#noCaptchaWrapper` — click
+   THAT div (trusted click), not the button under it.
+3. Account per tenant: loginEmail + env:ATS_ACCOUNT_PASSWORD (register once,
+   record in accounts.json). Honeypot input name=website/beecatcher: never touch.
+4. Fields use element ids like `[id='name--legalName--firstName']`.
+   Listbox dropdowns: click the button, then TRUSTED KEYBOARD — ArrowDown/End
+   then Enter; type-ahead letters work ("i" → "I prefer not to answer").
+   Never clickText an option: it matches the first same-text button on the page.
+5. Date widgets (Valid Up to etc.): the section inputs are 0x0; click
+   `div[id$='-dateSectionMonth']` then type MMDDYYYY — sections auto-advance;
+   verify with aria-valuetext. React value setters do NOT commit these.
+6. Work auth = F-1 (CPT); Valid Up To = 05/31/2027 (user-confirmed, memory.json).
+7. Voluntary disclosures: gender=Not declared (End), ethnicity type "i"
+   ("I prefer not to answer"), veteran=End; check termsAndConditions; Submit.
+8. Verify on Candidate Home: "Application Submitted" row, then saveState.
+SBM-style `impl-` subdomains are implementation sandboxes — never apply there.
