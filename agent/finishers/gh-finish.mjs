@@ -21,7 +21,7 @@ const browser = await chromium.launch({
   args: ["--no-sandbox", "--disable-blink-features=AutomationControlled",
          ...(process.env.HTTPS_PROXY ? ["--ssl-version-max=tls1.2"] : [])],
 });
-const page = await (await browser.newContext({ viewport: { width: 1440, height: 1400 } })).newPage();
+const page = await (await browser.newContext({ viewport: process.env.HEADED ? null : { width: 1440, height: 1400 } })).newPage();
 
 try {
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
