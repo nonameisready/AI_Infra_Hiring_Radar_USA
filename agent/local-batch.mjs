@@ -109,11 +109,15 @@ const tok = (u) => { const m = String(u ?? "").match(/token=(\d+)/); if (m) seen
 for (const [id, j] of Object.entries(ap.jobs)) { seenIds.add(id); if (j.key) seenKeys.add(j.key); tok(j.originalUrl); }
 for (const i of pend.items) { seenIds.add(i.id); if (i.key) seenKeys.add(i.key); tok(i.originalUrl); tok(i.atsUrl); }
 const norm = (s) => String(s ?? "").toLowerCase().trim();
+// Standing rule: never apply to defense/clearance companies (applicant cannot
+// hold a US security clearance). Mirrors RUNBOOK; extend as new ones appear.
+const DEFENSE_BLOCK = /anduril|varda|havocai|\bstr\b|l3harris|lockheed|raytheon|\brtx\b|northrop|general dynamics|bae systems|leidos|booz allen|draper|mitre|sierra nevada corp|epirus|shield ?ai|saronic|castelion|mach industries|helsing/i;
 const queue = [];
 const qKeys = new Set();
 for (const j of matches.jobs) {
   const id = idOf(j.jobrightUrl);
   if (!id || seenIds.has(id)) continue;
+  if (DEFENSE_BLOCK.test(j.company ?? "")) { log(`blocked (defense/clearance): ${j.company}`); continue; }
   const key = `${norm(j.company)}::${norm(j.title)}`;
   if (seenKeys.has(key) || qKeys.has(key)) continue;
   if ((j.matchPercent ?? 0) < 70) continue;
