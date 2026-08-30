@@ -465,7 +465,32 @@ async function snapshot() {
   }
 }
 
-const commands = { login, matches, apply, snapshot };
+// --------------------------------------------------------- manual-login ---
+// Open a real browser window; the human logs in themselves; we save the
+// session state as soon as the app recognizes them. One-time bootstrap for
+// machines where the automated modal flow misbehaves.
+async function manualLogin() {
+  process.argv.push("--headed"); // force a visible window
+  const { browser, context } = await launch();
+  const page = await context.newPage();
+  await page.goto(`${BASE}/`, { waitUntil: "domcontentloaded", timeout: 60_000 });
+  process.stderr.write("A browser window is open — sign in to Jobright yourself. I'll detect it (up to 5 min)…\n");
+  const deadline = Date.now() + 5 * 60_000;
+  while (Date.now() < deadline) {
+    await page.waitForTimeout(5000);
+    try {
+      const text = await page.evaluate(() => document.body?.innerText ?? "");
+      const url = page.url();
+      if (/\/jobs/.test(url) && !/sign in to continue/i.test(text.slice(0, 2000))) break;
+      if (/match|recommend/i.test(text.slice(0, 4000)) && !/JOIN NOW/.test(text.slice(0, 2000))) break;
+    } catch {}
+  }
+  await persistState(context);
+  await browser.close().catch(() => {});
+  return emit({ ok: true, state: STATE, note: "Session saved — copy it somewhere durable if WORK is a temp dir." });
+}
+
+const commands = { login, matches, apply, snapshot, "manual-login": manualLogin };
 if (!commands[cmd]) {
   emit({
     ok: false,
