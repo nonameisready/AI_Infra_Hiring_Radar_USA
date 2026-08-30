@@ -485,3 +485,23 @@ full-page screenshot between batches, which scrolls the page and closes any
 open dropdown/prompt. Keyboard listboxes: opening focuses the CURRENT value;
 End can land on a real option (CrowdStrike gender list ends with "Male") —
 verify the label after selecting and use ArrowUp/type-ahead to correct.
+
+## Local brain: Qwen on the user's Mac (2026-08-31)
+
+To save cloud tokens, the LOCAL replay pipeline answers new questions with the
+user's own localhost model instead of the cloud agent:
+- agent/KNOWLEDGE.md — distilled applicant knowledge base (facts, standing
+  answers, honesty policy, rule-JSON output format). Regenerate when
+  profile/memory/generic-answers change materially.
+- agent/local-brain.mjs — OpenAI-compatible client (auto-probes Ollama :11434,
+  LM Studio :1234, vLLM :8000; override with QWEN_BASE_URL / QWEN_MODEL).
+- local-replay.mjs: on a failure with missingRequired, asks the brain for rules,
+  merges them into a WORK-dir answers overlay (ANSWERS_FILE env for
+  ashby-finish; path arg for gh-finish), retries ONCE, and saves everything
+  Qwen wrote to data/agent/qwen-learned-rules.json so the cloud agent can
+  review and fold the good ones into generic-answers.json.
+Division of labor: local Qwen handles local-replay answering; the cloud agent
+still runs the nightly batch (the Routine fires into the cloud session — the
+Mac's localhost is not reachable from the cloud), reviews Qwen's rules, and
+keeps the knowledge files in sync. The user's personal-fact and own-words
+questions remain human-only, whichever brain is asking.

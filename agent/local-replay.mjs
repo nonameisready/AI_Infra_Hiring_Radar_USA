@@ -109,15 +109,56 @@ function runFinisher(script, args) {
   });
 }
 
+// Local brain: when a job fails on unanswered questions, ask the user's local
+// Qwen (agent/local-brain.mjs) to write rules from agent/KNOWLEDGE.md, merge
+// them into a working copy of the answers file, and retry once. No cloud tokens.
+let brain = null;
+if (process.env.LOCAL_BRAIN !== "0") {
+  try {
+    brain = await import("./local-brain.mjs");
+    if (!(await brain.brainAvailable())) { brain = null; }
+  } catch { brain = null; }
+}
+if (!brain) console.log("(local brain off — set QWEN_BASE_URL / start your local model to enable auto-answering)\n");
+const LIVE_ANSWERS = path.join(WORK, "answers-live.json");
+fs.copyFileSync(ANSWERS, LIVE_ANSWERS);
+process.env.ANSWERS_FILE = LIVE_ANSWERS;
+const learned = { combos: [], texts: [] };
+
+async function attempt(job) {
+  fs.rmSync(path.join(WORK, "gh-code.txt"), { force: true });
+  return job.platform === "ashby"
+    ? runFinisher("ashby-finish.mjs", [job.originalUrl, ...(DRY ? [] : ["--submit"])])
+    : runFinisher("gh-finish.mjs", [job.originalUrl, LIVE_ANSWERS, ...(DRY ? [] : ["--submit"])]);
+}
+
 const results = [];
 const now = new Date().toISOString();
 for (const job of jobs) {
   console.log(`→ ${job.company} — ${job.title} (${job.matchPercent}%) [${job.platform}]`);
-  fs.rmSync(path.join(WORK, "gh-code.txt"), { force: true });
-  const res =
-    job.platform === "ashby"
-      ? await runFinisher("ashby-finish.mjs", [job.originalUrl, ...(DRY ? [] : ["--submit"])])
-      : await runFinisher("gh-finish.mjs", [job.originalUrl, ANSWERS, ...(DRY ? [] : ["--submit"])]);
+  let res = await attempt(job);
+
+  // one brain-assisted retry when required questions were left unanswered
+  if (!DRY && !res?.confirmation && brain && res?.missingRequired?.length) {
+    try {
+      console.log(`  🧠 asking the local model about ${res.missingRequired.length} unanswered question(s)…`);
+      const rules = await brain.answerQuestions(REPO, job, res.missingRequired);
+      if (rules.combos.length + rules.texts.length > 0) {
+        const live = JSON.parse(fs.readFileSync(LIVE_ANSWERS, "utf8"));
+        live.combos.push(...rules.combos);
+        live.texts.push(...rules.texts);
+        fs.writeFileSync(LIVE_ANSWERS, JSON.stringify(live, null, 1));
+        learned.combos.push(...rules.combos);
+        learned.texts.push(...rules.texts);
+        console.log(`  🧠 got ${rules.combos.length} combo + ${rules.texts.length} text rule(s) — retrying once`);
+        res = await attempt(job);
+      } else {
+        console.log("  🧠 local model produced no usable rules (personal-fact questions are skipped on purpose)");
+      }
+    } catch (e) {
+      console.log(`  🧠 local brain failed: ${String(e.message).slice(0, 120)}`);
+    }
+  }
 
   const ok = Boolean(res?.confirmation);
   results.push({ job, ok, res });
@@ -172,6 +213,15 @@ if (!DRY) {
       path.join(REPO, "data/agent/APPLIED.md"),
       `\n### ${now.slice(0, 10)} — local replay from the user's machine\n\n| Company | Title | Match | Via | Status |\n| --- | --- | --- | --- | --- |\n${lines.join("\n")}\n`,
     );
+  }
+  if (learned.combos.length + learned.texts.length > 0) {
+    // ship what Qwen learned back to the repo so the cloud agent can fold the
+    // good rules into generic-answers.json for everyone (cloud runs included)
+    fs.writeFileSync(
+      path.join(REPO, "data/agent/qwen-learned-rules.json"),
+      JSON.stringify({ at: now, ...learned }, null, 1),
+    );
+    console.log(`\n🧠 Qwen wrote ${learned.combos.length + learned.texts.length} new rule(s) — saved to data/agent/qwen-learned-rules.json (pushed with your results).`);
   }
   console.log(`\nDone: ${okJobs.length}/${results.length} confirmed. State files updated — publish with:`);
   console.log(`  git add data/agent && git commit -m "local replay: ${okJobs.length} submitted" && git push`);
