@@ -532,3 +532,31 @@ Division of labor to minimize Claude API cost:
 Future option (needs user setup, not done): move the whole Greenhouse batch to
 the Mac for home-IP submissions — blocked only on reading security-code emails
 locally; would need the user's own Gmail OAuth (never the account password).
+
+## Mac nightly batch (2026-08-31) — Greenhouse moves to the home IP
+
+The 1:00am ET Greenhouse batch now runs on the USER'S MAC (better IP
+reputation, zero Claude tokens): agent/local-batch.mjs harvests Jobright,
+builds the deduped queue (budget 100 − today's count, GH cap 45, 180s
+pacing), runs session-tools/batch-apply + gh-finish locally, reads
+Greenhouse security codes via the user's own Gmail OAuth
+(agent/gmail-code.mjs, readonly scope, never the password), retries
+needs_answers once with local Qwen rules, does full bookkeeping, and pushes
+to ashby-local-results. Ashby jobs still park for the headed daytime replay.
+
+The CLOUD window moved to 5:00am ET and only: merges + audits the Mac
+results, falls back to the full cloud batch if the Mac produced no commit
+today, drives parked Workday/Amazon jobs, and keeps brain-queue clean.
+
+One-time Mac setup:
+1. mkdir -p ~/.jobright-agent && chmod 700 ~/.jobright-agent
+2. ~/.jobright-agent/env (chmod 600):
+     export JOBRIGHT_PASSWORD='...'
+     export RESUME_PDF="$HOME/Downloads/Hui_Mao_Senior_Backend_Software_Engineer_Resume.pdf"
+3. Gmail OAuth (Google Cloud Console → OAuth client, Desktop app):
+     ~/.jobright-agent/gmail-oauth.json = {"client_id":"...","client_secret":"..."}
+     node agent/gmail-auth.mjs   (approve once; token saved outside the repo)
+     node agent/gmail-code.mjs   (self-test)
+4. launchctl load both plists in agent/launchd/ (local-batch 1:00am,
+   brain-rules 10:30am).
+Secrets live ONLY under ~/.jobright-agent/ — never in the repo.
