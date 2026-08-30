@@ -474,3 +474,14 @@ Workday tenants CAN be driven from the cloud driver. The blockers and fixes:
    ("I prefer not to answer"), veteran=End; check termsAndConditions; Submit.
 8. Verify on Candidate Home: "Application Submitted" row, then saveState.
 SBM-style `impl-` subdomains are implementation sandboxes — never apply there.
+
+Addendum (CrowdStrike run): some tenants render "How Did You Hear About Us"
+as a MULTISELECT INPUT (data-automation-id=multiselectInputContainer), not a
+button — click its svg icon to open the prompt tree, then click category and
+option with `[data-automation-id=promptOption]:has-text("..."):visible`
+(plain text selectors match hidden duplicates and time out). CRITICAL: keep
+every open-popup interaction inside ONE driver cmd batch — writeOut takes a
+full-page screenshot between batches, which scrolls the page and closes any
+open dropdown/prompt. Keyboard listboxes: opening focuses the CURRENT value;
+End can land on a real option (CrowdStrike gender list ends with "Male") —
+verify the label after selecting and use ArrowUp/type-ahead to correct.

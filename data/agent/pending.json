@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-30T17:14:02.348Z",
+ "updatedAt": "2026-08-30T17:59:45.062Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -883,8 +883,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5f8b6bb0f20036bc631867",
    "atsUrl": "https://sbmmanagement1.impl-wd108.myworkdayjobs.com/sbm/job/Sacramento-CA/Software-Engineer_JR105050?jr_id=6a5f8b6bb0f20036bc631867",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: sbmmanagement1.impl-wd108.myworkdayjobs.com"
+   "status": "dropped",
+   "note": "posting URL is an impl- Workday sandbox tenant — applications there are void"
   },
   {
    "id": "6a55f04210c4d945d8645dc4",
@@ -985,18 +985,6 @@
    "atsUrl": "https://jobs.ashbyhq.com/semgrep/92b21a3a-fba8-4d71-9f4d-217850689f5f/application?utm_source=jobright&jr_id=698133edabff4c399aa01a84",
    "addedAt": "2026-08-30",
    "status": "local replay"
-  },
-  {
-   "id": "6a7b313cbc05d77f2bddd663",
-   "key": "williams::it product developer ii, iii, iv",
-   "title": "IT Product Developer II, III, IV",
-   "company": "Williams",
-   "matchPercent": 88,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a7b313cbc05d77f2bddd663",
-   "atsUrl": "https://williams.wd5.myworkdayjobs.com/external/job/OK-Tulsa---Headquarters/IT-Product-Engineer-II--III--IV_R112041?jr_id=6a7b313cbc05d77f2bddd663",
-   "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: williams.wd5.myworkdayjobs.com"
   },
   {
    "id": "6a3d4bd578237a036d5e0830",
@@ -1159,18 +1147,6 @@
    "note": "Canonical requires own-words pledge + personal academic history — user must complete personally"
   },
   {
-   "id": "6a10bc729fdbf21f36cb0628",
-   "key": "alkami technology::sr enterprise applications engineer",
-   "title": "Sr Enterprise Applications Engineer",
-   "company": "Alkami Technology",
-   "matchPercent": 86,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a10bc729fdbf21f36cb0628",
-   "atsUrl": "https://alkami.wd12.myworkdayjobs.com/alkami/job/US-Remote/Sr-Enterprise-Applications-Engineer_JR-000634?jr_id=6a10bc729fdbf21f36cb0628",
-   "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: alkami.wd12.myworkdayjobs.com"
-  },
-  {
    "id": "6a445a7e0153061b8b3e02b0",
    "key": "repurpose global::senior software engineer",
    "title": "Senior Software Engineer",
@@ -1307,7 +1283,7 @@
    "atsUrl": "https://blackline.wd108.myworkdayjobs.com/BlackLineCareers?jr_id=6a4234469dd7f954cafe9fa3",
    "addedAt": "2026-08-30",
    "status": "parked",
-   "note": "platform not automated from cloud: blackline.wd108.myworkdayjobs.com"
+   "note": "atsUrl is the careers root, no specific posting id — needs the real job URL to apply"
   },
   {
    "id": "6a5c7b2b63a8f619507cd81b",
@@ -1343,18 +1319,6 @@
    "addedAt": "2026-08-30",
    "status": "parked",
    "note": "platform not automated from cloud: careers.spglobal.com"
-  },
-  {
-   "id": "6a70d7df02d93145bf88c8b1",
-   "key": "crowdstrike::sr. software engineer - cloud (hybrid)",
-   "title": "Sr. Software Engineer - Cloud (Hybrid)",
-   "company": "CrowdStrike",
-   "matchPercent": 83,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a70d7df02d93145bf88c8b1",
-   "atsUrl": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Sr-Engineer-Cloud--Remote-_R29100?jr_id=6a70d7df02d93145bf88c8b1",
-   "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: crowdstrike.wd5.myworkdayjobs.com"
   },
   {
    "id": "6a5ad1344da96a42cfd97167",

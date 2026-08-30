@@ -348,3 +348,8 @@ User-requested follow-up: 4 Amazon roles submitted via alias account (Fauna Robo
 - Finastra — Senior Back-End Engineer (96%) — workday finastra.wd3, Application Submitted (account created)
 - OneMain Financial — Senior Staff Software Engineer (90%) — workday myhrhome.wd1, submitted
 - Expedia Group — Senior Software Development Engineer (89%) — workday expedia.wd108, submitted (Active 1)
+- Williams — IT Product Developer II, III, IV (88%) — workday williams.wd5, submitted
+- Alkami Technology — Sr Enterprise Applications Engineer (86%) — workday alkami.wd12, submitted
+- CrowdStrike — Sr. Software Engineer - Cloud (Hybrid) (83%) — workday crowdstrike.wd5, submitted
+
+Workday+Amazon follow-up complete: 4 Amazon + 6 Workday tenants (Finastra, OneMain, Expedia, Williams, Alkami, CrowdStrike) all submitted same day. SBM dropped (impl sandbox tenant), BlackLine needs a real posting URL. Day total 24 (14 overnight + 10 follow-up); all-time 204.

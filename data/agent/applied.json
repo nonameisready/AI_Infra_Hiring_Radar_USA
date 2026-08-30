@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-30T17:14:02.348Z",
+ "updatedAt": "2026-08-30T17:59:45.062Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -2570,6 +2570,39 @@
    "appliedAt": "2026-08-30",
    "via": "workday (pre-existing account)",
    "detail": "expedia.wd108 account already existed for the login email; Candidate Home shows Active (1)"
+  },
+  "6a7b313cbc05d77f2bddd663": {
+   "key": "williams::it product developer ii, iii, iv",
+   "title": "IT Product Developer II, III, IV",
+   "company": "Williams",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7b313cbc05d77f2bddd663",
+   "originalUrl": "https://williams.wd5.myworkdayjobs.com/external/job/OK-Tulsa---Headquarters/IT-Product-Engineer-II--III--IV_R112041?jr_id=6a7b313cbc05d77f2bddd663",
+   "appliedAt": "2026-08-30",
+   "via": "workday (new tenant account)",
+   "detail": "williams.wd5 account created; work history + UPenn education entries; Candidate Home confirms"
+  },
+  "6a10bc729fdbf21f36cb0628": {
+   "key": "alkami technology::sr enterprise applications engineer",
+   "title": "Sr Enterprise Applications Engineer",
+   "company": "Alkami Technology",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a10bc729fdbf21f36cb0628",
+   "originalUrl": "https://alkami.wd12.myworkdayjobs.com/alkami/job/US-Remote/Sr-Enterprise-Applications-Engineer_JR-000634?jr_id=6a10bc729fdbf21f36cb0628",
+   "appliedAt": "2026-08-30",
+   "via": "workday (new tenant account)",
+   "detail": "alkami.wd12 account created; Candidate Home confirms"
+  },
+  "6a70d7df02d93145bf88c8b1": {
+   "key": "crowdstrike::sr. software engineer - cloud (hybrid)",
+   "title": "Sr. Software Engineer - Cloud (Hybrid)",
+   "company": "CrowdStrike",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a70d7df02d93145bf88c8b1",
+   "originalUrl": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Sr-Engineer-Cloud--Remote-_R29100?jr_id=6a70d7df02d93145bf88c8b1",
+   "appliedAt": "2026-08-30",
+   "via": "workday (new tenant account)",
+   "detail": "crowdstrike.wd5 account created; why-CrowdStrike essay + AI-acknowledgment (interviews personal); Candidate Home confirms"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
