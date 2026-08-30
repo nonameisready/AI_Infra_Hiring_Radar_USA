@@ -307,6 +307,11 @@
    "match": "when (could|can) you start",
    "answer": "Immediately — within 30 days.",
    "note": "between roles"
+  },
+  {
+   "match": "government employee|employed by (a|any) government|government entity|prior (us |u\\.s\\. )?government employment|worked for (the )?(us|u\\.s\\.|chinese|prc) government",
+   "answer": "No — never a government employee of any country (including the U.S. and China).",
+   "note": "user 2026-08-30: never a Chinese or U.S. government employee"
   }
  ],
  "note": "Regex `match` is tested case-insensitively against a form question's label. Answers the user gives to open questions in questions.json get appended here so the agent never asks twice. Never store passwords or secrets in this file."
