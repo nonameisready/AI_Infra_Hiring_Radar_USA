@@ -66,11 +66,11 @@ const apPath = path.join(REPO, "data/agent/applied.json");
 const pend = JSON.parse(fs.readFileSync(pendPath, "utf8"));
 const ap = JSON.parse(fs.readFileSync(apPath, "utf8"));
 
-const targets = pend.items.filter((i) => /local replay/i.test(i.reason || ""));
+const targets = pend.items.filter((i) => /local replay/i.test(i.reason || "") || /local replay/i.test(i.status || ""));
 const platformOf = (u) =>
   /ashbyhq\.com/.test(u ?? "") ? "ashby" : /greenhouse|thatch\.com/.test(u ?? "") ? "greenhouse" : null;
 const jobs = targets
-  .map((i) => ({ ...i, platform: platformOf(i.originalUrl) }))
+  .map((i) => ({ ...i, platform: platformOf(i.originalUrl || i.atsUrl), originalUrl: i.originalUrl || i.atsUrl }))
   .filter((i) => i.platform && (!ONLY || i.platform === ONLY));
 console.log(`${jobs.length} job(s) to replay (${DRY ? "DRY RUN — no submissions" : "submitting for real"})`);
 console.log(`Screenshots and work files: ${WORK}`);
