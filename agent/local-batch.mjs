@@ -13,7 +13,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { spawn, execSync } from "node:child_process";
-import { waitForSecurityCode } from "./gmail-code.mjs";
+import { waitForSecurityCode, waitForJobrightCode } from "./gmail-code.mjs";
 
 const REPO = path.resolve(path.join(path.dirname(new URL(import.meta.url).pathname), ".."));
 const CFG_DIR = path.join(os.homedir(), ".jobright-agent");
@@ -67,12 +67,28 @@ function run(script, args, onLine) {
   });
 }
 
-// 2) harvest (login if the saved cookie expired)
+// 2) harvest (login if the saved cookie expired; Jobright may email a code —
+//    fetch it via Gmail OAuth and feed it through the worker's --code-file)
+const loginStartedAt = () => Date.now();
+async function jobrightLogin() {
+  const t0 = Date.now();
+  const out = await run(path.join(REPO, "worker/jobright-agent.mjs"), ["login"], async (line) => {
+    if (/verification_code_needed|waiting for verification code/.test(line)) {
+      log("Jobright emailed a login code — polling Gmail…");
+      const hit = await waitForJobrightCode(t0, 150_000);
+      if (hit) { fs.writeFileSync(path.join(WORK, "login-code.txt"), hit.code); log(`login code ${hit.code}`); }
+      else log("no login code arrived in time");
+    }
+  });
+  const m = out.match(/"reason"\s*:\s*"([^"]+)"/);
+  if (m && !/already/.test(out)) log(`login result: ${m[1]}`);
+  return out;
+}
 log("harvesting Jobright matches…");
 let harvest = await run(path.join(REPO, "worker/jobright-agent.mjs"), ["matches"]);
 if (/not_logged_in/.test(harvest)) {
   log("cookie expired — logging in…");
-  await run(path.join(REPO, "worker/jobright-agent.mjs"), ["login"]);
+  await jobrightLogin();
   harvest = await run(path.join(REPO, "worker/jobright-agent.mjs"), ["matches"]);
 }
 let matches;

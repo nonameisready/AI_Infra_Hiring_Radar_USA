@@ -81,3 +81,27 @@ if (process.argv[1] && process.argv[1].endsWith("gmail-code.mjs")) {
   const hit = await latestSecurityCode(0);
   console.log(hit ? `✅ Gmail OAuth works — newest code ${hit.code} (${hit.subject})` : "✅ Gmail OAuth works — no recent security-code email found");
 }
+
+/** Newest Jobright login verification code (4-8 digits) after `afterMs`. */
+export async function latestJobrightCode(afterMs = 0) {
+  const q = encodeURIComponent("from:jobright.ai newer_than:1h");
+  const list = await gmail(`messages?q=${q}&maxResults=5`);
+  for (const m of list.messages ?? []) {
+    const msg = await gmail(`messages/${m.id}?format=metadata&metadataHeaders=Subject`);
+    if (Number(msg.internalDate) <= afterMs) continue;
+    const subj = msg.payload?.headers?.find((h) => h.name === "Subject")?.value ?? "";
+    const code = (subj + " " + (msg.snippet || "")).match(/\b(\d{4,8})\b/)?.[1];
+    if (code) return { code, subject: subj, at: Number(msg.internalDate) };
+  }
+  return null;
+}
+
+export async function waitForJobrightCode(afterMs, timeoutMs = 150_000) {
+  const deadline = Date.now() + timeoutMs;
+  while (Date.now() < deadline) {
+    const hit = await latestJobrightCode(afterMs);
+    if (hit) return hit;
+    await new Promise((r) => setTimeout(r, 8000));
+  }
+  return null;
+}
