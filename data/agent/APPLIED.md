@@ -346,3 +346,5 @@ Day total: 14 auto-confirmed (4 batch + 9 repass + 1 retry). 8 one-control-away 
 
 User-requested follow-up: 4 Amazon roles submitted via alias account (Fauna Robotics 90, S3 Storage Cells 88, Data Nexus 85, AWS CloudFormation 84) — all result=success.
 - Finastra — Senior Back-End Engineer (96%) — workday finastra.wd3, Application Submitted (account created)
+- OneMain Financial — Senior Staff Software Engineer (90%) — workday myhrhome.wd1, submitted
+- Expedia Group — Senior Software Development Engineer (89%) — workday expedia.wd108, submitted (Active 1)

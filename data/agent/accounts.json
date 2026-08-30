@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-30T16:46:34.150Z",
+ "updatedAt": "2026-08-30T17:14:02.348Z",
  "note": "Company ATS accounts the agent registered for the applicant. Passwords are NEVER stored here or anywhere in the repo — every account uses the email below plus the password in the ATS_ACCOUNT_PASSWORD environment variable (Claude Code env settings). To apply to a company already listed: sign in with these credentials instead of registering again.",
  "loginEmail": "huiluckylucky@gmail.com",
  "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
@@ -41,6 +41,18 @@
    "company": "Finastra",
    "loginUrl": "https://finastra.wd3.myworkdayjobs.com/finc",
    "status": "active — created 2026-08-30 by the agent; standard login (file header creds)"
+  },
+  {
+   "site": "myhrhome.wd1.myworkdayjobs.com",
+   "company": "OneMain Financial",
+   "loginUrl": "https://myhrhome.wd1.myworkdayjobs.com/onemaincareers",
+   "status": "active — created 2026-08-30 by the agent; standard login"
+  },
+  {
+   "site": "expedia.wd108.myworkdayjobs.com",
+   "company": "Expedia Group",
+   "loginUrl": "https://expedia.wd108.myworkdayjobs.com/search",
+   "status": "active — pre-existing account, standard login works (2026-08-30)"
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."

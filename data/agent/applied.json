@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-30T16:46:34.151Z",
+ "updatedAt": "2026-08-30T17:14:02.348Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -2548,6 +2548,28 @@
    "appliedAt": "2026-08-30",
    "via": "workday (new tenant account)",
    "detail": "Account created on finastra.wd3; Candidate Home shows Application Submitted Aug 30 2026"
+  },
+  "69f3eaed58b23a2329da8d4d": {
+   "key": "onemain financial::senior staff software engineer (node, react, graphql, aws)",
+   "title": "Senior Staff Software Engineer (Node, React, GraphQL, AWS)",
+   "company": "OneMain Financial",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69f3eaed58b23a2329da8d4d",
+   "originalUrl": "https://myhrhome.wd1.myworkdayjobs.com/onemaincareers/job/Charlotte-NC/AD---Software-Engineer_R2507-47145?jr_id=69f3eaed58b23a2329da8d4d",
+   "appliedAt": "2026-08-30",
+   "via": "workday (new tenant account)",
+   "detail": "myhrhome.wd1 account created; submitted with BoA work-history entry; Candidate Home confirms"
+  },
+  "6a93381b36036300991981fb": {
+   "key": "expedia group::senior software development engineer",
+   "title": "Senior Software Development Engineer",
+   "company": "Expedia Group",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a93381b36036300991981fb",
+   "originalUrl": "https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Senior-Software-Development-Engineer_R-107569-2?jr_id=6a93381b36036300991981fb",
+   "appliedAt": "2026-08-30",
+   "via": "workday (pre-existing account)",
+   "detail": "expedia.wd108 account already existed for the login email; Candidate Home shows Active (1)"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-30T16:46:34.151Z",
+ "updatedAt": "2026-08-30T17:14:02.348Z",
  "items": [
   {
    "id": "6a8e124ed34f700f87fd7c0d",
@@ -851,18 +851,6 @@
    "note": "platform not automated from cloud: careers.snowflake.com"
   },
   {
-   "id": "69f3eaed58b23a2329da8d4d",
-   "key": "onemain financial::senior staff software engineer (node, react, graphql, aws)",
-   "title": "Senior Staff Software Engineer (Node, React, GraphQL, AWS)",
-   "company": "OneMain Financial",
-   "matchPercent": 90,
-   "jobrightUrl": "https://jobright.ai/jobs/info/69f3eaed58b23a2329da8d4d",
-   "atsUrl": "https://myhrhome.wd1.myworkdayjobs.com/onemaincareers/job/Charlotte-NC/AD---Software-Engineer_R2507-47145?jr_id=69f3eaed58b23a2329da8d4d",
-   "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: myhrhome.wd1.myworkdayjobs.com"
-  },
-  {
    "id": "6a935ca0a27a2d3c9848dc6f",
    "key": "job spread::senior software engineer",
    "title": "Senior Software Engineer",
@@ -885,18 +873,6 @@
    "addedAt": "2026-08-30",
    "status": "parked",
    "note": "platform not automated from cloud: www.careers-page.com"
-  },
-  {
-   "id": "6a93381b36036300991981fb",
-   "key": "expedia group::senior software development engineer",
-   "title": "Senior Software Development Engineer",
-   "company": "Expedia Group",
-   "matchPercent": 89,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a93381b36036300991981fb",
-   "atsUrl": "https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Senior-Software-Development-Engineer_R-107569-2?jr_id=6a93381b36036300991981fb",
-   "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: expedia.wd108.myworkdayjobs.com"
   },
   {
    "id": "6a5f8b6bb0f20036bc631867",
