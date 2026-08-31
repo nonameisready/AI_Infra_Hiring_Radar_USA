@@ -91,7 +91,7 @@ for (let i = 0; i < slice.length; i++) {
       if (ghDisabled) { log({ ...job, atsUrl, status: "park", reason: "greenhouse disabled this window (rate limit)" }); say(`SKIP-GH ${tag}`); continue; }
       if (ghCount >= GH_CAP) { log({ ...job, atsUrl, status: "park", reason: "greenhouse window cap reached" }); say(`CAP-GH ${tag}`); continue; }
       fs.rmSync(path.join(WORK, "gh-code.txt"), { force: true });
-      const res = await runNode(path.join(REPO, ".gh-finish.mjs"), [atsUrl, path.join(WORK, "generic-answers.json"), "--submit"], 600000);
+      const res = await runNode(path.join(REPO, "agent/finishers/gh-finish.mjs"), [atsUrl, process.env.ANSWERS_FILE ?? path.join(REPO, "agent/finishers/generic-answers.json"), "--submit"], 600000);
       const rj = parseJson(res.out) ?? {};
       const snippet = rj.confirmationSnippet ?? "";
       if (rj.confirmation) {
@@ -113,7 +113,7 @@ for (let i = 0; i < slice.length; i++) {
       }
     } else if (/ashbyhq\.com$/.test(host)) {
       if (ashbyDisabled) { log({ ...job, atsUrl, status: "park", reason: "ashby blocked this IP earlier" }); say(`SKIP-ASHBY ${tag}`); continue; }
-      const res = await runNode(path.join(REPO, ".ashby-finish.mjs"), [atsUrl, "--submit"], 420000);
+      const res = await runNode(path.join(REPO, "agent/finishers/ashby-finish.mjs"), [atsUrl, "--submit"], 420000);
       const rj = parseJson(res.out) ?? {};
       if (rj.confirmation) {
         log({ ...job, atsUrl, status: "submitted", via: "ashby" });
@@ -126,6 +126,23 @@ for (let i = 0; i < slice.length; i++) {
       } else {
         log({ ...job, atsUrl, status: "park", reason: `ashby unconfirmed: ${(rj.confirmationSnippet ?? rj.error ?? "?").slice(0, 100)}` });
         say(`UNCONFIRMED ${tag} [ashby]`);
+      }
+    } else if (/lever\.co$/.test(host)) {
+      const res = await runNode(path.join(REPO, "agent/finishers/lever-finish.mjs"), [atsUrl, process.env.ANSWERS_FILE ?? path.join(REPO, "agent/finishers/generic-answers.json"), "--submit"], 420000);
+      const rj = parseJson(res.out) ?? {};
+      if (rj.confirmation) {
+        log({ ...job, atsUrl, status: "submitted", via: "lever" });
+        say(`OK ${tag} [lever]`);
+        await new Promise((r) => setTimeout(r, 90000));
+      } else if (rj.error === "captcha_challenge") {
+        log({ ...job, atsUrl, status: "park", reason: "lever hCaptcha challenged this IP" });
+        say(`LEVER-CAPTCHA ${tag}`);
+      } else if ((rj.missingRequired ?? []).length) {
+        log({ ...job, atsUrl, status: "needs_answers", missing: rj.missingRequired });
+        say(`NEEDS-ANSWERS ${tag}: ${JSON.stringify(rj.missingRequired).slice(0, 160)}`);
+      } else {
+        log({ ...job, atsUrl, status: "park", reason: `lever unconfirmed: ${(rj.confirmationSnippet ?? rj.error ?? "?").slice(0, 100)}` });
+        say(`UNCONFIRMED ${tag} [lever]`);
       }
     } else {
       log({ ...job, atsUrl, status: "park", reason: `platform not automated from cloud: ${host}` });
