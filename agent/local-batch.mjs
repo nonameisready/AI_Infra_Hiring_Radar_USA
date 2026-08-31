@@ -53,19 +53,26 @@ const stateHome = path.join(CFG_DIR, "jobright-state.json");
 if (fs.existsSync(stateHome)) fs.copyFileSync(stateHome, path.join(WORK, "jobright-state.json"));
 const env = { ...process.env, AGENT_WORK_DIR: WORK, REPO_DIR: REPO, ANSWERS_FILE: path.join(REPO, "agent/finishers/generic-answers.json") };
 
-function run(script, args, onLine) {
+function run(script, args, onLine, maxMs = 15 * 60_000) {
   return new Promise((resolve) => {
     const p = spawn("node", [script, ...args], { cwd: REPO, env });
     let out = "";
+    const watchdog = setTimeout(() => {
+      log(`WATCHDOG: ${path.basename(script)} exceeded ${maxMs / 60000}min — killing it. Last output:`);
+      for (const l of out.split("\n").slice(-6)) if (l.trim()) log(`  | ${l.slice(0, 160)}`);
+      p.kill("SIGKILL");
+    }, maxMs);
     const feed = (d) => {
       out += d;
       for (const line of d.toString().split("\n")) if (line.trim() && onLine) onLine(line);
     };
     p.stdout.on("data", feed);
     p.stderr.on("data", feed);
-    p.on("exit", () => resolve(out));
+    p.on("exit", () => { clearTimeout(watchdog); resolve(out); });
   });
 }
+// hard cap on the whole batch so a wedged run can never block the next night
+setTimeout(() => { log("GLOBAL TIMEOUT (5h) — exiting so launchd can run tomorrow"); process.exit(3); }, 5 * 60 * 60_000).unref();
 
 // 2) harvest (login if the saved cookie expired; Jobright may email a code —
 //    fetch it via Gmail OAuth and feed it through the worker's --code-file)
@@ -147,7 +154,7 @@ async function onLine(line) {
 
 // 5) run the batch (session-tools batch-apply: resolves ATS urls, caps, pacing)
 fs.copyFileSync(path.join(REPO, "agent/session-tools/batch-apply.mjs"), path.join(WORK, "batch-apply.mjs"));
-await run(path.join(WORK, "batch-apply.mjs"), ["--start", "0", "--count", String(queue.length), "--gh-cap", String(GH_CAP)], onLine);
+await run(path.join(WORK, "batch-apply.mjs"), ["--start", "0", "--count", String(queue.length), "--gh-cap", String(GH_CAP)], onLine, 4 * 60 * 60_000);
 
 // 6) collect results
 const lines = fs.readFileSync(path.join(WORK, "batch-results.jsonl"), "utf8").trim().split("\n").map((l) => JSON.parse(l));
@@ -171,7 +178,7 @@ if (needs.length) {
     fs.writeFileSync(path.join(WORK, "repass-answers.json"), JSON.stringify(live, null, 1));
     fs.writeFileSync(path.join(WORK, "repass.json"), JSON.stringify(needs.map((r) => ({ company: r.company, match: r.matchPercent, url: r.atsUrl, id: r.id, title: r.title, key: r.key })), null, 1));
     fs.copyFileSync(path.join(REPO, "agent/session-tools/repass.mjs"), path.join(WORK, "repass.mjs"));
-    await run(path.join(WORK, "repass.mjs"), [], onLine);
+    await run(path.join(WORK, "repass.mjs"), [], onLine, 90 * 60_000);
     try { retried = fs.readFileSync(path.join(WORK, "repass-results.jsonl"), "utf8").trim().split("\n").map((l) => JSON.parse(l)); } catch {}
   } else log("qwen not reachable — needs_answers go to brain-queue as-is");
 }
