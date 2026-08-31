@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-30T17:59:45.062Z",
+ "updatedAt": "2026-08-31T12:50:36.956Z",
  "note": "Company ATS accounts the agent registered for the applicant. Passwords are NEVER stored here or anywhere in the repo — every account uses the email below plus the password in the ATS_ACCOUNT_PASSWORD environment variable (Claude Code env settings). To apply to a company already listed: sign in with these credentials instead of registering again.",
  "loginEmail": "huiluckylucky@gmail.com",
  "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
@@ -71,6 +71,18 @@
    "company": "CrowdStrike",
    "loginUrl": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers",
    "status": "active — created 2026-08-30 by the agent"
+  },
+  {
+   "site": "invesco.wd1.myworkdayjobs.com",
+   "company": "Invesco",
+   "loginUrl": "https://invesco.wd1.myworkdayjobs.com/ivz",
+   "status": "active — created+email-activated 2026-08-31 by the agent"
+  },
+  {
+   "site": "fiserv.wd5.myworkdayjobs.com",
+   "company": "Fiserv",
+   "loginUrl": "https://fiserv.wd5.myworkdayjobs.com/ext",
+   "status": "active — created+email-activated 2026-08-31; application draft pending user WOTC assessment"
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."
