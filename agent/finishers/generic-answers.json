@@ -973,6 +973,10 @@
   {
    "label": "what time ?zone",
    "prefer": "eastern"
+  },
+  {
+   "label": "critical technical trade-off",
+   "prefer": "work with product/?stakeholders|long-term risk"
   }
  ],
  "texts": [
@@ -1323,10 +1327,6 @@
   {
    "label": "^(today'?s )?date\\s*\\*?$",
    "text": "08/31/2026"
-  },
-  {
-   "label": "critical technical trade-off",
-   "text": "When a trade-off will delay a launch, I surface it early rather than absorb it silently. I first quantify both paths — performance, reliability, and engineering cost — with data or a quick prototype, then bring PM and stakeholders two or three concrete options with their timelines and risks spelled out. I recommend the option I believe in, but I make sure the decision is made jointly with the people who own the launch commitment, and I document the reasoning so the team can revisit it later. At Bank of America this approach let us ship a compliant interim design on schedule while the more scalable rewrite landed one sprint later."
   },
   {
    "label": "location \\(city\\)",

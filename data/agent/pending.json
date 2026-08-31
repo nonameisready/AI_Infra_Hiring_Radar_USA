@@ -167,12 +167,13 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a531546e726ec56126a59a5",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=samayaai&jr_id=6a531546e726ec56126a59a5&token=4649183007&utm_source=jobright",
    "addedAt": "2026-08-30",
-   "status": "needs_answers",
+   "status": "local replay",
    "note": "one control from done: async Location(City) typeahead returns no options",
    "missing": [
     "Location (City)*",
     "Samaya AI Applicant Privacy Notice *"
-   ]
+   ],
+   "reason": "Greenhouse city typeahead gets no suggestions from datacenter IP — commit fails; run gh-finish from the Mac (rules ready)"
   },
   {
    "id": "6968bb981703f05405aa945e",
