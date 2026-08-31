@@ -61,9 +61,9 @@ try {
 
   // Comboboxes: click, read the freshly opened listbox, pick by preference.
   for (const c of ANSWERS.combos ?? []) {
-    const combo = page.locator('[role="combobox"], select').filter({ has: page.locator(":scope") });
+    const combo = page.locator('[role="combobox"], select, button[aria-haspopup="listbox"], div[aria-haspopup="listbox"]').filter({ has: page.locator(":scope") });
     const target = await (async () => {
-      const all = page.locator('[role="combobox"], select');
+      const all = page.locator('[role="combobox"], select, button[aria-haspopup="listbox"], div[aria-haspopup="listbox"]');
       const n = await all.count();
       for (let i = 0; i < n; i++) {
         const el = all.nth(i);
@@ -114,6 +114,13 @@ try {
       options = await page.evaluate(() =>
         Array.from(document.querySelectorAll('[role="option"]')).filter((o) => o.offsetParent !== null).map((o) => o.innerText.trim()));
     }
+    if (!options.length) {
+      // custom widgets render plain <li> inside a listbox instead of role=option
+      options = await page.evaluate(() =>
+        Array.from(document.querySelectorAll('ul[role="listbox"] li, [class*="select__option"], [class*="menu"] li'))
+          .filter((o) => o.offsetParent !== null && o.innerText.trim())
+          .map((o) => o.innerText.trim()));
+    }
     let pick = options.find((o) => new RegExp(c.prefer, "i").test(o));
     if (!pick && options.length === 1) pick = options[0];
     if (pick) {
@@ -125,6 +132,15 @@ try {
           await page.getByRole("option", { name: pick }).first().click({ timeout: 10000 });
         });
       out.combos.push({ label: target.label, picked: pick, options: options.slice(0, 8) });
+    } else if (!options.length && c.type) {
+      // async typeahead that never listed options: commit the typed text
+      await target.el.press("Enter").catch(() => {});
+      out.combos.push({ label: target.label, picked: `typed: ${c.type}` });
+    } else if (pick) {
+      // plain-li menus aren't in the a11y tree — click by text within the open list
+      await page.locator('ul[role="listbox"] li, [class*="select__option"]').filter({ hasText: pick }).first()
+        .click({ timeout: 8000 }).catch(() => {});
+      out.combos.push({ label: target.label, picked: pick, via: "li" });
     } else {
       out.combos.push({ label: target.label, result: "no_option_matched", options: options.slice(0, 10) });
       await page.locator("body").click({ position: { x: 5, y: 5 } }).catch(() => {});
@@ -156,6 +172,59 @@ try {
     }
     if (!done) out.texts.push({ label: t.label, result: "not_found" });
   }
+
+  // Checkbox GROUPS (mark-all-that-apply / pick-a-location): match the group's
+  // question against combos rules and check the member whose label matches prefer.
+  const groupResults = await page.evaluate((rules) => {
+    const results = [];
+    const boxes = Array.from(document.querySelectorAll('input[type="checkbox"]')).filter((e) => e.offsetParent !== null);
+    const groups = new Map();
+    for (const b of boxes) {
+      let container = b.closest("fieldset");
+      if (!container) {
+        container = b.parentElement;
+        for (let d = 0; d < 6 && container; d++) {
+          if (container.querySelectorAll('input[type="checkbox"]').length >= 2) break;
+          container = container.parentElement;
+        }
+      }
+      if (!container || container.querySelectorAll('input[type="checkbox"]').length < 2) continue;
+      if (!groups.has(container)) groups.set(container, []);
+      groups.get(container).push(b);
+    }
+    for (const [container, members] of groups) {
+      const question = (container.innerText ?? "").split("\n").map((t) => t.trim()).find((t) => t.length > 8) ?? "";
+      if (members.some((m) => m.checked)) continue;
+      for (const r of rules) {
+        if (!new RegExp(r.label, "i").test(question)) continue;
+        const preferRe = new RegExp(r.prefer, "i");
+        const hit = members.find((m) => preferRe.test((m.labels?.[0]?.innerText || m.value || m.parentElement?.innerText || "").trim()));
+        if (hit) { hit.click(); results.push({ group: question.slice(0, 60), picked: (hit.labels?.[0]?.innerText || hit.value || "").slice(0, 50) }); }
+        break;
+      }
+    }
+    return results;
+  }, ANSWERS.combos ?? []);
+  for (const g of groupResults) out.combos.push({ label: g.group, picked: `group: ${g.picked}` });
+  await page.waitForTimeout(400);
+
+  // Auto-consent: any unchecked consent/acknowledgment checkbox gets checked.
+  const consented = await page.evaluate(() => {
+    const re = /i agree|acknowledge|consent|certify|privacy (notice|policy)|terms|arbitration|i have read/i;
+    const done = [];
+    for (const e of document.querySelectorAll('input[type="checkbox"]')) {
+      if (e.offsetParent === null || e.checked) continue;
+      let lbl = e.labels?.[0]?.innerText || "";
+      let node = e.parentElement;
+      for (let d = 0; d < 5 && node && !lbl.trim(); d++) { lbl = node.innerText ?? ""; node = node.parentElement; }
+      // never auto-check own-words/original-work pledges — those are the user's
+      if (/own words|only my own|without (the use of )?ai/i.test(lbl)) continue;
+      if (re.test(lbl)) { e.click(); done.push(lbl.trim().slice(0, 50)); }
+    }
+    return done;
+  });
+  for (const c2 of consented) out.combos.push({ label: "auto-consent", picked: c2 });
+  await page.waitForTimeout(300);
 
   // Consent-style checkboxes, matched by walked label text.
   for (const cb of ANSWERS.checkboxes ?? []) {

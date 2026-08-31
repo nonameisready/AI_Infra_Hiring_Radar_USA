@@ -829,6 +829,150 @@
   {
    "label": "how soon.*(start|able)",
    "prefer": "immediate|asap|2 ?week|30 ?day|1 ?month|within|less than"
+  },
+  {
+   "label": "^start date month",
+   "prefer": "^june$"
+  },
+  {
+   "label": "^start date year",
+   "prefer": "^2024$"
+  },
+  {
+   "label": "^end date month",
+   "prefer": "^december$"
+  },
+  {
+   "label": "^end date year",
+   "prefer": "^2025$"
+  },
+  {
+   "label": "require zuora to (commence|sponsor)|commence .{0,4}sponsor",
+   "prefer": "^yes"
+  },
+  {
+   "label": "(previously|ever) been (previously )?employed by realtor",
+   "prefer": "^no"
+  },
+  {
+   "label": "relative\\(?s?\\)? employed by realtor",
+   "prefer": "^no"
+  },
+  {
+   "label": "18 years of age or older|are you 18\\b",
+   "prefer": "^yes"
+  },
+  {
+   "label": "confirm your legal authorization .* provide|provide documentation .* (authoriz|eligib|verif)",
+   "prefer": "^yes"
+  },
+  {
+   "label": "right to work in the (us\\b|u\\.s|united states)",
+   "prefer": "^yes"
+  },
+  {
+   "label": "based in one of the preferred locations",
+   "prefer": "^no"
+  },
+  {
+   "label": "^current location",
+   "prefer": "new york"
+  },
+  {
+   "label": "^work authorization",
+   "prefer": "f-?1|cpt|ead|other"
+  },
+  {
+   "label": "^sponsorship requirements?",
+   "prefer": "^yes|require"
+  },
+  {
+   "label": "terms (and|&) conditions",
+   "prefer": "agree|accept|^yes"
+  },
+  {
+   "label": "application consent",
+   "prefer": "^yes|agree|consent|acknowledge"
+  },
+  {
+   "label": "applicant privacy notice",
+   "prefer": "agree|acknowledge|^yes|accept"
+  },
+  {
+   "label": "arbitration agreement",
+   "prefer": "agree|acknowledge|^yes|accept"
+  },
+  {
+   "label": "hybrid role based in san francisco|acknowledge that this is a hybrid",
+   "prefer": "^yes|acknowledge"
+  },
+  {
+   "label": "agreement with a former employer|(non.?compete|restrictive covenant).{0,40}former",
+   "prefer": "^no"
+  },
+  {
+   "label": "^i identify as",
+   "prefer": "decline|prefer not|don'?t wish"
+  },
+  {
+   "label": "entrusted with a position or function in any gover",
+   "prefer": "^no"
+  },
+  {
+   "label": "immediate family member of someone holding",
+   "prefer": "^no"
+  },
+  {
+   "label": "referred (to this role )?by a current .* employee",
+   "prefer": "^no"
+  },
+  {
+   "label": "^acknowledge/?confirm|^acknowledge\\b",
+   "prefer": "acknowledge|confirm|^yes|agree"
+  },
+  {
+   "label": "which (of (our|the) )?(office|location|hub)s?\\b|office (location )?(are you|would you|do you)|location\\(s\\)",
+   "prefer": "new york|^remote"
+  },
+  {
+   "label": "how familiar were you with",
+   "prefer": "somewhat|heard of|familiar"
+  },
+  {
+   "label": "state or canadian province|which .*state.*reside",
+   "prefer": "^new york"
+  },
+  {
+   "label": "previously been employed (at|by) .* for any length|been employed by .* before",
+   "prefer": "^no"
+  },
+  {
+   "label": "procurement or contract award activities",
+   "prefer": "^no"
+  },
+  {
+   "label": "^i agree$",
+   "prefer": "^yes|agree"
+  },
+  {
+   "label": "which of these technologies",
+   "prefer": "java|python|\\bgo\\b|aws|kubernetes|postgres|sql"
+  },
+  {
+   "label": "comprehensive background check|background check may consist",
+   "prefer": "^yes|acknowledge|agree"
+  },
+  {
+   "label": "previous (lvt )?employee\\b",
+   "prefer": "^no"
+  },
+  {
+   "label": "close personal relationship with an",
+   "prefer": "^no"
+  },
+  {
+   "label": "what time ?zone",
+   "prefer": "eastern"
   }
  ],
  "texts": [
@@ -1127,6 +1271,62 @@
   {
    "label": "how.?(where)? did you first learn|how did you (hear|learn)",
    "text": "Job board (Jobright)"
+  },
+  {
+   "label": "^company name",
+   "text": "Bank of America (via Innova Solutions)"
+  },
+  {
+   "label": "^title \\*?$|^title$",
+   "text": "Senior Software Engineer"
+  },
+  {
+   "label": "^start date month",
+   "text": "June"
+  },
+  {
+   "label": "^start date year",
+   "text": "2024"
+  },
+  {
+   "label": "^end date month",
+   "text": "December"
+  },
+  {
+   "label": "^end date year",
+   "text": "2025"
+  },
+  {
+   "label": "^current location",
+   "text": "New York, NY"
+  },
+  {
+   "label": "^work authorization",
+   "text": "F-1 student with valid CPT/EAD employment authorization (valid through 05/31/2027)."
+  },
+  {
+   "label": "^sponsorship requirements?",
+   "text": "Yes — I will require sponsorship in the future; currently authorized to work on F-1 CPT/EAD (valid through 05/31/2027)."
+  },
+  {
+   "label": "what time ?zone",
+   "text": "Eastern Time (ET) — New York"
+  },
+  {
+   "label": "please enter the name\\(s\\)|enter the name\\(s\\) of",
+   "text": "N/A"
+  },
+  {
+   "label": "post-secondary education",
+   "text": "University of Pennsylvania; Master of Science, Computer Science; 2021"
+  },
+  {
+   "label": "^(today'?s )?date \\*?$|^date$",
+   "text": "08/31/2026"
+  },
+  {
+   "label": "critical technical trade-off",
+   "text": "When a trade-off will delay a launch, I surface it early rather than absorb it silently. I first quantify both paths — performance, reliability, and engineering cost — with data or a quick prototype, then bring PM and stakeholders two or three concrete options with their timelines and risks spelled out. I recommend the option I believe in, but I make sure the decision is made jointly with the people who own the launch commitment, and I document the reasoning so the team can revisit it later. At Bank of America this approach let us ship a compliant interim design on schedule while the more scalable rewrite landed one sprint later."
   }
  ],
  "checkboxes": [
