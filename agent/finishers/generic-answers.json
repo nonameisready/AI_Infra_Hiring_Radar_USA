@@ -944,7 +944,7 @@
   },
   {
    "label": "previously been employed (at|by) .* for any length|been employed by .* before",
-   "prefer": "^no"
+   "prefer": "^no|have not (previously )?been employed|never been employed"
   },
   {
    "label": "procurement or contract award activities",
