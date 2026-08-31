@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-31T17:41:56.207Z",
+ "updatedAt": "2026-08-31T17:46:54.400Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -3030,6 +3030,19 @@
    "via": "greenhouse (cloud repass pass 3, rule answers)",
    "detail": "Honest text answers for the frontend-stack list and employee-relationship questions; confirmation page verified.",
    "at": "2026-08-31T17:41:56.207Z"
+  },
+  "691d23e70b7dff73415002f2": {
+   "id": "691d23e70b7dff73415002f2",
+   "key": "adyen::senior software engineer (java) - bank payments",
+   "title": "Senior Software Engineer (Java) - Bank Payments",
+   "company": "Adyen",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/691d23e70b7dff73415002f2",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=adyen&jr_id=691d23e70b7dff73415002f2&token=7407270&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (cloud repass pass 4, rule answers)",
+   "detail": "Trade-off question answered via select option B (communicate long-term risk with product/stakeholders); confirmation verified.",
+   "at": "2026-08-31T17:46:54.400Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

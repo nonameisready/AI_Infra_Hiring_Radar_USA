@@ -363,3 +363,6 @@ Ashby local replay (evening): all 8 submitted — auto: Nubank (94), Ramp (89), 
 - Invesco — Sr Eng, Invest Tech (89%) — workday invesco.wd1, submitted
 
 Workday round notes: Capital One account locked/password mismatch (user resets); Fiserv draft saved, blocked on mandatory WOTC assessment (user-personal). 12 more Workday tenants remain parked for coming windows.
+
+## 2026-08-31 (afternoon) — needs_answers backlog cleared by cloud repass
+21 jobs, 86 questions: 18 submitted across 4 passes (Affirm 96, Clerkie, Kargo, Realtor.com, Chime, Pave, Clear Street, Zscaler, Vestwell, Upstart, Roblox, VulnCheck, Zuora, Optiver, Tower Research, Fivetran, LVT, Adyen). gh-finish grew custom-control support (all-matching-controls, radio pass, checkbox-group + office fallback, typeahead commit, native-setter texts). Samaya AI -> Mac replay (city typeahead needs residential IP); AHEAD (Lever) -> Mac replay; Eleventh Hour Games awaits user decision. All-time 240.

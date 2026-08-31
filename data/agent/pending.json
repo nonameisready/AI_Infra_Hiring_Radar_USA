@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-31T17:41:56.207Z",
+ "updatedAt": "2026-08-31T17:46:54.400Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -1301,21 +1301,6 @@
    "addedAt": "2026-08-31",
    "status": "parked",
    "note": "platform not automated from cloud: carefirstcareers.ttcportals.com"
-  },
-  {
-   "id": "691d23e70b7dff73415002f2",
-   "key": "adyen::senior software engineer (java) - bank payments",
-   "title": "Senior Software Engineer (Java) - Bank Payments",
-   "company": "Adyen",
-   "matchPercent": 82,
-   "jobrightUrl": "https://jobright.ai/jobs/info/691d23e70b7dff73415002f2",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=adyen&jr_id=691d23e70b7dff73415002f2&token=7407270&utm_source=jobright",
-   "addedAt": "2026-08-31",
-   "status": "needs_answers",
-   "missing": [
-    "When a critical technical trade-off needs to be made that will delay a",
-    "Acknowledge/Confirm"
-   ]
   },
   {
    "id": "6a92df13c12c90443efca6a0",
