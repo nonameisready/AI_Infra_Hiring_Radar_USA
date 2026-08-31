@@ -355,3 +355,7 @@ User-requested follow-up: 4 Amazon roles submitted via alias account (Fauna Robo
 Workday+Amazon follow-up complete: 4 Amazon + 6 Workday tenants (Finastra, OneMain, Expedia, Williams, Alkami, CrowdStrike) all submitted same day. SBM dropped (impl sandbox tenant), BlackLine needs a real posting URL. Day total 24 (14 overnight + 10 follow-up); all-time 204.
 
 Ashby local replay (evening): all 8 submitted — auto: Nubank (94), Ramp (89), Nexxa.ai (89), Medal (84); user manual: Hebbia (89), Semgrep (88), Harvey (85), Legora (84). Day total 32; all-time 212.
+
+## 2026-08-31 (5am cloud fallback — Mac batch missed)
+
+100 queued -> 7 submitted (Speechify 88, Hex 84, Nuro 82, Ridgeline 81, RapidFort 81, Metropolis 81, Mochi Health 81), 13 queued for Qwen rules, 3 dropped (MORSE Corp, Istari Digital defense; Cribl US-person), rest parked by platform. All-time 219.

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-30T19:14:44.601Z",
+ "updatedAt": "2026-08-31T11:59:33.926Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -2699,6 +2699,83 @@
    "appliedAt": "2026-08-30",
    "via": "ashby (local replay + user manual)",
    "detail": "User completed and submitted manually during the 2026-08-30 local replay round; script logged it as failed but the user confirmed submission"
+  },
+  "6a84060de021cc586fb693a2": {
+   "key": "speechify::software engineer, platform - durham, nc, usa",
+   "title": "Software Engineer, Platform - Durham, NC, USA",
+   "company": "Speechify",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a84060de021cc586fb693a2",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=speechify&jr_id=6a84060de021cc586fb693a2&token=5974238004&utm_source=jobright",
+   "appliedAt": "2026-08-31",
+   "via": "greenhouse (cloud fallback batch)",
+   "detail": "Submitted in the 5am cloud window; confirmation verified"
+  },
+  "6a59f4f6686b4755d1e12a5c": {
+   "key": "hex::software engineer, backend (platform)",
+   "title": "Software Engineer, Backend (Platform)",
+   "company": "Hex",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a59f4f6686b4755d1e12a5c",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=hextechnologies&jr_id=6a59f4f6686b4755d1e12a5c&token=5730885004&utm_source=jobright",
+   "appliedAt": "2026-08-31",
+   "via": "greenhouse (cloud fallback batch)",
+   "detail": "Submitted in the 5am cloud window; confirmation verified"
+  },
+  "68c0772c5c5d5f14f46ddd69": {
+   "key": "nuro::staff/senior software engineer, offboard infrastructure",
+   "title": "Staff/Senior Software Engineer, Offboard Infrastructure",
+   "company": "Nuro",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/68c0772c5c5d5f14f46ddd69",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=nuro&jr_id=68c0772c5c5d5f14f46ddd69&token=7238934&utm_source=jobright",
+   "appliedAt": "2026-08-31",
+   "via": "greenhouse (cloud fallback batch)",
+   "detail": "Submitted in the 5am cloud window; confirmation verified"
+  },
+  "6a18690cdbc80963f9343667": {
+   "key": "ridgeline::senior software engineer, investment performance and analytics",
+   "title": "Senior Software Engineer, Investment Performance and Analytics",
+   "company": "Ridgeline",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a18690cdbc80963f9343667",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=ridgeline&jr_id=6a18690cdbc80963f9343667&token=7636165003&utm_source=jobright",
+   "appliedAt": "2026-08-31",
+   "via": "greenhouse (cloud fallback batch)",
+   "detail": "Submitted in the 5am cloud window; confirmation verified"
+  },
+  "6a8cf4901d96e6541c8c39ed": {
+   "key": "rapidfort::senior software engineer – security & distributed systems",
+   "title": "Senior Software Engineer – Security & Distributed Systems",
+   "company": "RAPIDFORT",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8cf4901d96e6541c8c39ed",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=rapidfortinc&jr_id=6a8cf4901d96e6541c8c39ed&token=4381319009&utm_source=jobright",
+   "appliedAt": "2026-08-31",
+   "via": "greenhouse (cloud fallback batch)",
+   "detail": "Submitted in the 5am cloud window; confirmation verified"
+  },
+  "6a720f7245b6af1c30dbc4fe": {
+   "key": "metropolis technologies::senior software engineer, platform",
+   "title": "Senior Software Engineer, Platform",
+   "company": "Metropolis Technologies",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a720f7245b6af1c30dbc4fe",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=metropolis&jr_id=6a720f7245b6af1c30dbc4fe&token=7778312003&utm_source=jobright",
+   "appliedAt": "2026-08-31",
+   "via": "greenhouse (cloud fallback batch)",
+   "detail": "Submitted in the 5am cloud window; confirmation verified"
+  },
+  "6a503736fc327f422fef832d": {
+   "key": "mochi health::senior backend engineer",
+   "title": "Senior Backend Engineer",
+   "company": "Mochi Health",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a503736fc327f422fef832d",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=mochihealth&jr_id=6a503736fc327f422fef832d&token=5318664008&utm_source=jobright",
+   "appliedAt": "2026-08-31",
+   "via": "greenhouse (cloud fallback batch)",
+   "detail": "Submitted in the 5am cloud window; confirmation verified"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
