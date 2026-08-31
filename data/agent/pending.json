@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-30T19:14:44.601Z",
+ "updatedAt": "2026-08-31T01:27:38.923Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -131,8 +131,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a591d4a63a8f619507c04b7",
    "atsUrl": "https://jobs.lever.co/funxyz/a6764645-a33f-48e0-a82d-3496f9c8573d/apply?utm_source=jobright&jr_id=6a591d4a63a8f619507c04b7",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: jobs.lever.co"
+   "status": "local replay",
+   "note": "lever now supported — submit from residential IP (hCaptcha passive)"
   },
   {
    "id": "6a63c73d87cef057612ca8a4",
@@ -383,8 +383,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9035077c32860d14cf81fe",
    "atsUrl": "https://careers-cotiviti.icims.com/jobs/20113/senior-software-engineer/job?jr_id=6a9035077c32860d14cf81fe",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: careers-cotiviti.icims.com"
+   "status": "user_manual",
+   "note": "iCIMS email gate is hCaptcha-walled on datacenter IPs; register+apply manually or wait for a local icims flow"
   },
   {
    "id": "6a05f047320bff2205ea5dff",
@@ -393,10 +393,10 @@
    "company": "Zoox",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a05f047320bff2205ea5dff",
-   "atsUrl": "https://www.ziprecruiter.com/kn/AAIQN96x0wwtCTQPoXHseOPiUF9NYToZz1FN5dF9Fjdb3un3EtnmcGAUj8iI-sZHKn-ieGkaYGVEfuIbc7FI9O_PhSlryzboFVlpQeFtUwd9dbszE8dbqya5OE4RG7zqmPlaNzhI6SvkZ8HmO-NC6ML9Gr0Wk8PBCuc1Oemas4ffDyFtPyBQ0ylvH9EA0NXrpiIdA3po9OYTEeWSnWqxDEl1cW3gAnT9aLVCJgMOOch4sJr0AFPdkKnQ7yioYfWqeSDq_wyr0SXnwqPKLW1WPqpzrfSppSvDuCNCPtnWWB2sgz86VLt_GqM-5O1rd8pC_h46gkKTYIb_hpXzNeeeMwJOsf38OtEOQh2NSkZn9gLaIDtvzQbM_9ZL3vaqKPZWBo8kOp193LT-jBZ1p_N7_tfTn5bH0INL-hVONFOj42bWEq0HKM4BUjgIZh_Jt-ev-m-ObBAZsxp_gcUQI4-zlEtSMi3JLWVcBLbeYg?tsid=123468825&jr_id=6a05f047320bff2205ea5dff&__cf_chl_rt_tk=qMFJxwWwOpCwAjfRs6vG.GDwFwVZQ.4gvql0wHj9i7I-1788069147-1.0.1.1-xaSmiHwXx08iNHBj53PRpPK0tPjvdw8gjyIW8x_ETaE",
+   "atsUrl": "https://jobs.lever.co/zoox/c03ac4b4-ad7b-4407-aaea-66ebc09ca579",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.ziprecruiter.com"
+   "status": "local replay",
+   "note": "ZipRecruiter link resolved to the official Lever posting via api.lever.co"
   },
   {
    "id": "6a60ef1311edf44d7915eab9",
@@ -471,8 +471,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a592ad54da96a42cfd8f901",
    "atsUrl": "https://careers-here.icims.com/jobs/81686/sr.-software-engineer/job?jr_id=6a592ad54da96a42cfd8f901",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: careers-here.icims.com"
+   "status": "user_manual",
+   "note": "iCIMS email gate is hCaptcha-walled on datacenter IPs; register+apply manually or wait for a local icims flow"
   },
   {
    "id": "69208e0aa49a885af9a3ca68",
@@ -495,8 +495,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a445a7e0153061b8b3e02b0",
    "atsUrl": "https://jobs.lever.co/repurposeglobal/a87599f0-436e-4028-b05f-d2f9247ee1da/apply?utm_source=jobright&jr_id=6a445a7e0153061b8b3e02b0",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: jobs.lever.co"
+   "status": "local replay",
+   "note": "lever now supported — submit from residential IP (hCaptcha passive)"
   },
   {
    "id": "6a75d4fa7b3417772ade53aa",
@@ -588,8 +588,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7f5334927c79391ad07d58",
    "atsUrl": "https://careersus-shure.icims.com/jobs/4748/senior-engineer%2c-applications-systems-development/job?jr_id=6a7f5334927c79391ad07d58",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: careersus-shure.icims.com"
+   "status": "user_manual",
+   "note": "iCIMS email gate is hCaptcha-walled on datacenter IPs; register+apply manually or wait for a local icims flow"
   },
   {
    "id": "6a4234469dd7f954cafe9fa3",

@@ -560,3 +560,28 @@ One-time Mac setup:
 4. launchctl load both plists in agent/launchd/ (local-batch 1:00am,
    brain-rules 10:30am).
 Secrets live ONLY under ~/.jobright-agent/ — never in the repo.
+
+## Platform expansion results (2026-08-31)
+
+- **Lever: UNLOCKED.** No accounts exist on Lever — forms are single-page.
+  agent/finishers/lever-finish.mjs fills resume/identity/urls/cards (rules
+  from the answers file) and submits. Lever runs a PASSIVE hCaptcha that
+  escalates to a visible challenge on datacenter IPs (verified on funxyz) —
+  so Lever jobs route to the MAC batch / local replay (residential IP
+  passes silently). Never solve a visible challenge; report
+  captcha_challenge and park. batch-apply + local-replay both route
+  lever.co now.
+- **iCIMS: blocked from cloud.** The per-tenant login/registration email
+  gate is hCaptcha-protected and visibly challenges datacenter IPs before
+  any form is reachable. No finisher can be built blind from the cloud.
+  Tenants (Cotiviti, HERE, Shure) marked user_manual. Revisit: build an
+  icims flow interactively on the Mac if volume justifies it.
+- **ZipRecruiter: do not automate.** Links are Cloudflare-challenged
+  tracking redirects (jr urls carry __cf_chl tokens). Standing play:
+  RESOLVE the aggregator link to the company's own ATS instead — e.g.
+  api.lever.co/v0/postings/<company>?mode=json found Zoox's official
+  posting in one call. Same works for Greenhouse
+  (boards-api.greenhouse.io/v1/boards/<token>/jobs). Applies to LinkedIn
+  links too.
+- batch-apply now references agent/finishers/* (tracked) instead of
+  untracked repo-root dotfile copies — required for the Mac batch.
