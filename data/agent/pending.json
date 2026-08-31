@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-31T16:08:56.194Z",
+ "updatedAt": "2026-08-31T17:22:36.664Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -235,50 +235,6 @@
    "note": "posting URL is an impl- Workday sandbox tenant — applications there are void"
   },
   {
-   "id": "6a75e0a34817aa4307045776",
-   "key": "clear street::senior software engineer",
-   "title": "Senior Software Engineer",
-   "company": "Clear Street",
-   "matchPercent": 89,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a75e0a34817aa4307045776",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=clearstreet&jr_id=6a75e0a34817aa4307045776&token=8113885&utm_source=jobright",
-   "addedAt": "2026-08-30",
-   "status": "needs_answers",
-   "note": "one control from done: salary field not reachable by text pass",
-   "missing": [
-    "What is the minimum annual salary desired (in USD)?*",
-    "Are you open to working onsite at least 4 days a week at our NYC Offic",
-    "How/where did you first learn about this role?*",
-    "Do you currently hold or have previously held any securities industry ",
-    "Please provide a list of licenses that you currently hold or have prev",
-    "Do you have at least five (5) years of experience implementing scalabl",
-    "Do you have experience building efficient user-interfaces using Typesc"
-   ]
-  },
-  {
-   "id": "6a8f015f309e5f2248709cb5",
-   "key": "zscaler::sr. software development engineer (controlplane)",
-   "title": "Sr. Software Development Engineer (Controlplane)",
-   "company": "Zscaler",
-   "matchPercent": 89,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a8f015f309e5f2248709cb5",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=zscaler&jr_id=6a8f015f309e5f2248709cb5&token=5216926007&utm_source=jobright",
-   "addedAt": "2026-08-30",
-   "status": "needs_answers",
-   "note": "one control from done: I Agree checkbox + custom skill dropdowns",
-   "missing": [
-    "Do you have the legal right to work in the country where you are apply",
-    "Current Company*",
-    "Current Title*",
-    "I Agree",
-    "Have you been involved in procurement or contract award activities inv",
-    "Do you have 3+ years of software engineering experience designing and ",
-    "Are you proficient in modern programming languages such as Java, Go, o",
-    "Do you have experience in system design, microservices architecture, A",
-    "Please identify your race*"
-   ]
-  },
-  {
    "id": "6a2df0d77cd40a338fae99f4",
    "key": "otter::backend engineer",
    "title": "Backend Engineer",
@@ -387,22 +343,6 @@
    "note": "platform not automated from cloud: www.careers-page.com"
   },
   {
-   "id": "6a0b1c350411d7417a1ad2c7",
-   "key": "vestwell::staff software engineer",
-   "title": "Staff Software Engineer",
-   "company": "Vestwell",
-   "matchPercent": 87,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a0b1c350411d7417a1ad2c7",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=vestwell&jr_id=6a0b1c350411d7417a1ad2c7&token=7734017003&utm_source=jobright",
-   "addedAt": "2026-08-30",
-   "status": "needs_answers",
-   "note": "one control from done: custom start-date dropdown",
-   "missing": [
-    "Are you able and willing to report to the office location listed in th",
-    "How soon are you able to start a new role?*"
-   ]
-  },
-  {
    "id": "6a6b23c257120971bf3a4f7c",
    "key": "tomocredit::software engineer iii - backend (on-site / sf)",
    "title": "Software Engineer III - Backend (On-site / SF)",
@@ -499,27 +439,6 @@
    "note": "platform not automated from cloud: bookofthemonth.applytojob.com"
   },
   {
-   "id": "6a20a4cdc00e701fe836ac5e",
-   "key": "upstart::senior software engineer, pricing",
-   "title": "Senior Software Engineer, Pricing",
-   "company": "Upstart",
-   "matchPercent": 85,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a20a4cdc00e701fe836ac5e",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=upstart&jr_id=6a20a4cdc00e701fe836ac5e&token=7875501&utm_source=jobright",
-   "addedAt": "2026-08-30",
-   "status": "needs_answers",
-   "note": "one control from done: office-location checkbox group",
-   "missing": [
-    "San Mateo, CA",
-    "Columbus, OH",
-    "Austin, TX",
-    "Remote",
-    "Have you been employed by Upstart before?*",
-    "Before applying, how familiar were you with Upstart?*",
-    "Please identify your race*"
-   ]
-  },
-  {
    "id": "69af2c1d749500645093a4c2",
    "key": "signify technology::scala developer",
    "title": "Scala Developer",
@@ -590,24 +509,6 @@
    "addedAt": "2026-08-30",
    "status": "parked",
    "note": "platform not automated from cloud: careers.spglobal.com"
-  },
-  {
-   "id": "6a5ad1344da96a42cfd97167",
-   "key": "roblox::senior software engineer, compute cell platform",
-   "title": "Senior Software Engineer, Compute Cell Platform",
-   "company": "Roblox",
-   "matchPercent": 83,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a5ad1344da96a42cfd97167",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=roblox&jr_id=6a5ad1344da96a42cfd97167&token=8056362&utm_source=jobright",
-   "addedAt": "2026-08-30",
-   "status": "needs_answers",
-   "note": "one control from done: race mark-all-that-apply checkbox group",
-   "missing": [
-    "At the time of application, are you 18+ years of age?*",
-    "Please review and acknowledge Roblox's Job Applicant Privacy Notice*",
-    "Please review and acknowledge Roblox's Candidate Arbitration Agreement",
-    "How would you describe your racial/ethnic background? (mark all that a"
-   ]
   },
   {
    "id": "6a8feafca19886486675edf5",
@@ -879,21 +780,6 @@
    "note": "platform not automated from cloud: careers.pnc.com"
   },
   {
-   "id": "6a5fbb21b0f20036bc632b30",
-   "key": "vulncheck::senior software engineer (us)",
-   "title": "Senior Software Engineer (US)",
-   "company": "VulnCheck",
-   "matchPercent": 86,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a5fbb21b0f20036bc632b30",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=vulncheck&jr_id=6a5fbb21b0f20036bc632b30&token=4278101009&utm_source=jobright",
-   "addedAt": "2026-08-31",
-   "status": "needs_answers",
-   "missing": [
-    "Do you have the right to work in the US? *",
-    "Are you based in one of the preferred locations (Massachusetts, Maryla"
-   ]
-  },
-  {
    "id": "6a8dc6a0a5639a481032785a",
    "key": "thomas talent network::senior backend engineer",
    "title": "Senior Backend Engineer",
@@ -999,26 +885,6 @@
    "addedAt": "2026-08-31",
    "status": "dropped",
    "note": "defense digital engineering (DoD)"
-  },
-  {
-   "id": "6a8e3929cc0cf27068527852",
-   "key": "zuora::software engineer iii",
-   "title": "Software Engineer III",
-   "company": "Zuora",
-   "matchPercent": 85,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a8e3929cc0cf27068527852",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=zuora&jr_id=6a8e3929cc0cf27068527852&token=8040763&utm_source=jobright",
-   "addedAt": "2026-08-31",
-   "status": "needs_answers",
-   "missing": [
-    "Company name*",
-    "Title*",
-    "Start date month*",
-    "Start date year*",
-    "End date month*",
-    "End date year*",
-    "Will you now or in the future require Zuora to commence (“sponsor”) an"
-   ]
   },
   {
    "id": "6a28f67040ac8e32932a488f",
@@ -1196,23 +1062,6 @@
    "atsUrl": "https://jobs.ashbyhq.com/listenlabs/3de6a26e-dfd3-4eca-a243-bc8574af5dc0/application?utm_source=jobright&jr_id=699fba44ce78e77b4fe59f04",
    "addedAt": "2026-08-31",
    "status": "local replay"
-  },
-  {
-   "id": "6a3ebef8d261407de98043fc",
-   "key": "optiver::software engineer - trading strategies",
-   "title": "Software Engineer - Trading Strategies",
-   "company": "Optiver",
-   "matchPercent": 83,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a3ebef8d261407de98043fc",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=optiverus&jr_id=6a3ebef8d261407de98043fc&token=8576683002&utm_source=jobright",
-   "addedAt": "2026-08-31",
-   "status": "needs_answers",
-   "missing": [
-    "Current Location*",
-    "Work Authorization*",
-    "Sponsorship Requirements*",
-    "Terms and Conditions*"
-   ]
   },
   {
    "id": "6a8fe7800bd89e205d2480ae",
@@ -1521,22 +1370,6 @@
    "note": "platform not automated from cloud: careers.fitch.group"
   },
   {
-   "id": "6a4404b9b156014e414bb19a",
-   "key": "tower research capital::software engineer, trading systems (c++)",
-   "title": "Software Engineer, Trading Systems (C++)",
-   "company": "Tower Research Capital",
-   "matchPercent": 81,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a4404b9b156014e414bb19a",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=towerresearchcapital&jr_id=6a4404b9b156014e414bb19a&token=7985905&utm_source=jobright",
-   "addedAt": "2026-08-31",
-   "status": "needs_answers",
-   "missing": [
-    "Are you or have you been entrusted with a position or function in any ",
-    "Are you an immediate family member of someone holding such a position?",
-    "Were you referred to this role by a current Tower Research Capital emp"
-   ]
-  },
-  {
    "id": "6a9499253603630099199f3a",
    "key": "anagh technologies inc::senior python react engineer",
    "title": "Senior Python React Engineer",
@@ -1659,20 +1492,6 @@
    "addedAt": "2026-08-31",
    "status": "parked",
    "note": "platform not automated from cloud: www.quantinno.com"
-  },
-  {
-   "id": "6a56b681f7517b519ad57995",
-   "key": "fivetran::senior software engineer",
-   "title": "Senior Software Engineer",
-   "company": "Fivetran",
-   "matchPercent": 81,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a56b681f7517b519ad57995",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=fivetran&jr_id=6a56b681f7517b519ad57995&token=7768594003&utm_source=jobright",
-   "addedAt": "2026-08-31",
-   "status": "needs_answers",
-   "missing": [
-    "Country*"
-   ]
   },
   {
    "id": "6a55ca7dfdf4fa71202b521b",

@@ -137,9 +137,19 @@ try {
         });
       out.combos.push({ label: target.label, picked: pick, options: options.slice(0, 8) });
     } else if (!options.length && c.type) {
-      // async typeahead that never listed options: commit the typed text
-      await target.el.press("Enter").catch(() => {});
-      out.combos.push({ label: target.label, picked: `typed: ${c.type}` });
+      // async typeahead (places-style): the value only commits when a
+      // suggestion is chosen — wait for the list and click the first entry
+      await page.waitForTimeout(2500);
+      const sug = page.locator('[role="option"], ul[role="listbox"] li, .pac-item, [class*="suggestion"] li, li[class*="option"]').first();
+      if (await sug.isVisible().catch(() => false)) {
+        await sug.click().catch(() => {});
+        out.combos.push({ label: target.label, picked: `typed+picked: ${c.type}` });
+      } else {
+        await target.el.press("ArrowDown").catch(() => {});
+        await page.waitForTimeout(400);
+        await target.el.press("Enter").catch(() => {});
+        out.combos.push({ label: target.label, picked: `typed: ${c.type}` });
+      }
     } else if (pick) {
       // plain-li menus aren't in the a11y tree — click by text within the open list
       await page.locator('ul[role="listbox"] li, [class*="select__option"]').filter({ hasText: pick }).first()

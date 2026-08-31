@@ -1339,6 +1339,14 @@
   {
    "label": "how soon are you able to start",
    "text": "Immediately — I can start within two weeks."
+  },
+  {
+   "label": "which of these technologies have you used",
+   "text": "Node.js and TypeScript in production backend services. I have not used React, Next.js (App Router), or GraphQL in a production setting — my production stack is Java, Go, and Python."
+  },
+  {
+   "label": "close personal relationship with any current employees|related to .* current employees",
+   "text": "No."
   }
  ],
  "checkboxes": [
