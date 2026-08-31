@@ -48,10 +48,10 @@
   },
   {
    "label": "gender",
-   "prefer": "decline"
+   "prefer": "decline|prefer not|don'?t wish"
   },
   {
-   "label": "race|ethnicit",
+   "label": "race\\b|racial|ethnicit|ethnic background",
    "prefer": "decline|choose not|don'?t wish|prefer not"
   },
   {
@@ -554,7 +554,7 @@
   },
   {
    "label": "minimum annual salary desired",
-   "prefer": "1[45]\\d[,.]?\\d*|150"
+   "prefer": "1[45]\\d[,.]?\\d*|150|^1[5-7]0,000|170,000 to 180,000"
   },
   {
    "label": "willing to work (either )?(out of|in|from) (our|the)|days? per week\\?|onsite|on-?site|in-?person|in-?office|hybrid setup|commut",
@@ -750,7 +750,7 @@
   },
   {
    "label": "minimum annual salary|desired salary|salary expectation",
-   "prefer": "^1[45]\\d|150"
+   "prefer": "^1[45]\\d|150|^1[5-7]0,000|170,000 to 180,000"
   },
   {
    "label": "salary fall within our estimated range",
@@ -880,7 +880,7 @@
   },
   {
    "label": "^work authorization",
-   "prefer": "f-?1|cpt|ead|other"
+   "prefer": "^i am authorized to work in the us for any employer|f-?1|cpt|ead"
   },
   {
    "label": "^sponsorship requirements?",
@@ -1065,7 +1065,7 @@
    "text": "New Jersey"
   },
   {
-   "label": "^country \\*?$|^country$",
+   "label": "^country\\s*\\*?$",
    "text": "United States"
   },
   {
@@ -1277,7 +1277,7 @@
    "text": "Bank of America (via Innova Solutions)"
   },
   {
-   "label": "^title \\*?$|^title$",
+   "label": "^title\\s*\\*?$",
    "text": "Senior Software Engineer"
   },
   {
@@ -1321,12 +1321,24 @@
    "text": "University of Pennsylvania; Master of Science, Computer Science; 2021"
   },
   {
-   "label": "^(today'?s )?date \\*?$|^date$",
+   "label": "^(today'?s )?date\\s*\\*?$",
    "text": "08/31/2026"
   },
   {
    "label": "critical technical trade-off",
    "text": "When a trade-off will delay a launch, I surface it early rather than absorb it silently. I first quantify both paths — performance, reliability, and engineering cost — with data or a quick prototype, then bring PM and stakeholders two or three concrete options with their timelines and risks spelled out. I recommend the option I believe in, but I make sure the decision is made jointly with the people who own the launch commitment, and I document the reasoning so the team can revisit it later. At Bank of America this approach let us ship a compliant interim design on schedule while the more scalable rewrite landed one sprint later."
+  },
+  {
+   "label": "location \\(city\\)",
+   "text": "New York, NY"
+  },
+  {
+   "label": "referred to this role by a current",
+   "text": "No"
+  },
+  {
+   "label": "how soon are you able to start",
+   "text": "Immediately — I can start within two weeks."
   }
  ],
  "checkboxes": [

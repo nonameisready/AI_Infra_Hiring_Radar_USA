@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-31T12:50:36.956Z",
+ "updatedAt": "2026-08-31T16:08:56.194Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -2809,6 +2809,84 @@
    "appliedAt": "2026-08-31",
    "via": "workday (new tenant account)",
    "detail": "invesco.wd1 account created (email-activation via Gmail); Candidate Home confirms"
+  },
+  "6a63c73d87cef057612ca8a4": {
+   "id": "6a63c73d87cef057612ca8a4",
+   "key": "affirm::senior software engineer, backend (pba - growth)",
+   "title": "Senior Software Engineer, Backend (PBA - Growth)",
+   "company": "Affirm",
+   "matchPercent": 96,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a63c73d87cef057612ca8a4",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=affirm&jr_id=6a63c73d87cef057612ca8a4&token=7808384003&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (cloud repass, rule answers)",
+   "detail": "needs_answers backlog cleared: all questions answered by merged rules; confirmation page verified.",
+   "at": "2026-08-31T16:08:56.194Z"
+  },
+  "6a5eab6df29acc1a1174913d": {
+   "id": "6a5eab6df29acc1a1174913d",
+   "key": "clerkie::backend engineer",
+   "title": "Backend Engineer",
+   "company": "Clerkie",
+   "matchPercent": 91,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5eab6df29acc1a1174913d",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=clerkie&jr_id=6a5eab6df29acc1a1174913d&token=5191603007&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (cloud repass, rule answers)",
+   "detail": "needs_answers backlog cleared: all questions answered by merged rules; confirmation page verified.",
+   "at": "2026-08-31T16:08:56.194Z"
+  },
+  "6a91de208e59685453378285": {
+   "id": "6a91de208e59685453378285",
+   "key": "kargo::senior software engineer ii",
+   "title": "Senior Software Engineer II",
+   "company": "Kargo",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a91de208e59685453378285",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=kargo22&jr_id=6a91de208e59685453378285&token=5218131007&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (cloud repass, rule answers)",
+   "detail": "needs_answers backlog cleared: all questions answered by merged rules; confirmation page verified.",
+   "at": "2026-08-31T16:08:56.194Z"
+  },
+  "6a8cc0e21d96e6541c8c2d29": {
+   "id": "6a8cc0e21d96e6541c8c2d29",
+   "key": "realtor.com::software engineer, sr - rdc next",
+   "title": "Software Engineer, Sr - RDC Next",
+   "company": "Realtor.com",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8cc0e21d96e6541c8c2d29",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=rdccareers&jr_id=6a8cc0e21d96e6541c8c2d29&token=7672993003&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (cloud repass, rule answers)",
+   "detail": "needs_answers backlog cleared: all questions answered by merged rules; confirmation page verified.",
+   "at": "2026-08-31T16:08:56.194Z"
+  },
+  "6a520c0d8a74e077472f2d1b": {
+   "id": "6a520c0d8a74e077472f2d1b",
+   "key": "chime::senior software engineer, machine learning platform",
+   "title": "Senior Software Engineer, Machine Learning Platform",
+   "company": "Chime",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a520c0d8a74e077472f2d1b",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=chime&jr_id=6a520c0d8a74e077472f2d1b&token=8505460002&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (cloud repass, rule answers)",
+   "detail": "needs_answers backlog cleared: all questions answered by merged rules; confirmation page verified.",
+   "at": "2026-08-31T16:08:56.194Z"
+  },
+  "6a523bcf8a74e077472f3b39": {
+   "id": "6a523bcf8a74e077472f3b39",
+   "key": "pave::software engineer, core platform",
+   "title": "Software Engineer, Core Platform",
+   "company": "Pave",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a523bcf8a74e077472f3b39",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=paveakatroveinformationtechnologies&jr_id=6a523bcf8a74e077472f3b39&token=4638169005&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (cloud repass, rule answers)",
+   "detail": "needs_answers backlog cleared: all questions answered by merged rules; confirmation page verified.",
+   "at": "2026-08-31T16:08:56.194Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

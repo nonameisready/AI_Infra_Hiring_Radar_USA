@@ -62,7 +62,10 @@ try {
   // Comboboxes: click, read the freshly opened listbox, pick by preference.
   for (const c of ANSWERS.combos ?? []) {
     const combo = page.locator('[role="combobox"], select, button[aria-haspopup="listbox"], div[aria-haspopup="listbox"]').filter({ has: page.locator(":scope") });
-    const target = await (async () => {
+    // ALL matching controls: the same rule can cover several questions, and
+    // Greenhouse renders duplicate desktop/mobile copies of the whole form.
+    const targets = await (async () => {
+      const found = [];
       const all = page.locator('[role="combobox"], select, button[aria-haspopup="listbox"], div[aria-haspopup="listbox"]');
       const n = await all.count();
       for (let i = 0; i < n; i++) {
@@ -84,11 +87,12 @@ try {
           }
           return "";
         });
-        if (new RegExp(c.label, "i").test(label)) return { el, label };
+        if (new RegExp(c.label, "i").test(label)) found.push({ el, label });
       }
-      return null;
+      return found;
     })();
-    if (!target) { out.combos.push({ label: c.label, result: "not_found" }); continue; }
+    if (!targets.length) { out.combos.push({ label: c.label, result: "not_found" }); continue; }
+    for (const target of targets) {
 
     const tagName = await target.el.evaluate((e) => e.tagName);
     if (tagName === "SELECT") {
@@ -146,6 +150,7 @@ try {
       await page.locator("body").click({ position: { x: 5, y: 5 } }).catch(() => {});
     }
     await page.waitForTimeout(600);
+    }
   }
 
   // Free-text answers by label.
@@ -168,10 +173,50 @@ try {
         }
         return "";
       });
-      if (new RegExp(t.label, "i").test(label)) { await el.fill(t.text); out.texts.push({ label, len: t.text.length }); done = true; break; }
+      // fill every match — duplicate form copies and multiple questions per rule
+      if (new RegExp(t.label, "i").test(label)) {
+        try { await el.fill(t.text); out.texts.push({ label, len: t.text.length }); done = true; } catch {}
+      }
     }
     if (!done) out.texts.push({ label: t.label, result: "not_found" });
   }
+
+  // Radio groups: match the group's question against combos rules.
+  const radioResults = await page.evaluate((rules) => {
+    const results = [];
+    const groups = new Map();
+    for (const r of document.querySelectorAll('input[type="radio"]')) {
+      if (r.offsetParent === null) continue;
+      const key = r.name || r.id;
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(r);
+    }
+    for (const [, members] of groups) {
+      if (members.some((m) => m.checked)) continue;
+      let q = "";
+      let node = members[0].parentElement;
+      for (let d = 0; d < 8 && node; d++) {
+        if (members.every((m) => node.contains(m))) {
+          q = (node.innerText ?? "").split("\n").map((t) => t.trim()).find((t) => t.length > 8) ?? "";
+          break;
+        }
+        node = node.parentElement;
+      }
+      for (const rule of rules) {
+        if (!new RegExp(rule.label, "i").test(q)) continue;
+        const preferRe = new RegExp(rule.prefer, "i");
+        const hit = members.find((m) => preferRe.test((m.labels?.[0]?.innerText || m.value || m.parentElement?.innerText || "").trim()));
+        if (hit) {
+          (hit.labels?.[0] ?? hit).click();
+          results.push({ group: q.slice(0, 60), picked: (hit.labels?.[0]?.innerText || hit.value || "").slice(0, 50) });
+          break;
+        }
+      }
+    }
+    return results;
+  }, ANSWERS.combos ?? []);
+  for (const g of radioResults) out.combos.push({ label: g.group, picked: `radio: ${g.picked}` });
+  await page.waitForTimeout(400);
 
   // Checkbox GROUPS (mark-all-that-apply / pick-a-location): match the group's
   // question against combos rules and check the member whose label matches prefer.
@@ -195,12 +240,27 @@ try {
     for (const [container, members] of groups) {
       const question = (container.innerText ?? "").split("\n").map((t) => t.trim()).find((t) => t.length > 8) ?? "";
       if (members.some((m) => m.checked)) continue;
+      let picked = false;
       for (const r of rules) {
         if (!new RegExp(r.label, "i").test(question)) continue;
         const preferRe = new RegExp(r.prefer, "i");
         const hit = members.find((m) => preferRe.test((m.labels?.[0]?.innerText || m.value || m.parentElement?.innerText || "").trim()));
-        if (hit) { hit.click(); results.push({ group: question.slice(0, 60), picked: (hit.labels?.[0]?.innerText || hit.value || "").slice(0, 50) }); }
-        break;
+        if (hit) {
+          hit.click();
+          results.push({ group: question.slice(0, 60), picked: (hit.labels?.[0]?.innerText || hit.value || "").slice(0, 50) });
+          picked = true;
+          break;
+        }
+      }
+      if (!picked) {
+        // office-choice fallback: all members look like "City, ST" / Remote —
+        // standing preference is Remote first, then New York
+        const lbls = members.map((m) => (m.labels?.[0]?.innerText || m.parentElement?.innerText || "").trim());
+        if (lbls.length && lbls.every((l) => /remote|,\s*[A-Z]{2}\b/i.test(l))) {
+          let j = lbls.findIndex((l) => /remote/i.test(l));
+          if (j < 0) j = lbls.findIndex((l) => /new york/i.test(l));
+          if (j >= 0) { members[j].click(); results.push({ group: question.slice(0, 60), picked: lbls[j].slice(0, 50) }); }
+        }
       }
     }
     return results;
