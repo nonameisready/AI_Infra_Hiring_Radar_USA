@@ -175,7 +175,19 @@ try {
       });
       // fill every match — duplicate form copies and multiple questions per rule
       if (new RegExp(t.label, "i").test(label)) {
-        try { await el.fill(t.text); out.texts.push({ label, len: t.text.length }); done = true; } catch {}
+        try { await el.fill(t.text); } catch {}
+        // custom editors ignore Playwright's fill — verify, then set through the
+        // native value setter with React-visible events
+        const ok = await el.evaluate((e, v) => {
+          if (e.value === v) return true;
+          const proto = e.tagName === "TEXTAREA" ? window.HTMLTextAreaElement.prototype : window.HTMLInputElement.prototype;
+          Object.getOwnPropertyDescriptor(proto, "value").set.call(e, v);
+          e.dispatchEvent(new Event("input", { bubbles: true }));
+          e.dispatchEvent(new Event("change", { bubbles: true }));
+          e.dispatchEvent(new Event("blur", { bubbles: true }));
+          return e.value === v;
+        }, t.text).catch(() => false);
+        if (ok) { out.texts.push({ label, len: t.text.length }); done = true; }
       }
     }
     if (!done) out.texts.push({ label: t.label, result: "not_found" });
