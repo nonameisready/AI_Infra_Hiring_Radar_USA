@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-31T11:59:33.926Z",
+ "updatedAt": "2026-08-31T12:12:48.724Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -763,18 +763,6 @@
    "note": "platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
   },
   {
-   "id": "6a9387d2a27a2d3c9848e02c",
-   "key": "amazon web services (aws)::senior software development engineer, aws infra supply chain automation",
-   "title": "Senior Software Development Engineer, AWS Infra Supply Chain Automation",
-   "company": "Amazon Web Services (AWS)",
-   "matchPercent": 88,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a9387d2a27a2d3c9848e02c",
-   "atsUrl": "https://www.amazon.jobs/en/jobs/10489640/senior-software-development-engineer-aws-infra-supply-chain-automation?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a9387d2a27a2d3c9848e02c",
-   "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
-  },
-  {
    "id": "6a423c10557b3862f15e05e2",
    "key": "tiktok usds joint venture::software engineer, ads - core infra - usds",
    "title": "Software Engineer, Ads - Core Infra - USDS",
@@ -1113,8 +1101,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9536cfc12c90443efce4e8",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10521497/software-development-engineer-ml-symphony?jr_id=6a9536cfc12c90443efce4e8",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "status": "user_personal",
+   "note": "Amazon requires identity verification (gov ID + selfie) — personal-only per standing rule; complete or withdraw yourself"
   },
   {
    "id": "6a94f90f360363009919a5fd",
@@ -1548,18 +1536,6 @@
    "addedAt": "2026-08-31",
    "status": "parked",
    "note": "platform not automated from cloud: expedia.wd108.myworkdayjobs.com"
-  },
-  {
-   "id": "6a8e2d1fa5639a4810329d1c",
-   "key": "amazon web services (aws)::senior video compression development engineer, aws elemental, elemental video engine",
-   "title": "Senior Video Compression Development Engineer, AWS Elemental, Elemental Video Engine",
-   "company": "Amazon Web Services (AWS)",
-   "matchPercent": 82,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a8e2d1fa5639a4810329d1c",
-   "atsUrl": "https://www.amazon.jobs/en/jobs/10514582/senior-video-compression-development-engineer-aws-elemental-elemental-video-engine?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a8e2d1fa5639a4810329d1c",
-   "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
   },
   {
    "id": "6a74e0e237da8525e8cdb214",

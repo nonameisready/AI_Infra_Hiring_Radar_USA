@@ -359,3 +359,4 @@ Ashby local replay (evening): all 8 submitted — auto: Nubank (94), Ramp (89), 
 ## 2026-08-31 (5am cloud fallback — Mac batch missed)
 
 100 queued -> 7 submitted (Speechify 88, Hex 84, Nuro 82, Ridgeline 81, RapidFort 81, Metropolis 81, Mochi Health 81), 13 queued for Qwen rules, 3 dropped (MORSE Corp, Istari Digital defense; Cribl US-person), rest parked by platform. All-time 219.
+- AWS Infra Supply Chain Automation (88%) + AWS Elemental Video (82%) — amazon.jobs, result=success; ML Symphony parked (identity verification, personal-only)
