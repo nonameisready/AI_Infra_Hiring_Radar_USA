@@ -1692,11 +1692,12 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5a8af5856af468ab0090b8",
    "atsUrl": "https://jobs.lever.co/thinkahead/94245c1a-52ad-4ee6-8717-b20a58c5474a/apply?utm_source=jobright&jr_id=6a5a8af5856af468ab0090b8",
    "addedAt": "2026-08-31",
-   "status": "needs_answers",
+   "status": "local replay",
    "missing": [
     "Provide All Post-Secondary Education Attained - Formatted as: College Name; Degree Obtaine",
     "AHEAD will consider the contents of an uploaded resume or LinkedIn profile only insofar as"
-   ]
+   ],
+   "reason": "Lever form — run from Mac (cloud IP gets hCaptcha challenge); answer rules ready in generic-answers.json"
   },
   {
    "id": "6a7dfc790cd4a0703257cf47",

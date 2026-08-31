@@ -141,11 +141,49 @@ try {
 
   const shot = path.join(WORK, `lever-${Date.now()}.png`);
   await page.screenshot({ path: shot, fullPage: true }).catch(() => {});
-  if (!SUBMIT) { emit({ confirmation: false, dryRun: true, missingRequired: missing, filledScreenshot: shot }); process.exit(0); }
-  if (missing.length) { emit({ confirmation: false, missingRequired: missing, filledScreenshot: shot }); process.exit(0); }
 
-  await page.locator("button.template-btn-submit").scrollIntoViewIfNeeded().catch(() => {});
-  await page.locator("button.template-btn-submit").click({ timeout: 15_000 });
+  const isSuccess = async () => {
+    const s = await page.evaluate(() => ({
+      url: location.href, text: document.body.innerText.replace(/\s+/g, " ").slice(0, 500),
+    })).catch(() => ({ url: "", text: "" }));
+    return /thanks|thank you|application.{0,20}(submitted|received)/i.test(s.text) || /\/thanks/.test(s.url) ? s : null;
+  };
+  // headed human-in-the-loop: keep the window open and let the person finish
+  // (solve the captcha themselves, fill a missing field, hit submit); we only
+  // watch for the thank-you state — we never touch the captcha ourselves.
+  const waitForHuman = async (why) => {
+    if (!HEADED) return null;
+    const mins = Number(process.env.LEVER_MANUAL_MIN || 6);
+    console.error(`\n⚠️  ${why}`);
+    console.error(`👉 窗口保持打开 ${mins} 分钟 — 请手动完成(勾验证码/补答案/点 Submit application),提交成功后我会自动记账。`);
+    const until = Date.now() + mins * 60_000;
+    while (Date.now() < until) {
+      const s = await isSuccess();
+      if (s) return s;
+      await page.waitForTimeout(5000);
+    }
+    return null;
+  };
+
+  if (!SUBMIT) { emit({ confirmation: false, dryRun: true, missingRequired: missing, filledScreenshot: shot }); process.exit(0); }
+  if (missing.length) {
+    const s = await waitForHuman(`还有必填题没答上: ${missing.join(" | ")}`);
+    if (s) { emit({ confirmation: true, finalUrl: s.url, manual: true, confirmationSnippet: s.text.slice(0, 200) }); process.exit(0); }
+    emit({ confirmation: false, missingRequired: missing, filledScreenshot: shot });
+    process.exit(0);
+  }
+
+  const submitBtn = page.locator("button.template-btn-submit, #btn-submit").first();
+  await submitBtn.scrollIntoViewIfNeeded().catch(() => {});
+  try {
+    await submitBtn.click({ timeout: 15_000 });
+  } catch {
+    // covered by the hCaptcha widget or custom styling — dispatch the click in-page
+    await page.evaluate(() => {
+      const b = document.querySelector("button.template-btn-submit, #btn-submit");
+      if (b) b.click();
+    });
+  }
   await page.waitForTimeout(9000);
 
   const state = await page.evaluate(() => ({
@@ -155,7 +193,9 @@ try {
       .some((f) => { const r = f.getBoundingClientRect(); return r.width > 50 && r.height > 50; }),
   }));
   if (state.challenge) {
-    emit({ confirmation: false, error: "captcha_challenge", note: "hCaptcha escalated to a visible challenge on this IP — do not solve; retry from a residential IP.", confirmationSnippet: state.text.slice(0, 150) });
+    const s = await waitForHuman("hCaptcha 弹出了人工验证 — 我不会去解它");
+    if (s) { emit({ confirmation: true, finalUrl: s.url, manual: true, confirmationSnippet: s.text.slice(0, 200) }); process.exit(0); }
+    emit({ confirmation: false, error: "captcha_challenge", note: "hCaptcha escalated to a visible challenge — never solved by the agent; solve it by hand in a headed run.", confirmationSnippet: state.text.slice(0, 150) });
   } else if (/thanks|thank you|application.{0,20}(submitted|received)/i.test(state.text) || /\/thanks/.test(state.url)) {
     emit({ confirmation: true, finalUrl: state.url, confirmationSnippet: state.text.slice(0, 200) });
   } else {
@@ -166,6 +206,8 @@ try {
     if (/thanks|thank you|application.{0,20}(submitted|received)/i.test(t2) || /\/thanks/.test(u2)) {
       emit({ confirmation: true, finalUrl: u2, confirmationSnippet: t2.slice(0, 200) });
     } else {
+      const s = await waitForHuman("提交后没看到确认页 — 可能有验证或校验没过");
+      if (s) { emit({ confirmation: true, finalUrl: s.url, manual: true, confirmationSnippet: s.text.slice(0, 200) }); process.exit(0); }
       emit({ confirmation: false, confirmationSnippet: t2.slice(0, 200), finalUrl: u2, missingRequired: [] });
     }
   }
