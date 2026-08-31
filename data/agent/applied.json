@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-31T17:22:36.664Z",
+ "updatedAt": "2026-08-31T17:41:56.207Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -3017,6 +3017,19 @@
    "via": "greenhouse (cloud repass pass 2, rule answers)",
    "detail": "needs_answers backlog cleared after gh-finish custom-control + all-matching-controls patches; confirmation page verified.",
    "at": "2026-08-31T17:22:36.664Z"
+  },
+  "6a691ea1ceb2691dfb207799": {
+   "id": "6a691ea1ceb2691dfb207799",
+   "key": "lvt (liveview technologies)::senior software engineer - backend",
+   "title": "Senior Software Engineer - Backend",
+   "company": "LVT (LiveView Technologies)",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a691ea1ceb2691dfb207799",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=liveviewtechnologiesinc&jr_id=6a691ea1ceb2691dfb207799&token=5368027008&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse (cloud repass pass 3, rule answers)",
+   "detail": "Honest text answers for the frontend-stack list and employee-relationship questions; confirmation page verified.",
+   "at": "2026-08-31T17:41:56.207Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-31T17:22:36.664Z",
+ "updatedAt": "2026-08-31T17:41:56.207Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -1147,23 +1147,6 @@
    "addedAt": "2026-08-31",
    "status": "user_action",
    "note": "capitalone.wd12 account exists with a different password (or locked) — reset it yourself, then tell the agent the standard ATS password works"
-  },
-  {
-   "id": "6a691ea1ceb2691dfb207799",
-   "key": "lvt (liveview technologies)::senior software engineer - backend",
-   "title": "Senior Software Engineer - Backend",
-   "company": "LVT (LiveView Technologies)",
-   "matchPercent": 83,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a691ea1ceb2691dfb207799",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=liveviewtechnologiesinc&jr_id=6a691ea1ceb2691dfb207799&token=5368027008&utm_source=jobright",
-   "addedAt": "2026-08-31",
-   "status": "needs_answers",
-   "missing": [
-    "Which of these technologies have you used in a professional/production",
-    "A comprehensive background check may consist of prior employment verif",
-    "Are you related to or do you have a close personal relationship with a",
-    "Are you a previous LVT employee?*"
-   ]
   },
   {
    "id": "6a864512d34f700f87fc1428",
