@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T03:26:41.758Z",
+ "updatedAt": "2026-09-01T03:53:25.180Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -921,18 +921,6 @@
    "atsUrl": "https://jobs.ashbyhq.com/ThinkingMachines/98aeba6f-1579-4e2f-9c00-5dd4a483f3b2/application?utm_source=jobright&jr_id=6a94f90f360363009919a5fd",
    "addedAt": "2026-08-31",
    "status": "local replay"
-  },
-  {
-   "id": "6a6bbb3932f9300c3a3e09fe",
-   "key": "visa::software engineer - sr. consultant level",
-   "title": "Software Engineer - Sr. Consultant level",
-   "company": "Visa",
-   "matchPercent": 84,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a6bbb3932f9300c3a3e09fe",
-   "atsUrl": "https://visa.wd5.myworkdayjobs.com/visa/job/US---Bellevue-WA/Software-Engineer---Sr-Consultant-level_REF085157W?jr_id=6a6bbb3932f9300c3a3e09fe",
-   "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: visa.wd5.myworkdayjobs.com"
   },
   {
    "id": "6a8375401081a745e970f6cf",

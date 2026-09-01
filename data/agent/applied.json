@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T03:26:41.758Z",
+ "updatedAt": "2026-09-01T03:53:25.180Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -3082,6 +3082,19 @@
    "via": "workday mastercard.wd1 (new account)",
    "detail": "R-273932 submitted (Salt Lake City). Auth Yes/sponsorship Yes/no non-compete/never worked at MC; 6 conflict-of-interest questions No; EEO prefer-not.",
    "at": "2026-09-01T03:26:41.758Z"
+  },
+  "6a6bbb3932f9300c3a3e09fe": {
+   "id": "6a6bbb3932f9300c3a3e09fe",
+   "key": "visa::software engineer - sr. consultant level",
+   "title": "Software Engineer - Sr. Consultant level",
+   "company": "Visa",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a6bbb3932f9300c3a3e09fe",
+   "originalUrl": "https://visa.wd5.myworkdayjobs.com/visa/job/US---Bellevue-WA/Software-Engineer---Sr-Consultant-level_REF085157W?jr_id=6a6bbb3932f9300c3a3e09fe",
+   "status": "applied_direct",
+   "via": "workday visa.wd5 (new account)",
+   "detail": "REF085157W submitted (Bellevue WA). Full work-history + UPenn MS CS entered; eligible Yes/sponsorship Yes; military No; SMS+AI-review Opt-In; EEO not-declared/prefer-not.",
+   "at": "2026-09-01T03:53:25.180Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
