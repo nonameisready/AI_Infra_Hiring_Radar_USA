@@ -3381,6 +3381,19 @@
    "via": "greenhouse",
    "detail": "repass round 2: worked-at option prefer fix (Rubrik); security code auto-fetched.",
    "at": "2026-09-01T22:50:27.883Z"
+  },
+  "6a7a17e1a26ccc369f83c76d": {
+   "id": "6a7a17e1a26ccc369f83c76d",
+   "key": "f&g::sr. software engineer, external data integrations",
+   "title": "Sr. Software Engineer, External Data Integrations",
+   "company": "F&G",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7a17e1a26ccc369f83c76d",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=fidelityguarantylife&jr_id=6a7a17e1a26ccc369f83c76d&token=7849343003&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "4-round repass: FINRA/relatives/non-compete disclosures (all No, honest), F&G visa sponsorship YES, why-looking essay; security code auto-fetched.",
+   "at": "2026-09-01T23:16:40.061Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
