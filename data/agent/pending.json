@@ -39,8 +39,9 @@
    "matchPercent": 83,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7e049d19ce4e6e9d930ac2",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=fivetran&jr_id=6a7e049d19ce4e6e9d930ac2&token=7865559003&utm_source=jobright",
-   "status": "park",
-   "reason": "Form renders every field twice (two visible copies); filling the first copy leaves the duplicate's required check unsatisfied. Needs a bespoke driver session. 3 fill attempts, never submitted."
+   "status": "applied",
+   "reason": "Form renders every field twice (two visible copies); filling the first copy leaves the duplicate's required check unsatisfied. Needs a bespoke driver session. 3 fill attempts, never submitted.",
+   "note": "submitted via cloud repass 2026-09-01T23:43:54.604Z"
   },
   {
    "id": "6a4ffe869469c0662034fa7c",
@@ -49,8 +50,9 @@
    "matchPercent": 84,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4ffe869469c0662034fa7c",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=signifyd95&jr_id=6a4ffe869469c0662034fa7c&token=8046396&utm_source=jobright",
-   "status": "park",
-   "reason": "One required field left: 'highest level of school' typeahead never loads options for automated typing (5 fill attempts, never submitted). Good candidate for a quick manual apply — everything else auto-fills."
+   "status": "local replay",
+   "reason": "One required field left: 'highest level of school' typeahead never loads options for automated typing (5 fill attempts, never submitted). Good candidate for a quick manual apply — everything else auto-fills.",
+   "note": "School typeahead options never load from datacenter IPs (async suggestion API). Everything else autofills — run on Mac (local-replay handles greenhouse)."
   },
   {
    "id": "6a4dcc57c643fd23fed3ded8",
@@ -816,8 +818,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a949a179864261ccd2a44f3",
    "atsUrl": "https://www.linkedin.com/jobs/view/4458863311?jr_id=6a949a179864261ccd2a44f3",
    "addedAt": "2026-08-31",
-   "status": "user_manual",
-   "note": "rajant.com/about/careers has no embedded ATS links visible to cloud; personal apply via their site"
+   "status": "dropped",
+   "note": "rajant.com careers says no current openings (checked in rendered browser) — the LinkedIn listing is stale. Kept for dedupe."
   },
   {
    "id": "6a573695efb06a45240d98b5",
@@ -840,7 +842,7 @@
    "atsUrl": "https://www.ziprecruiter.com/kn/AALSS2Aqfwz4Dc1EWuHxAOuGI_J_yNdxgMNOcOSAer1rgLZwKWiq8mP-iezLx53Z27wyLjosAO60D_H6ducpDAaQMYcW3fkOZq9uk5oLFZJ6skSvQMq48c606U0VdTXQ0tpOf5t8JZBNF9TIdmZmOCRtlfJtLddcX_rAsJggvjsi3XzP7d61EF0uQ7fOh9OUfd4m-WXJW3z9C_KYGvWyoGg71EMH5s_o598JkOiB0CJggU8rLQbL9_uEVYiJ_dmiTWHoW3RzAaNr3C9IcnX5b56rwBHU3koUd8z4EmcZR4qOJA-tYHE64_TNicrv4-OblGVGXNCXrI-dDmO80yEnCnfmfu65Q7UogkNSg4N0DCyVgtK0yfU2WwOveGCznEw_JDTE9qZZWZn4dBvFqN2p22h3q1OqylQXMdaTz5mgdwCliEEquUcUcc1NX-wB?tsid=123468825&jr_id=6a925fac3603630099196286&__cf_chl_rt_tk=BzGccTCdMel7XG4VhSuVTCZz54YwBw6BoAGFDY.uJ3Q-1788169156-1.0.1.1-HY7WA.lKCtn9B2gqzGDQQggrbTVAbTsY6U8AwNhV5.E",
    "addedAt": "2026-08-31",
    "status": "user_manual",
-   "note": "kharon.com/careers is a JS app with no discoverable ATS from cloud; personal apply via their site"
+   "note": "VERIFIED tonight: kharon.com careers embeds a Freshteam form; agent filled everything but SUBMIT pops a visible reCAPTCHA checkbox. 2-min manual finish: https://www.kharon.com/careers?jobId=535896 (Senior SWE, Denver on-site 3d/wk, needs relocation)."
   },
   {
    "id": "6a51ef7b78e364789ca5ebf4",
@@ -876,7 +878,7 @@
    "atsUrl": "https://www.linkedin.com/jobs/view/4391107008?jr_id=6a28f67040ac8e32932a488f",
    "addedAt": "2026-08-31",
    "status": "user_manual",
-   "note": "tradeweb.com careers behind WAF (403 to cloud); Workday tenant probe failed. Apply via tradeweb.com careers on your Mac, or personal LinkedIn"
+   "note": "VERIFIED: tradeweb.com careers WAF-blocks cloud (403 curl; browser renders nav only), Workday tenant name undiscoverable. Apply from your own browser via tradeweb.com careers."
   },
   {
    "id": "6a94e7c3c12c90443efcdfd9",
@@ -1519,7 +1521,7 @@
    "atsUrl": "https://careers-compsych.icims.com/jobs/2223/software-engineer/job?jr_id=6a907b757c32860d14cf99e3",
    "addedAt": "2026-09-01",
    "status": "user_manual",
-   "note": "iCIMS tenant requires account+captcha from cloud (precedent) — personal apply: https://careers-compsych.icims.com/jobs/2223/software-engineer/job?jr_id=6a907b757c32860d14cf99e3"
+   "note": "iCIMS tenant requires account+captcha from cloud (VERIFIED on Schwab 2026-09-01: hCaptcha at email gate rejects automation) — personal apply: https://careers-compsych.icims.com/jobs/2223/software-engineer/job?jr_id=6a907b757c32860d14cf99e3"
   },
   {
    "id": "6a51d99c57513b72e0c68e12",
@@ -1603,7 +1605,7 @@
    "atsUrl": "https://career-schwab.icims.com/jobs/124692/software-development-engineer/job?jr_id=6a97141c455eaf6a08c1a80b",
    "addedAt": "2026-09-01",
    "status": "user_manual",
-   "note": "iCIMS tenant requires account+captcha from cloud (precedent) — personal apply: https://career-schwab.icims.com/jobs/124692/software-development-engineer/job?jr_id=6a97141c455eaf6a08c1a80b"
+   "note": "iCIMS tenant requires account+captcha from cloud (VERIFIED on Schwab 2026-09-01: hCaptcha at email gate rejects automation) — personal apply: https://career-schwab.icims.com/jobs/124692/software-development-engineer/job?jr_id=6a97141c455eaf6a08c1a80b"
   },
   {
    "id": "6a9623d83843db0159909c59",
@@ -1639,7 +1641,7 @@
    "atsUrl": "https://career-schwab.icims.com/jobs/125875/senior-software-engineer/job?jr_id=6a95c0343843db0159906e9e",
    "addedAt": "2026-09-01",
    "status": "user_manual",
-   "note": "iCIMS tenant requires account+captcha from cloud (precedent) — personal apply: https://career-schwab.icims.com/jobs/125875/senior-software-engineer/job?jr_id=6a95c0343843db0159906e9e"
+   "note": "iCIMS tenant requires account+captcha from cloud (VERIFIED on Schwab 2026-09-01: hCaptcha at email gate rejects automation) — personal apply: https://career-schwab.icims.com/jobs/125875/senior-software-engineer/job?jr_id=6a95c0343843db0159906e9e"
   },
   {
    "id": "68c8b662f9c6ff7aedf11c7a",
@@ -1795,7 +1797,7 @@
    "atsUrl": "https://erp-sas.icims.com/jobs/42210/software-developer---saas-software-engineer/job?jr_id=6a94ec4d9864261ccd2a4b7c",
    "addedAt": "2026-09-01",
    "status": "user_manual",
-   "note": "iCIMS tenant requires account+captcha from cloud (precedent) — personal apply: https://erp-sas.icims.com/jobs/42210/software-developer---saas-software-engineer/job?jr_id=6a94ec4d9864261ccd2a4b7c"
+   "note": "iCIMS tenant requires account+captcha from cloud (VERIFIED on Schwab 2026-09-01: hCaptcha at email gate rejects automation) — personal apply: https://erp-sas.icims.com/jobs/42210/software-developer---saas-software-engineer/job?jr_id=6a94ec4d9864261ccd2a4b7c"
   },
   {
    "id": "6a7a18b19ee17f276dbf1310",
@@ -2071,7 +2073,7 @@
    "atsUrl": "https://careers-mercuryinsurance.icims.com/jobs/6766/senior-software-engineer/job?jr_id=6a91ec858e59685453378565",
    "addedAt": "2026-09-01",
    "status": "user_manual",
-   "note": "iCIMS tenant requires account+captcha from cloud (precedent) — personal apply: https://careers-mercuryinsurance.icims.com/jobs/6766/senior-software-engineer/job?jr_id=6a91ec858e59685453378565"
+   "note": "iCIMS tenant requires account+captcha from cloud (VERIFIED on Schwab 2026-09-01: hCaptcha at email gate rejects automation) — personal apply: https://careers-mercuryinsurance.icims.com/jobs/6766/senior-software-engineer/job?jr_id=6a91ec858e59685453378565"
   },
   {
    "id": "6a46bd098204a812e98c9baf",
