@@ -1028,7 +1028,7 @@
   },
   {
    "label": "have you worked at \\w+\\?|have you (ever )?been employed by \\w+",
-   "prefer": "^no"
+   "prefer": "^no\\b|have not worked|never worked|have not been employed|not previously"
   },
   {
    "label": "applicant privacy acknowledg|privacy acknowledgement",
@@ -1057,6 +1057,14 @@
   {
    "label": "preferred coding language|preferred programming language",
    "prefer": "python"
+  },
+  {
+   "label": "have you worked at doordash",
+   "prefer": "have not worked"
+  },
+  {
+   "label": "employed by rubrik or contract",
+   "prefer": "^no\\b|have not|never"
   }
  ],
  "texts": [
@@ -1439,6 +1447,22 @@
   {
    "label": "experience with c# and the \\.?net",
    "text": "My professional backend work has been primarily in Python, Go, and TypeScript rather than C#/.NET. I work daily with strongly-typed service architectures, async patterns, ORMs, and API design that transfer directly to C#, and I am confident ramping up on the .NET ecosystem quickly."
+  },
+  {
+   "label": "finra registered",
+   "text": "No — I am not FINRA registered and hold no securities registrations."
+  },
+  {
+   "label": "relatives employed by",
+   "text": "No."
+  },
+  {
+   "label": "subject to a non-comp",
+   "text": "No."
+  },
+  {
+   "label": "hybrid role requiring 3 days|3 days per week in office",
+   "text": "Yes — I can work from the office 3 days per week (Tuesday/Wednesday/Thursday)."
   }
  ],
  "checkboxes": [
