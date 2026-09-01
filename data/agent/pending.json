@@ -1384,10 +1384,10 @@
    "company": "Navy Federal Credit Union",
    "matchPercent": 94,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a96ea58455eaf6a08c194ca",
-   "atsUrl": null,
+   "atsUrl": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/31978?jr_id=6a96ea58455eaf6a08c194ca",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "Oracle Cloud CX resolved (fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com) — queue for agent OTP wave"
   },
   {
    "id": "6a9628c3f28891320e860938",
@@ -1396,10 +1396,10 @@
    "company": "OpenAlex",
    "matchPercent": 93,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9628c3f28891320e860938",
-   "atsUrl": null,
+   "atsUrl": "https://openalex.org/jobs/software-engineer?jr_id=6a9628c3f28891320e860938",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to openalex.org — assess next wave. platform not automated from cloud: openalex.org"
   },
   {
    "id": "6a9710c3b22f636c81415a40",
@@ -1408,10 +1408,10 @@
    "company": "Thomson Reuters",
    "matchPercent": 92,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9710c3b22f636c81415a40",
-   "atsUrl": null,
+   "atsUrl": "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-New-York-New-York/Senior-Software-Engineer--Full-Stack_JREQ199749-1?jr_id=6a9710c3b22f636c81415a40",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "Workday tenant resolved (thomsonreuters.wd5.myworkdayjobs.com) — queue for agent Workday registration wave"
   },
   {
    "id": "6a51f979bf63b66c7997efa4",
@@ -1420,10 +1420,10 @@
    "company": "Uniswap",
    "matchPercent": 92,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a51f979bf63b66c7997efa4",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.ashbyhq.com/uniswap/cfd492ff-dd07-432a-84b8-8aef0e8984ec/application?utm_source=jobright&jr_id=6a51f979bf63b66c7997efa4",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "local replay",
+   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
   },
   {
    "id": "6a9677d026613756de6d8325",
@@ -1432,10 +1432,10 @@
    "company": "State Farm",
    "matchPercent": 91,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9677d026613756de6d8325",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.statefarm.com/jobs/45844?lang=en-us&iis=jobright&iisn=jobright&jr_id=6a9677d026613756de6d8325",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to jobs.statefarm.com — assess next wave. platform not automated from cloud: jobs.statefarm.com"
   },
   {
    "id": "6a907b3b7c32860d14cf99d0",
@@ -1444,10 +1444,10 @@
    "company": "AbbVie",
    "matchPercent": 91,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a907b3b7c32860d14cf99d0",
-   "atsUrl": null,
+   "atsUrl": "https://careers.abbvie.com/en/job/software-engineer-ai-platform-hybrid-in-north-chicago-il-jid-32281?jr_id=6a907b3b7c32860d14cf99d0",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to careers.abbvie.com — assess next wave. platform not automated from cloud: careers.abbvie.com"
   },
   {
    "id": "6a96ee9c246d697dcee02131",
@@ -1456,10 +1456,10 @@
    "company": "Nelnet",
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a96ee9c246d697dcee02131",
-   "atsUrl": null,
+   "atsUrl": "https://nelnet.wd1.myworkdayjobs.com/mynelnet/job/Remote/Sr-Software-Engineer_R23060?jr_id=6a96ee9c246d697dcee02131",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "Workday tenant resolved (nelnet.wd1.myworkdayjobs.com) — queue for agent Workday registration wave"
   },
   {
    "id": "6a95dc52cabc9f6703e1a66d",
@@ -1468,10 +1468,10 @@
    "company": "Remitly",
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95dc52cabc9f6703e1a66d",
-   "atsUrl": null,
+   "atsUrl": "https://remitly.wd5.myworkdayjobs.com/remitly_careers/job/Seattle-Washington-United-States/Senior-Software-Engineer_R_106829?jr_id=6a95dc52cabc9f6703e1a66d",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "Workday tenant resolved (remitly.wd5.myworkdayjobs.com) — queue for agent Workday registration wave"
   },
   {
    "id": "69f28bbaab4ec4779fff9b84",
@@ -1480,10 +1480,10 @@
    "company": "Point72",
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/69f28bbaab4ec4779fff9b84",
-   "atsUrl": null,
+   "atsUrl": "https://careers.point72.com/CSJobDetail?jobCode=PIT-0014783&jr_id=69f28bbaab4ec4779fff9b84",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to careers.point72.com — assess next wave. platform not automated from cloud: careers.point72.com"
   },
   {
    "id": "69dfc703433ac8430e0e2181",
@@ -1492,10 +1492,10 @@
    "company": "Veryable",
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/69dfc703433ac8430e0e2181",
-   "atsUrl": null,
+   "atsUrl": "https://ats.rippling.com/veryable-careers/jobs/5dfd7286-f3b1-46ff-b30a-bbeef6a5e3ce?jr_id=69dfc703433ac8430e0e2181",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "local replay",
+   "note": "Rippling ATS Cloudflare-gates submit from cloud — use agent/finishers/rippling-finish.mjs on Mac."
   },
   {
    "id": "6a54be1fccd81a26173f34cc",
@@ -1504,10 +1504,10 @@
    "company": "Rippling",
    "matchPercent": 90,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a54be1fccd81a26173f34cc",
-   "atsUrl": null,
+   "atsUrl": "https://ats.rippling.com/rippling/jobs/1f81bd71-a3b5-4b91-aa6c-9999417a4c47?jr_id=6a54be1fccd81a26173f34cc",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "local replay",
+   "note": "Rippling ATS Cloudflare-gates submit from cloud — use agent/finishers/rippling-finish.mjs on Mac."
   },
   {
    "id": "6a907b757c32860d14cf99e3",
@@ -1516,10 +1516,10 @@
    "company": "ComPsych",
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a907b757c32860d14cf99e3",
-   "atsUrl": null,
+   "atsUrl": "https://careers-compsych.icims.com/jobs/2223/software-engineer/job?jr_id=6a907b757c32860d14cf99e3",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_manual",
+   "note": "iCIMS tenant requires account+captcha from cloud (precedent) — personal apply: https://careers-compsych.icims.com/jobs/2223/software-engineer/job?jr_id=6a907b757c32860d14cf99e3"
   },
   {
    "id": "6a51d99c57513b72e0c68e12",
@@ -1528,10 +1528,10 @@
    "company": "Nash",
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a51d99c57513b72e0c68e12",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.ashbyhq.com/nash/5078366e-db73-45a4-b9cb-23162d3bc28b/application?utm_source=jobright&jr_id=6a51d99c57513b72e0c68e12",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "local replay",
+   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
   },
   {
    "id": "6a9613564c22023a07937e00",
@@ -1540,10 +1540,10 @@
    "company": "Eccalon, LLC",
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9613564c22023a07937e00",
-   "atsUrl": null,
+   "atsUrl": "https://recruiting.myapps.paychex.com/appone/MainInfoReq.asp?R_ID=7208221&B_ID=91&fid=1&Adid=0&ssbgcolor=5B5B5B&SearchScreenID=23884&CountryID=3&LanguageID=2&jr_id=6a9613564c22023a07937e00",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to recruiting.myapps.paychex.com — assess next wave. platform not automated from cloud: recruiting.myapps.paychex"
   },
   {
    "id": "6a8487bde12474455273ade3",
@@ -1552,10 +1552,10 @@
    "company": "Robinhood",
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8487bde12474455273ade3",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=robinhood&jr_id=6a8487bde12474455273ade3&token=8132616&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "applied",
+   "note": "submitted via cloud batch 2026-09-01T21:42:51.979Z"
   },
   {
    "id": "6a970160d13b4819f39de646",
@@ -1564,10 +1564,10 @@
    "company": "StoneEagle",
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a970160d13b4819f39de646",
-   "atsUrl": null,
+   "atsUrl": "https://www.paycomonline.net/v4/ats/web.php/portal/46DD20B60B2A859EED67ECFCD6939270/jobs/402135?jr_id=6a970160d13b4819f39de646",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to www.paycomonline.net — assess next wave. platform not automated from cloud: www.paycomonline.net"
   },
   {
    "id": "6a7a38cb9ee17f276dbf1f1a",
@@ -1576,10 +1576,10 @@
    "company": "Luma",
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7a38cb9ee17f276dbf1f1a",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.ashbyhq.com/lumaai/d424c5fd-3135-460e-a50d-ed941f51e80b/application?utm_source=jobright&jr_id=6a7a38cb9ee17f276dbf1f1a",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "local replay",
+   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
   },
   {
    "id": "6a90607c7c32860d14cf8edd",
@@ -1588,10 +1588,10 @@
    "company": "Fiserv",
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a90607c7c32860d14cf8edd",
-   "atsUrl": null,
+   "atsUrl": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Software-Development-Engineer-for-Implementations_R-10391719?jr_id=6a90607c7c32860d14cf8edd",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "Workday tenant resolved (fiserv.wd5.myworkdayjobs.com) — queue for agent Workday registration wave"
   },
   {
    "id": "6a97141c455eaf6a08c1a80b",
@@ -1600,10 +1600,10 @@
    "company": "Charles Schwab",
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a97141c455eaf6a08c1a80b",
-   "atsUrl": null,
+   "atsUrl": "https://career-schwab.icims.com/jobs/124692/software-development-engineer/job?jr_id=6a97141c455eaf6a08c1a80b",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_manual",
+   "note": "iCIMS tenant requires account+captcha from cloud (precedent) — personal apply: https://career-schwab.icims.com/jobs/124692/software-development-engineer/job?jr_id=6a97141c455eaf6a08c1a80b"
   },
   {
    "id": "6a9623d83843db0159909c59",
@@ -1612,10 +1612,10 @@
    "company": "Boeing",
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9623d83843db0159909c59",
-   "atsUrl": null,
+   "atsUrl": "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---El-Segundo-CA/Experienced-Software-Engineer_JR2026523599-1?jr_id=6a9623d83843db0159909c59",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "Workday tenant resolved (boeing.wd1.myworkdayjobs.com) — queue for agent Workday registration wave"
   },
   {
    "id": "6a52c23b8ef95364ead8fab9",
@@ -1624,10 +1624,10 @@
    "company": "NLB Services",
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a52c23b8ef95364ead8fab9",
-   "atsUrl": null,
+   "atsUrl": "https://www1.jobdiva.com/portal/?a=csjdnws57zkoxkvjhwvudtxno118x6039fx1e6pll7vuv3kg6vefadt7v2wpuykf&jr_id=6a52c23b8ef95364ead8fab9#/jobs/19415460",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to www1.jobdiva.com — assess next wave. platform not automated from cloud: www1.jobdiva.com"
   },
   {
    "id": "6a95c0343843db0159906e9e",
@@ -1636,10 +1636,10 @@
    "company": "Charles Schwab",
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95c0343843db0159906e9e",
-   "atsUrl": null,
+   "atsUrl": "https://career-schwab.icims.com/jobs/125875/senior-software-engineer/job?jr_id=6a95c0343843db0159906e9e",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_manual",
+   "note": "iCIMS tenant requires account+captcha from cloud (precedent) — personal apply: https://career-schwab.icims.com/jobs/125875/senior-software-engineer/job?jr_id=6a95c0343843db0159906e9e"
   },
   {
    "id": "68c8b662f9c6ff7aedf11c7a",
@@ -1648,10 +1648,10 @@
    "company": "Included Health",
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/68c8b662f9c6ff7aedf11c7a",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.lever.co/includedhealth/6834927b-8527-4c2c-bc15-855a56f68765/apply?utm_source=jobright&jr_id=68c8b662f9c6ff7aedf11c7a",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to jobs.lever.co — assess next wave. lever unconfirmed: Bad gateway Error code 502 Visit cloudfla"
   },
   {
    "id": "6a907dbaa19886486676165c",
@@ -1660,10 +1660,10 @@
    "company": "SentiLink",
    "matchPercent": 89,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a907dbaa19886486676165c",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.ashbyhq.com/sentilink/cbeda58b-9a35-4c75-a89a-5fa2c6dd83c1/application?utm_source=jobright&jr_id=6a907dbaa19886486676165c",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "local replay",
+   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
   },
   {
    "id": "6a9638bccabc9f6703e1cba4",
@@ -1672,10 +1672,10 @@
    "company": "Apple",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9638bccabc9f6703e1cba4",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.apple.com/en-us/details/200680764-0836/senior-software-engineer-platform-apps-technologies?team=SFTWR&jr_id=6a9638bccabc9f6703e1cba4",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_personal",
+   "note": "Company portal requires personal account (jobs.apple.com) — apply personally: https://jobs.apple.com/en-us/details/200680764-0836/senior-software-engineer-platform-apps-technologies?team=SFTWR&jr_id=6a9638bccabc9f6703e1cba4"
   },
   {
    "id": "6a95c6a4f28891320e85dce2",
@@ -1684,10 +1684,10 @@
    "company": "NVIDIA AI",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95c6a4f28891320e85dce2",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.nvidia.com/careers/job/893396778278?jr_id=6a95c6a4f28891320e85dce2",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to jobs.nvidia.com — assess next wave. platform not automated from cloud: jobs.nvidia.com"
   },
   {
    "id": "6a95ccbec8763a3a87ffc284",
@@ -1696,10 +1696,10 @@
    "company": "DoorDash",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95ccbec8763a3a87ffc284",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=doordashusa&jr_id=6a95ccbec8763a3a87ffc284&token=8166894&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "needs_answers",
+   "note": "cloud batch missing answers: [\"Have you worked at DoorDash?*\",\"Applicant Privacy Acknowledgement *\"]"
   },
   {
    "id": "6a7a17e1a26ccc369f83c76d",
@@ -1708,10 +1708,10 @@
    "company": "F&G",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7a17e1a26ccc369f83c76d",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=fidelityguarantylife&jr_id=6a7a17e1a26ccc369f83c76d&token=7849343003&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "needs_answers",
+   "note": "cloud batch missing answers: [\"Are you FINRA registered? If so, please list the registration you hold\",\"Do you have any relatives employed by the Iowa Insurance Division, IRS\",\"Are you subject to a non-competition agreement or other agreement whic\",\"Will you need F&G to sponsor you for a visa to work legally in the Uni\",\"Have y"
   },
   {
    "id": "6a96ff7fd13b4819f39de4d5",
@@ -1720,10 +1720,10 @@
    "company": "LeoLabs",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a96ff7fd13b4819f39de4d5",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=leolabsinc&jr_id=6a96ff7fd13b4819f39de4d5&token=4389142009&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "dropped",
+   "note": "clearance/federal-eligibility questions gate this role (TS/SCI, US-person, federal service) — never applied per policy. Kept for dedupe."
   },
   {
    "id": "69e8ec9058811370cb1290b3",
@@ -1732,10 +1732,10 @@
    "company": "JPMorganChase",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/69e8ec9058811370cb1290b3",
-   "atsUrl": null,
+   "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210737013?jr_id=69e8ec9058811370cb1290b3",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_manual",
+   "note": "JPMC Oracle Cloud hCaptcha at email gate (known) — personal apply: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210737013?jr_id=69e8ec9058811370cb1290b3"
   },
   {
    "id": "6a8354ba3eeac101cfa9f0b0",
@@ -1744,10 +1744,10 @@
    "company": "Uber",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8354ba3eeac101cfa9f0b0",
-   "atsUrl": null,
+   "atsUrl": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/300820?jr_id=6a8354ba3eeac101cfa9f0b0",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "Oracle Cloud CX resolved (iaziqy.fa.ocs.oraclecloud.com) — queue for agent OTP wave"
   },
   {
    "id": "69827919348f733a5c355cd4",
@@ -1756,10 +1756,10 @@
    "company": "Palo Alto Networks",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/69827919348f733a5c355cd4",
-   "atsUrl": null,
+   "atsUrl": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Sr-Software-Engineer_JR-011060?jr_id=69827919348f733a5c355cd4",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "Workday tenant resolved (paloaltonetworks.wd5.myworkdayjobs.com) — queue for agent Workday registration wave"
   },
   {
    "id": "6a79e474b17cba5690364262",
@@ -1768,10 +1768,10 @@
    "company": "Bank of America",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a79e474b17cba5690364262",
-   "atsUrl": null,
+   "atsUrl": "https://ghr.wd1.myworkdayjobs.com/lateral-us/job/Charlotte/Software-Engineer-III---Payments-Platforms_26027897-2?jr_id=6a79e474b17cba5690364262",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "Workday tenant resolved (ghr.wd1.myworkdayjobs.com) — queue for agent Workday registration wave"
   },
   {
    "id": "69fb122f87a4820e6da84a76",
@@ -1780,10 +1780,10 @@
    "company": "Plaid",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/69fb122f87a4820e6da84a76",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.ashbyhq.com/plaid/24f357ee-b2fc-4f86-bab9-d10ecfb99003/application?utm_source=jobright&jr_id=69fb122f87a4820e6da84a76",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "local replay",
+   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
   },
   {
    "id": "6a94ec4d9864261ccd2a4b7c",
@@ -1792,10 +1792,10 @@
    "company": "SAS",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a94ec4d9864261ccd2a4b7c",
-   "atsUrl": null,
+   "atsUrl": "https://erp-sas.icims.com/jobs/42210/software-developer---saas-software-engineer/job?jr_id=6a94ec4d9864261ccd2a4b7c",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_manual",
+   "note": "iCIMS tenant requires account+captcha from cloud (precedent) — personal apply: https://erp-sas.icims.com/jobs/42210/software-developer---saas-software-engineer/job?jr_id=6a94ec4d9864261ccd2a4b7c"
   },
   {
    "id": "6a7a18b19ee17f276dbf1310",
@@ -1804,10 +1804,10 @@
    "company": "Oracle",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7a18b19ee17f276dbf1310",
-   "atsUrl": null,
+   "atsUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/341603?jr_id=6a7a18b19ee17f276dbf1310",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "Oracle Cloud CX resolved (eeho.fa.us2.oraclecloud.com) — queue for agent OTP wave"
   },
   {
    "id": "6a911f81a198864866763de3",
@@ -1816,10 +1816,10 @@
    "company": "Speechify",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a911f81a198864866763de3",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=speechify&jr_id=6a911f81a198864866763de3&token=5974226004&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "applied",
+   "note": "submitted via cloud batch 2026-09-01T21:42:51.979Z"
   },
   {
    "id": "6a67db93d0fb4c3df393f071",
@@ -1828,10 +1828,10 @@
    "company": "Accenture Federal Services",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a67db93d0fb4c3df393f071",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=accenturefederalservices&jr_id=6a67db93d0fb4c3df393f071&token=4700296006&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "dropped",
+   "note": "clearance/federal-eligibility questions gate this role (TS/SCI, US-person, federal service) — never applied per policy. Kept for dedupe."
   },
   {
    "id": "6a57d31610c4d945d865146b",
@@ -1840,10 +1840,10 @@
    "company": "ARQ",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a57d31610c4d945d865146b",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.ashbyhq.com/ARQ/433d8cb9-5a19-4ca2-9218-940d4e008ed9/application?utm_source=jobright&jr_id=6a57d31610c4d945d865146b",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "local replay",
+   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
   },
   {
    "id": "6a8353499b859b227766e0e6",
@@ -1852,10 +1852,10 @@
    "company": "Apple",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8353499b859b227766e0e6",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.apple.com/en-us/details/200677518-3956/senior-software-engineer-ai-data-platforms-aidp?team=MLAI&jr_id=6a8353499b859b227766e0e6",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_personal",
+   "note": "Company portal requires personal account (jobs.apple.com) — apply personally: https://jobs.apple.com/en-us/details/200677518-3956/senior-software-engineer-ai-data-platforms-aidp?team=MLAI&jr_id=6a8353499b859b227766e0e6"
   },
   {
    "id": "69a0259f0836fe79d860ec36",
@@ -1864,10 +1864,10 @@
    "company": "Finch",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/69a0259f0836fe79d860ec36",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.lever.co/finch/ef37a608-380b-4bc3-92ba-15053e5edc57/apply?utm_source=jobright&jr_id=69a0259f0836fe79d860ec36",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "needs_answers",
+   "note": "cloud batch missing answers: [\"This role is a hybrid role requiring 3 days per week in office (Tuesday/Wednesday/Thursday\"]"
   },
   {
    "id": "6a51ade557513b72e0c65e8f",
@@ -1876,10 +1876,10 @@
    "company": "Scale AI",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a51ade557513b72e0c65e8f",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=scaleai&jr_id=6a51ade557513b72e0c65e8f&token=4665557005&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "needs_answers",
+   "note": "cloud batch missing answers: [\"Location (City)*\",\"What is your current or more recent job title?*\"]"
   },
   {
    "id": "6a8cd2c6d34f700f87fd2d39",
@@ -1891,7 +1891,7 @@
    "atsUrl": null,
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to x — assess next wave. no ATS url discovered"
   },
   {
    "id": "6a875f20cde3717f9e9b1b1b",
@@ -1900,10 +1900,10 @@
    "company": "Amazon",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a875f20cde3717f9e9b1b1b",
-   "atsUrl": null,
+   "atsUrl": "https://www.amazon.jobs/en/jobs/10509308/software-dev-engineer-iii-aws-catalog?jr_id=6a875f20cde3717f9e9b1b1b",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_personal",
+   "note": "Company portal requires personal account (www.amazon.jobs) — apply personally: https://www.amazon.jobs/en/jobs/10509308/software-dev-engineer-iii-aws-catalog?jr_id=6a875f20cde3717f9e9b1b1b"
   },
   {
    "id": "6a8f06daf841e649a7190377",
@@ -1912,10 +1912,10 @@
    "company": "Snowflake",
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f06daf841e649a7190377",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.ashbyhq.com/snowflake/83f7f33a-9c74-459a-a324-b2dea2e709dd/application?utm_source=jobright&jr_id=6a8f06daf841e649a7190377",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "local replay",
+   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
   },
   {
    "id": "6a3aae67797099171917b04c",
@@ -1924,10 +1924,10 @@
    "company": "Reddit, Inc.",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a3aae67797099171917b04c",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=reddit&jr_id=6a3aae67797099171917b04c&token=8022446&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "applied",
+   "note": "submitted via cloud batch 2026-09-01T21:42:51.979Z"
   },
   {
    "id": "6a298b890c4972328e7e404c",
@@ -1939,7 +1939,7 @@
    "atsUrl": null,
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to x — assess next wave. no ATS url discovered"
   },
   {
    "id": "6a95c4ce3843db01599070b6",
@@ -1948,10 +1948,10 @@
    "company": "LogRocket",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95c4ce3843db01599070b6",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.lever.co/logrocket/0aa8b60f-1a74-4e53-b23a-8d5dc7c497a8/apply?utm_source=jobright&jr_id=6a95c4ce3843db01599070b6",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to jobs.lever.co — assess next wave. lever hCaptcha challenged this IP"
   },
   {
    "id": "6a3b1f4f649fdf16293075a7",
@@ -1960,10 +1960,10 @@
    "company": "Commure",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a3b1f4f649fdf16293075a7",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.ashbyhq.com/commure/bf15fcda-9c4b-4a3b-9249-8714e1364d29/application?utm_source=jobright&jr_id=6a3b1f4f649fdf16293075a7",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "local replay",
+   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
   },
   {
    "id": "6a96f6a3e4e60e4b8da5af36",
@@ -1975,7 +1975,7 @@
    "atsUrl": null,
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to x — assess next wave. no ATS url discovered"
   },
   {
    "id": "69c7500fe565c26a70027aa8",
@@ -1984,10 +1984,10 @@
    "company": "JPMorganChase",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/69c7500fe565c26a70027aa8",
-   "atsUrl": null,
+   "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210717924?jr_id=69c7500fe565c26a70027aa8",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_manual",
+   "note": "JPMC Oracle Cloud hCaptcha at email gate (known) — personal apply: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210717924?jr_id=69c7500fe565c26a70027aa8"
   },
   {
    "id": "6a96d04ab22f636c81413dbb",
@@ -1999,7 +1999,7 @@
    "atsUrl": null,
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to x — assess next wave. no ATS url discovered"
   },
   {
    "id": "6a4fe8374649561ec08af7b6",
@@ -2008,10 +2008,10 @@
    "company": "Supernova Technology™",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4fe8374649561ec08af7b6",
-   "atsUrl": null,
+   "atsUrl": "https://ats.rippling.com/supernova-technology/jobs/da5226b6-cc54-4376-b805-82d88557b1ae?jr_id=6a4fe8374649561ec08af7b6",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "local replay",
+   "note": "Rippling ATS Cloudflare-gates submit from cloud — use agent/finishers/rippling-finish.mjs on Mac."
   },
   {
    "id": "6a5386119fbdab22fe13fa81",
@@ -2020,10 +2020,10 @@
    "company": "Avalara",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5386119fbdab22fe13fa81",
-   "atsUrl": null,
+   "atsUrl": "https://app.careerpuck.com/job-board/avalara/job/2026-17173?jr_id=6a5386119fbdab22fe13fa81",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to app.careerpuck.com — assess next wave. platform not automated from cloud: app.careerpuck.com"
   },
   {
    "id": "6a91f1e536036300991953d9",
@@ -2032,10 +2032,10 @@
    "company": "Comcast",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a91f1e536036300991953d9",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.comcast.com/job/new-york/sr-software-engineer/45483/99859144736?source=jobright_at&utm_source=jobright&utm_medium=referral&utm_campaign=all&jr_id=6a91f1e536036300991953d9",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to jobs.comcast.com — assess next wave. platform not automated from cloud: jobs.comcast.com"
   },
   {
    "id": "6a328de3ce501060b5ce949f",
@@ -2044,10 +2044,10 @@
    "company": "Whatnot",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a328de3ce501060b5ce949f",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.ashbyhq.com/whatnot/aefd0c4d-6324-4ca0-8ebc-00ddfc722079/application?utm_source=jobright&jr_id=6a328de3ce501060b5ce949f",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "local replay",
+   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
   },
   {
    "id": "6a956d591e895f1294667a77",
@@ -2056,10 +2056,10 @@
    "company": "Amazon Web Services (AWS)",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a956d591e895f1294667a77",
-   "atsUrl": null,
+   "atsUrl": "https://www.amazon.jobs/en/jobs/10521330/senior-software-development-engineer-amazon-quick?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a956d591e895f1294667a77",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_personal",
+   "note": "Company portal requires personal account (www.amazon.jobs) — apply personally: https://www.amazon.jobs/en/jobs/10521330/senior-software-development-engineer-amazon-quick?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a956d591e895f1294667a77"
   },
   {
    "id": "6a91ec858e59685453378565",
@@ -2068,10 +2068,10 @@
    "company": "Mercury Insurance",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a91ec858e59685453378565",
-   "atsUrl": null,
+   "atsUrl": "https://careers-mercuryinsurance.icims.com/jobs/6766/senior-software-engineer/job?jr_id=6a91ec858e59685453378565",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_manual",
+   "note": "iCIMS tenant requires account+captcha from cloud (precedent) — personal apply: https://careers-mercuryinsurance.icims.com/jobs/6766/senior-software-engineer/job?jr_id=6a91ec858e59685453378565"
   },
   {
    "id": "6a46bd098204a812e98c9baf",
@@ -2080,10 +2080,10 @@
    "company": "LSEG",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a46bd098204a812e98c9baf",
-   "atsUrl": null,
+   "atsUrl": "https://lseg.wd3.myworkdayjobs.com/careers/job/USA-St-Louis-795-Office-Pkwy/Senior-Software-Engineer---St-Louis_R0121330?jr_id=6a46bd098204a812e98c9baf",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "Workday tenant resolved (lseg.wd3.myworkdayjobs.com) — queue for agent Workday registration wave"
   },
   {
    "id": "6a7bbaeeecf5194164fbfb4f",
@@ -2092,10 +2092,10 @@
    "company": "Aegis Ventures",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7bbaeeecf5194164fbfb4f",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=aegisventures&jr_id=6a7bbaeeecf5194164fbfb4f&token=4686295006&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "needs_answers",
+   "note": "cloud batch missing answers: [\"Location (City)*\"]"
   },
   {
    "id": "6a14043c83d71442898333f7",
@@ -2107,7 +2107,7 @@
    "atsUrl": null,
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to x — assess next wave. no ATS url discovered"
   },
   {
    "id": "69eaa35f0a6e09555304242e",
@@ -2116,10 +2116,10 @@
    "company": "Perplexity",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/69eaa35f0a6e09555304242e",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.ashbyhq.com/perplexity/043d6a58-87a1-4e3c-bf47-4dc351b94cf4/application?utm_source=jobright&jr_id=69eaa35f0a6e09555304242e",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "local replay",
+   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
   },
   {
    "id": "6a16defdf45c6530ce9a6bb1",
@@ -2128,10 +2128,10 @@
    "company": "Scale AI",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a16defdf45c6530ce9a6bb1",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=scaleai&jr_id=6a16defdf45c6530ce9a6bb1&token=4674911005&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "dropped",
+   "note": "clearance/federal-eligibility questions gate this role (TS/SCI, US-person, federal service) — never applied per policy. Kept for dedupe."
   },
   {
    "id": "6a8ca52425fc4e7ae3db99b4",
@@ -2140,10 +2140,10 @@
    "company": "Amazon",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8ca52425fc4e7ae3db99b4",
-   "atsUrl": null,
+   "atsUrl": "https://www.amazon.jobs/en/jobs/10512775/sr-software-dev-engineer-aws-opensearch-service?jr_id=6a8ca52425fc4e7ae3db99b4",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_personal",
+   "note": "Company portal requires personal account (www.amazon.jobs) — apply personally: https://www.amazon.jobs/en/jobs/10512775/sr-software-dev-engineer-aws-opensearch-service?jr_id=6a8ca52425fc4e7ae3db99b4"
   },
   {
    "id": "6a2a2f04495d985b99427ba8",
@@ -2152,10 +2152,10 @@
    "company": "TikTok",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a2a2f04495d985b99427ba8",
-   "atsUrl": null,
+   "atsUrl": "https://www.linkedin.com/jobs/view/4414480080?jr_id=6a2a2f04495d985b99427ba8",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "aggregator-only link — needs resolver pass to company ATS"
   },
   {
    "id": "6a8c8bb31d96e6541c8c1830",
@@ -2164,10 +2164,10 @@
    "company": "JPMorganChase",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8c8bb31d96e6541c8c1830",
-   "atsUrl": null,
+   "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210778863?jr_id=6a8c8bb31d96e6541c8c1830",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_manual",
+   "note": "JPMC Oracle Cloud hCaptcha at email gate (known) — personal apply: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210778863?jr_id=6a8c8bb31d96e6541c8c1830"
   },
   {
    "id": "6a520ab2d007ee02d95f5c15",
@@ -2176,10 +2176,10 @@
    "company": "Perpay Inc.",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a520ab2d007ee02d95f5c15",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=perpay&jr_id=6a520ab2d007ee02d95f5c15&token=4034548007&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "needs_answers",
+   "note": "cloud batch missing answers: [\"What excites you about this opportunity?*\"]"
   },
   {
    "id": "6a8f66c67c32860d14cf5b45",
@@ -2188,10 +2188,10 @@
    "company": "JPMorganChase",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f66c67c32860d14cf5b45",
-   "atsUrl": null,
+   "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210777777?jr_id=6a8f66c67c32860d14cf5b45",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_manual",
+   "note": "JPMC Oracle Cloud hCaptcha at email gate (known) — personal apply: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210777777?jr_id=6a8f66c67c32860d14cf5b45"
   },
   {
    "id": "6a0493126c07461fe170e7ce",
@@ -2200,10 +2200,10 @@
    "company": "Wealthfront",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a0493126c07461fe170e7ce",
-   "atsUrl": null,
+   "atsUrl": "https://www.ziprecruiter.com/kn/AAI0a4jloMuF41qgYhWNYnSX05gjdaS6pTe577N4Op_6KRi2xnuDR5y-Q5m4vuf5YcyeLNNKEA8QzQk75fcVaXSBhzLfpNjVti8PCrW-FOyI560MMpZSCq2lPauA0u630UPyE1th-KbcZ6bPNRpY95CUQOOumPQxHj-DDL5HyRpur1_8Ksh0MmK5JJk55fvhve5sfCUIyOVBJg9lSozj5NbXyx5KW-101gc8u9hsq5YsgeKNcJWbB_T7eg9TQwXsCaz7_jUP0iShHL4Hbc2fXIQqGTC6KW9oGwxcslCuuDjKTE_sSHk2rUDxrBxNT1wOqfGe6h14inje4TBxf4UOnsq-BK_L0xbqQ4CJExHdXi2k_YxNU6mDvrD-fGjdSpoNhexNcQG75NvDwYGLQI5Ou3oPuPaS8xFxTzpdHhTc3Fv1kMLU279NjYXKrA?tsid=123468825&jr_id=6a0493126c07461fe170e7ce&__cf_chl_rt_tk=b1OrdsMnQN03salitUmZ1vGughX98Pfnga8kRDfKkGw-1788298057-1.0.1.1-CaU.2xpzq3oK7VbFxmx45buiTHlQs9kUtZ3ycagUPss",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "aggregator-only link — needs resolver pass to company ATS"
   },
   {
    "id": "6a95c7c8c8763a3a87ffbfe6",
@@ -2212,10 +2212,10 @@
    "company": "Harnham",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95c7c8c8763a3a87ffbfe6",
-   "atsUrl": null,
+   "atsUrl": "https://www.linkedin.com/jobs/view/4461241974?jr_id=6a95c7c8c8763a3a87ffbfe6",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "aggregator-only link — needs resolver pass to company ATS"
   },
   {
    "id": "6a903139a19886486675fcb0",
@@ -2224,10 +2224,10 @@
    "company": "Panasonic Avionics Corporation",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a903139a19886486675fcb0",
-   "atsUrl": null,
+   "atsUrl": "http://careers.na.panasonic.com/jobs/48322?lang=en-us&iis=Job+Board&iisn=jobright&jr_id=6a903139a19886486675fcb0",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to careers.na.panasonic.com — assess next wave. platform not automated from cloud: careers.na.panasonic.com"
   },
   {
    "id": "6a91d3d6a27a2d3c9848a481",
@@ -2236,10 +2236,10 @@
    "company": "Apple",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a91d3d6a27a2d3c9848a481",
-   "atsUrl": null,
+   "atsUrl": "https://jobs.apple.com/en-us/details/200680248-3956/sr-software-engineer-framework-solutions-ai-data-platforms-aidp?team=SFTWR&jr_id=6a91d3d6a27a2d3c9848a481",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_personal",
+   "note": "Company portal requires personal account (jobs.apple.com) — apply personally: https://jobs.apple.com/en-us/details/200680248-3956/sr-software-engineer-framework-solutions-ai-data-platforms-aidp?team=SFTWR&jr_id=6a91d3d6a27a2d3c9848a481"
   },
   {
    "id": "6a97137a246d697dcee0334f",
@@ -2248,10 +2248,10 @@
    "company": "Amazon Web Services (AWS)",
    "matchPercent": 86,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a97137a246d697dcee0334f",
-   "atsUrl": null,
+   "atsUrl": "https://www.amazon.jobs/en/jobs/10512194/software-dev-engineer-iii-aws-elastic-beanstalk?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a97137a246d697dcee0334f",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_personal",
+   "note": "Company portal requires personal account (www.amazon.jobs) — apply personally: https://www.amazon.jobs/en/jobs/10512194/software-dev-engineer-iii-aws-elastic-beanstalk?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a97137a246d697dcee0334f"
   },
   {
    "id": "6a5e77cd67b2850e77df1594",
@@ -2260,10 +2260,10 @@
    "company": "Press Ganey",
    "matchPercent": 86,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5e77cd67b2850e77df1594",
-   "atsUrl": null,
+   "atsUrl": "https://pressganey.wd1.myworkdayjobs.com/careers/job/Provo-UT/Senior-Software-Engineer_R26_0000000282-1?jr_id=6a5e77cd67b2850e77df1594",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "Workday tenant resolved (pressganey.wd1.myworkdayjobs.com) — queue for agent Workday registration wave"
   },
   {
    "id": "6a96f8a9d13b4819f39de05e",
@@ -2272,10 +2272,10 @@
    "company": "First Citizens Wealth",
    "matchPercent": 86,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a96f8a9d13b4819f39de05e",
-   "atsUrl": null,
+   "atsUrl": "https://firstcitizens.jibeapply.com/jobs/35342?jr_id=6a96f8a9d13b4819f39de05e",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to firstcitizens.jibeapply.com — assess next wave. platform not automated from cloud: firstcitizens.jibeapply.c"
   },
   {
    "id": "6a95ef73c8763a3a87ffd494",
@@ -2284,10 +2284,10 @@
    "company": "ZeroDrift",
    "matchPercent": 86,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95ef73c8763a3a87ffd494",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=zerodriftinc&jr_id=6a95ef73c8763a3a87ffd494&token=4290510009&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "needs_answers",
+   "note": "cloud batch missing answers: [\"If hired, would you require any sponsorship to work in the United Stat\"]"
   },
   {
    "id": "6a95e90ec8763a3a87ffd25a",
@@ -2296,10 +2296,10 @@
    "company": "Rubrik",
    "matchPercent": 86,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95e90ec8763a3a87ffd25a",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=rubrik&jr_id=6a95e90ec8763a3a87ffd25a&token=8157246&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "needs_answers",
+   "note": "cloud batch missing answers: [\"Are you currently or have you ever been employed by Rubrik or contract\",\"What is your preferred coding language?*\",\"What is your current job title?*\",\"What is the name of your current employer?*\",\"What is your home Zip Code? *\"]"
   },
   {
    "id": "6a96e037d13b4819f39dd6ca",
@@ -2308,10 +2308,10 @@
    "company": "SANMINA-SCI TECHNOLOGY INDIA PRIVATE LIMITED",
    "matchPercent": 86,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a96e037d13b4819f39dd6ca",
-   "atsUrl": null,
+   "atsUrl": "https://careers.sanmina.com/job/2439/backend_developer?jr_id=6a96e037d13b4819f39dd6ca",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to careers.sanmina.com — assess next wave. platform not automated from cloud: careers.sanmina.com"
   },
   {
    "id": "6a955969afd6d85adbfad70b",
@@ -2320,10 +2320,10 @@
    "company": "Bloomberg",
    "matchPercent": 86,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a955969afd6d85adbfad70b",
-   "atsUrl": null,
+   "atsUrl": "https://bloomberg.avature.net/careers/JobDetail/Senior-Software-Engineer-Apache-Kafka-Infrastructure/19855?jr_id=6a955969afd6d85adbfad70b",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "resolved to bloomberg.avature.net — assess next wave. platform not automated from cloud: bloomberg.avature.net"
   },
   {
    "id": "6a8ed596382b237ac80c2e29",
@@ -2332,10 +2332,10 @@
    "company": "Larsen & Toubro",
    "matchPercent": 86,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8ed596382b237ac80c2e29",
-   "atsUrl": null,
+   "atsUrl": "https://www.linkedin.com/jobs/view/4457933143?jr_id=6a8ed596382b237ac80c2e29",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "aggregator-only link — needs resolver pass to company ATS"
   },
   {
    "id": "6a8f856bd96ad228f125df53",
@@ -2344,10 +2344,10 @@
    "company": "Google",
    "matchPercent": 86,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f856bd96ad228f125df53",
-   "atsUrl": null,
+   "atsUrl": "https://www.google.com/about/careers/applications/jobs/results/116935881851314886-senior-software-engineer-performance-google-cloud-performance?page=122&jr_id=6a8f856bd96ad228f125df53",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "user_personal",
+   "note": "Company portal requires personal account (www.google.com) — apply personally: https://www.google.com/about/careers/applications/jobs/results/116935881851314886-senior-software-engineer-performance-google-cloud-performance?page=122&jr_id=6a8f856bd96ad228f125df53"
   },
   {
    "id": "6a95c9b4c8763a3a87ffc09f",
@@ -2356,10 +2356,10 @@
    "company": "Mastercard",
    "matchPercent": 86,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95c9b4c8763a3a87ffc09f",
-   "atsUrl": null,
+   "atsUrl": "https://mastercard.wd1.myworkdayjobs.com/corporatecareers/job/OFallon-Missouri/Senior-Software-Engineer---Java_R-289291?jr_id=6a95c9b4c8763a3a87ffc09f",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "Workday tenant resolved (mastercard.wd1.myworkdayjobs.com) — queue for agent Workday registration wave"
   },
   {
    "id": "6a509cfcddd293054ccaa3f4",
@@ -2368,10 +2368,10 @@
    "company": "Sphinx Defense",
    "matchPercent": 86,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a509cfcddd293054ccaa3f4",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sphinxdefense&jr_id=6a509cfcddd293054ccaa3f4&token=5294721008&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "dropped",
+   "note": "clearance/federal-eligibility questions gate this role (TS/SCI, US-person, federal service) — never applied per policy. Kept for dedupe."
   },
   {
    "id": "6a387a951232144fb1568aa9",
@@ -2380,10 +2380,10 @@
    "company": "Genuine Parts Company",
    "matchPercent": 86,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a387a951232144fb1568aa9",
-   "atsUrl": null,
+   "atsUrl": "https://genpt.wd1.myworkdayjobs.com/careers/job/Birmingham-AL-USA/Software-Engineer-IV_R26_0000009194?jr_id=6a387a951232144fb1568aa9",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "no ATS url discovered"
+   "note": "Workday tenant resolved (genpt.wd1.myworkdayjobs.com) — queue for agent Workday registration wave"
   },
   {
    "id": "6a725484ee751e0c79348697",
@@ -2392,10 +2392,10 @@
    "company": "Topstep",
    "matchPercent": 86,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a725484ee751e0c79348697",
-   "atsUrl": null,
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=topsteptrader&jr_id=6a725484ee751e0c79348697&token=7826862003&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "no ATS url discovered"
+   "status": "needs_answers",
+   "note": "cloud batch missing answers: [\"Do you now or in the future require U.S. work authorization through CP\",\"Describe your experience with C# and the .NET ecosystem, including any\",\"Have you designed or worked within distributed, event-driven systems (\",\"If yes, please briefly describe an example. *\",\"What is your experience level w"
   },
   {
    "id": "6a7390dc1ce9647cdbca8f03",

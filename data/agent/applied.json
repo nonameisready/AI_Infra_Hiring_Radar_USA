@@ -3290,6 +3290,45 @@
    "via": "greenhouse",
    "detail": "LinkedIn listing resolved to GH board roku job 7032137 (NYC posting; SF/Boston twins skipped). Interactive driver run: react-select typeaheads (location New York NY, heard=Other, lawful-work Yes, sponsorship Yes, demographics declined), 8-char security code VqJeRrLR filled per-cell (gh-finish keyboard.type could not — noted for finisher fix). Confirmed: /embed/job_app/confirmation.",
    "at": "2026-09-01T20:11:29.113Z"
+  },
+  "6a8487bde12474455273ade3": {
+   "id": "6a8487bde12474455273ade3",
+   "key": "robinhood::senior software engineer, load and fault environments",
+   "title": "Senior Software Engineer, Load and Fault Environments",
+   "company": "Robinhood",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8487bde12474455273ade3",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=robinhood&jr_id=6a8487bde12474455273ade3&token=8132616&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "cloud fallback batch 2026-09-01 (Mac harvest, resolver-fixed). Security code auto-fetched where needed.",
+   "at": "2026-09-01T21:42:51.979Z"
+  },
+  "6a911f81a198864866763de3": {
+   "id": "6a911f81a198864866763de3",
+   "key": "speechify::software engineer, platform - newark, nj, usa",
+   "title": "Software Engineer, Platform - Newark, NJ, USA",
+   "company": "Speechify",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a911f81a198864866763de3",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=speechify&jr_id=6a911f81a198864866763de3&token=5974226004&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "cloud fallback batch 2026-09-01 (Mac harvest, resolver-fixed). Security code auto-fetched where needed.",
+   "at": "2026-09-01T21:42:51.979Z"
+  },
+  "6a3aae67797099171917b04c": {
+   "id": "6a3aae67797099171917b04c",
+   "key": "reddit, inc.::senior software engineer, core platform",
+   "title": "Senior Software Engineer, Core Platform",
+   "company": "Reddit, Inc.",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a3aae67797099171917b04c",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=reddit&jr_id=6a3aae67797099171917b04c&token=8022446&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "cloud fallback batch 2026-09-01 (Mac harvest, resolver-fixed). Security code auto-fetched where needed.",
+   "at": "2026-09-01T21:42:51.979Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

@@ -1025,6 +1025,38 @@
   {
    "label": "confirm receipt of the above|data privacy notice and (us )?arbitration",
    "prefer": "^yes|acknowledge|confirm"
+  },
+  {
+   "label": "have you worked at \\w+\\?|have you (ever )?been employed by \\w+",
+   "prefer": "^no"
+  },
+  {
+   "label": "applicant privacy acknowledg|privacy acknowledgement",
+   "prefer": "acknowledge|^yes|agree|^i acknowledge"
+  },
+  {
+   "label": "finra registered",
+   "prefer": "^no"
+  },
+  {
+   "label": "relatives employed by",
+   "prefer": "^no"
+  },
+  {
+   "label": "subject to (a |any )?(non-?compete|non-?solicit)|bound by any agreements with a (current|former) employ",
+   "prefer": "^no"
+  },
+  {
+   "label": "hybrid role requiring 3 days|3 days per week in office",
+   "prefer": "^yes"
+  },
+  {
+   "label": "require any sponsorship to work in the united states|work authorization through cpt|authorization through (cpt|opt)",
+   "prefer": "^yes"
+  },
+  {
+   "label": "preferred coding language|preferred programming language",
+   "prefer": "python"
   }
  ],
  "texts": [
@@ -1395,6 +1427,18 @@
   {
    "label": "close personal relationship with any current employees|related to .* current employees",
    "text": "No."
+  },
+  {
+   "label": "current( or more recent)? job title",
+   "text": "Software Engineer"
+  },
+  {
+   "label": "what excites you about this opportunity",
+   "text": "I am excited to build reliable backend systems that directly serve customers. This role focuses on the distributed-systems work I enjoy most: high-throughput pipelines, pragmatic service architecture, and shipping features with measurable product impact."
+  },
+  {
+   "label": "experience with c# and the \\.?net",
+   "text": "My professional backend work has been primarily in Python, Go, and TypeScript rather than C#/.NET. I work daily with strongly-typed service architectures, async patterns, ORMs, and API design that transfer directly to C#, and I am confident ramping up on the .NET ecosystem quickly."
   }
  ],
  "checkboxes": [
