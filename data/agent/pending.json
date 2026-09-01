@@ -755,7 +755,8 @@
    "atsUrl": "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/49052?jr_id=6a950e41c12c90443efce29e",
    "addedAt": "2026-08-31",
    "status": "parked",
-   "note": "platform not automated from cloud: hcgn.fa.us2.oraclecloud.com"
+   "note": "platform not automated from cloud: hcgn.fa.us2.oraclecloud.com",
+   "reason": "oracle cloud hcgn: application fully filled (questions, history, degrees) but final email-OTP never delivered after 3 sends — retry the OTP step later; everything is saved in their candidate profile under her email"
   },
   {
    "id": "6a393e8f649fdf16292ffc9f",
@@ -1028,8 +1029,9 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69fc7b976b788e7e7a5c04d8",
    "atsUrl": "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/23648?jr_id=69fc7b976b788e7e7a5c04d8",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com"
+   "status": "dropped",
+   "note": "platform not automated from cloud: fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com",
+   "reason": "Oracle CX: this job is no longer available (posting removed)"
   },
   {
    "id": "6a767ca2bb6ca93ae5612c58",
@@ -1269,8 +1271,9 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a675f942bda4d2842853912",
    "atsUrl": "https://fa-epcb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/4173?jr_id=6a675f942bda4d2842853912",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: fa-epcb-saasfaprod1.fa.ocs.oraclecloud.com"
+   "status": "user_manual",
+   "note": "platform not automated from cloud: fa-epcb-saasfaprod1.fa.ocs.oraclecloud.com",
+   "reason": "Oracle CX single-page form: all questions answered + resume parsed, but education/experience cards keep failing hidden validation (4 issues) after school/level/date fixes — finish by hand, most fields will be pre-saved"
   },
   {
    "id": "6a5a8af5856af468ab0090b8",
