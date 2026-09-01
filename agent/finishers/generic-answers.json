@@ -989,6 +989,14 @@
   {
    "label": "describes your (use|usage) of ai|use of ai in your|ai (tools )?in your (daily )?work|relationship with ai",
    "prefer": "i use ai daily across"
+  },
+  {
+   "label": "expected salary in usd",
+   "prefer": "8,000 and above"
+  },
+  {
+   "label": "how you use ai/?llm tools",
+   "prefer": "i use ai daily across"
   }
  ],
  "texts": [
