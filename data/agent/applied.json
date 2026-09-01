@@ -3405,6 +3405,45 @@
    "via": "greenhouse",
    "detail": "Reclaimed from park: double-rendered form now handled (all-copies fill). Security code auto-fetched.",
    "at": "2026-09-01T23:43:54.604Z"
+  },
+  "6a591d4a63a8f619507c04b7": {
+   "id": "6a591d4a63a8f619507c04b7",
+   "key": "fun::backend engineer",
+   "title": "Backend Engineer",
+   "company": "Fun",
+   "matchPercent": 96,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a591d4a63a8f619507c04b7",
+   "originalUrl": "https://jobs.lever.co/funxyz/a6764645-a33f-48e0-a82d-3496f9c8573d/apply?utm_source=jobright&jr_id=6a591d4a63a8f619507c04b7",
+   "status": "applied_direct",
+   "via": "lever (local replay)",
+   "detail": "Confirmed in user Mac replay run 2026-09-01 evening (screenshot in terminal). NOTE: an earlier confirmed round for this job was never pushed and was lost to a git reset — this may be a duplicate submission; ATS-side dedupe by email applies.",
+   "at": "2026-09-01T23:51:31.677Z"
+  },
+  "6a05f047320bff2205ea5dff": {
+   "id": "6a05f047320bff2205ea5dff",
+   "key": "zoox::senior/staff software engineer - ride and fleet services",
+   "title": "Senior/Staff Software Engineer - Ride and Fleet Services",
+   "company": "Zoox",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a05f047320bff2205ea5dff",
+   "originalUrl": "https://jobs.lever.co/zoox/c03ac4b4-ad7b-4407-aaea-66ebc09ca579",
+   "status": "applied_direct",
+   "via": "lever (local replay)",
+   "detail": "Confirmed in user Mac replay run 2026-09-01 evening (screenshot in terminal). NOTE: an earlier confirmed round for this job was never pushed and was lost to a git reset — this may be a duplicate submission; ATS-side dedupe by email applies.",
+   "at": "2026-09-01T23:51:31.677Z"
+  },
+  "6a445a7e0153061b8b3e02b0": {
+   "id": "6a445a7e0153061b8b3e02b0",
+   "key": "repurpose global::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "rePurpose Global",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a445a7e0153061b8b3e02b0",
+   "originalUrl": "https://jobs.lever.co/repurposeglobal/a87599f0-436e-4028-b05f-d2f9247ee1da/apply?utm_source=jobright&jr_id=6a445a7e0153061b8b3e02b0",
+   "status": "applied_direct",
+   "via": "lever (local replay)",
+   "detail": "Confirmed in user Mac replay run 2026-09-01 evening (screenshot in terminal). NOTE: an earlier confirmed round for this job was never pushed and was lost to a git reset — this may be a duplicate submission; ATS-side dedupe by email applies.",
+   "at": "2026-09-01T23:51:31.677Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

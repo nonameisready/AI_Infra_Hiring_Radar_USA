@@ -69,9 +69,23 @@ const ap = JSON.parse(fs.readFileSync(apPath, "utf8"));
 const targets = pend.items.filter((i) => /local replay/i.test(i.reason || "") || /local replay/i.test(i.status || ""));
 const platformOf = (u) =>
   /ashbyhq\.com/.test(u ?? "") ? "ashby" : /greenhouse|thatch\.com/.test(u ?? "") ? "greenhouse" : /lever\.co/.test(u ?? "") ? "lever" : /ats\.rippling\.com/.test(u ?? "") ? "rippling" : null;
+// Hard dedupe against the applied registry — a stale pending status must never
+// cause a second submission (that already happened once: Fun/Zoox/rePurpose).
+const appliedIds = new Set(Object.keys(ap.jobs ?? {}));
+const appliedKeys = new Set(
+  Object.values(ap.jobs ?? {}).map((j) => (j.key ?? `${j.company}::${j.title}`).toLowerCase().trim()),
+);
 const jobs = targets
   .map((i) => ({ ...i, platform: platformOf(i.originalUrl || i.atsUrl), originalUrl: i.originalUrl || i.atsUrl }))
-  .filter((i) => i.platform && (!ONLY || i.platform === ONLY));
+  .filter((i) => i.platform && (!ONLY || i.platform === ONLY))
+  .filter((i) => {
+    const key = (i.key ?? `${i.company}::${i.title}`).toLowerCase().trim();
+    if (appliedIds.has(i.id) || appliedKeys.has(key)) {
+      console.log(`skip (already applied per applied.json): ${i.company} — ${i.title}`);
+      return false;
+    }
+    return true;
+  });
 console.log(`${jobs.length} job(s) to replay (${DRY ? "DRY RUN — no submissions" : "submitting for real"})`);
 console.log(`Screenshots and work files: ${WORK}`);
 console.log("A real browser window will open for each job — you can watch, but don't click or type in it.\n");
@@ -224,8 +238,25 @@ if (!DRY) {
     );
     console.log(`\n🧠 Qwen wrote ${learned.combos.length + learned.texts.length} new rule(s) — saved to data/agent/qwen-learned-rules.json (pushed with your results).`);
   }
-  console.log(`\nDone: ${okJobs.length}/${results.length} confirmed. State files updated — publish with:`);
-  console.log(`  git add data/agent && git commit -m "local replay: ${okJobs.length} submitted" && git push`);
+  // Publish immediately — unpushed results caused duplicate submissions once
+  // (a later `git reset --hard` wiped a confirmed round). Never rely on the
+  // human remembering to push.
+  console.log(`\nDone: ${okJobs.length}/${results.length} confirmed. Committing and pushing results…`);
+  try {
+    const { execSync } = await import("node:child_process");
+    const sh = (cmd) => execSync(cmd, { cwd: REPO, stdio: "pipe" }).toString().trim();
+    sh("git add data/agent");
+    sh(`git -c user.name="Local Replay" -c user.email="huiluckylucky@gmail.com" commit -m "local replay: ${okJobs.length} submitted, ${results.length - okJobs.length} failed"`);
+    let pushed = false;
+    for (const target of ["git push origin HEAD", "git push origin HEAD:ashby-local-results --force-with-lease"]) {
+      try { sh(target); pushed = true; break; } catch { /* try next */ }
+    }
+    console.log(pushed
+      ? "✅ Results committed and pushed — the dashboard and the cloud agent see them now."
+      : "⚠️ Commit created but PUSH FAILED — run `git push` yourself before doing anything else, or the agent may re-apply these jobs.");
+  } catch (e) {
+    console.log(`⚠️ Auto-commit failed (${String(e.message).slice(0, 80)}) — run: git add data/agent && git commit -m "local replay" && git push`);
+  }
 } else {
   console.log("\nDry run complete — check the screenshots above, then rerun without --dry.");
 }

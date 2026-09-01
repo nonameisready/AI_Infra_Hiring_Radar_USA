@@ -22,39 +22,53 @@ type GroupDef = {
   match: (item: AgentPendingItem) => boolean;
 };
 
+const noteOf = (i: AgentPendingItem) => `${i.note ?? ""} ${i.reason ?? ""} ${(i as { atsUrl?: string }).atsUrl ?? ""}`;
+
+// Statuses the agent owns end-to-end — they must never count as "waiting on you".
+const AGENT_STATUSES = new Set(["parked", "park", "needs_answers", "agent_retry", "needs_info"]);
+export const isAgentQueued = (i: AgentPendingItem) =>
+  AGENT_STATUSES.has(i.status) || i.status === "local replay";
+
 // Ordered: automation-eligible groups first, then quick manual wins, then the
 // rest. An item lands in the first group that matches.
 const GROUPS: GroupDef[] = [
   {
     id: "auto-next",
     title: "🤖 Queued for the agent — no action needed",
-    hint: "Workday roles (automated flow ships in the next run window) and jobs already scheduled for the agent's next pass.",
-    match: (i) =>
-      i.status === "needs_info" ||
-      /next (run )?window|ships in the next/i.test(i.reason),
+    hint: "Workday / Oracle tenants and other portals already resolved and scheduled for the agent's next pass.",
+    match: (i) => AGENT_STATUSES.has(i.status),
   },
   {
     id: "local-replay",
-    title: "💻 One command on your laptop clears these",
+    title: "💻 One command on your laptop clears these — no per-job work",
     hint: "Anti-bot / rate limits block the cloud IP, but the forms auto-fill. Run `node agent/local-replay.mjs --resume <your.pdf>` from your home network.",
-    match: (i) => /local replay/i.test(i.reason),
+    match: (i) => /local replay/i.test(`${i.status} ${noteOf(i)}`),
+  },
+  {
+    id: "captcha",
+    title: "⚡ Quick manual wins — a visible captcha is the only blocker",
+    hint: "The agent verified the whole form fills; it stops only at the captcha checkbox. ~2 minutes each in your browser.",
+    match: (i) => /captcha|recaptcha|hcaptcha/i.test(noteOf(i)),
   },
   {
     id: "linkedin",
-    title: "🔵 LinkedIn Easy Apply — ~2 clicks each",
-    hint: "Fastest in your own logged-in browser. Open all, then apply down the row of tabs.",
-    match: (i) => /linkedin/i.test(i.reason),
+    title: "🔵 LinkedIn / ZipRecruiter recruiter posts — needs your login",
+    hint: "Recruiter-only listings with no company ATS. Apply from your own logged-in browser, or skip — most are low-value recruiter posts.",
+    match: (i) => /linkedin|ziprecruiter/i.test(noteOf(i)),
   },
   {
-    id: "policy",
-    title: "✍️ Questions only you should answer",
-    hint: "Skill self-ratings and AI-disclosure questions — the agent never inflates claims or impersonates a human.",
-    match: (i) => /self-rate|impersonates a human|answer this one yourself|apply personally/i.test(i.reason),
+    id: "personal",
+    title: "🪪 Personal account or identity check required",
+    hint: "Amazon / Apple / Google portals, password resets, ID verification, WOTC assessments, own-words pledges, AI-detection questions — policy says these are yours alone.",
+    match: (i) =>
+      /amazon|apple|google|identity verification|personal account|password|WOTC|own.words|AI.?[- ]?agent|automated applicant/i.test(
+        noteOf(i),
+      ),
   },
   {
     id: "manual",
-    title: "🖐 Truly manual (account-gated portals)",
-    hint: "Oracle / SuccessFactors / company-hosted portals that need a personal account. Sorted by match — start from the top, skip the tail.",
+    title: "🖐 Truly manual (verified anti-bot portals)",
+    hint: "JPMC / iCIMS / Workday tenants where the agent's registration attempts were actively rejected. Sorted by match — start from the top, skip the tail.",
     match: () => true,
   },
 ];
@@ -149,13 +163,18 @@ export function AgentTab({
     [notify, onReload, copyForClaude],
   );
 
+  // Everything still open (agent queues included) — drives the grouped list.
   const pendingItems = useMemo(
     () =>
       (state?.pending ?? []).filter(
-        (i) => i.status !== "manual_done" && !localDone.has(i.id),
+        (i) =>
+          !["applied", "applied_direct", "dropped", "withdrawn", "manual_done"].includes(i.status) &&
+          !localDone.has(i.id),
       ),
     [state, localDone],
   );
+  // Only the items that genuinely need a human — the "waiting on you" number.
+  const userItems = useMemo(() => pendingItems.filter((i) => !isAgentQueued(i)), [pendingItems]);
 
   const grouped = useMemo(() => {
     const buckets = GROUPS.map((g) => ({ def: g, items: [] as AgentPendingItem[] }));
@@ -215,7 +234,7 @@ export function AgentTab({
           <Stat label="Handled total" value={stats.total} />
           <Stat label="Auto-submitted" value={(stats.byStatus["applied_direct"] ?? 0) + (stats.byStatus["applied_jobright"] ?? 0)} tone="ok" />
           <Stat label="You applied" value={stats.byStatus["manual_done"] ?? 0} tone="ok" />
-          <Stat label="Waiting on you" value={pendingItems.length} tone={pendingItems.length ? "warn" : undefined} />
+          <Stat label="Waiting on you" value={userItems.length} tone={userItems.length ? "warn" : undefined} />
           <Stat label="Open questions" value={stats.openQuestions} tone={stats.openQuestions ? "warn" : undefined} />
         </div>
       </section>
@@ -245,7 +264,7 @@ export function AgentTab({
       )}
 
       <section className="panel p-4">
-        <h3 className="text-sm font-semibold">Needs you ({pendingItems.length})</h3>
+        <h3 className="text-sm font-semibold">Needs you ({userItems.length})</h3>
         <p className="mt-1 text-xs text-[color:var(--muted)]">
           Grouped by the fastest way to clear them — two of the groups need no action from you at
           all. Tick ✓ after applying and the agent never touches that job again.

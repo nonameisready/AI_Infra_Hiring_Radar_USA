@@ -47,7 +47,11 @@ export async function GET() {
     stats: {
       total: jobs.length,
       byStatus,
-      pending: (pending.items ?? []).filter((i) => i.status !== "manual_done").length,
+      // Only items that genuinely need the human — agent queues (parked /
+      // local replay / needs_answers) must not inflate the tab badge.
+      pending: (pending.items ?? []).filter((i) =>
+        ["user_manual", "user_personal", "user_action", "needs_manual"].includes(i.status),
+      ).length,
       openQuestions: (questions.open ?? []).length,
       lastRunAt: applied.updatedAt ?? null,
     },

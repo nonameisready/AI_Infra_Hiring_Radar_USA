@@ -133,8 +133,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a591d4a63a8f619507c04b7",
    "atsUrl": "https://jobs.lever.co/funxyz/a6764645-a33f-48e0-a82d-3496f9c8573d/apply?utm_source=jobright&jr_id=6a591d4a63a8f619507c04b7",
    "addedAt": "2026-08-30",
-   "status": "local replay",
-   "note": "lever now supported — submit from residential IP (hCaptcha passive)"
+   "status": "applied",
+   "note": "confirmed via Mac local replay 2026-09-01T23:51:31.677Z"
   },
   {
    "id": "6a628a38d5caab4af8baeafd",
@@ -318,8 +318,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a05f047320bff2205ea5dff",
    "atsUrl": "https://jobs.lever.co/zoox/c03ac4b4-ad7b-4407-aaea-66ebc09ca579",
    "addedAt": "2026-08-30",
-   "status": "local replay",
-   "note": "ZipRecruiter link resolved to the official Lever posting via api.lever.co"
+   "status": "applied",
+   "note": "confirmed via Mac local replay 2026-09-01T23:51:31.677Z"
   },
   {
    "id": "6a60ef1311edf44d7915eab9",
@@ -402,8 +402,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a445a7e0153061b8b3e02b0",
    "atsUrl": "https://jobs.lever.co/repurposeglobal/a87599f0-436e-4028-b05f-d2f9247ee1da/apply?utm_source=jobright&jr_id=6a445a7e0153061b8b3e02b0",
    "addedAt": "2026-08-30",
-   "status": "local replay",
-   "note": "lever now supported — submit from residential IP (hCaptcha passive)"
+   "status": "applied",
+   "note": "confirmed via Mac local replay 2026-09-01T23:51:31.677Z"
   },
   {
    "id": "6a75d4fa7b3417772ade53aa",
@@ -547,7 +547,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a56f538e9b77f668bd66660",
    "atsUrl": "https://jobs.ashbyhq.com/airwallex/d943812b-edf6-4f92-bce3-1bbab2d8a480/application?utm_source=jobright&jr_id=6a56f538e9b77f668bd66660",
    "addedAt": "2026-08-31",
-   "status": "local replay"
+   "status": "local replay",
+   "note": "Replay interrupted (Ctrl+C during 6-min human-assist window) 2026-09-01 — SUBMISSION STATE UNKNOWN. Verify in Gmail for an Airwallex confirmation before re-running; if none, safe to replay."
   },
   {
    "id": "6a7da51ee51a1e18a240a008",

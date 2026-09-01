@@ -92,8 +92,9 @@ export type AgentPendingItem = {
   matchPercent: number | null;
   jobrightUrl: string | null;
   originalUrl: string | null;
-  reason: string;
-  status: "needs_manual" | "needs_info" | "manual_done";
+  reason?: string;
+  note?: string;
+  status: string;
   addedAt: string;
   resolvedAt?: string;
 };
