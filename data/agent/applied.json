@@ -3329,6 +3329,32 @@
    "via": "greenhouse",
    "detail": "cloud fallback batch 2026-09-01 (Mac harvest, resolver-fixed). Security code auto-fetched where needed.",
    "at": "2026-09-01T21:42:51.979Z"
+  },
+  "6a520ab2d007ee02d95f5c15": {
+   "id": "6a520ab2d007ee02d95f5c15",
+   "key": "perpay inc.::senior software engineer, fullstack",
+   "title": "Senior Software Engineer, Fullstack",
+   "company": "Perpay Inc.",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a520ab2d007ee02d95f5c15",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=perpay&jr_id=6a520ab2d007ee02d95f5c15&token=4034548007&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "needs-answers repass with new rules (excites-you text / sponsorship-through-CPT yes); security code auto-fetched.",
+   "at": "2026-09-01T22:24:40.956Z"
+  },
+  "6a95ef73c8763a3a87ffd494": {
+   "id": "6a95ef73c8763a3a87ffd494",
+   "key": "zerodrift::senior backend engineer",
+   "title": "Senior Backend Engineer",
+   "company": "ZeroDrift",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95ef73c8763a3a87ffd494",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=zerodriftinc&jr_id=6a95ef73c8763a3a87ffd494&token=4290510009&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "needs-answers repass with new rules (excites-you text / sponsorship-through-CPT yes); security code auto-fetched.",
+   "at": "2026-09-01T22:24:40.956Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

@@ -1065,6 +1065,14 @@
   {
    "label": "employed by rubrik or contract",
    "prefer": "^no\\b|have not|never"
+  },
+  {
+   "label": "designed or worked within distributed, event-driven systems",
+   "prefer": "^yes"
+  },
+  {
+   "label": "experience level with postgresql|postgresql or sql server",
+   "prefer": "advanced|proficient|expert|extensive"
   }
  ],
  "texts": [
@@ -1463,6 +1471,18 @@
   {
    "label": "hybrid role requiring 3 days|3 days per week in office",
    "text": "Yes — I can work from the office 3 days per week (Tuesday/Wednesday/Thursday)."
+  },
+  {
+   "label": "name of your current employer",
+   "text": "Bank of America (via Innova Solutions)"
+  },
+  {
+   "label": "home zip code",
+   "text": "07306"
+  },
+  {
+   "label": "if yes, please briefly describe an example",
+   "text": "At Bank of America I build event-driven services for OTC derivatives reporting: trade events flow through message queues into validation and enrichment stages before regulatory submission, with idempotent consumers, retries, and dead-letter handling to keep the pipeline reliable at high throughput."
   }
  ],
  "checkboxes": [
