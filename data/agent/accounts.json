@@ -115,6 +115,22 @@
    "loginEmail": "huiluckylucky@gmail.com",
    "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
    "note": "email-activated 2026-09-01"
+  },
+  {
+   "site": "salesforce.wd12.myworkdayjobs.com",
+   "company": "Salesforce",
+   "platform": "workday",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 2026-09-01"
+  },
+  {
+   "site": "db.wd3.myworkdayjobs.com",
+   "company": "Deutsche Bank",
+   "platform": "workday",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created post-submit 2026-09-01; activation email received"
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."

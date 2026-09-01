@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T04:31:53.186Z",
+ "updatedAt": "2026-09-01T04:46:52.446Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -3121,6 +3121,19 @@
    "via": "workday db.wd3 (accountless flow)",
    "detail": "R0446736 AVP (Cary NC) submitted — confirmation URL carried Job_Application_ID. Authorized Yes / sponsorship Yes / data kept 24 months; EEO not-declared/prefer-not.",
    "at": "2026-09-01T04:31:53.186Z"
+  },
+  "6a94fa281e67aa542830d6ef": {
+   "id": "6a94fa281e67aa542830d6ef",
+   "key": "salesforce::software engineering smts/lmts",
+   "title": "Software Engineering SMTS/LMTS",
+   "company": "Salesforce",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a94fa281e67aa542830d6ef",
+   "originalUrl": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-SMTS-LMTS_JR352971?jr_id=6a94fa281e67aa542830d6ef",
+   "status": "applied_direct",
+   "via": "workday salesforce.wd12 (new account)",
+   "detail": "JR352971 SMTS/LMTS (Bellevue) submitted. Unrestricted-right-to-work answered No per form instruction (visa with expiration); sponsorship Yes; export screening honest; gov/debarment No; EEO prefer-not.",
+   "at": "2026-09-01T04:46:52.446Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

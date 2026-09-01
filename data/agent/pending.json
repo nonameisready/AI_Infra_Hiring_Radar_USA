@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T04:31:53.186Z",
+ "updatedAt": "2026-09-01T04:46:52.446Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -1125,18 +1125,6 @@
    "addedAt": "2026-08-31",
    "status": "parked",
    "note": "platform not automated from cloud: phh.tbe.taleo.net"
-  },
-  {
-   "id": "6a94fa281e67aa542830d6ef",
-   "key": "salesforce::software engineering smts/lmts",
-   "title": "Software Engineering SMTS/LMTS",
-   "company": "Salesforce",
-   "matchPercent": 82,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a94fa281e67aa542830d6ef",
-   "atsUrl": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-SMTS-LMTS_JR352971?jr_id=6a94fa281e67aa542830d6ef",
-   "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: salesforce.wd12.myworkdayjobs.com"
   },
   {
    "id": "6a69b7558693c23e7fb771c8",
