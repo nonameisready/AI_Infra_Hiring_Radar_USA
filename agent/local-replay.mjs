@@ -68,7 +68,7 @@ const ap = JSON.parse(fs.readFileSync(apPath, "utf8"));
 
 const targets = pend.items.filter((i) => /local replay/i.test(i.reason || "") || /local replay/i.test(i.status || ""));
 const platformOf = (u) =>
-  /ashbyhq\.com/.test(u ?? "") ? "ashby" : /greenhouse|thatch\.com/.test(u ?? "") ? "greenhouse" : /lever\.co/.test(u ?? "") ? "lever" : null;
+  /ashbyhq\.com/.test(u ?? "") ? "ashby" : /greenhouse|thatch\.com/.test(u ?? "") ? "greenhouse" : /lever\.co/.test(u ?? "") ? "lever" : /ats\.rippling\.com/.test(u ?? "") ? "rippling" : null;
 const jobs = targets
   .map((i) => ({ ...i, platform: platformOf(i.originalUrl || i.atsUrl), originalUrl: i.originalUrl || i.atsUrl }))
   .filter((i) => i.platform && (!ONLY || i.platform === ONLY));
@@ -129,6 +129,7 @@ async function attempt(job) {
   fs.rmSync(path.join(WORK, "gh-code.txt"), { force: true });
   if (job.platform === "ashby") return runFinisher("ashby-finish.mjs", [job.originalUrl, ...(DRY ? [] : ["--submit"])]);
   if (job.platform === "lever") return runFinisher("lever-finish.mjs", [job.originalUrl, LIVE_ANSWERS, ...(DRY ? [] : ["--submit"])]);
+  if (job.platform === "rippling") return runFinisher("rippling-finish.mjs", [job.originalUrl, LIVE_ANSWERS, ...(DRY ? [] : ["--submit"])]);
   return runFinisher("gh-finish.mjs", [job.originalUrl, LIVE_ANSWERS, ...(DRY ? [] : ["--submit"])]);
 }
 

@@ -30,7 +30,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a91a0ca8e596854533769f8",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=vardaspace&jr_id=6a91a0ca8e596854533769f8&token=7980398003&utm_source=jobright",
    "status": "dropped",
-   "reason": "Dropped, do not apply: export-controlled (ITAR) role requiring U.S. citizen / lawful permanent resident / protected individual. Applicant is a PRC citizen on F-1 with I-485 pending (not yet an LPR) — honestly ineligible. Kept for dedupe."
+   "reason": "Dropped, do not apply: export-controlled (ITAR) role requiring U.S. citizen / lawful permanent resident / protected individual. Applicant is a PRC citizen on F-1 CPT/EAD (not a citizen or LPR) — honestly ineligible. Kept for dedupe."
   },
   {
    "id": "6a7e049d19ce4e6e9d930ac2",
@@ -705,7 +705,7 @@
    "company": "AngelList",
    "matchPercent": 87,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9150d42e254e06fb9f3ff9",
-   "atsUrl": "https://www.ziprecruiter.com/kn/AAJ39BNpXKSJbgyUhIOeikR68rIXZ3Gh5JpudBdX48mHcf58IXACFlWDEK1QjPHAtdNA2h6t-57jr09aeWMkUmBOwz-B9wKuLDz3WFq2x7kCx4H3SRiWvLL8akRl8a5JsJVj77WeGDq8chvlbpJ2QsC81Flylry_6RwdgSjOoFhhpo3yAjuSh__sKcyYr7-q9NFRAlpbaqfbTmITN0hqVBk0uNign8iS1ptymagA_i5p-TKdw0noDUnMwQP9t3GwGvf3JXv2AWsk8uZp3KgFSpzRssmhN3w3zaB2bNh_OcpiEAD4yzH1PVX3pyZbT_zKnfdpFIiDO79F5JmCesiuINRZk6NzdufskhQGzdHLPHF2mL6Hl48mRxK3EBB3oS24BTnwqEtyuQvtSQgUUJZp95ta-QUIZ82-73LyhzbNL6vcYzpQJ7qZL1_Wyz1YwhD9z2O6mbqB7hdn8VRwpc-XAQ?tsid=123468825&jr_id=6a9150d42e254e06fb9f3ff9&__cf_chl_rt_tk=W8qOlHMJ6fV0g8TmEReIEgW4oO8r0wvwznoKoqrGvek-1788168670-1.0.1.1-vYPI6ynrI3dgN00JwBV1I56y0i4cant2mw.WGK6tiYg",
+   "atsUrl": "https://jobs.lever.co/angellist/68928f0e-cb1b-4a94-9a9f-e880e6a755e2",
    "addedAt": "2026-08-31",
    "status": "local replay",
    "note": "resolved LinkedIn listing to Lever posting — run in Mac local batch (Lever hCaptcha escalates from datacenter IPs)",
@@ -1041,7 +1041,7 @@
    "company": "Pickle Robot Company",
    "matchPercent": 83,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a767ca2bb6ca93ae5612c58",
-   "atsUrl": "https://www.ziprecruiter.com/kn/AAJQVEtfM2VNvopkIECtMd8pqk3NXSP_Zbo7DqX0baeCkqYhuOO1nCEl9LcIvXL9JbBZeYcrAimQs5e_ISQOibXYZ36SaJCSKktkrloeB19T_pyp9CrLIDSKMtIBheRrDPMizG-aM6h5vUFpjf9vQZCf_TANIx99CgBImmI2Yoy6pGS4y_h6tfHlvRocc2K4X4LByH0q_rlWWp2cBc3DbvABOZpfmN4TVB6_ggT61pox0RCxo99RxiCR3HjkXwu0Nh6fAVvE9RGmg-QxjaUXFrz9Nw3o4EkqrIpahtYcksRNsT3z1_eFK907d2g-wsNvrz4CWvwFQkQlKdoJnvK4aKH7Zq8P8x_h9kMIXpxm2clSlLXImr5BKuMkQtwAUfEt7jXKqyyN0Nt05_wEUvHaowuhW9U4dl9uRrjOwjnjdfI3u7sJxZfbDCF83ASXa1trrNqpU4mqR-dyu58IYW12KhcDXe-vDw?tsid=123468825&jr_id=6a767ca2bb6ca93ae5612c58&__cf_chl_rt_tk=3UOnXPJxUuaRHeEJ_vOpa8VuMOrD8q2oouzAMMEH5nI-1788170622-1.0.1.1-50F6SpjvyMn3ycoKCRORLlALsul7VtGFyab1f91aCek",
+   "atsUrl": "https://jobs.lever.co/picklerobot/b2a24088-cc18-4ae0-afbc-2a107b4f9acb",
    "addedAt": "2026-08-31",
    "status": "local replay",
    "note": "resolved ZipRecruiter listing to Lever posting — run in Mac local batch (Lever hCaptcha escalates from datacenter IPs)",

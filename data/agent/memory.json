@@ -65,9 +65,10 @@
   },
   {
    "match": "visa status|immigration status|work authorization status|current visa",
-   "answer": "F-1 (CPT), I-485 pending",
+   "answer": "F-1 (CPT/EAD), valid through 05/31/2027",
    "source": "user",
-   "learnedAt": "2026-08-26"
+   "learnedAt": "2026-08-26",
+   "note": " [audit 2026-09-01: removed unverified I-485 claim]"
   },
   {
    "match": "current (city|location)|where (are you|do you).*(located|based)|city.*state",
@@ -221,7 +222,7 @@
   {
    "match": "permanent resident in any other country",
    "answer": "No",
-   "note": "derived: Chinese citizen, US I-485 pending only"
+   "note": "derived: Chinese citizen"
   },
   {
    "match": "nonimmigrant status",
