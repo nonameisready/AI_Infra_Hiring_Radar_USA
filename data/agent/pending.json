@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T04:46:52.446Z",
+ "updatedAt": "2026-09-01T05:06:30.420Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -1147,8 +1147,9 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a2a1a1d0c4972328e7e6c95",
    "atsUrl": "https://hpe.wd5.myworkdayjobs.com/wfmathpe/job/Sunnyvale-California-United-States-of-America/System-Software-Engineer_1203998-1?jr_id=6a2a1a1d0c4972328e7e6c95",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: hpe.wd5.myworkdayjobs.com"
+   "status": "user_manual",
+   "note": "platform not automated from cloud: hpe.wd5.myworkdayjobs.com",
+   "reason": "workday hpe.wd5: create-account submit unresponsive and sign-in refused (silent anti-bot like PANW/Walmart) — register personally"
   },
   {
    "id": "69b056020b2db6275c040da8",
@@ -1219,18 +1220,6 @@
    "addedAt": "2026-08-31",
    "status": "parked",
    "note": "platform not automated from cloud: carefirstcareers.ttcportals.com"
-  },
-  {
-   "id": "6a92df13c12c90443efca6a0",
-   "key": "lpl financial::avp software engineer - data platform engineering (python/aws)",
-   "title": "AVP Software Engineer - Data Platform Engineering (Python/AWS)",
-   "company": "LPL Financial",
-   "matchPercent": 82,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a92df13c12c90443efca6a0",
-   "atsUrl": "https://lplfinancial.wd1.myworkdayjobs.com/external/job/New-York/AVP-Software-Engineer---Data-Platform-Engineering--Python-AWS-_R-053354-1?jr_id=6a92df13c12c90443efca6a0",
-   "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: lplfinancial.wd1.myworkdayjobs.com"
   },
   {
    "id": "69b3048dae2a534885ea4e26",

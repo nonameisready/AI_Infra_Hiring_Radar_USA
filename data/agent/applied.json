@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T04:46:52.446Z",
+ "updatedAt": "2026-09-01T05:06:30.420Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -3134,6 +3134,19 @@
    "via": "workday salesforce.wd12 (new account)",
    "detail": "JR352971 SMTS/LMTS (Bellevue) submitted. Unrestricted-right-to-work answered No per form instruction (visa with expiration); sponsorship Yes; export screening honest; gov/debarment No; EEO prefer-not.",
    "at": "2026-09-01T04:46:52.446Z"
+  },
+  "6a92df13c12c90443efca6a0": {
+   "id": "6a92df13c12c90443efca6a0",
+   "key": "lpl financial::avp software engineer - data platform engineering (python/aws)",
+   "title": "AVP Software Engineer - Data Platform Engineering (Python/AWS)",
+   "company": "LPL Financial",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a92df13c12c90443efca6a0",
+   "originalUrl": "https://lplfinancial.wd1.myworkdayjobs.com/external/job/New-York/AVP-Software-Engineer---Data-Platform-Engineering--Python-AWS-_R-053354-1?jr_id=6a92df13c12c90443efca6a0",
+   "status": "applied_direct",
+   "via": "workday lplfinancial.wd1 (new account)",
+   "detail": "R-053354 AVP Data Platform (NY) submitted. Master degree; authorized Yes/sponsorship Yes; FINRA No; local Yes; EEO not declared/not specified.",
+   "at": "2026-09-01T05:06:30.420Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
