@@ -1,0 +1,237 @@
+{
+ "at": "2026-08-31T17:50:17.979Z",
+ "combos": [
+  {
+   "label": "Location.*City",
+   "prefer": "New York",
+   "type": "New York, NY"
+  },
+  {
+   "label": "Preferred Name",
+   "prefer": "Belinda",
+   "type": "Belinda"
+  },
+  {
+   "label": "Work Authorization",
+   "prefer": "F-1 \\(CPT\\)",
+   "type": "F-1 (CPT/EAD), valid through 05/31/2027"
+  },
+  {
+   "label": "Visa Sponsorship",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Legally Authorized to Work",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Available to Start",
+   "prefer": "Immediately",
+   "type": "Immediately"
+  },
+  {
+   "label": "Relocation",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Previously Worked For",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Relatives at Company",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Referral",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Non-Compete",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Conflict of Interest",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "18 Years Old",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Background Check",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Lived Outside US",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Smoker",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Securities License",
+   "prefer": "None",
+   "type": "None"
+  },
+  {
+   "label": "EEO Demographics",
+   "prefer": "I do not wish to answer",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "How Did You Hear",
+   "prefer": "Job Board",
+   "type": "Job Board"
+  },
+  {
+   "label": "Are you legally authorized to work in the US",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Do you require visa sponsorship now or in the future",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Are you currently authorized to work in the US",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Do you have a valid work authorization document",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Are you eligible to begin employment immediately",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Are you willing to relocate",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Are you willing to work onsite",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Have you previously worked for this company",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Do you have relatives working at this company",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Do you have a non-compete agreement",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you 18 years of age or older",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Do you consent to a background check",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Have you lived outside the US in the past 7 years",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you a smoker",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Do you hold any securities licenses",
+   "prefer": "None",
+   "type": ""
+  },
+  {
+   "label": "Are you a US citizen",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you a permanent resident",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you a government employee",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you a US person for export control purposes",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you from a sanctioned country",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Do you wish to answer EEO questions",
+   "prefer": "I do not wish to answer",
+   "type": ""
+  }
+ ],
+ "texts": [
+  {
+   "label": "Why Uniswap Labs\\?",
+   "text": "I am drawn to Uniswap Labs because of its pivotal role in decentralizing finance and its engineering-first culture that prioritizes open-source innovation and scalability. With my background scaling high-throughput transaction platforms at Bank of America and BlackRock, I am eager to apply my expertise in distributed systems, Python, and Go to build resilient, permissionless infrastructure that serves millions of users globally."
+  },
+  {
+   "label": "Current Role Title",
+   "text": "Senior Backend Software Engineer"
+  },
+  {
+   "label": "Previous Company",
+   "text": "BlackRock"
+  },
+  {
+   "label": "Previous Role",
+   "text": "Software Engineer"
+  },
+  {
+   "label": "Preferred Name",
+   "text": "Belinda"
+  },
+  {
+   "label": "Why do you want to work at EvenUp?",
+   "text": "I am drawn to EvenUp's mission to simplify the financial settlement process, which aligns perfectly with my background in scaling high-throughput transaction systems at Bank of America and BlackRock. My experience in building distributed platforms that handle millions of requests daily, combined with my proficiency in Python and Go, positions me to immediately contribute to your platform foundation while leveraging AI tools to accelerate development cycles."
+  },
+  {
+   "label": "Based on the job description and your background, tell us why",
+   "text": "As a Senior Backend Software Engineer with 7 years of experience in fintech, I have successfully scaled real-time transaction platforms at Bank of America to handle millions of requests daily with a focus on latency and reliability. My background at BlackRock managing quantitative data systems, combined with my proficiency in Python, Go, and distributed systems, aligns perfectly with Posh's need for a Personalization Engineer who can build robust, scalable infrastructure. I am eager to apply my deep experience in high-throughput data processing and my proactive use of AI tools to drive personalized user experiences at Posh."
+  }
+ ],
+ "auditedAt": "2026-09-01T09:11:30.288Z",
+ "auditNote": "Cloud audit vs KNOWLEDGE.md: removed fabricated I-485-pending claim and invented p99-60% metric; BlackRock role title normalized. All other rules kept verbatim."
+}
