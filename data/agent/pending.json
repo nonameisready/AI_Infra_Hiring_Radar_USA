@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T03:14:12.872Z",
+ "updatedAt": "2026-09-01T03:26:41.758Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -827,18 +827,6 @@
    "addedAt": "2026-08-31",
    "status": "parked",
    "note": "platform not automated from cloud: www.linkedin.com"
-  },
-  {
-   "id": "6a536313e726ec56126a6a4d",
-   "key": "mastercard::senior software engineer",
-   "title": "Senior Software Engineer",
-   "company": "Mastercard",
-   "matchPercent": 85,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a536313e726ec56126a6a4d",
-   "atsUrl": "https://mastercard.wd1.myworkdayjobs.com/corporatecareers/job/Salt-Lake-City-Utah-Holladay/Senior-Software-Engineer_R-273932?jr_id=6a536313e726ec56126a6a4d",
-   "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: mastercard.wd1.myworkdayjobs.com"
   },
   {
    "id": "6a573695efb06a45240d98b5",
