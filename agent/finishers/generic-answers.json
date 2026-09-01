@@ -977,6 +977,18 @@
   {
    "label": "critical technical trade-off",
    "prefer": "work with product/?stakeholders|long-term risk"
+  },
+  {
+   "label": "(monthly|per month).*salary|salary.*(per )?month|gross monthly",
+   "prefer": "8,000 and above"
+  },
+  {
+   "label": "best describes your (backend )?experience|experience profile|professional background best",
+   "prefer": "strong product-company experience"
+  },
+  {
+   "label": "describes your (use|usage) of ai|use of ai in your|ai (tools )?in your (daily )?work|relationship with ai",
+   "prefer": "i use ai daily across"
   }
  ],
  "texts": [
