@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T03:53:25.180Z",
+ "updatedAt": "2026-09-01T04:15:31.445Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -3095,6 +3095,19 @@
    "via": "workday visa.wd5 (new account)",
    "detail": "REF085157W submitted (Bellevue WA). Full work-history + UPenn MS CS entered; eligible Yes/sponsorship Yes; military No; SMS+AI-review Opt-In; EEO not-declared/prefer-not.",
    "at": "2026-09-01T03:53:25.180Z"
+  },
+  "6a9512b61e67aa542830d90f": {
+   "id": "6a9512b61e67aa542830d90f",
+   "key": "fico::software engineering – senior engineer",
+   "title": "Software Engineering – Senior Engineer",
+   "company": "FICO",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9512b61e67aa542830d90f",
+   "originalUrl": "https://fico.wd1.myworkdayjobs.com/external/job/Work-from-Home-United-States/Software-Engineering---Senior-Engineer_32206?jr_id=6a9512b61e67aa542830d90f",
+   "status": "applied_direct",
+   "via": "workday fico.wd1 (new account, email-activated)",
+   "detail": "Req 32206 remote-US submitted. Export screening answered honestly (not a US person; citizenship China); authorized-any-employer Yes (EAD) + sponsorship Yes; gender Female (no decline option, required); ethnicity/veteran not disclosed.",
+   "at": "2026-09-01T04:15:31.445Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

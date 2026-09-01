@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T03:53:25.180Z",
+ "updatedAt": "2026-09-01T04:15:31.445Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -931,20 +931,9 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8375401081a745e970f6cf",
    "atsUrl": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Engineer-Software--Prisma-AIRS-Backend-_JR-021371?jr_id=6a8375401081a745e970f6cf",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: paloaltonetworks.wd5.myworkdayjobs.com"
-  },
-  {
-   "id": "6a9512b61e67aa542830d90f",
-   "key": "fico::software engineering – senior engineer",
-   "title": "Software Engineering – Senior Engineer",
-   "company": "FICO",
-   "matchPercent": 84,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a9512b61e67aa542830d90f",
-   "atsUrl": "https://fico.wd1.myworkdayjobs.com/external/job/Work-from-Home-United-States/Software-Engineering---Senior-Engineer_32206?jr_id=6a9512b61e67aa542830d90f",
-   "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: fico.wd1.myworkdayjobs.com"
+   "status": "user_manual",
+   "note": "platform not automated from cloud: paloaltonetworks.wd5.myworkdayjobs.com",
+   "reason": "workday panw tenant: account creation silently rejected twice (no verification email, sign-in refused, possible lock) — 2-attempt cap; user can register personally"
   },
   {
    "id": "6a6b9522c00ae03109f84cb1",
