@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T04:15:31.445Z",
+ "updatedAt": "2026-09-01T04:31:53.186Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -1026,8 +1026,9 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8fe7800bd89e205d2480ae",
    "atsUrl": "https://walmart.wd504.myworkdayjobs.com/non-workdayinternal/job/Bentonville-AR/Software-Engineer-III_R-2589733-2?jr_id=6a8fe7800bd89e205d2480ae",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: walmart.wd504.myworkdayjobs.com"
+   "status": "user_manual",
+   "note": "platform not automated from cloud: walmart.wd504.myworkdayjobs.com",
+   "reason": "workday walmart.wd504: account creation silently rejected (no verification email, sign-in refused) — same pattern as PANW; register personally"
   },
   {
    "id": "6a7b09ccecfd29770753655b",
@@ -1052,18 +1053,6 @@
    "addedAt": "2026-08-31",
    "status": "parked",
    "note": "platform not automated from cloud: fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com"
-  },
-  {
-   "id": "6a74b5d7b17cba569035709c",
-   "key": "deutsche bank::assistant vice president",
-   "title": "Assistant Vice President",
-   "company": "Deutsche Bank",
-   "matchPercent": 83,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a74b5d7b17cba569035709c",
-   "atsUrl": "https://db.wd3.myworkdayjobs.com/dbwebsite/job/Cary-3000-CentreGreen-Way/XMLNAME--Assistant-Vice-President_R0446736?jr_id=6a74b5d7b17cba569035709c",
-   "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: db.wd3.myworkdayjobs.com"
   },
   {
    "id": "6a767ca2bb6ca93ae5612c58",

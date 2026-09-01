@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T04:15:31.445Z",
+ "updatedAt": "2026-09-01T04:31:53.186Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -3108,6 +3108,19 @@
    "via": "workday fico.wd1 (new account, email-activated)",
    "detail": "Req 32206 remote-US submitted. Export screening answered honestly (not a US person; citizenship China); authorized-any-employer Yes (EAD) + sponsorship Yes; gender Female (no decline option, required); ethnicity/veteran not disclosed.",
    "at": "2026-09-01T04:15:31.445Z"
+  },
+  "6a74b5d7b17cba569035709c": {
+   "id": "6a74b5d7b17cba569035709c",
+   "key": "deutsche bank::assistant vice president",
+   "title": "Assistant Vice President",
+   "company": "Deutsche Bank",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a74b5d7b17cba569035709c",
+   "originalUrl": "https://db.wd3.myworkdayjobs.com/dbwebsite/job/Cary-3000-CentreGreen-Way/XMLNAME--Assistant-Vice-President_R0446736?jr_id=6a74b5d7b17cba569035709c",
+   "status": "applied_direct",
+   "via": "workday db.wd3 (accountless flow)",
+   "detail": "R0446736 AVP (Cary NC) submitted — confirmation URL carried Job_Application_ID. Authorized Yes / sponsorship Yes / data kept 24 months; EEO not-declared/prefer-not.",
+   "at": "2026-09-01T04:31:53.186Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
