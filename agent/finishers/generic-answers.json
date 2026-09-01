@@ -1491,6 +1491,14 @@
   {
    "label": "subject to a non-competition agreement or other agreement",
    "text": "No."
+  },
+  {
+   "label": "experience level with postgresql or sql server",
+   "text": "I use PostgreSQL daily as the primary datastore for the backend services I build: schema design, indexing and query optimization, migrations, and tuning for high-throughput workloads. I have also worked with SQL Server on reporting pipelines. Strongest in PostgreSQL."
+  },
+  {
+   "label": "owning a production system end-to-end",
+   "text": "At Bank of America I own an OTC derivatives reporting service end-to-end: design, implementation, deployment, monitoring and alerting, and incident response. I drove reliability work (idempotent consumers, retries, dead-letter queues) and performance tuning, and I am the primary contact when regulatory deadlines are at risk."
   }
  ],
  "checkboxes": [

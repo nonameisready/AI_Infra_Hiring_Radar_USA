@@ -3355,6 +3355,32 @@
    "via": "greenhouse",
    "detail": "needs-answers repass with new rules (excites-you text / sponsorship-through-CPT yes); security code auto-fetched.",
    "at": "2026-09-01T22:24:40.956Z"
+  },
+  "6a95ccbec8763a3a87ffc284": {
+   "id": "6a95ccbec8763a3a87ffc284",
+   "key": "doordash::senior associate, ad ops platform",
+   "title": "Senior Associate, Ad Ops Platform",
+   "company": "DoorDash",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95ccbec8763a3a87ffc284",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=doordashusa&jr_id=6a95ccbec8763a3a87ffc284&token=8166894&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "repass round 2: worked-at option prefer fix (DoorDash); security code auto-fetched.",
+   "at": "2026-09-01T22:50:27.883Z"
+  },
+  "6a95e90ec8763a3a87ffd25a": {
+   "id": "6a95e90ec8763a3a87ffd25a",
+   "key": "rubrik::senior software engineer - saas data protection",
+   "title": "Senior Software Engineer - SaaS Data Protection",
+   "company": "Rubrik",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95e90ec8763a3a87ffd25a",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=rubrik&jr_id=6a95e90ec8763a3a87ffd25a&token=8157246&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "repass round 2: worked-at option prefer fix (Rubrik); security code auto-fetched.",
+   "at": "2026-09-01T22:50:27.883Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
