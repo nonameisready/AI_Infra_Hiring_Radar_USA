@@ -1077,6 +1077,14 @@
   {
    "label": "sponsor you for a visa|need .* to sponsor you",
    "prefer": "^yes"
+  },
+  {
+   "label": "ever held a position with this company or any of its subsidi",
+   "prefer": "^no"
+  },
+  {
+   "label": "hands-?on experience with docker and aws",
+   "prefer": "^yes"
   }
  ],
  "texts": [
@@ -1486,7 +1494,7 @@
   },
   {
    "label": "if yes, please briefly describe an example",
-   "text": "At Bank of America I build event-driven services for OTC derivatives reporting: trade events flow through message queues into validation and enrichment stages before regulatory submission, with idempotent consumers, retries, and dead-letter handling to keep the pipeline reliable at high throughput."
+   "text": "I deploy event-driven backend services in Docker containers on AWS (ECS/EC2, S3, SQS, RDS, CloudWatch). Example: at Bank of America trade events flow through queues into validation and enrichment stages with idempotent consumers, retries, and dead-letter handling; CI/CD builds container images and deploys with infrastructure-as-code."
   },
   {
    "label": "subject to a non-competition agreement or other agreement",
@@ -1499,6 +1507,22 @@
   {
    "label": "owning a production system end-to-end",
    "text": "At Bank of America I own an OTC derivatives reporting service end-to-end: design, implementation, deployment, monitoring and alerting, and incident response. I drove reliability work (idempotent consumers, retries, dead-letter queues) and performance tuning, and I am the primary contact when regulatory deadlines are at risk."
+  },
+  {
+   "label": "ever held a position with this company",
+   "text": "No."
+  },
+  {
+   "label": "how were you referred for this position",
+   "text": "Found the role through a job board; not referred by an employee."
+  },
+  {
+   "label": "if yes, please briefly describe",
+   "text": "I deploy event-driven backend services in Docker containers on AWS (ECS/EC2, S3, SQS, RDS, CloudWatch). Example: at Bank of America trade events flow through queues into validation and enrichment stages with idempotent consumers, retries, and dead-letter handling; CI/CD builds container images and deploys with infrastructure-as-code."
+  },
+  {
+   "label": "why do you think you.re a great fit|why are you a great fit",
+   "text": "I have seven years of backend experience building exactly what this role needs: reliable, high-throughput services with clean APIs, strong ownership from design through production support, and daily use of AI tools to move faster without sacrificing quality. I ramp quickly on new stacks and enjoy owning systems end-to-end."
   }
  ],
  "checkboxes": [
