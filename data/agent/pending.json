@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-31T17:46:54.400Z",
+ "updatedAt": "2026-09-01T03:14:12.872Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -935,18 +935,6 @@
    "status": "local replay"
   },
   {
-   "id": "6a9203fed18f75674827b1b9",
-   "key": "blackrock::associate, full stack engineer - sma solutions",
-   "title": "Associate, Full Stack Engineer - SMA Solutions",
-   "company": "BlackRock",
-   "matchPercent": 84,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a9203fed18f75674827b1b9",
-   "atsUrl": "https://blackrock.wd1.myworkdayjobs.com/blackrock_professional/job/San-Francisco-CA/Associate--Full-Stack-Engineer---SMA-Solutions_R266215?jr_id=6a9203fed18f75674827b1b9",
-   "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: blackrock.wd1.myworkdayjobs.com"
-  },
-  {
    "id": "6a6bbb3932f9300c3a3e09fe",
    "key": "visa::software engineer - sr. consultant level",
    "title": "Software Engineer - Sr. Consultant level",
@@ -1279,18 +1267,6 @@
    "note": "platform not automated from cloud: ats.rippling.com"
   },
   {
-   "id": "6a93381fa27a2d3c9848da42",
-   "key": "expedia group::software development engineer iii",
-   "title": "Software Development Engineer III",
-   "company": "Expedia Group",
-   "matchPercent": 82,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a93381fa27a2d3c9848da42",
-   "atsUrl": "https://expedia.wd108.myworkdayjobs.com/search/job/USA---Illinois---Chicago/Software-Development-Engineer-III_R-109243-1?jr_id=6a93381fa27a2d3c9848da42",
-   "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: expedia.wd108.myworkdayjobs.com"
-  },
-  {
    "id": "6a74e0e237da8525e8cdb214",
    "key": "carefirst bluecross blueshield::senior software engineer - facets (remote)",
    "title": "Senior Software Engineer - FACETS (Remote)",
@@ -1359,8 +1335,9 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9367058e5968545337b91a",
    "atsUrl": "https://vertexinc4.wd2.myworkdayjobs-impl.com/vertexinc/job/King-of-Prussia-PA/Lead-Software-Engineer_JR102522?jr_id=6a9367058e5968545337b91a",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: vertexinc4.wd2.myworkdayjobs-impl.com"
+   "status": "dropped",
+   "note": "platform not automated from cloud: vertexinc4.wd2.myworkdayjobs-impl.com",
+   "reason": "myworkdayjobs-impl.com is a Workday sandbox tenant — not a real posting"
   },
   {
    "id": "697aebc417b11b1c2e41ca26",

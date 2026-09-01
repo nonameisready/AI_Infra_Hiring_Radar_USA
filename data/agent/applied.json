@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-31T17:46:54.400Z",
+ "updatedAt": "2026-09-01T03:14:12.872Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -3043,6 +3043,32 @@
    "via": "greenhouse (cloud repass pass 4, rule answers)",
    "detail": "Trade-off question answered via select option B (communicate long-term risk with product/stakeholders); confirmation verified.",
    "at": "2026-08-31T17:46:54.400Z"
+  },
+  "6a93381fa27a2d3c9848da42": {
+   "id": "6a93381fa27a2d3c9848da42",
+   "key": "expedia group::software development engineer iii",
+   "title": "Software Development Engineer III",
+   "company": "Expedia Group",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a93381fa27a2d3c9848da42",
+   "originalUrl": "https://expedia.wd108.myworkdayjobs.com/search/job/USA---Illinois---Chicago/Software-Development-Engineer-III_R-109243-1?jr_id=6a93381fa27a2d3c9848da42",
+   "status": "applied_direct",
+   "via": "workday expedia.wd108 (existing account)",
+   "detail": "Submitted R-109243; Candidate Home shows Application Received. Relocation: Nationally; sponsorship Yes; AI-pledge for assessments/interviews acknowledged (user does those personally).",
+   "at": "2026-09-01T02:50:25.444Z"
+  },
+  "6a9203fed18f75674827b1b9": {
+   "id": "6a9203fed18f75674827b1b9",
+   "key": "blackrock::associate, full stack engineer - sma solutions",
+   "title": "Associate, Full Stack Engineer - SMA Solutions",
+   "company": "BlackRock",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9203fed18f75674827b1b9",
+   "originalUrl": "https://blackrock.wd1.myworkdayjobs.com/blackrock_professional/job/San-Francisco-CA/Associate--Full-Stack-Engineer---SMA-Solutions_R266215?jr_id=6a9203fed18f75674827b1b9",
+   "status": "applied_direct",
+   "via": "workday blackrock.wd1 (new account, email-activated)",
+   "detail": "R266215 submitted, Candidate Home: In Process. Visa details disclosed honestly (F-1 CPT/EAD to 05/31/2027, future sponsorship). EEO: prefer-not-to-answer.",
+   "at": "2026-09-01T03:14:12.872Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
