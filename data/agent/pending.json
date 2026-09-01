@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T09:38:27.577Z",
+ "updatedAt": "2026-09-01T10:24:42.398Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -982,18 +982,6 @@
    "addedAt": "2026-08-31",
    "status": "parked",
    "note": "platform not automated from cloud: www.akkodis.com"
-  },
-  {
-   "id": "6a20cd6fca8f0b365d7a3830",
-   "key": "oracle::senior software engineer, oci data analytics",
-   "title": "Senior Software Engineer, OCI Data Analytics",
-   "company": "Oracle",
-   "matchPercent": 83,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a20cd6fca8f0b365d7a3830",
-   "atsUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/334456?jr_id=6a20cd6fca8f0b365d7a3830",
-   "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: eeho.fa.us2.oraclecloud.com"
   },
   {
    "id": "699fba44ce78e77b4fe59f04",

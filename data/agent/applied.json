@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T09:38:27.577Z",
+ "updatedAt": "2026-09-01T10:24:42.398Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -3160,6 +3160,19 @@
    "via": "oracle cloud hdpc.fa.us2 (email OTP; prior GS profile reused)",
    "detail": "Job 170046 Trading Technology (SLC) submitted — confirmation: You are all set. Old on-file resume replaced with current PDF. Visa corrected H-1B->F-1, 9 months remaining on EAD disclosed; work-auth Yes; GS/PwC/gov all No. Prior self-ID answers left as she set them.",
    "at": "2026-09-01T09:38:27.577Z"
+  },
+  "6a20cd6fca8f0b365d7a3830": {
+   "id": "6a20cd6fca8f0b365d7a3830",
+   "key": "oracle::senior software engineer, oci data analytics",
+   "title": "Senior Software Engineer, OCI Data Analytics",
+   "company": "Oracle",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a20cd6fca8f0b365d7a3830",
+   "originalUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/334456?jr_id=6a20cd6fca8f0b365d7a3830",
+   "status": "applied_direct",
+   "via": "oracle cloud eeho.fa.us2 (email OTP)",
+   "detail": "Oracle 334456 OCI Data Analytics submitted — My Applications shows Status New, applied 09/01/2026. Ex-Oracle No, gov No, authorized Yes; earliest start 09/15/2026; EEO all do-not-disclose.",
+   "at": "2026-09-01T10:24:42.398Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
