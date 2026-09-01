@@ -1043,7 +1043,7 @@
    "prefer": "^no"
   },
   {
-   "label": "subject to (a |any )?(non-?compete|non-?solicit)|bound by any agreements with a (current|former) employ",
+   "label": "subject to (a |any )?non-?competit|non-?compete|non-?solicit|subject to (a |any )?(non-?compete|non-?solicit)|bound by any agreements with a (current|former) employ",
    "prefer": "^no"
   },
   {
@@ -1073,6 +1073,10 @@
   {
    "label": "experience level with postgresql|postgresql or sql server",
    "prefer": "advanced|proficient|expert|extensive"
+  },
+  {
+   "label": "sponsor you for a visa|need .* to sponsor you",
+   "prefer": "^yes"
   }
  ],
  "texts": [
@@ -1483,6 +1487,10 @@
   {
    "label": "if yes, please briefly describe an example",
    "text": "At Bank of America I build event-driven services for OTC derivatives reporting: trade events flow through message queues into validation and enrichment stages before regulatory submission, with idempotent consumers, retries, and dead-letter handling to keep the pipeline reliable at high throughput."
+  },
+  {
+   "label": "subject to a non-competition agreement or other agreement",
+   "text": "No."
   }
  ],
  "checkboxes": [
