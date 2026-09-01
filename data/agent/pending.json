@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T05:10:12.230Z",
+ "updatedAt": "2026-09-01T09:38:27.577Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -487,18 +487,6 @@
    "status": "dropped",
    "note": "atsUrl is the careers root, no specific posting id — needs the real job URL to apply",
    "reason": "atsUrl is the careers listing page, no job posting id — posting gone (confirmed twice)"
-  },
-  {
-   "id": "6a5c7b2b63a8f619507cd81b",
-   "key": "goldman sachs::senior software engineer, global banking & markets, trading technology",
-   "title": "Senior Software Engineer, Global Banking & Markets, Trading Technology",
-   "company": "Goldman Sachs",
-   "matchPercent": 84,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a5c7b2b63a8f619507cd81b",
-   "atsUrl": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3002/job/170046?jr_id=6a5c7b2b63a8f619507cd81b",
-   "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: hdpc.fa.us2.oraclecloud.com"
   },
   {
    "id": "6a2a5afb0c4972328e7e872f",

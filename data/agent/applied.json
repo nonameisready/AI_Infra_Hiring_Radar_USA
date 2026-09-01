@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T05:06:30.420Z",
+ "updatedAt": "2026-09-01T09:38:27.577Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -3147,6 +3147,19 @@
    "via": "workday lplfinancial.wd1 (new account)",
    "detail": "R-053354 AVP Data Platform (NY) submitted. Master degree; authorized Yes/sponsorship Yes; FINRA No; local Yes; EEO not declared/not specified.",
    "at": "2026-09-01T05:06:30.420Z"
+  },
+  "6a5c7b2b63a8f619507cd81b": {
+   "id": "6a5c7b2b63a8f619507cd81b",
+   "key": "goldman sachs::senior software engineer, global banking & markets, trading technology",
+   "title": "Senior Software Engineer, Global Banking & Markets, Trading Technology",
+   "company": "Goldman Sachs",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5c7b2b63a8f619507cd81b",
+   "originalUrl": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3002/job/170046?jr_id=6a5c7b2b63a8f619507cd81b",
+   "status": "applied_direct",
+   "via": "oracle cloud hdpc.fa.us2 (email OTP; prior GS profile reused)",
+   "detail": "Job 170046 Trading Technology (SLC) submitted — confirmation: You are all set. Old on-file resume replaced with current PDF. Visa corrected H-1B->F-1, 9 months remaining on EAD disclosed; work-auth Yes; GS/PwC/gov all No. Prior self-ID answers left as she set them.",
+   "at": "2026-09-01T09:38:27.577Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
