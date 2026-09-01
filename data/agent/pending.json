@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T05:06:30.420Z",
+ "updatedAt": "2026-09-01T05:10:12.230Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -484,8 +484,9 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4234469dd7f954cafe9fa3",
    "atsUrl": "https://blackline.wd108.myworkdayjobs.com/BlackLineCareers?jr_id=6a4234469dd7f954cafe9fa3",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "atsUrl is the careers root, no specific posting id — needs the real job URL to apply"
+   "status": "dropped",
+   "note": "atsUrl is the careers root, no specific posting id — needs the real job URL to apply",
+   "reason": "atsUrl is the careers listing page, no job posting id — posting gone (confirmed twice)"
   },
   {
    "id": "6a5c7b2b63a8f619507cd81b",
@@ -1230,8 +1231,9 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69b3048dae2a534885ea4e26",
    "atsUrl": "https://goodrx.wd1.myworkdayjobs.com/Careers/job/Remote-OH/Lead-Software-Engineer--ScriptDrop_JR100570?jr_id=69b3048dae2a534885ea4e26",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: goodrx.wd1.myworkdayjobs.com"
+   "status": "user_manual",
+   "note": "platform not automated from cloud: goodrx.wd1.myworkdayjobs.com",
+   "reason": "workday goodrx.wd1: account creation silently rejected (PANW/Walmart/HPE pattern) — register personally"
   },
   {
    "id": "6a733140e55c73319eb15c46",
