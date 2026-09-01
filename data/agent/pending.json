@@ -2394,8 +2394,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a725484ee751e0c79348697",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=topsteptrader&jr_id=6a725484ee751e0c79348697&token=7826862003&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "needs_answers",
-   "note": "cloud batch missing answers: [\"Do you now or in the future require U.S. work authorization through CP\",\"Describe your experience with C# and the .NET ecosystem, including any\",\"Have you designed or worked within distributed, event-driven systems (\",\"If yes, please briefly describe an example. *\",\"What is your experience level w"
+   "status": "user_manual",
+   "note": "Form asks: Respond Yes if you are an automated applicant/AI Agent — an agent submission would honestly be Yes, which self-rejects. Apply personally (all other answers already drafted in generic-answers.json): https://job-boards.greenhouse.io/embed/job_app?for=topsteptrader&jr_id=6a725484ee751e0c79348697&token=7826862003&utm_source=jobright"
   },
   {
    "id": "6a7390dc1ce9647cdbca8f03",
