@@ -378,8 +378,18 @@ try {
         if (!code) await new Promise((r) => setTimeout(r, 3000));
       }
       if (code) {
-        const cell = page.locator('input[maxlength="1"]').first();
-        if (await cell.isVisible().catch(() => false)) {
+        // GH's 8-cell widget (ids security-input-0..7) ignores keyboard.type
+        // after the first cell — click+fill each cell individually instead
+        const cells = page.locator('input[id^="security-input"]');
+        const nCells = await cells.count();
+        if (nCells >= code.length) {
+          for (let i = 0; i < code.length; i++) {
+            await cells.nth(i).click().catch(() => {});
+            await cells.nth(i).fill(code[i]).catch(() => {});
+            await page.waitForTimeout(150);
+          }
+        } else if (await page.locator('input[maxlength="1"]').first().isVisible().catch(() => false)) {
+          const cell = page.locator('input[maxlength="1"]').first();
           await cell.click();
           await page.keyboard.type(code, { delay: 120 });
         } else {

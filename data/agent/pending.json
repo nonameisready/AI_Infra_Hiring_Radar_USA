@@ -143,8 +143,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a628a38d5caab4af8baeafd",
    "atsUrl": "https://www.linkedin.com/jobs/view/4444036456?jr_id=6a628a38d5caab4af8baeafd",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.linkedin.com"
+   "status": "user_manual",
+   "note": "no public ATS board found (probed Greenhouse/Lever/Ashby/Workable + careers page); LinkedIn listing only — personal LinkedIn apply if interested"
   },
   {
    "id": "6a8e185ed34f700f87fd7e0a",
@@ -155,8 +155,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8e185ed34f700f87fd7e0a",
    "atsUrl": "https://www.linkedin.com/jobs/view/4457648244?jr_id=6a8e185ed34f700f87fd7e0a",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.linkedin.com"
+   "status": "user_manual",
+   "note": "no public ATS board found; LinkedIn listing only — personal LinkedIn apply if interested"
   },
   {
    "id": "6a531546e726ec56126a59a5",
@@ -220,8 +220,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8dab80cc0cf27068524600",
    "atsUrl": "https://www.careers-page.com/davidjoseph-co/job/X989797R?jr_id=6a8dab80cc0cf27068524600",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.careers-page.com"
+   "status": "applied",
+   "note": "submitted via cloud 2026-09-01T19:32:49.336Z"
   },
   {
    "id": "6a5f8b6bb0f20036bc631867",
@@ -280,8 +280,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a3d3bea8bfad862bc99c26b",
    "atsUrl": "https://ats.rippling.com/theguarantors-open-positions/jobs/cdb6349f-91f9-47f9-984b-fd19a329a563?jr_id=6a3d3bea8bfad862bc99c26b",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: ats.rippling.com"
+   "status": "local replay",
+   "note": "Rippling ATS: form fills fine but the Apply click fires a Cloudflare challenge-platform check that stalls forever from cloud IPs. Run agent/finishers/rippling-finish.mjs on the Mac (headed): node agent/finishers/rippling-finish.mjs <atsUrl> agent/finishers/generic-answers.json --submit"
   },
   {
    "id": "6a55be9dec54dd532d813052",
@@ -328,8 +328,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a60ef1311edf44d7915eab9",
    "atsUrl": "https://www.linkedin.com/jobs/view/4443942567?jr_id=6a60ef1311edf44d7915eab9",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.linkedin.com"
+   "status": "applied",
+   "note": "submitted via cloud 2026-09-01T20:01:11.567Z"
   },
   {
    "id": "6a7d795383621355407ae1e2",
@@ -340,8 +340,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7d795383621355407ae1e2",
    "atsUrl": "https://www.careers-page.com/aida-projektai-mb/job/3W8WV35V?jr_id=6a7d795383621355407ae1e2",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.careers-page.com"
+   "status": "applied",
+   "note": "submitted via cloud 2026-09-01T19:32:49.343Z"
   },
   {
    "id": "6a6b23c257120971bf3a4f7c",
@@ -352,8 +352,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a6b23c257120971bf3a4f7c",
    "atsUrl": "https://tomocredit.applytojob.com/apply/UlPUtxjmA2/Software-Engineer-III-Backend-Onsite-SF?jr_id=6a6b23c257120971bf3a4f7c",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: tomocredit.applytojob.com"
+   "status": "user_manual",
+   "note": "JazzHR form has visible reCAPTCHA widget — apply by hand (~3 min): https://tomocredit.applytojob.com/apply/UlPUtxjmA2/Software-Engineer-III-Backend-Onsite-SF (note: on-site SF)"
   },
   {
    "id": "6a1cefecc2a87d6cd3e09ac0",
@@ -364,8 +364,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a1cefecc2a87d6cd3e09ac0",
    "atsUrl": "https://ats.rippling.com/daloopa/jobs/ef7d6ccc-742f-402b-8465-10610cf51983?jr_id=6a1cefecc2a87d6cd3e09ac0",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: ats.rippling.com"
+   "status": "local replay",
+   "note": "Rippling ATS: form fills fine but the Apply click fires a Cloudflare challenge-platform check that stalls forever from cloud IPs. Run agent/finishers/rippling-finish.mjs on the Mac (headed): node agent/finishers/rippling-finish.mjs <atsUrl> agent/finishers/generic-answers.json --submit"
   },
   {
    "id": "6a592ad54da96a42cfd8f901",
@@ -424,8 +424,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8c5995cde3717f9e9bc84d",
    "atsUrl": "https://www.linkedin.com/jobs/view/4458215850?jr_id=6a8c5995cde3717f9e9bc84d",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.linkedin.com"
+   "status": "user_manual",
+   "note": "LinkedIn/ZipRecruiter-only recruiter listing; no company ATS exists. Applying requires your personal LinkedIn/Zip account (agent never logs into personal accounts). Skim and skip unless interested."
   },
   {
    "id": "6a91fe41d18f75674827b100",
@@ -436,8 +436,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a91fe41d18f75674827b100",
    "atsUrl": "https://bookofthemonth.applytojob.com/apply/m6LqJILXHH/Senior-Software-Engineer-Backend?jr_id=6a91fe41d18f75674827b100",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: bookofthemonth.applytojob.com"
+   "status": "user_manual",
+   "note": "JazzHR form has visible reCAPTCHA widget — apply by hand (~3 min): https://bookofthemonth.applytojob.com/apply/m6LqJILXHH/Senior-Software-Engineer-Backend"
   },
   {
    "id": "69af2c1d749500645093a4c2",
@@ -460,8 +460,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8daba947679c68bf5e3d0b",
    "atsUrl": "https://www.careers-page.com/davidjoseph-co/job/X989457R?jr_id=6a8daba947679c68bf5e3d0b",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.careers-page.com"
+   "status": "applied",
+   "note": "submitted via cloud 2026-09-01T19:32:49.343Z"
   },
   {
    "id": "6a7f5334927c79391ad07d58",
@@ -521,8 +521,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8ca0682f736c304f2a6e2d",
    "atsUrl": "https://www.linkedin.com/jobs/view/4457153916?jr_id=6a8ca0682f736c304f2a6e2d",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.linkedin.com"
+   "status": "user_manual",
+   "note": "LinkedIn/ZipRecruiter-only recruiter listing; no company ATS exists. Applying requires your personal LinkedIn/Zip account (agent never logs into personal accounts). Skim and skip unless interested."
   },
   {
    "id": "6a59617d856af468ab003afa",
@@ -533,8 +533,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a59617d856af468ab003afa",
    "atsUrl": "https://terzocloud.freshteam.com/jobs/vsN1HlIg6w-9/senior-software-engineer-backend-remote?jr_id=6a59617d856af468ab003afa",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: terzocloud.freshteam.com"
+   "status": "user_manual",
+   "note": "HIGH VALUE 94% match. Freshteam form is simple (name/email/phone/resume) but has a visible checkbox reCAPTCHA — agent never solves captchas. ~2 min by hand: https://terzocloud.freshteam.com/jobs/vsN1HlIg6w-9/senior-software-engineer-backend-remote"
   },
   {
    "id": "6a56f538e9b77f668bd66660",
@@ -556,8 +556,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7da51ee51a1e18a240a008",
    "atsUrl": "https://ats.rippling.com/theguarantors-open-positions/jobs/219799ca-8d34-4198-abe4-23c209d77a73?jr_id=6a7da51ee51a1e18a240a008",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: ats.rippling.com"
+   "status": "local replay",
+   "note": "Rippling ATS: form fills fine but the Apply click fires a Cloudflare challenge-platform check that stalls forever from cloud IPs. Run agent/finishers/rippling-finish.mjs on the Mac (headed): node agent/finishers/rippling-finish.mjs <atsUrl> agent/finishers/generic-answers.json --submit"
   },
   {
    "id": "6a5e2777270e3033b045c1d9",
@@ -590,8 +590,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4c01514eb370649b27bdd0",
    "atsUrl": "https://www.linkedin.com/jobs/view/4437434989?jr_id=6a4c01514eb370649b27bdd0",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.linkedin.com"
+   "status": "user_manual",
+   "note": "LinkedIn/ZipRecruiter-only recruiter listing; no company ATS exists. Applying requires your personal LinkedIn/Zip account (agent never logs into personal accounts). Skim and skip unless interested."
   },
   {
    "id": "6a22e9f9dedf78312c7ab572",
@@ -626,8 +626,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a6a50fa16c69119640fdac3",
    "atsUrl": "https://www.ziprecruiter.com/kn/AAJFB5s_PiFHoOHEnCLymdNFTl9YEWKnIYn7uOxEse39362FSfDNEygyoN5eKK_kkiLnROoP7KtLdmCFTTASm_8VoEdSBNdPoLVUWwras2Ek7-2nnk-ZlfNxNokRAN2X30PnUbo99AaCHvZOD2SRn2_KphMNjabiPzjWOnqCgM-niVqx5dBIa4nQQqkVm1jfDY55Bmu0H6a6Q6nB69GvzYYzHNPFAK4Ky3ZZP978788ebBGPJb0vzjJJnKZ4ROqNqXhtyPryZ0LiLKbJvzZ7bk2B-hRcaqYmc5P_0DIUuuQNamG3KjZ1eaSkVctRSZL9rId-b-76a-DlZRl3z49rpHaKi-MdX3ibxOA_VrMpS-yZMqa9DTsdro9S552zSoALwGxfzD8M1CpYFX2bkCj7UAJJl5MB9YWKN-ujNFKfNz3JBNgNln427eFc?tsid=123468825&jr_id=6a6a50fa16c69119640fdac3&__cf_chl_rt_tk=FEASQDShtKGFsdtb.i1dTTfl5f3pD2dgW4JwYDBCPJQ-1788168483-1.0.1.1-Kkuz7D7ji01wc.LdJo7hsFjp3vNnCrXACb52BZoVv_o",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.ziprecruiter.com"
+   "status": "user_manual",
+   "note": "ZipRecruiter-only listing (Turkish company infotron, US posting); no ATS found — personal Zip apply if interested"
   },
   {
    "id": "6a57e30772fe7a7b98dcb82b",
@@ -683,8 +683,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a290da8883c0d3be65458e8",
    "atsUrl": "https://www.linkedin.com/jobs/view/4260421168?jr_id=6a290da8883c0d3be65458e8",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.linkedin.com"
+   "status": "applied",
+   "note": "submitted via cloud (interactive driver) 2026-09-01T20:11:29.113Z"
   },
   {
    "id": "6a8cff17cde3717f9e9bfe65",
@@ -707,8 +707,9 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9150d42e254e06fb9f3ff9",
    "atsUrl": "https://www.ziprecruiter.com/kn/AAJ39BNpXKSJbgyUhIOeikR68rIXZ3Gh5JpudBdX48mHcf58IXACFlWDEK1QjPHAtdNA2h6t-57jr09aeWMkUmBOwz-B9wKuLDz3WFq2x7kCx4H3SRiWvLL8akRl8a5JsJVj77WeGDq8chvlbpJ2QsC81Flylry_6RwdgSjOoFhhpo3yAjuSh__sKcyYr7-q9NFRAlpbaqfbTmITN0hqVBk0uNign8iS1ptymagA_i5p-TKdw0noDUnMwQP9t3GwGvf3JXv2AWsk8uZp3KgFSpzRssmhN3w3zaB2bNh_OcpiEAD4yzH1PVX3pyZbT_zKnfdpFIiDO79F5JmCesiuINRZk6NzdufskhQGzdHLPHF2mL6Hl48mRxK3EBB3oS24BTnwqEtyuQvtSQgUUJZp95ta-QUIZ82-73LyhzbNL6vcYzpQJ7qZL1_Wyz1YwhD9z2O6mbqB7hdn8VRwpc-XAQ?tsid=123468825&jr_id=6a9150d42e254e06fb9f3ff9&__cf_chl_rt_tk=W8qOlHMJ6fV0g8TmEReIEgW4oO8r0wvwznoKoqrGvek-1788168670-1.0.1.1-vYPI6ynrI3dgN00JwBV1I56y0i4cant2mw.WGK6tiYg",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.ziprecruiter.com"
+   "status": "local replay",
+   "note": "resolved LinkedIn listing to Lever posting — run in Mac local batch (Lever hCaptcha escalates from datacenter IPs)",
+   "resolvedUrl": "https://jobs.lever.co/angellist/68928f0e-cb1b-4a94-9a9f-e880e6a755e2"
   },
   {
    "id": "6979ddbbb4589b4ee87c1d59",
@@ -730,8 +731,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7d4cdf7c52154b59f5e4e7",
    "atsUrl": "https://www.comeet.com/jobs/sunbit/37.001/sr_-backend-engineer/74.96F?jr_id=6a7d4cdf7c52154b59f5e4e7",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.comeet.com"
+   "status": "applied",
+   "note": "submitted via cloud (comeet iframe) 2026-09-01T19:25:05.434Z"
   },
   {
    "id": "692927c4f0beb07232631f79",
@@ -779,8 +780,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8dc6a0a5639a481032785a",
    "atsUrl": "https://www.ziprecruiter.com/kn/AAJL4s6bOJpnAioh_cHASI-crPkWdUVHFMHSmdh5qBAzEUIvLLT5DDBZ5AZ8pevp2IHlZRCeNmLgLAV-8xT3e-Tl8fG3asY6oPgwmC9XJeBhfP7TGCRkRkL5B7GqLvJvZLSF_xH2J8_4tVfW09gYPknaQr9gH8N1_DIu52UUipMMk_p8fHimqrBe99jSDXBOBIadXifOE0URmt1p8JdO6JtDNyS6b0BcW5CAnPi8ElPG2Hm1CVwI8xzKCc_GGxIbV-0IRwAjzsJmTBIM4TLae-MnjNvrL8vYe37vTQ7aYqdzJx5Xh4TsxfcE_4OKqVa3I1cwG44ieMYOCCwSJV9byQ1kJdRNDLSzTnEANCy-BuHPDCS9h3iLLvjX2oo9mUyOInfSmLDYP4_l4ObJmHyntuj9meLCoIUcHUtnZYB2pspiy1tZr8h6bJzDVCfe1w7sDGISiTHL6U6QgRCoQQ?tsid=123468825&jr_id=6a8dc6a0a5639a481032785a&__cf_chl_rt_tk=9YzPxn2k4pY_MekoVIahuuH6VuKUCBY43H_hSrNmXYA-1788168980-1.0.1.1-xPizYfcXRqAShWr7vLxIqAeCZ8oJdzeFt_C2aUru2.M",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.ziprecruiter.com"
+   "status": "user_manual",
+   "note": "LinkedIn/ZipRecruiter-only recruiter listing; no company ATS exists. Applying requires your personal LinkedIn/Zip account (agent never logs into personal accounts). Skim and skip unless interested."
   },
   {
    "id": "6a330122f6b55d12c791741b",
@@ -803,8 +804,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9529d7d18f75674828022b",
    "atsUrl": "https://www.linkedin.com/jobs/view/4461053774?jr_id=6a9529d7d18f75674828022b",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.linkedin.com"
+   "status": "user_manual",
+   "note": "LinkedIn/ZipRecruiter-only recruiter listing; no company ATS exists. Applying requires your personal LinkedIn/Zip account (agent never logs into personal accounts). Skim and skip unless interested."
   },
   {
    "id": "6a949a179864261ccd2a44f3",
@@ -815,8 +816,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a949a179864261ccd2a44f3",
    "atsUrl": "https://www.linkedin.com/jobs/view/4458863311?jr_id=6a949a179864261ccd2a44f3",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.linkedin.com"
+   "status": "user_manual",
+   "note": "rajant.com/about/careers has no embedded ATS links visible to cloud; personal apply via their site"
   },
   {
    "id": "6a573695efb06a45240d98b5",
@@ -838,8 +839,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a925fac3603630099196286",
    "atsUrl": "https://www.ziprecruiter.com/kn/AALSS2Aqfwz4Dc1EWuHxAOuGI_J_yNdxgMNOcOSAer1rgLZwKWiq8mP-iezLx53Z27wyLjosAO60D_H6ducpDAaQMYcW3fkOZq9uk5oLFZJ6skSvQMq48c606U0VdTXQ0tpOf5t8JZBNF9TIdmZmOCRtlfJtLddcX_rAsJggvjsi3XzP7d61EF0uQ7fOh9OUfd4m-WXJW3z9C_KYGvWyoGg71EMH5s_o598JkOiB0CJggU8rLQbL9_uEVYiJ_dmiTWHoW3RzAaNr3C9IcnX5b56rwBHU3koUd8z4EmcZR4qOJA-tYHE64_TNicrv4-OblGVGXNCXrI-dDmO80yEnCnfmfu65Q7UogkNSg4N0DCyVgtK0yfU2WwOveGCznEw_JDTE9qZZWZn4dBvFqN2p22h3q1OqylQXMdaTz5mgdwCliEEquUcUcc1NX-wB?tsid=123468825&jr_id=6a925fac3603630099196286&__cf_chl_rt_tk=BzGccTCdMel7XG4VhSuVTCZz54YwBw6BoAGFDY.uJ3Q-1788169156-1.0.1.1-HY7WA.lKCtn9B2gqzGDQQggrbTVAbTsY6U8AwNhV5.E",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.ziprecruiter.com"
+   "status": "user_manual",
+   "note": "kharon.com/careers is a JS app with no discoverable ATS from cloud; personal apply via their site"
   },
   {
    "id": "6a51ef7b78e364789ca5ebf4",
@@ -874,8 +875,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a28f67040ac8e32932a488f",
    "atsUrl": "https://www.linkedin.com/jobs/view/4391107008?jr_id=6a28f67040ac8e32932a488f",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.linkedin.com"
+   "status": "user_manual",
+   "note": "tradeweb.com careers behind WAF (403 to cloud); Workday tenant probe failed. Apply via tradeweb.com careers on your Mac, or personal LinkedIn"
   },
   {
    "id": "6a94e7c3c12c90443efcdfd9",
@@ -969,8 +970,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a63ab6d0c8e2b4f36dcf1a6",
    "atsUrl": "https://atp.catsone.com/careers/4021/jobs/16836834-Application-Engineer-4-API?jr_id=6a63ab6d0c8e2b4f36dcf1a6",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: atp.catsone.com"
+   "status": "dropped",
+   "note": "IC/defense contractor role (Annapolis Junction MD, NSA DTS TTO program; form requires citizenship + clearance level). Never applied per clearance policy. Kept for dedupe."
   },
   {
    "id": "6a7b63fa3b399d106e4d60e4",
@@ -1042,8 +1043,9 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a767ca2bb6ca93ae5612c58",
    "atsUrl": "https://www.ziprecruiter.com/kn/AAJQVEtfM2VNvopkIECtMd8pqk3NXSP_Zbo7DqX0baeCkqYhuOO1nCEl9LcIvXL9JbBZeYcrAimQs5e_ISQOibXYZ36SaJCSKktkrloeB19T_pyp9CrLIDSKMtIBheRrDPMizG-aM6h5vUFpjf9vQZCf_TANIx99CgBImmI2Yoy6pGS4y_h6tfHlvRocc2K4X4LByH0q_rlWWp2cBc3DbvABOZpfmN4TVB6_ggT61pox0RCxo99RxiCR3HjkXwu0Nh6fAVvE9RGmg-QxjaUXFrz9Nw3o4EkqrIpahtYcksRNsT3z1_eFK907d2g-wsNvrz4CWvwFQkQlKdoJnvK4aKH7Zq8P8x_h9kMIXpxm2clSlLXImr5BKuMkQtwAUfEt7jXKqyyN0Nt05_wEUvHaowuhW9U4dl9uRrjOwjnjdfI3u7sJxZfbDCF83ASXa1trrNqpU4mqR-dyu58IYW12KhcDXe-vDw?tsid=123468825&jr_id=6a767ca2bb6ca93ae5612c58&__cf_chl_rt_tk=3UOnXPJxUuaRHeEJ_vOpa8VuMOrD8q2oouzAMMEH5nI-1788170622-1.0.1.1-50F6SpjvyMn3ycoKCRORLlALsul7VtGFyab1f91aCek",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.ziprecruiter.com"
+   "status": "local replay",
+   "note": "resolved ZipRecruiter listing to Lever posting — run in Mac local batch (Lever hCaptcha escalates from datacenter IPs)",
+   "resolvedUrl": "https://jobs.lever.co/picklerobot/b2a24088-cc18-4ae0-afbc-2a107b4f9acb"
   },
   {
    "id": "6a7e21420cd4a0703257e15a",
@@ -1102,8 +1104,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a952290c12c90443efce3d6",
    "atsUrl": "https://phh.tbe.taleo.net/phh01/ats/careers/v2/viewRequisition?org=BASESOLU&cws=37&rid=4094&jr_id=6a952290c12c90443efce3d6",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: phh.tbe.taleo.net"
+   "status": "dropped",
+   "note": "JD requires Top Secret/SCI clearance — defense/clearance work, never applied per policy (also impossible on F-1). Kept for dedupe."
   },
   {
    "id": "6a69b7558693c23e7fb771c8",
@@ -1114,8 +1116,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a69b7558693c23e7fb771c8",
    "atsUrl": "https://app.careerpuck.com/job-board/avalara/job/2026-17129?jr_id=6a69b7558693c23e7fb771c8",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: app.careerpuck.com"
+   "status": "dropped",
+   "note": "JD states: This role is not eligible for visa sponsorship. Applicant requires future H-1B sponsorship — dropped (same policy as Opto). Kept for dedupe."
   },
   {
    "id": "6a2a1a1d0c4972328e7e6c95",
@@ -1161,8 +1163,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a952f1d1e67aa542830daba",
    "atsUrl": "https://www.linkedin.com/jobs/view/4459766794?jr_id=6a952f1d1e67aa542830daba",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.linkedin.com"
+   "status": "user_manual",
+   "note": "LinkedIn/ZipRecruiter-only recruiter listing; no company ATS exists. Applying requires your personal LinkedIn/Zip account (agent never logs into personal accounts). Skim and skip unless interested."
   },
   {
    "id": "6a9360b58e5968545337b8d4",
@@ -1185,8 +1187,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a534fc78576ec69c014f5a9",
    "atsUrl": "https://ats.rippling.com/rippling/jobs/d7fae4cb-ee75-4948-ae72-a2527a264f97?jr_id=6a534fc78576ec69c014f5a9",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: ats.rippling.com"
+   "status": "local replay",
+   "note": "Rippling ATS: form fills fine but the Apply click fires a Cloudflare challenge-platform check that stalls forever from cloud IPs. Run agent/finishers/rippling-finish.mjs on the Mac (headed): node agent/finishers/rippling-finish.mjs <atsUrl> agent/finishers/generic-answers.json --submit"
   },
   {
    "id": "6a74e0e237da8525e8cdb214",
@@ -1234,8 +1236,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9499253603630099199f3a",
    "atsUrl": "https://www.linkedin.com/jobs/view/4458855356?jr_id=6a9499253603630099199f3a",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.linkedin.com"
+   "status": "user_manual",
+   "note": "LinkedIn/ZipRecruiter-only recruiter listing; no company ATS exists. Applying requires your personal LinkedIn/Zip account (agent never logs into personal accounts). Skim and skip unless interested."
   },
   {
    "id": "6a9367058e5968545337b91a",
@@ -1300,8 +1302,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7dfc790cd4a0703257cf47",
    "atsUrl": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4400546?jr_id=6a7dfc790cd4a0703257cf47",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: recruiting.paylocity.com"
+   "status": "applied",
+   "note": "submitted via cloud 2026-09-01T20:01:11.574Z"
   },
   {
    "id": "6a6238c21e089c0cc884b19e",
@@ -1324,8 +1326,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7f85ace51a1e18a2413979",
    "atsUrl": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4420806?src=jobright&jr_id=6a7f85ace51a1e18a2413979",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: recruiting.paylocity.com"
+   "status": "applied",
+   "note": "submitted via cloud 2026-09-01T20:01:11.574Z"
   },
   {
    "id": "6a906fe67c32860d14cf968e",
@@ -1336,8 +1338,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a906fe67c32860d14cf968e",
    "atsUrl": "https://www.linkedin.com/jobs/view/4459872235?jr_id=6a906fe67c32860d14cf968e",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.linkedin.com"
+   "status": "user_manual",
+   "note": "LinkedIn/ZipRecruiter-only recruiter listing; no company ATS exists. Applying requires your personal LinkedIn/Zip account (agent never logs into personal accounts). Skim and skip unless interested."
   },
   {
    "id": "6a5a79cfc8e3a473cb8abf37",
@@ -1374,6 +1376,1074 @@
    "addedAt": "2026-08-31",
    "status": "parked",
    "note": "platform not automated from cloud: careers-sig.icims.com"
+  },
+  {
+   "id": "6a96ea58455eaf6a08c194ca",
+   "key": "navy federal credit union::senior application engineer",
+   "title": "Senior Application Engineer",
+   "company": "Navy Federal Credit Union",
+   "matchPercent": 94,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96ea58455eaf6a08c194ca",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a9628c3f28891320e860938",
+   "key": "openalex::software engineer",
+   "title": "Software Engineer",
+   "company": "OpenAlex",
+   "matchPercent": 93,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9628c3f28891320e860938",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a9710c3b22f636c81415a40",
+   "key": "thomson reuters::senior software engineer, full stack",
+   "title": "Senior Software Engineer, Full Stack",
+   "company": "Thomson Reuters",
+   "matchPercent": 92,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9710c3b22f636c81415a40",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a51f979bf63b66c7997efa4",
+   "key": "uniswap::senior backend engineer",
+   "title": "Senior Backend Engineer",
+   "company": "Uniswap",
+   "matchPercent": 92,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a51f979bf63b66c7997efa4",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a9677d026613756de6d8325",
+   "key": "state farm::software engineer/lead software engineer (temporal)",
+   "title": "Software Engineer/Lead Software Engineer (Temporal)",
+   "company": "State Farm",
+   "matchPercent": 91,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9677d026613756de6d8325",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a907b3b7c32860d14cf99d0",
+   "key": "abbvie::software engineer - ai platform (hybrid)",
+   "title": "Software Engineer - AI Platform (Hybrid)",
+   "company": "AbbVie",
+   "matchPercent": 91,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a907b3b7c32860d14cf99d0",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a96ee9c246d697dcee02131",
+   "key": "nelnet::sr software engineer",
+   "title": "Sr Software Engineer",
+   "company": "Nelnet",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96ee9c246d697dcee02131",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a95dc52cabc9f6703e1a66d",
+   "key": "remitly::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Remitly",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95dc52cabc9f6703e1a66d",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "69f28bbaab4ec4779fff9b84",
+   "key": "point72::quant library developer, macro technology",
+   "title": "Quant Library Developer, Macro Technology",
+   "company": "Point72",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69f28bbaab4ec4779fff9b84",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "69dfc703433ac8430e0e2181",
+   "key": "veryable::senior backend engineer",
+   "title": "Senior Backend Engineer",
+   "company": "Veryable",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69dfc703433ac8430e0e2181",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a54be1fccd81a26173f34cc",
+   "key": "rippling::senior software engineer, backend - financial product",
+   "title": "Senior Software Engineer, Backend - Financial Product",
+   "company": "Rippling",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a54be1fccd81a26173f34cc",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a907b757c32860d14cf99e3",
+   "key": "compsych::software engineer",
+   "title": "Software Engineer",
+   "company": "ComPsych",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a907b757c32860d14cf99e3",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a51d99c57513b72e0c68e12",
+   "key": "nash::senior backend engineer",
+   "title": "Senior Backend Engineer",
+   "company": "Nash",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a51d99c57513b72e0c68e12",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a9613564c22023a07937e00",
+   "key": "eccalon, llc::senior software engineer - onsite",
+   "title": "Senior Software Engineer - onsite",
+   "company": "Eccalon, LLC",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9613564c22023a07937e00",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a8487bde12474455273ade3",
+   "key": "robinhood::senior software engineer, load and fault environments",
+   "title": "Senior Software Engineer, Load and Fault Environments",
+   "company": "Robinhood",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8487bde12474455273ade3",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a970160d13b4819f39de646",
+   "key": "stoneeagle::software engineer",
+   "title": "Software Engineer",
+   "company": "StoneEagle",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a970160d13b4819f39de646",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a7a38cb9ee17f276dbf1f1a",
+   "key": "luma::software engineer - data infrastructure",
+   "title": "Software Engineer - Data Infrastructure",
+   "company": "Luma",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7a38cb9ee17f276dbf1f1a",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a90607c7c32860d14cf8edd",
+   "key": "fiserv::software development engineer for implementations",
+   "title": "Software Development Engineer for Implementations",
+   "company": "Fiserv",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a90607c7c32860d14cf8edd",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a97141c455eaf6a08c1a80b",
+   "key": "charles schwab::software development engineer",
+   "title": "Software Development Engineer",
+   "company": "Charles Schwab",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a97141c455eaf6a08c1a80b",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a9623d83843db0159909c59",
+   "key": "boeing::experienced software engineer",
+   "title": "Experienced Software Engineer",
+   "company": "Boeing",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9623d83843db0159909c59",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a52c23b8ef95364ead8fab9",
+   "key": "nlb services::software engineer",
+   "title": "Software Engineer",
+   "company": "NLB Services",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a52c23b8ef95364ead8fab9",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a95c0343843db0159906e9e",
+   "key": "charles schwab::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Charles Schwab",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95c0343843db0159906e9e",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "68c8b662f9c6ff7aedf11c7a",
+   "key": "included health::senior software engineer, backend",
+   "title": "Senior Software Engineer, Backend",
+   "company": "Included Health",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/68c8b662f9c6ff7aedf11c7a",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a907dbaa19886486676165c",
+   "key": "sentilink::senior software engineer, platform/backend",
+   "title": "Senior Software Engineer, Platform/Backend",
+   "company": "SentiLink",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a907dbaa19886486676165c",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a9638bccabc9f6703e1cba4",
+   "key": "apple::senior software engineer - platform apps & technologies",
+   "title": "Senior Software Engineer - Platform Apps & Technologies",
+   "company": "Apple",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9638bccabc9f6703e1cba4",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a95c6a4f28891320e85dce2",
+   "key": "nvidia ai::senior backend platform engineer - profiling services",
+   "title": "Senior Backend Platform Engineer - Profiling Services",
+   "company": "NVIDIA AI",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95c6a4f28891320e85dce2",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a95ccbec8763a3a87ffc284",
+   "key": "doordash::senior associate, ad ops platform",
+   "title": "Senior Associate, Ad Ops Platform",
+   "company": "DoorDash",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95ccbec8763a3a87ffc284",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a7a17e1a26ccc369f83c76d",
+   "key": "f&g::sr. software engineer, external data integrations",
+   "title": "Sr. Software Engineer, External Data Integrations",
+   "company": "F&G",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7a17e1a26ccc369f83c76d",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a96ff7fd13b4819f39de4d5",
+   "key": "leolabs::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "LeoLabs",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96ff7fd13b4819f39de4d5",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "69e8ec9058811370cb1290b3",
+   "key": "jpmorganchase::lead software engineer - data platform",
+   "title": "Lead Software Engineer - Data Platform",
+   "company": "JPMorganChase",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69e8ec9058811370cb1290b3",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a8354ba3eeac101cfa9f0b0",
+   "key": "uber::software engineer",
+   "title": "Software Engineer",
+   "company": "Uber",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8354ba3eeac101cfa9f0b0",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "69827919348f733a5c355cd4",
+   "key": "palo alto networks::sr. software engineer",
+   "title": "Sr. Software Engineer",
+   "company": "Palo Alto Networks",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69827919348f733a5c355cd4",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a79e474b17cba5690364262",
+   "key": "bank of america::software engineer iii - payments platforms",
+   "title": "Software Engineer III - Payments Platforms",
+   "company": "Bank of America",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a79e474b17cba5690364262",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "69fb122f87a4820e6da84a76",
+   "key": "plaid::senior software engineer, full stack",
+   "title": "Senior Software Engineer, Full Stack",
+   "company": "Plaid",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69fb122f87a4820e6da84a76",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a94ec4d9864261ccd2a4b7c",
+   "key": "sas::software developer - saas software engineer",
+   "title": "Software Developer - SaaS Software Engineer",
+   "company": "SAS",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a94ec4d9864261ccd2a4b7c",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a7a18b19ee17f276dbf1310",
+   "key": "oracle::senior platform software engineer",
+   "title": "Senior Platform Software Engineer",
+   "company": "Oracle",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7a18b19ee17f276dbf1310",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a911f81a198864866763de3",
+   "key": "speechify::software engineer, platform - newark, nj, usa",
+   "title": "Software Engineer, Platform - Newark, NJ, USA",
+   "company": "Speechify",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a911f81a198864866763de3",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a67db93d0fb4c3df393f071",
+   "key": "accenture federal services::software engineer",
+   "title": "Software Engineer",
+   "company": "Accenture Federal Services",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a67db93d0fb4c3df393f071",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a57d31610c4d945d865146b",
+   "key": "arq::senior software engineer (java)",
+   "title": "Senior Software Engineer (Java)",
+   "company": "ARQ",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a57d31610c4d945d865146b",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a8353499b859b227766e0e6",
+   "key": "apple::senior software engineer, ai & data platforms (aidp)",
+   "title": "Senior Software Engineer, AI & Data Platforms (AiDP)",
+   "company": "Apple",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8353499b859b227766e0e6",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "69a0259f0836fe79d860ec36",
+   "key": "finch::senior software engineer, backend",
+   "title": "Senior Software Engineer, Backend",
+   "company": "Finch",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69a0259f0836fe79d860ec36",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a51ade557513b72e0c65e8f",
+   "key": "scale ai::infrastructure software engineer, enterprise genai",
+   "title": "Infrastructure Software Engineer, Enterprise GenAI",
+   "company": "Scale AI",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a51ade557513b72e0c65e8f",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a8cd2c6d34f700f87fd2d39",
+   "key": "learnlux financial wellbeing::senior back end engineer, data and cloud",
+   "title": "Senior Back End Engineer, Data and Cloud",
+   "company": "LearnLux Financial Wellbeing",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8cd2c6d34f700f87fd2d39",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a875f20cde3717f9e9b1b1b",
+   "key": "amazon::software dev engineer iii, aws catalog",
+   "title": "Software Dev Engineer III, AWS Catalog",
+   "company": "Amazon",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a875f20cde3717f9e9b1b1b",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a8f06daf841e649a7190377",
+   "key": "snowflake::senior software engineer - observe by snowflake, workflow",
+   "title": "Senior Software Engineer - Observe by Snowflake, Workflow",
+   "company": "Snowflake",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8f06daf841e649a7190377",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a3aae67797099171917b04c",
+   "key": "reddit, inc.::senior software engineer, core platform",
+   "title": "Senior Software Engineer, Core Platform",
+   "company": "Reddit, Inc.",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a3aae67797099171917b04c",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a298b890c4972328e7e404c",
+   "key": "edia::senior backend engineer",
+   "title": "Senior Backend Engineer",
+   "company": "Edia",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a298b890c4972328e7e404c",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a95c4ce3843db01599070b6",
+   "key": "logrocket::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "LogRocket",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95c4ce3843db01599070b6",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a3b1f4f649fdf16293075a7",
+   "key": "commure::senior software engineer, rejections & denials",
+   "title": "Senior Software Engineer, Rejections & Denials",
+   "company": "Commure",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a3b1f4f649fdf16293075a7",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a96f6a3e4e60e4b8da5af36",
+   "key": "tech jobs for good::software engineer | various levels",
+   "title": "Software Engineer | Various Levels",
+   "company": "Tech Jobs for Good",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96f6a3e4e60e4b8da5af36",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "69c7500fe565c26a70027aa8",
+   "key": "jpmorganchase::sr lead software engineer",
+   "title": "Sr Lead Software Engineer",
+   "company": "JPMorganChase",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69c7500fe565c26a70027aa8",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a96d04ab22f636c81413dbb",
+   "key": "csi::software engineer iii (node/typescript)",
+   "title": "Software Engineer III (Node/Typescript)",
+   "company": "CSI",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96d04ab22f636c81413dbb",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a4fe8374649561ec08af7b6",
+   "key": "supernova technology™::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Supernova Technology™",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a4fe8374649561ec08af7b6",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a5386119fbdab22fe13fa81",
+   "key": "avalara::sr. software development engineer",
+   "title": "Sr. Software Development Engineer",
+   "company": "Avalara",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5386119fbdab22fe13fa81",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a91f1e536036300991953d9",
+   "key": "comcast::sr. software engineer",
+   "title": "Sr. Software Engineer",
+   "company": "Comcast",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a91f1e536036300991953d9",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a328de3ce501060b5ce949f",
+   "key": "whatnot::senior software engineer, cx",
+   "title": "Senior Software Engineer, CX",
+   "company": "Whatnot",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a328de3ce501060b5ce949f",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a956d591e895f1294667a77",
+   "key": "amazon web services (aws)::senior software development engineer, amazon quick",
+   "title": "Senior Software Development Engineer, Amazon Quick",
+   "company": "Amazon Web Services (AWS)",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a956d591e895f1294667a77",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a91ec858e59685453378565",
+   "key": "mercury insurance::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Mercury Insurance",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a91ec858e59685453378565",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a46bd098204a812e98c9baf",
+   "key": "lseg::senior software engineer - st. louis",
+   "title": "Senior Software Engineer - St. Louis",
+   "company": "LSEG",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a46bd098204a812e98c9baf",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a7bbaeeecf5194164fbfb4f",
+   "key": "aegis ventures::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Aegis Ventures",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7bbaeeecf5194164fbfb4f",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a14043c83d71442898333f7",
+   "key": "distrokid::api engineer",
+   "title": "API Engineer",
+   "company": "DistroKid",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a14043c83d71442898333f7",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "69eaa35f0a6e09555304242e",
+   "key": "perplexity::member of technical staff (software engineer, monetization)",
+   "title": "Member of Technical Staff (Software Engineer, Monetization)",
+   "company": "Perplexity",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69eaa35f0a6e09555304242e",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a16defdf45c6530ce9a6bb1",
+   "key": "scale ai::senior software engineer, public sector",
+   "title": "Senior Software Engineer, Public Sector",
+   "company": "Scale AI",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a16defdf45c6530ce9a6bb1",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a8ca52425fc4e7ae3db99b4",
+   "key": "amazon::sr. software dev engineer, aws opensearch service",
+   "title": "Sr. Software Dev Engineer, AWS OpenSearch Service",
+   "company": "Amazon",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8ca52425fc4e7ae3db99b4",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a2a2f04495d985b99427ba8",
+   "key": "tiktok::senior backend software engineer, ai infrastructure for sdlc - engineering efficiency",
+   "title": "Senior Backend Software Engineer, AI Infrastructure for SDLC - Engineering Efficiency",
+   "company": "TikTok",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a2a2f04495d985b99427ba8",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a8c8bb31d96e6541c8c1830",
+   "key": "jpmorganchase::lead software engineer java/aws",
+   "title": "Lead Software Engineer Java/AWS",
+   "company": "JPMorganChase",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8c8bb31d96e6541c8c1830",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a520ab2d007ee02d95f5c15",
+   "key": "perpay inc.::senior software engineer, fullstack",
+   "title": "Senior Software Engineer, Fullstack",
+   "company": "Perpay Inc.",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a520ab2d007ee02d95f5c15",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a8f66c67c32860d14cf5b45",
+   "key": "jpmorganchase::lead software engineer - ml and agentic treasury",
+   "title": "Lead Software Engineer - ML and Agentic Treasury",
+   "company": "JPMorganChase",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8f66c67c32860d14cf5b45",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a0493126c07461fe170e7ce",
+   "key": "wealthfront::backend engineer",
+   "title": "Backend Engineer",
+   "company": "Wealthfront",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a0493126c07461fe170e7ce",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a95c7c8c8763a3a87ffbfe6",
+   "key": "harnham::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Harnham",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95c7c8c8763a3a87ffbfe6",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a903139a19886486675fcb0",
+   "key": "panasonic avionics corporation::mts iii, software",
+   "title": "MTS III, Software",
+   "company": "Panasonic Avionics Corporation",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a903139a19886486675fcb0",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a91d3d6a27a2d3c9848a481",
+   "key": "apple::sr. software engineer (framework solutions), ai & data platforms (aidp)",
+   "title": "Sr. Software Engineer (Framework Solutions), AI & Data Platforms (AiDP)",
+   "company": "Apple",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a91d3d6a27a2d3c9848a481",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a97137a246d697dcee0334f",
+   "key": "amazon web services (aws)::software dev engineer iii, aws elastic beanstalk",
+   "title": "Software Dev Engineer III, AWS Elastic Beanstalk",
+   "company": "Amazon Web Services (AWS)",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a97137a246d697dcee0334f",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a5e77cd67b2850e77df1594",
+   "key": "press ganey::senior software engineer ( seattle/provo hybrid)",
+   "title": "Senior Software Engineer ( Seattle/Provo Hybrid)",
+   "company": "Press Ganey",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5e77cd67b2850e77df1594",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a96f8a9d13b4819f39de05e",
+   "key": "first citizens wealth::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "First Citizens Wealth",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96f8a9d13b4819f39de05e",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a95ef73c8763a3a87ffd494",
+   "key": "zerodrift::senior backend engineer",
+   "title": "Senior Backend Engineer",
+   "company": "ZeroDrift",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95ef73c8763a3a87ffd494",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a95e90ec8763a3a87ffd25a",
+   "key": "rubrik::senior software engineer - saas data protection",
+   "title": "Senior Software Engineer - SaaS Data Protection",
+   "company": "Rubrik",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95e90ec8763a3a87ffd25a",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a96e037d13b4819f39dd6ca",
+   "key": "sanmina-sci technology india private limited::backend developer",
+   "title": "Backend Developer",
+   "company": "SANMINA-SCI TECHNOLOGY INDIA PRIVATE LIMITED",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96e037d13b4819f39dd6ca",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a955969afd6d85adbfad70b",
+   "key": "bloomberg::senior software engineer - apache kafka infrastructure",
+   "title": "Senior Software Engineer - Apache Kafka Infrastructure",
+   "company": "Bloomberg",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a955969afd6d85adbfad70b",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a8ed596382b237ac80c2e29",
+   "key": "larsen & toubro::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Larsen & Toubro",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8ed596382b237ac80c2e29",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a8f856bd96ad228f125df53",
+   "key": "google::senior software engineer, performance, google cloud performance",
+   "title": "Senior Software Engineer, Performance, Google Cloud Performance",
+   "company": "Google",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8f856bd96ad228f125df53",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a95c9b4c8763a3a87ffc09f",
+   "key": "mastercard::senior software engineer - java",
+   "title": "Senior Software Engineer - Java",
+   "company": "Mastercard",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95c9b4c8763a3a87ffc09f",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a509cfcddd293054ccaa3f4",
+   "key": "sphinx defense::senior backend engineer",
+   "title": "Senior Backend Engineer",
+   "company": "Sphinx Defense",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a509cfcddd293054ccaa3f4",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a387a951232144fb1568aa9",
+   "key": "genuine parts company::software engineer iv",
+   "title": "Software Engineer IV",
+   "company": "Genuine Parts Company",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a387a951232144fb1568aa9",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a725484ee751e0c79348697",
+   "key": "topstep::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Topstep",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a725484ee751e0c79348697",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a7390dc1ce9647cdbca8f03",
+   "key": "general motors::sr software engineer",
+   "title": "Sr Software Engineer",
+   "company": "General Motors",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7390dc1ce9647cdbca8f03",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a6a2676c63ba56308f5185c",
+   "key": "lvt (liveview technologies)::senior software engineer ii - backend",
+   "title": "Senior Software Engineer II - Backend",
+   "company": "LVT (LiveView Technologies)",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a6a2676c63ba56308f5185c",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a8fa3922e254e06fb9ede72",
+   "key": "electronic arts (ea)::software engineer iii",
+   "title": "Software Engineer III",
+   "company": "Electronic Arts (EA)",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8fa3922e254e06fb9ede72",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a8623602f4f0014cae2893d",
+   "key": "scribe::senior backend engineer, data ingestion",
+   "title": "Senior Backend Engineer, Data Ingestion",
+   "company": "Scribe",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8623602f4f0014cae2893d",
+   "atsUrl": null,
+   "addedAt": "2026-09-01",
+   "status": "parked",
+   "note": "no ATS url discovered"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."

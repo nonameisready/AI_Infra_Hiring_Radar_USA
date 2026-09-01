@@ -369,3 +369,11 @@ Workday round notes: Capital One account locked/password mismatch (user resets);
 
 ## 2026-09-01 — 5am cloud window (Mac nightly batch MISSED; fallback ran)
 Mac 1am batch did not push (no commit on ashby-local-results after user replay at 22:22 ET; replay itself booked 0 — 8 failures logged). Cloud fallback: harvest 652, only 1 new eligible >=80 (rest deduped) — FINN Senior Backend Engineer 98% submitted after 3 rule iterations. Overnight parked-backlog wave: Workday 8 submitted (Expedia, BlackRock, Mastercard, Visa, FICO, DB, Salesforce, LPL) + Oracle Cloud 2 (Goldman Sachs, Oracle) ; PANW/Walmart/HPE/GoodRx account-gate blocked (user_manual); Citizens OTP undelivered (retry); Photon/BlackLine/Vertex dropped; Verint user_manual. Qwen replay rules audited+merged (I-485 fabrication and invented latency metric removed). All-time 251.
+
+## 2026-09-01 (Mac local batch, home IP — smoke test after RESUME_PDF fix)
+
+Harvest OK (89 new matches >=80%) but 0 submitted: every job parked with "no ATS url discovered" — the Jobright->ATS resolution step failed on the Mac. Merged the 89 into cloud pending for cloud-side resolution. All-time 251 at Mac run time.
+
+## 2026-09-01 — LinkedIn/Zip resolver + simple-form ATS wave (cloud, afternoon)
+
+Resolved 18 LinkedIn/ZipRecruiter parked items: Coinbase + Roku -> Greenhouse boards (both SUBMITTED, incl. Roku 8-char security-code per-cell entry; gh-finish patched); AngelList + Pickle Robot -> exact Lever postings (queued for Mac local batch); 8 agency listings + 6 companies with no reachable ATS -> user_manual. Simple-form wave: Sunbit (Comeet iframe) SUBMITTED; Amari AI + Judgment Labs + AIDA projektai (Manatal) SUBMITTED; CloudBees + Angel Studios (Paylocity 4/5-step wizards) SUBMITTED — sponsorship answered YES honestly everywhere. Rippling ATS blocked by Cloudflare challenge at submit from cloud IPs -> wrote agent/finishers/rippling-finish.mjs, 4 jobs queued for Mac. Dropped: Base-2 Solutions (TS/SCI), Avid Technology Professionals (NSA contractor), Avalara (no visa sponsorship per JD). Captcha-gated to user: Terzo 94% (2-min form!), TomoCredit, Book of the Month. Merged Mac smoke-test push (89 harvested, ATS-resolution failed on Mac -> queued for cloud resolution). All-time 259; today-ET 15.

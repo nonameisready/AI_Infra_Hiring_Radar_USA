@@ -997,6 +997,34 @@
   {
    "label": "how you use ai/?llm tools",
    "prefer": "i use ai daily across"
+  },
+  {
+   "label": "how you use ai tools today",
+   "prefer": "daily|regular|frequent|often|multiple times"
+  },
+  {
+   "label": "understand that coinbase may use ai tools",
+   "prefer": "^yes|acknowledge|agree|understand"
+  },
+  {
+   "label": "government official( in the last five years)?|close relative of a government official",
+   "prefer": "^no"
+  },
+  {
+   "label": "conflict of interest|significant financial interest|close personal relationship with a senior leader",
+   "prefer": "^no"
+  },
+  {
+   "label": "referred to this position by a senior leader",
+   "prefer": "^no"
+  },
+  {
+   "label": "authorized to lawfully work",
+   "prefer": "^yes"
+  },
+  {
+   "label": "confirm receipt of the above|data privacy notice and (us )?arbitration",
+   "prefer": "^yes|acknowledge|confirm"
   }
  ],
  "texts": [

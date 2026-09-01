@@ -1,165 +1,208 @@
-// Rippling ATS finisher v2 — location autocomplete, EEO comboboxes, consent radio.
-import { chromium } from "playwright";
+// Rippling ATS finisher (ats.rippling.com). Single-page public form: resume
+// (parsed for prefill), contact fields, custom questions as radiogroups and
+// listbox comboboxes, EEO section. Rippling gates the final Apply click behind
+// a Cloudflare challenge; from datacenter IPs the submit stalls forever, so
+// this finisher is for the Mac local batch (residential IP). We never solve a
+// visible challenge — headed runs hand it to the human and watch for success.
+//
+//   node agent/finishers/rippling-finish.mjs <jobUrl> <answers.json> [--submit]
+// Env: AGENT_WORK_DIR (resume + autofill-profile.json), HEADED=1,
+//      RIPPLING_MANUAL_MIN (default 6).
 import fs from "node:fs";
 import path from "node:path";
+import { chromium } from "playwright";
+
 const WORK = process.env.AGENT_WORK_DIR;
-const REPO = process.env.REPO_DIR ?? "/home/user/AI_Infra_Hiring_Radar_USA";
+const [url, answersPath] = process.argv.slice(2).filter((a) => !a.startsWith("--"));
 const SUBMIT = process.argv.includes("--submit");
-const url = "https://ats.rippling.com/rippling/jobs/c3d4a64f-8e8f-4e31-9b44-1db5fc6b3433/apply?jr_id=6a5582404119652ff38661ee";
-const AUTOFILL = fs.readFileSync(path.join(REPO, "public/autofill.js"), "utf8");
-const PROFILE = JSON.parse(fs.readFileSync(path.join(WORK, "autofill-profile.json"), "utf8"));
-// EEO handled by hand below — blank them so autofill leaves those combos alone.
-const P = { ...PROFILE, gender: "", race: "", veteran: "", disability: "" };
-const RESUME = path.join(WORK, "Hui_Mao_Backend_Software_Engineer.pdf");
-const tag = Date.now();
-const out = { url, actions: [] };
+const answers = JSON.parse(fs.readFileSync(answersPath, "utf8"));
+const profile = JSON.parse(fs.readFileSync(path.join(WORK, "autofill-profile.json"), "utf8"));
+const emit = (o) => { console.log(JSON.stringify(o, null, 1)); };
 
+const HEADED = process.env.HEADED === "1";
 const browser = await chromium.launch({
-  headless: true, executablePath: process.env.PLAYWRIGHT_CHROMIUM_PATH,
+  headless: !HEADED,
+  ...(process.env.PLAYWRIGHT_CHROMIUM_PATH ? { executablePath: process.env.PLAYWRIGHT_CHROMIUM_PATH } : {}),
   ...(process.env.HTTPS_PROXY ? { proxy: { server: process.env.HTTPS_PROXY } } : {}),
-  args: ["--no-sandbox", "--disable-blink-features=AutomationControlled",
-         ...(process.env.HTTPS_PROXY ? ["--ssl-version-max=tls1.2"] : [])],
+  args: ["--disable-blink-features=AutomationControlled", "--no-sandbox",
+    ...(process.env.CCR_AGENT_PROXY_ENABLED ? ["--ssl-version-max=tls1.2"] : [])],
 });
-const page = await (await browser.newContext({ viewport: { width: 1440, height: 1400 } })).newPage();
+const ctx = await browser.newContext({
+  ...(HEADED ? { viewport: null } : { viewport: { width: 1440, height: 1600 } }),
+  userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+});
+const page = await ctx.newPage();
+const missing = [];
+
+// question text for a control = first meaningful ancestor innerText line
+const questionOf = (el) => el.evaluate((c) => {
+  let n = c.parentElement;
+  for (let i = 0; i < 8 && n; i++) {
+    const t = (n.innerText || "").trim();
+    if (t.length > 10 && t.length < 500) return t.split("\n")[0];
+    n = n.parentElement;
+  }
+  return "";
+});
+const ruleFor = (q) => {
+  for (const c of answers.combos ?? []) if (new RegExp(c.label, "i").test(q)) return c.prefer;
+  return null;
+};
+const textFor = (q) => {
+  for (const t of answers.texts ?? []) if (new RegExp(t.label, "i").test(q)) return t.text;
+  return null;
+};
+
 try {
-  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
-  await page.waitForTimeout(4000);
+  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 90_000 });
+  await page.waitForTimeout(5000);
+  const applyNow = page.getByRole("button", { name: /^Apply now/i }).first();
+  if (await applyNow.count()) { await applyNow.click(); await page.waitForTimeout(6000); }
 
-  await page.locator('input[type="file"]').first().setInputFiles(RESUME);
-  out.actions.push("resume attached");
-  await page.waitForFunction(
-    () => !/parsing the r[eé]sum/i.test(document.body?.innerText ?? ""), { timeout: 90000 },
-  ).catch(() => out.actions.push("parse wait timeout"));
-  await page.waitForTimeout(2500);
+  // resume first — Rippling parses it and prefills name/email/company/phone
+  const resume = path.join(WORK, "Hui_Mao_Backend_Software_Engineer.pdf");
+  await page.locator('input[type="file"]').first().setInputFiles(resume);
+  await page.waitForTimeout(10_000);
 
-  await page.evaluate(`(() => { ${AUTOFILL} })()`);
-  const rep = await page.evaluate(
-    ([p, opts]) => window.__radarAutofill({ profile: p, resume: null }, opts),
-    [P, { submit: false, overwrite: false }],
-  );
-  out.actions.push("autofilled: " + rep.filled.map((f) => f.label.split("|")[0].trim()).join(", "));
+  // location: the parser routinely mangles it ("San Francisco, NY") — retype
+  // with trusted keys and take the first suggestion
+  for (const inp of await page.locator("input[type=text]:visible").all()) {
+    const q = await questionOf(inp);
+    if (!/^location/i.test(q)) continue;
+    await inp.fill("");
+    await inp.pressSequentially(profile.location, { delay: 60 });
+    await page.waitForTimeout(2500);
+    await page.keyboard.press("ArrowDown");
+    await page.keyboard.press("Enter");
+    break;
+  }
+  // linkedin + any empty required text (salary etc.) via rules
+  for (const inp of await page.locator("input[type=text]:visible").all()) {
+    if (await inp.inputValue()) continue;
+    const label = await inp.evaluate((e) => e.labels?.[0]?.innerText ?? e.getAttribute("aria-label") ?? "");
+    if (/linkedin/i.test(label)) { await inp.fill(profile.linkedin); continue; }
+    const req = await inp.evaluate((e) => e.required);
+    if (!req) continue;
+    const q = await questionOf(inp);
+    const a = textFor(q);
+    if (a) await inp.fill(a);
+    else missing.push(q.slice(0, 90));
+  }
 
-  // Location: the résumé parser leaves its own text ("San Francisco / NYC");
-  // find that input, retype, and commit a real suggestion.
-  const locSel = await page.evaluate(() => {
-    for (const e of document.querySelectorAll("input")) {
-      if (e.offsetParent === null) continue;
-      if (/san francisco/i.test(e.value ?? "")) return "#" + CSS.escape(e.id);
+  // radiogroups: match question against combo rules, click by option text
+  await page.evaluate(async ({ combos }) => {
+    const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+    for (const g of document.querySelectorAll("[role=radiogroup]")) {
+      if (!g.offsetParent) continue;
+      const radios = Array.from(g.querySelectorAll("[role=radio]"));
+      if (radios.some((r) => r.getAttribute("aria-checked") === "true")) continue;
+      let n = g.parentElement, q = "";
+      for (let i = 0; i < 8 && n; i++) {
+        const t = (n.innerText || "").trim();
+        if (t.length > 10 && t.length < 600) { q = t; break; }
+        n = n.parentElement;
+      }
+      const rule = combos.find((c) => new RegExp(c.label, "i").test(q));
+      if (!rule) continue;
+      const rx = new RegExp(rule.prefer, "i");
+      const texts = radios.map((r) => r.getAttribute("aria-label") || r.innerText.replace(/\s+/g, " ").trim());
+      const i = texts.findIndex((t) => rx.test(t));
+      if (i >= 0) { radios[i].click(); await sleep(400); }
+    }
+  }, { combos: answers.combos ?? [] });
+
+  // comboboxes: open, pick from the freshest listbox (old ones linger in DOM)
+  const comboMissing = await page.evaluate(async ({ combos }) => {
+    const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+    const miss = [];
+    for (const c of document.querySelectorAll("[role=combobox]")) {
+      if (!c.offsetParent) continue;
+      const v = ((c.tagName === "INPUT" ? c.value : c.innerText) || "").trim();
+      if (v && !/^select/i.test(v) && !/^search$/i.test(v)) continue;
+      let n = c.parentElement, q = "";
+      for (let i = 0; i < 8 && n; i++) {
+        const t = (n.innerText || "").trim();
+        if (t.length > 10 && t.length < 600) { q = t.split("\n")[0]; break; }
+        n = n.parentElement;
+      }
+      if (/pronoun/i.test(q)) continue; // optional
+      const rule = combos.find((r) => new RegExp(r.label, "i").test(q));
+      if (!rule) { if (/\*/.test(q)) miss.push(q.slice(0, 90)); continue; }
+      c.click(); await sleep(1000);
+      const boxes = Array.from(document.querySelectorAll("[role=listbox]")).filter((b) => b.offsetParent);
+      const box = boxes[boxes.length - 1];
+      const rx = new RegExp(rule.prefer, "i");
+      const hit = box && Array.from(box.querySelectorAll("[role=option]")).find((o) => rx.test(o.innerText.trim()));
+      if (hit) { hit.click(); await sleep(500); }
+      else { document.body.click(); await sleep(300); miss.push(q.slice(0, 90)); }
+    }
+    return miss;
+  }, { combos: answers.combos ?? [] });
+  missing.push(...comboMissing);
+
+  const shot = path.join(WORK, `rippling-${Date.now()}.png`);
+  await page.screenshot({ path: shot, fullPage: true }).catch(() => {});
+
+  const isSuccess = async () => {
+    const s = await page.evaluate(() => ({
+      url: location.href,
+      text: document.body.innerText.replace(/\s+/g, " ").slice(0, 500),
+      formGone: !Array.from(document.querySelectorAll("input[type=text]")).some((i) => i.offsetParent),
+    })).catch(() => ({ url: "", text: "", formGone: false }));
+    return /thank|application.{0,30}(submitted|received)|successfully applied/i.test(s.text) || s.formGone ? s : null;
+  };
+  const waitForHuman = async (why) => {
+    if (!HEADED) return null;
+    const mins = Number(process.env.RIPPLING_MANUAL_MIN || 6);
+    console.error(`\n⚠️  ${why}`);
+    console.error(`👉 窗口保持打开 ${mins} 分钟 — 请手动完成(过验证/补答案/点 Apply),提交成功后我会自动记账。`);
+    const until = Date.now() + mins * 60_000;
+    while (Date.now() < until) {
+      const s = await isSuccess();
+      if (s) return s;
+      await page.waitForTimeout(5000);
     }
     return null;
-  });
-  if (locSel) {
-    const loc = page.locator(locSel);
-    await loc.click();
-    await page.keyboard.press("ControlOrMeta+a");
-    await page.keyboard.press("Delete");
-    await page.keyboard.type("New York, NY", { delay: 70 });
-    await page.waitForTimeout(2500);
-    const opt = page.getByText(/New York, NY, USA/).first();
-    if (await opt.isVisible().catch(() => false)) { await opt.click(); out.actions.push("location=New York, NY, USA"); }
-    else { await page.keyboard.press("ArrowDown"); await page.keyboard.press("Enter"); out.actions.push("location via keyboard on " + locSel); }
-  } else out.actions.push("location input not found by parsed value");
-  await page.waitForTimeout(800);
+  };
 
-  // EEO comboboxes — pick the explicit decline options.
-  const eeo = [
-    { label: /^gender$/i, prefer: /decline/i },
-    { label: /identify your race/i, prefer: /choose not to disclose|decline/i },
-    { label: /hispanic/i, prefer: /decline|choose not/i },
-    { label: /veteran status/i, prefer: /don'?t wish|decline|not a protected/i },
-    { label: /disability status/i, prefer: /don'?t wish|decline|no,? i do'?n?t/i },
-  ];
-  for (const c of eeo) {
-    const sel = await page.evaluate((labelSrc) => {
-      const re = new RegExp(labelSrc, "i");
-      for (const e of document.querySelectorAll("input")) {
-        if (e.offsetParent === null) continue;
-        let n = e, lbl = "";
-        for (let d = 0; d < 5 && n; d++) {
-          n = n.parentElement;
-          const l = n?.querySelector("label")?.innerText ?? "";
-          if (l) { lbl = l; break; }
-        }
-        if (re.test(lbl)) return "#" + CSS.escape(e.id);
-      }
-      return null;
-    }, c.label.source);
-    if (!sel) { out.actions.push(`eeo not found: ${c.label}`); continue; }
-    const el = page.locator(sel);
-    await el.click().catch(() => {});
-    await page.waitForTimeout(900);
-    const options = await page.evaluate(() =>
-      Array.from(document.querySelectorAll('[role="option"], li')).filter((o) => o.offsetParent !== null && o.innerText.trim().length < 80).map((o) => o.innerText.trim()));
-    const pick = options.find((o) => c.prefer.test(o));
-    if (pick) {
-      await page.getByText(pick, { exact: true }).last().click().catch(() => {});
-      out.actions.push(`${c.label} = ${pick}`);
-    } else {
-      out.actions.push(`${c.label}: no option matched from ${JSON.stringify(options.slice(0, 6))}`);
-      await page.keyboard.press("Escape").catch(() => {});
-    }
-    await page.waitForTimeout(500);
+  if (!SUBMIT) { emit({ confirmation: false, dryRun: true, missingRequired: missing, filledScreenshot: shot }); process.exit(0); }
+  if (missing.length) {
+    const s = await waitForHuman(`还有必填题没答上: ${missing.join(" | ")}`);
+    if (s) { emit({ confirmation: true, finalUrl: s.url, manual: true }); process.exit(0); }
+    emit({ confirmation: false, missingRequired: missing, filledScreenshot: shot });
+    process.exit(0);
   }
 
-  // Required SMS-consent radio: opt out.
-  const noConsent = page.getByText(/No - I do not consent/i).first();
-  if (await noConsent.isVisible().catch(() => false)) { await noConsent.click(); out.actions.push("text consent = No"); }
-
-  await page.waitForTimeout(1000);
-  out.missingRequired = await page.evaluate(() => {
-    const res = [];
-    for (const e of document.querySelectorAll("input,textarea,select")) {
-      if (e.type === "file" || e.type === "hidden" || e.offsetParent === null) continue;
-      if (e.getAttribute("role") === "combobox" || e.closest('[role="combobox"]')) continue;
-      if (!(e.required || e.getAttribute("aria-required") === "true")) continue;
-      const filled = e.type === "radio" || e.type === "checkbox"
-        ? Array.from(document.getElementsByName(e.name)).some((r) => r.checked) : Boolean(e.value);
-      if (filled) continue;
-      res.push((e.labels?.[0]?.innerText || e.getAttribute("aria-label") || e.placeholder || e.name || "?").trim().slice(0, 60));
-    }
-    return res;
+  // the real submit button's text is "Apply - <job title>", at the page bottom
+  await page.evaluate(() => {
+    const b = Array.from(document.querySelectorAll("button,[role=button]"))
+      .filter((x) => x.offsetParent && /^Apply/i.test(x.innerText.trim())).pop();
+    if (b) b.scrollIntoView({ block: "center" });
   });
-  out.requiredErrorTexts = await page.evaluate(() =>
-    Array.from(document.querySelectorAll("*")).filter((e) => e.offsetParent !== null && /^this field is required$/i.test(e.innerText?.trim() ?? "")).length);
-  out.filledScreenshot = path.join(WORK, `rippling-${tag}.png`);
-  await page.screenshot({ path: out.filledScreenshot, fullPage: true });
+  await page.waitForTimeout(600);
+  const btn = page.getByRole("button", { name: /^Apply/i }).last();
+  await btn.click({ timeout: 15_000 }).catch(async () => {
+    await page.evaluate(() => {
+      const b = Array.from(document.querySelectorAll("button,[role=button]"))
+        .filter((x) => x.offsetParent && /^Apply/i.test(x.innerText.trim())).pop();
+      if (b) b.click();
+    });
+  });
 
-  if (SUBMIT) {
-    await page.getByRole("button", { name: /^apply$|submit/i }).last().click();
-    await page.waitForTimeout(6000);
-
-    // Rippling gates submission behind a Cloudflare Turnstile checkbox that
-    // lives in an iframe — detect the frame, click the box inside it.
-    for (let round = 0; round < 3; round++) {
-      const tsFrame = page.frames().find((f) => /challenges\.cloudflare|turnstile/i.test(f.url()));
-      if (!tsFrame) break;
-      out.actions.push("turnstile round " + round + " frame=" + tsFrame.url().slice(0, 50));
-      const cb = tsFrame.locator('input[type="checkbox"], [role="checkbox"], .cb-lb, label, #challenge-stage').first();
-      if (await cb.isVisible().catch(() => false)) {
-        await cb.click().catch(() => {});
-        out.actions.push("turnstile checkbox clicked");
-      } else {
-        // Checkbox not directly reachable — click the iframe's location.
-        const box = await tsFrame.frameElement().then((e) => e.boundingBox()).catch(() => null);
-        if (box) { await page.mouse.click(box.x + 30, box.y + box.height / 2); out.actions.push("clicked iframe area"); }
-      }
-      await page.waitForTimeout(8000);
-      const gone = !page.frames().some((f) => /challenges\.cloudflare|turnstile/i.test(f.url()));
-      const btn = page.getByRole("button", { name: /^apply$|submit/i }).last();
-      if (await btn.isEnabled().catch(() => false)) { await btn.click().catch(() => {}); out.actions.push("re-clicked Apply"); }
-      await page.waitForTimeout(6000);
-      if (gone) break;
-    }
-    await page.waitForTimeout(4000);
-    const text = await page.evaluate(() => document.body?.innerText ?? "");
-    out.confirmation = /thank you|application (was )?(received|submitted|sent)|successfully|we('|’)ve received/i.test(text);
-    out.confirmationSnippet = text.slice(0, 400);
-    out.submitScreenshot = path.join(WORK, `rippling-submit-${tag}.png`);
-    await page.screenshot({ path: out.submitScreenshot, fullPage: true });
+  // Rippling greys the form out while submitting; a Cloudflare challenge can
+  // appear here. Poll for success up to 2 minutes headless, then hand off.
+  const until = Date.now() + 120_000;
+  let done = null;
+  while (Date.now() < until && !done) {
+    done = await isSuccess();
+    if (!done) await page.waitForTimeout(5000);
   }
+  if (done) { emit({ confirmation: true, finalUrl: done.url, confirmationSnippet: done.text.slice(0, 200) }); process.exit(0); }
+  const s = await waitForHuman("提交卡住(可能是 Cloudflare 验证)— 我不会去解它");
+  if (s) { emit({ confirmation: true, finalUrl: s.url, manual: true }); process.exit(0); }
+  emit({ confirmation: false, error: "submit_stalled", note: "Apply click did not reach a confirmation state — Cloudflare challenge-platform likely blocked it. Retry headed on a residential IP.", filledScreenshot: shot });
 } catch (e) {
-  out.error = String(e?.message ?? e);
+  emit({ confirmation: false, error: String(e.message).slice(0, 200) });
 } finally {
   await browser.close().catch(() => {});
-  console.log(JSON.stringify(out, null, 2));
 }
