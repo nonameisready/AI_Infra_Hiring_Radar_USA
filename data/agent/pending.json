@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T07:28:32.825Z",
+ "updatedAt": "2026-09-02T11:00:02.467Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -1607,7 +1607,7 @@
    "atsUrl": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Software-Development-Engineer-for-Implementations_R-10391719?jr_id=6a90607c7c32860d14cf8edd",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "Workday tenant resolved (fiserv.wd5.myworkdayjobs.com) — queue for agent Workday registration wave"
+   "note": "Workday tenant resolved (fiserv.wd5.myworkdayjobs.com) — queue for agent Workday registration wave | workday wave continues next window"
   },
   {
    "id": "6a97141c455eaf6a08c1a80b",
@@ -1631,7 +1631,7 @@
    "atsUrl": "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---El-Segundo-CA/Experienced-Software-Engineer_JR2026523599-1?jr_id=6a9623d83843db0159909c59",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "Workday tenant resolved (boeing.wd1.myworkdayjobs.com) — queue for agent Workday registration wave"
+   "note": "Workday tenant resolved (boeing.wd1.myworkdayjobs.com) — queue for agent Workday registration wave | workday wave continues next window"
   },
   {
    "id": "6a52c23b8ef95364ead8fab9",
@@ -2099,7 +2099,7 @@
    "atsUrl": "https://lseg.wd3.myworkdayjobs.com/careers/job/USA-St-Louis-795-Office-Pkwy/Senior-Software-Engineer---St-Louis_R0121330?jr_id=6a46bd098204a812e98c9baf",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "Workday tenant resolved (lseg.wd3.myworkdayjobs.com) — queue for agent Workday registration wave"
+   "note": "Workday tenant resolved (lseg.wd3.myworkdayjobs.com) — queue for agent Workday registration wave | workday wave continues next window"
   },
   {
    "id": "6a7bbaeeecf5194164fbfb4f",
@@ -2279,7 +2279,7 @@
    "atsUrl": "https://pressganey.wd1.myworkdayjobs.com/careers/job/Provo-UT/Senior-Software-Engineer_R26_0000000282-1?jr_id=6a5e77cd67b2850e77df1594",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "Workday tenant resolved (pressganey.wd1.myworkdayjobs.com) — queue for agent Workday registration wave"
+   "note": "Workday tenant resolved (pressganey.wd1.myworkdayjobs.com) — queue for agent Workday registration wave | workday wave continues next window"
   },
   {
    "id": "6a96f8a9d13b4819f39de05e",
@@ -2399,7 +2399,7 @@
    "atsUrl": "https://genpt.wd1.myworkdayjobs.com/careers/job/Birmingham-AL-USA/Software-Engineer-IV_R26_0000009194?jr_id=6a387a951232144fb1568aa9",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "Workday tenant resolved (genpt.wd1.myworkdayjobs.com) — queue for agent Workday registration wave"
+   "note": "Workday tenant resolved (genpt.wd1.myworkdayjobs.com) — queue for agent Workday registration wave | workday wave continues next window"
   },
   {
    "id": "6a725484ee751e0c79348697",
@@ -2607,12 +2607,13 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a0c53c622d0d34036c93171",
    "atsUrl": "https://jobs.lever.co/palantir/cd2423c6-da68-430c-8be5-0ae7eea36497/apply?utm_source=jobright&jr_id=6a0c53c622d0d34036c93171",
    "addedAt": "2026-09-02",
-   "status": "needs_answers",
+   "status": "local replay",
    "missing": [
     "Language Skill(s) (Check all that apply) ✱",
     "Which university are you currently attending or did you last attend? Please select \"Other ",
     "Please tell us how you heard about this opportunity. ✱"
-   ]
+   ],
+   "note": "Lever form: Current location typeahead + Language Skills checkbox group unsupported in cloud finisher. Run headed on Mac."
   },
   {
    "id": "6a8629e674e02153f145ae56",
@@ -2653,10 +2654,11 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69e96ad33aa0c479643a9cb1",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=affirm&jr_id=69e96ad33aa0c479643a9cb1&token=7708921003&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "needs_answers",
+   "status": "local replay",
    "missing": [
     "Do you now or in the future require sponsorship for employment visa st"
-   ]
+   ],
+   "note": "Cloud gh-finish cannot drive react-select sponsorship dropdown (option lookup not_found). Run headed on Mac."
   },
   {
    "id": "6a74ce4237da8525e8cdaa77",
@@ -2667,7 +2669,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a74ce4237da8525e8cdaa77",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=databricks&jr_id=6a74ce4237da8525e8cdaa77&token=8379331002&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "needs_answers",
+   "status": "local replay",
    "missing": [
     "U.S. citizen",
     "U.S. non-citizen national",
@@ -2678,7 +2680,8 @@
     "Individual granted permanent residency in a country other than Cuba, I",
     "None of these apply to me",
     "Not applicable (i.e., I selected “none of the above” for the prior que"
-   ]
+   ],
+   "note": "Export-control checkbox group (citizen/national/green card/asylum...) needs 'none of these apply' checkbox handling headed. Run on Mac."
   },
   {
    "id": "6a410d1dd528ac2915f9717e",
@@ -2707,7 +2710,7 @@
    "atsUrl": "https://ffive.wd5.myworkdayjobs.com/f5jobs/job/F5-Tower/Sr-Software-Development-Engineer_RP1038531?jr_id=6a95cd413843db015990743c",
    "addedAt": "2026-09-02",
    "status": "parked",
-   "note": "platform not automated from cloud: ffive.wd5.myworkdayjobs.com"
+   "note": "platform not automated from cloud: ffive.wd5.myworkdayjobs.com | workday wave continues next window"
   },
   {
    "id": "6a97563ed13b4819f39e0aaa",
@@ -2840,10 +2843,11 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95801adfb52f4cf300f867",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cloudflare&jr_id=6a95801adfb52f4cf300f867&token=8105716&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "needs_answers",
+   "status": "applied",
    "missing": [
     "Do you currently live or are you willing to relocate to the job’s loca"
-   ]
+   ],
+   "note": "Repass round 2: relocate-willing rule fixed; security code auto-fetched from Gmail; OK confirmed 11:0x."
   },
   {
    "id": "6a978e05b22f636c81418424",
@@ -2867,7 +2871,7 @@
    "atsUrl": "https://worldpay.wd5.myworkdayjobs.com/worldpay_external_careers_site/job/ATLANTA-GEORGIA/Senior-Software-Engineer--Agentic-Commerce_JR0611303-1?jr_id=6a96ea23d13b4819f39ddb57",
    "addedAt": "2026-09-02",
    "status": "parked",
-   "note": "platform not automated from cloud: worldpay.wd5.myworkdayjobs.com"
+   "note": "platform not automated from cloud: worldpay.wd5.myworkdayjobs.com | workday wave continues next window"
   },
   {
    "id": "6a96f344f5337b2cf731ed2e",
@@ -2903,7 +2907,7 @@
    "atsUrl": "https://fox.wd1.myworkdayjobs.com/domestic/job/USA---AZ---Tempe---2010-E-Centennial-Cir/Senior-Media-Platform-Engineer_R50032819?jr_id=6a972f07455eaf6a08c1b17b",
    "addedAt": "2026-09-02",
    "status": "parked",
-   "note": "platform not automated from cloud: fox.wd1.myworkdayjobs.com"
+   "note": "platform not automated from cloud: fox.wd1.myworkdayjobs.com | workday wave continues next window"
   },
   {
    "id": "6a8e0c79cc0cf27068526e5d",
@@ -2929,10 +2933,11 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8523ddd34f700f87fbc149",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=verkada&jr_id=6a8523ddd34f700f87fbc149&token=5215838007&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "needs_answers",
+   "status": "applied",
    "missing": [
     "What is your most proficient programming language?*"
-   ]
+   ],
+   "note": "Repass round 2: security code 3N0Xl0ok staged after NEED_CODE; OK confirmed."
   },
   {
    "id": "6a51b8f778e364789ca5b9f3",
@@ -2943,10 +2948,11 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a51b8f778e364789ca5b9f3",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=upstart&jr_id=6a51b8f778e364789ca5b9f3&token=8056243&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "needs_answers",
+   "status": "local replay",
    "missing": [
     "What is your current location? Please note we are unable to hire candi"
-   ]
+   ],
+   "note": "Location question 'What is your current location? ... unable to hire candidates in ...' is a select the rule did not match; run headed on Mac."
   },
   {
    "id": "6a5e64b3f3674a0545d28ad3",
@@ -3009,7 +3015,7 @@
    "atsUrl": "https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Sr-Software-Engineer_R12422?jr_id=6a974687455eaf6a08c1be87",
    "addedAt": "2026-09-02",
    "status": "parked",
-   "note": "platform not automated from cloud: workiva.wd503.myworkdayjobs.com"
+   "note": "platform not automated from cloud: workiva.wd503.myworkdayjobs.com | workday wave continues next window"
   },
   {
    "id": "6a58c83e686b4755d1e0c3fb",
@@ -3068,10 +3074,11 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69c549a91b5ad02887371fba",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=affirm&jr_id=69c549a91b5ad02887371fba&token=7636414003&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "needs_answers",
+   "status": "local replay",
    "missing": [
     "Do you now or in the future require sponsorship for employment visa st"
-   ]
+   ],
+   "note": "Same Affirm sponsorship react-select blocker as sibling req. Run headed on Mac."
   },
   {
    "id": "6a83253d1081a745e970d270",
@@ -3154,7 +3161,7 @@
    "atsUrl": "https://osv-rubicon.wd5.myworkdayjobs.com/magnitecareers/job/California---Los-Angeles/Senior-Engineer_R-01359?jr_id=6a5e60e767b2850e77df0b9c",
    "addedAt": "2026-09-02",
    "status": "parked",
-   "note": "platform not automated from cloud: osv-rubicon.wd5.myworkdayjobs.com"
+   "note": "platform not automated from cloud: osv-rubicon.wd5.myworkdayjobs.com | workday wave continues next window"
   },
   {
    "id": "6a95891d3843db01599058c3",
@@ -3166,7 +3173,7 @@
    "atsUrl": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Senior-Backend-Platform-Engineer---Profiling-Services_JR2022190?jr_id=6a95891d3843db01599058c3",
    "addedAt": "2026-09-02",
    "status": "parked",
-   "note": "platform not automated from cloud: nvidia.wd5.myworkdayjobs.com"
+   "note": "platform not automated from cloud: nvidia.wd5.myworkdayjobs.com | workday wave continues next window"
   },
   {
    "id": "6a95a3694c22023a07934c55",
@@ -3177,10 +3184,11 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95a3694c22023a07934c55",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=upstart&jr_id=6a95a3694c22023a07934c55&token=8128825&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "needs_answers",
+   "status": "local replay",
    "missing": [
     "What is your current location? Please note we are unable to hire candi"
-   ]
+   ],
+   "note": "Same Upstart location-select blocker as sibling req. Run headed on Mac."
   },
   {
    "id": "6a9748c5f5337b2cf7321516",
@@ -3228,7 +3236,7 @@
    "atsUrl": "https://autonation.wd5.myworkdayjobs.com/careers/job/Auto-TechLabs/Lead-Software-Engineer_JR2026148268-1?jr_id=6a9725a1f5337b2cf7320462",
    "addedAt": "2026-09-02",
    "status": "parked",
-   "note": "platform not automated from cloud: autonation.wd5.myworkdayjobs.com"
+   "note": "platform not automated from cloud: autonation.wd5.myworkdayjobs.com | workday wave continues next window"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."

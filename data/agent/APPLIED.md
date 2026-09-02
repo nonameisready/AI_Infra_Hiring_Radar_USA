@@ -392,3 +392,7 @@ User ran all local-replay jobs on the Mac and confirmed completion (Samaya AI, S
 - Affirm — Senior Software Engineer, Backend (Card Ledger & Money Movement) (95%) — greenhouse, confirmed
 - NMI — Senior Software Engineer (PHP) (90%) — greenhouse, confirmed
 - Affirm — Senior Software Engineer, Backend (Reliability Platform) (90%) — greenhouse, confirmed
+
+## 2026-09-02 — 5am cloud window (merge + repass rounds + Workday wave)
+
+Merged Mac 1am batch (3 subs: Affirm x2, NMI). Cloud repass rounds cleared 11 more: Uber Freight 88, Stripe 87, PlanetScale 86, HRT 94, SpaceXAI 89, Cloudflare 87, Verkada 87 (Greenhouse, per-cell security codes auto-fetched from Gmail; HRT/SpaceXAI FAILED[] were false negatives — Gmail thank-you confirmed). Workday wave: Nelnet 90 (account created+activated), Remitly 90+86, Salesforce 86 (coordinate-dispatch listbox technique — 9 compliance listboxes in one pass). To Mac headed replay: Affirm x2 (sponsorship react-select), Palantir (Lever location+language checkboxes), Databricks (export-control checkbox group), Upstart x2 (location select). Verified blockers to user: NFCU (Oracle captcha + silent gate). Mastercard/FICO sign-in silently failed (2-attempt cap, retry next window). 12 Workday tenants remain parked for next window (F5, Worldpay, LSEG, Fox, Boeing-ITAR-check, Press Ganey, GenPT, Workiva, Magnite, NVIDIA, AutoNation + retries). All-time 322; today-ET 14.
