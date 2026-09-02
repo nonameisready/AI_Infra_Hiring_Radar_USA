@@ -1089,6 +1089,86 @@
   {
    "label": "relatives employed at",
    "prefer": "^no"
+  },
+  {
+   "label": "interviewed with hrt in the past",
+   "prefer": "^no"
+  },
+  {
+   "label": "currently pursuing your undergraduate",
+   "prefer": "^no"
+  },
+  {
+   "label": "regularly work in both c\\+\\+ and python.*select|most hrt engineers",
+   "prefer": "python"
+  },
+  {
+   "label": "u\\.s\\. citizen.*non-citizen national|granted asylum",
+   "prefer": "none of these apply"
+  },
+  {
+   "label": "sponsored statuses: o-1, tn|currently in one of these sponsored statuses",
+   "prefer": "^no"
+  },
+  {
+   "label": "currently in student \\(f-1\\)|trainee \\(j1\\) status",
+   "prefer": "^yes"
+  },
+  {
+   "label": "spacexai employment history",
+   "prefer": "never|have not|no prior"
+  },
+  {
+   "label": "brighthire",
+   "prefer": "^yes|acknowledge|consent|agree"
+  },
+  {
+   "label": "willing to relocate to the job.s loca|live or are you willing to relocate",
+   "prefer": "^yes"
+  },
+  {
+   "label": "language skill",
+   "prefer": "english"
+  },
+  {
+   "label": "which university are you currently attending or did you last",
+   "prefer": "pennsylvania|upenn|other"
+  },
+  {
+   "label": "how you heard about this opportunity",
+   "prefer": "other|job board"
+  },
+  {
+   "label": "in the future require sponsorship",
+   "prefer": "^yes"
+  },
+  {
+   "label": "need sponsorship from an employ",
+   "prefer": "^yes"
+  },
+  {
+   "label": "willing to relocate to (this|the) job",
+   "prefer": "willing to relocate"
+  },
+  {
+   "label": "what is your current location\\? please note",
+   "prefer": "^united states"
+  },
+  {
+   "label": "what is your gender\\?",
+   "prefer": "^woman"
+  },
+  {
+   "label": "what is your race/ethnicity",
+   "prefer": "east asian"
+  },
+  {
+   "label": "how do you identify\\? \\(race",
+   "prefer": "east asian"
+  },
+  {
+   "label": "none of these apply|citizenship status.*export|export control",
+   "prefer": "none of these apply"
   }
  ],
  "texts": [
@@ -1535,6 +1615,26 @@
   {
    "label": "relatives employed at",
    "text": "No."
+  },
+  {
+   "label": "what is your current location",
+   "text": "New York, NY (relocation possible)"
+  },
+  {
+   "label": "tell us a little about your background and why",
+   "text": "I am a backend engineer with 7 years of experience building high-throughput, event-driven services in Python, Go, and TypeScript, currently working on OTC derivatives reporting pipelines at Bank of America. I am interested because this role centers on the distributed-systems and data-infrastructure work I enjoy most, with real ownership from design through production."
+  },
+  {
+   "label": "what exceptional work have you done",
+   "text": "At Bank of America I own an OTC derivatives regulatory-reporting service end-to-end. I redesigned its ingestion path into an idempotent, event-driven pipeline with retries and dead-letter handling, which let it absorb bursty trade volumes without missed regulatory deadlines, and built the observability that lets one engineer operate it."
+  },
+  {
+   "label": "preferred coding language",
+   "text": "Python"
+  },
+  {
+   "label": "most proficient programming language",
+   "text": "Python"
   }
  ],
  "checkboxes": [
