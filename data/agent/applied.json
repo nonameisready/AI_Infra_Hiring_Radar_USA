@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T11:29:17.363Z",
+ "updatedAt": "2026-09-02T16:13:49.609Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -4114,6 +4114,19 @@
    "via": "greenhouse",
    "detail": "Code-feed repass: earlier FAILED[] was stalled code entry (Gmail showed codes, no confirmation). Re-ran, staged code KlgLyP7w after NEED_CODE, page confirmation OK 11:2x.",
    "at": "2026-09-02T11:29:17.363Z"
+  },
+  "6a9710c3b22f636c81415a40": {
+   "id": "6a9710c3b22f636c81415a40",
+   "key": "thomson reuters::senior software engineer, full stack",
+   "title": "Senior Software Engineer, Full Stack",
+   "company": "Thomson Reuters",
+   "matchPercent": 92,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9710c3b22f636c81415a40",
+   "originalUrl": "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-New-York-New-York/Senior-Software-Engineer--Full-Stack_JREQ199749-1?jr_id=6a9710c3b22f636c81415a40",
+   "status": "applied_direct",
+   "via": "workday",
+   "detail": "Submitted from cloud after sign-in retry: the 'silently rejected' registration HAD created the account — Sign in with email + stored password worked. Full 6-step wizard: source Other, NJ address, 5 skills, resume, sponsorship YES, EEO left blank (voluntary), CC-305 do-not-answer. Success URL /jobTasks/completed/application.",
+   "at": "2026-09-02T16:13:49.609Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

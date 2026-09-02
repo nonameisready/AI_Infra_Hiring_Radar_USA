@@ -156,7 +156,7 @@
    "tenant": "thomsonreuters.wd5.myworkdayjobs.com",
    "loginEmail": "huiluckylucky@gmail.com",
    "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "registration silently rejected 2026-09-02 (no email, no error) — anti-bot; do not retry from cloud"
+   "note": "WORKS. Registration on 9/2 looked silently rejected but the account WAS created; no email verification needed. Sign-in path: applyManually -> Sign in with email -> input-6/input-7 (honeypot beecatcher: leave empty). Applied JREQ199749 9/2. Lesson: on silent-registration tenants (PANW/Walmart/HPE/GoodRx pattern) try signing in before assuming rejection."
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."

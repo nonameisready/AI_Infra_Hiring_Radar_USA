@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T11:29:17.363Z",
+ "updatedAt": "2026-09-02T16:13:49.609Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -1426,8 +1426,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9710c3b22f636c81415a40",
    "atsUrl": "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-New-York-New-York/Senior-Software-Engineer--Full-Stack_JREQ199749-1?jr_id=6a9710c3b22f636c81415a40",
    "addedAt": "2026-09-01",
-   "status": "user_manual",
-   "note": "TR Workday tenant silently ignores Create Account (form valid, checkbox checked, no error, no verification email — PANW pattern, 2-attempt cap). Personal apply: https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-New-York-New-York/Senior-Software-Engineer--Full-Stack_JREQ199749-1?jr_id=6a9710c3b22f636c81415a40"
+   "status": "applied",
+   "note": "Submitted from cloud after sign-in retry: the 'silently rejected' registration HAD created the account — Sign in with email + stored password worked. Full 6-step wizard: source Other, NJ address, 5 skills, resume, sponsorship YES, EEO left blank (voluntary), CC-305 do-not-answer. Success URL /jobTasks/completed/application."
   },
   {
    "id": "6a51f979bf63b66c7997efa4",
