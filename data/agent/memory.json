@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-28T14:00:00Z",
+ "updatedAt": "2026-09-02T17:14:36.696Z",
  "answers": [
   {
    "match": "first\\s*name",
@@ -322,6 +322,18 @@
    "answer": "05/31/2027",
    "note": "F-1 CPT / work-authorization Valid Up To date, user-confirmed 2026-08-30. Use for all Workday visa-date fields.",
    "addedAt": "2026-08-30"
+  }
+ ],
+ "notes": [
+  {
+   "at": "2026-09-02",
+   "topic": "workday-silent-registration",
+   "note": "LESSON (proved on Thomson Reuters 9/2): a Workday tenant that silently ignores Create Account (no error, no email) may STILL have created the account. Always try Sign in with email + stored ATS password FIRST before declaring a tenant blocked. Applies to the whole silent-rejection list: PANW, Walmart, HPE, GoodRx, TR. Sign-in path: {job}/apply/applyManually -> Sign in with email -> email/password inputs (leave honeypot empty); covered buttons need coordinate-dispatched synthetic clicks."
+  },
+  {
+   "at": "2026-09-02",
+   "topic": "workday-double-click-corruption",
+   "note": "Workday pageFooterNextButton: never fire synthetic MouseEvents AND el.click() in the same attempt — the form posts twice, creating duplicate phone/address/previous-worker records and a deadlocked draft (field required + already exists). Use el.click() once; if it does not advance, retry once with synthetic dispatch ONLY. Recovery: reload the apply URL (draft persists) and redo the step."
   }
  ]
 }

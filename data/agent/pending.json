@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T16:13:49.609Z",
+ "updatedAt": "2026-09-02T17:14:36.696Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -933,8 +933,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8375401081a745e970f6cf",
    "atsUrl": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Engineer-Software--Prisma-AIRS-Backend-_JR-021371?jr_id=6a8375401081a745e970f6cf",
    "addedAt": "2026-08-31",
-   "status": "user_manual",
-   "note": "platform not automated from cloud: paloaltonetworks.wd5.myworkdayjobs.com",
+   "status": "applied",
+   "note": "Submitted via sign-in retry (user request): PANW account existed since user March application (JR-015294 in candidate home) — silent registration was existing-email rejection. Use My Last Application flow; source Career Site; sponsorship YES; race/gender Wish Not To Answer; hispanic No; I AM NOT A VETERAN; CC-305 do-not-answer; resume replaced with canonical PDF. Status Under Review.",
    "reason": "workday panw tenant: account creation silently rejected twice (no verification email, sign-in refused, possible lock) — 2-attempt cap; user can register personally"
   },
   {
@@ -1774,8 +1774,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69827919348f733a5c355cd4",
    "atsUrl": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Sr-Software-Engineer_JR-011060?jr_id=69827919348f733a5c355cd4",
    "addedAt": "2026-09-01",
-   "status": "user_manual",
-   "note": "PANW Workday tenant silently rejects agent registrations (2-attempt cap hit 2026-08-31) — personal apply: https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Sr-Software-Engineer_JR-011060?jr_id=69827919348f733a5c355cd4"
+   "status": "applied",
+   "note": "Submitted right after sibling req via Use My Last Application (prefill carried). Extra question: consented to AI application review. Single-click footer lesson applied (double click creates duplicate phone/address records)."
   },
   {
    "id": "6a79e474b17cba5690364262",

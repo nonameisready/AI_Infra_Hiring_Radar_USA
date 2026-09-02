@@ -157,6 +157,12 @@
    "loginEmail": "huiluckylucky@gmail.com",
    "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
    "note": "WORKS. Registration on 9/2 looked silently rejected but the account WAS created; no email verification needed. Sign-in path: applyManually -> Sign in with email -> input-6/input-7 (honeypot beecatcher: leave empty). Applied JREQ199749 9/2. Lesson: on silent-registration tenants (PANW/Walmart/HPE/GoodRx pattern) try signing in before assuming rejection."
+  },
+  {
+   "tenant": "paloaltonetworks.wd5.myworkdayjobs.com",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "WORKS — account pre-existed (user applied JR-015294 in March 2026); the 9/1 silent registration failure was existing-email rejection. Sign in with email path. Applied JR-021371 + JR-011060 on 9/2. CAUTION: click Save-and-Continue exactly ONCE (el.click OR synthetic dispatch, never both) — a double click posts the form twice and corrupts the draft with duplicate phone/address records (error: already exists + required deadlock); fix by reloading the useMyLastApplication URL and re-doing the step with a single click."
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."

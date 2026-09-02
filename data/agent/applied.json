@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T16:13:49.609Z",
+ "updatedAt": "2026-09-02T17:14:36.696Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -4127,6 +4127,32 @@
    "via": "workday",
    "detail": "Submitted from cloud after sign-in retry: the 'silently rejected' registration HAD created the account — Sign in with email + stored password worked. Full 6-step wizard: source Other, NJ address, 5 skills, resume, sponsorship YES, EEO left blank (voluntary), CC-305 do-not-answer. Success URL /jobTasks/completed/application.",
    "at": "2026-09-02T16:13:49.609Z"
+  },
+  "6a8375401081a745e970f6cf": {
+   "id": "6a8375401081a745e970f6cf",
+   "key": "palo alto networks::engineer software (prisma airs backend)",
+   "title": "Engineer Software (Prisma AIRS Backend)",
+   "company": "Palo Alto Networks",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8375401081a745e970f6cf",
+   "originalUrl": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Engineer-Software--Prisma-AIRS-Backend-_JR-021371?jr_id=6a8375401081a745e970f6cf",
+   "status": "applied_direct",
+   "via": "workday",
+   "detail": "Submitted via sign-in retry (user request): PANW account existed since user March application (JR-015294 in candidate home) — silent registration was existing-email rejection. Use My Last Application flow; source Career Site; sponsorship YES; race/gender Wish Not To Answer; hispanic No; I AM NOT A VETERAN; CC-305 do-not-answer; resume replaced with canonical PDF. Status Under Review.",
+   "at": "2026-09-02T17:14:36.696Z"
+  },
+  "69827919348f733a5c355cd4": {
+   "id": "69827919348f733a5c355cd4",
+   "key": "palo alto networks::sr. software engineer",
+   "title": "Sr. Software Engineer",
+   "company": "Palo Alto Networks",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69827919348f733a5c355cd4",
+   "originalUrl": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Sr-Software-Engineer_JR-011060?jr_id=69827919348f733a5c355cd4",
+   "status": "applied_direct",
+   "via": "workday",
+   "detail": "Submitted right after sibling req via Use My Last Application (prefill carried). Extra question: consented to AI application review. Single-click footer lesson applied (double click creates duplicate phone/address records).",
+   "at": "2026-09-02T17:14:36.696Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
