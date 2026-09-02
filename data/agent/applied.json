@@ -4023,6 +4023,58 @@
    "via": "greenhouse",
    "detail": "brain-queue repass: background/why-interested essay (honest, resume-grounded); security code auto-fetched.",
    "at": "2026-09-02T10:17:55.755Z"
+  },
+  "6a58c83e686b4755d1e0c3fb": {
+   "id": "6a58c83e686b4755d1e0c3fb",
+   "key": "remitly::ai native software engineer ii",
+   "title": "AI Native Software Engineer II",
+   "company": "Remitly",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a58c83e686b4755d1e0c3fb",
+   "originalUrl": "https://remitly.wd5.myworkdayjobs.com/remitly_careers/job/Seattle-Washington-United-States/Knowledge-Development-Engineer-II_R_105964?jr_id=6a58c83e686b4755d1e0c3fb",
+   "status": "applied_direct",
+   "via": "workday (agent account)",
+   "detail": "Second Remitly submission same session via Use My Last Application; answers carried (PwC No, sponsorship Yes, comp 170k, start 9/16); CC-305 declined via nth-match checkbox. Confirmed jobTasks/completed.",
+   "at": "2026-09-02T10:28:11.359Z"
+  },
+  "6a8754f94afae74a08347f2e": {
+   "id": "6a8754f94afae74a08347f2e",
+   "key": "salesforce::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Salesforce",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8754f94afae74a08347f2e",
+   "originalUrl": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Massachusetts---Burlington/Senior-Software-Engineer_JR356123?jr_id=6a8754f94afae74a08347f2e",
+   "status": "applied_direct",
+   "via": "workday (agent account)",
+   "detail": "JR356123 Burlington MA. Existing salesforce.wd12 account; compliance answers per 9/1 precedent (unrestricted-right No per form instruction, sponsorship Yes, not a US person for export, gov/debarment No); EEO declined; CC-305 declined. Confirmed jobTasks/completed. NEW TECHNIQUE: all Workday listboxes settable via coordinate-dispatched synthetic clicks (fire pointer/mouse events at option coords) — 9 in one pass.",
+   "at": "2026-09-02T10:39:11.588Z"
+  },
+  "6a06ec1933c2ed3770bca349": {
+   "id": "6a06ec1933c2ed3770bca349",
+   "key": "hudson river trading::software engineer - python",
+   "title": "Software Engineer - Python",
+   "company": "Hudson River Trading",
+   "matchPercent": 94,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a06ec1933c2ed3770bca349",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=wehrtyou&jr_id=6a06ec1933c2ed3770bca349&token=7398013&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Repass round 2: C++/Python selection Python, interviewed-before No, sponsorship Yes, race East Asian + gender Woman (required, no decline option — honest); security code per-cell entry. Confirmed via Gmail thank-you 10:22 (gh-finish reported false-negative).",
+   "at": "2026-09-02T10:50:52.316Z"
+  },
+  "6a410d1dd528ac2915f9717e": {
+   "id": "6a410d1dd528ac2915f9717e",
+   "key": "spacexai::exceptional software engineer",
+   "title": "Exceptional Software Engineer",
+   "company": "SpaceXAI",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a410d1dd528ac2915f9717e",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=xai&jr_id=6a410d1dd528ac2915f9717e&token=4956028007&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Repass round 2: employment-history never, preferred language Python, exceptional-work essay (honest BofA reporting-pipeline story); code auto-fetched. Confirmed via Gmail thank-you 10:46.",
+   "at": "2026-09-02T10:50:52.316Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

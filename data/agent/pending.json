@@ -1402,8 +1402,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a96ea58455eaf6a08c194ca",
    "atsUrl": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/31978?jr_id=6a96ea58455eaf6a08c194ca",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "Oracle Cloud CX resolved (fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com) — queue for agent OTP wave"
+   "status": "user_manual",
+   "note": "VERIFIED 2026-09-02: Oracle CX email gate has a captcha widget; Next silently blocked from cloud after email+consent filled (2 attempts). Personal apply: https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/31978?"
   },
   {
    "id": "6a9628c3f28891320e860938",
@@ -2375,7 +2375,7 @@
    "atsUrl": "https://mastercard.wd1.myworkdayjobs.com/corporatecareers/job/OFallon-Missouri/Senior-Software-Engineer---Java_R-289291?jr_id=6a95c9b4c8763a3a87ffc09f",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "Workday tenant resolved (mastercard.wd1.myworkdayjobs.com) — queue for agent Workday registration wave"
+   "note": "Existing mastercard.wd1 account; sign-in silently no-ops from cloud 2026-09-02 (2-attempt cap) — retry next window or Mac."
   },
   {
    "id": "6a509cfcddd293054ccaa3f4",
@@ -2517,13 +2517,14 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a06ec1933c2ed3770bca349",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=wehrtyou&jr_id=6a06ec1933c2ed3770bca349&token=7398013&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "needs_answers",
+   "status": "applied",
    "missing": [
     "Most HRT engineers regularly work in both C++ and Python. Please selec",
     "Have you interviewed with HRT in the past?*",
     "Do you now, or will you in the future, need sponsorship from an employ",
     "Are you currently pursuing your undergraduate degree?*"
-   ]
+   ],
+   "note": "submitted 2026-09-02T10:50:52.316Z"
   },
   {
    "id": "6a9771de455eaf6a08c1c9c4",
@@ -2688,12 +2689,13 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a410d1dd528ac2915f9717e",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=xai&jr_id=6a410d1dd528ac2915f9717e&token=4956028007&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "needs_answers",
+   "status": "applied",
    "missing": [
     "Please indicate your SpaceXAI employment history.*",
     "What is your preferred coding language?*",
     "What exceptional work have you done?*"
-   ]
+   ],
+   "note": "submitted 2026-09-02T10:50:52.316Z"
   },
   {
    "id": "6a95cd413843db015990743c",
@@ -3018,8 +3020,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a58c83e686b4755d1e0c3fb",
    "atsUrl": "https://remitly.wd5.myworkdayjobs.com/remitly_careers/job/Seattle-Washington-United-States/Knowledge-Development-Engineer-II_R_105964?jr_id=6a58c83e686b4755d1e0c3fb",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: remitly.wd5.myworkdayjobs.com"
+   "status": "applied",
+   "note": "submitted 2026-09-02T10:28:11.359Z"
   },
   {
    "id": "6a96dce0246d697dcee019c6",
@@ -3127,8 +3129,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8754f94afae74a08347f2e",
    "atsUrl": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Massachusetts---Burlington/Senior-Software-Engineer_JR356123?jr_id=6a8754f94afae74a08347f2e",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: salesforce.wd12.myworkdayjobs.com"
+   "status": "applied",
+   "note": "submitted 2026-09-02T10:39:11.588Z"
   },
   {
    "id": "6a07699ea203b1052e43a4f2",
@@ -3214,7 +3216,7 @@
    "atsUrl": "https://fico.wd1.myworkdayjobs.com/external/job/Work-from-Home-United-States/Sr-Software-Engineer--B2B-Scores-_32227?jr_id=6a95fbf2cabc9f6703e1b61c",
    "addedAt": "2026-09-02",
    "status": "parked",
-   "note": "platform not automated from cloud: fico.wd1.myworkdayjobs.com"
+   "note": "Existing fico.wd1 account; sign-in silently no-ops from cloud 2026-09-02 (2-attempt cap) — retry next window or Mac."
   },
   {
    "id": "6a9725a1f5337b2cf7320462",
