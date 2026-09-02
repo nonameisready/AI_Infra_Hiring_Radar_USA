@@ -381,3 +381,7 @@ Resolved 18 LinkedIn/ZipRecruiter parked items: Coinbase + Roku -> Greenhouse bo
 ## 2026-09-01 — evening cloud fallback batch + repass rounds (final)
 
 Mac harvest of 89 fully processed after resolver fix. Submitted 8 today via batch+repass: Robinhood 89, Speechify 88 (Newark NJ), Reddit 87, Perpay 87, ZeroDrift 86, DoorDash 88, Rubrik 86, F&G 88. Dropped 4 clearance/federal roles. To Mac: Ashby x9 + Rippling x3 + Scale AI/Aegis (Places typeahead). To user: Amazon x4, Apple x3, Google, JPMC x4, iCIMS x4, Topstep (form has explicit AI-agent detection question). Parked with resolved URLs for next agent wave: Workday x10, Oracle x2 (Navy Federal 94!). All-time 267; today-ET 23.
+
+## 2026-09-02 — local replay batch closed by user confirmation
+
+User ran all local-replay jobs on the Mac and confirmed completion (Samaya AI, Scale AI, Aegis Ventures, Signifyd finished by hand). All 37 remaining local-replay items booked as applied and marked manual_done — the agent will never re-run them locally or in cloud. All-time 308.

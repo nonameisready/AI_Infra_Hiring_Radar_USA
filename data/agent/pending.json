@@ -50,9 +50,9 @@
    "matchPercent": 84,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4ffe869469c0662034fa7c",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=signifyd95&jr_id=6a4ffe869469c0662034fa7c&token=8046396&utm_source=jobright",
-   "status": "local replay",
+   "status": "manual_done",
    "reason": "One required field left: 'highest level of school' typeahead never loads options for automated typing (5 fill attempts, never submitted). Good candidate for a quick manual apply — everything else auto-fills.",
-   "note": "School typeahead options never load from datacenter IPs (async suggestion API). Everything else autofills — run on Mac (local-replay handles greenhouse)."
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a4dcc57c643fd23fed3ded8",
@@ -169,8 +169,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a531546e726ec56126a59a5",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=samayaai&jr_id=6a531546e726ec56126a59a5&token=4649183007&utm_source=jobright",
    "addedAt": "2026-08-30",
-   "status": "local replay",
-   "note": "one control from done: async Location(City) typeahead returns no options",
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z",
    "missing": [
     "Location (City)*",
     "Samaya AI Applicant Privacy Notice *"
@@ -282,8 +282,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a3d3bea8bfad862bc99c26b",
    "atsUrl": "https://ats.rippling.com/theguarantors-open-positions/jobs/cdb6349f-91f9-47f9-984b-fd19a329a563?jr_id=6a3d3bea8bfad862bc99c26b",
    "addedAt": "2026-08-30",
-   "status": "local replay",
-   "note": "Rippling ATS: form fills fine but the Apply click fires a Cloudflare challenge-platform check that stalls forever from cloud IPs. Run agent/finishers/rippling-finish.mjs on the Mac (headed): node agent/finishers/rippling-finish.mjs <atsUrl> agent/finishers/generic-answers.json --submit"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a55be9dec54dd532d813052",
@@ -366,8 +366,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a1cefecc2a87d6cd3e09ac0",
    "atsUrl": "https://ats.rippling.com/daloopa/jobs/ef7d6ccc-742f-402b-8465-10610cf51983?jr_id=6a1cefecc2a87d6cd3e09ac0",
    "addedAt": "2026-08-30",
-   "status": "local replay",
-   "note": "Rippling ATS: form fills fine but the Apply click fires a Cloudflare challenge-platform check that stalls forever from cloud IPs. Run agent/finishers/rippling-finish.mjs on the Mac (headed): node agent/finishers/rippling-finish.mjs <atsUrl> agent/finishers/generic-answers.json --submit"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a592ad54da96a42cfd8f901",
@@ -547,8 +547,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a56f538e9b77f668bd66660",
    "atsUrl": "https://jobs.ashbyhq.com/airwallex/d943812b-edf6-4f92-bce3-1bbab2d8a480/application?utm_source=jobright&jr_id=6a56f538e9b77f668bd66660",
    "addedAt": "2026-08-31",
-   "status": "local replay",
-   "note": "Replay interrupted (Ctrl+C during 6-min human-assist window) 2026-09-01 — SUBMISSION STATE UNKNOWN. Verify in Gmail for an Airwallex confirmation before re-running; if none, safe to replay."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a7da51ee51a1e18a240a008",
@@ -559,8 +559,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7da51ee51a1e18a240a008",
    "atsUrl": "https://ats.rippling.com/theguarantors-open-positions/jobs/219799ca-8d34-4198-abe4-23c209d77a73?jr_id=6a7da51ee51a1e18a240a008",
    "addedAt": "2026-08-31",
-   "status": "local replay",
-   "note": "Rippling ATS: form fills fine but the Apply click fires a Cloudflare challenge-platform check that stalls forever from cloud IPs. Run agent/finishers/rippling-finish.mjs on the Mac (headed): node agent/finishers/rippling-finish.mjs <atsUrl> agent/finishers/generic-answers.json --submit"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a5e2777270e3033b045c1d9",
@@ -571,7 +571,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5e2777270e3033b045c1d9",
    "atsUrl": "https://jobs.ashbyhq.com/whatnot/ca607d3f-5493-4328-a124-c7a721273a0f/application?utm_source=jobright&jr_id=6a5e2777270e3033b045c1d9",
    "addedAt": "2026-08-31",
-   "status": "local replay"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6938eec7b95c305f206e2f09",
@@ -582,7 +583,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6938eec7b95c305f206e2f09",
    "atsUrl": "https://jobs.ashbyhq.com/leadbank/f02cdd37-8b5c-4aa4-a8fe-d535d876334f/application?utm_source=jobright&jr_id=6938eec7b95c305f206e2f09",
    "addedAt": "2026-08-31",
-   "status": "local replay"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a4c01514eb370649b27bdd0",
@@ -641,7 +643,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a57e30772fe7a7b98dcb82b",
    "atsUrl": "https://jobs.ashbyhq.com/handshake/30eff1ea-28e6-4710-9b58-f05e99dfad7b/application?utm_source=jobright&jr_id=6a57e30772fe7a7b98dcb82b",
    "addedAt": "2026-08-31",
-   "status": "local replay"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a56e3e253b3962b910b30f4",
@@ -652,7 +655,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a56e3e253b3962b910b30f4",
    "atsUrl": "https://jobs.ashbyhq.com/perplexity/b404e73c-5aff-4151-a1a8-6593fb6ccabf/application?utm_source=jobright&jr_id=6a56e3e253b3962b910b30f4",
    "addedAt": "2026-08-31",
-   "status": "local replay"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a59427d686b4755d1e0f6a6",
@@ -675,7 +679,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5760c7a791c6211befdf7a",
    "atsUrl": "https://jobs.ashbyhq.com/valon/47698813-bf51-48f2-b5a7-b64ea1902ef8/application?utm_source=jobright&jr_id=6a5760c7a791c6211befdf7a",
    "addedAt": "2026-08-31",
-   "status": "local replay"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a290da8883c0d3be65458e8",
@@ -710,8 +715,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9150d42e254e06fb9f3ff9",
    "atsUrl": "https://jobs.lever.co/angellist/68928f0e-cb1b-4a94-9a9f-e880e6a755e2",
    "addedAt": "2026-08-31",
-   "status": "local replay",
-   "note": "resolved LinkedIn listing to Lever posting — run in Mac local batch (Lever hCaptcha escalates from datacenter IPs)",
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z",
    "resolvedUrl": "https://jobs.lever.co/angellist/68928f0e-cb1b-4a94-9a9f-e880e6a755e2"
   },
   {
@@ -723,7 +728,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6979ddbbb4589b4ee87c1d59",
    "atsUrl": "https://jobs.ashbyhq.com/uniswap/f475ea4a-b8be-442a-b8e2-9a6003d1a51a/application?utm_source=jobright&jr_id=6979ddbbb4589b4ee87c1d59",
    "addedAt": "2026-08-31",
-   "status": "local replay"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a7d4cdf7c52154b59f5e4e7",
@@ -831,7 +837,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a573695efb06a45240d98b5",
    "atsUrl": "https://jobs.ashbyhq.com/kayak/85165d45-de15-444d-8a5e-b7fdb8f3cf1e/application?utm_source=jobright&jr_id=6a573695efb06a45240d98b5",
    "addedAt": "2026-08-31",
-   "status": "local replay"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a925fac3603630099196286",
@@ -914,7 +921,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a94f90f360363009919a5fd",
    "atsUrl": "https://jobs.ashbyhq.com/ThinkingMachines/98aeba6f-1579-4e2f-9c00-5dd4a483f3b2/application?utm_source=jobright&jr_id=6a94f90f360363009919a5fd",
    "addedAt": "2026-08-31",
-   "status": "local replay"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a8375401081a745e970f6cf",
@@ -962,7 +970,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8a71ca4afae74a0834fe3b",
    "atsUrl": "https://jobs.ashbyhq.com/evenup/d30f77a8-2f07-479e-8616-ff042cd8e261/application?utm_source=jobright&jr_id=6a8a71ca4afae74a0834fe3b",
    "addedAt": "2026-08-31",
-   "status": "local replay"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a63ab6d0c8e2b4f36dcf1a6",
@@ -997,7 +1006,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/699fba44ce78e77b4fe59f04",
    "atsUrl": "https://jobs.ashbyhq.com/listenlabs/3de6a26e-dfd3-4eca-a243-bc8574af5dc0/application?utm_source=jobright&jr_id=699fba44ce78e77b4fe59f04",
    "addedAt": "2026-08-31",
-   "status": "local replay"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a8fe7800bd89e205d2480ae",
@@ -1046,8 +1056,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a767ca2bb6ca93ae5612c58",
    "atsUrl": "https://jobs.lever.co/picklerobot/b2a24088-cc18-4ae0-afbc-2a107b4f9acb",
    "addedAt": "2026-08-31",
-   "status": "local replay",
-   "note": "resolved ZipRecruiter listing to Lever posting — run in Mac local batch (Lever hCaptcha escalates from datacenter IPs)",
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z",
    "resolvedUrl": "https://jobs.lever.co/picklerobot/b2a24088-cc18-4ae0-afbc-2a107b4f9acb"
   },
   {
@@ -1144,7 +1154,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69b056020b2db6275c040da8",
    "atsUrl": "https://jobs.ashbyhq.com/posh/5c29d5f4-e82c-415a-91c5-4a80fe581ec2/application?utm_source=jobright&jr_id=69b056020b2db6275c040da8",
    "addedAt": "2026-08-31",
-   "status": "local replay"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a5851ab68d16a30e24127bc",
@@ -1155,7 +1166,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5851ab68d16a30e24127bc",
    "atsUrl": "https://jobs.ashbyhq.com/mercor/e106399e-d85e-4af2-9bc8-6a0e144f318f/application?utm_source=jobright&jr_id=6a5851ab68d16a30e24127bc",
    "addedAt": "2026-08-31",
-   "status": "local replay"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a952f1d1e67aa542830daba",
@@ -1190,8 +1202,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a534fc78576ec69c014f5a9",
    "atsUrl": "https://ats.rippling.com/rippling/jobs/d7fae4cb-ee75-4948-ae72-a2527a264f97?jr_id=6a534fc78576ec69c014f5a9",
    "addedAt": "2026-08-31",
-   "status": "local replay",
-   "note": "Rippling ATS: form fills fine but the Apply click fires a Cloudflare challenge-platform check that stalls forever from cloud IPs. Run agent/finishers/rippling-finish.mjs on the Mac (headed): node agent/finishers/rippling-finish.mjs <atsUrl> agent/finishers/generic-answers.json --submit"
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a74e0e237da8525e8cdb214",
@@ -1289,12 +1301,13 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5a8af5856af468ab0090b8",
    "atsUrl": "https://jobs.lever.co/thinkahead/94245c1a-52ad-4ee6-8717-b20a58c5474a/apply?utm_source=jobright&jr_id=6a5a8af5856af468ab0090b8",
    "addedAt": "2026-08-31",
-   "status": "local replay",
+   "status": "manual_done",
    "missing": [
     "Provide All Post-Secondary Education Attained - Formatted as: College Name; Degree Obtaine",
     "AHEAD will consider the contents of an uploaded resume or LinkedIn profile only insofar as"
    ],
-   "reason": "Lever form — run from Mac (cloud IP gets hCaptcha challenge); answer rules ready in generic-answers.json"
+   "reason": "Lever form — run from Mac (cloud IP gets hCaptcha challenge); answer rules ready in generic-answers.json",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a7dfc790cd4a0703257cf47",
@@ -1425,8 +1438,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a51f979bf63b66c7997efa4",
    "atsUrl": "https://jobs.ashbyhq.com/uniswap/cfd492ff-dd07-432a-84b8-8aef0e8984ec/application?utm_source=jobright&jr_id=6a51f979bf63b66c7997efa4",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a9677d026613756de6d8325",
@@ -1497,8 +1510,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69dfc703433ac8430e0e2181",
    "atsUrl": "https://ats.rippling.com/veryable-careers/jobs/5dfd7286-f3b1-46ff-b30a-bbeef6a5e3ce?jr_id=69dfc703433ac8430e0e2181",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Rippling ATS Cloudflare-gates submit from cloud — use agent/finishers/rippling-finish.mjs on Mac."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a54be1fccd81a26173f34cc",
@@ -1509,8 +1522,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a54be1fccd81a26173f34cc",
    "atsUrl": "https://ats.rippling.com/rippling/jobs/1f81bd71-a3b5-4b91-aa6c-9999417a4c47?jr_id=6a54be1fccd81a26173f34cc",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Rippling ATS Cloudflare-gates submit from cloud — use agent/finishers/rippling-finish.mjs on Mac."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a907b757c32860d14cf99e3",
@@ -1533,8 +1546,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a51d99c57513b72e0c68e12",
    "atsUrl": "https://jobs.ashbyhq.com/nash/5078366e-db73-45a4-b9cb-23162d3bc28b/application?utm_source=jobright&jr_id=6a51d99c57513b72e0c68e12",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a9613564c22023a07937e00",
@@ -1581,8 +1594,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7a38cb9ee17f276dbf1f1a",
    "atsUrl": "https://jobs.ashbyhq.com/lumaai/d424c5fd-3135-460e-a50d-ed941f51e80b/application?utm_source=jobright&jr_id=6a7a38cb9ee17f276dbf1f1a",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a90607c7c32860d14cf8edd",
@@ -1665,8 +1678,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a907dbaa19886486676165c",
    "atsUrl": "https://jobs.ashbyhq.com/sentilink/cbeda58b-9a35-4c75-a89a-5fa2c6dd83c1/application?utm_source=jobright&jr_id=6a907dbaa19886486676165c",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a9638bccabc9f6703e1cba4",
@@ -1785,8 +1798,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69fb122f87a4820e6da84a76",
    "atsUrl": "https://jobs.ashbyhq.com/plaid/24f357ee-b2fc-4f86-bab9-d10ecfb99003/application?utm_source=jobright&jr_id=69fb122f87a4820e6da84a76",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a94ec4d9864261ccd2a4b7c",
@@ -1845,8 +1858,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a57d31610c4d945d865146b",
    "atsUrl": "https://jobs.ashbyhq.com/ARQ/433d8cb9-5a19-4ca2-9218-940d4e008ed9/application?utm_source=jobright&jr_id=6a57d31610c4d945d865146b",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a8353499b859b227766e0e6",
@@ -1881,8 +1894,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a51ade557513b72e0c65e8f",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=scaleai&jr_id=6a51ade557513b72e0c65e8f&token=4665557005&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Greenhouse Location (City) Google-Places typeahead returns no suggestions from datacenter IPs (Samaya precedent) — run on Mac."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a8cd2c6d34f700f87fd2d39",
@@ -1917,8 +1930,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f06daf841e649a7190377",
    "atsUrl": "https://jobs.ashbyhq.com/snowflake/83f7f33a-9c74-459a-a324-b2dea2e709dd/application?utm_source=jobright&jr_id=6a8f06daf841e649a7190377",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a3aae67797099171917b04c",
@@ -1965,8 +1978,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a3b1f4f649fdf16293075a7",
    "atsUrl": "https://jobs.ashbyhq.com/commure/bf15fcda-9c4b-4a3b-9249-8714e1364d29/application?utm_source=jobright&jr_id=6a3b1f4f649fdf16293075a7",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a96f6a3e4e60e4b8da5af36",
@@ -2013,8 +2026,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4fe8374649561ec08af7b6",
    "atsUrl": "https://ats.rippling.com/supernova-technology/jobs/da5226b6-cc54-4376-b805-82d88557b1ae?jr_id=6a4fe8374649561ec08af7b6",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Rippling ATS Cloudflare-gates submit from cloud — use agent/finishers/rippling-finish.mjs on Mac."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a5386119fbdab22fe13fa81",
@@ -2049,8 +2062,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a328de3ce501060b5ce949f",
    "atsUrl": "https://jobs.ashbyhq.com/whatnot/aefd0c4d-6324-4ca0-8ebc-00ddfc722079/application?utm_source=jobright&jr_id=6a328de3ce501060b5ce949f",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a956d591e895f1294667a77",
@@ -2097,8 +2110,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7bbaeeecf5194164fbfb4f",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=aegisventures&jr_id=6a7bbaeeecf5194164fbfb4f&token=4686295006&utm_source=jobright",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Greenhouse Location (City) Google-Places typeahead returns no suggestions from datacenter IPs (Samaya precedent) — run on Mac."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a14043c83d71442898333f7",
@@ -2121,8 +2134,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69eaa35f0a6e09555304242e",
    "atsUrl": "https://jobs.ashbyhq.com/perplexity/043d6a58-87a1-4e3c-bf47-4dc351b94cf4/application?utm_source=jobright&jr_id=69eaa35f0a6e09555304242e",
    "addedAt": "2026-09-01",
-   "status": "local replay",
-   "note": "Ashby anti-bot flagged datacenter IP (batch circuit breaker) — run in Mac local batch. atsUrl resolved."
+   "status": "manual_done",
+   "note": "user confirmed completed locally, booked 2026-09-02T00:31:49.072Z"
   },
   {
    "id": "6a16defdf45c6530ce9a6bb1",
