@@ -385,3 +385,10 @@ Mac harvest of 89 fully processed after resolver fix. Submitted 8 today via batc
 ## 2026-09-02 — local replay batch closed by user confirmation
 
 User ran all local-replay jobs on the Mac and confirmed completion (Samaya AI, Scale AI, Aegis Ventures, Signifyd finished by hand). All 37 remaining local-replay items booked as applied and marked manual_done — the agent will never re-run them locally or in cloud. All-time 308.
+
+## 2026-09-02 (Mac local batch, home IP)
+
+3 submitted, 42 parked, 14 queued for Qwen. All-time 311.
+- Affirm — Senior Software Engineer, Backend (Card Ledger & Money Movement) (95%) — greenhouse, confirmed
+- NMI — Senior Software Engineer (PHP) (90%) — greenhouse, confirmed
+- Affirm — Senior Software Engineer, Backend (Reliability Platform) (90%) — greenhouse, confirmed

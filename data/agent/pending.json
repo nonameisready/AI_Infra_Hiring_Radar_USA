@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-01T10:24:42.398Z",
+ "updatedAt": "2026-09-02T07:28:32.825Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -2460,6 +2460,769 @@
    "addedAt": "2026-09-01",
    "status": "parked",
    "note": "no ATS url discovered"
+  },
+  {
+   "id": "6a85b262cc81eb647e9eeb19",
+   "key": "bank of america::sr. quantitative engineer",
+   "title": "Sr. Quantitative Engineer",
+   "company": "Bank of America",
+   "matchPercent": 97,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a85b262cc81eb647e9eeb19",
+   "atsUrl": "https://ghr.wd1.myworkdayjobs.com/us-emplsv/job/Chicago/Sr-Quantitative-Engineer_26024382?jr_id=6a85b262cc81eb647e9eeb19",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: ghr.wd1.myworkdayjobs.com"
+  },
+  {
+   "id": "6a0bad2f538d03366dc87e0a",
+   "key": "zelis::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Zelis",
+   "matchPercent": 96,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a0bad2f538d03366dc87e0a",
+   "atsUrl": "https://careers.zelis.com/us/en/job/ZOBZDHUSJR110951EXTERNALENUS/Senior-Software-Engineer?utm_source=jobright&utm_medium=phenom-feeds&jr_id=6a0bad2f538d03366dc87e0a",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: careers.zelis.com"
+  },
+  {
+   "id": "6a42b4671cc9cc2b12fec7e2",
+   "key": "ramp::software engineer, developer api",
+   "title": "Software Engineer, Developer API",
+   "company": "Ramp",
+   "matchPercent": 96,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a42b4671cc9cc2b12fec7e2",
+   "atsUrl": "https://jobs.ashbyhq.com/ramp/42527ca9-03b9-499e-a5c4-18e4245af138/application?utm_source=jobright&jr_id=6a42b4671cc9cc2b12fec7e2",
+   "addedAt": "2026-09-02",
+   "status": "local replay"
+  },
+  {
+   "id": "6a9725b6e4e60e4b8da5c56a",
+   "key": "liberty mutual insurance::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Liberty Mutual Insurance",
+   "matchPercent": 94,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9725b6e4e60e4b8da5c56a",
+   "atsUrl": "https://careers-libertymutual.icims.com/jobs/183526/senior-software-engineer/job?jr_id=6a9725b6e4e60e4b8da5c56a",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: careers-libertymutual.icims.com"
+  },
+  {
+   "id": "6a06ec1933c2ed3770bca349",
+   "key": "hudson river trading::software engineer - python",
+   "title": "Software Engineer - Python",
+   "company": "Hudson River Trading",
+   "matchPercent": 94,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a06ec1933c2ed3770bca349",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=wehrtyou&jr_id=6a06ec1933c2ed3770bca349&token=7398013&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "needs_answers",
+   "missing": [
+    "Most HRT engineers regularly work in both C++ and Python. Please selec",
+    "Have you interviewed with HRT in the past?*",
+    "Do you now, or will you in the future, need sponsorship from an employ",
+    "Are you currently pursuing your undergraduate degree?*"
+   ]
+  },
+  {
+   "id": "6a9771de455eaf6a08c1c9c4",
+   "key": "flume health::software engineer",
+   "title": "Software Engineer",
+   "company": "Flume Health",
+   "matchPercent": 93,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9771de455eaf6a08c1c9c4",
+   "atsUrl": "https://www.linkedin.com/jobs/view/4462119085?jr_id=6a9771de455eaf6a08c1c9c4",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: www.linkedin.com"
+  },
+  {
+   "id": "6a80cc98927c79391ad1255f",
+   "key": "aiprise::software engineer iii - senior engineer (usa)",
+   "title": "Software Engineer III - Senior Engineer (USA)",
+   "company": "AiPrise",
+   "matchPercent": 93,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a80cc98927c79391ad1255f",
+   "atsUrl": "https://www.ycombinator.com/companies/aiprise/jobs/oqyXQsq-software-engineer-iii-senior-engineer",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: www.ycombinator.com"
+  },
+  {
+   "id": "6a7dec770cd4a0703257c86b",
+   "key": "amazon::software development engineer, ec2 vpc",
+   "title": "Software Development Engineer, EC2 VPC",
+   "company": "Amazon",
+   "matchPercent": 91,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7dec770cd4a0703257c86b",
+   "atsUrl": "https://www.amazon.jobs/en/jobs/10500968/software-development-engineer-ec2-vpc?jr_id=6a7dec770cd4a0703257c86b",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: www.amazon.jobs"
+  },
+  {
+   "id": "6a05b0686c07461fe1718032",
+   "key": "bloomberg::senior software engineer - fixed income pricing",
+   "title": "Senior Software Engineer - Fixed Income Pricing",
+   "company": "Bloomberg",
+   "matchPercent": 91,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a05b0686c07461fe1718032",
+   "atsUrl": "https://bloomberg.avature.net/careers/Error",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: bloomberg.avature.net"
+  },
+  {
+   "id": "6a9603be4c22023a079378c6",
+   "key": "dice::backend engineer, developer & end-user experience platform",
+   "title": "Backend Engineer, Developer & End-user Experience Platform",
+   "company": "Dice",
+   "matchPercent": 91,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9603be4c22023a079378c6",
+   "atsUrl": "https://www.dice.com/job-detail/d7c168a4-de35-4d5a-8f80-e40e8bd4bdf8?jr_id=6a9603be4c22023a079378c6",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: www.dice.com"
+  },
+  {
+   "id": "6a5f8ae833ef5c58b4ffe8dd",
+   "key": "effodio, inc.::senior backend software engineer",
+   "title": "Senior Backend Software Engineer",
+   "company": "Effodio, Inc.",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5f8ae833ef5c58b4ffe8dd",
+   "atsUrl": "https://www.linkedin.com/jobs/view/4443391729?jr_id=6a5f8ae833ef5c58b4ffe8dd",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: www.linkedin.com"
+  },
+  {
+   "id": "6a0c53c622d0d34036c93171",
+   "key": "palantir technologies::software engineer - environment platform",
+   "title": "Software Engineer - Environment Platform",
+   "company": "Palantir Technologies",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a0c53c622d0d34036c93171",
+   "atsUrl": "https://jobs.lever.co/palantir/cd2423c6-da68-430c-8be5-0ae7eea36497/apply?utm_source=jobright&jr_id=6a0c53c622d0d34036c93171",
+   "addedAt": "2026-09-02",
+   "status": "needs_answers",
+   "missing": [
+    "Language Skill(s) (Check all that apply) ✱",
+    "Which university are you currently attending or did you last attend? Please select \"Other ",
+    "Please tell us how you heard about this opportunity. ✱"
+   ]
+  },
+  {
+   "id": "6a8629e674e02153f145ae56",
+   "key": "amazon::senior software development engineer, customer 360",
+   "title": "Senior Software Development Engineer, Customer 360",
+   "company": "Amazon",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8629e674e02153f145ae56",
+   "atsUrl": "https://www.amazon.jobs/en/jobs/10442997/senior-software-development-engineer-customer-360?jr_id=6a8629e674e02153f145ae56",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: www.amazon.jobs"
+  },
+  {
+   "id": "69173e8c3ea85638ae1c936f",
+   "key": "sezzle::senior software engineer (latam)",
+   "title": "Senior Software Engineer (LATAM)",
+   "company": "Sezzle",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69173e8c3ea85638ae1c936f",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sezzle&jr_id=69173e8c3ea85638ae1c936f&token=5761148003&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "needs_answers",
+   "missing": [
+    "Do you have an eligible work authorization to work in Latin America?*",
+    "Do you have a Bachelor's in computer science or equivalent related exp",
+    "What is your English level?*",
+    "What is your undergraduate GPA?*"
+   ]
+  },
+  {
+   "id": "69e96ad33aa0c479643a9cb1",
+   "key": "affirm::senior software engineer, backend (traffic)",
+   "title": "Senior Software Engineer, Backend (Traffic)",
+   "company": "Affirm",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69e96ad33aa0c479643a9cb1",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=affirm&jr_id=69e96ad33aa0c479643a9cb1&token=7708921003&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "needs_answers",
+   "missing": [
+    "Do you now or in the future require sponsorship for employment visa st"
+   ]
+  },
+  {
+   "id": "6a74ce4237da8525e8cdaa77",
+   "key": "databricks::sr. software engineer- backend",
+   "title": "Sr. Software Engineer- Backend",
+   "company": "Databricks",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a74ce4237da8525e8cdaa77",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=databricks&jr_id=6a74ce4237da8525e8cdaa77&token=8379331002&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "needs_answers",
+   "missing": [
+    "U.S. citizen",
+    "U.S. non-citizen national",
+    "U.S. permanent resident (Green Card holder)",
+    "Individual granted asylum in the U.S.",
+    "Individual granted refugee status in the U.S.",
+    "Individual granted citizenship in a country other than Cuba, Iran, Nor",
+    "Individual granted permanent residency in a country other than Cuba, I",
+    "None of these apply to me",
+    "Not applicable (i.e., I selected “none of the above” for the prior que"
+   ]
+  },
+  {
+   "id": "6a410d1dd528ac2915f9717e",
+   "key": "spacexai::exceptional software engineer",
+   "title": "Exceptional Software Engineer",
+   "company": "SpaceXAI",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a410d1dd528ac2915f9717e",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=xai&jr_id=6a410d1dd528ac2915f9717e&token=4956028007&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "needs_answers",
+   "missing": [
+    "Please indicate your SpaceXAI employment history.*",
+    "What is your preferred coding language?*",
+    "What exceptional work have you done?*"
+   ]
+  },
+  {
+   "id": "6a95cd413843db015990743c",
+   "key": "f5::sr. software development engineer",
+   "title": "Sr. Software Development Engineer",
+   "company": "F5",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95cd413843db015990743c",
+   "atsUrl": "https://ffive.wd5.myworkdayjobs.com/f5jobs/job/F5-Tower/Sr-Software-Development-Engineer_RP1038531?jr_id=6a95cd413843db015990743c",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: ffive.wd5.myworkdayjobs.com"
+  },
+  {
+   "id": "6a97563ed13b4819f39e0aaa",
+   "key": "uber freight::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Uber Freight",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a97563ed13b4819f39e0aaa",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=uberfreight&jr_id=6a97563ed13b4819f39e0aaa&token=5393639008&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "needs_answers",
+   "missing": [
+    "Are you currently in one of these sponsored statuses: O-1, TN, H1B1, H",
+    "Are you currently in student (F-1) or Trainee (J1) status and/or have "
+   ]
+  },
+  {
+   "id": "6a973f87246d697dcee04715",
+   "key": "bibleproject::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "BibleProject",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a973f87246d697dcee04715",
+   "atsUrl": "https://bibleproject.applytojob.com/apply/aLyJhLK5pD/Senior-Software-Engineer?jr_id=6a973f87246d697dcee04715",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: bibleproject.applytojob.com"
+  },
+  {
+   "id": "6a8388492dbaf907b0769705",
+   "key": "amazon::software development engineer, leo autopilot",
+   "title": "Software Development Engineer, Leo Autopilot",
+   "company": "Amazon",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8388492dbaf907b0769705",
+   "atsUrl": "https://www.amazon.jobs/en/jobs/10504174/software-development-engineer-leo-autopilot?jr_id=6a8388492dbaf907b0769705",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: www.amazon.jobs"
+  },
+  {
+   "id": "6a9723adb22f636c8141617c",
+   "key": "chase::lead software engineer - python/snowflake/aws",
+   "title": "Lead Software Engineer - Python/Snowflake/AWS",
+   "company": "Chase",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9723adb22f636c8141617c",
+   "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210782302?jr_id=6a9723adb22f636c8141617c",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: jpmc.fa.oraclecloud.com"
+  },
+  {
+   "id": "6a956f774d5932306d6ac86e",
+   "key": "amazon web services (aws)::software development engineer - amazon redshift, query processing",
+   "title": "Software Development Engineer - Amazon Redshift, Query Processing",
+   "company": "Amazon Web Services (AWS)",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a956f774d5932306d6ac86e",
+   "atsUrl": "https://www.amazon.jobs/en/jobs/3017401/software-development-engineer-amazon-redshift-query-processing?cmpid=SPLICX0248M&jr_id=6a956f774d5932306d6ac86e&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: www.amazon.jobs"
+  },
+  {
+   "id": "6a96f8e9f5337b2cf731ef3d",
+   "key": "amazon::sr. embedded software engineer, leo autopilot",
+   "title": "Sr. Embedded Software Engineer, Leo Autopilot",
+   "company": "Amazon",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96f8e9f5337b2cf731ef3d",
+   "atsUrl": "https://www.amazon.jobs/en/jobs/10523866/sr-embedded-software-engineer-leo-autopilot?jr_id=6a96f8e9f5337b2cf731ef3d",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: www.amazon.jobs"
+  },
+  {
+   "id": "6a8331d69b859b227766d116",
+   "key": "docusign::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Docusign",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8331d69b859b227766d116",
+   "atsUrl": "https://careers.docusign.com/jobs/30102?jr_id=6a8331d69b859b227766d116",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: careers.docusign.com"
+  },
+  {
+   "id": "6a5683bfefb06a45240d65b7",
+   "key": "onepay::software engineer, product facing",
+   "title": "Software Engineer, Product Facing",
+   "company": "OnePay",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5683bfefb06a45240d65b7",
+   "atsUrl": "https://jobs.ashbyhq.com/oneapp/c396e21b-8b49-4375-a35c-32c73715b8c6/application?utm_source=jobright&jr_id=6a5683bfefb06a45240d65b7",
+   "addedAt": "2026-09-02",
+   "status": "local replay"
+  },
+  {
+   "id": "6a90798da198864866761540",
+   "key": "mercor::software engineer, frontier data products",
+   "title": "Software Engineer, Frontier Data Products",
+   "company": "Mercor",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a90798da198864866761540",
+   "atsUrl": "https://jobs.ashbyhq.com/mercor/2b1d7c4b-721b-4ed7-b61b-7bdceeaaa702/application?utm_source=jobright&jr_id=6a90798da198864866761540",
+   "addedAt": "2026-09-02",
+   "status": "local replay"
+  },
+  {
+   "id": "6a7df3350cd4a0703257cb3a",
+   "key": "comcast::sr. data python engineer - freewheel",
+   "title": "Sr. Data Python Engineer - FreeWheel",
+   "company": "Comcast",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7df3350cd4a0703257cb3a",
+   "atsUrl": "https://jobs.comcast.com/job/englewood/sr-data-python-engineer-freewheel/45483/96782147216?source=jobright_at&utm_source=jobright&utm_medium=referral&utm_campaign=all&jr_id=6a7df3350cd4a0703257cb3a",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: jobs.comcast.com"
+  },
+  {
+   "id": "6a95801adfb52f4cf300f867",
+   "key": "cloudflare::senior software engineer - fintech",
+   "title": "Senior Software Engineer - Fintech",
+   "company": "Cloudflare",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95801adfb52f4cf300f867",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cloudflare&jr_id=6a95801adfb52f4cf300f867&token=8105716&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "needs_answers",
+   "missing": [
+    "Do you currently live or are you willing to relocate to the job’s loca"
+   ]
+  },
+  {
+   "id": "6a978e05b22f636c81418424",
+   "key": "caterpillar inc.::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Caterpillar Inc.",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a978e05b22f636c81418424",
+   "atsUrl": "https://careers.caterpillar.com/en/jobs/r0000377848/senior-software-engineer/?source=jobright&jr_id=6a978e05b22f636c81418424&__cf_chl_rt_tk=bg_TU1YIvu.BJdqCGfZXHmNrNrFlkZ9cM3Ta0FCsSZY-1788327309-1.0.1.1-YmFoCJYQ7GKLBRVqAqQVIsV7mSMSxKwQvd85dxQJssA",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: careers.caterpillar.com"
+  },
+  {
+   "id": "6a96ea23d13b4819f39ddb57",
+   "key": "worldpay::senior software engineer, agentic commerce",
+   "title": "Senior Software Engineer, Agentic Commerce",
+   "company": "Worldpay",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96ea23d13b4819f39ddb57",
+   "atsUrl": "https://worldpay.wd5.myworkdayjobs.com/worldpay_external_careers_site/job/ATLANTA-GEORGIA/Senior-Software-Engineer--Agentic-Commerce_JR0611303-1?jr_id=6a96ea23d13b4819f39ddb57",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: worldpay.wd5.myworkdayjobs.com"
+  },
+  {
+   "id": "6a96f344f5337b2cf731ed2e",
+   "key": "d-wave::senior software engineer [604]",
+   "title": "Senior Software Engineer [604]",
+   "company": "D-Wave",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96f344f5337b2cf731ed2e",
+   "atsUrl": "https://ats.rippling.com/d-wave-quantum/jobs/d3b728c3-adc0-4245-a29c-315acc154016?jr_id=6a96f344f5337b2cf731ed2e",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: ats.rippling.com"
+  },
+  {
+   "id": "6a7f3e4de51a1e18a2411275",
+   "key": "bank of america::python developer iii",
+   "title": "Python Developer III",
+   "company": "Bank of America",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7f3e4de51a1e18a2411275",
+   "atsUrl": "https://ghr.wd1.myworkdayjobs.com/us-emplsv/job/Houston/Python-Developer-III_26029248?jr_id=6a7f3e4de51a1e18a2411275",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: ghr.wd1.myworkdayjobs.com"
+  },
+  {
+   "id": "6a972f07455eaf6a08c1b17b",
+   "key": "fox corporation::senior media platform engineer",
+   "title": "Senior Media Platform Engineer",
+   "company": "Fox Corporation",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a972f07455eaf6a08c1b17b",
+   "atsUrl": "https://fox.wd1.myworkdayjobs.com/domestic/job/USA---AZ---Tempe---2010-E-Centennial-Cir/Senior-Media-Platform-Engineer_R50032819?jr_id=6a972f07455eaf6a08c1b17b",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: fox.wd1.myworkdayjobs.com"
+  },
+  {
+   "id": "6a8e0c79cc0cf27068526e5d",
+   "key": "stripe::full stack engineer, link",
+   "title": "Full Stack Engineer, Link",
+   "company": "Stripe",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8e0c79cc0cf27068526e5d",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&jr_id=6a8e0c79cc0cf27068526e5d&token=8062305&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "needs_answers",
+   "missing": [
+    "To ensure we can focus fully on our conversation, we use BrightHire to"
+   ]
+  },
+  {
+   "id": "6a8523ddd34f700f87fbc149",
+   "key": "verkada::senior backend engineer - access control",
+   "title": "Senior Backend Engineer - Access Control",
+   "company": "Verkada",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8523ddd34f700f87fbc149",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=verkada&jr_id=6a8523ddd34f700f87fbc149&token=5215838007&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "needs_answers",
+   "missing": [
+    "What is your most proficient programming language?*"
+   ]
+  },
+  {
+   "id": "6a51b8f778e364789ca5b9f3",
+   "key": "upstart::senior software engineer, marketplace optimization",
+   "title": "Senior Software Engineer, Marketplace Optimization",
+   "company": "Upstart",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a51b8f778e364789ca5b9f3",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=upstart&jr_id=6a51b8f778e364789ca5b9f3&token=8056243&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "needs_answers",
+   "missing": [
+    "What is your current location? Please note we are unable to hire candi"
+   ]
+  },
+  {
+   "id": "6a5e64b3f3674a0545d28ad3",
+   "key": "oracle::senior software developer",
+   "title": "Senior Software Developer",
+   "company": "Oracle",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5e64b3f3674a0545d28ad3",
+   "atsUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/338704?jr_id=6a5e64b3f3674a0545d28ad3",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: eeho.fa.us2.oraclecloud.com"
+  },
+  {
+   "id": "6a971e0f246d697dcee0379f",
+   "key": "cintel, inc.::software engineer- senior",
+   "title": "Software Engineer- Senior",
+   "company": "Cintel, Inc.",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a971e0f246d697dcee0379f",
+   "atsUrl": "https://cintel.bamboohr.com/careers/572?jr_id=6a971e0f246d697dcee0379f",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: cintel.bamboohr.com"
+  },
+  {
+   "id": "6a526357e726ec56126a2d41",
+   "key": "planetscale::software engineer - neki orchestration",
+   "title": "Software Engineer - Neki Orchestration",
+   "company": "PlanetScale",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a526357e726ec56126a2d41",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=planetscale&jr_id=6a526357e726ec56126a2d41&token=4280570009&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "needs_answers",
+   "missing": [
+    "Please tell us a little about your background and why you're intereste"
+   ]
+  },
+  {
+   "id": "6a976ff8e4e60e4b8da5e058",
+   "key": "amazon web services (aws)::senior software development engineer , p&s engineering services",
+   "title": "Senior Software Development Engineer , P&S Engineering Services",
+   "company": "Amazon Web Services (AWS)",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a976ff8e4e60e4b8da5e058",
+   "atsUrl": "https://www.amazon.jobs/en/jobs/10442900/senior-software-development-engineer-p-s-engineering-services?cmpid=SPLICX0248M&jr_id=6a976ff8e4e60e4b8da5e058&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: www.amazon.jobs"
+  },
+  {
+   "id": "6a974687455eaf6a08c1be87",
+   "key": "workiva::sr. software engineer",
+   "title": "Sr. Software Engineer",
+   "company": "Workiva",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a974687455eaf6a08c1be87",
+   "atsUrl": "https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Sr-Software-Engineer_R12422?jr_id=6a974687455eaf6a08c1be87",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: workiva.wd503.myworkdayjobs.com"
+  },
+  {
+   "id": "6a58c83e686b4755d1e0c3fb",
+   "key": "remitly::ai native software engineer ii",
+   "title": "AI Native Software Engineer II",
+   "company": "Remitly",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a58c83e686b4755d1e0c3fb",
+   "atsUrl": "https://remitly.wd5.myworkdayjobs.com/remitly_careers/job/Seattle-Washington-United-States/Knowledge-Development-Engineer-II_R_105964?jr_id=6a58c83e686b4755d1e0c3fb",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: remitly.wd5.myworkdayjobs.com"
+  },
+  {
+   "id": "6a96dce0246d697dcee019c6",
+   "key": "amazon::software dev engineer iii, aws elastic beanstalk",
+   "title": "Software Dev Engineer III, AWS Elastic Beanstalk",
+   "company": "Amazon",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96dce0246d697dcee019c6",
+   "atsUrl": "https://www.amazon.jobs/en/jobs/10512194/software-dev-engineer-iii-aws-elastic-beanstalk?jr_id=6a96dce0246d697dcee019c6",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: www.amazon.jobs"
+  },
+  {
+   "id": "6a8e25b347679c68bf5e6dbe",
+   "key": "jpmorganchase::sr lead software engineer:java/ai",
+   "title": "Sr Lead Software Engineer:Java/AI",
+   "company": "JPMorganChase",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8e25b347679c68bf5e6dbe",
+   "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210761840?jr_id=6a8e25b347679c68bf5e6dbe",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: jpmc.fa.oraclecloud.com"
+  },
+  {
+   "id": "6a974fdbd13b4819f39e07d0",
+   "key": "career renew::senior/staff backend engineer - crypto",
+   "title": "Senior/Staff Backend Engineer - Crypto",
+   "company": "Career Renew",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a974fdbd13b4819f39e07d0",
+   "atsUrl": "https://recruiterflow.com/db_2c9664b811ae563d2d7726dcbc68e2c3/jobs/524?jr_id=6a974fdbd13b4819f39e07d0",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: recruiterflow.com"
+  },
+  {
+   "id": "69c549a91b5ad02887371fba",
+   "key": "affirm::senior software engineer, backend (merchant advocacy)",
+   "title": "Senior Software Engineer, Backend (Merchant Advocacy)",
+   "company": "Affirm",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69c549a91b5ad02887371fba",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=affirm&jr_id=69c549a91b5ad02887371fba&token=7636414003&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "needs_answers",
+   "missing": [
+    "Do you now or in the future require sponsorship for employment visa st"
+   ]
+  },
+  {
+   "id": "6a83253d1081a745e970d270",
+   "key": "oracle::senior core infrastructure engineer",
+   "title": "Senior Core Infrastructure Engineer",
+   "company": "Oracle",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a83253d1081a745e970d270",
+   "atsUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/337184?jr_id=6a83253d1081a745e970d270",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: eeho.fa.us2.oraclecloud.com"
+  },
+  {
+   "id": "6a976af2e4e60e4b8da5df4a",
+   "key": "tabs::senior software engineer, financial sync",
+   "title": "Senior Software Engineer, Financial Sync",
+   "company": "Tabs",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a976af2e4e60e4b8da5df4a",
+   "atsUrl": "https://jobs.ashbyhq.com/tabs/fabadd5c-4b15-4da3-9d58-c022261a27db/application?utm_source=jobright&jr_id=6a976af2e4e60e4b8da5df4a",
+   "addedAt": "2026-09-02",
+   "status": "local replay"
+  },
+  {
+   "id": "6a8b06a5d34f700f87fcd679",
+   "key": "bytedance::senior software development engineer - cloud native databases",
+   "title": "Senior Software Development Engineer - Cloud Native Databases",
+   "company": "ByteDance",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8b06a5d34f700f87fcd679",
+   "atsUrl": "https://joinbytedance.com/search/7455426212854466824?jr_id=6a8b06a5d34f700f87fcd679",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: joinbytedance.com"
+  },
+  {
+   "id": "6a88b0c2cde3717f9e9b691a",
+   "key": "amazon::software development engineer - kinesis data streams, kinesis data streams",
+   "title": "Software Development Engineer - Kinesis Data Streams, Kinesis Data Streams",
+   "company": "Amazon",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a88b0c2cde3717f9e9b691a",
+   "atsUrl": "https://www.amazon.jobs/en/jobs/10510493/software-development-engineer-kinesis-data-streams-kinesis-data-streams?jr_id=6a88b0c2cde3717f9e9b691a",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: www.amazon.jobs"
+  },
+  {
+   "id": "6a8754f94afae74a08347f2e",
+   "key": "salesforce::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Salesforce",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8754f94afae74a08347f2e",
+   "atsUrl": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Massachusetts---Burlington/Senior-Software-Engineer_JR356123?jr_id=6a8754f94afae74a08347f2e",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: salesforce.wd12.myworkdayjobs.com"
+  },
+  {
+   "id": "6a07699ea203b1052e43a4f2",
+   "key": "citi::senior back-end java developer — trading platforms",
+   "title": "Senior Back-End Java Developer — Trading Platforms",
+   "company": "Citi",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a07699ea203b1052e43a4f2",
+   "atsUrl": "https://jobs.citi.com/job/-/-/287/95121516112?source=APPLICANT_SOURCE-3-354&utm_medium=job_posting&utm_campaign=nam_experienced&utm_content=social_media&utm_term=393702677&ss=paid&utm_source=jobright&jr_id=6a07699ea203b1052e43a4f2",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: jobs.citi.com"
+  },
+  {
+   "id": "6a5e60e767b2850e77df0b9c",
+   "key": "magnite::senior engineer",
+   "title": "Senior Engineer",
+   "company": "Magnite",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5e60e767b2850e77df0b9c",
+   "atsUrl": "https://osv-rubicon.wd5.myworkdayjobs.com/magnitecareers/job/California---Los-Angeles/Senior-Engineer_R-01359?jr_id=6a5e60e767b2850e77df0b9c",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: osv-rubicon.wd5.myworkdayjobs.com"
+  },
+  {
+   "id": "6a95891d3843db01599058c3",
+   "key": "nvidia::senior backend platform engineer - profiling services",
+   "title": "Senior Backend Platform Engineer - Profiling Services",
+   "company": "NVIDIA",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95891d3843db01599058c3",
+   "atsUrl": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Senior-Backend-Platform-Engineer---Profiling-Services_JR2022190?jr_id=6a95891d3843db01599058c3",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: nvidia.wd5.myworkdayjobs.com"
+  },
+  {
+   "id": "6a95a3694c22023a07934c55",
+   "key": "upstart::senior software engineer, core platform",
+   "title": "Senior Software Engineer, Core Platform",
+   "company": "Upstart",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95a3694c22023a07934c55",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=upstart&jr_id=6a95a3694c22023a07934c55&token=8128825&utm_source=jobright",
+   "addedAt": "2026-09-02",
+   "status": "needs_answers",
+   "missing": [
+    "What is your current location? Please note we are unable to hire candi"
+   ]
+  },
+  {
+   "id": "6a9748c5f5337b2cf7321516",
+   "key": "chase::lead software engineer- data management (sql)",
+   "title": "Lead Software Engineer- Data Management (SQL)",
+   "company": "Chase",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9748c5f5337b2cf7321516",
+   "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210783392?jr_id=6a9748c5f5337b2cf7321516",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: jpmc.fa.oraclecloud.com"
+  },
+  {
+   "id": "6a8ce9662f736c304f2a865a",
+   "key": "uber::sr software engineer",
+   "title": "Sr Software Engineer",
+   "company": "Uber",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8ce9662f736c304f2a865a",
+   "atsUrl": "https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UberCareers/job/301216?jr_id=6a8ce9662f736c304f2a865a",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: iaziqy.fa.ocs.oraclecloud.com"
+  },
+  {
+   "id": "6a95fbf2cabc9f6703e1b61c",
+   "key": "fico::sr software engineer (b2b scores)",
+   "title": "Sr Software Engineer (B2B Scores)",
+   "company": "FICO",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95fbf2cabc9f6703e1b61c",
+   "atsUrl": "https://fico.wd1.myworkdayjobs.com/external/job/Work-from-Home-United-States/Sr-Software-Engineer--B2B-Scores-_32227?jr_id=6a95fbf2cabc9f6703e1b61c",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: fico.wd1.myworkdayjobs.com"
+  },
+  {
+   "id": "6a9725a1f5337b2cf7320462",
+   "key": "autonation::lead software engineer",
+   "title": "Lead Software Engineer",
+   "company": "AutoNation",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9725a1f5337b2cf7320462",
+   "atsUrl": "https://autonation.wd5.myworkdayjobs.com/careers/job/Auto-TechLabs/Lead-Software-Engineer_JR2026148268-1?jr_id=6a9725a1f5337b2cf7320462",
+   "addedAt": "2026-09-02",
+   "status": "parked",
+   "note": "platform not automated from cloud: autonation.wd5.myworkdayjobs.com"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
