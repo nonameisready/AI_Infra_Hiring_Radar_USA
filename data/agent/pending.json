@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T11:00:02.467Z",
+ "updatedAt": "2026-09-02T11:29:17.363Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -2948,11 +2948,11 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a51b8f778e364789ca5b9f3",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=upstart&jr_id=6a51b8f778e364789ca5b9f3&token=8056243&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "local replay",
+   "status": "applied",
    "missing": [
     "What is your current location? Please note we are unable to hire candi"
    ],
-   "note": "Location question 'What is your current location? ... unable to hire candidates in ...' is a select the rule did not match; run headed on Mac."
+   "note": "Code-feed repass: earlier FAILED[] was stalled code entry (Gmail showed codes, no confirmation). Re-ran, staged code KlgLyP7w after NEED_CODE, page confirmation OK 11:2x."
   },
   {
    "id": "6a5e64b3f3674a0545d28ad3",
@@ -3188,7 +3188,7 @@
    "missing": [
     "What is your current location? Please note we are unable to hire candi"
    ],
-   "note": "Same Upstart location-select blocker as sibling req. Run headed on Mac."
+   "note": "Form fills fully (location rule works now); submit returns no confirmation and no security-code request from cloud IP — silent rejection, retry cap hit. Run headed on Mac."
   },
   {
    "id": "6a9748c5f5337b2cf7321516",
