@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T17:14:36.696Z",
+ "updatedAt": "2026-09-02T17:18:14.264Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -415,7 +415,7 @@
    "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776845?jr_id=6a75d4fa7b3417772ade53aa",
    "addedAt": "2026-08-30",
    "status": "user_manual",
-   "note": "JPMC Oracle Cloud hCaptcha at email gate (verified repeatedly) — personal apply: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776845?jr_id=6a75d4fa7b3417772ade53aa"
+   "note": "RE-VERIFIED 9/2 per user request: email gate accepts address+consent but NEXT pops a visible 520x570 hCaptcha image challenge (not passive). Agent stops at captchas. Apply personally: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776845 — after the captcha an email confirmation code from Gmail completes sign-in."
   },
   {
    "id": "6a8c5995cde3717f9e9bc84d",
@@ -1751,7 +1751,7 @@
    "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210737013?jr_id=69e8ec9058811370cb1290b3",
    "addedAt": "2026-09-01",
    "status": "user_manual",
-   "note": "JPMC Oracle Cloud hCaptcha at email gate (known) — personal apply: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210737013?jr_id=69e8ec9058811370cb1290b3"
+   "note": "RE-VERIFIED 9/2 per user request: email gate accepts address+consent but NEXT pops a visible 520x570 hCaptcha image challenge (not passive). Agent stops at captchas. Apply personally: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210737013 — after the captcha an email confirmation code from Gmail completes sign-in."
   },
   {
    "id": "6a8354ba3eeac101cfa9f0b0",
@@ -2207,7 +2207,7 @@
    "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210777777?jr_id=6a8f66c67c32860d14cf5b45",
    "addedAt": "2026-09-01",
    "status": "user_manual",
-   "note": "JPMC Oracle Cloud hCaptcha at email gate (known) — personal apply: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210777777?jr_id=6a8f66c67c32860d14cf5b45"
+   "note": "RE-VERIFIED 9/2 per user request: email gate accepts address+consent but NEXT pops a visible 520x570 hCaptcha image challenge (not passive). Agent stops at captchas. Apply personally: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210777777 — after the captcha an email confirmation code from Gmail completes sign-in."
   },
   {
    "id": "6a0493126c07461fe170e7ce",
@@ -2762,7 +2762,7 @@
    "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210782302?jr_id=6a9723adb22f636c8141617c",
    "addedAt": "2026-09-02",
    "status": "user_manual",
-   "note": "JPMC Oracle Cloud hCaptcha at email gate (verified repeatedly) — personal apply: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210782302?jr_id=6a9723adb22f636c8141617c"
+   "note": "RE-VERIFIED 9/2 per user request: email gate accepts address+consent but NEXT pops a visible 520x570 hCaptcha image challenge (not passive). Agent stops at captchas. Apply personally: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210782302 — after the captcha an email confirmation code from Gmail completes sign-in."
   },
   {
    "id": "6a956f774d5932306d6ac86e",
