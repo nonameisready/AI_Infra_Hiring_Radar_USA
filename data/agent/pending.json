@@ -258,8 +258,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a3d4bd578237a036d5e0830",
    "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210750956?jr_id=6a3d4bd578237a036d5e0830",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: jpmc.fa.oraclecloud.com"
+   "status": "user_manual",
+   "note": "JPMC Oracle Cloud hCaptcha at email gate (verified repeatedly) — personal apply: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210750956?jr_id=6a3d4bd578237a036d5e0830"
   },
   {
    "id": "6a8f39d03ac3a34f92d8033b",
@@ -414,8 +414,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a75d4fa7b3417772ade53aa",
    "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776845?jr_id=6a75d4fa7b3417772ade53aa",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: jpmc.fa.oraclecloud.com"
+   "status": "user_manual",
+   "note": "JPMC Oracle Cloud hCaptcha at email gate (verified repeatedly) — personal apply: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776845?jr_id=6a75d4fa7b3417772ade53aa"
   },
   {
    "id": "6a8c5995cde3717f9e9bc84d",
@@ -946,8 +946,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a6b9522c00ae03109f84cb1",
    "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210768440?jr_id=6a6b9522c00ae03109f84cb1",
    "addedAt": "2026-08-31",
-   "status": "parked",
-   "note": "platform not automated from cloud: jpmc.fa.oraclecloud.com"
+   "status": "user_manual",
+   "note": "JPMC Oracle Cloud hCaptcha at email gate (verified repeatedly) — personal apply: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210768440?jr_id=6a6b9522c00ae03109f84cb1"
   },
   {
    "id": "6a8490032f4f0014cae216b6",
@@ -1426,8 +1426,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9710c3b22f636c81415a40",
    "atsUrl": "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-New-York-New-York/Senior-Software-Engineer--Full-Stack_JREQ199749-1?jr_id=6a9710c3b22f636c81415a40",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "Workday tenant resolved (thomsonreuters.wd5.myworkdayjobs.com) — queue for agent Workday registration wave"
+   "status": "user_manual",
+   "note": "TR Workday tenant silently ignores Create Account (form valid, checkbox checked, no error, no verification email — PANW pattern, 2-attempt cap). Personal apply: https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-New-York-New-York/Senior-Software-Engineer--Full-Stack_JREQ199749-1?jr_id=6a9710c3b22f636c81415a40"
   },
   {
    "id": "6a51f979bf63b66c7997efa4",
@@ -1474,8 +1474,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a96ee9c246d697dcee02131",
    "atsUrl": "https://nelnet.wd1.myworkdayjobs.com/mynelnet/job/Remote/Sr-Software-Engineer_R23060?jr_id=6a96ee9c246d697dcee02131",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "Workday tenant resolved (nelnet.wd1.myworkdayjobs.com) — queue for agent Workday registration wave"
+   "status": "applied",
+   "note": "submitted via cloud Workday wave 2026-09-02T09:54:34.602Z"
   },
   {
    "id": "6a95dc52cabc9f6703e1a66d",
@@ -1486,8 +1486,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95dc52cabc9f6703e1a66d",
    "atsUrl": "https://remitly.wd5.myworkdayjobs.com/remitly_careers/job/Seattle-Washington-United-States/Senior-Software-Engineer_R_106829?jr_id=6a95dc52cabc9f6703e1a66d",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "Workday tenant resolved (remitly.wd5.myworkdayjobs.com) — queue for agent Workday registration wave"
+   "status": "applied",
+   "note": "submitted 2026-09-02T10:17:55.755Z"
   },
   {
    "id": "69f28bbaab4ec4779fff9b84",
@@ -1774,8 +1774,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69827919348f733a5c355cd4",
    "atsUrl": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Sr-Software-Engineer_JR-011060?jr_id=69827919348f733a5c355cd4",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "Workday tenant resolved (paloaltonetworks.wd5.myworkdayjobs.com) — queue for agent Workday registration wave"
+   "status": "user_manual",
+   "note": "PANW Workday tenant silently rejects agent registrations (2-attempt cap hit 2026-08-31) — personal apply: https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Sr-Software-Engineer_JR-011060?jr_id=69827919348f733a5c355cd4"
   },
   {
    "id": "6a79e474b17cba5690364262",
@@ -1786,8 +1786,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a79e474b17cba5690364262",
    "atsUrl": "https://ghr.wd1.myworkdayjobs.com/lateral-us/job/Charlotte/Software-Engineer-III---Payments-Platforms_26027897-2?jr_id=6a79e474b17cba5690364262",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "Workday tenant resolved (ghr.wd1.myworkdayjobs.com) — queue for agent Workday registration wave"
+   "status": "user_action",
+   "note": "BofA INTERNAL requisition (us-emplsv/lateral-us Workday site; req absent from external careers.bankofamerica.com; source options are employee-only categories). Not externally appliable — as a current BofA contractor, consider routing via your manager or internal mobility. Candidate account ghr.wd1 created+activated 2026-09-02 (standard creds) if ever useful."
   },
   {
    "id": "69fb122f87a4820e6da84a76",
@@ -2470,8 +2470,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a85b262cc81eb647e9eeb19",
    "atsUrl": "https://ghr.wd1.myworkdayjobs.com/us-emplsv/job/Chicago/Sr-Quantitative-Engineer_26024382?jr_id=6a85b262cc81eb647e9eeb19",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: ghr.wd1.myworkdayjobs.com"
+   "status": "user_action",
+   "note": "BofA INTERNAL requisition (us-emplsv/lateral-us Workday site; req absent from external careers.bankofamerica.com; source options are employee-only categories). Not externally appliable — as a current BofA contractor, consider routing via your manager or internal mobility. Candidate account ghr.wd1 created+activated 2026-09-02 (standard creds) if ever useful."
   },
   {
    "id": "6a0bad2f538d03366dc87e0a",
@@ -2634,13 +2634,14 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69173e8c3ea85638ae1c936f",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sezzle&jr_id=69173e8c3ea85638ae1c936f&token=5761148003&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "needs_answers",
+   "status": "dropped",
    "missing": [
     "Do you have an eligible work authorization to work in Latin America?*",
     "Do you have a Bachelor's in computer science or equivalent related exp",
     "What is your English level?*",
     "What is your undergraduate GPA?*"
-   ]
+   ],
+   "note": "LATAM role requires Latin America work authorization — applicant has none (US F-1 CPT/EAD). Honestly ineligible; kept for dedupe."
   },
   {
    "id": "69e96ad33aa0c479643a9cb1",
@@ -2715,11 +2716,12 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a97563ed13b4819f39e0aaa",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=uberfreight&jr_id=6a97563ed13b4819f39e0aaa&token=5393639008&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "needs_answers",
+   "status": "applied",
    "missing": [
     "Are you currently in one of these sponsored statuses: O-1, TN, H1B1, H",
     "Are you currently in student (F-1) or Trainee (J1) status and/or have "
-   ]
+   ],
+   "note": "submitted 2026-09-02T10:17:55.755Z"
   },
   {
    "id": "6a973f87246d697dcee04715",
@@ -2754,8 +2756,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9723adb22f636c8141617c",
    "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210782302?jr_id=6a9723adb22f636c8141617c",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: jpmc.fa.oraclecloud.com"
+   "status": "user_manual",
+   "note": "JPMC Oracle Cloud hCaptcha at email gate (verified repeatedly) — personal apply: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210782302?jr_id=6a9723adb22f636c8141617c"
   },
   {
    "id": "6a956f774d5932306d6ac86e",
@@ -2886,8 +2888,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7f3e4de51a1e18a2411275",
    "atsUrl": "https://ghr.wd1.myworkdayjobs.com/us-emplsv/job/Houston/Python-Developer-III_26029248?jr_id=6a7f3e4de51a1e18a2411275",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: ghr.wd1.myworkdayjobs.com"
+   "status": "user_action",
+   "note": "BofA INTERNAL requisition (us-emplsv/lateral-us Workday site; req absent from external careers.bankofamerica.com; source options are employee-only categories). Not externally appliable — as a current BofA contractor, consider routing via your manager or internal mobility. Candidate account ghr.wd1 created+activated 2026-09-02 (standard creds) if ever useful."
   },
   {
    "id": "6a972f07455eaf6a08c1b17b",
@@ -2910,10 +2912,11 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8e0c79cc0cf27068526e5d",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&jr_id=6a8e0c79cc0cf27068526e5d&token=8062305&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "needs_answers",
+   "status": "applied",
    "missing": [
     "To ensure we can focus fully on our conversation, we use BrightHire to"
-   ]
+   ],
+   "note": "submitted 2026-09-02T10:17:55.755Z"
   },
   {
    "id": "6a8523ddd34f700f87fbc149",
@@ -2976,10 +2979,11 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a526357e726ec56126a2d41",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=planetscale&jr_id=6a526357e726ec56126a2d41&token=4280570009&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "needs_answers",
+   "status": "applied",
    "missing": [
     "Please tell us a little about your background and why you're intereste"
-   ]
+   ],
+   "note": "submitted 2026-09-02T10:17:55.755Z"
   },
   {
    "id": "6a976ff8e4e60e4b8da5e058",
@@ -3038,8 +3042,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8e25b347679c68bf5e6dbe",
    "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210761840?jr_id=6a8e25b347679c68bf5e6dbe",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: jpmc.fa.oraclecloud.com"
+   "status": "user_manual",
+   "note": "JPMC Oracle Cloud hCaptcha at email gate (verified repeatedly) — personal apply: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210761840?jr_id=6a8e25b347679c68bf5e6dbe"
   },
   {
    "id": "6a974fdbd13b4819f39e07d0",
@@ -3185,8 +3189,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9748c5f5337b2cf7321516",
    "atsUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210783392?jr_id=6a9748c5f5337b2cf7321516",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: jpmc.fa.oraclecloud.com"
+   "status": "user_manual",
+   "note": "JPMC Oracle Cloud hCaptcha at email gate (verified repeatedly) — personal apply: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210783392?jr_id=6a9748c5f5337b2cf7321516"
   },
   {
    "id": "6a8ce9662f736c304f2a865a",

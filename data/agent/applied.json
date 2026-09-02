@@ -3958,6 +3958,71 @@
    "appliedAt": "2026-09-02",
    "via": "greenhouse (mac local batch)",
    "detail": "Submitted from the user's home IP by local-batch"
+  },
+  "6a96ee9c246d697dcee02131": {
+   "id": "6a96ee9c246d697dcee02131",
+   "key": "nelnet::sr software engineer",
+   "title": "Sr Software Engineer",
+   "company": "Nelnet",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96ee9c246d697dcee02131",
+   "originalUrl": "https://nelnet.wd1.myworkdayjobs.com/mynelnet/job/Remote/Sr-Software-Engineer_R23060?jr_id=6a96ee9c246d697dcee02131",
+   "status": "applied_direct",
+   "via": "workday (agent account)",
+   "detail": "nelnet.wd1 account created+email-activated by agent 2026-09-02. Source: Job Boards>Specialty Job Board; eligible Yes, proof Yes, sponsorship YES (honest); salary 170,000; start 9/16/2026; EEO: ethnicity declined, gender/hispanic left blank (optional, no decline option); CC-305 declined. Confirmed: jobTasks/completed/application. NOTE: pageFooterNextButton needs coordinate-dispatched synthetic clicks (locator clicks intercepted).",
+   "at": "2026-09-02T09:54:34.602Z"
+  },
+  "6a95dc52cabc9f6703e1a66d": {
+   "id": "6a95dc52cabc9f6703e1a66d",
+   "key": "remitly::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Remitly",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95dc52cabc9f6703e1a66d",
+   "originalUrl": "https://remitly.wd5.myworkdayjobs.com/remitly_careers/job/Seattle-Washington-United-States/Senior-Software-Engineer_R_106829?jr_id=6a95dc52cabc9f6703e1a66d",
+   "status": "applied_direct",
+   "via": "workday (agent account)",
+   "detail": "remitly.wd5 account created+activated 2026-09-02. Source: Career Website>Remitly Careers Site; PwC No, relationship No, sponsorship YES, legal-right-verification Yes, comp $170k, start 9/16; veteran: I am not a veteran (honest); CC-305 declined. Confirmed jobTasks/completed. NOTE: post-submit optional task Change Personal Information left in Candidate Home.",
+   "at": "2026-09-02T10:17:55.755Z"
+  },
+  "6a97563ed13b4819f39e0aaa": {
+   "id": "6a97563ed13b4819f39e0aaa",
+   "key": "uber freight::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Uber Freight",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a97563ed13b4819f39e0aaa",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=uberfreight&jr_id=6a97563ed13b4819f39e0aaa&token=5393639008&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "brain-queue repass: F-1/sponsored-status questions answered honestly (No current H1B-type status; Yes F-1); security code auto-fetched.",
+   "at": "2026-09-02T10:17:55.755Z"
+  },
+  "6a8e0c79cc0cf27068526e5d": {
+   "id": "6a8e0c79cc0cf27068526e5d",
+   "key": "stripe::full stack engineer, link",
+   "title": "Full Stack Engineer, Link",
+   "company": "Stripe",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8e0c79cc0cf27068526e5d",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&jr_id=6a8e0c79cc0cf27068526e5d&token=8062305&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "brain-queue repass: BrightHire interview-recording consent acknowledged; security code auto-fetched.",
+   "at": "2026-09-02T10:17:55.755Z"
+  },
+  "6a526357e726ec56126a2d41": {
+   "id": "6a526357e726ec56126a2d41",
+   "key": "planetscale::software engineer - neki orchestration",
+   "title": "Software Engineer - Neki Orchestration",
+   "company": "PlanetScale",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a526357e726ec56126a2d41",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=planetscale&jr_id=6a526357e726ec56126a2d41&token=4280570009&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "brain-queue repass: background/why-interested essay (honest, resume-grounded); security code auto-fetched.",
+   "at": "2026-09-02T10:17:55.755Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

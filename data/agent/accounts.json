@@ -139,6 +139,24 @@
    "loginEmail": "huiluckylucky@gmail.com",
    "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
    "note": "created 2026-09-01"
+  },
+  {
+   "tenant": "nelnet.wd1.myworkdayjobs.com",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created+email-activated 2026-09-02 by agent"
+  },
+  {
+   "tenant": "ghr.wd1.myworkdayjobs.com",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created+email-activated 2026-09-02 — but BofA reqs are internal-only (us-emplsv/lateral-us); account idle"
+  },
+  {
+   "tenant": "thomsonreuters.wd5.myworkdayjobs.com",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "registration silently rejected 2026-09-02 (no email, no error) — anti-bot; do not retry from cloud"
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."
