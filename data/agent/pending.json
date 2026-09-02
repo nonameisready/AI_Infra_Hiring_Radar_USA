@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T17:18:14.264Z",
+ "updatedAt": "2026-09-02T18:20:42.809Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -910,7 +910,7 @@
    "atsUrl": "https://www.amazon.jobs/en/jobs/10521497/software-development-engineer-ml-symphony?jr_id=6a9536cfc12c90443efce4e8",
    "addedAt": "2026-08-31",
    "status": "user_personal",
-   "note": "Amazon requires identity verification (gov ID + selfie) — personal-only per standing rule; complete or withdraw yourself"
+   "note": "BLOCKED at mandatory Identity Verification: this req requires government-ID photo upload + live camera selfie before submit (job-specific; other 3 Amazon reqs lacked it). Everything before that step is filled and auto-saved — user completes personally at https://account.amazon.jobs/en-US/applicant/jobs/10521497/apply (alias account). Eligibility answers corrected to honest F-1 set (H-1B NO, I-140 NO, CPT YES)."
   },
   {
    "id": "6a94f90f360363009919a5fd",
@@ -2074,8 +2074,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a956d591e895f1294667a77",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10521330/senior-software-development-engineer-amazon-quick?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a956d591e895f1294667a77",
    "addedAt": "2026-09-01",
-   "status": "user_personal",
-   "note": "Company portal requires personal account (www.amazon.jobs) — apply personally: https://www.amazon.jobs/en/jobs/10521330/senior-software-development-engineer-amazon-quick?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a956d591e895f1294667a77"
+   "status": "applied",
+   "note": "result=success; qualification questions honest Yes x6 (7+ yrs since 2018, UPenn CIS MS); eligibility corrected to honest F-1 answers: sponsorship YES, H-1B NO (stale prefill YES fixed), I-140 NO, CPT YES."
   },
   {
    "id": "6a91ec858e59685453378565",
@@ -2158,8 +2158,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8ca52425fc4e7ae3db99b4",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10512775/sr-software-dev-engineer-aws-opensearch-service?jr_id=6a8ca52425fc4e7ae3db99b4",
    "addedAt": "2026-09-01",
-   "status": "user_personal",
-   "note": "Company portal requires personal account (www.amazon.jobs) — apply personally: https://www.amazon.jobs/en/jobs/10512775/sr-software-dev-engineer-aws-opensearch-service?jr_id=6a8ca52425fc4e7ae3db99b4"
+   "status": "applied",
+   "note": "result=success; qualification questions honest Yes x6 (7+ yrs since 2018, UPenn CIS MS); eligibility corrected to honest F-1 answers: sponsorship YES, H-1B NO (stale prefill YES fixed), I-140 NO, CPT YES."
   },
   {
    "id": "6a2a2f04495d985b99427ba8",
@@ -2266,8 +2266,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a97137a246d697dcee0334f",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10512194/software-dev-engineer-iii-aws-elastic-beanstalk?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a97137a246d697dcee0334f",
    "addedAt": "2026-09-01",
-   "status": "user_personal",
-   "note": "Company portal requires personal account (www.amazon.jobs) — apply personally: https://www.amazon.jobs/en/jobs/10512194/software-dev-engineer-iii-aws-elastic-beanstalk?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a97137a246d697dcee0334f"
+   "status": "applied",
+   "note": "result=success; qualification questions honest Yes x6 (7+ yrs since 2018, UPenn CIS MS); eligibility corrected to honest F-1 answers: sponsorship YES, H-1B NO (stale prefill YES fixed), I-140 NO, CPT YES. Jersey City NJ role."
   },
   {
    "id": "6a5e77cd67b2850e77df1594",

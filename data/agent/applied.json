@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T17:14:36.696Z",
+ "updatedAt": "2026-09-02T18:20:42.809Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -4153,6 +4153,45 @@
    "via": "workday",
    "detail": "Submitted right after sibling req via Use My Last Application (prefill carried). Extra question: consented to AI application review. Single-click footer lesson applied (double click creates duplicate phone/address records).",
    "at": "2026-09-02T17:14:36.696Z"
+  },
+  "6a97137a246d697dcee0334f": {
+   "id": "6a97137a246d697dcee0334f",
+   "key": "amazon web services (aws)::software dev engineer iii, aws elastic beanstalk",
+   "title": "Software Dev Engineer III, AWS Elastic Beanstalk",
+   "company": "Amazon Web Services (AWS)",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a97137a246d697dcee0334f",
+   "originalUrl": "https://www.amazon.jobs/en/jobs/10512194/software-dev-engineer-iii-aws-elastic-beanstalk?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a97137a246d697dcee0334f",
+   "status": "applied_direct",
+   "via": "amazon.jobs (alias account, driver)",
+   "detail": "result=success; qualification questions honest Yes x6 (7+ yrs since 2018, UPenn CIS MS); eligibility corrected to honest F-1 answers: sponsorship YES, H-1B NO (stale prefill YES fixed), I-140 NO, CPT YES. Jersey City NJ role.",
+   "at": "2026-09-02T18:20:42.809Z"
+  },
+  "6a8ca52425fc4e7ae3db99b4": {
+   "id": "6a8ca52425fc4e7ae3db99b4",
+   "key": "amazon::sr. software dev engineer, aws opensearch service",
+   "title": "Sr. Software Dev Engineer, AWS OpenSearch Service",
+   "company": "Amazon",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8ca52425fc4e7ae3db99b4",
+   "originalUrl": "https://www.amazon.jobs/en/jobs/10512775/sr-software-dev-engineer-aws-opensearch-service?jr_id=6a8ca52425fc4e7ae3db99b4",
+   "status": "applied_direct",
+   "via": "amazon.jobs (alias account, driver)",
+   "detail": "result=success; qualification questions honest Yes x6 (7+ yrs since 2018, UPenn CIS MS); eligibility corrected to honest F-1 answers: sponsorship YES, H-1B NO (stale prefill YES fixed), I-140 NO, CPT YES.",
+   "at": "2026-09-02T18:20:42.809Z"
+  },
+  "6a956d591e895f1294667a77": {
+   "id": "6a956d591e895f1294667a77",
+   "key": "amazon web services (aws)::senior software development engineer, amazon quick",
+   "title": "Senior Software Development Engineer, Amazon Quick",
+   "company": "Amazon Web Services (AWS)",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a956d591e895f1294667a77",
+   "originalUrl": "https://www.amazon.jobs/en/jobs/10521330/senior-software-development-engineer-amazon-quick?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a956d591e895f1294667a77",
+   "status": "applied_direct",
+   "via": "amazon.jobs (alias account, driver)",
+   "detail": "result=success; qualification questions honest Yes x6 (7+ yrs since 2018, UPenn CIS MS); eligibility corrected to honest F-1 answers: sponsorship YES, H-1B NO (stale prefill YES fixed), I-140 NO, CPT YES.",
+   "at": "2026-09-02T18:20:42.809Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
