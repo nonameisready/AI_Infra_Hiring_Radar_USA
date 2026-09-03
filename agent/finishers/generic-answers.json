@@ -1269,6 +1269,14 @@
   {
    "label": "doordash engineering blog influence|blog influence your decision",
    "prefer": "not at all|none|did not|no influence"
+  },
+  {
+   "label": "open to working \\d+ days onsite|days? onsite in one of our",
+   "prefer": "^yes"
+  },
+  {
+   "label": "require a new h-?1b sponsorship",
+   "prefer": "^yes"
   }
  ],
  "texts": [
