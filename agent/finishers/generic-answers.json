@@ -1277,6 +1277,30 @@
   {
    "label": "require a new h-?1b sponsorship",
    "prefer": "^yes"
+  },
+  {
+   "label": "where do you currently reside",
+   "prefer": "new jersey|united states|new york"
+  },
+  {
+   "label": "\\d\\.?\\d?\\+ years of experience as a backend",
+   "prefer": "^yes"
+  },
+  {
+   "label": "familial or close personal relationship",
+   "prefer": "^no"
+  },
+  {
+   "label": "are you able to work in the united states",
+   "prefer": "^yes"
+  },
+  {
+   "label": "are you located in (sf|the sf|bay area)|located in sf\\/bay",
+   "prefer": "^no"
+  },
+  {
+   "label": "require attendance at quarterly|attendance at .*offsites?",
+   "prefer": "^yes"
   }
  ],
  "texts": [
@@ -1779,6 +1803,14 @@
   {
    "label": "describe one production system you personally designed or scaled",
    "text": "At Bank of America I own an OTC derivatives reporting service end-to-end: design, implementation, deployment, monitoring and alerting, and incident response. I drove reliability work (idempotent consumers, retries, dead-letter queues) and performance tuning, and I am the primary contact when regulatory deadlines are at risk."
+  },
+  {
+   "label": "what is your work authorization status",
+   "text": "F-1 with CPT/EAD work authorization (valid through 05/31/2027); will require H-1B sponsorship in the future."
+  },
+  {
+   "label": "where do you currently reside",
+   "text": "Jersey City, New Jersey, United States"
   }
  ],
  "checkboxes": [
