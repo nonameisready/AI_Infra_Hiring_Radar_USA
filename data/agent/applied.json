@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T18:20:42.809Z",
+ "updatedAt": "2026-09-03T07:31:19.043Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -4192,6 +4192,138 @@
    "via": "amazon.jobs (alias account, driver)",
    "detail": "result=success; qualification questions honest Yes x6 (7+ yrs since 2018, UPenn CIS MS); eligibility corrected to honest F-1 answers: sponsorship YES, H-1B NO (stale prefill YES fixed), I-140 NO, CPT YES.",
    "at": "2026-09-02T18:20:42.809Z"
+  },
+  "6a7b2e55b933773d16be5a86": {
+   "key": "robinhood::senior software engineer, storage platform",
+   "title": "Senior Software Engineer, Storage Platform",
+   "company": "Robinhood",
+   "matchPercent": 93,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7b2e55b933773d16be5a86",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=robinhood&jr_id=6a7b2e55b933773d16be5a86&token=7729019&utm_source=jobright",
+   "appliedAt": "2026-09-03",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Submitted from the user's home IP by local-batch"
+  },
+  "6a985bf7c8ed473c5c763a25": {
+   "key": "buildops::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "BuildOps",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a985bf7c8ed473c5c763a25",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=buildops&jr_id=6a985bf7c8ed473c5c763a25&token=6147599004&utm_source=jobright",
+   "appliedAt": "2026-09-03",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
+  },
+  "6a4788f2c2d11a6a466729ac": {
+   "key": "ondo finance::senior backend engineer",
+   "title": "Senior Backend Engineer",
+   "company": "Ondo Finance",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a4788f2c2d11a6a466729ac",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=ondofinance&jr_id=6a4788f2c2d11a6a466729ac&token=4290673009&utm_source=jobright",
+   "appliedAt": "2026-09-03",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Submitted from the user's home IP by local-batch"
+  },
+  "6a8617892f4f0014cae28338": {
+   "key": "fanduel::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "FanDuel",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8617892f4f0014cae28338",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=fanduel&jr_id=6a8617892f4f0014cae28338&token=8142299&utm_source=jobright",
+   "appliedAt": "2026-09-03",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
+  },
+  "69d02e55cdb525785fba83a9": {
+   "key": "customer.io::senior software engineer, backend",
+   "title": "Senior Software Engineer, Backend",
+   "company": "Customer.io",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69d02e55cdb525785fba83a9",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=customerio&jr_id=69d02e55cdb525785fba83a9&token=7778289&utm_source=jobright",
+   "appliedAt": "2026-09-03",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Submitted from the user's home IP by local-batch"
+  },
+  "6a96ab24d13b4819f39dca5b": {
+   "key": "ondo finance::senior backend engineer (trading infrastructure)",
+   "title": "Senior Backend Engineer (Trading Infrastructure)",
+   "company": "Ondo Finance",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96ab24d13b4819f39dca5b",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=ondofinance&jr_id=6a96ab24d13b4819f39dca5b&token=4339926009&utm_source=jobright",
+   "appliedAt": "2026-09-03",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Submitted from the user's home IP by local-batch"
+  },
+  "6a96ea68246d697dcee01fdb": {
+   "key": "zoominfo::senior software engineer - pa053",
+   "title": "Senior Software Engineer - PA053",
+   "company": "ZoomInfo",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96ea68246d697dcee01fdb",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=zoominfo&jr_id=6a96ea68246d697dcee01fdb&token=8750951002&utm_source=jobright",
+   "appliedAt": "2026-09-03",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
+  },
+  "6a0700be4a0a6a7e7d81f78c": {
+   "key": "roblox::senior software engineer - data infrastructure, safety",
+   "title": "Senior Software Engineer - Data Infrastructure, Safety",
+   "company": "Roblox",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a0700be4a0a6a7e7d81f78c",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=roblox&jr_id=6a0700be4a0a6a7e7d81f78c&token=7852258&utm_source=jobright",
+   "appliedAt": "2026-09-03",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Submitted from the user's home IP by local-batch"
+  },
+  "6a978cdee4e60e4b8da5e6f3": {
+   "key": "step::senior backend software engineer",
+   "title": "Senior Backend Software Engineer",
+   "company": "Step",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a978cdee4e60e4b8da5e6f3",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=step&jr_id=6a978cdee4e60e4b8da5e6f3&token=6173664004&utm_source=jobright",
+   "appliedAt": "2026-09-03",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
+  },
+  "6a84885fd34f700f87fb9396": {
+   "key": "crunchyroll::software engineer iii, playback services",
+   "title": "Software Engineer III, Playback Services",
+   "company": "Crunchyroll",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a84885fd34f700f87fb9396",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=crunchyroll&jr_id=6a84885fd34f700f87fb9396&token=8092597&utm_source=jobright",
+   "appliedAt": "2026-09-03",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
+  },
+  "6a98626daf954907d65730f7": {
+   "key": "flex::senior software engineer - partner integrations",
+   "title": "Senior Software Engineer - Partner Integrations",
+   "company": "Flex",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a98626daf954907d65730f7",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=flex&jr_id=6a98626daf954907d65730f7&token=4730285005&utm_source=jobright",
+   "appliedAt": "2026-09-03",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
+  },
+  "6a6cb2d1acb0a61f9dbc67a7": {
+   "key": "vulncheck::software engineer, rapid response assignment - us",
+   "title": "Software Engineer, Rapid Response Assignment - US",
+   "company": "VulnCheck",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a6cb2d1acb0a61f9dbc67a7",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=vulncheck&jr_id=6a6cb2d1acb0a61f9dbc67a7&token=4329905009&utm_source=jobright",
+   "appliedAt": "2026-09-03",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Submitted from the user's home IP by local-batch"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

@@ -400,3 +400,19 @@ Post-window addendum: Upstart 87 (Marketplace Optimization) recovered via code-f
 User-requested retry: Thomson Reuters 92 (Senior SWE Full Stack, JREQ199749) SUBMITTED from cloud. Key lesson: the 9/2 "silent registration rejection" had actually created the account — Sign in with email worked. Full Workday wizard completed (skills multiselect typeahead, CC-305 decline, sponsorship YES). Next window: try sign-in first on PANW/Walmart/HPE/GoodRx before assuming rejection. All-time 324; today-ET 16.
 PANW sign-in retry (user request): BOTH submitted — Engineer Software Prisma AIRS Backend JR-021371 (92%) + Sr Software Engineer JR-011060. Account pre-existed (user March application JR-015294); silent registration = existing-email rejection. Use My Last Application flow; consented to AI review question on JR-011060. New lesson: double-clicking Workday footer posts twice and corrupts the draft (duplicate records) — single click only. All-time 326; today-ET 18.
 Amazon wave 2 (user request): 3 of 4 submitted via alias account — SDE III AWS Elastic Beanstalk 10512194 (Jersey City NJ), Sr SDE AWS OpenSearch 10512775, Senior SDE Amazon Quick 10521330. Stale profile prefill HOLDING_H-1B=YES / I-140=YES corrected to honest NO/NO (F-1 CPT/EAD) on all. ML Symphony 10521497 blocked by job-specific mandatory identity verification (government ID + live selfie) -> user personal, wizard auto-saved up to that step. All-time 329; today-ET 21.
+
+## 2026-09-03 (Mac local batch, home IP)
+
+12 submitted, 64 parked, 11 queued for Qwen. All-time 341.
+- Robinhood — Senior Software Engineer, Storage Platform (93%) — greenhouse, confirmed
+- BuildOps — Senior Software Engineer (88%) — greenhouse, confirmed
+- Ondo Finance — Senior Backend Engineer (88%) — greenhouse, confirmed
+- FanDuel — Senior Software Engineer (87%) — greenhouse, confirmed
+- Customer.io — Senior Software Engineer, Backend (86%) — greenhouse, confirmed
+- Ondo Finance — Senior Backend Engineer (Trading Infrastructure) (84%) — greenhouse, confirmed
+- ZoomInfo — Senior Software Engineer - PA053 (84%) — greenhouse, confirmed
+- Roblox — Senior Software Engineer - Data Infrastructure, Safety (84%) — greenhouse, confirmed
+- Step — Senior Backend Software Engineer (83%) — greenhouse, confirmed
+- Crunchyroll — Software Engineer III, Playback Services (83%) — greenhouse, confirmed
+- Flex — Senior Software Engineer - Partner Integrations (83%) — greenhouse, confirmed
+- VulnCheck — Software Engineer, Rapid Response Assignment - US (83%) — greenhouse, confirmed
