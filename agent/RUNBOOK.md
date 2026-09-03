@@ -399,7 +399,9 @@ security clearance. NEVER apply to positions or companies that require U.S.
 citizenship, U.S.-person status, or an active/obtainable security clearance
 (defense, military, ITAR-restricted work). Record each such company in
 pending.json as status "dropped" so dedupe never re-queues it. Known so far:
-Anduril Industries, Varda Space Industries, STR, HavocAI. A factual
+Anduril Industries, Varda Space Industries, STR, HavocAI, Palantir Technologies
+(user 2026-09-03: Palantir works with defense/intelligence data — permanently blocklisted,
+never apply to any Palantir posting). A factual
 export-control QUESTION (e.g. Snowflake's U.S.-person classification) is not
 a requirement — answer it honestly and continue.
 

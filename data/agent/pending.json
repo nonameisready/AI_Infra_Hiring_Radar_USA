@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-03T10:39:01.020Z",
+ "updatedAt": "2026-09-03T15:06:31.593Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -2607,13 +2607,13 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a0c53c622d0d34036c93171",
    "atsUrl": "https://jobs.lever.co/palantir/cd2423c6-da68-430c-8be5-0ae7eea36497/apply?utm_source=jobright&jr_id=6a0c53c622d0d34036c93171",
    "addedAt": "2026-09-02",
-   "status": "local replay",
+   "status": "dropped",
    "missing": [
     "Language Skill(s) (Check all that apply) ✱",
     "Which university are you currently attending or did you last attend? Please select \"Other ",
     "Please tell us how you heard about this opportunity. ✱"
    ],
-   "note": "Lever form: Current location typeahead + Language Skills checkbox group unsupported in cloud finisher. Run headed on Mac."
+   "note": "User directive 2026-09-03: Palantir blocklisted (defense/intelligence data). Never apply."
   },
   {
    "id": "6a8629e674e02153f145ae56",
