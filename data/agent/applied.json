@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-03T07:31:19.043Z",
+ "updatedAt": "2026-09-03T09:54:56.538Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -4324,6 +4324,97 @@
    "appliedAt": "2026-09-03",
    "via": "greenhouse (mac local batch)",
    "detail": "Submitted from the user's home IP by local-batch"
+  },
+  "6a7dec770cd4a0703257c86b": {
+   "id": "6a7dec770cd4a0703257c86b",
+   "key": "amazon::software development engineer, ec2 vpc",
+   "title": "Software Development Engineer, EC2 VPC",
+   "company": "Amazon",
+   "matchPercent": 91,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7dec770cd4a0703257c86b",
+   "originalUrl": "https://www.amazon.jobs/en/jobs/10500968/software-development-engineer-ec2-vpc?jr_id=6a7dec770cd4a0703257c86b",
+   "status": "applied_direct",
+   "via": "amazon.jobs (alias account, driver)",
+   "detail": "result=success; qualification honest (Yes set + years selects: >5y dev, >4y architecture, >5y SDLC); eligibility honest F-1 set (sponsorship YES, H-1B NO, CPT YES).",
+   "at": "2026-09-03T09:30:06.752Z"
+  },
+  "6a8629e674e02153f145ae56": {
+   "id": "6a8629e674e02153f145ae56",
+   "key": "amazon::senior software development engineer, customer 360",
+   "title": "Senior Software Development Engineer, Customer 360",
+   "company": "Amazon",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8629e674e02153f145ae56",
+   "originalUrl": "https://www.amazon.jobs/en/jobs/10442997/senior-software-development-engineer-customer-360?jr_id=6a8629e674e02153f145ae56",
+   "status": "applied_direct",
+   "via": "amazon.jobs (alias account, driver)",
+   "detail": "result=success; qualification honest (Yes set + years selects: >5y dev, >4y architecture, >5y SDLC); eligibility honest F-1 set (sponsorship YES, H-1B NO, CPT YES).",
+   "at": "2026-09-03T09:30:06.752Z"
+  },
+  "6a8554dc2f4f0014cae24695": {
+   "id": "6a8554dc2f4f0014cae24695",
+   "key": "amazon web services (aws)::senior software development engineer, ec2 trainium ai infra",
+   "title": "Senior Software Development Engineer, EC2 Trainium AI Infra",
+   "company": "Amazon Web Services (AWS)",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8554dc2f4f0014cae24695",
+   "originalUrl": "https://www.amazon.jobs/en/jobs/10416052/senior-software-development-engineer-ec2-trainium-ai-infra?cmpid=SPLICX0248M&jr_id=6a8554dc2f4f0014cae24695&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "amazon.jobs (alias account, driver)",
+   "detail": "result=success; qualification honest (Yes set + years selects: >5y dev, >4y architecture, >5y SDLC); eligibility honest F-1 set (sponsorship YES, H-1B NO, CPT YES).",
+   "at": "2026-09-03T09:30:06.752Z"
+  },
+  "6a7b4c64ecfd29770753801a": {
+   "id": "6a7b4c64ecfd29770753801a",
+   "key": "salesforce::senior platform software engineer",
+   "title": "Senior Platform Software Engineer",
+   "company": "Salesforce",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7b4c64ecfd29770753801a",
+   "originalUrl": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Senior-Platform-Software-Engineer_JR353388?jr_id=6a7b4c64ecfd29770753801a",
+   "status": "applied_direct",
+   "via": "workday",
+   "detail": "UMLA flow; source Job Board; 9 compliance listboxes answered honestly (Iran/sanctions No — caught and fixed an index-mapping mis-answer before submit); EEO declined; CC-305 do-not-answer. jobTasks/completed.",
+   "at": "2026-09-03T09:54:56.538Z"
+  },
+  "6a971547e4e60e4b8da5bf23": {
+   "id": "6a971547e4e60e4b8da5bf23",
+   "key": "salesforce::software engineering smts",
+   "title": "Software Engineering SMTS",
+   "company": "Salesforce",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a971547e4e60e4b8da5bf23",
+   "originalUrl": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-SMTS_JR352082-1?jr_id=6a971547e4e60e4b8da5bf23",
+   "status": "applied_direct",
+   "via": "workday",
+   "detail": "UMLA clone right after sibling; same honest answers (index map verified, Iran No re-checked on review). jobTasks/completed.",
+   "at": "2026-09-03T09:54:56.538Z"
+  },
+  "6a85ce202f4f0014cae26117": {
+   "id": "6a85ce202f4f0014cae26117",
+   "key": "stackadapt::senior software engineer, creatives",
+   "title": "Senior Software Engineer, Creatives",
+   "company": "StackAdapt",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a85ce202f4f0014cae26117",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stackadapt&jr_id=6a85ce202f4f0014cae26117&token=4369386009&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Cloud repass with new rules: no-AdTech checkbox, honest backend-systems checkboxes, Golang beginner, AI-tools daily; security code auto-fed. OK.",
+   "at": "2026-09-03T09:54:56.538Z"
+  },
+  "6a40d5e6b526a24fc3131338": {
+   "id": "6a40d5e6b526a24fc3131338",
+   "key": "carta::senior software engineer ii, developer experience",
+   "title": "Senior Software Engineer II, Developer Experience",
+   "company": "Carta",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a40d5e6b526a24fc3131338",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=carta&jr_id=6a40d5e6b526a24fc3131338&token=7713882003&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Cloud repass: worked-for-Carta No, AI-evaluation consent Yes; code yqgxw2Fe fed. OK.",
+   "at": "2026-09-03T09:54:56.538Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

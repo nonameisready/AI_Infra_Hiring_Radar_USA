@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-03T07:31:19.043Z",
+ "updatedAt": "2026-09-03T09:54:56.538Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -2559,8 +2559,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7dec770cd4a0703257c86b",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10500968/software-development-engineer-ec2-vpc?jr_id=6a7dec770cd4a0703257c86b",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "status": "applied",
+   "note": "result=success; qualification honest (Yes set + years selects: >5y dev, >4y architecture, >5y SDLC); eligibility honest F-1 set (sponsorship YES, H-1B NO, CPT YES)."
   },
   {
    "id": "6a05b0686c07461fe1718032",
@@ -2624,8 +2624,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8629e674e02153f145ae56",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10442997/senior-software-development-engineer-customer-360?jr_id=6a8629e674e02153f145ae56",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "status": "applied",
+   "note": "result=success; qualification honest (Yes set + years selects: >5y dev, >4y architecture, >5y SDLC); eligibility honest F-1 set (sponsorship YES, H-1B NO, CPT YES)."
   },
   {
    "id": "69173e8c3ea85638ae1c936f",
@@ -2749,8 +2749,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8388492dbaf907b0769705",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10504174/software-development-engineer-leo-autopilot?jr_id=6a8388492dbaf907b0769705",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "status": "dropped",
+   "note": "Amazon Leo export-control requirement: must be US citizen/national/green card/asylee — user is F-1, not eligible. Dropped honestly."
   },
   {
    "id": "6a9723adb22f636c8141617c",
@@ -2773,8 +2773,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a956f774d5932306d6ac86e",
    "atsUrl": "https://www.amazon.jobs/en/jobs/3017401/software-development-engineer-amazon-redshift-query-processing?cmpid=SPLICX0248M&jr_id=6a956f774d5932306d6ac86e&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "status": "dropped",
+   "note": "Posting no longer available on amazon.jobs (job removed)."
   },
   {
    "id": "6a96f8e9f5337b2cf731ef3d",
@@ -2785,8 +2785,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a96f8e9f5337b2cf731ef3d",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10523866/sr-embedded-software-engineer-leo-autopilot?jr_id=6a96f8e9f5337b2cf731ef3d",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "status": "dropped",
+   "note": "Amazon Leo export-control requirement (same as sibling req) — not eligible on F-1."
   },
   {
    "id": "6a8331d69b859b227766d116",
@@ -3003,7 +3003,7 @@
    "atsUrl": "https://www.amazon.jobs/en/jobs/10442900/senior-software-development-engineer-p-s-engineering-services?cmpid=SPLICX0248M&jr_id=6a976ff8e4e60e4b8da5e058&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
    "addedAt": "2026-09-02",
    "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "note": "amazon.jobs application limit reached (result=application_limit_reach) after 3 submissions this window — retry next window."
   },
   {
    "id": "6a974687455eaf6a08c1be87",
@@ -3038,8 +3038,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a96dce0246d697dcee019c6",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10512194/software-dev-engineer-iii-aws-elastic-beanstalk?jr_id=6a96dce0246d697dcee019c6",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "status": "applied",
+   "note": "Duplicate jr-id of req 10512194 (Software Dev Engineer III, AWS Elastic Beanstalk) — submitted 2026-09-02 under jr 6a97137a246d697dcee0334f. Not resubmitted."
   },
   {
    "id": "6a8e25b347679c68bf5e6dbe",
@@ -3125,7 +3125,7 @@
    "atsUrl": "https://www.amazon.jobs/en/jobs/10510493/software-development-engineer-kinesis-data-streams-kinesis-data-streams?jr_id=6a88b0c2cde3717f9e9b691a",
    "addedAt": "2026-09-02",
    "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "note": "amazon.jobs application limit reached (result=application_limit_reach) after 3 submissions this window — retry next window. (same req as jr 6a88e78025fc4e7ae3db2d54 — apply once)"
   },
   {
    "id": "6a8754f94afae74a08347f2e",
@@ -3400,10 +3400,11 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a987475c8ed473c5c7642e8",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=rstudio&jr_id=6a987475c8ed473c5c7642e8&token=7984391003&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
+   "status": "user_manual",
    "missing": [
     "Just to ensure that you're human, on https://p3m.dev, what are there s"
-   ]
+   ],
+   "note": "Form contains an explicit humanity-check question (are-you-human puzzle referencing p3m.dev) — agent answers these to nobody but you. Apply personally: https://job-boards.greenhouse.io/embed/job_app?for=rstudio&jr_id=6a987475c8ed473c5c7642e8&token=7984391003&utm_source=jobright"
   },
   {
    "id": "6a5782c221f64463ad359820",
@@ -3567,8 +3568,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8554dc2f4f0014cae24695",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10416052/senior-software-development-engineer-ec2-trainium-ai-infra?cmpid=SPLICX0248M&jr_id=6a8554dc2f4f0014cae24695&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "status": "applied",
+   "note": "result=success; qualification honest (Yes set + years selects: >5y dev, >4y architecture, >5y SDLC); eligibility honest F-1 set (sponsorship YES, H-1B NO, CPT YES)."
   },
   {
    "id": "6a4d1d7f35e45603c4bb29df",
@@ -3679,7 +3680,7 @@
    "atsUrl": "https://www.amazon.jobs/en/jobs/10520834/sr-software-development-engineer-quick-core-experience?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a92cf1aa27a2d3c9848c264",
    "addedAt": "2026-09-03",
    "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "note": "amazon.jobs application limit reached (result=application_limit_reach) after 3 submissions this window — retry next window."
   },
   {
    "id": "6a76ac8667a1ad0bc53cafd2",
@@ -3738,10 +3739,11 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7a45ffab1385611f8fe6ba",
    "atsUrl": "https://jobs.lever.co/rgi/d2c34a1f-c527-43ee-b4c2-0650afdeb608/apply?utm_source=jobright&jr_id=6a7a45ffab1385611f8fe6ba",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
+   "status": "dropped",
    "missing": [
     "What is your current level of government security clearance? ✱"
-   ]
+   ],
+   "note": "Defense-sector geospatial contractor; application asks current government security clearance level — clearance-gated role, dropped per standing policy."
   },
   {
    "id": "6a971fc3b22f636c81416021",
@@ -3764,7 +3766,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a85ce202f4f0014cae26117",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stackadapt&jr_id=6a85ce202f4f0014cae26117&token=4369386009&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
+   "status": "applied",
    "missing": [
     "What country are you applying from?*",
     "If hired by StackAdapt, do you intend to hold any secondary employment",
@@ -3786,7 +3788,8 @@
     "Other backend system types (not listed)",
     "How would you rate your proficiency in Golang?*",
     "Which statement best describes how you currently use AI tools in work/"
-   ]
+   ],
+   "note": "Cloud repass with new rules: no-AdTech checkbox, honest backend-systems checkboxes, Golang beginner, AI-tools daily; security code auto-fed. OK."
   },
   {
    "id": "6a7b4c64ecfd29770753801a",
@@ -3797,8 +3800,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7b4c64ecfd29770753801a",
    "atsUrl": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Senior-Platform-Software-Engineer_JR353388?jr_id=6a7b4c64ecfd29770753801a",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform not automated from cloud: salesforce.wd12.myworkdayjobs.com"
+   "status": "applied",
+   "note": "UMLA flow; source Job Board; 9 compliance listboxes answered honestly (Iran/sanctions No — caught and fixed an index-mapping mis-answer before submit); EEO declined; CC-305 do-not-answer. jobTasks/completed."
   },
   {
    "id": "69af70906b21de023e608f36",
@@ -3893,8 +3896,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a971547e4e60e4b8da5bf23",
    "atsUrl": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-SMTS_JR352082-1?jr_id=6a971547e4e60e4b8da5bf23",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform not automated from cloud: salesforce.wd12.myworkdayjobs.com"
+   "status": "applied",
+   "note": "UMLA clone right after sibling; same honest answers (index map verified, Iran No re-checked on review). jobTasks/completed."
   },
   {
    "id": "6a85e5a6e459fa3baa864921",
@@ -4185,7 +4188,7 @@
    "atsUrl": "https://www.amazon.jobs/en/jobs/10520050/software-development-engineer-route-53?cmpid=SPLICX0248M&jr_id=6a9387e7a27a2d3c9848e034&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "note": "amazon.jobs application limit reached (result=application_limit_reach) after 3 submissions this window — retry next window."
   },
   {
    "id": "6a447b2657ffc220294076a8",
@@ -4258,7 +4261,7 @@
    "atsUrl": "https://www.amazon.jobs/en/jobs/10510493/software-development-engineer-kinesis-data-streams-kinesis-data-streams?cmpid=SPLICX0248M&jr_id=6a88e78025fc4e7ae3db2d54&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "note": "amazon.jobs application limit reached (result=application_limit_reach) after 3 submissions this window — retry next window. (duplicate jr of req 10510493)"
   },
   {
    "id": "6a40d5e6b526a24fc3131338",
@@ -4269,11 +4272,12 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a40d5e6b526a24fc3131338",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=carta&jr_id=6a40d5e6b526a24fc3131338&token=7713882003&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
+   "status": "applied",
    "missing": [
     "Have you worked for Carta at any other time previously?*",
     "We use AI-powered tools during our evaluation to simulate real-world w"
-   ]
+   ],
+   "note": "Cloud repass: worked-for-Carta No, AI-evaluation consent Yes; code yqgxw2Fe fed. OK."
   },
   {
    "id": "6a96c451455eaf6a08c187e9",

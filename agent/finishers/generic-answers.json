@@ -1169,6 +1169,66 @@
   {
    "label": "none of these apply|citizenship status.*export|export control",
    "prefer": "none of these apply"
+  },
+  {
+   "label": "enrolled in worldquant university",
+   "prefer": "^no"
+  },
+  {
+   "label": "secondary employment",
+   "prefer": "^no"
+  },
+  {
+   "label": "what country are you applying from",
+   "prefer": "united states"
+  },
+  {
+   "label": "proficiency in golang",
+   "prefer": "beginner|basic|limited|novice|no experience|learning|fair"
+  },
+  {
+   "label": "how you currently use ai tools|statement best describes how you.*ai tools",
+   "prefer": "daily|regular|frequent|often|multiple times"
+  },
+  {
+   "label": "worked for carta at any other time",
+   "prefer": "^no"
+  },
+  {
+   "label": "ai.powered tools.*(evaluation|simulate)",
+   "prefer": "^yes|consent|agree|acknowledge"
+  },
+  {
+   "label": "live outside of the united states",
+   "prefer": "^no"
+  },
+  {
+   "label": "previously been an employee of businessolver",
+   "prefer": "^no"
+  },
+  {
+   "label": "currently work for a client of businessolver",
+   "prefer": "^no"
+  },
+  {
+   "label": "experience supporting healthcare related bene",
+   "prefer": "^no"
+  },
+  {
+   "label": "text messaging to help move you through",
+   "prefer": "^yes|agree|consent"
+  },
+  {
+   "label": "visa support to remain legally",
+   "prefer": "^yes"
+  },
+  {
+   "label": "which best describes your backend engineering experience",
+   "prefer": "7|8|5\\+|senior"
+  },
+  {
+   "label": "experience as a software engineer building (adtech|martech)",
+   "prefer": "^no"
   }
  ],
  "texts": [
@@ -1635,6 +1695,42 @@
   {
    "label": "most proficient programming language",
    "text": "Python"
+  },
+  {
+   "label": "where are you currently located",
+   "text": "Jersey City, NJ, United States"
+  },
+  {
+   "label": "who is your current employer",
+   "text": "Bank of America (via Innova Solutions)"
+  },
+  {
+   "label": "middle initial",
+   "text": "N/A"
+  },
+  {
+   "label": "name of your current home state",
+   "text": "New Jersey"
+  },
+  {
+   "label": "current, or most recent, job title|share your current.*job title",
+   "text": "Senior Software Engineer"
+  },
+  {
+   "label": "if you indicated .{0,3}yes.{0,3} to the question above",
+   "text": "N/A"
+  },
+  {
+   "label": "agentic ai experience",
+   "text": "I use AI coding assistants and agentic tools daily in my development workflow (code generation, refactoring, test scaffolding) and have prototyped LLM-driven automation for internal reporting tasks. I have not yet shipped a customer-facing multi-agent product."
+  },
+  {
+   "label": "how many years of relevant working experience",
+   "text": "7"
+  },
+  {
+   "label": "describe one production system you personally designed or scaled",
+   "text": "At Bank of America I own an OTC derivatives reporting service end-to-end: design, implementation, deployment, monitoring and alerting, and incident response. I drove reliability work (idempotent consumers, retries, dead-letter queues) and performance tuning, and I am the primary contact when regulatory deadlines are at risk."
   }
  ],
  "checkboxes": [
@@ -1670,6 +1766,27 @@
   },
   {
    "label": "snowflake will process your personal information|arbitration agreement acknowledgement"
+  },
+  {
+   "label": "^english$"
+  },
+  {
+   "label": "^mandarin( chinese)?$"
+  },
+  {
+   "label": "i have not worked on backend adtech"
+  },
+  {
+   "label": "^highly distributed systems$"
+  },
+  {
+   "label": "^event.driven architectures$"
+  },
+  {
+   "label": "queue.based or messaging systems"
+  },
+  {
+   "label": "batch data processing systems"
   }
  ],
  "manualTriggers": []
