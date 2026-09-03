@@ -163,6 +163,12 @@
    "loginEmail": "huiluckylucky@gmail.com",
    "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
    "note": "WORKS — account pre-existed (user applied JR-015294 in March 2026); the 9/1 silent registration failure was existing-email rejection. Sign in with email path. Applied JR-021371 + JR-011060 on 9/2. CAUTION: click Save-and-Continue exactly ONCE (el.click OR synthetic dispatch, never both) — a double click posts the form twice and corrupts the draft with duplicate phone/address records (error: already exists + required deadlock); fix by reloading the useMyLastApplication URL and re-doing the step with a single click."
+  },
+  {
+   "tenant": "abglobal.wd1.myworkdayjobs.com",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 2026-09-03 by agent, instant (no email activation). Application draft for R0018669 in progress — education typeahead needs residential IP."
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."

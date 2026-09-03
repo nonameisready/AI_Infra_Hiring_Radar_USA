@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-03T10:22:10.134Z",
+ "updatedAt": "2026-09-03T10:39:01.020Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -3247,8 +3247,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a989ef0af954907d657470c",
    "atsUrl": "https://abglobal.wd1.myworkdayjobs.com/alliancebernsteincareers/job/Nashville-Tennessee/Software-Engineer_R0018669-2?jr_id=6a989ef0af954907d657470c",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform not automated from cloud: abglobal.wd1.myworkdayjobs.com"
+   "status": "local replay",
+   "note": "abglobal.wd1 account CREATED+working (no email activation; step-1 all filled: source Other Job Board/Social Network, NJ address, phone). BLOCKED at required Education: School-or-University typeahead returns zero options from datacenter IP (3 attempts, Samaya/GH-Places pattern) and Degree listbox stuck on wrong pick (needs Master Degree). Resume uploaded. Run headed on Mac — draft persists at applyManually."
   },
   {
    "id": "6a463233c2d11a6a4666d05e",

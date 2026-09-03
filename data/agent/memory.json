@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T17:14:36.696Z",
+ "updatedAt": "2026-09-03T10:39:01.020Z",
  "answers": [
   {
    "match": "first\\s*name",
@@ -334,6 +334,11 @@
    "at": "2026-09-02",
    "topic": "workday-double-click-corruption",
    "note": "Workday pageFooterNextButton: never fire synthetic MouseEvents AND el.click() in the same attempt — the form posts twice, creating duplicate phone/address/previous-worker records and a deadlocked draft (field required + already exists). Use el.click() once; if it does not advance, retry once with synthetic dispatch ONLY. Recovery: reload the apply URL (draft persists) and redo the step."
+  },
+  {
+   "at": "2026-09-03",
+   "topic": "workday-school-typeahead",
+   "note": "Workday School/University typeahead (education section) starves from datacenter IPs — returns zero options no matter the timing (AB tenant, 3 attempts). Same class as Greenhouse Location(City)/Google-Places starvation. Education-required Workday tenants must run on the Mac (residential IP). Also: driver cmd files trigger on mtime and are NOT deleted after processing; and only ONE driver.mjs instance runs at a time (second exits 144)."
   }
  ]
 }

@@ -416,3 +416,7 @@ Amazon wave 2 (user request): 3 of 4 submitted via alias account — SDE III AWS
 - Crunchyroll — Software Engineer III, Playback Services (83%) — greenhouse, confirmed
 - Flex — Senior Software Engineer - Partner Integrations (83%) — greenhouse, confirmed
 - VulnCheck — Software Engineer, Rapid Response Assignment - US (83%) — greenhouse, confirmed
+
+## 2026-09-03 — 5am cloud window (merge + Amazon/Workday waves + repass rounds)
+
+Merged Mac 1am batch (12 subs). Cloud additions 10: Amazon EC2 VPC 91 / Customer 360 89 / EC2 Trainium 88 (alias account; then application_limit_reach — 5 reqs parked for next window; Leo x2 dropped on export-control US-person; Redshift posting gone; Elastic Beanstalk jr-dup marked applied). Workday existing accounts: Salesforce Senior Platform 86 + SMTS 85 (UMLA; 9 compliance listboxes verified per-question — caught and fixed a mis-indexed sanctions answer before submit), CrowdStrike Risk Platform 85 (interview-integrity ack affirmed; user interviews personally), BlackRock Data Integrations 84 (visa-details text honest F-1). Qwen-queue repass: StackAdapt 86, Carta 84, WorldQuant 88 submitted; OKX/Amplitude/Syndio/Businessolver to Mac replay after 2-round cap; Posit -> user (humanity-check question); RGi dropped (clearance). AllianceBernstein 95: account created but education school-typeahead starves from cloud IP -> Mac replay. All-time 351; today-ET 22.
