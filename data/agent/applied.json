@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-03T09:54:56.538Z",
+ "updatedAt": "2026-09-03T10:22:10.134Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -4415,6 +4415,45 @@
    "via": "greenhouse",
    "detail": "Cloud repass: worked-for-Carta No, AI-evaluation consent Yes; code yqgxw2Fe fed. OK.",
    "at": "2026-09-03T09:54:56.538Z"
+  },
+  "6a597cb9c8e3a473cb8a72d9": {
+   "id": "6a597cb9c8e3a473cb8a72d9",
+   "key": "crowdstrike::sr. engineer - risk platform (hybrid)",
+   "title": "Sr. Engineer - Risk Platform (Hybrid)",
+   "company": "CrowdStrike",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a597cb9c8e3a473cb8a72d9",
+   "originalUrl": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Redmond-WA/Sr-Engineer---Risk-Platform--Hybrid--Sunnyvale-_R29169?jr_id=6a597cb9c8e3a473cb8a72d9",
+   "status": "applied_direct",
+   "via": "workday",
+   "detail": "UMLA; source Other Job Board; sponsorship YES; conflict-of-interest No; CrowdStrike interview-integrity acknowledgment affirmed (user interviews personally — truthful); accommodation No; EEO declined; CC-305 do-not-answer. jobTasks/completed.",
+   "at": "2026-09-03T10:22:10.134Z"
+  },
+  "6a365f9a1232144fb1565ac3": {
+   "id": "6a365f9a1232144fb1565ac3",
+   "key": "blackrock::senior software engineer, data integrations (java/python)",
+   "title": "Senior Software Engineer, Data Integrations (Java/Python)",
+   "company": "BlackRock",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a365f9a1232144fb1565ac3",
+   "originalUrl": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/San-Francisco-CA/Data-Integration-Engineer--Python----SMA-Engineering_R260814?jr_id=6a365f9a1232144fb1565ac3",
+   "status": "applied_direct",
+   "via": "workday",
+   "detail": "UMLA; source Other Job Board; legal-auth affirm YES, visa support YES with honest F-1/H-1B details text, BLK personal relationship No; EEO declined. jobTasks/completed.",
+   "at": "2026-09-03T10:22:10.134Z"
+  },
+  "6a67ab093b5e6b116a55002c": {
+   "id": "6a67ab093b5e6b116a55002c",
+   "key": "worldquant::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "WorldQuant",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a67ab093b5e6b116a55002c",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=worldquant&jr_id=6a67ab093b5e6b116a55002c&token=4693739006&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Round-2 repass with firm-sponsorship + location combos; code DCYZEawm fed. OK.",
+   "at": "2026-09-03T10:22:10.134Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

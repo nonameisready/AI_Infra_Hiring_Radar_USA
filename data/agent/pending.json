@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-03T09:54:56.538Z",
+ "updatedAt": "2026-09-03T10:22:10.134Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -3451,7 +3451,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8faa82d96ad228f125e551",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=okx&jr_id=6a8faa82d96ad228f125e551&token=7978592003&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
+   "status": "local replay",
    "missing": [
     "What is your notice period to your current employer?*",
     "English",
@@ -3485,7 +3485,8 @@
     "Ukrainian",
     "Vietnamese",
     "Other"
-   ]
+   ],
+   "note": "OKX: notice-period control not matched by cloud finisher after 2 rounds (rule exists; control type unclear). Run headed on Mac."
   },
   {
    "id": "6a8fedf00bd89e205d2481d7",
@@ -3592,13 +3593,14 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a67ab093b5e6b116a55002c",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=worldquant&jr_id=6a67ab093b5e6b116a55002c&token=4693739006&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
+   "status": "applied",
    "missing": [
     "Have you been enrolled in WorldQuant University in the past 12 months?",
     "Will you require the firm's sponsorship to obtain, maintain, or extend",
     "Where are you currently located?*",
     "Who is your current employer?*"
-   ]
+   ],
+   "note": "Round-2 repass with firm-sponsorship + location combos; code DCYZEawm fed. OK."
   },
   {
    "id": "6a98937bdd171c7285793123",
@@ -3908,11 +3910,12 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a85e5a6e459fa3baa864921",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=amplitude&jr_id=6a85e5a6e459fa3baa864921&token=8730197002&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
+   "status": "local replay",
    "missing": [
     "Security code",
     "A verification code was sent to huiluckylucky@gmail.com. To submit you"
-   ]
+   ],
+   "note": "Amplitude: form auto-requests security code in a nonstandard widget; gh-finish never reaches WAITING_FOR_CODE. Run headed on Mac."
   },
   {
    "id": "6a6142eaab9bd4676324a506",
@@ -3947,8 +3950,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a597cb9c8e3a473cb8a72d9",
    "atsUrl": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Redmond-WA/Sr-Engineer---Risk-Platform--Hybrid--Sunnyvale-_R29169?jr_id=6a597cb9c8e3a473cb8a72d9",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform not automated from cloud: crowdstrike.wd5.myworkdayjobs.com"
+   "status": "applied",
+   "note": "UMLA; source Other Job Board; sponsorship YES; conflict-of-interest No; CrowdStrike interview-integrity acknowledgment affirmed (user interviews personally — truthful); accommodation No; EEO declined; CC-305 do-not-answer. jobTasks/completed."
   },
   {
    "id": "6a74a9f1972ac843c6996694",
@@ -4029,12 +4032,13 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a98a01edef18223c8550860",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=syndio&jr_id=6a98a01edef18223c8550860&token=6178939004&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
+   "status": "local replay",
    "missing": [
     "Which best describes your backend engineering experience?*",
     "Describe one production system you personally designed or scaled. What",
     "Will you now or in the future require visa support to remain legally e"
-   ]
+   ],
+   "note": "Syndio: backend-experience select + visa-support control not matched after 2 rounds (combos exist). Run headed on Mac."
   },
   {
    "id": "6a9871b4def18223c854f804",
@@ -4163,8 +4167,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a365f9a1232144fb1565ac3",
    "atsUrl": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/San-Francisco-CA/Data-Integration-Engineer--Python----SMA-Engineering_R260814?jr_id=6a365f9a1232144fb1565ac3",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform not automated from cloud: blackrock.wd1.myworkdayjobs.com"
+   "status": "applied",
+   "note": "UMLA; source Other Job Board; legal-auth affirm YES, visa support YES with honest F-1/H-1B details text, BLK personal relationship No; EEO declined. jobTasks/completed."
   },
   {
    "id": "6a95d7b03843db0159907a4e",
@@ -4324,7 +4328,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7b45463b399d106e4d54ed",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=businessolver&jr_id=6a7b45463b399d106e4d54ed&token=7769658&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
+   "status": "local replay",
    "missing": [
     "Briefly tell me about your Agentic AI experience:*",
     "1.1 Do you live OUTSIDE of the United States? Only U.S. based candidat",
@@ -4336,7 +4340,8 @@
     "2.9 Do you have previous experience supporting healthcare related bene",
     "3.1 Businessolver uses text messaging to help move you through the int",
     "2.5 Do you currently work for a client of Businessolver?*"
-   ]
+   ],
+   "note": "Businessolver: 1.1 live-outside-US control not matched after 2 rounds. Run headed on Mac."
   },
   {
    "id": "6a86bb4025fc4e7ae3da9f6f",
