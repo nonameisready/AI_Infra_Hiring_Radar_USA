@@ -186,23 +186,34 @@ fires again tomorrow either way.
   that password (verification codes read from Gmail), then apply. NEVER ask for or use the
   user's Google account password, and never automate a Google OAuth password prompt.
 
-## Quota mechanics (updated 2026-08-26: 100/day)
+## Quota mechanics (updated 2026-09-03: goal = 100 CONFIRMED submissions/day)
 
-The user's target is up to `dailyCap` (100) engineer applications per day:
+The user's directive (2026-09-03): **100 confirmed submissions per ET day is a GOAL to hit,
+not a ceiling.** `dailyGoalSubmitted` (100) counts confirmed submissions only; `dailyCap`
+(140) is merely a runaway-safety brake on attempts. To make 100 successes realistic, harvest
+at least `dailyHarvestTarget` (150) new eligible jobs per day.
 
 1. **≥ `minMatchPercent` (80) is applied, always** — these are never skipped.
 2. The recommended list lazy-loads: keep scrolling until no new cards appear for 3 rounds,
    not a fixed 12 scrolls. Then also run Jobright's search for each `targetKeywords` term
-   (US, full-time, engineer roles) and merge results by job id.
-3. If still under the cap, continue down the match-sorted list **but never below
-   `fillToCapMinPercent` (70)** — record each job's match in APPLIED.md so lower-match
-   applies are visible.
-4. Dedupe against applied.json at every step; the cap counts *submissions attempted today*,
-   not jobs looked at. Pace with `politeDelayMs`; if any ATS starts rate-limiting or
-   challenging repeatedly, stop for the day and note where you stopped.
-5. Expectation to report honestly: a large share of a 100-job day will land in
-   pending.json (captcha/IP-blocked boards, account-gated ATSes). That is normal — report
-   "X submitted, Y parked manual, Z skipped" rather than pretending 100 submissions.
+   (US, full-time, engineer roles) and merge results by job id. Keep harvesting until the
+   day's new-eligible pool reaches `dailyHarvestTarget` or the sources are exhausted.
+3. If the confirmed count is still under `dailyGoalSubmitted`, continue down the
+   match-sorted list **but never below `fillToCapMinPercent` (70)** — record each job's
+   match in APPLIED.md so lower-match applies are visible. Also work the parked backlog:
+   Workday/Oracle/Amazon parked jobs count toward the goal and are often the cheapest wins
+   (accounts exist, playbooks proven).
+4. **Do not stop at a window boundary while under goal.** After the 1am Mac batch and the
+   5am cloud window, if confirmed-today < 100 and eligible supply remains, keep running
+   additional cloud waves (Workday/Oracle/simple-form ATSes, repass rounds) until the goal
+   is reached, the supply is truly exhausted, or a platform rate-limits (respect per-platform
+   caps: `greenhousePerWindowCap`, Amazon's own application limit, 2-attempt rule per job).
+5. Dedupe against applied.json at every step. Pace with `politeDelayMs`; if any ATS starts
+   rate-limiting or challenging repeatedly, stop **for that platform** and note it — move on
+   to other platforms instead of stopping the day.
+6. Report honestly every window: "X confirmed today (goal 100), Y parked, Z to user" — the
+   goal number is confirmed submissions, never attempts, and shortfalls are reported with
+   the limiting reason (supply, platform blocks, rate limits), never papered over.
 
 ## Site-account policy (updated)
 

@@ -1,13 +1,13 @@
 {
  "minMatchPercent": 80,
- "dailyCap": 100,
+ "dailyCap": 140,
  "jobrightEmail": "huiluckylucky@gmail.com",
  "jobrightBaseUrl": "https://jobright.ai",
  "preferJobrightApply": true,
  "fallbackToOriginalSite": true,
  "politeDelayMs": 4000,
  "runAtUtc": "13:30",
- "notes": "minMatchPercent - every recommendation at or above this is applied, always. dailyCap - target applications per day. When fewer than dailyCap qualify at minMatchPercent, the agent keeps going down the recommended list (match-sorted) and jobright search results for targetKeywords, but never below fillToCapMinPercent. preferJobrightApply - Jobright flow first, company site fallback.",
+ "notes": "minMatchPercent - every recommendation at or above this is applied, always. GOAL SEMANTICS (user, 2026-09-03): dailyGoalSubmitted (100) is the number of CONFIRMED SUBMISSIONS to hit each day — not an attempt ceiling. To get there, harvest at least dailyHarvestTarget (150) new eligible jobs per day (recommendations first, then targetKeywords search, then radarFill), going down the match-sorted list but never below fillToCapMinPercent. dailyCap (140) is only a hard safety brake on attempts so a runaway loop cannot spam. Keep applying across windows (1am Mac + 5am cloud + extra cloud waves) until confirmed submissions for the ET day reach 100 or the eligible supply is exhausted; report the true confirmed count, never attempts.",
  "fillToCapMinPercent": 70,
  "targetKeywords": [
   "engineer",
@@ -34,5 +34,7 @@
  "greenhousePerWindowCap": 45,
  "platformPacingSeconds": 180,
  "costOptimized": true,
- "costNotes": "Single 1:00am ET run. greenhousePerWindowCap is now per-run (one window/day): 45 keeps the old 3x15 daily Greenhouse total with 180s pacing (~2.3h worst case). Batch bookkeeping: commit/push every ~5 confirmations, one consolidated log line per job, one watcher per chunk."
+ "costNotes": "Single 1:00am ET run. greenhousePerWindowCap is now per-run (one window/day): 45 keeps the old 3x15 daily Greenhouse total with 180s pacing (~2.3h worst case). Batch bookkeeping: commit/push every ~5 confirmations, one consolidated log line per job, one watcher per chunk.",
+ "dailyGoalSubmitted": 100,
+ "dailyHarvestTarget": 150
 }

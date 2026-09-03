@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-03T10:39:01.020Z",
+ "updatedAt": "2026-09-03T15:00:17.753Z",
  "answers": [
   {
    "match": "first\\s*name",
@@ -339,6 +339,11 @@
    "at": "2026-09-03",
    "topic": "workday-school-typeahead",
    "note": "Workday School/University typeahead (education section) starves from datacenter IPs — returns zero options no matter the timing (AB tenant, 3 attempts). Same class as Greenhouse Location(City)/Google-Places starvation. Education-required Workday tenants must run on the Mac (residential IP). Also: driver cmd files trigger on mtime and are NOT deleted after processing; and only ONE driver.mjs instance runs at a time (second exits 144)."
+  },
+  {
+   "at": "2026-09-03",
+   "topic": "daily-goal-semantics",
+   "note": "USER DIRECTIVE 2026-09-03: 100 confirmed submissions per ET day is a GOAL to reach, not a ceiling. Harvest >=150 new eligible jobs daily. dailyCap 140 is only a runaway safety brake. Keep running extra waves across the day until confirmed-today hits 100 or supply is exhausted; report confirmed counts with the limiting reason when short. Config keys: dailyGoalSubmitted, dailyHarvestTarget."
   }
  ]
 }
