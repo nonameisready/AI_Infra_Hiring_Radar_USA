@@ -1257,6 +1257,18 @@
   {
    "label": "do you live outside of the united states",
    "prefer": "^no"
+  },
+  {
+   "label": "^degree$|highest degree",
+   "prefer": "master"
+  },
+  {
+   "label": "close relatives.*currently employed|relatives.*employed by",
+   "prefer": "^no"
+  },
+  {
+   "label": "doordash engineering blog influence|blog influence your decision",
+   "prefer": "not at all|none|did not|no influence"
   }
  ],
  "texts": [

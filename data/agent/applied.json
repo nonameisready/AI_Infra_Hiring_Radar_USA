@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-03T10:22:10.134Z",
+ "updatedAt": "2026-09-03T16:33:23.191Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -4454,6 +4454,90 @@
    "via": "greenhouse",
    "detail": "Round-2 repass with firm-sponsorship + location combos; code DCYZEawm fed. OK.",
    "at": "2026-09-03T10:22:10.134Z"
+  },
+  "69ebfc2a0a6e09555304bb46": {
+   "id": "69ebfc2a0a6e09555304bb46",
+   "key": "adyen::senior software engineer - financial products",
+   "title": "Senior Software Engineer - Financial Products",
+   "company": "Adyen",
+   "matchPercent": 92,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69ebfc2a0a6e09555304bb46",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=adyen&jr_id=69ebfc2a0a6e09555304bb46&token=7683100&utm_source=jobright",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=adyen&jr_id=69ebfc2a0a6e09555304bb46&token=7683100&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Top-up batch 9/3 (goal-100 wave): confirmed",
+   "at": "2026-09-03T16:33:23.191Z"
+  },
+  "682b3d6168da7e212927ba1f": {
+   "id": "682b3d6168da7e212927ba1f",
+   "key": "courier health::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Courier Health",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/682b3d6168da7e212927ba1f",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=courierhealth&jr_id=682b3d6168da7e212927ba1f&token=4737873007&utm_source=jobright",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=courierhealth&jr_id=682b3d6168da7e212927ba1f&token=4737873007&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Top-up batch 9/3 (goal-100 wave): confirmed",
+   "at": "2026-09-03T16:33:23.191Z"
+  },
+  "6a96f52ef5337b2cf731eddb": {
+   "id": "6a96f52ef5337b2cf731eddb",
+   "key": "mongodb::senior software engineer, sql engines",
+   "title": "Senior Software Engineer, SQL Engines",
+   "company": "MongoDB",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96f52ef5337b2cf731eddb",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=mongodb&jr_id=6a96f52ef5337b2cf731eddb&token=8161512&utm_source=jobright",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=mongodb&jr_id=6a96f52ef5337b2cf731eddb&token=8161512&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Top-up batch 9/3 (goal-100 wave): confirmed",
+   "at": "2026-09-03T16:33:23.191Z"
+  },
+  "6a8621de4afae74a08343b82": {
+   "id": "6a8621de4afae74a08343b82",
+   "key": "boulevard::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Boulevard",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8621de4afae74a08343b82",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=boulevard&jr_id=6a8621de4afae74a08343b82&token=4678326006&utm_source=jobright",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=boulevard&jr_id=6a8621de4afae74a08343b82&token=4678326006&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Top-up batch 9/3 (goal-100 wave): confirmed",
+   "at": "2026-09-03T16:33:23.191Z"
+  },
+  "6a735ec01ce9647cdbca7a4e": {
+   "id": "6a735ec01ce9647cdbca7a4e",
+   "key": "affirm::senior software engineer, backend (batch infrastructure)",
+   "title": "Senior Software Engineer, Backend (Batch Infrastructure)",
+   "company": "Affirm",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a735ec01ce9647cdbca7a4e",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=affirm&jr_id=6a735ec01ce9647cdbca7a4e&token=7785812003&utm_source=jobright",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=affirm&jr_id=6a735ec01ce9647cdbca7a4e&token=7785812003&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Top-up batch 9/3 (goal-100 wave): confirmed",
+   "at": "2026-09-03T16:33:23.191Z"
+  },
+  "692e19a04c474121999d62d6": {
+   "id": "692e19a04c474121999d62d6",
+   "key": "figma::manager, software engineering - billing",
+   "title": "Manager, Software Engineering - Billing",
+   "company": "Figma",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/692e19a04c474121999d62d6",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=figma&jr_id=692e19a04c474121999d62d6&token=5722244004&utm_source=jobright",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=figma&jr_id=692e19a04c474121999d62d6&token=5722244004&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Top-up batch 9/3 (goal-100 wave): confirmed",
+   "at": "2026-09-03T16:33:23.191Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
