@@ -1229,6 +1229,34 @@
   {
    "label": "experience as a software engineer building (adtech|martech)",
    "prefer": "^no"
+  },
+  {
+   "label": "what is your notice period",
+   "prefer": "2 weeks|immediately|1 week|none|no notice"
+  },
+  {
+   "label": "firm.?s sponsorship to obtain|require the firm.?s sponsorship",
+   "prefer": "^yes"
+  },
+  {
+   "label": "where are you currently located",
+   "prefer": "new jersey|new york|united states"
+  },
+  {
+   "label": "name of your current home state",
+   "prefer": "new jersey"
+  },
+  {
+   "label": "which best describes your backend engineering experience",
+   "prefer": "8\\+|7|6|5|more than|senior|staff"
+  },
+  {
+   "label": "visa support to remain legally|require visa support",
+   "prefer": "^yes"
+  },
+  {
+   "label": "do you live outside of the united states",
+   "prefer": "^no"
   }
  ],
  "texts": [
