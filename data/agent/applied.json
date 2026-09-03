@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-03T16:33:23.191Z",
+ "updatedAt": "2026-09-03T19:18:23.601Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -4538,6 +4538,90 @@
    "via": "greenhouse",
    "detail": "Top-up batch 9/3 (goal-100 wave): confirmed",
    "at": "2026-09-03T16:33:23.191Z"
+  },
+  "6a7cefe1d77e8156a8e352c8": {
+   "id": "6a7cefe1d77e8156a8e352c8",
+   "key": "viant technology::sr. software engineer - ai & data platforms (hybrid)",
+   "title": "Sr. Software Engineer - AI & Data Platforms (Hybrid)",
+   "company": "Viant Technology",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7cefe1d77e8156a8e352c8",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=vianttechnology&jr_id=6a7cefe1d77e8156a8e352c8&token=4354529009&utm_source=jobright",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=vianttechnology&jr_id=6a7cefe1d77e8156a8e352c8&token=4354529009&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Top-up batch 9/3 slice 2: confirmed with auto-fed code",
+   "at": "2026-09-03T19:18:23.601Z"
+  },
+  "6a542ed18576ec69c015248a": {
+   "id": "6a542ed18576ec69c015248a",
+   "key": "rapidfort::senior backend engineer ((python / go)",
+   "title": "Senior Backend Engineer ((Python / Go)",
+   "company": "RAPIDFORT",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a542ed18576ec69c015248a",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=rapidfortinc&jr_id=6a542ed18576ec69c015248a&token=4272902009&utm_source=jobright",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=rapidfortinc&jr_id=6a542ed18576ec69c015248a&token=4272902009&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Top-up batch 9/3 slice 2: confirmed with auto-fed code",
+   "at": "2026-09-03T19:18:23.601Z"
+  },
+  "6a443ce5b156014e414bbf35": {
+   "id": "6a443ce5b156014e414bbf35",
+   "key": "upstart::senior software engineer, white label platform",
+   "title": "Senior Software Engineer, White Label Platform",
+   "company": "Upstart",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a443ce5b156014e414bbf35",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=upstart&jr_id=6a443ce5b156014e414bbf35&token=8039664&utm_source=jobright",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=upstart&jr_id=6a443ce5b156014e414bbf35&token=8039664&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Top-up batch 9/3 slice 2: confirmed with auto-fed code",
+   "at": "2026-09-03T19:18:23.601Z"
+  },
+  "6a992fd4138838706058cbac": {
+   "id": "6a992fd4138838706058cbac",
+   "key": "cleerly::software engineer iii",
+   "title": "Software Engineer III",
+   "company": "Cleerly",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a992fd4138838706058cbac",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cleerlyhealth&jr_id=6a992fd4138838706058cbac&token=6118783004&utm_source=jobright",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cleerlyhealth&jr_id=6a992fd4138838706058cbac&token=6118783004&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Top-up batch 9/3 slice 2: confirmed with auto-fed code",
+   "at": "2026-09-03T19:18:23.601Z"
+  },
+  "6a85aaf6d34f700f87fbd935": {
+   "id": "6a85aaf6d34f700f87fbd935",
+   "key": "project44::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "project44",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a85aaf6d34f700f87fbd935",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=project44&jr_id=6a85aaf6d34f700f87fbd935&token=8139208&utm_source=jobright",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=project44&jr_id=6a85aaf6d34f700f87fbd935&token=8139208&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Top-up batch 9/3 slice 2: confirmed with auto-fed code",
+   "at": "2026-09-03T19:18:23.601Z"
+  },
+  "6a88856ce8b6601d12907360": {
+   "id": "6a88856ce8b6601d12907360",
+   "key": "cloudflare::senior software engineer - quicksilver - distributed key value",
+   "title": "Senior Software Engineer - Quicksilver - Distributed Key Value",
+   "company": "Cloudflare",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a88856ce8b6601d12907360",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cloudflare&jr_id=6a88856ce8b6601d12907360&token=8140310&utm_source=jobright",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cloudflare&jr_id=6a88856ce8b6601d12907360&token=8140310&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Top-up batch 9/3 slice 2: confirmed with auto-fed code",
+   "at": "2026-09-03T19:18:23.601Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
