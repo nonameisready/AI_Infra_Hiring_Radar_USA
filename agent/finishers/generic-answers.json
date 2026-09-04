@@ -1353,6 +1353,26 @@
   {
    "label": "how did you first hear about|how did you find this position",
    "prefer": "job board|online|search|other"
+  },
+  {
+   "label": "require any reasonable accommodations",
+   "prefer": "^no"
+  },
+  {
+   "label": "what state will you be working|state will you be working\\/residing",
+   "prefer": "new jersey|new york"
+  },
+  {
+   "label": "comfortable working within our time zone",
+   "prefer": "^yes"
+  },
+  {
+   "label": "hands-on experience designing schemas",
+   "prefer": "^yes"
+  },
+  {
+   "label": "which primary backend (language|stack)",
+   "prefer": "python|java"
   }
  ],
  "texts": [
@@ -1887,6 +1907,18 @@
   {
    "label": "what ci\\/cd tools have you",
    "text": "Jenkins and GitLab CI at work; GitHub Actions on personal projects."
+  },
+  {
+   "label": "what's your postal code|what is your postal code",
+   "text": "07306"
+  },
+  {
+   "label": "location and the country of tax residence",
+   "text": "Jersey City, NJ, USA — US tax resident"
+  },
+  {
+   "label": "which primary backend language\\/stack are you most proficient",
+   "text": "Python (with Java as a strong second)"
   }
  ],
  "checkboxes": [
