@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T23:20:00Z",
+ "updatedAt": "2026-09-05T01:00:00Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -8981,8 +8981,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a48b8284f64ba41dcb5956f",
    "atsUrl": "https://pru.wd5.myworkdayjobs.com/careers/job/Newark-NJ-USA/Senior-Software-Engineer---MDM---RDM---API-Development_R-123774-1?jr_id=6a48b8284f64ba41dcb5956f",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "platform not automated from cloud: pru.wd5.myworkdayjobs.com"
+   "status": "local replay",
+   "note": "platform not automated from cloud: pru.wd5.myworkdayjobs.com | 9/4 cloud: pru.wd5 registration silently rejected (primary+fallback pw, no email); datacenter IP block - replay on Mac"
   },
   {
    "id": "6a7c8bacd77e8156a8e325e2",
@@ -9065,18 +9065,6 @@
    "note": "platform not automated from cloud: careers.smbcgroup.com"
   },
   {
-   "id": "6a99908d138838706058e85a",
-   "key": "td::software engineer iii (typescript, java, python, ai) (us)",
-   "title": "Software Engineer III (Typescript, Java, Python, AI) (US)",
-   "company": "TD",
-   "matchPercent": 87,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a99908d138838706058e85a",
-   "atsUrl": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/Software-Engineer-III--Typescript--Java--Python--AI---US-_R_1492088?source=jobright&jr_id=6a99908d138838706058e85a",
-   "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "platform not automated from cloud: td.wd3.myworkdayjobs.com"
-  },
-  {
    "id": "6a8725f5e8b6601d12901e23",
    "key": "workday::software development engineer--pipedream connect",
    "title": "Software Development Engineer--Pipedream Connect",
@@ -9113,18 +9101,6 @@
    "missing": [
     "Location (City)*"
    ]
-  },
-  {
-   "id": "6a84865958ded76ad8fe7bfb",
-   "key": "western alliance bank::senior software engineer",
-   "title": "Senior Software Engineer",
-   "company": "Western Alliance Bank",
-   "matchPercent": 87,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a84865958ded76ad8fe7bfb",
-   "atsUrl": "https://westernalliancebank.wd5.myworkdayjobs.com/dst/job/Columbus-OH/Senior-Software-Engineer_R13622-2?jr_id=6a84865958ded76ad8fe7bfb",
-   "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "platform not automated from cloud: westernalliancebank.wd5.myworkdayjobs.com"
   },
   {
    "id": "6a99dc27551435518ebf1b08",

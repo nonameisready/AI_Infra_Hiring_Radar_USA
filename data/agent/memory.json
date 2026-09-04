@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T16:50:00Z",
+ "updatedAt": "2026-09-04T23:45:00Z",
  "answers": [
   {
    "match": "first\\s*name",
@@ -359,6 +359,11 @@
    "key": "nvidia-wd5-registration-block",
    "at": "2026-09-04",
    "note": "nvidia.wd5 Create Account silently bounces back to sign-in chooser from cloud IP (no email sent, sign-in then fails). Tried primary + fallback passwords. Route NVIDIA Workday jobs to Mac."
+  },
+  {
+   "key": "pru-wd5-registration-block",
+   "at": "2026-09-04",
+   "note": "pru.wd5 (Prudential) Create Account silently bounces to login; both passwords rejected at sign-in. Same pattern as nvidia.wd5. Route to Mac."
   }
  ]
 }

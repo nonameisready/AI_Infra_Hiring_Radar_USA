@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T23:20:00Z",
+ "updatedAt": "2026-09-05T01:00:00Z",
  "note": "Company ATS accounts the agent registered for the applicant. Passwords are NEVER stored here or anywhere in the repo — every account uses the email below plus the password in the ATS_ACCOUNT_PASSWORD environment variable (Claude Code env settings). To apply to a company already listed: sign in with these credentials instead of registering again.",
  "loginEmail": "huiluckylucky@gmail.com",
  "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
@@ -271,6 +271,18 @@
    "loginEmail": "huiluckylucky@gmail.com",
    "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
    "note": "created 9/4 instantly; applied R0959944. Trap: source multiselect pre-adds IndeedEasyApply pill - remove via pill.focus()+Delete key. 12-question screener; salary is a range listbox."
+  },
+  {
+   "tenant": "td.wd3.myworkdayjobs.com/TD_Bank_Careers",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4; email activation. Applied R_1492088. Listboxes need retry-open (focus+click up to 3x); options are verbose sentences - match by ^Yes/^No prefix."
+  },
+  {
+   "tenant": "westernalliancebank.wd5.myworkdayjobs.com/dst",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4; email activation. Applied R13622-2."
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."

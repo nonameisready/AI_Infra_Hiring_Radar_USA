@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T23:20:00Z",
+ "updatedAt": "2026-09-05T01:00:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -5221,6 +5221,32 @@
    "via": "cloud-workday-driver",
    "detail": "R0959944 submitted 2026-09-04 via new cvshealth.wd1 account. Both sponsorship questions Yes (F-1 CPT listed); salary range $140-160k; source Internet - Job Boards/Search Engines (removed IndeedEasyApply default pill via pill focus+Delete).",
    "at": "2026-09-04T23:20:00Z"
+  },
+  "6a99908d138838706058e85a": {
+   "id": "6a99908d138838706058e85a",
+   "key": "td::software engineer iii (typescript, java, python, ai) (us)",
+   "title": "Software Engineer III (Typescript, Java, Python, AI) (US)",
+   "company": "TD",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a99908d138838706058e85a",
+   "originalUrl": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/Software-Engineer-III--Typescript--Java--Python--AI---US-_R_1492088?source=jobright&jr_id=6a99908d138838706058e85a",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "R_1492088 submitted 2026-09-04 via new td.wd3 account (email activation). 11 verbose Yes/No screeners; PEP question No; hours 40; source Search Engine.",
+   "at": "2026-09-05T00:30:00Z"
+  },
+  "6a84865958ded76ad8fe7bfb": {
+   "id": "6a84865958ded76ad8fe7bfb",
+   "key": "western alliance bank::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Western Alliance Bank",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a84865958ded76ad8fe7bfb",
+   "originalUrl": "https://westernalliancebank.wd5.myworkdayjobs.com/dst/job/Columbus-OH/Senior-Software-Engineer_R13622-2?jr_id=6a84865958ded76ad8fe7bfb",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "R13622-2 submitted 2026-09-04 via new westernalliancebank.wd5 account (email activation). Source Career Websites > Corporate Website; comp text field (watch: first textarea is relative-name).",
+   "at": "2026-09-05T01:00:00Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
