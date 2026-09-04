@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-03T23:47:26.858Z",
+ "updatedAt": "2026-09-04T03:55:31.140Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -5023,8 +5023,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a97238ee4e60e4b8da5c4b6",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=doordashusa&jr_id=6a97238ee4e60e4b8da5c4b6&token=8171620&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
-   "note": "missing: [\"How much did content from the DoorDash Engineering blog influence your\"]"
+   "status": "applied",
+   "note": "repass confirmed"
   },
   {
    "id": "6a9951148a8b765bc55f26d6",

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-03T23:47:26.858Z",
+ "updatedAt": "2026-09-04T03:55:31.140Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -4818,6 +4818,32 @@
    "via": "greenhouse",
    "detail": "Top-up batch 9/3 slice 3: confirmed with auto-fed code",
    "at": "2026-09-03T23:47:26.858Z"
+  },
+  "coinbase-li-resolved": {
+   "id": "coinbase-li-resolved",
+   "key": "coinbase::senior software engineer, backend - platform (core ai automation)",
+   "title": "Senior Software Engineer, Backend - Platform (Core AI Automation)",
+   "company": "Coinbase",
+   "matchPercent": 87,
+   "jobrightUrl": "",
+   "originalUrl": "https://boards.greenhouse.io/embed/job_app?for=coinbase&token=8051871",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Needs-answers repass 9/3: blog-influence rule matched; confirmed.",
+   "at": "2026-09-04T03:55:31.140Z"
+  },
+  "6a97238ee4e60e4b8da5c4b6": {
+   "id": "6a97238ee4e60e4b8da5c4b6",
+   "key": "doordash::software engineer, data and ai platform",
+   "title": "Software Engineer, Data and AI Platform",
+   "company": "DoorDash",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a97238ee4e60e4b8da5c4b6",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=doordashusa&jr_id=6a97238ee4e60e4b8da5c4b6&token=8171620&utm_source=jobright",
+   "status": "applied_direct",
+   "via": "greenhouse",
+   "detail": "Needs-answers repass 9/3: blog-influence rule matched; confirmed.",
+   "at": "2026-09-04T03:55:31.140Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
