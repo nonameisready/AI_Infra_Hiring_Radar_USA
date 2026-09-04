@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-05T01:00:00Z",
+ "updatedAt": "2026-09-05T02:10:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -5247,6 +5247,32 @@
    "via": "cloud-workday-driver",
    "detail": "R13622-2 submitted 2026-09-04 via new westernalliancebank.wd5 account (email activation). Source Career Websites > Corporate Website; comp text field (watch: first textarea is relative-name).",
    "at": "2026-09-05T01:00:00Z"
+  },
+  "6a95c9b4c8763a3a87ffc09f": {
+   "id": "6a95c9b4c8763a3a87ffc09f",
+   "key": "mastercard::senior software engineer - java",
+   "title": "Senior Software Engineer - Java",
+   "company": "Mastercard",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95c9b4c8763a3a87ffc09f",
+   "originalUrl": "https://mastercard.wd1.myworkdayjobs.com/corporatecareers/job/OFallon-Missouri/Senior-Software-Engineer---Java_R-289291?jr_id=6a95c9b4c8763a3a87ffc09f",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "R-289291 submitted 2026-09-04/05 via new mastercard.wd1 account (silent registration + sign-in). Outside-activity disclosed honestly (EarningsStory/Adscream side projects).",
+   "at": "2026-09-05T02:10:00Z"
+  },
+  "6a98a028def18223c8550864": {
+   "id": "6a98a028def18223c8550864",
+   "key": "mastercard::senior full stack software engineer",
+   "title": "Senior Full Stack Software Engineer",
+   "company": "Mastercard",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a98a028def18223c8550864",
+   "originalUrl": "https://mastercard.wd1.myworkdayjobs.com/corporatecareers/job/OFallon-Missouri/Senior-Full-Stack-Software-Engineer_R-289068?jr_id=6a98a028def18223c8550864",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "R-289068 submitted 2026-09-04/05 via new mastercard.wd1 account (silent registration + sign-in). Outside-activity disclosed honestly (EarningsStory/Adscream side projects).",
+   "at": "2026-09-05T02:10:00Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

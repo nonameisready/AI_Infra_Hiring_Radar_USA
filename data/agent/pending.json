@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-05T01:00:00Z",
+ "updatedAt": "2026-09-05T02:10:00Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -2328,18 +2328,6 @@
    "addedAt": "2026-09-01",
    "status": "user_personal",
    "note": "Company portal requires personal account (www.google.com) — apply personally: https://www.google.com/about/careers/applications/jobs/results/116935881851314886-senior-software-engineer-performance-google-cloud-performance?page=122&jr_id=6a8f856bd96ad228f125df53"
-  },
-  {
-   "id": "6a95c9b4c8763a3a87ffc09f",
-   "key": "mastercard::senior software engineer - java",
-   "title": "Senior Software Engineer - Java",
-   "company": "Mastercard",
-   "matchPercent": 86,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a95c9b4c8763a3a87ffc09f",
-   "atsUrl": "https://mastercard.wd1.myworkdayjobs.com/corporatecareers/job/OFallon-Missouri/Senior-Software-Engineer---Java_R-289291?jr_id=6a95c9b4c8763a3a87ffc09f",
-   "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "Existing mastercard.wd1 account; sign-in silently no-ops from cloud 2026-09-02 (2-attempt cap) — retry next window or Mac."
   },
   {
    "id": "6a509cfcddd293054ccaa3f4",
@@ -5301,18 +5289,6 @@
    "addedAt": "2026-09-03",
    "status": "parked",
    "note": "platform: www.linkedin.com"
-  },
-  {
-   "id": "6a98a028def18223c8550864",
-   "key": "mastercard::senior full stack software engineer",
-   "title": "Senior Full Stack Software Engineer",
-   "company": "Mastercard",
-   "matchPercent": 82,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a98a028def18223c8550864",
-   "atsUrl": "https://mastercard.wd1.myworkdayjobs.com/corporatecareers/job/OFallon-Missouri/Senior-Full-Stack-Software-Engineer_R-289068?jr_id=6a98a028def18223c8550864",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: mastercard.wd1.myworkdayjobs.com"
   },
   {
    "id": "6a978ba1e4e60e4b8da5e588",
