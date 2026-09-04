@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T13:56:19.269Z",
+ "updatedAt": "2026-09-04T14:00:19.064Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -4909,6 +4909,32 @@
    "via": "workday",
    "detail": "9/4: UMLA clone of L5; same honest answers; jobTasks/completed.",
    "at": "2026-09-04T13:56:19.269Z"
+  },
+  "6a7642dcbb6ca93ae5611b53": {
+   "id": "6a7642dcbb6ca93ae5611b53",
+   "key": "netflix::software engineer 4 - finance and tax technology",
+   "title": "Software Engineer 4 - Finance and Tax Technology",
+   "company": "Netflix",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7642dcbb6ca93ae5611b53",
+   "originalUrl": "https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Software-Engineer-4---Finance-and-Tax-Technology_JR41999?jr_id=6a7642dcbb6ca93ae5611b53",
+   "status": "applied_direct",
+   "via": "workday",
+   "detail": "9/4 UMLA chain; jobTasks/completed.",
+   "at": "2026-09-04T14:00:19.064Z"
+  },
+  "6a7b4e9c77e6b569c61bfa24": {
+   "id": "6a7b4e9c77e6b569c61bfa24",
+   "key": "netflix::full stack software engineer 4 - content promotion and distribution",
+   "title": "Full Stack Software Engineer 4 - Content Promotion and Distribution",
+   "company": "Netflix",
+   "matchPercent": 74,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7b4e9c77e6b569c61bfa24",
+   "originalUrl": "https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Full-Stack-Software-Engineer-4---Content-Promotion-and-Distribution_JR42055?jr_id=6a7b4e9c77e6b569c61bfa24",
+   "status": "applied_direct",
+   "via": "workday",
+   "detail": "9/4 UMLA chain; jobTasks/completed.",
+   "at": "2026-09-04T14:00:19.064Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
