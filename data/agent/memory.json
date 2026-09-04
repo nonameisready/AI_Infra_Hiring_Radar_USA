@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T23:45:00Z",
+ "updatedAt": "2026-09-05T03:00:00Z",
  "answers": [
   {
    "match": "first\\s*name",
@@ -364,6 +364,11 @@
    "key": "pru-wd5-registration-block",
    "at": "2026-09-04",
    "note": "pru.wd5 (Prudential) Create Account silently bounces to login; both passwords rejected at sign-in. Same pattern as nvidia.wd5. Route to Mac."
+  },
+  {
+   "key": "fmr-wd1-registration-block",
+   "at": "2026-09-04",
+   "note": "fmr.wd1 (Fidelity) Create Account silently bounces; both passwords rejected. Same as nvidia.wd5/pru.wd5. Route to Mac."
   }
  ]
 }

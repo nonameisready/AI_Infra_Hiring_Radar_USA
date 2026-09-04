@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-05T02:10:00Z",
+ "updatedAt": "2026-09-05T02:45:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -5273,6 +5273,19 @@
    "via": "cloud-workday-driver",
    "detail": "R-289068 submitted 2026-09-04/05 via new mastercard.wd1 account (silent registration + sign-in). Outside-activity disclosed honestly (EarningsStory/Adscream side projects).",
    "at": "2026-09-05T02:10:00Z"
+  },
+  "6a6bca2a5c54bc4752ceafb8": {
+   "id": "6a6bca2a5c54bc4752ceafb8",
+   "key": "waystar::sr software engineer i",
+   "title": "Sr Software Engineer I",
+   "company": "Waystar",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a6bca2a5c54bc4752ceafb8",
+   "originalUrl": "https://waystar.wd1.myworkdayjobs.com/waystar/job/Lehi-UT/Sr-Specialist-Application-Engineer_R3261-1?jr_id=6a6bca2a5c54bc4752ceafb8",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "R3261-1 submitted 2026-09-04 (ET) via new waystar.wd1 account (instant). Sponsorship Yes x2 + description texts; basecamp Lehi UT; relocate + hybrid-schedule Yes. CC-305 date must be 09/04 (ET today).",
+   "at": "2026-09-05T02:45:00Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

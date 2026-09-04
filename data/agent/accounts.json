@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-05T02:10:00Z",
+ "updatedAt": "2026-09-05T02:45:00Z",
  "note": "Company ATS accounts the agent registered for the applicant. Passwords are NEVER stored here or anywhere in the repo — every account uses the email below plus the password in the ATS_ACCOUNT_PASSWORD environment variable (Claude Code env settings). To apply to a company already listed: sign in with these credentials instead of registering again.",
  "loginEmail": "huiluckylucky@gmail.com",
  "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
@@ -289,6 +289,12 @@
    "loginEmail": "huiluckylucky@gmail.com",
    "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
    "note": "created 9/4 (silent registration, sign-in works). Applied R-289291 + R-289068 (UMLA). Conflict-of-interest questionnaire: outside employment disclosed Yes + description."
+  },
+  {
+   "tenant": "waystar.wd1.myworkdayjobs.com/waystar",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4 instantly; applied R3261-1."
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."

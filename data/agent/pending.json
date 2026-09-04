@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-05T02:10:00Z",
+ "updatedAt": "2026-09-05T03:00:00Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -4319,18 +4319,6 @@
    "note": "platform: hirevouch.catsone.com"
   },
   {
-   "id": "6a6bca2a5c54bc4752ceafb8",
-   "key": "waystar::sr software engineer i",
-   "title": "Sr Software Engineer I",
-   "company": "Waystar",
-   "matchPercent": 89,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a6bca2a5c54bc4752ceafb8",
-   "atsUrl": "https://waystar.wd1.myworkdayjobs.com/waystar/job/Lehi-UT/Sr-Specialist-Application-Engineer_R3261-1?jr_id=6a6bca2a5c54bc4752ceafb8",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: waystar.wd1.myworkdayjobs.com"
-  },
-  {
    "id": "6a98673811f73b6462c8e6e7",
    "key": "amazon::software development engineer, devx lift",
    "title": "Software Development Engineer, DevX LIFT",
@@ -4363,8 +4351,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a998acb040e5c3d07596dd5",
    "atsUrl": "https://fmr.wd1.myworkdayjobs.com/fidelitycareers/job/Durham-NC/Senior-Software-Engineer-Developer_2134847?jr_id=6a998acb040e5c3d07596dd5",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: fmr.wd1.myworkdayjobs.com"
+   "status": "local replay",
+   "note": "platform: fmr.wd1.myworkdayjobs.com | 9/4 cloud: fmr.wd1 registration silently rejected (primary+fallback pw) - datacenter IP block; replay on Mac"
   },
   {
    "id": "6a60d2f4f0358056fcac049c",
