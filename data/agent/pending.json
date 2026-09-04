@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T18:40:00Z",
+ "updatedAt": "2026-09-04T20:50:00Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -8783,18 +8783,6 @@
    "note": "platform: jobs.ashbyhq.com"
   },
   {
-   "id": "6a999c24ad752e2ad55008b3",
-   "key": "wells fargo::senior software engineer",
-   "title": "Senior Software Engineer",
-   "company": "Wells Fargo",
-   "matchPercent": 96,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a999c24ad752e2ad55008b3",
-   "atsUrl": "https://wf.wd1.myworkdayjobs.com/wellsfargojobs/job/CHARLOTTE-NC/Senior-Software-Engineer_R-571292?jr_id=6a999c24ad752e2ad55008b3",
-   "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "platform not automated from cloud: wf.wd1.myworkdayjobs.com"
-  },
-  {
    "id": "6a9a3a4a040e5c3d0759b2ef",
    "key": "drw::senior software engineer, finance (clojure)",
    "title": "Senior Software Engineer, Finance (Clojure)",
@@ -8841,18 +8829,6 @@
    "addedAt": "2026-09-04",
    "status": "parked",
    "note": "platform not automated from cloud: career-schwab.icims.com"
-  },
-  {
-   "id": "6a99f4048a8b765bc55f6804",
-   "key": "northwestern mutual::senior software engineer",
-   "title": "Senior Software Engineer",
-   "company": "Northwestern Mutual",
-   "matchPercent": 92,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a99f4048a8b765bc55f6804",
-   "atsUrl": "https://northwesternmutual.wd5.myworkdayjobs.com/corporate-careers/job/Milwaukee-WI-Corporate/Senior-Software-Engineer_JR-45985-1?jr_id=6a99f4048a8b765bc55f6804",
-   "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "platform not automated from cloud: northwesternmutual.wd5.myworkdayjobs.com"
   },
   {
    "id": "696e8497db26b61895116267",

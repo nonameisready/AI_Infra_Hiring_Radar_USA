@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T17:40:00Z",
+ "updatedAt": "2026-09-04T20:50:00Z",
  "note": "Company ATS accounts the agent registered for the applicant. Passwords are NEVER stored here or anywhere in the repo — every account uses the email below plus the password in the ATS_ACCOUNT_PASSWORD environment variable (Claude Code env settings). To apply to a company already listed: sign in with these credentials instead of registering again.",
  "loginEmail": "huiluckylucky@gmail.com",
  "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
@@ -241,6 +241,18 @@
    "loginEmail": "huiluckylucky@gmail.com",
    "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
    "note": "created 9/4 (silent registration redirect to login, sign-in works). Applied 2021235. Ethnicity list is granular Asian: <country> with double space - pick Chinese. Trap: /^asian/ matches Bruneian first."
+  },
+  {
+   "tenant": "wf.wd1.myworkdayjobs.com/wellsfargojobs",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4 (register redirects to bare login; sign-in works). Applied R-571292. Quirks: phone type list has no Mobile (use Personal Cell); some listboxes only open via focus()+.click(); options need coordinate-dispatch clicks; source picked via type-filter then Other Source."
+  },
+  {
+   "tenant": "northwesternmutual.wd5.myworkdayjobs.com/corporate-careers",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4 instantly; applied JR-45985-1. School typeahead functional from cloud. Ethnicity is checkbox list (Declined to Answer). Screener answers are graded (all/most/some/none). Source: NM Careers Website leaf."
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."

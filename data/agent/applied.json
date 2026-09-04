@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T18:40:00Z",
+ "updatedAt": "2026-09-04T20:50:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -5156,6 +5156,32 @@
    "via": "cloud-workday-driver",
    "detail": "2023422 submitted 2026-09-04 via UMLA chain on cisco.wd5",
    "at": "2026-09-04T18:40:00Z"
+  },
+  "6a999c24ad752e2ad55008b3": {
+   "id": "6a999c24ad752e2ad55008b3",
+   "key": "wells fargo::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Wells Fargo",
+   "matchPercent": 96,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a999c24ad752e2ad55008b3",
+   "originalUrl": "https://wf.wd1.myworkdayjobs.com/wellsfargojobs/job/CHARLOTTE-NC/Senior-Software-Engineer_R-571292?jr_id=6a999c24ad752e2ad55008b3",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "R-571292 submitted 2026-09-04 via new wf.wd1 account. Driver crashed mid-flow; resumed with --resume state, draft preserved. Sponsorship Yes + visa-details text (F-1 CPT, future H-1B). Phone type = Personal Cell (no Mobile option).",
+   "at": "2026-09-04T19:55:00Z"
+  },
+  "6a99f4048a8b765bc55f6804": {
+   "id": "6a99f4048a8b765bc55f6804",
+   "key": "northwestern mutual::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Northwestern Mutual",
+   "matchPercent": 92,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a99f4048a8b765bc55f6804",
+   "originalUrl": "https://northwesternmutual.wd5.myworkdayjobs.com/corporate-careers/job/Milwaukee-WI-Corporate/Senior-Software-Engineer_JR-45985-1?jr_id=6a99f4048a8b765bc55f6804",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "JR-45985-1 submitted 2026-09-04 via new northwesternmutual.wd5 account (instant). Required real work history (BofA via Innova 06/2024-12/2025) + education (UPenn MS CS - school typeahead WORKS on this tenant). Screeners answered honestly incl. bachelor-CS No, Java-microservices none-but-willing.",
+   "at": "2026-09-04T20:50:00Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
