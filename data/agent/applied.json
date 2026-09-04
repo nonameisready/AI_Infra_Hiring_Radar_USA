@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T20:50:00Z",
+ "updatedAt": "2026-09-04T23:20:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -5182,6 +5182,45 @@
    "via": "cloud-workday-driver",
    "detail": "JR-45985-1 submitted 2026-09-04 via new northwesternmutual.wd5 account (instant). Required real work history (BofA via Innova 06/2024-12/2025) + education (UPenn MS CS - school typeahead WORKS on this tenant). Screeners answered honestly incl. bachelor-CS No, Java-microservices none-but-willing.",
    "at": "2026-09-04T20:50:00Z"
+  },
+  "6a7ccea583621355407abf5d": {
+   "id": "6a7ccea583621355407abf5d",
+   "key": "geico::senior software engineer - capacity management",
+   "title": "Senior Software Engineer - Capacity Management",
+   "company": "GEICO",
+   "matchPercent": 91,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7ccea583621355407abf5d",
+   "originalUrl": "https://geico.wd1.myworkdayjobs.com/external/job/Palo-Alto-CA/Senior-Software-Engineer---Capacity-Management_R0065291?jr_id=6a7ccea583621355407abf5d",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "R0065291 submitted 2026-09-04 via new geico.wd1 account (instant). Full work history + education required. Sponsorship Yes (GEICO lists F-1 CPT explicitly). FCRA ack, Mon-Fri + MidDay/Afternoon availability.",
+   "at": "2026-09-04T21:25:00Z"
+  },
+  "6a330122f6b55d12c791741b": {
+   "id": "6a330122f6b55d12c791741b",
+   "key": "fiserv::software development engineering - advisor i",
+   "title": "Software Development Engineering - Advisor I",
+   "company": "Fiserv",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a330122f6b55d12c791741b",
+   "originalUrl": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Omaha-Nebraska/Software-Development-Engineering---Advisor-I_R-10374511?jr_id=6a330122f6b55d12c791741b",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "R-10374511 submitted 2026-09-04 via new fiserv.wd5 account. Mandatory WOTC step: Take Assessment opens taxcreditco.com popup; clicked Opt Out there (voluntary questionnaire, not a skills assessment) and Workday auto-advanced to Review.",
+   "at": "2026-09-04T22:45:00Z"
+  },
+  "6a9a08a6ad752e2ad550378e": {
+   "id": "6a9a08a6ad752e2ad550378e",
+   "key": "cvs health::senior software development engineer",
+   "title": "Senior Software Development Engineer",
+   "company": "CVS Health",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9a08a6ad752e2ad550378e",
+   "originalUrl": "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/IL---Work-from-home/Senior-Software-Development-Engineer_R0959944?jr_id=6a9a08a6ad752e2ad550378e",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "R0959944 submitted 2026-09-04 via new cvshealth.wd1 account. Both sponsorship questions Yes (F-1 CPT listed); salary range $140-160k; source Internet - Job Boards/Search Engines (removed IndeedEasyApply default pill via pill focus+Delete).",
+   "at": "2026-09-04T23:20:00Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

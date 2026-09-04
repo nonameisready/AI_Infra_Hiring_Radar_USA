@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T20:50:00Z",
+ "updatedAt": "2026-09-04T23:20:00Z",
  "note": "Company ATS accounts the agent registered for the applicant. Passwords are NEVER stored here or anywhere in the repo — every account uses the email below plus the password in the ATS_ACCOUNT_PASSWORD environment variable (Claude Code env settings). To apply to a company already listed: sign in with these credentials instead of registering again.",
  "loginEmail": "huiluckylucky@gmail.com",
  "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
@@ -253,6 +253,24 @@
    "loginEmail": "huiluckylucky@gmail.com",
    "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
    "note": "created 9/4 instantly; applied JR-45985-1. School typeahead functional from cloud. Ethnicity is checkbox list (Declined to Answer). Screener answers are graded (all/most/some/none). Source: NM Careers Website leaf."
+  },
+  {
+   "tenant": "geico.wd1.myworkdayjobs.com/external",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4 instantly; applied R0065291. Long questionnaire: reasons-for-leaving text, days/shifts checkboxes, FCRA ack."
+  },
+  {
+   "tenant": "fiserv.wd5.myworkdayjobs.com/ext",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4 (silent registration; modal sign-in). Applied R-10374511. WOTC popup handled via driver lastTab/Opt Out (driver.mjs now has lastTab/firstTab/closeTab actions + closed-page recovery)."
+  },
+  {
+   "tenant": "cvshealth.wd1.myworkdayjobs.com/cvs_health_careers",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4 instantly; applied R0959944. Trap: source multiselect pre-adds IndeedEasyApply pill - remove via pill.focus()+Delete key. 12-question screener; salary is a range listbox."
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."

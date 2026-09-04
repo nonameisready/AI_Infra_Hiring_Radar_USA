@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T20:50:00Z",
+ "updatedAt": "2026-09-04T23:20:00Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -791,18 +791,6 @@
    "addedAt": "2026-08-31",
    "status": "user_manual",
    "note": "LinkedIn/ZipRecruiter-only recruiter listing; no company ATS exists. Applying requires your personal LinkedIn/Zip account (agent never logs into personal accounts). Skim and skip unless interested."
-  },
-  {
-   "id": "6a330122f6b55d12c791741b",
-   "key": "fiserv::software development engineering - advisor i",
-   "title": "Software Development Engineering - Advisor I",
-   "company": "Fiserv",
-   "matchPercent": 86,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a330122f6b55d12c791741b",
-   "atsUrl": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Omaha-Nebraska/Software-Development-Engineering---Advisor-I_R-10374511?jr_id=6a330122f6b55d12c791741b",
-   "addedAt": "2026-08-31",
-   "status": "user_action",
-   "note": "Application draft saved in fiserv.wd5 account (standard login). Step 7 is a mandatory WOTC assessment (personal tax-credit survey) — complete it yourself, then Review+Submit."
   },
   {
    "id": "6a9529d7d18f75674828022b",
@@ -1606,8 +1594,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a90607c7c32860d14cf8edd",
    "atsUrl": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Software-Development-Engineer-for-Implementations_R-10391719?jr_id=6a90607c7c32860d14cf8edd",
    "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "Workday tenant resolved (fiserv.wd5.myworkdayjobs.com) — queue for agent Workday registration wave | workday wave continues next window"
+   "status": "dropped",
+   "note": "Workday tenant resolved (fiserv.wd5.myworkdayjobs.com) — queue for agent Workday registration wave | workday wave continues next window | 9/4: posting removed (Workday page does not exist)"
   },
   {
    "id": "6a97141c455eaf6a08c1a80b",
@@ -8854,18 +8842,6 @@
    "note": "platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
   },
   {
-   "id": "6a7ccea583621355407abf5d",
-   "key": "geico::senior software engineer - capacity management",
-   "title": "Senior Software Engineer - Capacity Management",
-   "company": "GEICO",
-   "matchPercent": 91,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a7ccea583621355407abf5d",
-   "atsUrl": "https://geico.wd1.myworkdayjobs.com/external/job/Palo-Alto-CA/Senior-Software-Engineer---Capacity-Management_R0065291?jr_id=6a7ccea583621355407abf5d",
-   "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "platform not automated from cloud: geico.wd1.myworkdayjobs.com"
-  },
-  {
    "id": "6a56e7fd21f64463ad3575f8",
    "key": "gen::senior backend engineer",
    "title": "Senior Backend Engineer",
@@ -8959,18 +8935,6 @@
    "addedAt": "2026-09-04",
    "status": "parked",
    "note": "unconfirmed submit: Back to jobs\nSoftware Engineer, Platform - Las Vegas, NV, USA\nLas Vegas, NV, USA\nApply\n\nThe mission of Speechify is to m"
-  },
-  {
-   "id": "6a9a08a6ad752e2ad550378e",
-   "key": "cvs health::senior software development engineer",
-   "title": "Senior Software Development Engineer",
-   "company": "CVS Health",
-   "matchPercent": 88,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a9a08a6ad752e2ad550378e",
-   "atsUrl": "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/IL---Work-from-home/Senior-Software-Development-Engineer_R0959944?jr_id=6a9a08a6ad752e2ad550378e",
-   "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "platform not automated from cloud: cvshealth.wd1.myworkdayjobs.com"
   },
   {
    "id": "6a99607e8a8b765bc55f2b70",
