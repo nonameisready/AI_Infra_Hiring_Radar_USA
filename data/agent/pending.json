@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T13:11:32.828Z",
+ "updatedAt": "2026-09-04T13:29:14.243Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -3259,8 +3259,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a463233c2d11a6a4666d05e",
    "atsUrl": "https://datasite.wd1.myworkdayjobs.com/datasite/job/USA---NY---New-York-City---BlueFlame-AI--Grata/Senior-Backend-Engineer--Python-API----Hybrid-NYC--Blueflame-AI_R35807?jr_id=6a463233c2d11a6a4666d05e",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform not automated from cloud: datasite.wd1.myworkdayjobs.com"
+   "status": "applied",
+   "note": "Datasite tenant shows You have already applied for this job (pre-existing application; account existed). Not resubmitted."
   },
   {
    "id": "6a982f1cdef18223c854ddbe",
@@ -3376,8 +3376,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4c24755d7b097d2df3fa68",
    "atsUrl": "https://troweprice.wd5.myworkdayjobs.com/TRowePrice/job/Owings-Mills-MD/Senior-Software-Engineer_79928?jr_id=6a4c24755d7b097d2df3fa68",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform not automated from cloud: troweprice.wd5.myworkdayjobs.com"
+   "status": "applied",
+   "note": "TRowe submitted 9/4"
   },
   {
    "id": "6a973697d13b4819f39dfc0a",

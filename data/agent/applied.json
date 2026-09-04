@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T06:38:43.683Z",
+ "updatedAt": "2026-09-04T13:29:14.243Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -4844,6 +4844,32 @@
    "via": "greenhouse",
    "detail": "Needs-answers repass 9/3: blog-influence rule matched; confirmed.",
    "at": "2026-09-04T03:55:31.140Z"
+  },
+  "6a463233c2d11a6a4666d05e": {
+   "id": "6a463233c2d11a6a4666d05e",
+   "key": "datasite::senior backend engineer (python/api) - hybrid nyc- blueflame ai",
+   "title": "Senior Backend Engineer (Python/API) - Hybrid NYC- Blueflame AI",
+   "company": "Datasite",
+   "matchPercent": 94,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a463233c2d11a6a4666d05e",
+   "originalUrl": "https://datasite.wd1.myworkdayjobs.com/datasite/job/USA---NY---New-York-City---BlueFlame-AI--Grata/Senior-Backend-Engineer--Python-API----Hybrid-NYC--Blueflame-AI_R35807?jr_id=6a463233c2d11a6a4666d05e",
+   "status": "applied_pre_existing",
+   "via": "workday",
+   "detail": "Pre-existing application discovered in tenant on 9/4 (not a new submission today).",
+   "at": "2026-09-04T13:15:09.960Z"
+  },
+  "6a4c24755d7b097d2df3fa68": {
+   "id": "6a4c24755d7b097d2df3fa68",
+   "key": "t. rowe price::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "T. Rowe Price",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a4c24755d7b097d2df3fa68",
+   "originalUrl": "https://troweprice.wd5.myworkdayjobs.com/TRowePrice/job/Owings-Mills-MD/Senior-Software-Engineer_79928?jr_id=6a4c24755d7b097d2df3fa68",
+   "status": "applied_direct",
+   "via": "workday",
+   "detail": "9/4: sign-in worked (account pre-existed silently); 14 compliance questions honest (auth Yes, sponsorship Yes, 18+ Yes, all TRP-relationship/PAC/gov No); source Other; EEO prefer-not; jobTasks/completed.",
+   "at": "2026-09-04T13:29:14.243Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

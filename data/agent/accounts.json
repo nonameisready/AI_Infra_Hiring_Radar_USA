@@ -169,6 +169,18 @@
    "loginEmail": "huiluckylucky@gmail.com",
    "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
    "note": "created 2026-09-03 by agent, instant (no email activation). Application draft for R0018669 in progress — education typeahead needs residential IP."
+  },
+  {
+   "tenant": "troweprice.wd5.myworkdayjobs.com",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "sign-in works (9/4); applied 79928."
+  },
+  {
+   "tenant": "datasite.wd1.myworkdayjobs.com",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "sign-in works (9/4); tenant already had a submitted application for R35807 (pre-existing)."
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."
