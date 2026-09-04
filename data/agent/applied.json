@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T13:43:37.369Z",
+ "updatedAt": "2026-09-04T13:56:19.269Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -4883,6 +4883,32 @@
    "via": "workday",
    "detail": "9/4: account created instantly; source Other Job Board; honest answers (auth Yes, sponsorship Yes, noncompete/F5-history/relatives/gov No, pronouns She/Her); EEO declined; CC-305 do-not-answer. jobTasks/completed.",
    "at": "2026-09-04T13:43:37.369Z"
+  },
+  "6a4d1d7f35e45603c4bb29df": {
+   "id": "6a4d1d7f35e45603c4bb29df",
+   "key": "netflix::software engineer 5 - member, commerce & games engineering",
+   "title": "Software Engineer 5 - Member, Commerce & Games Engineering",
+   "company": "Netflix",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a4d1d7f35e45603c4bb29df",
+   "originalUrl": "https://netflix.wd108.myworkdayjobs.com/netflix/job/Los-Gatos/Software-Engineer--L5----Consumer-Engineering_JR28716?jr_id=6a4d1d7f35e45603c4bb29df",
+   "status": "applied_direct",
+   "via": "workday",
+   "detail": "9/4: Netflix account created; source Other (Job Boards); contractor No, past-Netflix No, sponsorship Yes; jobTasks/completed.",
+   "at": "2026-09-04T13:56:19.269Z"
+  },
+  "6a6b7a63c00ae03109f84225": {
+   "id": "6a6b7a63c00ae03109f84225",
+   "key": "netflix::software engineer 4 - member, commerce & games engineering",
+   "title": "Software Engineer 4 - Member, Commerce & Games Engineering",
+   "company": "Netflix",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a6b7a63c00ae03109f84225",
+   "originalUrl": "https://netflix.wd108.myworkdayjobs.com/netflix/job/Los-Gatos/Software-Engineer--L4----Consumer-Engineering_JR28715-1?jr_id=6a6b7a63c00ae03109f84225",
+   "status": "applied_direct",
+   "via": "workday",
+   "detail": "9/4: UMLA clone of L5; same honest answers; jobTasks/completed.",
+   "at": "2026-09-04T13:56:19.269Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

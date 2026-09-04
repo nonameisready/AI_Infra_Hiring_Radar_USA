@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T13:43:37.369Z",
+ "updatedAt": "2026-09-04T13:56:19.269Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -3545,8 +3545,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a6b7a63c00ae03109f84225",
    "atsUrl": "https://netflix.wd108.myworkdayjobs.com/netflix/job/Los-Gatos/Software-Engineer--L4----Consumer-Engineering_JR28715-1?jr_id=6a6b7a63c00ae03109f84225",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform not automated from cloud: netflix.wd108.myworkdayjobs.com"
+   "status": "applied",
+   "note": "9/4: UMLA clone of L5; same honest answers; jobTasks/completed."
   },
   {
    "id": "6a9628db4c22023a079386eb",
@@ -3581,8 +3581,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4d1d7f35e45603c4bb29df",
    "atsUrl": "https://netflix.wd108.myworkdayjobs.com/netflix/job/Los-Gatos/Software-Engineer--L5----Consumer-Engineering_JR28716?jr_id=6a4d1d7f35e45603c4bb29df",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform not automated from cloud: netflix.wd108.myworkdayjobs.com"
+   "status": "applied",
+   "note": "9/4: Netflix account created; source Other (Job Boards); contractor No, past-Netflix No, sponsorship Yes; jobTasks/completed."
   },
   {
    "id": "6a67ab093b5e6b116a55002c",
