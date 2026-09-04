@@ -1325,6 +1325,34 @@
   {
    "label": "are you currently authorized to work",
    "prefer": "^yes"
+  },
+  {
+   "label": "what us state do you currently reside",
+   "prefer": "new jersey"
+  },
+  {
+   "label": "how soon after an offer are you available",
+   "prefer": "2 weeks|two weeks|immediat"
+  },
+  {
+   "label": "comfortable working in a startup",
+   "prefer": "^yes"
+  },
+  {
+   "label": "require tfd sponsorship|sponsorship to continue your employment",
+   "prefer": "^yes"
+  },
+  {
+   "label": "previously applied to .{2,20} or interviewed",
+   "prefer": "^no"
+  },
+  {
+   "label": "reside in or maintain an established permanen",
+   "prefer": "^yes|united states"
+  },
+  {
+   "label": "how did you first hear about|how did you find this position",
+   "prefer": "job board|online|search|other"
   }
  ],
  "texts": [
@@ -1839,6 +1867,26 @@
   {
    "label": "what languages are you most comfortable coding in",
    "text": "Python and Java (also SQL; comfortable in Go basics)"
+  },
+  {
+   "label": "did you have a chance to visit prizepicks",
+   "text": "Yes — I explored PrizePicks.com and the product pages to understand the DFS pick-em format before applying."
+  },
+  {
+   "label": "please share with us you",
+   "text": "I am a senior backend engineer (Java/Python) with production experience building high-throughput data services at Bank of America, and I am excited to bring that to this role."
+  },
+  {
+   "label": "what lab software systems",
+   "text": "I have not worked with LIMS or ELN systems directly; my background is general backend engineering (Java/Python, APIs, data pipelines)."
+  },
+  {
+   "label": "have you customized or extended a lims",
+   "text": "No — no LIMS/ELN customization experience."
+  },
+  {
+   "label": "what ci\\/cd tools have you",
+   "text": "Jenkins and GitLab CI at work; GitHub Actions on personal projects."
   }
  ],
  "checkboxes": [
