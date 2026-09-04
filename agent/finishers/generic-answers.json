@@ -1301,6 +1301,30 @@
   {
    "label": "require attendance at quarterly|attendance at .*offsites?",
    "prefer": "^yes"
+  },
+  {
+   "label": "have you worked (with|for) us before|worked with us before",
+   "prefer": "^no"
+  },
+  {
+   "label": "currently located in the bay area|located in the bay area",
+   "prefer": "^no"
+  },
+  {
+   "label": "immigration related s(upport|ponsorship)|need.*immigration related",
+   "prefer": "^yes"
+  },
+  {
+   "label": "do you have \\d\\+ years of experience\\?",
+   "prefer": "^yes"
+  },
+  {
+   "label": "experience with aws",
+   "prefer": "^yes"
+  },
+  {
+   "label": "are you currently authorized to work",
+   "prefer": "^yes"
   }
  ],
  "texts": [
@@ -1811,6 +1835,10 @@
   {
    "label": "where do you currently reside",
    "text": "Jersey City, New Jersey, United States"
+  },
+  {
+   "label": "what languages are you most comfortable coding in",
+   "text": "Python and Java (also SQL; comfortable in Go basics)"
   }
  ],
  "checkboxes": [
