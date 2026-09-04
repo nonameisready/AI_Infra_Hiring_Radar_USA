@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-03T15:06:31.591Z",
+ "updatedAt": "2026-09-04T16:50:00Z",
  "answers": [
   {
    "match": "first\\s*name",
@@ -349,6 +349,16 @@
    "at": "2026-09-03",
    "topic": "blocklist-palantir",
    "note": "USER DIRECTIVE: Palantir Technologies handles defense/intelligence information — PERMANENTLY BLOCKLISTED. Never apply to any Palantir posting on any platform. Blocklist regex must include palantir."
+  },
+  {
+   "key": "ats-password-fallback",
+   "at": "2026-09-04",
+   "note": "User (2026-09-04): if a site rejects env:ATS_ACCOUNT_PASSWORD for length/complexity, use the fallback password \"!Greatjob7216481\" instead. Record which tenant uses the fallback in accounts.json (passwordRef: fallback-2026-09-04)."
+  },
+  {
+   "key": "nvidia-wd5-registration-block",
+   "at": "2026-09-04",
+   "note": "nvidia.wd5 Create Account silently bounces back to sign-in chooser from cloud IP (no email sent, sign-in then fails). Tried primary + fallback passwords. Route NVIDIA Workday jobs to Mac."
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T15:25:00Z",
+ "updatedAt": "2026-09-04T17:40:00Z",
  "note": "Company ATS accounts the agent registered for the applicant. Passwords are NEVER stored here or anywhere in the repo — every account uses the email below plus the password in the ATS_ACCOUNT_PASSWORD environment variable (Claude Code env settings). To apply to a company already listed: sign in with these credentials instead of registering again.",
  "loginEmail": "huiluckylucky@gmail.com",
  "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
@@ -217,6 +217,30 @@
    "loginEmail": "huiluckylucky@gmail.com",
    "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
    "note": "created 9/4 instantly; applied R26_0000000282-1. Long custom questionnaire (start date/salary/auth-status/shifts/languages text answers; OPT=No since CPT). Source tree has no Other leaf - used Corporate Website > Company Career Site."
+  },
+  {
+   "tenant": "workiva.wd503.myworkdayjobs.com/careers",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4 instantly; applied R12422 + R12414 (UMLA). CPT/OPT question answered Yes + additional-info text."
+  },
+  {
+   "tenant": "osv-rubicon.wd5.myworkdayjobs.com/magnitecareers",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4; registration silently redirects to login (no email needed) - sign in right after. Applied R-01359."
+  },
+  {
+   "tenant": "autonation.wd5.myworkdayjobs.com/careers",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4 instantly; applied JR2026148268-1. Source tree no Other: used Search > Google. Extra e-signature checkbox on Voluntary Disclosures."
+  },
+  {
+   "tenant": "cisco.wd5.myworkdayjobs.com/cisco_careers",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4 (silent registration redirect to login, sign-in works). Applied 2021235. Ethnicity list is granular Asian: <country> with double space - pick Chinese. Trap: /^asian/ matches Bruneian first."
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."

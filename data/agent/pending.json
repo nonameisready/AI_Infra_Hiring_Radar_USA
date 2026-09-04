@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T15:25:00Z",
+ "updatedAt": "2026-09-04T18:40:00Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -2366,18 +2366,6 @@
    "note": "clearance/federal-eligibility questions gate this role (TS/SCI, US-person, federal service) — never applied per policy. Kept for dedupe."
   },
   {
-   "id": "6a387a951232144fb1568aa9",
-   "key": "genuine parts company::software engineer iv",
-   "title": "Software Engineer IV",
-   "company": "Genuine Parts Company",
-   "matchPercent": 86,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a387a951232144fb1568aa9",
-   "atsUrl": "https://genpt.wd1.myworkdayjobs.com/careers/job/Birmingham-AL-USA/Software-Engineer-IV_R26_0000009194?jr_id=6a387a951232144fb1568aa9",
-   "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "Workday tenant resolved (genpt.wd1.myworkdayjobs.com) — queue for agent Workday registration wave | workday wave continues next window"
-  },
-  {
    "id": "6a725484ee751e0c79348697",
    "key": "topstep::senior software engineer",
    "title": "Senior Software Engineer",
@@ -2958,18 +2946,6 @@
    "note": "amazon.jobs application limit reached (result=application_limit_reach) after 3 submissions this window — retry next window."
   },
   {
-   "id": "6a974687455eaf6a08c1be87",
-   "key": "workiva::sr. software engineer",
-   "title": "Sr. Software Engineer",
-   "company": "Workiva",
-   "matchPercent": 86,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a974687455eaf6a08c1be87",
-   "atsUrl": "https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Sr-Software-Engineer_R12422?jr_id=6a974687455eaf6a08c1be87",
-   "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: workiva.wd503.myworkdayjobs.com | workday wave continues next window"
-  },
-  {
    "id": "6a58c83e686b4755d1e0c3fb",
    "key": "remitly::ai native software engineer ii",
    "title": "AI Native Software Engineer II",
@@ -3104,18 +3080,6 @@
    "note": "platform not automated from cloud: jobs.citi.com"
   },
   {
-   "id": "6a5e60e767b2850e77df0b9c",
-   "key": "magnite::senior engineer",
-   "title": "Senior Engineer",
-   "company": "Magnite",
-   "matchPercent": 85,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a5e60e767b2850e77df0b9c",
-   "atsUrl": "https://osv-rubicon.wd5.myworkdayjobs.com/magnitecareers/job/California---Los-Angeles/Senior-Engineer_R-01359?jr_id=6a5e60e767b2850e77df0b9c",
-   "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: osv-rubicon.wd5.myworkdayjobs.com | workday wave continues next window"
-  },
-  {
    "id": "6a95891d3843db01599058c3",
    "key": "nvidia::senior backend platform engineer - profiling services",
    "title": "Senior Backend Platform Engineer - Profiling Services",
@@ -3124,8 +3088,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95891d3843db01599058c3",
    "atsUrl": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Senior-Backend-Platform-Engineer---Profiling-Services_JR2022190?jr_id=6a95891d3843db01599058c3",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: nvidia.wd5.myworkdayjobs.com | workday wave continues next window"
+   "status": "local replay",
+   "note": "platform not automated from cloud: nvidia.wd5.myworkdayjobs.com | workday wave continues next window | 9/4 cloud: nvidia.wd5 registration silently rejected (both passwords, no verification email) - datacenter IP block; replay on Mac"
   },
   {
    "id": "6a95a3694c22023a07934c55",
@@ -3177,18 +3141,6 @@
    "addedAt": "2026-09-02",
    "status": "parked",
    "note": "Existing fico.wd1 account; sign-in silently no-ops from cloud 2026-09-02 (2-attempt cap) — retry next window or Mac."
-  },
-  {
-   "id": "6a9725a1f5337b2cf7320462",
-   "key": "autonation::lead software engineer",
-   "title": "Lead Software Engineer",
-   "company": "AutoNation",
-   "matchPercent": 85,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a9725a1f5337b2cf7320462",
-   "atsUrl": "https://autonation.wd5.myworkdayjobs.com/careers/job/Auto-TechLabs/Lead-Software-Engineer_JR2026148268-1?jr_id=6a9725a1f5337b2cf7320462",
-   "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: autonation.wd5.myworkdayjobs.com | workday wave continues next window"
   },
   {
    "id": "6a989ef0af954907d657470c",
@@ -3818,18 +3770,6 @@
    "note": "platform not automated from cloud: apply.workable.com"
   },
   {
-   "id": "6a8566bb58ded76ad8feb008",
-   "key": "cisco::senior software engineer (remote)",
-   "title": "Senior Software Engineer (Remote)",
-   "company": "Cisco",
-   "matchPercent": 85,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a8566bb58ded76ad8feb008",
-   "atsUrl": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Portland-Oregon-US/Senior-Software-Engineer_2021235?jr_id=6a8566bb58ded76ad8feb008",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform not automated from cloud: cisco.wd5.myworkdayjobs.com"
-  },
-  {
    "id": "6a0f3aa472b52f7225f3be3d",
    "key": "linkedin::sr. staff software engineer - systems infrastructure",
    "title": "Sr. Staff Software Engineer - Systems Infrastructure",
@@ -4131,8 +4071,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95d7b03843db0159907a4e",
    "atsUrl": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Senior-Systems-Software-Engineer---NV-Cloud-Functions_JR2020483-1?jr_id=6a95d7b03843db0159907a4e",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform not automated from cloud: nvidia.wd5.myworkdayjobs.com"
+   "status": "local replay",
+   "note": "platform not automated from cloud: nvidia.wd5.myworkdayjobs.com | 9/4 cloud: nvidia.wd5 registration silently rejected (both passwords, no verification email) - datacenter IP block; replay on Mac"
   },
   {
    "id": "6a9387e7a27a2d3c9848e034",
@@ -4747,8 +4687,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4e102ffc327f422fef1c49",
    "atsUrl": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Senior-Software-Engineer--DGXC-Data-Services_JR2003389?jr_id=6a4e102ffc327f422fef1c49",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: nvidia.wd5.myworkdayjobs.com"
+   "status": "local replay",
+   "note": "platform: nvidia.wd5.myworkdayjobs.com | 9/4 cloud: nvidia.wd5 registration silently rejected (both passwords, no verification email) - datacenter IP block; replay on Mac"
   },
   {
    "id": "6a738285e55c73319eb17bda",
@@ -5567,18 +5507,6 @@
    "note": "platform: job-boards.greenhouse.io"
   },
   {
-   "id": "6a619308d51f6101c8fbc271",
-   "key": "cisco::software engineer, structured storage",
-   "title": "Software Engineer, Structured Storage",
-   "company": "Cisco",
-   "matchPercent": 81,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a619308d51f6101c8fbc271",
-   "atsUrl": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/RTP-North-Carolina-US/Software-Engineer--Structured-Storage_2019277?jr_id=6a619308d51f6101c8fbc271",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: cisco.wd5.myworkdayjobs.com"
-  },
-  {
    "id": "6a974426f5337b2cf7321395",
    "key": "workday::sr. software engineer (distributed systems)",
    "title": "Sr. Software Engineer (Distributed Systems)",
@@ -5661,18 +5589,6 @@
    "addedAt": "2026-09-03",
    "status": "parked",
    "note": "platform: jobs.gem.com"
-  },
-  {
-   "id": "6a9736aa455eaf6a08c1b589",
-   "key": "workiva::senior software engineer - product",
-   "title": "Senior Software Engineer - Product",
-   "company": "Workiva",
-   "matchPercent": 81,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a9736aa455eaf6a08c1b589",
-   "atsUrl": "https://workiva.wd503.myworkdayjobs.com/careers/job/Ames/Senior-Software-Engineer_R12414?jr_id=6a9736aa455eaf6a08c1b589",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: workiva.wd503.myworkdayjobs.com"
   },
   {
    "id": "6a51db1102522b5b722ec8e4",
@@ -7331,18 +7247,6 @@
    "note": "missing: [\"What's your postal code? *\"]"
   },
   {
-   "id": "6a95dc523843db0159907bbb",
-   "key": "cisco::senior software engineer (hybrid)",
-   "title": "Senior Software Engineer (Hybrid)",
-   "company": "Cisco",
-   "matchPercent": 76,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a95dc523843db0159907bbb",
-   "atsUrl": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Senior-Software-Engineer--Hybrid-_2023269?jr_id=6a95dc523843db0159907bbb",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: cisco.wd5.myworkdayjobs.com"
-  },
-  {
    "id": "6a971585e4e60e4b8da5bf45",
    "key": "close::senior backend engineer - crm (usa only, 100% remote)",
    "title": "Senior Backend Engineer - CRM (USA Only, 100% Remote)",
@@ -7847,18 +7751,6 @@
    "note": "platform: unresolved"
   },
   {
-   "id": "6a95dc594c22023a07936529",
-   "key": "cisco::senior software engineer - chg (hybrid)",
-   "title": "Senior Software Engineer - CHG (Hybrid)",
-   "company": "Cisco",
-   "matchPercent": 75,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a95dc594c22023a07936529",
-   "atsUrl": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Senior-Software-Engineer---CHG--Hybrid-_2023306?jr_id=6a95dc594c22023a07936529",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: cisco.wd5.myworkdayjobs.com"
-  },
-  {
    "id": "6a97206bd13b4819f39df417",
    "key": "mongodb::senior engineer",
    "title": "Senior Engineer",
@@ -7999,8 +7891,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a95e98e9fcec544237302b3",
    "atsUrl": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Senior-Software-Engineer---DGX-Cloud-Services-and-Software_JR2017413?jr_id=6a95e98e9fcec544237302b3",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: nvidia.wd5.myworkdayjobs.com"
+   "status": "local replay",
+   "note": "platform: nvidia.wd5.myworkdayjobs.com | 9/4 cloud: nvidia.wd5 registration silently rejected (both passwords, no verification email) - datacenter IP block; replay on Mac"
   },
   {
    "id": "6a5415648576ec69c0151f08",
@@ -8217,18 +8109,6 @@
    "addedAt": "2026-09-03",
    "status": "parked",
    "note": "platform: careers.principal.com"
-  },
-  {
-   "id": "6a985091def18223c854ea08",
-   "key": "cisco::senior software engineer (identity engineering - sso)",
-   "title": "Senior Software Engineer (Identity Engineering - SSO)",
-   "company": "Cisco",
-   "matchPercent": 73,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a985091def18223c854ea08",
-   "atsUrl": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Austin-Texas-US/Senior-Software-Engineer--Identity-Engineering---SSO-_2023296?jr_id=6a985091def18223c854ea08",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: cisco.wd5.myworkdayjobs.com"
   },
   {
    "id": "68af87dd962903596357d6b2",
@@ -8711,18 +8591,6 @@
    "note": "platform: eofe.fa.us2.oraclecloud.com"
   },
   {
-   "id": "6a95ededf28891320e85f15e",
-   "key": "cisco::software engineer - chg (hybrid)",
-   "title": "Software Engineer - CHG (Hybrid)",
-   "company": "Cisco",
-   "matchPercent": 71,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a95ededf28891320e85f15e",
-   "atsUrl": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer---CHG--Hybrid-_2023279?jr_id=6a95ededf28891320e85f15e",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: cisco.wd5.myworkdayjobs.com"
-  },
-  {
    "id": "6a1c24c3547e292ae13a015d",
    "key": "replit::software engineer, enterprise platform",
    "title": "Software Engineer, Enterprise Platform",
@@ -8827,8 +8695,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7a001eab1385611f8fcbff",
    "atsUrl": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-WA-Redmond/Senior-Software-Engineer--Developer-Tools-for-Cloud_JR2011154?jr_id=6a7a001eab1385611f8fcbff",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: nvidia.wd5.myworkdayjobs.com"
+   "status": "local replay",
+   "note": "platform: nvidia.wd5.myworkdayjobs.com | 9/4 cloud: nvidia.wd5 registration silently rejected (both passwords, no verification email) - datacenter IP block; replay on Mac"
   },
   {
    "id": "6a4475a30153061b8b3e0645",
@@ -10587,8 +10455,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9742f1f5337b2cf7321337",
    "atsUrl": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Senior-Cloud-Software-Engineer--Developer-Tools_JR2024693?jr_id=6a9742f1f5337b2cf7321337",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "platform: nvidia.wd5.myworkdayjobs.com"
+   "status": "local replay",
+   "note": "platform: nvidia.wd5.myworkdayjobs.com | 9/4 cloud: nvidia.wd5 registration silently rejected (both passwords, no verification email) - datacenter IP block; replay on Mac"
   },
   {
    "id": "6a9a0b87040e5c3d0759a7f8",
@@ -11439,8 +11307,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a67fec8d0fb4c3df393fb41",
    "atsUrl": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Senior-Software-Engineer--Evaluation-Flywheel---Autonomous-Vehicles_JR2021751?jr_id=6a67fec8d0fb4c3df393fb41",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "platform: nvidia.wd5.myworkdayjobs.com"
+   "status": "local replay",
+   "note": "platform: nvidia.wd5.myworkdayjobs.com | 9/4 cloud: nvidia.wd5 registration silently rejected (both passwords, no verification email) - datacenter IP block; replay on Mac"
   },
   {
    "id": "6a99a6f5551435518ebf01e0",
@@ -12197,18 +12065,6 @@
    "addedAt": "2026-09-04",
    "status": "parked",
    "note": "platform: ats.rippling.com"
-  },
-  {
-   "id": "6a9988ad138838706058e591",
-   "key": "cisco::senior software engineer",
-   "title": "Senior Software Engineer",
-   "company": "Cisco",
-   "matchPercent": 73,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a9988ad138838706058e591",
-   "atsUrl": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Francisco-California-US/Senior-Software-Engineer_2023422?jr_id=6a9988ad138838706058e591",
-   "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "platform: cisco.wd5.myworkdayjobs.com"
   },
   {
    "id": "6a99f251ad752e2ad5502ef5",
