@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T14:00:19.064Z",
+ "updatedAt": "2026-09-04T15:25:00Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -4935,6 +4935,71 @@
    "via": "workday",
    "detail": "9/4 UMLA chain; jobTasks/completed.",
    "at": "2026-09-04T14:00:19.064Z"
+  },
+  "6a96ea23d13b4819f39ddb57": {
+   "id": "6a96ea23d13b4819f39ddb57",
+   "key": "worldpay::senior software engineer, agentic commerce",
+   "title": "Senior Software Engineer, Agentic Commerce",
+   "company": "Worldpay",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96ea23d13b4819f39ddb57",
+   "originalUrl": "https://worldpay.wd5.myworkdayjobs.com/worldpay_external_careers_site/job/ATLANTA-GEORGIA/Senior-Software-Engineer--Agentic-Commerce_JR0611303-1?jr_id=6a96ea23d13b4819f39ddb57",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "JR0611303 submitted 2026-09-04 via new worldpay.wd5 account (email-activation registration); Awaiting Review",
+   "at": "2026-09-04T14:20:00Z"
+  },
+  "6a972f07455eaf6a08c1b17b": {
+   "id": "6a972f07455eaf6a08c1b17b",
+   "key": "fox corporation::senior media platform engineer",
+   "title": "Senior Media Platform Engineer",
+   "company": "Fox Corporation",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a972f07455eaf6a08c1b17b",
+   "originalUrl": "https://fox.wd1.myworkdayjobs.com/domestic/job/USA---AZ---Tempe---2010-E-Centennial-Cir/Senior-Media-Platform-Engineer_R50032819?jr_id=6a972f07455eaf6a08c1b17b",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "R50032819 submitted 2026-09-04 via new fox.wd1 account (instant, no email activation)",
+   "at": "2026-09-04T14:40:00Z"
+  },
+  "6a46bd098204a812e98c9baf": {
+   "id": "6a46bd098204a812e98c9baf",
+   "key": "lseg::senior software engineer - st. louis",
+   "title": "Senior Software Engineer - St. Louis",
+   "company": "LSEG",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a46bd098204a812e98c9baf",
+   "originalUrl": "https://lseg.wd3.myworkdayjobs.com/careers/job/USA-St-Louis-795-Office-Pkwy/Senior-Software-Engineer---St-Louis_R0121330?jr_id=6a46bd098204a812e98c9baf",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "R0121330 St Louis submitted 2026-09-04 via new lseg.wd3 account (email activation)",
+   "at": "2026-09-04T15:05:00Z"
+  },
+  "6a4edf989469c0662034cebe": {
+   "id": "6a4edf989469c0662034cebe",
+   "key": "lseg::senior software engineer - ny office",
+   "title": "Senior Software Engineer - NY Office",
+   "company": "LSEG",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a4edf989469c0662034cebe",
+   "originalUrl": "https://lseg.wd3.myworkdayjobs.com/Careers/job/USA-New-York-28-Liberty-Street/Senior-Software-Engineer---NY-Office_R0121329?jr_id=6a4edf989469c0662034cebe",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "R0121329 NY (UMLA chain) submitted 2026-09-04 via new lseg.wd3 account (email activation)",
+   "at": "2026-09-04T15:05:00Z"
+  },
+  "6a5e77cd67b2850e77df1594": {
+   "id": "6a5e77cd67b2850e77df1594",
+   "key": "press ganey::senior software engineer ( seattle/provo hybrid)",
+   "title": "Senior Software Engineer ( Seattle/Provo Hybrid)",
+   "company": "Press Ganey",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5e77cd67b2850e77df1594",
+   "originalUrl": "https://pressganey.wd1.myworkdayjobs.com/careers/job/Provo-UT/Senior-Software-Engineer_R26_0000000282-1?jr_id=6a5e77cd67b2850e77df1594",
+   "status": "applied",
+   "via": "cloud-workday-driver",
+   "detail": "R26_0000000282-1 submitted 2026-09-04 via new pressganey.wd1 account (instant)",
+   "at": "2026-09-04T15:25:00Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

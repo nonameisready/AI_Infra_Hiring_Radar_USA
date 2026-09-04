@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-08-31T12:50:36.956Z",
+ "updatedAt": "2026-09-04T15:25:00Z",
  "note": "Company ATS accounts the agent registered for the applicant. Passwords are NEVER stored here or anywhere in the repo — every account uses the email below plus the password in the ATS_ACCOUNT_PASSWORD environment variable (Claude Code env settings). To apply to a company already listed: sign in with these credentials instead of registering again.",
  "loginEmail": "huiluckylucky@gmail.com",
  "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
@@ -193,6 +193,30 @@
    "loginEmail": "huiluckylucky@gmail.com",
    "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
    "note": "created 9/4 instantly; applied JR28716 + JR28715-1."
+  },
+  {
+   "tenant": "worldpay.wd5.myworkdayjobs.com/worldpay_external_careers_site",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4; email activation link required before sign-in (Gmail). Applied JR0611303. Tenant runs alongside Global Payments Workday."
+  },
+  {
+   "tenant": "fox.wd1.myworkdayjobs.com/domestic",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4 instantly; applied R50032819 Senior Media Platform Engineer. Veteran listbox has trap option \"I identify as a veteran, just not a protected veteran\" - always pick \"I am not a veteran\"."
+  },
+  {
+   "tenant": "lseg.wd3.myworkdayjobs.com/careers",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4; email activation link required. Applied R0121330 + R0121329. Source tree has NO Other option (categories: LSEG External/Referral/Social Media / Search) - used Google. Multiselect needs trusted Playwright clicks, synthetic dispatch fails."
+  },
+  {
+   "tenant": "pressganey.wd1.myworkdayjobs.com/careers",
+   "loginEmail": "huiluckylucky@gmail.com",
+   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+   "note": "created 9/4 instantly; applied R26_0000000282-1. Long custom questionnaire (start date/salary/auth-status/shifts/languages text answers; OPT=No since CPT). Source tree has no Other leaf - used Corporate Website > Company Career Site."
   }
  ],
  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."

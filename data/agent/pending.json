@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-04T14:00:19.064Z",
+ "updatedAt": "2026-09-04T15:25:00Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -2090,18 +2090,6 @@
    "note": "iCIMS tenant requires account+captcha from cloud (VERIFIED on Schwab 2026-09-01: hCaptcha at email gate rejects automation) — personal apply: https://careers-mercuryinsurance.icims.com/jobs/6766/senior-software-engineer/job?jr_id=6a91ec858e59685453378565"
   },
   {
-   "id": "6a46bd098204a812e98c9baf",
-   "key": "lseg::senior software engineer - st. louis",
-   "title": "Senior Software Engineer - St. Louis",
-   "company": "LSEG",
-   "matchPercent": 87,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a46bd098204a812e98c9baf",
-   "atsUrl": "https://lseg.wd3.myworkdayjobs.com/careers/job/USA-St-Louis-795-Office-Pkwy/Senior-Software-Engineer---St-Louis_R0121330?jr_id=6a46bd098204a812e98c9baf",
-   "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "Workday tenant resolved (lseg.wd3.myworkdayjobs.com) — queue for agent Workday registration wave | workday wave continues next window"
-  },
-  {
    "id": "6a7bbaeeecf5194164fbfb4f",
    "key": "aegis ventures::senior software engineer",
    "title": "Senior Software Engineer",
@@ -2268,18 +2256,6 @@
    "addedAt": "2026-09-01",
    "status": "applied",
    "note": "result=success; qualification questions honest Yes x6 (7+ yrs since 2018, UPenn CIS MS); eligibility corrected to honest F-1 answers: sponsorship YES, H-1B NO (stale prefill YES fixed), I-140 NO, CPT YES. Jersey City NJ role."
-  },
-  {
-   "id": "6a5e77cd67b2850e77df1594",
-   "key": "press ganey::senior software engineer ( seattle/provo hybrid)",
-   "title": "Senior Software Engineer ( Seattle/Provo Hybrid)",
-   "company": "Press Ganey",
-   "matchPercent": 86,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a5e77cd67b2850e77df1594",
-   "atsUrl": "https://pressganey.wd1.myworkdayjobs.com/careers/job/Provo-UT/Senior-Software-Engineer_R26_0000000282-1?jr_id=6a5e77cd67b2850e77df1594",
-   "addedAt": "2026-09-01",
-   "status": "parked",
-   "note": "Workday tenant resolved (pressganey.wd1.myworkdayjobs.com) — queue for agent Workday registration wave | workday wave continues next window"
   },
   {
    "id": "6a96f8a9d13b4819f39de05e",
@@ -2862,18 +2838,6 @@
    "note": "platform not automated from cloud: careers.caterpillar.com"
   },
   {
-   "id": "6a96ea23d13b4819f39ddb57",
-   "key": "worldpay::senior software engineer, agentic commerce",
-   "title": "Senior Software Engineer, Agentic Commerce",
-   "company": "Worldpay",
-   "matchPercent": 87,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a96ea23d13b4819f39ddb57",
-   "atsUrl": "https://worldpay.wd5.myworkdayjobs.com/worldpay_external_careers_site/job/ATLANTA-GEORGIA/Senior-Software-Engineer--Agentic-Commerce_JR0611303-1?jr_id=6a96ea23d13b4819f39ddb57",
-   "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: worldpay.wd5.myworkdayjobs.com | workday wave continues next window"
-  },
-  {
    "id": "6a96f344f5337b2cf731ed2e",
    "key": "d-wave::senior software engineer [604]",
    "title": "Senior Software Engineer [604]",
@@ -2896,18 +2860,6 @@
    "addedAt": "2026-09-02",
    "status": "user_action",
    "note": "BofA INTERNAL requisition (us-emplsv/lateral-us Workday site; req absent from external careers.bankofamerica.com; source options are employee-only categories). Not externally appliable — as a current BofA contractor, consider routing via your manager or internal mobility. Candidate account ghr.wd1 created+activated 2026-09-02 (standard creds) if ever useful."
-  },
-  {
-   "id": "6a972f07455eaf6a08c1b17b",
-   "key": "fox corporation::senior media platform engineer",
-   "title": "Senior Media Platform Engineer",
-   "company": "Fox Corporation",
-   "matchPercent": 87,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a972f07455eaf6a08c1b17b",
-   "atsUrl": "https://fox.wd1.myworkdayjobs.com/domestic/job/USA---AZ---Tempe---2010-E-Centennial-Cir/Senior-Media-Platform-Engineer_R50032819?jr_id=6a972f07455eaf6a08c1b17b",
-   "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "platform not automated from cloud: fox.wd1.myworkdayjobs.com | workday wave continues next window"
   },
   {
    "id": "6a8e0c79cc0cf27068526e5d",
@@ -10277,18 +10229,6 @@
    "addedAt": "2026-09-04",
    "status": "local replay",
    "note": "9/4 cloud GH flagged; missing: [\"What’s your location and the country of tax residence? ✱\",\"Would you be comfortable working within our time zone (UTC+ — run on Mac with Qwen."
-  },
-  {
-   "id": "6a4edf989469c0662034cebe",
-   "key": "lseg::senior software engineer - ny office",
-   "title": "Senior Software Engineer - NY Office",
-   "company": "LSEG",
-   "matchPercent": 87,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a4edf989469c0662034cebe",
-   "atsUrl": "https://lseg.wd3.myworkdayjobs.com/Careers/job/USA-New-York-28-Liberty-Street/Senior-Software-Engineer---NY-Office_R0121329?jr_id=6a4edf989469c0662034cebe",
-   "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "platform: lseg.wd3.myworkdayjobs.com"
   },
   {
    "id": "6a982610dd171c72857906ff",
