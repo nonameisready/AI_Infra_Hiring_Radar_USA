@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T10:37:01.741Z",
+  "updatedAt": "2026-09-05T11:00:00.086Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -5546,6 +5546,45 @@
       "via": "cloud-oracle-cx-driver",
       "detail": "req 154689 (CX_1 site); thank-you page confirmed, applied 09/05/2026",
       "at": "2026-09-05T10:37:01.741Z"
+    },
+    "6a7a18b19ee17f276dbf1310": {
+      "id": "6a7a18b19ee17f276dbf1310",
+      "key": "oracle::senior platform software engineer",
+      "title": "Senior Platform Software Engineer",
+      "company": "Oracle",
+      "matchPercent": 88,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7a18b19ee17f276dbf1310",
+      "originalUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/341603",
+      "status": "applied",
+      "via": "cloud-oracle-cx-driver",
+      "detail": "req 341603; status New, applied 09/05/2026; eeho OTP flow; state list uses abbreviations (NJ); gender declined, earliest date 09/19/2026",
+      "at": "2026-09-05T10:52:53.426Z"
+    },
+    "6a5e64b3f3674a0545d28ad3": {
+      "id": "6a5e64b3f3674a0545d28ad3",
+      "key": "oracle::senior software developer",
+      "title": "Senior Software Developer",
+      "company": "Oracle",
+      "matchPercent": 87,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5e64b3f3674a0545d28ad3",
+      "originalUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/338704",
+      "status": "applied",
+      "via": "cloud-oracle-cx-driver",
+      "detail": "req 338704; Under Consideration, applied 09/05/2026; sponsorship Yes, languages Yes (Python), CS degree Yes (UPenn MS)",
+      "at": "2026-09-05T10:57:49.324Z"
+    },
+    "6a83253d1081a745e970d270": {
+      "id": "6a83253d1081a745e970d270",
+      "key": "oracle::senior core infrastructure engineer",
+      "title": "Senior Core Infrastructure Engineer",
+      "company": "Oracle",
+      "matchPercent": 86,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a83253d1081a745e970d270",
+      "originalUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/337184",
+      "status": "applied",
+      "via": "cloud-oracle-cx-driver",
+      "detail": "req 337184; status New, applied 09/05/2026",
+      "at": "2026-09-05T11:00:00.086Z"
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
