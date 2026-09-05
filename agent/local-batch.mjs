@@ -118,7 +118,7 @@ for (const i of pend.items) { seenIds.add(i.id); if (i.key) seenKeys.add(i.key);
 const norm = (s) => String(s ?? "").toLowerCase().trim();
 // Standing rule: never apply to defense/clearance companies (applicant cannot
 // hold a US security clearance). Mirrors RUNBOOK; extend as new ones appear.
-const DEFENSE_BLOCK = /palantir|anduril|varda|havocai|\bstr\b|l3harris|lockheed|raytheon|\brtx\b|northrop|general dynamics|bae systems|leidos|booz allen|draper|mitre|sierra nevada corp|epirus|shield ?ai|saronic|castelion|mach industries|helsing/i;
+const DEFENSE_BLOCK = /palantir|nt ?concepts|anduril|varda|havocai|\bstr\b|l3harris|lockheed|raytheon|\brtx\b|northrop|general dynamics|bae systems|leidos|booz allen|draper|mitre|sierra nevada corp|epirus|shield ?ai|saronic|castelion|mach industries|helsing/i;
 const queue = [];
 const qKeys = new Set();
 for (const j of matches.jobs) {

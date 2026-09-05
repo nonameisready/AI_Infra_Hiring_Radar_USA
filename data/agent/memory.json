@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-05T03:00:00Z",
+ "updatedAt": "2026-09-05T09:10:00Z",
  "answers": [
   {
    "match": "first\\s*name",
@@ -369,6 +369,11 @@
    "key": "fmr-wd1-registration-block",
    "at": "2026-09-04",
    "note": "fmr.wd1 (Fidelity) Create Account silently bounces; both passwords rejected. Same as nvidia.wd5/pru.wd5. Route to Mac."
+  },
+  {
+   "key": "blocklist-nt-concepts",
+   "at": "2026-09-05",
+   "note": "NT Concepts is a national-security/DoD federal contractor - added to DEFENSE_BLOCK after Mac 9/5 batch submitted one application there (flagged to user; cannot retract, user may withdraw via Greenhouse email link)."
   }
  ]
 }
