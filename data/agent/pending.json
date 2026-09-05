@@ -3502,8 +3502,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a9888a4dd171c7285792bec",
       "atsUrl": "https://cmu.wd115.myworkdayjobs.com/cmu/job/Pittsburgh-PA/Software-Engineer_2024794?jr_id=6a9888a4dd171c7285792bec",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform not automated from cloud: cmu.wd115.myworkdayjobs.com"
+      "status": "dropped",
+      "note": "CMU SEI req 2024794 (cross-posted): Software Engineering Institute is a DoD-funded FFRDC, roles need clearance eligibility — defense/clearance rule, dropped 2026-09-05"
     },
     {
       "id": "6a98625add171c7285791ef8",
@@ -4001,7 +4001,7 @@
       "atsUrl": "https://workday.wd5.myworkdayjobs.com/workday/job/USA-GA-Atlanta/Sr-Software-Development-Engineer_JR-0108085?jr_id=6a974424d13b4819f39e0438",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform not automated from cloud: workday.wd5.myworkdayjobs.com"
+      "note": "workday.wd5 (own tenant) create+signin silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a613e7411edf44d7915fb0d",
@@ -4447,8 +4447,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7cf453d77e8156a8e353d7",
       "atsUrl": "https://trimble.wd1.myworkdayjobs.com/trimblecareers/job/US---Remote-CO/AI-Software-Engineer_R57160?jr_id=6a7cf453d77e8156a8e353d7",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: trimble.wd1.myworkdayjobs.com"
+      "status": "applied",
+      "note": "submitted via cloud workday driver 2026-09-05 (guest apply)"
     },
     {
       "id": "6a7cb55177d5f033c4b90224",
@@ -4483,8 +4483,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a987e14dd171c7285792854",
       "atsUrl": "https://cmu.wd115.myworkdayjobs.com/sei/job/Pittsburgh-PA/Software-Engineer_2024794-1?jr_id=6a987e14dd171c7285792854",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: cmu.wd115.myworkdayjobs.com"
+      "status": "dropped",
+      "note": "CMU SEI req 2024794 (cross-posted): Software Engineering Institute is a DoD-funded FFRDC, roles need clearance eligibility — defense/clearance rule, dropped 2026-09-05"
     },
     {
       "id": "6a998002138838706058e212",
@@ -4604,7 +4604,7 @@
       "atsUrl": "https://workday.wd5.myworkdayjobs.com/Workday_Jobs/job/USA-GA-Atlanta/Sr-Associate-Software-Development-Engineer_JR-0108518?jr_id=6a51cf808d7d3e6cf1cc341a",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: workday.wd5.myworkdayjobs.com"
+      "note": "workday.wd5 (own tenant) create+signin silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a99728f8a8b765bc55f30af",
@@ -5012,7 +5012,7 @@
       "atsUrl": "https://equifax.wd5.myworkdayjobs.com/external/job/USA---Georgia---Alpharetta---30005/Software-Engineer_J00178860?jr_id=6a95e713cabc9f6703e1ad45",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: equifax.wd5.myworkdayjobs.com"
+      "note": "workday registration IP-wide silent block from cloud 2026-09-05 (5/5 tenants: att/salesforce/workday-own/acrisure/velera) — needs new account; local replay on Mac"
     },
     {
       "id": "68c0951c8e65e77df55c2dbf",
@@ -5072,7 +5072,7 @@
       "atsUrl": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Sr-Engineer---Risk-Platform--Hybrid--Sunnyvale-_R29174?jr_id=6a5f81d833ef5c58b4ffe403",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: crowdstrike.wd5.myworkdayjobs.com"
+      "note": "workday registration IP-wide silent block from cloud 2026-09-05 (5/5 tenants: att/salesforce/workday-own/acrisure/velera) — needs new account; local replay on Mac"
     },
     {
       "id": "6a5faf08b0f20036bc632675",
@@ -5180,7 +5180,7 @@
       "atsUrl": "https://alkami.wd12.myworkdayjobs.com/Alkami/job/US-Remote/Sr-Software-Engineer--MANTL-_JR-000693?jr_id=6a26faa02056260dd6e846da",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: alkami.wd12.myworkdayjobs.com"
+      "note": "workday registration IP-wide silent block from cloud 2026-09-05 (5/5 tenants: att/salesforce/workday-own/acrisure/velera) — needs new account; local replay on Mac"
     },
     {
       "id": "6a3da700882f121f56a3880b",
@@ -5240,7 +5240,7 @@
       "atsUrl": "https://alkami.wd12.myworkdayjobs.com/Alkami/job/US-Remote/Sr-Software-Engineer--Loans--MANTL--1_JR-000418?jr_id=6a08c5ffa203b1052e445f05",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: alkami.wd12.myworkdayjobs.com"
+      "note": "workday registration IP-wide silent block from cloud 2026-09-05 (5/5 tenants: att/salesforce/workday-own/acrisure/velera) — needs new account; local replay on Mac"
     },
     {
       "id": "6a743c7ab17cba56903556d8",
@@ -5408,7 +5408,7 @@
       "atsUrl": "https://jda.wd5.myworkdayjobs.com/jda_careers/job/Dallas/Sr-Software-Engineer_261669-1?jr_id=6a97673ee4e60e4b8da5de58",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: jda.wd5.myworkdayjobs.com"
+      "note": "workday registration IP-wide silent block from cloud 2026-09-05 (5/5 tenants: att/salesforce/workday-own/acrisure/velera) — needs new account; local replay on Mac"
     },
     {
       "id": "6a6b78c5acb0a61f9dbc0fef",
@@ -5456,7 +5456,7 @@
       "atsUrl": "https://workday.wd5.myworkdayjobs.com/workday/job/USA-GA-Atlanta/Sr-Software-Engineer--Distributed-Systems-_JR-0108061?jr_id=6a974426f5337b2cf7321395",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: workday.wd5.myworkdayjobs.com"
+      "note": "workday.wd5 (own tenant) create+signin silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a87494925fc4e7ae3dac5b0",
@@ -5588,7 +5588,7 @@
       "atsUrl": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Distributed-Systems-Software-Engineer---Public-Cloud--Senior-Lead-Principal-_JR249834?jr_id=6a51ac00ae4052672fe98d37",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: salesforce.wd12.myworkdayjobs.com"
+      "note": "salesforce.wd12 registration + sign-in silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a97350ce4e60e4b8da5cb04",
@@ -6056,7 +6056,7 @@
       "atsUrl": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Redmond-WA/Sr-Software-Engineer--Cloud---CTIO--Hybrid-_R26580-1?jr_id=6a551ff8ae07d60a8d00f0be",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: crowdstrike.wd5.myworkdayjobs.com"
+      "note": "workday registration IP-wide silent block from cloud 2026-09-05 (5/5 tenants: att/salesforce/workday-own/acrisure/velera) — needs new account; local replay on Mac"
     },
     {
       "id": "6a602e346e0c3c7c7d3dafc4",
@@ -6284,7 +6284,7 @@
       "atsUrl": "https://workday.wd5.myworkdayjobs.com/workday_jobs/job/USA-OH-Mason/Software-Development-Engineer_JR-0108529-2?jr_id=6a63330200459a72f2abf778",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: workday.wd5.myworkdayjobs.com"
+      "note": "workday.wd5 (own tenant) create+signin silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a3443ed649fdf16292f4f60",
@@ -6656,7 +6656,7 @@
       "atsUrl": "https://workday.wd5.myworkdayjobs.com/Workday_Jobs/job/USA-TX-Frisco/Sr-Software-Development-Engineer_JR-0108523?jr_id=6a50de28f108cb138971f9ec",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: workday.wd5.myworkdayjobs.com"
+      "note": "workday.wd5 (own tenant) create+signin silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a98713c83fc633357631963",
@@ -7124,7 +7124,7 @@
       "atsUrl": "https://workday.wd5.myworkdayjobs.com/workday/job/USAVAReston/Senior-Software-Development-Engineer--US-Federal-_JR-0105401?jr_id=6a8937a4cde3717f9e9b7f2f",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: workday.wd5.myworkdayjobs.com"
+      "note": "workday.wd5 (own tenant) create+signin silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a15e1d3554b0e12c05869d1",
@@ -7268,7 +7268,7 @@
       "atsUrl": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Software-Engineering-LMTS_JR358441-1?jr_id=6a975354b22f636c8141760b",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: salesforce.wd12.myworkdayjobs.com"
+      "note": "salesforce.wd12 registration + sign-in silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a99761c138838706058df78",
@@ -7352,7 +7352,7 @@
       "atsUrl": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Senior-Software-Engineer_JR-0107919?jr_id=6a39bbcbf6b55d12c7929f73",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: workday.wd5.myworkdayjobs.com"
+      "note": "workday.wd5 (own tenant) create+signin silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a7a24929ee17f276dbf1773",
@@ -7856,7 +7856,7 @@
       "atsUrl": "https://workday.wd5.myworkdayjobs.com/workday/job/USAVAReston/Software-Development-Engineer--US-Federal-_JR-0105421?jr_id=6a721c5d45b6af1c30dbcb92",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: workday.wd5.myworkdayjobs.com"
+      "note": "workday.wd5 (own tenant) create+signin silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a99607b040e5c3d07595da9",
@@ -8036,7 +8036,7 @@
       "atsUrl": "https://workday.wd5.myworkdayjobs.com/workday/job/USA-CA-Pleasanton/Software-Development-Engineer-Distributed-Systems-_JR-0109641?jr_id=6a988c4211f73b6462c8f445",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: workday.wd5.myworkdayjobs.com"
+      "note": "workday.wd5 (own tenant) create+signin silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a9941c78a8b765bc55f242b",
@@ -8967,7 +8967,7 @@
       "atsUrl": "https://workday.wd5.myworkdayjobs.com/Workday_Jobs/job/USA-OR-Beaverton/Sr-Software-Development-Engineer_JR-0108525?jr_id=6a53fc40e726ec56126a8b3f",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform not automated from cloud: workday.wd5.myworkdayjobs.com"
+      "note": "workday.wd5 (own tenant) create+signin silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a99b818138838706058fd46",
@@ -9026,7 +9026,7 @@
       "atsUrl": "https://workday.wd5.myworkdayjobs.com/workday/job/USA-CA-San-Francisco/Software-Development-Engineer--Pipedream-Connect_JR-0107821?jr_id=6a8725f5e8b6601d12901e23",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform not automated from cloud: workday.wd5.myworkdayjobs.com"
+      "note": "workday.wd5 (own tenant) create+signin silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a99d213ad752e2ad5502303",
@@ -9138,7 +9138,7 @@
       "atsUrl": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Lead-Backend-Software-Engineer_JR356282?jr_id=6a99c54f040e5c3d07598b65",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform not automated from cloud: salesforce.wd12.myworkdayjobs.com"
+      "note": "salesforce.wd12 registration + sign-in silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a99f039ad752e2ad5502e32",
@@ -9299,7 +9299,7 @@
       "atsUrl": "https://acrisure.wd1.myworkdayjobs.com/acrisure/job/816-Congress-Ave-Ste-1800----AUSTIN-TX/Senior-Software-Engineer_JR114253?jr_id=6a99aef2ad752e2ad55012aa",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform not automated from cloud: acrisure.wd1.myworkdayjobs.com"
+      "note": "acrisure.wd1 create+signin silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a12964f12f8b43cf398d00c",
@@ -9533,7 +9533,7 @@
       "atsUrl": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Software-Engineering-MTS_JR357929?jr_id=6a99c54d551435518ebf0f93",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform not automated from cloud: salesforce.wd12.myworkdayjobs.com"
+      "note": "salesforce.wd12 registration + sign-in silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a9a2d6690a313642c654a74",
@@ -9557,7 +9557,7 @@
       "atsUrl": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers/job/Charlotte/Platform-Engineer-IV---Integration--Messaging-Technologies_JR6139?jr_id=6a7cc37077d5f033c4b90857",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform not automated from cloud: capgroup.wd1.myworkdayjobs.com"
+      "note": "workday registration IP-wide silent block from cloud 2026-09-05 (5/5 tenants: att/salesforce/workday-own/acrisure/velera) — needs new account; local replay on Mac"
     },
     {
       "id": "6a5131618d7d3e6cf1cbfb68",
@@ -9749,7 +9749,7 @@
       "atsUrl": "https://workday.wd5.myworkdayjobs.com/workday/job/Canada-BC-Vancouver/Principal--Software-Development-Engineer_JR-0108059?jr_id=6a99e3dc040e5c3d07599983",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform not automated from cloud: workday.wd5.myworkdayjobs.com"
+      "note": "workday.wd5 (own tenant) create+signin silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a5dbb8963a8f619507d0791",
@@ -9940,7 +9940,7 @@
       "atsUrl": "https://att.wd1.myworkdayjobs.com/ATTGeneral/job/Dallas-Texas/Lead-Tech-Business-Mgmt----AI-Software-Engineer_R-120181-1?jr_id=6a99de48040e5c3d07599767",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform: att.wd1.myworkdayjobs.com"
+      "note": "att.wd1 registration + sign-in silently rejected from cloud IP (no error, no email) 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a872a87d34f700f87fc3d15",
@@ -10252,7 +10252,7 @@
       "atsUrl": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Houston-Texas/Senior-Engineer--Engineering-Services_R-14288?jr_id=6a53b3298ef95364ead93074",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform: invesco.wd1.myworkdayjobs.com"
+      "note": "workday registration IP-wide silent block from cloud 2026-09-05 (5/5 tenants: att/salesforce/workday-own/acrisure/velera) — needs new account; local replay on Mac"
     },
     {
       "id": "6a986500af954907d65731a1",
@@ -10792,7 +10792,7 @@
       "atsUrl": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Lead-Software-Engineer_JR356743?jr_id=6a95d8d8f28891320e85e622",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform: salesforce.wd12.myworkdayjobs.com"
+      "note": "salesforce.wd12 registration + sign-in silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a34c10729c90c607e4e05a8",
@@ -10888,7 +10888,7 @@
       "atsUrl": "https://velera.wd5.myworkdayjobs.com/veleracareers/job/Remote-USA/Software-Engineer-III--Java-Angular----REMOTE_9644?jr_id=6a9996e5040e5c3d07597345",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform: velera.wd5.myworkdayjobs.com"
+      "note": "workday registration IP-wide silent block from cloud 2026-09-05 (5/5 tenants: att/salesforce/workday-own/acrisure/velera) — needs new account; local replay on Mac"
     },
     {
       "id": "6a5a8203c8e3a473cb8ac20e",
@@ -11008,7 +11008,7 @@
       "atsUrl": "https://remitly.wd5.myworkdayjobs.com/remitly_careers/job/Arlington-Virginia-United-States/Senior-Fullstack-Software-Development-Engineer_R_106722-1?jr_id=6a99d3518a8b765bc55f5b94",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform: remitly.wd5.myworkdayjobs.com"
+      "note": "workday registration IP-wide silent block from cloud 2026-09-05 (5/5 tenants: att/salesforce/workday-own/acrisure/velera) — needs new account; local replay on Mac"
     },
     {
       "id": "6a8482572f4f0014cae20fdd",
@@ -11392,7 +11392,7 @@
       "atsUrl": "https://workday.wd5.myworkdayjobs.com/workday/job/USA-CA-Pleasanton/Senior-Software-Engineer-Distributed-Systems-_JR-0109643?jr_id=6a988c46dd171c7285792e04",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform: workday.wd5.myworkdayjobs.com"
+      "note": "workday.wd5 (own tenant) create+signin silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a06fa43078fec52738a2f66",
@@ -11596,7 +11596,7 @@
       "atsUrl": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Austin-TX/Sr-Software-Engineer--LogScale-Search--Hybrid-_R29418?jr_id=6a5fe9d36e0c3c7c7d3d9de1",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform: crowdstrike.wd5.myworkdayjobs.com"
+      "note": "workday registration IP-wide silent block from cloud 2026-09-05 (5/5 tenants: att/salesforce/workday-own/acrisure/velera) — needs new account; local replay on Mac"
     },
     {
       "id": "6a9a50f5e6c97d4b970aef26",
@@ -13057,7 +13057,7 @@
       "atsUrl": "https://alkami.wd12.myworkdayjobs.com/Alkami/job/US-Remote/Staff-Software-Engineer_JR-000348?jr_id=68972f1473b3a600fe894170",
       "addedAt": "2026-09-05",
       "status": "parked",
-      "note": "platform not automated from cloud: alkami.wd12.myworkdayjobs.com"
+      "note": "workday registration IP-wide silent block from cloud 2026-09-05 (5/5 tenants: att/salesforce/workday-own/acrisure/velera) — needs new account; local replay on Mac"
     },
     {
       "id": "6a9b14309c24314c35f97aa4",
@@ -15404,7 +15404,7 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7ccc837c52154b59f5c74d",
       "atsUrl": null,
       "status": "parked",
-      "note": "harvested 2026-09-05 cloud top-up; ATS url unresolved - Mac batch or cloud wave to resolve"
+      "note": "salesforce.wd12 registration + sign-in silently rejected from cloud IP 2026-09-05 — local replay on Mac"
     },
     {
       "id": "6a99ebda1388387060591659",
