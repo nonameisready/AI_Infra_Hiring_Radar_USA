@@ -1,301 +1,316 @@
 {
- "version": 1,
- "updatedAt": "2026-09-05T02:45:00Z",
- "note": "Company ATS accounts the agent registered for the applicant. Passwords are NEVER stored here or anywhere in the repo — every account uses the email below plus the password in the ATS_ACCOUNT_PASSWORD environment variable (Claude Code env settings). To apply to a company already listed: sign in with these credentials instead of registering again.",
- "loginEmail": "huiluckylucky@gmail.com",
- "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
- "accounts": [
-  {
-   "site": "bloomberg.avature.net",
-   "company": "Bloomberg",
-   "loginUrl": "https://bloomberg.avature.net/careers/Login",
-   "status": "active — pre-existing account recovered via email reset on 2026-08-27; uses the standard login (see file header)"
-  },
-  {
-   "site": "egug.fa.us2.oraclecloud.com",
-   "company": "American Express",
-   "loginUrl": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/my-profile",
-   "status": "active — passwordless: email + one-time code sent to the login email verifies each session"
-  },
-  {
-   "site": "intuit.avature.net",
-   "company": "Intuit",
-   "loginUrl": "https://intuit.avature.net/en_US/externalCareers/Login",
-   "status": "active — pre-existing account; the standard login works"
-  },
-  {
-   "site": "www.metlifecareers.com",
-   "company": "MetLife",
-   "loginUrl": "https://www.metlifecareers.com/en_US/ml/Login",
-   "status": "active — password set by the user on 2026-08-28; standard login works"
-  },
-  {
-   "site": "www.amazon.jobs",
-   "company": "Amazon",
-   "loginUrl": "https://passport.amazon.jobs/",
-   "status": "active — alias account huiluckylucky+amazon@gmail.com (user-registered 2026-08-28), standard password + email OTP; original Google-linked account remains personal-only",
-   "loginEmail": "huiluckylucky+amazon@gmail.com"
-  },
-  {
-   "site": "finastra.wd3.myworkdayjobs.com",
-   "company": "Finastra",
-   "loginUrl": "https://finastra.wd3.myworkdayjobs.com/finc",
-   "status": "active — created 2026-08-30 by the agent; standard login (file header creds)"
-  },
-  {
-   "site": "myhrhome.wd1.myworkdayjobs.com",
-   "company": "OneMain Financial",
-   "loginUrl": "https://myhrhome.wd1.myworkdayjobs.com/onemaincareers",
-   "status": "active — created 2026-08-30 by the agent; standard login"
-  },
-  {
-   "site": "expedia.wd108.myworkdayjobs.com",
-   "company": "Expedia Group",
-   "loginUrl": "https://expedia.wd108.myworkdayjobs.com/search",
-   "status": "active — pre-existing account, standard login works (2026-08-30)"
-  },
-  {
-   "site": "williams.wd5.myworkdayjobs.com",
-   "company": "Williams",
-   "loginUrl": "https://williams.wd5.myworkdayjobs.com/external",
-   "status": "active — created 2026-08-30 by the agent"
-  },
-  {
-   "site": "alkami.wd12.myworkdayjobs.com",
-   "company": "Alkami Technology",
-   "loginUrl": "https://alkami.wd12.myworkdayjobs.com/alkami",
-   "status": "active — created 2026-08-30 by the agent"
-  },
-  {
-   "site": "crowdstrike.wd5.myworkdayjobs.com",
-   "company": "CrowdStrike",
-   "loginUrl": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers",
-   "status": "active — created 2026-08-30 by the agent"
-  },
-  {
-   "site": "invesco.wd1.myworkdayjobs.com",
-   "company": "Invesco",
-   "loginUrl": "https://invesco.wd1.myworkdayjobs.com/ivz",
-   "status": "active — created+email-activated 2026-08-31 by the agent"
-  },
-  {
-   "site": "fiserv.wd5.myworkdayjobs.com",
-   "company": "Fiserv",
-   "loginUrl": "https://fiserv.wd5.myworkdayjobs.com/ext",
-   "status": "active — created+email-activated 2026-08-31; application draft pending user WOTC assessment"
-  },
-  {
-   "site": "blackrock.wd1.myworkdayjobs.com",
-   "company": "BlackRock",
-   "platform": "workday",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "email-activated 2026-09-01"
-  },
-  {
-   "site": "mastercard.wd1.myworkdayjobs.com",
-   "company": "Mastercard",
-   "platform": "workday",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 2026-09-01, no email activation needed"
-  },
-  {
-   "site": "visa.wd5.myworkdayjobs.com",
-   "company": "Visa",
-   "platform": "workday",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 2026-09-01"
-  },
-  {
-   "site": "fico.wd1.myworkdayjobs.com",
-   "company": "FICO",
-   "platform": "workday",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "email-activated 2026-09-01"
-  },
-  {
-   "site": "salesforce.wd12.myworkdayjobs.com",
-   "company": "Salesforce",
-   "platform": "workday",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 2026-09-01"
-  },
-  {
-   "site": "db.wd3.myworkdayjobs.com",
-   "company": "Deutsche Bank",
-   "platform": "workday",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created post-submit 2026-09-01; activation email received"
-  },
-  {
-   "site": "lplfinancial.wd1.myworkdayjobs.com",
-   "company": "LPL Financial",
-   "platform": "workday",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 2026-09-01"
-  },
-  {
-   "tenant": "nelnet.wd1.myworkdayjobs.com",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created+email-activated 2026-09-02 by agent"
-  },
-  {
-   "tenant": "ghr.wd1.myworkdayjobs.com",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created+email-activated 2026-09-02 — but BofA reqs are internal-only (us-emplsv/lateral-us); account idle"
-  },
-  {
-   "tenant": "thomsonreuters.wd5.myworkdayjobs.com",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "WORKS. Registration on 9/2 looked silently rejected but the account WAS created; no email verification needed. Sign-in path: applyManually -> Sign in with email -> input-6/input-7 (honeypot beecatcher: leave empty). Applied JREQ199749 9/2. Lesson: on silent-registration tenants (PANW/Walmart/HPE/GoodRx pattern) try signing in before assuming rejection."
-  },
-  {
-   "tenant": "paloaltonetworks.wd5.myworkdayjobs.com",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "WORKS — account pre-existed (user applied JR-015294 in March 2026); the 9/1 silent registration failure was existing-email rejection. Sign in with email path. Applied JR-021371 + JR-011060 on 9/2. CAUTION: click Save-and-Continue exactly ONCE (el.click OR synthetic dispatch, never both) — a double click posts the form twice and corrupts the draft with duplicate phone/address records (error: already exists + required deadlock); fix by reloading the useMyLastApplication URL and re-doing the step with a single click."
-  },
-  {
-   "tenant": "abglobal.wd1.myworkdayjobs.com",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 2026-09-03 by agent, instant (no email activation). Application draft for R0018669 in progress — education typeahead needs residential IP."
-  },
-  {
-   "tenant": "troweprice.wd5.myworkdayjobs.com",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "sign-in works (9/4); applied 79928."
-  },
-  {
-   "tenant": "datasite.wd1.myworkdayjobs.com",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "sign-in works (9/4); tenant already had a submitted application for R35807 (pre-existing)."
-  },
-  {
-   "tenant": "ffive.wd5.myworkdayjobs.com",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4 instantly (no activation); applied RP1038531."
-  },
-  {
-   "tenant": "netflix.wd108.myworkdayjobs.com",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4 instantly; applied JR28716 + JR28715-1."
-  },
-  {
-   "tenant": "worldpay.wd5.myworkdayjobs.com/worldpay_external_careers_site",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4; email activation link required before sign-in (Gmail). Applied JR0611303. Tenant runs alongside Global Payments Workday."
-  },
-  {
-   "tenant": "fox.wd1.myworkdayjobs.com/domestic",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4 instantly; applied R50032819 Senior Media Platform Engineer. Veteran listbox has trap option \"I identify as a veteran, just not a protected veteran\" - always pick \"I am not a veteran\"."
-  },
-  {
-   "tenant": "lseg.wd3.myworkdayjobs.com/careers",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4; email activation link required. Applied R0121330 + R0121329. Source tree has NO Other option (categories: LSEG External/Referral/Social Media / Search) - used Google. Multiselect needs trusted Playwright clicks, synthetic dispatch fails."
-  },
-  {
-   "tenant": "pressganey.wd1.myworkdayjobs.com/careers",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4 instantly; applied R26_0000000282-1. Long custom questionnaire (start date/salary/auth-status/shifts/languages text answers; OPT=No since CPT). Source tree has no Other leaf - used Corporate Website > Company Career Site."
-  },
-  {
-   "tenant": "workiva.wd503.myworkdayjobs.com/careers",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4 instantly; applied R12422 + R12414 (UMLA). CPT/OPT question answered Yes + additional-info text."
-  },
-  {
-   "tenant": "osv-rubicon.wd5.myworkdayjobs.com/magnitecareers",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4; registration silently redirects to login (no email needed) - sign in right after. Applied R-01359."
-  },
-  {
-   "tenant": "autonation.wd5.myworkdayjobs.com/careers",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4 instantly; applied JR2026148268-1. Source tree no Other: used Search > Google. Extra e-signature checkbox on Voluntary Disclosures."
-  },
-  {
-   "tenant": "cisco.wd5.myworkdayjobs.com/cisco_careers",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4 (silent registration redirect to login, sign-in works). Applied 2021235. Ethnicity list is granular Asian: <country> with double space - pick Chinese. Trap: /^asian/ matches Bruneian first."
-  },
-  {
-   "tenant": "wf.wd1.myworkdayjobs.com/wellsfargojobs",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4 (register redirects to bare login; sign-in works). Applied R-571292. Quirks: phone type list has no Mobile (use Personal Cell); some listboxes only open via focus()+.click(); options need coordinate-dispatch clicks; source picked via type-filter then Other Source."
-  },
-  {
-   "tenant": "northwesternmutual.wd5.myworkdayjobs.com/corporate-careers",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4 instantly; applied JR-45985-1. School typeahead functional from cloud. Ethnicity is checkbox list (Declined to Answer). Screener answers are graded (all/most/some/none). Source: NM Careers Website leaf."
-  },
-  {
-   "tenant": "geico.wd1.myworkdayjobs.com/external",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4 instantly; applied R0065291. Long questionnaire: reasons-for-leaving text, days/shifts checkboxes, FCRA ack."
-  },
-  {
-   "tenant": "fiserv.wd5.myworkdayjobs.com/ext",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4 (silent registration; modal sign-in). Applied R-10374511. WOTC popup handled via driver lastTab/Opt Out (driver.mjs now has lastTab/firstTab/closeTab actions + closed-page recovery)."
-  },
-  {
-   "tenant": "cvshealth.wd1.myworkdayjobs.com/cvs_health_careers",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4 instantly; applied R0959944. Trap: source multiselect pre-adds IndeedEasyApply pill - remove via pill.focus()+Delete key. 12-question screener; salary is a range listbox."
-  },
-  {
-   "tenant": "td.wd3.myworkdayjobs.com/TD_Bank_Careers",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4; email activation. Applied R_1492088. Listboxes need retry-open (focus+click up to 3x); options are verbose sentences - match by ^Yes/^No prefix."
-  },
-  {
-   "tenant": "westernalliancebank.wd5.myworkdayjobs.com/dst",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4; email activation. Applied R13622-2."
-  },
-  {
-   "tenant": "mastercard.wd1.myworkdayjobs.com/corporatecareers",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4 (silent registration, sign-in works). Applied R-289291 + R-289068 (UMLA). Conflict-of-interest questionnaire: outside employment disclosed Yes + description."
-  },
-  {
-   "tenant": "waystar.wd1.myworkdayjobs.com/waystar",
-   "loginEmail": "huiluckylucky@gmail.com",
-   "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
-   "note": "created 9/4 instantly; applied R3261-1."
-  }
- ],
- "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."
+  "version": 1,
+  "updatedAt": "2026-09-05T09:54:21.902Z",
+  "note": "Company ATS accounts the agent registered for the applicant. Passwords are NEVER stored here or anywhere in the repo — every account uses the email below plus the password in the ATS_ACCOUNT_PASSWORD environment variable (Claude Code env settings). To apply to a company already listed: sign in with these credentials instead of registering again.",
+  "loginEmail": "huiluckylucky@gmail.com",
+  "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+  "accounts": [
+    {
+      "site": "bloomberg.avature.net",
+      "company": "Bloomberg",
+      "loginUrl": "https://bloomberg.avature.net/careers/Login",
+      "status": "active — pre-existing account recovered via email reset on 2026-08-27; uses the standard login (see file header)"
+    },
+    {
+      "site": "egug.fa.us2.oraclecloud.com",
+      "company": "American Express",
+      "loginUrl": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/my-profile",
+      "status": "active — passwordless: email + one-time code sent to the login email verifies each session"
+    },
+    {
+      "site": "intuit.avature.net",
+      "company": "Intuit",
+      "loginUrl": "https://intuit.avature.net/en_US/externalCareers/Login",
+      "status": "active — pre-existing account; the standard login works"
+    },
+    {
+      "site": "www.metlifecareers.com",
+      "company": "MetLife",
+      "loginUrl": "https://www.metlifecareers.com/en_US/ml/Login",
+      "status": "active — password set by the user on 2026-08-28; standard login works"
+    },
+    {
+      "site": "www.amazon.jobs",
+      "company": "Amazon",
+      "loginUrl": "https://passport.amazon.jobs/",
+      "status": "active — alias account huiluckylucky+amazon@gmail.com (user-registered 2026-08-28), standard password + email OTP; original Google-linked account remains personal-only",
+      "loginEmail": "huiluckylucky+amazon@gmail.com"
+    },
+    {
+      "site": "finastra.wd3.myworkdayjobs.com",
+      "company": "Finastra",
+      "loginUrl": "https://finastra.wd3.myworkdayjobs.com/finc",
+      "status": "active — created 2026-08-30 by the agent; standard login (file header creds)"
+    },
+    {
+      "site": "myhrhome.wd1.myworkdayjobs.com",
+      "company": "OneMain Financial",
+      "loginUrl": "https://myhrhome.wd1.myworkdayjobs.com/onemaincareers",
+      "status": "active — created 2026-08-30 by the agent; standard login"
+    },
+    {
+      "site": "expedia.wd108.myworkdayjobs.com",
+      "company": "Expedia Group",
+      "loginUrl": "https://expedia.wd108.myworkdayjobs.com/search",
+      "status": "active — pre-existing account, standard login works (2026-08-30)"
+    },
+    {
+      "site": "williams.wd5.myworkdayjobs.com",
+      "company": "Williams",
+      "loginUrl": "https://williams.wd5.myworkdayjobs.com/external",
+      "status": "active — created 2026-08-30 by the agent"
+    },
+    {
+      "site": "alkami.wd12.myworkdayjobs.com",
+      "company": "Alkami Technology",
+      "loginUrl": "https://alkami.wd12.myworkdayjobs.com/alkami",
+      "status": "active — created 2026-08-30 by the agent"
+    },
+    {
+      "site": "crowdstrike.wd5.myworkdayjobs.com",
+      "company": "CrowdStrike",
+      "loginUrl": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers",
+      "status": "active — created 2026-08-30 by the agent"
+    },
+    {
+      "site": "invesco.wd1.myworkdayjobs.com",
+      "company": "Invesco",
+      "loginUrl": "https://invesco.wd1.myworkdayjobs.com/ivz",
+      "status": "active — created+email-activated 2026-08-31 by the agent"
+    },
+    {
+      "site": "fiserv.wd5.myworkdayjobs.com",
+      "company": "Fiserv",
+      "loginUrl": "https://fiserv.wd5.myworkdayjobs.com/ext",
+      "status": "active — created+email-activated 2026-08-31; application draft pending user WOTC assessment"
+    },
+    {
+      "site": "blackrock.wd1.myworkdayjobs.com",
+      "company": "BlackRock",
+      "platform": "workday",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "email-activated 2026-09-01"
+    },
+    {
+      "site": "mastercard.wd1.myworkdayjobs.com",
+      "company": "Mastercard",
+      "platform": "workday",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 2026-09-01, no email activation needed"
+    },
+    {
+      "site": "visa.wd5.myworkdayjobs.com",
+      "company": "Visa",
+      "platform": "workday",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 2026-09-01"
+    },
+    {
+      "site": "fico.wd1.myworkdayjobs.com",
+      "company": "FICO",
+      "platform": "workday",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "email-activated 2026-09-01"
+    },
+    {
+      "site": "salesforce.wd12.myworkdayjobs.com",
+      "company": "Salesforce",
+      "platform": "workday",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 2026-09-01"
+    },
+    {
+      "site": "db.wd3.myworkdayjobs.com",
+      "company": "Deutsche Bank",
+      "platform": "workday",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created post-submit 2026-09-01; activation email received"
+    },
+    {
+      "site": "lplfinancial.wd1.myworkdayjobs.com",
+      "company": "LPL Financial",
+      "platform": "workday",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 2026-09-01"
+    },
+    {
+      "tenant": "nelnet.wd1.myworkdayjobs.com",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created+email-activated 2026-09-02 by agent"
+    },
+    {
+      "tenant": "ghr.wd1.myworkdayjobs.com",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created+email-activated 2026-09-02 — but BofA reqs are internal-only (us-emplsv/lateral-us); account idle"
+    },
+    {
+      "tenant": "thomsonreuters.wd5.myworkdayjobs.com",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "WORKS. Registration on 9/2 looked silently rejected but the account WAS created; no email verification needed. Sign-in path: applyManually -> Sign in with email -> input-6/input-7 (honeypot beecatcher: leave empty). Applied JREQ199749 9/2. Lesson: on silent-registration tenants (PANW/Walmart/HPE/GoodRx pattern) try signing in before assuming rejection."
+    },
+    {
+      "tenant": "paloaltonetworks.wd5.myworkdayjobs.com",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "WORKS — account pre-existed (user applied JR-015294 in March 2026); the 9/1 silent registration failure was existing-email rejection. Sign in with email path. Applied JR-021371 + JR-011060 on 9/2. CAUTION: click Save-and-Continue exactly ONCE (el.click OR synthetic dispatch, never both) — a double click posts the form twice and corrupts the draft with duplicate phone/address records (error: already exists + required deadlock); fix by reloading the useMyLastApplication URL and re-doing the step with a single click."
+    },
+    {
+      "tenant": "abglobal.wd1.myworkdayjobs.com",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 2026-09-03 by agent, instant (no email activation). Application draft for R0018669 in progress — education typeahead needs residential IP."
+    },
+    {
+      "tenant": "troweprice.wd5.myworkdayjobs.com",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "sign-in works (9/4); applied 79928."
+    },
+    {
+      "tenant": "datasite.wd1.myworkdayjobs.com",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "sign-in works (9/4); tenant already had a submitted application for R35807 (pre-existing)."
+    },
+    {
+      "tenant": "ffive.wd5.myworkdayjobs.com",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4 instantly (no activation); applied RP1038531."
+    },
+    {
+      "tenant": "netflix.wd108.myworkdayjobs.com",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4 instantly; applied JR28716 + JR28715-1."
+    },
+    {
+      "tenant": "worldpay.wd5.myworkdayjobs.com/worldpay_external_careers_site",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4; email activation link required before sign-in (Gmail). Applied JR0611303. Tenant runs alongside Global Payments Workday."
+    },
+    {
+      "tenant": "fox.wd1.myworkdayjobs.com/domestic",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4 instantly; applied R50032819 Senior Media Platform Engineer. Veteran listbox has trap option \"I identify as a veteran, just not a protected veteran\" - always pick \"I am not a veteran\"."
+    },
+    {
+      "tenant": "lseg.wd3.myworkdayjobs.com/careers",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4; email activation link required. Applied R0121330 + R0121329. Source tree has NO Other option (categories: LSEG External/Referral/Social Media / Search) - used Google. Multiselect needs trusted Playwright clicks, synthetic dispatch fails."
+    },
+    {
+      "tenant": "pressganey.wd1.myworkdayjobs.com/careers",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4 instantly; applied R26_0000000282-1. Long custom questionnaire (start date/salary/auth-status/shifts/languages text answers; OPT=No since CPT). Source tree has no Other leaf - used Corporate Website > Company Career Site."
+    },
+    {
+      "tenant": "workiva.wd503.myworkdayjobs.com/careers",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4 instantly; applied R12422 + R12414 (UMLA). CPT/OPT question answered Yes + additional-info text."
+    },
+    {
+      "tenant": "osv-rubicon.wd5.myworkdayjobs.com/magnitecareers",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4; registration silently redirects to login (no email needed) - sign in right after. Applied R-01359."
+    },
+    {
+      "tenant": "autonation.wd5.myworkdayjobs.com/careers",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4 instantly; applied JR2026148268-1. Source tree no Other: used Search > Google. Extra e-signature checkbox on Voluntary Disclosures."
+    },
+    {
+      "tenant": "cisco.wd5.myworkdayjobs.com/cisco_careers",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4 (silent registration redirect to login, sign-in works). Applied 2021235. Ethnicity list is granular Asian: <country> with double space - pick Chinese. Trap: /^asian/ matches Bruneian first."
+    },
+    {
+      "tenant": "wf.wd1.myworkdayjobs.com/wellsfargojobs",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4 (register redirects to bare login; sign-in works). Applied R-571292. Quirks: phone type list has no Mobile (use Personal Cell); some listboxes only open via focus()+.click(); options need coordinate-dispatch clicks; source picked via type-filter then Other Source."
+    },
+    {
+      "tenant": "northwesternmutual.wd5.myworkdayjobs.com/corporate-careers",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4 instantly; applied JR-45985-1. School typeahead functional from cloud. Ethnicity is checkbox list (Declined to Answer). Screener answers are graded (all/most/some/none). Source: NM Careers Website leaf."
+    },
+    {
+      "tenant": "geico.wd1.myworkdayjobs.com/external",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4 instantly; applied R0065291. Long questionnaire: reasons-for-leaving text, days/shifts checkboxes, FCRA ack."
+    },
+    {
+      "tenant": "fiserv.wd5.myworkdayjobs.com/ext",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4 (silent registration; modal sign-in). Applied R-10374511. WOTC popup handled via driver lastTab/Opt Out (driver.mjs now has lastTab/firstTab/closeTab actions + closed-page recovery)."
+    },
+    {
+      "tenant": "cvshealth.wd1.myworkdayjobs.com/cvs_health_careers",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4 instantly; applied R0959944. Trap: source multiselect pre-adds IndeedEasyApply pill - remove via pill.focus()+Delete key. 12-question screener; salary is a range listbox."
+    },
+    {
+      "tenant": "td.wd3.myworkdayjobs.com/TD_Bank_Careers",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4; email activation. Applied R_1492088. Listboxes need retry-open (focus+click up to 3x); options are verbose sentences - match by ^Yes/^No prefix."
+    },
+    {
+      "tenant": "westernalliancebank.wd5.myworkdayjobs.com/dst",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4; email activation. Applied R13622-2."
+    },
+    {
+      "tenant": "mastercard.wd1.myworkdayjobs.com/corporatecareers",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4 (silent registration, sign-in works). Applied R-289291 + R-289068 (UMLA). Conflict-of-interest questionnaire: outside employment disclosed Yes + description."
+    },
+    {
+      "tenant": "waystar.wd1.myworkdayjobs.com/waystar",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/4 instantly; applied R3261-1."
+    },
+    {
+      "tenant": "generalmotors.wd5.myworkdayjobs.com/careers_gm",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "passwordRef": "env:ATS_ACCOUNT_PASSWORD",
+      "note": "created 9/5 instantly; applied JR-202614911 + JR-202618670 (UMLA). Compliance questionnaire (gov official/influence) No; SMS consent listbox appears after first save attempt."
+    },
+    {
+      "tenant": "flybreeze.wd503",
+      "company": "Breeze Airways",
+      "url": "https://flybreeze.wd503.myworkdayjobs.com/breeze_airways",
+      "email": "huiluckylucky@gmail.com",
+      "passwordRef": "ATS_ACCOUNT_PASSWORD",
+      "created": "2026-09-05",
+      "notes": "Instant registration (no email activation). 8-step wizard. Degree listbox options are plain MS/MA/MBA — regex /master/i matches nothing, use exact MS. Salary expectations = free-text (gave $150,000 per year negotiable). Office 365 proficiency listbox (picked Intermediate). Disclosures = veteran only + privacy I-agree checkbox; no gender/ethnicity listboxes. CC-305 date via month-input coordinate click + typed MMDDYYYY ET date."
+    }
+  ],
+  "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."
 }
