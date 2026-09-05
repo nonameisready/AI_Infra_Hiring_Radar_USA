@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-05T02:45:00Z",
+ "updatedAt": "2026-09-05T07:53:29.793Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -5286,6 +5286,149 @@
    "via": "cloud-workday-driver",
    "detail": "R3261-1 submitted 2026-09-04 (ET) via new waystar.wd1 account (instant). Sponsorship Yes x2 + description texts; basecamp Lehi UT; relocate + hybrid-schedule Yes. CC-305 date must be 09/04 (ET today).",
    "at": "2026-09-05T02:45:00Z"
+  },
+  "6a7cb66e83621355407ab694": {
+   "key": "flow traders::software engineer (trading automation)",
+   "title": "Software Engineer (Trading Automation)",
+   "company": "Flow Traders",
+   "matchPercent": 94,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7cb66e83621355407ab694",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=flowtraders&jr_id=6a7cb66e83621355407ab694&token=8120460&utm_source=jobright",
+   "appliedAt": "2026-09-05",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Submitted from the user's home IP by local-batch"
+  },
+  "6a3ea438ce7cce40b34210b8": {
+   "key": "addepar::sr. software engineer - ai/ml - ai platform",
+   "title": "Sr. Software Engineer - AI/ML - AI Platform",
+   "company": "Addepar",
+   "matchPercent": 92,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a3ea438ce7cce40b34210b8",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=addepar1&jr_id=6a3ea438ce7cce40b34210b8&token=8479770002&utm_source=jobright",
+   "appliedAt": "2026-09-05",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
+  },
+  "6a9b0faed5ff1f3f1c39d717": {
+   "key": "beacon biosignals::software engineer iv, datastore",
+   "title": "Software Engineer IV, Datastore",
+   "company": "Beacon Biosignals",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9b0faed5ff1f3f1c39d717",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=beaconbiosignals&jr_id=6a9b0faed5ff1f3f1c39d717&token=4396391009&utm_source=jobright",
+   "appliedAt": "2026-09-05",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
+  },
+  "6a97c522af954907d65707d6": {
+   "key": "speechify::software engineer, platform - college station, tx, usa",
+   "title": "Software Engineer, Platform - College Station, TX, USA",
+   "company": "Speechify",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a97c522af954907d65707d6",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=speechify&jr_id=6a97c522af954907d65707d6&token=5974163004&utm_source=jobright",
+   "appliedAt": "2026-09-05",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Submitted from the user's home IP by local-batch"
+  },
+  "6a9b47a82cdc5958f53ebcc4": {
+   "key": "altruist::senior back end engineer, platform",
+   "title": "Senior Back End Engineer, Platform",
+   "company": "Altruist",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9b47a82cdc5958f53ebcc4",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=altruist&jr_id=6a9b47a82cdc5958f53ebcc4&token=6183619004&utm_source=jobright",
+   "appliedAt": "2026-09-05",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
+  },
+  "6a7df3a5ad9ff00c26ba92ba": {
+   "key": "yoodli ai roleplays::senior software engineer- backend (platform)",
+   "title": "Senior Software Engineer- Backend (Platform)",
+   "company": "Yoodli AI Roleplays",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7df3a5ad9ff00c26ba92ba",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=yoodliinc&jr_id=6a7df3a5ad9ff00c26ba92ba&token=4364205009&utm_source=jobright",
+   "appliedAt": "2026-09-05",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
+  },
+  "6a19bc7f9111f771d1a07eb4": {
+   "key": "imc trading::quantitative developer - python",
+   "title": "Quantitative Developer - Python",
+   "company": "IMC Trading",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a19bc7f9111f771d1a07eb4",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=imc&jr_id=6a19bc7f9111f771d1a07eb4&token=4874399101&utm_source=jobright",
+   "appliedAt": "2026-09-05",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
+  },
+  "6a99a29e138838706058f3b0": {
+   "key": "box::software engineer iii, developer platform",
+   "title": "Software Engineer III, Developer Platform",
+   "company": "Box",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a99a29e138838706058f3b0",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=boxinc&jr_id=6a99a29e138838706058f3b0&token=8168139&utm_source=jobright",
+   "appliedAt": "2026-09-05",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
+  },
+  "693c829f50bbaf76504fbb33": {
+   "key": "clear street::software engineer - low touch desk",
+   "title": "Software Engineer - Low Touch Desk",
+   "company": "Clear Street",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/693c829f50bbaf76504fbb33",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=clearstreet&jr_id=693c829f50bbaf76504fbb33&token=7466171&utm_source=jobright",
+   "appliedAt": "2026-09-05",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Submitted from the user's home IP by local-batch"
+  },
+  "6a99d76f1388387060590cc8": {
+   "key": "roku::senior software engineer, ad serving",
+   "title": "Senior Software Engineer, Ad Serving",
+   "company": "Roku",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a99d76f1388387060590cc8",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=roku&jr_id=6a99d76f1388387060590cc8&token=7118167&utm_source=jobright",
+   "appliedAt": "2026-09-05",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Submitted from the user's home IP by local-batch"
+  },
+  "6a96ea6e455eaf6a08c194da": {
+   "key": "zoominfo::senior software engineer - pa051",
+   "title": "Senior Software Engineer - PA051",
+   "company": "ZoomInfo",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96ea6e455eaf6a08c194da",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=zoominfo&jr_id=6a96ea6e455eaf6a08c194da&token=8750953002&utm_source=jobright",
+   "appliedAt": "2026-09-05",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
+  },
+  "6a9b0367fe45b8490f606690": {
+   "key": "nt concepts::senior / sme software developer – java / python",
+   "title": "Senior / SME Software Developer – Java / Python",
+   "company": "NT Concepts",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9b0367fe45b8490f606690",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=ntconcepts&jr_id=6a9b0367fe45b8490f606690&token=6183124004&utm_source=jobright",
+   "appliedAt": "2026-09-05",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
+  },
+  "6a8dbdefd34f700f87fd58bb": {
+   "key": "verkada::senior backend engineer",
+   "title": "Senior Backend Engineer",
+   "company": "Verkada",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8dbdefd34f700f87fd58bb",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=verkada&jr_id=6a8dbdefd34f700f87fd58bb&token=5221378007&utm_source=jobright",
+   "appliedAt": "2026-09-05",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Confirmed on Qwen-assisted repass (home IP)"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

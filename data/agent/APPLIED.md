@@ -440,3 +440,20 @@ Mac 1am batch: 0 submitted (pool drained by 9/3 top-up), 9 to Qwen. Fresh harves
 33 confirmed vs goal 100 — 2nd best day. Morning: T. Rowe Price 90, F5 88, Netflix x4 (JR28716/JR28715-1/JR41999/JR42055). Afternoon-evening wave, 12 NEW tenant accounts registered + applied in one pass: Worldpay 87 (email-activation), Fox 87 (I-am-not-a-veteran trap option avoided), LSEG x2 87 (email-activation; no Other source, trusted-click quirk), Press Ganey 86, GenPT 86 (guest apply, no account), Workiva x2 (86/81, UMLA), Magnite 85, AutoNation 85 (e-signature checkbox), Cisco x7 (85/81/76/75/73/73/71 — UMLA chain + auto-pilot script; ethnicity list trap "Asian: Bruneian" fixed to Chinese), Wells Fargo 96 (driver crash mid-flow, resumed via --resume; Personal Cell phone type), Northwestern Mutual 92 (real work history + UPenn typeahead worked from cloud), GEICO 91 (FCRA ack, days/shifts), Fiserv 86 (WOTC popup -> taxcreditco Opt Out via new lastTab driver action), CVS 88 (IndeedEasyApply pill trap removed), TD 87 (email-activation, verbose options), Western Alliance 87 (email-activation), Mastercard x2 (86/82, conflict-of-interest disclosure incl. side projects), Waystar 89 (CC-305 date must be ET today).
 
 Honest limiting factors: Greenhouse cloud-IP silent block (50 jobs -> Mac tonight); nvidia.wd5 / pru.wd5 / fmr.wd1 registrations silently rejected from datacenter IP (both passwords, no email) -> Mac; JPMC/Chase Oracle x15+ parked (hCaptcha -> user or OTP-interactive later); Amazon window limit. User added fallback ATS password for sites rejecting the primary. All-time 413.
+
+## 2026-09-05 (Mac local batch, home IP)
+
+13 submitted, 57 parked, 16 queued for Qwen. All-time 426.
+- Flow Traders — Software Engineer (Trading Automation) (94%) — greenhouse, confirmed
+- Addepar — Sr. Software Engineer - AI/ML - AI Platform (92%) — greenhouse, confirmed
+- Beacon Biosignals — Software Engineer IV, Datastore (88%) — greenhouse, confirmed
+- Speechify — Software Engineer, Platform - College Station, TX, USA (88%) — greenhouse, confirmed
+- Altruist — Senior Back End Engineer, Platform (88%) — greenhouse, confirmed
+- Yoodli AI Roleplays — Senior Software Engineer- Backend (Platform) (88%) — greenhouse, confirmed
+- IMC Trading — Quantitative Developer - Python (88%) — greenhouse, confirmed
+- Box — Software Engineer III, Developer Platform (86%) — greenhouse, confirmed
+- Clear Street — Software Engineer - Low Touch Desk (85%) — greenhouse, confirmed
+- Roku — Senior Software Engineer, Ad Serving (85%) — greenhouse, confirmed
+- ZoomInfo — Senior Software Engineer - PA051 (85%) — greenhouse, confirmed
+- NT Concepts — Senior / SME Software Developer – Java / Python (85%) — greenhouse, confirmed
+- Verkada — Senior Backend Engineer (85%) — greenhouse, confirmed
