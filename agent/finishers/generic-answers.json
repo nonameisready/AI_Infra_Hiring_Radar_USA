@@ -1373,6 +1373,808 @@
   {
    "label": "which primary backend (language|stack)",
    "prefer": "python|java"
+  },
+  {
+   "label": "Are you able to be fully available during Eleventh Hours Games' core h",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Do you currently have a remote work setup capable of fulfilling the ne",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Do you have experience working in a fully remote studio environment",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "What is your experience with C# and/or Unity",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Do you now or in the future require sponsorship for employment visa status",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "U\\.S\\. citizen",
+   "prefer": "None of these apply to me"
+  },
+  {
+   "label": "U\\.S\\. non-citizen national",
+   "prefer": "None of these apply to me"
+  },
+  {
+   "label": "U\\.S\\. permanent resident",
+   "prefer": "None of these apply to me"
+  },
+  {
+   "label": "Individual granted asylum",
+   "prefer": "None of these apply to me"
+  },
+  {
+   "label": "Individual granted refugee status",
+   "prefer": "None of these apply to me"
+  },
+  {
+   "label": "Individual granted citizenship in a country other than Cuba, Iran, North Korea, Syria",
+   "prefer": "None of these apply to me"
+  },
+  {
+   "label": "Individual granted permanent residency in a country other than Cuba, Iran, North Korea, Syria",
+   "prefer": "None of these apply to me"
+  },
+  {
+   "label": "None of these apply to me",
+   "prefer": "None of these apply to me"
+  },
+  {
+   "label": "Not applicable",
+   "prefer": "None of these apply to me"
+  },
+  {
+   "label": "current location",
+   "prefer": "New York, NY"
+  },
+  {
+   "label": "hire candidates",
+   "prefer": "Yes"
+  },
+  {
+   "label": "work authorization",
+   "prefer": "F-1 (CPT)"
+  },
+  {
+   "label": "visa sponsorship",
+   "prefer": "Yes"
+  },
+  {
+   "label": "relocation",
+   "prefer": "Yes"
+  },
+  {
+   "label": "start date",
+   "prefer": "Immediately"
+  },
+  {
+   "label": "English",
+   "prefer": "English",
+   "type": ""
+  },
+  {
+   "label": "Mandarin Chinese",
+   "prefer": "Mandarin Chinese",
+   "type": ""
+  },
+  {
+   "label": "Spanish",
+   "prefer": "Spanish",
+   "type": ""
+  },
+  {
+   "label": "French",
+   "prefer": "French",
+   "type": ""
+  },
+  {
+   "label": "Arabic",
+   "prefer": "Arabic",
+   "type": ""
+  },
+  {
+   "label": "Bengali",
+   "prefer": "Bengali",
+   "type": ""
+  },
+  {
+   "label": "Cantonese",
+   "prefer": "Cantonese",
+   "type": ""
+  },
+  {
+   "label": "Czech",
+   "prefer": "Czech",
+   "type": ""
+  },
+  {
+   "label": "Dutch",
+   "prefer": "Dutch",
+   "type": ""
+  },
+  {
+   "label": "German",
+   "prefer": "German",
+   "type": ""
+  },
+  {
+   "label": "Greek",
+   "prefer": "Greek",
+   "type": ""
+  },
+  {
+   "label": "Hebrew",
+   "prefer": "Hebrew",
+   "type": ""
+  },
+  {
+   "label": "Hindi",
+   "prefer": "Hindi",
+   "type": ""
+  },
+  {
+   "label": "Hungarian",
+   "prefer": "Hungarian",
+   "type": ""
+  },
+  {
+   "label": "Indonesian",
+   "prefer": "Indonesian",
+   "type": ""
+  },
+  {
+   "label": "Italian",
+   "prefer": "Italian",
+   "type": ""
+  },
+  {
+   "label": "Japanese",
+   "prefer": "Japanese",
+   "type": ""
+  },
+  {
+   "label": "Korean",
+   "prefer": "Korean",
+   "type": ""
+  },
+  {
+   "label": "Bahasa Malaysia",
+   "prefer": "Bahasa Malaysia",
+   "type": ""
+  },
+  {
+   "label": "Norwegian",
+   "prefer": "Norwegian",
+   "type": ""
+  },
+  {
+   "label": "Persian",
+   "prefer": "Persian",
+   "type": ""
+  },
+  {
+   "label": "Polish",
+   "prefer": "Polish",
+   "type": ""
+  },
+  {
+   "label": "Portuguese",
+   "prefer": "Portuguese",
+   "type": ""
+  },
+  {
+   "label": "Romanian",
+   "prefer": "Romanian",
+   "type": ""
+  },
+  {
+   "label": "Russian",
+   "prefer": "Russian",
+   "type": ""
+  },
+  {
+   "label": "Swedish",
+   "prefer": "Swedish",
+   "type": ""
+  },
+  {
+   "label": "Thai",
+   "prefer": "Thai",
+   "type": ""
+  },
+  {
+   "label": "Turkish",
+   "prefer": "Turkish",
+   "type": ""
+  },
+  {
+   "label": "Ukrainian",
+   "prefer": "Ukrainian",
+   "type": ""
+  },
+  {
+   "label": "Vietnamese",
+   "prefer": "Vietnamese",
+   "type": ""
+  },
+  {
+   "label": "Other",
+   "prefer": "Other",
+   "type": ""
+  },
+  {
+   "label": "Security code",
+   "prefer": ".*",
+   "type": "N/A"
+  },
+  {
+   "label": "verification code",
+   "prefer": ".*",
+   "type": "N/A"
+  },
+  {
+   "label": "Which best describes your backend engineering experience",
+   "prefer": "5+ years",
+   "type": ""
+  },
+  {
+   "label": "Will you now or in the future require visa support",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Export Control",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Permanent resident",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Citizen",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Visa",
+   "prefer": "F-1",
+   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+  },
+  {
+   "label": "How many years of relevant working experience do you have to the role?",
+   "prefer": "5",
+   "type": ""
+  },
+  {
+   "label": "Do you live OUTSIDE of the United States",
+   "prefer": "No",
+   "type": "radio"
+  },
+  {
+   "label": "Have you previously been an employee of Businessolver",
+   "prefer": "No",
+   "type": "radio"
+  },
+  {
+   "label": "Do you currently work for a client of Businessolver",
+   "prefer": "No",
+   "type": "radio"
+  },
+  {
+   "label": "Do you have previous experience supporting healthcare related bene",
+   "prefer": "Yes",
+   "type": "radio"
+  },
+  {
+   "label": "Businessolver uses text messaging to help move you through the int",
+   "prefer": "Yes",
+   "type": "radio"
+  },
+  {
+   "label": "What US State do you currently reside in",
+   "prefer": "New Jersey",
+   "type": ""
+  },
+  {
+   "label": "How soon after an offer are you available to start",
+   "prefer": "immediately",
+   "type": ""
+  },
+  {
+   "label": "Are you comfortable working in a startup-like environment",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "How many years of hands-on backend development experience do you have",
+   "prefer": "5",
+   "type": ""
+  },
+  {
+   "label": "Are you currently located in the San Francisco Bay Area",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you able to come into the SF office for an interview",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Are you currently located in the New York Area",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Are you able to come into the NY office for an interview",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Location.*City",
+   "prefer": "New York",
+   "type": "New York"
+  },
+  {
+   "label": "Visa.*Sponsorship|Work.*Authorization|Citizenship|Immigration.*Support",
+   "prefer": "Yes",
+   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+  },
+  {
+   "label": "Onsite|Hybrid|Relocation|Commute|Work.*From.*Home",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Start.*Date|Available.*To.*Start|Immediately",
+   "prefer": "Immediately",
+   "type": "Immediately"
+  },
+  {
+   "label": "Previously.*Worked.*For|Relatives.*At.*Company|Referral",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Non.*Compete|Restrictive.*Agreement|Conflict.*Of.*Interest",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "18.*Years.*Old|Background.*Check|Lived.*Outside.*US|Smoker|Securities.*License",
+   "prefer": "Yes|No",
+   "type": "Yes"
+  },
+  {
+   "label": "EEO|Demographics|Gender|Race|Ethnicity|Veteran|Disability|Sexual.*Orientation|Pronouns",
+   "prefer": "I do not wish to answer",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "AI.*Usage|AI.*Tools|AI.*Workflow",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "5.*Years.*Software|Programming.*Languages|SDLC|System.*Design|Microservices|APIs|Mentoring|Backend|Payment|Market.*Data",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "8.*Years.*Golang|TypeScript.*UI|C#.*.*NET",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Clearance|US.*Citizen|Government.*Employee|Export.*Control|Sanctioned.*Country",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Candidate AI Usage Attestation",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Did you have a chance to visit PrizePicks\\.com",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "What lab software systems",
+   "prefer": ".*",
+   "type": "None"
+  },
+  {
+   "label": "Have you customized or extended a LIMS",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "What CI/CD tools have you used",
+   "prefer": ".*",
+   "type": "None"
+  },
+  {
+   "label": "What's your proficiency level in Python",
+   "prefer": ".*Proficient.*|.*Expert.*|.*Advanced.*",
+   "type": "Most Proficient"
+  },
+  {
+   "label": "What is your current or most recent job title",
+   "prefer": "Senior Software Engineer",
+   "type": ""
+  },
+  {
+   "label": "How did you first hear about Planet before applying for this position",
+   "prefer": "Job board"
+  },
+  {
+   "label": "How did you find this position",
+   "prefer": "Job board"
+  },
+  {
+   "label": "Do you reside in or maintain an established permanent residence in any",
+   "prefer": "No"
+  },
+  {
+   "label": "Will you require TFD sponsorship to continue your employment",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Have you previously applied to TFD or interviewed with the company",
+   "prefer": "No"
+  },
+  {
+   "label": "Bay Area, CA",
+   "prefer": "None of the above"
+  },
+  {
+   "label": "New York City, NY",
+   "prefer": "None of the above"
+  },
+  {
+   "label": "Seattle, WA",
+   "prefer": "None of the above"
+  },
+  {
+   "label": "Ann Arbor, MI",
+   "prefer": "None of the above"
+  },
+  {
+   "label": "Toronto, ON, Canada",
+   "prefer": "None of the above"
+  },
+  {
+   "label": "Early Career",
+   "prefer": "Senior Staff (E7)"
+  },
+  {
+   "label": "Mid-Level",
+   "prefer": "Senior Staff (E7)"
+  },
+  {
+   "label": "Senior",
+   "prefer": "Senior Staff (E7)"
+  },
+  {
+   "label": "Staff",
+   "prefer": "Staff (E6)"
+  },
+  {
+   "label": "Senior Staff",
+   "prefer": "Senior Staff (E7)"
+  },
+  {
+   "label": "Not sure",
+   "prefer": "Staff (E6)"
+  },
+  {
+   "label": "What do you think are our most complex technical challenges based on t",
+   "prefer": ".*",
+   "type": "What do you think are our most complex technical challenges based on the company's mission to modernize treasury management? Lithic's scale of processing millions of transactions daily, ensuring sub-millisecond latency for real-time payments, and maintaining high availability across a distributed ledger-like architecture presents significant challenges in data consistency, concurrency control, and fault tolerance. Drawing from my experience scaling a real-time transaction platform at Bank of America to handle 10x traffic growth, I see similar complexities in managing stateful distributed systems while ensuring regulatory compliance and security at scale."
+  },
+  {
+   "label": "Our interviews require you to be on video. Can you confirm that you ca",
+   "prefer": ".*",
+   "type": "Yes"
+  },
+  {
+   "label": "What did you get when you cracked the code\\*",
+   "prefer": ".*",
+   "type": "Belinda"
+  },
+  {
+   "label": "LGBT2QIA",
+   "prefer": "I do not wish to answer"
+  },
+  {
+   "label": "Do you have at least 8 years of experience as part of a software devel",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "What is your experience with backend development in a team production",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Do you have expertise in developing ETL or data pipelines that run at",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Do you have experience with Python",
+   "prefer": "Yes"
+  },
+  {
+   "label": "What level of expertise do you have with Angular",
+   "prefer": "No"
+  },
+  {
+   "label": "What level of expertise do you have with Typescript",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Do you have consultation or client-facing experience",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Do you have agency experience",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Do you live in any of the following states",
+   "prefer": "New Jersey"
+  },
+  {
+   "label": "Are you open to working 4 days onsite",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Zipcode",
+   "prefer": "07306",
+   "type": ""
+  },
+  {
+   "label": "Accept",
+   "prefer": "Accept"
+  },
+  {
+   "label": "How we interview",
+   "prefer": "Our hiring process prioritizes authenticity and fair"
+  },
+  {
+   "label": "With your permission, we may use AI transcription software",
+   "prefer": "Yes"
+  },
+  {
+   "label": "open to working 4 days onsite",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Do you have professional experience writing production Go",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Are you currently employed or previously employed by one of our parent",
+   "prefer": "No"
+  },
+  {
+   "label": "Work Authorization",
+   "prefer": "F-1 (CPT)"
+  },
+  {
+   "label": "SeatGeek was founded in 2008",
+   "prefer": "True",
+   "type": "radio"
+  },
+  {
+   "label": "What state do you currently live in",
+   "prefer": "New Jersey",
+   "type": "select"
+  },
+  {
+   "label": "Who is your most recent/current employer",
+   "prefer": "Bank of America",
+   "type": "select"
+  },
+  {
+   "label": "Work Status",
+   "prefer": "F-1 (CPT)",
+   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+  },
+  {
+   "label": "Requires visa sponsorship",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Legally authorized to work",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Eligible to begin employment",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "US citizen",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Government employee",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "US person for export control",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Permanent resident of another country",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Onsite/Hybrid",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Relocation",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Start date",
+   "prefer": "Immediately",
+   "type": "Immediately"
+  },
+  {
+   "label": "Previously worked",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Relatives at company",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Referral",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Non-compete",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Conflict of interest",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "18+",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Background check",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Lived outside US",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Smoker",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Securities licenses",
+   "prefer": "None",
+   "type": "None"
+  },
+  {
+   "label": "EEO/Demographics",
+   "prefer": "I do not wish to answer",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "AI usage",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "5+ years software dev",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Programming languages",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "SDLC",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "System design",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Microservices",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "APIs",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Mentoring",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Backend",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Payment systems",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Market data",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "security clearance status",
+   "prefer": "None",
+   "type": "None"
+  },
+  {
+   "label": "Are you currently authorized to reside and work in the country where the job is located",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Do you have any experience working in or supporting FedRAMP-authorized",
+   "prefer": "No"
+  },
+  {
+   "label": "Location.*City",
+   "prefer": "New York",
+   "type": "New York, NY"
   }
  ],
  "texts": [
@@ -1919,6 +2721,174 @@
   {
    "label": "which primary backend language\\/stack are you most proficient",
    "text": "Python (with Java as a strong second)"
+  },
+  {
+   "label": "Describe a hard problem you solved. Why was it difficult? How did you",
+   "text": "At Bank of America, I solved a critical latency issue where a real-time transaction platform could not handle a 10x traffic surge, causing p99 latency spikes. The difficulty lay in the distributed nature of the system and the need to maintain data consistency under massive concurrency. I solved it by implementing horizontal partitioning and an aggressive caching strategy, which cut p99 latency by 60% and allowed the system to handle millions of requests daily."
+  },
+  {
+   "label": "What tip, trick, or technique did you recently learn that helps you be",
+   "text": "I recently deepened my integration of AI tools into my daily engineering workflow to accelerate boilerplate generation and unit test creation, allowing me to focus more on complex system architecture and optimization. This technique has significantly increased my shipping velocity while maintaining high code quality."
+  },
+  {
+   "label": "You are reviewing someone’s code, what do you look for",
+   "text": "I look for clarity, maintainability, and adherence to the language's idioms, ensuring the code is performant and handles edge cases gracefully. I also verify that the logic aligns with the system's distributed architecture requirements and that appropriate logging and error handling are in place."
+  },
+  {
+   "label": "What shipped title(s) do you have credit on as a Backend Engineer",
+   "text": "I do not have credit on any shipped game titles as my professional background is in fintech and quantitative finance, specifically at BlackRock and Bank of America."
+  },
+  {
+   "label": "What else should we know when screening your application",
+   "text": "I am a Senior Backend Software Engineer with 7 years of experience specializing in Python, Go, and distributed systems within high-scale financial environments. While my core stack is backend-focused, I am eager to apply my expertise in scaling systems and performance optimization to the gaming industry."
+  },
+  {
+   "label": "current location",
+   "text": "New York, NY"
+  },
+  {
+   "label": "work authorization status",
+   "text": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+  },
+  {
+   "label": "visa sponsorship required",
+   "text": "Yes, I require visa sponsorship now and in the future."
+  },
+  {
+   "label": "relocation willingness",
+   "text": "Yes, I am willing to relocate to the job location at my own expense."
+  },
+  {
+   "label": "start availability",
+   "text": "I can start immediately, within 2 weeks."
+  },
+  {
+   "label": "What is your notice period to your current employer",
+   "text": "Immediately / Within 2 weeks"
+  },
+  {
+   "label": "Describe one production system you personally designed or scaled",
+   "text": "At Bank of America, I designed and scaled a real-time transaction-data platform to handle 10x traffic growth, processing millions of requests daily. I implemented horizontal partitioning and caching strategies that reduced p99 latency by 60%, ensuring high availability and performance for critical financial operations."
+  },
+  {
+   "label": "Export Control",
+   "text": "I am a PRC citizen, not a US citizen or permanent resident, and not a US person for export control purposes. I am not from a sanctioned country."
+  },
+  {
+   "label": "How many years of relevant working experience do you have to the role?",
+   "text": "5+ years"
+  },
+  {
+   "label": "Briefly tell me about your Agentic AI experience",
+   "text": "I have deep experience integrating Agentic AI into backend systems, using AI tools daily to design, debug, and deploy code. At Bank of America, I leveraged AI to scale a real-time transaction platform handling millions of requests, reducing p99 latency by 60% through intelligent caching and partitioning strategies. My workflow relies on AI to accelerate development cycles while maintaining rigorous engineering standards."
+  },
+  {
+   "label": "Please provide us with your middle initial",
+   "text": "M"
+  },
+  {
+   "label": "Please provide us with the NAME of YOUR CURRENT HOME STATE",
+   "text": "New Jersey"
+  },
+  {
+   "label": "If you indicated yes to the question above, please share each fa",
+   "text": "N/A - I have never been an employee of Businessolver."
+  },
+  {
+   "label": "Please also share your current, or most recent, job title",
+   "text": "Senior Software Engineer"
+  },
+  {
+   "label": "Location.*City",
+   "text": "New York"
+  },
+  {
+   "label": "Visa.*Status|Work.*Authorization.*Details",
+   "text": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+  },
+  {
+   "label": "Start.*Date",
+   "text": "Immediately"
+  },
+  {
+   "label": "EEO.*Demographics",
+   "text": "I do not wish to answer"
+  },
+  {
+   "label": "AI.*Usage.*Statement",
+   "text": "I use AI tools deeply in my daily engineering workflow."
+  },
+  {
+   "label": "Candidate AI Usage Attestation",
+   "text": "Yes, I use AI tools deeply and daily as a core part of my engineering workflow to enhance productivity and code quality."
+  },
+  {
+   "label": "what are your",
+   "text": "Yes, I visited PrizePicks.com and was impressed by your innovative approach to gamifying daily fantasy sports. As a Senior Backend Engineer with extensive experience scaling high-traffic fintech platforms at Bank of America and BlackRock, I am eager to apply my expertise in distributed systems, Python, and Go to build robust, real-time gamification features that enhance user engagement and ensure platform reliability at scale."
+  },
+  {
+   "label": "What lab software systems",
+   "text": "None. My background is in financial systems (Bank of America, BlackRock) and distributed data platforms, not clinical lab systems like LIMS or ELN."
+  },
+  {
+   "label": "Have you customized or extended a LIMS",
+   "text": "No. I have not worked with or customized LIMS or ELN systems; my experience is in scaling real-time transaction platforms and quantitative data systems."
+  },
+  {
+   "label": "What CI/CD tools have you used",
+   "text": "None specified in the knowledge base. I use standard CI/CD pipelines for Python and Go in cloud environments (AWS) but specific tool names are not listed."
+  },
+  {
+   "label": "What's your proficiency level in Python",
+   "text": "Most proficient language: Python."
+  },
+  {
+   "label": "What is your current or most recent job title",
+   "text": "Senior Software Engineer"
+  },
+  {
+   "label": "How did you first hear about Planet before applying for this position",
+   "text": "Job board"
+  },
+  {
+   "label": "How did you find this position",
+   "text": "Job board"
+  },
+  {
+   "label": "Please share with us your location details",
+   "text": "New York, NY"
+  },
+  {
+   "label": "Vim or Emacs? Why",
+   "text": "I prefer Vim for its efficiency and keyboard-centric workflow, which aligns with my focus on rapid iteration and deep focus during backend development."
+  },
+  {
+   "label": "DEPT® Privacy Statement",
+   "text": "I have read and agree to the DEPT® Privacy Statement."
+  },
+  {
+   "label": "What interests you in this role and Zanskar",
+   "text": "I am drawn to Zanskar's mission to build scalable, real-time financial infrastructure. With 7 years of experience scaling transaction platforms at Bank of America and BlackRock, I thrive in high-velocity environments. My background in Python, Go, and distributed systems aligns perfectly with your backend needs, and I am eager to apply my expertise in handling millions of daily requests to help Zanskar achieve its growth goals."
+  },
+  {
+   "label": "Why Coalition",
+   "text": "I am excited to join Coalition because of your mission to make insurance accessible and affordable through technology, which aligns perfectly with my background in building high-scale, real-time data platforms at Bank of America and BlackRock. My experience scaling systems to handle millions of requests daily and reducing latency by 60% directly translates to the reliability and speed required for your risk modeling and policy issuance engines. I am eager to apply my expertise in Python, Go, and distributed systems to help modernize the insurance industry while leveraging AI tools to drive engineering efficiency."
+  },
+  {
+   "label": "What interests you in this role and Zanskar",
+   "text": "I am drawn to Zanskar's mission to build scalable, real-time financial infrastructure. With 7 years of experience scaling transaction platforms at Bank of America and BlackRock, I am eager to apply my expertise in Python, Go, and distributed systems to handle high-volume data challenges. My background in optimizing p99 latency by 60% and my deep integration of AI tools into daily engineering workflows align perfectly with Zanskar's need for a Senior/Staff Engineer who can ship production-ready code daily while driving architectural innovation."
+  },
+  {
+   "label": "Postal Code",
+   "text": "07306"
+  },
+  {
+   "label": "How did you hear about us",
+   "text": "Job board"
+  },
+  {
+   "label": "Why do you want to work at SnapLogic",
+   "text": "I am excited about SnapLogic's mission to simplify integration and data connectivity. With 7 years of experience scaling real-time transaction platforms at Bank of America and BlackRock, I have built robust distributed systems handling millions of requests daily. My background in Python, Go, and PySpark aligns perfectly with your platform engineering needs, and I am eager to apply my expertise in horizontal partitioning and caching to help SnapLogic scale further."
   }
  ],
  "checkboxes": [
