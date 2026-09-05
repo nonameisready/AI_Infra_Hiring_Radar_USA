@@ -764,8 +764,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a950e41c12c90443efce29e",
       "atsUrl": "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/49052?jr_id=6a950e41c12c90443efce29e",
       "addedAt": "2026-08-31",
-      "status": "parked",
-      "note": "platform not automated from cloud: hcgn.fa.us2.oraclecloud.com",
+      "status": "dropped",
+      "note": "posting removed (This job is no longer available) 2026-09-05",
       "reason": "oracle cloud hcgn: application fully filled (questions, history, degrees) but final email-OTP never delivered after 3 sends — retry the OTP step later; everything is saved in their candidate profile under her email"
     },
     {
@@ -5059,8 +5059,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a91d5bf9864261ccd29f445",
       "atsUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342779?jr_id=6a91d5bf9864261ccd29f445",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: eeho.fa.us2.oraclecloud.com"
+      "status": "applied",
+      "note": "submitted via Oracle CX driver 2026-09-05"
     },
     {
       "id": "6a5f81d833ef5c58b4ffe403",
@@ -6319,8 +6319,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a72674471acd469eeda7e14",
       "atsUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/335678?jr_id=6a72674471acd469eeda7e14",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: eeho.fa.us2.oraclecloud.com"
+      "status": "applied",
+      "note": "submitted via Oracle CX driver 2026-09-05"
     },
     {
       "id": "6a9611c9cabc9f6703e1bf5f",
@@ -6379,8 +6379,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a48c43d971cd25b06f94a18",
       "atsUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/339025?jr_id=6a48c43d971cd25b06f94a18",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: eeho.fa.us2.oraclecloud.com"
+      "status": "applied",
+      "note": "submitted via Oracle CX driver 2026-09-05"
     },
     {
       "id": "6a27929a7061b51a3a5f1922",
@@ -6535,8 +6535,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a95b3474c22023a079353c8",
       "atsUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/343039?jr_id=6a95b3474c22023a079353c8",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: eeho.fa.us2.oraclecloud.com"
+      "status": "applied",
+      "note": "submitted via Oracle CX driver 2026-09-05"
     },
     {
       "id": "6a0eda0b12f8b43cf3979eb1",
@@ -9460,8 +9460,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a625161c28982326de95fc3",
       "atsUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/334929?jr_id=6a625161c28982326de95fc3",
       "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "platform not automated from cloud: eeho.fa.us2.oraclecloud.com"
+      "status": "applied",
+      "note": "submitted via Oracle CX driver 2026-09-05"
     },
     {
       "id": "69d7b98cb861c42857c44f70",
@@ -9627,8 +9627,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a51317e78e364789ca5999b",
       "atsUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/339587?jr_id=6a51317e78e364789ca5999b",
       "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "platform not automated from cloud: eeho.fa.us2.oraclecloud.com"
+      "status": "applied",
+      "note": "submitted via Oracle CX driver 2026-09-05"
     },
     {
       "id": "6a8f8ea22e254e06fb9edb08",
@@ -9639,8 +9639,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a8f8ea22e254e06fb9edb08",
       "atsUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/343958?jr_id=6a8f8ea22e254e06fb9edb08",
       "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "platform not automated from cloud: eeho.fa.us2.oraclecloud.com"
+      "status": "applied",
+      "note": "submitted via Oracle CX driver 2026-09-05"
     },
     {
       "id": "6a7641657b3417772ade7768",
@@ -12972,8 +12972,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7c9580d77e8156a8e32b2e",
       "atsUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342396?jr_id=6a7c9580d77e8156a8e32b2e",
       "addedAt": "2026-09-05",
-      "status": "parked",
-      "note": "platform not automated from cloud: eeho.fa.us2.oraclecloud.com"
+      "status": "applied",
+      "note": "submitted via Oracle CX driver 2026-09-05"
     },
     {
       "id": "6a96ca55e4e60e4b8da59fbf",

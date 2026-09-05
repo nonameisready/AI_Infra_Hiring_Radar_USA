@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T11:00:00.086Z",
+  "updatedAt": "2026-09-05T11:16:35.467Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -5585,6 +5585,110 @@
       "via": "cloud-oracle-cx-driver",
       "detail": "req 337184; status New, applied 09/05/2026",
       "at": "2026-09-05T11:00:00.086Z"
+    },
+    "6a7c9580d77e8156a8e32b2e": {
+      "id": "6a7c9580d77e8156a8e32b2e",
+      "key": "oracle::software developer 3",
+      "title": "Software Developer 3",
+      "company": "Oracle",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7c9580d77e8156a8e32b2e",
+      "originalUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342396",
+      "status": "applied",
+      "via": "cloud-oracle-cx-driver",
+      "detail": "req 342396; Applied on 09/05/2026 confirmed in my-profile",
+      "at": "2026-09-05T11:04:48.641Z"
+    },
+    "6a625161c28982326de95fc3": {
+      "id": "6a625161c28982326de95fc3",
+      "key": "oracle::senior software development engineer (oci)",
+      "title": "Senior Software Development Engineer (OCI)",
+      "company": "Oracle",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a625161c28982326de95fc3",
+      "originalUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/334929",
+      "status": "applied",
+      "via": "cloud-oracle-cx-driver",
+      "detail": "req 334929; Applied on 09/05/2026",
+      "at": "2026-09-05T11:06:31.212Z"
+    },
+    "6a91d5bf9864261ccd29f445": {
+      "id": "6a91d5bf9864261ccd29f445",
+      "key": "oracle::senior platform software engineer (oci - developer platform)",
+      "title": "Senior Platform Software Engineer (OCI - Developer Platform)",
+      "company": "Oracle",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a91d5bf9864261ccd29f445",
+      "originalUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/342779",
+      "status": "applied",
+      "via": "cloud-oracle-cx-driver",
+      "detail": "req 342779; Applied on 09/05/2026",
+      "at": "2026-09-05T11:08:11.548Z"
+    },
+    "6a8f8ea22e254e06fb9edb08": {
+      "id": "6a8f8ea22e254e06fb9edb08",
+      "key": "oracle::senior software infrastructure engineer - oci networking",
+      "title": "Senior Software Infrastructure Engineer - OCI Networking",
+      "company": "Oracle",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8f8ea22e254e06fb9edb08",
+      "originalUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/343958",
+      "status": "applied",
+      "via": "cloud-oracle-cx-driver",
+      "detail": "req 343958; Applied on 09/05/2026",
+      "at": "2026-09-05T11:09:50.749Z"
+    },
+    "6a51317e78e364789ca5999b": {
+      "id": "6a51317e78e364789ca5999b",
+      "key": "oracle::software developer 4",
+      "title": "Software Developer 4",
+      "company": "Oracle",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a51317e78e364789ca5999b",
+      "originalUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/339587",
+      "status": "applied",
+      "via": "cloud-oracle-cx-driver",
+      "detail": "req 339587; Applied on 09/05/2026",
+      "at": "2026-09-05T11:11:30.454Z"
+    },
+    "6a95b3474c22023a079353c8": {
+      "id": "6a95b3474c22023a079353c8",
+      "key": "oracle::senior engineer, core infrastructure",
+      "title": "Senior Engineer, Core Infrastructure",
+      "company": "Oracle",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a95b3474c22023a079353c8",
+      "originalUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/343039",
+      "status": "applied",
+      "via": "cloud-oracle-cx-driver",
+      "detail": "req 343039; Applied on 09/05/2026",
+      "at": "2026-09-05T11:13:12.318Z"
+    },
+    "6a72674471acd469eeda7e14": {
+      "id": "6a72674471acd469eeda7e14",
+      "key": "oracle::senior software engineer, core infrastructure",
+      "title": "Senior Software Engineer, Core Infrastructure",
+      "company": "Oracle",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a72674471acd469eeda7e14",
+      "originalUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/335678",
+      "status": "applied",
+      "via": "cloud-oracle-cx-driver",
+      "detail": "req 335678; Applied on 09/05/2026",
+      "at": "2026-09-05T11:14:51.407Z"
+    },
+    "6a48c43d971cd25b06f94a18": {
+      "id": "6a48c43d971cd25b06f94a18",
+      "key": "oracle::senior application software engineer",
+      "title": "Senior Application Software Engineer",
+      "company": "Oracle",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a48c43d971cd25b06f94a18",
+      "originalUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/339025",
+      "status": "applied",
+      "via": "cloud-oracle-cx-driver",
+      "detail": "req 339025; Applied on 09/05/2026",
+      "at": "2026-09-05T11:16:35.467Z"
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
