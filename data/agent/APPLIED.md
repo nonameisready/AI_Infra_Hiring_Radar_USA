@@ -457,3 +457,19 @@ Honest limiting factors: Greenhouse cloud-IP silent block (50 jobs -> Mac tonigh
 - ZoomInfo — Senior Software Engineer - PA051 (85%) — greenhouse, confirmed
 - NT Concepts — Senior / SME Software Developer – Java / Python (85%) — greenhouse, confirmed
 - Verkada — Senior Backend Engineer (85%) — greenhouse, confirmed
+
+## 2026-09-05 (cloud 5am window, day-close)
+
+**38 confirmed today (best day; goal 100). All-time 451.**
+- Mac local batch: 13 (Greenhouse replay; incl. NT Concepts 85 — defense contractor applied by mistake, now blocklisted, cannot retract, user may withdraw).
+- Cloud adds: 25 — GM x2 (JR-202614911 88, JR-202618670 84), Trimedx R14860 87 (guest), Breeze JR100131 87 (new flybreeze.wd503 acct), Trimble R57160 87 (guest), Uber x4 via Oracle CX OTP (300820 88, 301216 85, 155034 77, 154689 73), Oracle x16 via eeho OTP (341603 88, 338704 87, 337184 86, 342396 83, 334929 83, 342779 82, 343958 82, 339587 82, 343039 79, 335678 79, 339025 79, 337756 78, 339939 78, 341614 75, 330319 75, 340057 72).
+- Harvest top-up: 262 new queued (61 >= 80).
+- CMU SEI x2 dropped (DoD FFRDC / clearance rule). Citizens 49052 + GM x2 postings dead.
+
+**Limiting factors (why not 100):**
+1. Workday new-account registrations now IP-wide silently blocked from cloud (5/5 tenants tested: att, salesforce, workday-own, acrisure, velera; no error/email; sign-in also no-op). ~25 Workday jobs -> Mac.
+2. amazon.jobs alias account at hard 10-active-application cap (verified). 27 jobs parked pending user decision on withdrawals.
+3. iCIMS/Greenhouse/Lever/Rippling/LinkedIn: known cloud blocks; Zelis Phenom + Workable + SmartRecruiters newly confirmed blocked; SuccessFactors (Aflac) login-gates deep links; OpenAlex behind visible Cloudflare (never bypass); JPMC hCaptcha (user).
+4. Oracle CX supply fully exhausted (every parked eeho/iaziqy job submitted).
+
+Brain-queue: 36 open (1 applied entry cleared); 7 POLICY-sensitive entries annotated with standard policy answers so the local model never guesses them.

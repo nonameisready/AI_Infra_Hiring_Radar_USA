@@ -704,7 +704,7 @@
       "atsUrl": "https://apply.workable.com/raydar/j/8269ABB98C/?jr_id=6a8cff17cde3717f9e9bfe65",
       "addedAt": "2026-08-31",
       "status": "parked",
-      "note": "platform not automated from cloud: apply.workable.com"
+      "note": "Workable form renders + fills from cloud but Submit fires NO network request (React never sees native-setter values; trusted Playwright click also no-ops). 2 attempts 2026-09-05 — Mac headed replay."
     },
     {
       "id": "6a9150d42e254e06fb9f3ff9",
@@ -1403,7 +1403,7 @@
       "atsUrl": "https://openalex.org/jobs/software-engineer?jr_id=6a9628c3f28891320e860938",
       "addedAt": "2026-09-01",
       "status": "parked",
-      "note": "resolved to openalex.org — assess next wave. platform not automated from cloud: openalex.org"
+      "note": "openalex.org behind visible Cloudflare verification from cloud IP 2026-09-05 — never bypass; local replay on Mac."
     },
     {
       "id": "6a9710c3b22f636c81415a40",
@@ -1439,7 +1439,7 @@
       "atsUrl": "https://jobs.statefarm.com/jobs/45844?lang=en-us&iis=jobright&iisn=jobright&jr_id=6a9677d026613756de6d8325",
       "addedAt": "2026-09-01",
       "status": "parked",
-      "note": "resolved to jobs.statefarm.com — assess next wave. platform not automated from cloud: jobs.statefarm.com"
+      "note": "State Farm Apply routes to iCIMS login (careers-statefarm.icims.com) — iCIMS cloud-blocked; local replay on Mac."
     },
     {
       "id": "6a907b3b7c32860d14cf99d0",
@@ -2423,7 +2423,7 @@
       "atsUrl": "https://careers.zelis.com/us/en/job/ZOBZDHUSJR110951EXTERNALENUS/Senior-Software-Engineer?utm_source=jobright&utm_medium=phenom-feeds&jr_id=6a0bad2f538d03366dc87e0a",
       "addedAt": "2026-09-02",
       "status": "parked",
-      "note": "platform not automated from cloud: careers.zelis.com"
+      "note": "Zelis Phenom apply: hidden duplicate form w/ same field names; visible address block React-controlled, resets on country change; setters ignored, typeSlow click times out. 2 attempts 2026-09-05 — local replay on Mac (headed)."
     },
     {
       "id": "6a42b4671cc9cc2b12fec7e2",
@@ -2919,7 +2919,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10442900/senior-software-development-engineer-p-s-engineering-services?cmpid=SPLICX0248M&jr_id=6a976ff8e4e60e4b8da5e058&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
       "addedAt": "2026-09-02",
       "status": "parked",
-      "note": "amazon.jobs application limit reached (result=application_limit_reach) after 3 submissions this window — retry next window."
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a58c83e686b4755d1e0c3fb",
@@ -3029,7 +3029,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10510493/software-development-engineer-kinesis-data-streams-kinesis-data-streams?jr_id=6a88b0c2cde3717f9e9b691a",
       "addedAt": "2026-09-02",
       "status": "parked",
-      "note": "amazon.jobs application limit reached (result=application_limit_reach) after 3 submissions this window — retry next window. (same req as jr 6a88e78025fc4e7ae3db2d54 — apply once)"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a8754f94afae74a08347f2e",
@@ -3562,7 +3562,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10520834/sr-software-development-engineer-quick-core-experience?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a92cf1aa27a2d3c9848c264",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "amazon.jobs application limit reached (result=application_limit_reach) after 3 submissions this window — retry next window."
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a76ac8667a1ad0bc53cafd2",
@@ -3743,7 +3743,7 @@
       "atsUrl": "https://apply.workable.com/raydar/j/BEB3393F75/?jr_id=6a97a81b72b96b1c436f10a3",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform not automated from cloud: apply.workable.com"
+      "note": "Workable form renders + fills from cloud but Submit fires NO network request (React never sees native-setter values; trusted Playwright click also no-ops). 2 attempts 2026-09-05 — Mac headed replay."
     },
     {
       "id": "6a0f3aa472b52f7225f3be3d",
@@ -3755,7 +3755,7 @@
       "atsUrl": "https://jobs.smartrecruiters.com/LinkedIn3/744000127716689-sr-staff-software-engineer-systems-infrastructure-?jr_id=6a0f3aa472b52f7225f3be3d",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform not automated from cloud: jobs.smartrecruiters.com"
+      "note": "SmartRecruiters oneclick-ui renders BLANK page from cloud IP (SPA JS/API blocked) 2026-09-05 — Mac replay."
     },
     {
       "id": "6a971547e4e60e4b8da5bf23",
@@ -3865,7 +3865,7 @@
       "atsUrl": "https://apply.workable.com/runware/j/3AE376AFCA/?jr_id=6a8ffc2c7c32860d14cf7525",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform not automated from cloud: apply.workable.com"
+      "note": "Workable form renders + fills from cloud but Submit fires NO network request (React never sees native-setter values; trusted Playwright click also no-ops). 2 attempts 2026-09-05 — Mac headed replay."
     },
     {
       "id": "6a5bc92f856af468ab00da60",
@@ -4060,7 +4060,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10520050/software-development-engineer-route-53?cmpid=SPLICX0248M&jr_id=6a9387e7a27a2d3c9848e034&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "amazon.jobs application limit reached (result=application_limit_reach) after 3 submissions this window — retry next window."
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a447b2657ffc220294076a8",
@@ -4133,7 +4133,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10510493/software-development-engineer-kinesis-data-streams-kinesis-data-streams?cmpid=SPLICX0248M&jr_id=6a88e78025fc4e7ae3db2d54&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "amazon.jobs application limit reached (result=application_limit_reach) after 3 submissions this window — retry next window. (duplicate jr of req 10510493)"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a40d5e6b526a24fc3131338",
@@ -4328,7 +4328,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10526482/software-development-engineer-devx-lift?jr_id=6a98673811f73b6462c8e6e7",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a985515def18223c854ec29",
@@ -4520,7 +4520,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10526602/sr-software-dev-engineer-cloudtrail?jr_id=6a988368af954907d6573bfc",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a609ed471c79e639619bff6",
@@ -4724,7 +4724,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10526602/sr-software-dev-engineer-cloudtrail?cmpid=SPLICX0248M&jr_id=6a998965138838706058e5e2&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "69eaa0953aa0c479643b1057",
@@ -5000,7 +5000,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10521208/senior-software-development-engineer-aws-secdevops?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a92db69d18f75674827c596",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a95e713cabc9f6703e1ad45",
@@ -5096,7 +5096,7 @@
       "atsUrl": "https://apply.workable.com/formassembly/j/7E188C2F2D/?jr_id=6a989f8a83fc6333576329d3",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: apply.workable.com"
+      "note": "Workable form renders + fills from cloud but Submit fires NO network request (React never sees native-setter values; trusted Playwright click also no-ops). 2 attempts 2026-09-05 — Mac headed replay."
     },
     {
       "id": "6a69b2f8c63ba56308f4f9a0",
@@ -5144,7 +5144,7 @@
       "atsUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/ServiceNow/publication/205c2875-e07e-413e-962d-d40bbb92a588?dcr_ci=ServiceNow&jr_id=6a7cb6ced77e8156a8e33d26",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: jobs.smartrecruiters.com"
+      "note": "SmartRecruiters oneclick-ui renders BLANK page from cloud IP (SPA JS/API blocked) 2026-09-05 — Mac replay."
     },
     {
       "id": "6a98e60211f73b6462c8fd10",
@@ -5276,7 +5276,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10460379/sr-software-development-engineer-p-s-engineering-services?cmpid=SPLICX0248M&jr_id=6a978ba1e4e60e4b8da5e588&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a51e7b157513b72e0c69a8c",
@@ -5876,7 +5876,7 @@
       "atsUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/VIVIOHealth/publication/902e90df-5ae9-4e65-9d32-69dc1c5476f9?dcr_ci=VIVIOHealth&jr_id=6a9950e6f6de551aa0aaf442",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: jobs.smartrecruiters.com"
+      "note": "SmartRecruiters oneclick-ui renders BLANK page from cloud IP (SPA JS/API blocked) 2026-09-05 — Mac replay."
     },
     {
       "id": "6a99346af6de551aa0aaec24",
@@ -6176,7 +6176,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10523003/software-development-engineer-iii-aws-core-networking-network-fabric-engineering-core-networking-edge-capacity?cmpid=SPLICX0248M&jr_id=6a967067d13b4819f39dbde3&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a57445a367e61670f5aecac",
@@ -6224,7 +6224,7 @@
       "atsUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/PureIntegration/publication/5ff19774-42da-453d-9168-7988315db398?dcr_ci=PureIntegration&jr_id=6a9982d790a313642c650a43",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: jobs.smartrecruiters.com"
+      "note": "SmartRecruiters oneclick-ui renders BLANK page from cloud IP (SPA JS/API blocked) 2026-09-05 — Mac replay."
     },
     {
       "id": "6a9935ba8974952dfc949e8d",
@@ -6272,7 +6272,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10526604/software-development-engineer-measurement-adtech-and-data-science?jr_id=6a988362c8ed473c5c76477a",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a63330200459a72f2abf778",
@@ -6296,7 +6296,7 @@
       "atsUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/Covista/publication/65934795-2035-4b92-ba6a-dfb0fbd4a4d3?dcr_ci=Covista&jr_id=6a3443ed649fdf16292f4f60",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: jobs.smartrecruiters.com"
+      "note": "SmartRecruiters oneclick-ui renders BLANK page from cloud IP (SPA JS/API blocked) 2026-09-05 — Mac replay."
     },
     {
       "id": "6a7c77d9dc3dff2d1c0c6cdf",
@@ -6548,7 +6548,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10426333/software-development-engineer-ii-managed-operations-mo?jr_id=6a0eda0b12f8b43cf3979eb1",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a930112a27a2d3c9848cbb2",
@@ -6728,7 +6728,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10526573/software-development-engineer-aws-guardduty?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a998c20551435518ebef107",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a97cdba408304609c16e38b",
@@ -7040,7 +7040,7 @@
       "atsUrl": "https://apply.workable.com/tesla-labs/j/17EF767A8F/?jr_id=6a847150e459fa3baa85e4ab",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: apply.workable.com"
+      "note": "Workable form renders + fills from cloud but Submit fires NO network request (React never sees native-setter values; trusted Playwright click also no-ops). 2 attempts 2026-09-05 — Mac headed replay."
     },
     {
       "id": "6a59bd22686b4755d1e11b91",
@@ -8204,7 +8204,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10526632/software-development-engineer-route-53-waypoint?jr_id=6a98835bdef18223c854fd31",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a9918cf83fc63335763315c",
@@ -8372,7 +8372,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10526572/software-dev-engineer-guardduty?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a9961898a8b765bc55f2b8f",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a9729bed13b4819f39df6e8",
@@ -8420,7 +8420,7 @@
       "atsUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/ServiceNow/publication/853bf043-2059-43bb-a313-f821a3c29c4f?dcr_ci=ServiceNow&jr_id=6a5d5605856af468ab010cdc",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: jobs.smartrecruiters.com"
+      "note": "SmartRecruiters oneclick-ui renders BLANK page from cloud IP (SPA JS/API blocked) 2026-09-05 — Mac replay."
     },
     {
       "id": "6a1e05dbe24ef3652583b983",
@@ -8744,7 +8744,7 @@
       "atsUrl": "https://careers.bayview.com/oceanview/jobs/8877?jr_id=6a9178f3a2c8c94f32fcbd49",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform not automated from cloud: careers.bayview.com"
+      "note": "Bayview careers Apply routes to iCIMS login (careers-lakeviewloanservicing.icims.com) — iCIMS cloud-blocked; local replay on Mac. Both Bayview brands = same req 8877, apply ONCE."
     },
     {
       "id": "6a924c2ea27a2d3c9848b970",
@@ -8756,7 +8756,7 @@
       "atsUrl": "https://careers.bayview.com/cls/jobs/8877?jr_id=6a924c2ea27a2d3c9848b970",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform not automated from cloud: careers.bayview.com"
+      "note": "Bayview careers Apply routes to iCIMS login (careers-lakeviewloanservicing.icims.com) — iCIMS cloud-blocked; local replay on Mac. Both Bayview brands = same req 8877, apply ONCE."
     },
     {
       "id": "6a7cb9bed77e8156a8e33e69",
@@ -8898,7 +8898,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10526482/software-development-engineer-devx-lift?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a99607e8a8b765bc55f2b70",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform not automated from cloud: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a99de2b040e5c3d0759974f",
@@ -8979,7 +8979,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10528830/software-development-engineer-iii-annapurna-labs?jr_id=6a99b818138838706058fd46",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform not automated from cloud: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a865e53cc81eb647e9f2a6e",
@@ -9150,7 +9150,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10529317/software-development-engineer-amazon-quick?jr_id=6a99f039ad752e2ad5502e32",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform not automated from cloud: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a99c7e490a313642c652b86",
@@ -9176,7 +9176,7 @@
       "atsUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/WellmarkInc/publication/11611a79-ca4c-4723-bd3b-c8273f91961b?dcr_ci=WellmarkInc&jr_id=6a99b04e040e5c3d07598151",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform not automated from cloud: jobs.smartrecruiters.com"
+      "note": "SmartRecruiters oneclick-ui renders BLANK page from cloud IP (SPA JS/API blocked) 2026-09-05 — Mac replay."
     },
     {
       "id": "6a85f9964afae74a08342885",
@@ -9485,7 +9485,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10528830/software-development-engineer-iii-annapurna-labs?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a9a0b88040e5c3d0759a7f9",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform not automated from cloud: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a591e23686b4755d1e0e724",
@@ -9880,7 +9880,7 @@
       "atsUrl": "https://careers.aflac.com/job/Remote-Software-Engineer-III-31999/1399079200/?jr_id=6a9a74546c308f08f89c5e57",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform: careers.aflac.com"
+      "note": "Aflac SuccessFactors: talentcommunity/apply deep link bounces to careers home (login/session gate) from cloud 2026-09-05 — local replay on Mac."
     },
     {
       "id": "6a3d1aa54d047136e0932317",
@@ -10024,7 +10024,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10496425/sr-software-engineer-aws-managed-backend-services?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a990587af954907d6574c0c",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a998cff040e5c3d07596edc",
@@ -10192,7 +10192,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10529021/software-development-engineer-amazon?jr_id=6a99d426ad752e2ad5502430",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a9925acdef18223c855128f",
@@ -10588,7 +10588,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10529297/software-dev-engineer-iii-amazon-interactive-video-service-ivs-stream-management?jr_id=6a99f0568a8b765bc55f6693",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a99658d551435518ebee1ca",
@@ -11140,7 +11140,7 @@
       "atsUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/DematicCorporation/publication/a52847b3-63a4-4a42-813d-c2bf58f2ed50?dcr_ci=DematicCorporation&jr_id=6a53a74d8ef95364ead92e2c",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform: jobs.smartrecruiters.com"
+      "note": "SmartRecruiters oneclick-ui renders BLANK page from cloud IP (SPA JS/API blocked) 2026-09-05 — Mac replay."
     },
     {
       "id": "6a7bac4becf5194164fbf8af",
@@ -11680,7 +11680,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10396509/software-development-engineer-aws-central-sde-team?jr_id=6a4cb4570209ea6fd684ff97",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a61449d7196365a6f009eea",
@@ -11728,7 +11728,7 @@
       "atsUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/ServiceNow/publication/86422689-440c-4b2f-b5be-25e727078cb4?dcr_ci=ServiceNow&jr_id=6a99b66d8a8b765bc55f4faf",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "platform: jobs.smartrecruiters.com"
+      "note": "SmartRecruiters oneclick-ui renders BLANK page from cloud IP (SPA JS/API blocked) 2026-09-05 — Mac replay."
     },
     {
       "id": "6a9a6bc3a33d28569fb99fad",
@@ -12284,7 +12284,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10529793/sr-software-development-engineer-agentic-workspaces-client?jr_id=6a9ad177fe45b8490f6047cc",
       "addedAt": "2026-09-05",
       "status": "parked",
-      "note": "platform not automated from cloud: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a9b30c02cdc5958f53eb488",
@@ -12381,7 +12381,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10529793/sr-software-development-engineer-agentic-workspaces-client?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a9b07c3138838706059643a",
       "addedAt": "2026-09-05",
       "status": "parked",
-      "note": "platform not automated from cloud: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "69fa389881706a5bd2174700",
@@ -12430,7 +12430,7 @@
       "atsUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/Brightback/publication/5dd4c525-ffa9-4843-adf5-81c4256ebf39?dcr_ci=Brightback&jr_id=6a5f8ce26e0c3c7c7d3d7855",
       "addedAt": "2026-09-05",
       "status": "parked",
-      "note": "platform not automated from cloud: jobs.smartrecruiters.com"
+      "note": "SmartRecruiters oneclick-ui renders BLANK page from cloud IP (SPA JS/API blocked) 2026-09-05 — Mac replay."
     },
     {
       "id": "6a9b07789c24314c35f97656",
@@ -12724,7 +12724,7 @@
       "atsUrl": "https://apply.workable.com/hospitable/j/A0F082F91A/?jr_id=6a9aa5ef1388387060593edd",
       "addedAt": "2026-09-05",
       "status": "parked",
-      "note": "platform not automated from cloud: apply.workable.com"
+      "note": "Workable form renders + fills from cloud but Submit fires NO network request (React never sees native-setter values; trusted Playwright click also no-ops). 2 attempts 2026-09-05 — Mac headed replay."
     },
     {
       "id": "6a8e281747679c68bf5e6e30",
@@ -13099,7 +13099,7 @@
       "atsUrl": "https://www.amazon.jobs/en/jobs/10529317/software-development-engineer-amazon-quick?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a9ab38d1388387060594000",
       "addedAt": "2026-09-05",
       "status": "parked",
-      "note": "platform not automated from cloud: www.amazon.jobs"
+      "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
       "id": "6a9b12032cdc5958f53eab87",
@@ -13231,7 +13231,7 @@
       "atsUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/WellmarkInc/publication/abda5b20-960c-4736-a0bf-32590048736e?dcr_ci=WellmarkInc&jr_id=6a9b6b372cdc5958f53ec4cf",
       "addedAt": "2026-09-05",
       "status": "parked",
-      "note": "platform not automated from cloud: jobs.smartrecruiters.com"
+      "note": "SmartRecruiters oneclick-ui renders BLANK page from cloud IP (SPA JS/API blocked) 2026-09-05 — Mac replay."
     },
     {
       "id": "6a9b1c5cd5ff1f3f1c39db1d",
