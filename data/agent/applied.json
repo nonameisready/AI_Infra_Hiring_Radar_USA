@@ -2382,7 +2382,8 @@
       "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cssmerge&jr_id=6a51c8b98d7d3e6cf1cc2df9&token=8583340002&utm_source=jobright",
       "appliedAt": "2026-08-30",
       "via": "greenhouse (cloud batch)",
-      "detail": "Page showed Thanks-for-applying and confirmation email arrived 05:51 UTC; script had logged it unconfirmed"
+      "detail": "Page showed Thanks-for-applying and confirmation email arrived 05:51 UTC; script had logged it unconfirmed | status field backfilled 2026-09-06",
+      "status": "applied"
     },
     "6a6b7dd15c54bc4752ce940a": {
       "key": "pipe::senior software engineer",

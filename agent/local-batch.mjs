@@ -113,18 +113,29 @@ const budget = Math.max(0, DAILY_CAP - doneToday);
 const idOf = (u) => (String(u).match(/info\/([a-f0-9]+)/) || [])[1];
 const seenIds = new Set(), seenKeys = new Set(), seenTok = new Set();
 const tok = (u) => { const m = String(u ?? "").match(/token=(\d+)/); if (m) seenTok.add(m[1]); };
-for (const [id, j] of Object.entries(ap.jobs)) { seenIds.add(id); if (j.key) seenKeys.add(j.key); tok(j.originalUrl); }
+const seenCompanies = new Set();
+for (const [id, j] of Object.entries(ap.jobs)) {
+  seenIds.add(id); if (j.key) seenKeys.add(j.key); tok(j.originalUrl);
+  // Company-level dedupe (user directive 2026-09-06): once ANY application
+  // exists at a company (agent or manual), don't queue more roles there —
+  // the Qwen queue was filling with same-company duplicates.
+  if (/^applied/.test(j.status ?? "") || /manual|user/i.test(j.via ?? "")) seenCompanies.add(norm(j.company));
+}
 for (const i of pend.items) { seenIds.add(i.id); if (i.key) seenKeys.add(i.key); tok(i.originalUrl); tok(i.atsUrl); }
 const norm = (s) => String(s ?? "").toLowerCase().trim();
 // Standing rule: never apply to defense/clearance companies (applicant cannot
 // hold a US security clearance). Mirrors RUNBOOK; extend as new ones appear.
-const DEFENSE_BLOCK = /palantir|nt ?concepts|anduril|varda|havocai|\bstr\b|l3harris|lockheed|raytheon|\brtx\b|northrop|general dynamics|bae systems|leidos|booz allen|draper|mitre|sierra nevada corp|epirus|shield ?ai|saronic|castelion|mach industries|helsing/i;
+const DEFENSE_BLOCK = /palantir|nt ?concepts|anduril|varda|havocai|\bstr\b|l3harris|lockheed|raytheon|\brtx\b|northrop|general dynamics|bae systems|leidos|booz allen|draper|mitre|sierra nevada corp|epirus|shield ?ai|saronic|castelion|mach industries|helsing|wyetech|maxar|vantor|intrepid solutions|oklo|spacex/i;
+// User directive 2026-09-06: repeatedly applied and rejected — never apply again.
+const NO_REAPPLY = /\bramp\b|\bmercor\b/i;
 const queue = [];
 const qKeys = new Set();
 for (const j of matches.jobs) {
   const id = idOf(j.jobrightUrl);
   if (!id || seenIds.has(id)) continue;
   if (DEFENSE_BLOCK.test(j.company ?? "")) { log(`blocked (defense/clearance): ${j.company}`); continue; }
+  if (NO_REAPPLY.test(j.company ?? "")) { log(`blocked (no-reapply, user directive): ${j.company}`); continue; }
+  if (seenCompanies.has(norm(j.company))) { log(`skipped (company already applied): ${j.company} — ${j.title}`); continue; }
   const key = `${norm(j.company)}::${norm(j.title)}`;
   if (seenKeys.has(key) || qKeys.has(key)) continue;
   if ((j.matchPercent ?? 0) < 70) continue;
