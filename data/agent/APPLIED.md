@@ -473,3 +473,23 @@ Honest limiting factors: Greenhouse cloud-IP silent block (50 jobs -> Mac tonigh
 4. Oracle CX supply fully exhausted (every parked eeho/iaziqy job submitted).
 
 Brain-queue: 36 open (1 applied entry cleared); 7 POLICY-sensitive entries annotated with standard policy answers so the local model never guesses them.
+
+## 2026-09-06 (Mac local batch, home IP)
+
+16 submitted, 56 parked, 14 queued for Qwen. All-time 467.
+- PlanetScale — Software Engineer - Sharded Postgres (Neki) (89%) — greenhouse, confirmed
+- Flow Traders — Senior Software Engineer, C++ (87%) — greenhouse, confirmed
+- CoreWeave — Senior Engineer I (86%) — greenhouse, confirmed
+- Chime — Senior Software Engineer, Data Engineering (86%) — greenhouse, confirmed
+- Lightning AI — Backend Engineer (84%) — greenhouse, confirmed
+- Adyen — Senior Software Engineer (Java) - Banking Accounts (84%) — greenhouse, confirmed
+- Fivetran — Software Engineer (83%) — greenhouse, confirmed
+- Mercury — Senior Software Engineer - Investments (83%) — greenhouse, confirmed
+- Upstart — Senior Software Engineer - Capital Insights (81%) — greenhouse, confirmed
+- Cloudflare — Senior Software Engineer, R2 Metadata (80%) — greenhouse, confirmed
+- DoorDash — Senior Software Engineer, Spark Platform (79%) — greenhouse, confirmed
+- SpaceXAI — Software Engineer, Media (79%) — greenhouse, confirmed
+- iSpot — Sr. Software Development Engineer (79%) — greenhouse, confirmed
+- Compass — Senior Software Engineer (78%) — greenhouse, confirmed
+- Roblox — Senior Software Engineer - Release (78%) — greenhouse, confirmed
+- Hark — Backend Engineer (77%) — greenhouse, confirmed
