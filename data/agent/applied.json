@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-06T09:26:29.101Z",
+  "updatedAt": "2026-09-06T09:47:00.002Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -5969,6 +5969,19 @@
       "via": "cloud-oracle-cx-driver",
       "detail": "hdpc (GS) tenant, OTP via GSRecruiting@oracle.com; 12 pill questions (self-ID declined, pronouns She/Her, race Asian, authorized Yes, gov No, PwC/Mazars No); languages auto-parsed; Applied on 09/06/2026",
       "at": "2026-09-06T09:26:29.101Z"
+    },
+    "6a8ce1fd2f736c304f2a83f3": {
+      "id": "6a8ce1fd2f736c304f2a83f3",
+      "key": "photon::python developer | wilmington/new york, us",
+      "title": "Python Developer | Wilmington/New York, US",
+      "company": "Photon",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8ce1fd2f736c304f2a83f3",
+      "originalUrl": "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26804",
+      "status": "applied",
+      "via": "cloud-oracle-cx-driver",
+      "detail": "req 26804; single-page form + OTP AT SUBMIT (no OTP at entry); e-signature must exactly match first+last name fields; Under Consideration 09/06/2026",
+      "at": "2026-09-06T09:47:00.002Z"
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

@@ -2255,7 +2255,7 @@
       "atsUrl": "https://firstcitizens.jibeapply.com/jobs/35342?jr_id=6a96f8a9d13b4819f39de05e",
       "addedAt": "2026-09-01",
       "status": "parked",
-      "note": "resolved to firstcitizens.jibeapply.com — assess next wave. platform not automated from cloud: firstcitizens.jibeapply.c"
+      "note": "jibeapply Apply routes to iCIMS login — cloud-blocked; Mac replay."
     },
     {
       "id": "6a95ef73c8763a3a87ffd494",
@@ -3053,7 +3053,7 @@
       "atsUrl": "https://jobs.citi.com/job/-/-/287/95121516112?source=APPLICANT_SOURCE-3-354&utm_medium=job_posting&utm_campaign=nam_experienced&utm_content=social_media&utm_term=393702677&ss=paid&utm_source=jobright&jr_id=6a07699ea203b1052e43a4f2",
       "addedAt": "2026-09-02",
       "status": "parked",
-      "note": "platform not automated from cloud: jobs.citi.com"
+      "note": "jobs.citi.com Apply routes to citi.wd5 Workday — account-gated, cloud IP blocked; Mac local replay."
     },
     {
       "id": "6a95891d3843db01599058c3",
@@ -3586,7 +3586,7 @@
       "atsUrl": "https://jobs.citi.com/job/jersey-city/senior-applied-ai-full-stack-engineer/287/99075972624?jr_id=6a7b89f6ecf5194164fbecd9",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform not automated from cloud: jobs.citi.com"
+      "note": "jobs.citi.com Apply routes to citi.wd5 Workday — account-gated, cloud IP blocked; Mac local replay."
     },
     {
       "id": "6a98658cc8ed473c5c763cea",
@@ -5216,7 +5216,7 @@
       "atsUrl": "https://githubinc.jibeapply.com/jobs/5682?jr_id=6a9141d6d96ad228f1264265",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: githubinc.jibeapply.com"
+      "note": "jibeapply Apply routes to iCIMS login — cloud-blocked; Mac replay."
     },
     {
       "id": "6a959cfaf28891320e85cbf8",
@@ -12466,7 +12466,7 @@
       "atsUrl": "https://careers.twosigma.com/careers/JobDetail/New-York-City-United-States-Quantitative-Software-Engineer-Quantitative-Components/13083?source=jobright&jr_id=68ca505d06a34016008c67c7",
       "addedAt": "2026-09-05",
       "status": "parked",
-      "note": "platform not automated from cloud: careers.twosigma.com"
+      "note": "Two Sigma careers page exposes no direct apply control from cloud (JS-gated) — Mac replay."
     },
     {
       "id": "6a7664267b3417772ade83fe",
@@ -16219,7 +16219,7 @@
       "atsUrl": "https://qualcomm.eightfold.ai/careers?pid=446715287993&jr_id=6a7e227c19ce4e6e9d931880",
       "addedAt": "2026-09-06",
       "status": "parked",
-      "note": "platform not automated from cloud: qualcomm.eightfold.ai"
+      "note": "Qualcomm eightfold: harvested URL is generic /careers without position id — needs resolver; Mac replay."
     },
     {
       "id": "6a511df88d7d3e6cf1cbf190",
@@ -16322,7 +16322,7 @@
       "atsUrl": "https://careers.paramount.com/job/Burbank-Senior-Software-Engineer-CA-91505/1368917100/?jr_id=69e4c1fef8fa2f3ec329d83c",
       "addedAt": "2026-09-06",
       "status": "parked",
-      "note": "platform not automated from cloud: careers.paramount.com"
+      "note": "Paramount SuccessFactors talentcommunity/apply deep link bounces to careers home (same as Aflac) — Mac replay."
     },
     {
       "id": "6a9b270efe45b8490f60709f",
@@ -16467,7 +16467,7 @@
       "atsUrl": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=26235&siteid=5374&PageType=JobDetails&jobid=1417719&jr_id=6a9302769864261ccd2a1b06",
       "addedAt": "2026-09-06",
       "status": "parked",
-      "note": "platform not automated from cloud: sjobs.brassring.com"
+      "note": "Edward Jones BrassRing: harvested URL is generic HomeWithPreLoad (no job id) + legacy account flow — Mac/user."
     },
     {
       "id": "6a8f36b4f841e649a719139d",
@@ -16580,7 +16580,7 @@
       "atsUrl": "https://careers.certara.com/jobs/2478?mode=apply&iis=jobright&jr_id=6a28548b1dbd8437bebca5ff",
       "addedAt": "2026-09-06",
       "status": "parked",
-      "note": "platform not automated from cloud: careers.certara.com"
+      "note": "Certara Apply routes to iCIMS login — cloud-blocked; Mac replay."
     },
     {
       "id": "6a20fc623a5f0145f4c17cff",
@@ -16702,7 +16702,7 @@
       "atsUrl": "https://careers.twosigma.com/careers/JobDetail/New-York-City-United-States-Quantitative-Software-Engineer-Portfolio-Research-Acceleration/13081?source=jobright&jr_id=67f05d6d687e281bdd313c72",
       "addedAt": "2026-09-06",
       "status": "parked",
-      "note": "platform not automated from cloud: careers.twosigma.com"
+      "note": "Two Sigma careers page exposes no direct apply control from cloud (JS-gated) — Mac replay."
     },
     {
       "id": "69fc3ce10940765d3b501bf5",
@@ -17014,8 +17014,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a8ce1fd2f736c304f2a83f3",
       "atsUrl": "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26804?jr_id=6a8ce1fd2f736c304f2a83f3",
       "addedAt": "2026-09-06",
-      "status": "parked",
-      "note": "platform not automated from cloud: fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com"
+      "status": "applied",
+      "note": "submitted via Oracle CX driver 2026-09-06"
     },
     {
       "id": "6a6291aa1e089c0cc884d5bf",

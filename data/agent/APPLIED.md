@@ -493,3 +493,18 @@ Brain-queue: 36 open (1 applied entry cleared); 7 POLICY-sensitive entries annot
 - Compass — Senior Software Engineer (78%) — greenhouse, confirmed
 - Roblox — Senior Software Engineer - Release (78%) — greenhouse, confirmed
 - Hark — Backend Engineer (77%) — greenhouse, confirmed
+
+## 2026-09-06 (cloud 5am window, day-close)
+
+**20 confirmed today (goal 100). All-time 471.**
+- Mac local batch: 16 (Greenhouse home-IP; incl PlanetScale 89, Flow Traders 87, CoreWeave 86, Chime 86; "SpaceXAI" audited = xAI Greenhouse board, not SpaceX — no defense issue).
+- Cloud adds: 4 — Oracle eeho 330485 (79) + 342979 (78), Goldman Sachs 169165 (84, new hdpc Oracle CX tenant unlocked), Photon 26804 (79, fa-ertb Oracle CX, OTP-at-submit variant).
+- Policy hygiene: SpaceX (clearance/ITAR) + Oklo (export control) dropped from brain queue and pending; Canonical routed to user; Vantor/Maxar + Intrepid (defense/IC) dropped from harvest.
+
+**Limiting factors (why not 100):**
+1. Workday cloud block WIDENED: sign-ins with existing accounts now also silently no-op (cisco.wd5 verified 2 attempts). All account-gated Workday -> Mac.
+2. Supply: Mac harvested 84 new (Sunday); cloud re-harvest returned 652/652 duplicates — Jobright feed saturated, no keyword-search path in worker. New-eligible today = 84 < 150 target; honest shortfall.
+3. Platform blocks unchanged: iCIMS (Certara/First Citizens/State Farm), SuccessFactors bounce (Paramount joins Aflac), jibeapply->iCIMS (GitHub/First Citizens), Citi->citi.wd5, Two Sigma JS-gated, Amazon 10-active cap, JPMC hCaptcha, GH/Lever/Rippling/SmartRecruiters/Workable datacenter blocks.
+4. Oracle CX supply cleared again (every reachable tenant/job done).
+
+Brain-queue: 47 open, POLICY entries annotated; SpaceX/Oklo/Canonical handled per rules.
