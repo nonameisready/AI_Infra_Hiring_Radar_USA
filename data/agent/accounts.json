@@ -310,6 +310,13 @@
       "passwordRef": "ATS_ACCOUNT_PASSWORD",
       "created": "2026-09-05",
       "notes": "Instant registration (no email activation). 8-step wizard. Degree listbox options are plain MS/MA/MBA — regex /master/i matches nothing, use exact MS. Salary expectations = free-text (gave $150,000 per year negotiable). Office 365 proficiency listbox (picked Intermediate). Disclosures = veteran only + privacy I-agree checkbox; no gender/ethnicity listboxes. CC-305 date via month-input coordinate click + typed MMDDYYYY ET date."
+    },
+    {
+      "tenant": "hdpc.fa.us2.oraclecloud.com",
+      "company": "Goldman Sachs",
+      "loginEmail": "huiluckylucky@gmail.com",
+      "created": "2026-09-06",
+      "notes": "Oracle CX email-OTP (code from GSRecruiting@oracle.com). 4-step wizard; 12 pill questions incl auditor-independence (PwC/Mazars No) and government-position (No); city dictionary uses tax-district names (JERSEY CITY-MEADOWLANDSDI = Jersey City)."
     }
   ],
   "note2": "STANDING INSTRUCTION (user, 2026-08-28): for any future posting at a company listed here, the agent logs in with the stored account and applies directly — no need to ask again."
