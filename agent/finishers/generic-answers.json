@@ -1471,26 +1471,6 @@
    "type": ""
   },
   {
-   "label": "Spanish",
-   "prefer": "Spanish",
-   "type": ""
-  },
-  {
-   "label": "French",
-   "prefer": "French",
-   "type": ""
-  },
-  {
-   "label": "Arabic",
-   "prefer": "Arabic",
-   "type": ""
-  },
-  {
-   "label": "Bengali",
-   "prefer": "Bengali",
-   "type": ""
-  },
-  {
    "label": "Cantonese",
    "prefer": "Cantonese",
    "type": ""
@@ -1498,31 +1478,6 @@
   {
    "label": "Czech",
    "prefer": "Czech",
-   "type": ""
-  },
-  {
-   "label": "Dutch",
-   "prefer": "Dutch",
-   "type": ""
-  },
-  {
-   "label": "German",
-   "prefer": "German",
-   "type": ""
-  },
-  {
-   "label": "Greek",
-   "prefer": "Greek",
-   "type": ""
-  },
-  {
-   "label": "Hebrew",
-   "prefer": "Hebrew",
-   "type": ""
-  },
-  {
-   "label": "Hindi",
-   "prefer": "Hindi",
    "type": ""
   },
   {
@@ -1536,21 +1491,6 @@
    "type": ""
   },
   {
-   "label": "Italian",
-   "prefer": "Italian",
-   "type": ""
-  },
-  {
-   "label": "Japanese",
-   "prefer": "Japanese",
-   "type": ""
-  },
-  {
-   "label": "Korean",
-   "prefer": "Korean",
-   "type": ""
-  },
-  {
    "label": "Bahasa Malaysia",
    "prefer": "Bahasa Malaysia",
    "type": ""
@@ -1561,53 +1501,13 @@
    "type": ""
   },
   {
-   "label": "Persian",
-   "prefer": "Persian",
-   "type": ""
-  },
-  {
-   "label": "Polish",
-   "prefer": "Polish",
-   "type": ""
-  },
-  {
-   "label": "Portuguese",
-   "prefer": "Portuguese",
-   "type": ""
-  },
-  {
    "label": "Romanian",
    "prefer": "Romanian",
    "type": ""
   },
   {
-   "label": "Russian",
-   "prefer": "Russian",
-   "type": ""
-  },
-  {
-   "label": "Swedish",
-   "prefer": "Swedish",
-   "type": ""
-  },
-  {
-   "label": "Thai",
-   "prefer": "Thai",
-   "type": ""
-  },
-  {
-   "label": "Turkish",
-   "prefer": "Turkish",
-   "type": ""
-  },
-  {
    "label": "Ukrainian",
    "prefer": "Ukrainian",
-   "type": ""
-  },
-  {
-   "label": "Vietnamese",
-   "prefer": "Vietnamese",
    "type": ""
   },
   {
@@ -1857,11 +1757,6 @@
    "label": "Location.*City",
    "prefer": "New York",
    "type": "New York, NY"
-  },
-  {
-   "label": "Candidate AI Usage Attestation",
-   "prefer": "Yes",
-   "type": ""
   },
   {
    "label": "Did you have a chance to visit PrizePicks.com",
@@ -2250,11 +2145,6 @@
   },
   {
    "label": "AI usage in work",
-   "prefer": "Yes",
-   "type": "Yes"
-  },
-  {
-   "label": "AI usage pledge",
    "prefer": "Yes",
    "type": "Yes"
   },
@@ -3134,10 +3024,6 @@
    "text": "7 years"
   },
   {
-   "label": "Candidate AI Usage Attestation",
-   "text": "I use AI tools deeply and daily as a core part of my engineering workflow to enhance productivity and code quality."
-  },
-  {
    "label": "what are your",
    "text": "I visited PrizePicks.com and was impressed by the company's innovative approach to gamifying daily fantasy sports. My background in scaling high-traffic, real-time transaction platforms at Bank of America and BlackRock aligns well with the engineering challenges of building a robust, low-latency gamification engine. I am eager to apply my expertise in distributed systems and Python/Go to help scale your platform while leveraging AI tools to accelerate development."
   },
@@ -3298,5 +3184,9 @@
    "label": "batch data processing systems"
   }
  ],
- "manualTriggers": []
+ "manualTriggers": [
+  "AI Usage Attestation",
+  "AI usage pledge",
+  "automated applicant"
+ ]
 }
