@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-07T10:38:58.712Z",
+  "updatedAt": "2026-09-07T10:46:00.769Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -5996,6 +5996,32 @@
       "via": "greenhouse (cloud fallback batch)",
       "detail": "Confirmed: Thank you for applying / application received. Security code flow: fresh code per page-load, fed post-WAITING. 2026-09-07",
       "at": "2026-09-07T10:38:58.712Z"
+    },
+    "6a6b817a57120971bf3a7459": {
+      "id": "6a6b817a57120971bf3a7459",
+      "key": "together ai::senior software engineer customer insights",
+      "title": "Senior Software Engineer, Customer Insights",
+      "company": "Together AI",
+      "matchPercent": 88,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a6b817a57120971bf3a7459",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=togetherai&token=5196805007&utm_source=jobright&jr_id=6a6b817a57120971bf3a7459",
+      "status": "applied",
+      "via": "greenhouse (cloud fallback batch)",
+      "detail": "Confirmed: application received. SF 4-days question was a plain text input (answered Yes); sponsorship disclosed honestly. 2026-09-07",
+      "at": "2026-09-07T10:44:14.794Z"
+    },
+    "6a4b45e5971cd25b06f971ae": {
+      "id": "6a4b45e5971cd25b06f971ae",
+      "key": "altruist::senior back end engineer hazel ai",
+      "title": "Senior Back End Engineer, Hazel AI",
+      "company": "Altruist",
+      "matchPercent": 88,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a4b45e5971cd25b06f971ae",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=altruist&jr_id=6a4b45e5971cd25b06f971ae&token=5692635004&utm_source=jobright",
+      "status": "applied",
+      "via": "greenhouse (cloud fallback batch)",
+      "detail": "Confirmed: application received. FINRA No, hybrid 3-days Yes. 2026-09-07",
+      "at": "2026-09-07T10:46:00.769Z"
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
