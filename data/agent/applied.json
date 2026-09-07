@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-06T09:47:00.002Z",
+  "updatedAt": "2026-09-07T10:38:58.712Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -5983,6 +5983,19 @@
       "via": "cloud-oracle-cx-driver",
       "detail": "req 26804; single-page form + OTP AT SUBMIT (no OTP at entry); e-signature must exactly match first+last name fields; Under Consideration 09/06/2026",
       "at": "2026-09-06T09:47:00.002Z"
+    },
+    "6a5243779fbdab22fe13ad00": {
+      "id": "6a5243779fbdab22fe13ad00",
+      "key": "britive::software engineer",
+      "title": "Software Engineer",
+      "company": "Britive",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5243779fbdab22fe13ad00",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=britive&jr_id=6a5243779fbdab22fe13ad00&token=4821142004&utm_source=jobright",
+      "status": "applied",
+      "via": "greenhouse (cloud fallback batch)",
+      "detail": "Confirmed: Thank you for applying / application received. Security code flow: fresh code per page-load, fed post-WAITING. 2026-09-07",
+      "at": "2026-09-07T10:38:58.712Z"
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
