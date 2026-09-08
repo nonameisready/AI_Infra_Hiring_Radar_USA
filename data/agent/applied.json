@@ -6438,6 +6438,19 @@
    "via": "greenhouse (cloud driver)",
    "detail": "Confirmed: Thank you for your interest in working with Maven Clinic. Permanent-residency state New Jersey (honest); not a Maven contractor. 2026-09-08",
    "at": "2026-09-08T15:13:57.594Z"
+  },
+  "6a721071ee751e0c79346913": {
+   "id": "6a721071ee751e0c79346913",
+   "key": "electric hydrogen::senior full stack software engineer",
+   "title": "Senior Full Stack Software Engineer",
+   "company": "Electric Hydrogen",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a721071ee751e0c79346913",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=eh2&token=4719129005&jr_id=6a721071ee751e0c79346913",
+   "status": "applied",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed: Thank you for applying. Location checkbox Open to relocation; sponsorship Yes; demographic survey declined; batch had stalled at code page, driver refill with fresh code (batch code email also landed in Gmail Trash — filter issue). 2026-09-08",
+   "at": "2026-09-08T15:19:05.752Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
