@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T12:23:02.533Z",
+ "updatedAt": "2026-09-08T12:25:09.084Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -18024,6 +18024,186 @@
    "matchPercent": 86,
    "status": "dropped",
    "note": "DEFENSE company (missed by block regex — regex now extended with sphinx defense + generic \\bdefense\\b). Batch reached security-code page but code deliberately NOT fed, so the application was never delivered to Greenhouse. 2026-09-08"
+  },
+  {
+   "id": "6a599453c8e3a473cb8a797c",
+   "company": "Opendoor",
+   "title": "Software Engineer",
+   "matchPercent": 92,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a599453c8e3a473cb8a797c",
+   "originalUrl": "https://ats.rippling.com/opendoor/jobs/9bc276c6-f2c0-4775-98f5-e01d22dfcb47?jr_id=6a599453c8e3a473cb8a797c",
+   "status": "parked",
+   "note": "Parked: platform not automated from cloud: ats.rippling.com. 2026-09-08"
+  },
+  {
+   "id": "6a9addd69c24314c35f95a3b",
+   "company": "Q2",
+   "title": "Senior Software Engineer",
+   "matchPercent": 92,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9addd69c24314c35f95a3b",
+   "originalUrl": "https://q2ebanking.wd5.myworkdayjobs.com/q2/job/Cary-North-Carolina/Senior-Software-Engineer_REQ-12737?jr_id=6a9addd69c24314c35f95a3b",
+   "status": "parked",
+   "note": "Parked: platform not automated from cloud: q2ebanking.wd5.myworkdayjobs.com. 2026-09-08"
+  },
+  {
+   "id": "6a94aed39864261ccd2a45df",
+   "company": "Susquehanna International Group",
+   "title": "Software Engineer | Trader & Quant Education Technology | Experienced Hire",
+   "matchPercent": 91,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a94aed39864261ccd2a45df",
+   "originalUrl": "https://careers.sig.com/jobs/9968?jr_id=6a94aed39864261ccd2a45df",
+   "status": "parked",
+   "note": "Parked: platform not automated from cloud: careers.sig.com. 2026-09-08"
+  },
+  {
+   "id": "6a79dde8b17cba569036402b",
+   "company": "BJAK",
+   "title": "Backend Engineer, AI Internal Systems",
+   "matchPercent": 90,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a79dde8b17cba569036402b",
+   "originalUrl": "https://jobs.ashbyhq.com/bjakcareer/870de7b5-f623-4a26-b625-86744bba5f24/application?jr_id=6a79dde8b17cba569036402b",
+   "status": "parked",
+   "note": "Parked: ashby unconfirmed: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /. 2026-09-08"
+  },
+  {
+   "id": "6a9efbd3dacf777321a93d58",
+   "company": "TRM Labs",
+   "title": "Senior Software Engineer, Backend | Product Engineering - SF Only",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9efbd3dacf777321a93d58",
+   "originalUrl": "https://jobs.ashbyhq.com/trm-labs/5b1c4862-550f-48fe-89bf-33a9181f9bdc/application?jr_id=6a9efbd3dacf777321a93d58",
+   "status": "parked",
+   "note": "Parked: ashby unconfirmed: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /. 2026-09-08"
+  },
+  {
+   "id": "6a7f8010ad9ff00c26baeac7",
+   "company": "Bank of America",
+   "title": "Python Developer III",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7f8010ad9ff00c26baeac7",
+   "originalUrl": "https://ghr.wd1.myworkdayjobs.com/us-emplsv/job/Jersey-City/Python-Developer-III_26029553-1?jr_id=6a7f8010ad9ff00c26baeac7",
+   "status": "parked",
+   "note": "Parked: platform not automated from cloud: ghr.wd1.myworkdayjobs.com. 2026-09-08"
+  },
+  {
+   "id": "6a9ecc5ff6ea002358296981",
+   "company": "Citi",
+   "title": "Applications Development Senior Programmer Analyst - Assistant Vice President",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9ecc5ff6ea002358296981",
+   "originalUrl": "https://jobs.citi.com/job/tampa/applications-development-senior-programmer-analyst-assistant-vice-president/287/100035300192?jr_id=6a9ecc5ff6ea002358296981",
+   "status": "parked",
+   "note": "Parked: platform not automated from cloud: jobs.citi.com. 2026-09-08"
+  },
+  {
+   "id": "6a5782b610c4d945d864e7e5",
+   "company": "Harrison Clarke",
+   "title": "Senior Backend Engineer",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5782b610c4d945d864e7e5",
+   "originalUrl": "https://www.linkedin.com/jobs/view/4440974608?jr_id=6a5782b610c4d945d864e7e5",
+   "status": "parked",
+   "note": "Parked: platform not automated from cloud: www.linkedin.com. 2026-09-08"
+  },
+  {
+   "id": "6a7f4c9419ce4e6e9d936c5d",
+   "company": "CyberCoders",
+   "title": "Senior Backend Engineer - REMOTE",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7f4c9419ce4e6e9d936c5d",
+   "originalUrl": "https://www.linkedin.com/jobs/view/4451253302?jr_id=6a7f4c9419ce4e6e9d936c5d",
+   "status": "parked",
+   "note": "Parked: platform not automated from cloud: www.linkedin.com. 2026-09-08"
+  },
+  {
+   "id": "6a7d27edd77e8156a8e35eb3",
+   "company": "Pearson",
+   "title": "Senior Software Engineer",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7d27edd77e8156a8e35eb3",
+   "originalUrl": "https://pearson.jobs/virtual-usa/senior-software-engineer/B0B64891D3164F64ACD9F5E54468FF3A/job/?jr_id=6a7d27edd77e8156a8e35eb3",
+   "status": "parked",
+   "note": "Parked: platform not automated from cloud: pearson.jobs. 2026-09-08"
+  },
+  {
+   "id": "6a2703fa30042e7539086769",
+   "company": "Rivian and Volkswagen Group Technologies",
+   "title": "Senior Software Engineer - AI Platform",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a2703fa30042e7539086769",
+   "originalUrl": "https://jobs.ashbyhq.com/rivianvw.tech/36ead87e-e5a2-46b5-8d96-bb92eb914468/application?jr_id=6a2703fa30042e7539086769",
+   "status": "parked",
+   "note": "Parked: ashby unconfirmed: Senior Software Engineer - AI Platform\nLocation\n\nPalo Alto, California\n\nEmployment Type\n\nFull time\n\n. 2026-09-08"
+  },
+  {
+   "id": "6a9196f99864261ccd29d9dc",
+   "company": "Western Governors University",
+   "title": "Senior Software Engineer",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9196f99864261ccd29d9dc",
+   "originalUrl": "https://wgu.wd5.myworkdayjobs.com/external/job/Salt-Lake-City-UT/Senior-Software-Engineer_JR-026036?jr_id=6a9196f99864261ccd29d9dc",
+   "status": "parked",
+   "note": "Parked: platform not automated from cloud: wgu.wd5.myworkdayjobs.com. 2026-09-08"
+  },
+  {
+   "id": "6a75541cc95371686f9b823e",
+   "company": "StackOne",
+   "title": "Senior Backend Developer - Updated",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a75541cc95371686f9b823e",
+   "originalUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/StackOne/publication/960764f9-46ce-45de-a43c-7aaaaef265ed?dcr_ci=StackOne&jr_id=6a75541cc95371686f9b823e",
+   "status": "parked",
+   "note": "Parked: platform not automated from cloud: jobs.smartrecruiters.com. 2026-09-08"
+  },
+  {
+   "id": "6a0b716f22d0d34036c8c409",
+   "company": "Gen",
+   "title": "Senior Backend Engineer",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a0b716f22d0d34036c8c409",
+   "originalUrl": "https://jobs.ashbyhq.com/gen-digital/ee505db7-dd79-4d7b-86b4-2b1a78427bfd/application?jr_id=6a0b716f22d0d34036c8c409",
+   "status": "parked",
+   "note": "Parked: ashby anti-bot flagged the datacenter IP. 2026-09-08"
+  },
+  {
+   "id": "69914b220f6f7e7a2ced8d73",
+   "company": "Crate & Barrel",
+   "title": "Senior Software Engineer, Order Management",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69914b220f6f7e7a2ced8d73",
+   "originalUrl": "https://jobs.crateandbarrel.com/job/-/-/351/90308827584?utm_campaign=crate&utm_medium=social_media&utm_content=job_posting&ss=paid&source=jobright&jr_id=69914b220f6f7e7a2ced8d73",
+   "status": "parked",
+   "note": "Parked: platform not automated from cloud: jobs.crateandbarrel.com. 2026-09-08"
+  },
+  {
+   "id": "6a54797de726ec56126aa62d",
+   "company": "NV5",
+   "title": "Geospatial Backend Developer – Multiple Positions at Junior/Mid/Senior Levels",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a54797de726ec56126aa62d",
+   "originalUrl": "https://internal-nv5.icims.com/jobs/12233/geospatial-backend-developer-%e2%80%93-multiple-positions-at-junior-mid-senior-levels/job?jr_id=6a54797de726ec56126aa62d",
+   "status": "parked",
+   "note": "Parked: platform not automated from cloud: internal-nv5.icims.com. 2026-09-08"
+  },
+  {
+   "id": "6a9af83590a313642c6579ee",
+   "company": "Kharon",
+   "title": "Senior Software Engineer",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9af83590a313642c6579ee",
+   "originalUrl": "https://www.ziprecruiter.com/kn/AAIxhJkKJdFXEaxm3O51Ksn_dSDckKV7I92BELi0S-6lXac02bzSW3w0amMiaP1J1Jvk1x8Wcog6DIhPGv5kVG10vzoIJj9hwMSEgUuBTWnuUg_A5r6FsftcfffwMjIxPj1fU_hmXG5V222LywehnZJNi7B_JIOi4-JUF8-susAoREu4cZvpthw-N3BUP3HA-op-2G-5LGSc3DSmiUV9BejkczvvQo9AsKnmLK-pTNgvuz3GiWZ6B3VWRRtKGEPiNw974hOg5pJSjnrNgW97ujHxtbzVVyeS8dmm5XHlqpxM7Kw0oawLpYUxs7LB4-AKtxdHgbFpGrWKoCpfxlPjDOOSiHxuLidnIiXLT7qsxa05Czggx9vxNqes7pblsT-SAgH16q2qurPFAdW3HZdocS1Vqfph7eEl2kMcARW1v3UbD797p78FRL53XrX2exQT?tsid=123468825&jr_id=6a9af83590a313642c6579ee&__cf_chl_rt_tk=ujzVn7zrD9XP.fFGmQFrgJMmrmc_2TJzcInpTT9IFdU-1788870000-1.0.1.1-SWiotsLjElx_9_xlnt7JgoapJF4gUJJc_0gYvnVkDiI",
+   "status": "parked",
+   "note": "Parked: platform not automated from cloud: www.ziprecruiter.com. 2026-09-08"
+  },
+  {
+   "id": "6a43ce70b156014e414b8e85",
+   "company": "Mobomo",
+   "title": "Sr. Software Engineer - DMV",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a43ce70b156014e414b8e85",
+   "originalUrl": "http://mobomo.applytojob.com/apply/WtBbCIxyyO/Sr-Software-Engineer-DMV?jr_id=6a43ce70b156014e414b8e85",
+   "status": "parked",
+   "note": "Parked: platform not automated from cloud: mobomo.applytojob.com. 2026-09-08"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
