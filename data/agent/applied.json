@@ -6581,6 +6581,19 @@
    "via": "greenhouse (cloud driver)",
    "detail": "Confirmed: Awesome, we received your application. Languages honest (Python/Go/TypeScript/SQL); 7 yrs; never employed by Stitch Fix; sponsorship Yes; zip 07306. 2026-09-08",
    "at": "2026-09-08T16:31:07.010Z"
+  },
+  "68f90b31a628d10664e88528": {
+   "id": "68f90b31a628d10664e88528",
+   "key": "zeta global::lead software engineer identity",
+   "title": "Lead Software Engineer, Identity",
+   "company": "Zeta Global",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/68f90b31a628d10664e88528",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=zetaglobal&jr_id=68f90b31a628d10664e88528&token=5687056004",
+   "status": "applied",
+   "via": "greenhouse (cloud fallback batch)",
+   "detail": "Submitted by batch-apply chunk 6 with security code fed; confirmation detected. 2026-09-08",
+   "at": "2026-09-08T16:38:32.171Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
