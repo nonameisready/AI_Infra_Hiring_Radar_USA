@@ -16,7 +16,7 @@
    "question": "工作授权状态，以及是否需要公司 sponsor 签证（现在或将来）？",
    "field": "workAuth,needsSponsor,usAuthorized",
    "askedAt": "2026-08-23",
-   "answer": "H-1B 已批准且已生效（前雇主 Innova/BofA 递交，cap-counted，新雇主可免抽签 transfer）。F-1 CPT/EAD 至 05/31/2027 仍有效（bridge）。需要 sponsor（现在或将来）：Yes（transfer 也算 sponsorship）。目前有合法工作授权：Yes。身份类问题选 H-1B。",
+   "answer": "H-1B 曾由 BlackRock 递交并批准生效（cap-counted）；现不在该雇主在职 → 新雇主可免抽签递交 cap-exempt H-1B。当前实际身份 = F-1 CPT/EAD（至 05/31/2027，用户确认有效）。身份下拉选 F-1；有文本框强调 cap-exempt transfer 免抽签。需要 sponsor：Yes。有合法工作授权：Yes。若用户律师确认当前仍持 H-1B 身份再改为 H-1B（见 2026-09-08 对话）。",
    "answeredAt": "2026-09-08"
   },
   {

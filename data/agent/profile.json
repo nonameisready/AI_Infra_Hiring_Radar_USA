@@ -12,10 +12,10 @@
  "linkedinNote": "LinkedIn provided by user on 2026-08-26.",
  "github": "https://github.com/nonameisready",
  "website": "",
- "workAuth": "H-1B (approved & activated; cap-counted). F-1 CPT/EAD also valid through 05/31/2027",
+ "workAuth": "F-1 (CPT/EAD) valid through 05/31/2027; cap-counted H-1B previously approved & activated via BlackRock (cap-exempt transfer eligible)",
  "needsSponsor": true,
  "usAuthorized": true,
- "workAuthNote": "user 2026-09-08: H-1B approved AND activated (petition by former employer Innova/BofA) — cap-counted, so a new employer files a cap-EXEMPT H-1B transfer, no lottery. Visa/immigration-status questions: answer H-1B. Sponsorship questions STAY Yes (transfer is still sponsorship); where free text allows, add 'H-1B transfer only — cap-exempt, no lottery needed'. F-1 CPT/EAD (valid through 05/31/2027) remains valid per user as bridge authorization. Still answer Yes to legally-authorized; never claim citizen/green-card/LPR. [audit 2026-09-01: removed unverified I-485 claim]",
+ "workAuthNote": "user 2026-09-08: H-1B approved AND activated in the past — petition by BlackRock (employer 10/2018-02/2024); user NOT currently employed by any H-1B sponsor. So she is CAP-COUNTED: any new employer files a cap-EXEMPT H-1B petition/transfer, no lottery. CURRENT operative status/work authorization: F-1 CPT/EAD valid through 05/31/2027 (user-confirmed still valid). Form answers: 'have you held H-1B / is H-1B approved' → Yes; current-status dropdowns → F-1 unless user's lawyer confirms otherwise (see chat 2026-09-08); sponsorship → ALWAYS Yes, with free-text 'cap-exempt H-1B transfer only — previously approved & activated H-1B via BlackRock, no lottery needed'. Still Yes to legally-authorized; never claim citizen/green-card/LPR. [audit 2026-09-01: removed unverified I-485 claim]",
  "salaryExpectation": "$150,000+ base",
  "noticePeriod": "",
  "education": [
