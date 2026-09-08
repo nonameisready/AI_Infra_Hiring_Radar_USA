@@ -6347,6 +6347,19 @@
    "via": "oracle-cx (cloud driver)",
    "detail": "Confirmed on my-profile: ACTIVE JOB APPLICATIONS lists role. 12 honest Yes/No radios (18+ Y, authorized Y, sponsorship Y, prior orgs/PwC/non-compete/agency N, WFH Y x2, gov N, military N, certify Y); BofA experience + UPenn Masters CS education entries; JC NJ address; no OTP. 2026-09-08",
    "at": "2026-09-08T14:04:13.505Z"
+  },
+  "6a9a0255ad752e2ad5503557": {
+   "id": "6a9a0255ad752e2ad5503557",
+   "key": "instacart::senior software engineer fulfillment",
+   "title": "Senior Software Engineer, Fulfillment",
+   "company": "Instacart",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9a0255ad752e2ad5503557",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=instacart&jr_id=6a9a0255ad752e2ad5503557&token=8178502",
+   "status": "applied",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed: Kale Yeah! Thanks for applying to Instacart. State (US) New Jersey; demographic identity questions (gender/LGBTQ/race/disability) answered I dont wish to answer; sponsorship Yes. ALL-TIME #500. 2026-09-08",
+   "at": "2026-09-08T14:26:13.541Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
