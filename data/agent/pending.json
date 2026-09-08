@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T12:14:07.039Z",
+ "updatedAt": "2026-09-08T12:23:02.533Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -18016,6 +18016,14 @@
    "originalUrl": "https://terzocloud.freshteam.com/jobs/vsN1HlIg6w-9/senior-software-engineer-backend-remote",
    "status": "dropped",
    "note": "JD: visa sponsorship is not available (needs future H-1B) — honestly ineligible. Also Freshteam form raised a visible reCAPTCHA challenge on submit (parked per policy before drop decision). 2026-09-08"
+  },
+  {
+   "id": "sphinx-defense-0908",
+   "company": "Sphinx Defense",
+   "title": "Senior Backend Engineer",
+   "matchPercent": 86,
+   "status": "dropped",
+   "note": "DEFENSE company (missed by block regex — regex now extended with sphinx defense + generic \\bdefense\\b). Batch reached security-code page but code deliberately NOT fed, so the application was never delivered to Greenhouse. 2026-09-08"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
