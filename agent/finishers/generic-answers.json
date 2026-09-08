@@ -1798,11 +1798,6 @@
    "type": ""
   },
   {
-   "label": "Do you reside in or maintain an established permanent residence in any",
-   "prefer": "Yes",
-   "type": ""
-  },
-  {
    "label": "Will you require TFD sponsorship to continue your employment",
    "prefer": "Yes"
   },
@@ -2633,11 +2628,6 @@
    "type": "No"
   },
   {
-   "label": "Candidate AI Usage Attestation",
-   "prefer": "Yes",
-   "type": ""
-  },
-  {
    "label": "What lab software systems",
    "prefer": ".*",
    "type": "None"
@@ -2660,11 +2650,6 @@
   {
    "label": "How did you find this position",
    "prefer": "Job board",
-   "type": ""
-  },
-  {
-   "label": "Do you reside in or maintain an established permanent residence",
-   "prefer": "Yes",
    "type": ""
   },
   {
@@ -3679,10 +3664,6 @@
    "text": "Job board"
   },
   {
-   "label": "Do you reside in or maintain an established permanent residence in any",
-   "text": "Yes, in New York, NY (Jersey City, NJ metro area)."
-  },
-  {
    "label": "Please share with us your location details",
    "text": "New York, NY"
   },
@@ -3795,10 +3776,6 @@
    "text": "Immediately"
   },
   {
-   "label": "Onsite.*Requirement|Hybrid.*Requirement|Relocation",
-   "text": "Yes, willing to work onsite/hybrid and relocate at own expense"
-  },
-  {
    "label": "Previously.*Worked.*Here",
    "text": "No"
   },
@@ -3823,10 +3800,6 @@
    "text": "Yes, I have 7+ years of experience in software development, including backend systems, distributed systems, and fintech scale."
   },
   {
-   "label": "Candidate AI Usage Attestation",
-   "text": "I use AI tools deeply and daily as a core part of my engineering workflow to enhance productivity and code quality."
-  },
-  {
    "label": "What lab software systems",
    "text": "None. My background is in fintech (Bank of America, BlackRock) and distributed systems, not clinical lab software (LIMS/ELN)."
   },
@@ -3841,10 +3814,6 @@
   {
    "label": "What's your proficiency level in Python",
    "text": "Expert. Python is my most proficient language, used for 7 years in backend engineering, data processing (PySpark), and distributed systems."
-  },
-  {
-   "label": "Do you reside in or maintain an established permanent residence",
-   "text": "Yes, in New York, NY (Jersey City, NJ metro area)."
   },
   {
    "label": "complex technical challenges",
@@ -3954,6 +3923,7 @@
  "manualTriggers": [
   "AI Usage Attestation",
   "AI usage pledge",
-  "automated applicant"
+  "automated applicant",
+  "permanent residence"
  ]
 }
