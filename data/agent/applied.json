@@ -6425,6 +6425,19 @@
    "via": "greenhouse (cloud driver)",
    "detail": "Confirmed: Finished. Your application is complete. Long form: UPenn Masters CS; prior GoDaddy contact all No; visa-status Yes; never-served military; NJ resident; certify agreed; SMS opt-in. NOTE: GoDaddy security-code email landed in Gmail TRASH (filter?) — untrash blocked by Gmail permissions, user may want to check filters. 2026-09-08",
    "at": "2026-09-08T15:10:32.381Z"
+  },
+  "67a15d099d1e49bec8dd0e1f": {
+   "id": "67a15d099d1e49bec8dd0e1f",
+   "key": "maven clinic::senior software engineer backend engineering",
+   "title": "Senior Software Engineer, Backend Engineering",
+   "company": "Maven Clinic",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/67a15d099d1e49bec8dd0e1f",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=mavenclinic&jr_id=67a15d099d1e49bec8dd0e1f&token=7671109002",
+   "status": "applied",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed: Thank you for your interest in working with Maven Clinic. Permanent-residency state New Jersey (honest); not a Maven contractor. 2026-09-08",
+   "at": "2026-09-08T15:13:57.594Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
