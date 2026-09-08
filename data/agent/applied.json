@@ -6074,6 +6074,19 @@
    "via": "greenhouse (cloud driver)",
    "detail": "Confirmed: Thank you for applying. how-heard was plain text (Jobright job board); sponsorship-kind react-select H1-B; security code fed. 2026-09-08",
    "at": "2026-09-08T11:17:40.861Z"
+  },
+  "6a70db26e2b7476e7b20b586": {
+   "id": "6a70db26e2b7476e7b20b586",
+   "key": "ap intego now next::backend software engineer",
+   "title": "Backend Software Engineer",
+   "company": "AP Intego (now NEXT)",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a70db26e2b7476e7b20b586",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=next-internal&jr_id=6a70db26e2b7476e7b20b586&token=7820931003&utm_source=jobright",
+   "status": "applied",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed: Thank you for applying (ERGO NEXT Group board). Simple form; broader-org question No; security code fed. 2026-09-08",
+   "at": "2026-09-08T11:21:06.230Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
