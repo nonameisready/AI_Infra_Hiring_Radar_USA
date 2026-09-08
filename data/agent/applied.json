@@ -6217,6 +6217,19 @@
    "via": "greenhouse (cloud driver)",
    "detail": "Confirmed: Thank you for applying. Full redo after wrong react-select picks (Bloomsburg/MBA) — UPenn + Masters Degree verified; years More-than-5-less-than-8; big data + Docker Yes. First uncoded submission never delivered. 2026-09-08",
    "at": "2026-09-08T12:36:01.723Z"
+  },
+  "6a7e21420cd4a0703257e15a": {
+   "id": "6a7e21420cd4a0703257e15a",
+   "key": "cribl::software engineer core platform",
+   "title": "Software Engineer, Core Platform",
+   "company": "Cribl",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7e21420cd4a0703257e15a",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cribl&jr_id=6a7e21420cd4a0703257e15a&token=6143413004",
+   "status": "applied",
+   "via": "greenhouse (cloud fallback batch)",
+   "detail": "Submitted by batch-apply chunk 3 with security code fed; confirmation detected. 2026-09-08",
+   "at": "2026-09-08T12:49:24.927Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
