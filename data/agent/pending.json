@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T13:18:11.426Z",
+ "updatedAt": "2026-09-08T13:41:25.526Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -18251,6 +18251,14 @@
    "originalUrl": "https://jobs.lever.co/snaplogic/a7fce63d-9e6f-495a-b8cd-894fd1d1ff58/apply",
    "status": "parked",
    "note": "Lever platform — visible hCaptcha on submit (verified today on TeamSnap). Retry from Mac. Open question was Work Status (answer: authorized on F-1 CPT/EAD, requires future sponsorship). 2026-09-08"
+  },
+  {
+   "id": "6a-afs-0908",
+   "company": "Accenture Federal Services",
+   "title": "Sr. Full Stack Engineer",
+   "matchPercent": 81,
+   "status": "dropped",
+   "note": "Federal/government services arm — enlisted/US-gov screening questions; citizenship-gated federal work. Added to DEFENSE_BLOCK. No submission made. 2026-09-08"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."

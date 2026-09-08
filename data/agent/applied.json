@@ -6295,6 +6295,32 @@
    "via": "greenhouse (cloud driver)",
    "detail": "Confirmed: Thank you for applying. Residency United States; authorized Yes; available In 2 weeks; GDPR consents checked. 2026-09-08",
    "at": "2026-09-08T13:31:01.016Z"
+  },
+  "6a5b6eeb856af468ab003afa": {
+   "id": "6a5b6eeb856af468ab003afa",
+   "key": "cantor fitzgerald::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Cantor Fitzgerald",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5b6eeb856af468ab003afa",
+   "originalUrl": "https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/247163",
+   "status": "applied",
+   "via": "oracle-cx (cloud driver)",
+   "detail": "Confirmed on my-profile: Thank you for your job application; ACTIVE JOB APPLICATIONS lists role. Pills: restrictions No, prior Cantor/BGC/Newmark No, sponsorship Yes + honest visa detail text, referred No, preference Hybrid; Asian; Female; not-protected-veteran; disability do-not-answer; e-sign Hui Mao. No OTP required on hdow tenant. 2026-09-08",
+   "at": "2026-09-08T13:41:25.513Z"
+  },
+  "696597a65ad3a93f8230f4b6": {
+   "id": "696597a65ad3a93f8230f4b6",
+   "key": "cohere::staff software engineer inference infrastructure",
+   "title": "Staff Software Engineer, Inference Infrastructure",
+   "company": "Cohere",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/696597a65ad3a93f8230f4b6",
+   "originalUrl": "https://jobs.ashbyhq.com/cohere/41f23dad-9da2-451a-bd1e-a1800437cb64/application?jr_id=696597a65ad3a93f8230f4b6",
+   "status": "applied",
+   "via": "ashby (cloud fallback batch)",
+   "detail": "Confirmed via Gmail: Thanks for applying to Cohere! (no-reply@ashbyhq.com 13:39Z). 2026-09-08",
+   "at": "2026-09-08T13:41:45.948Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
