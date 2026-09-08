@@ -6568,6 +6568,19 @@
    "via": "greenhouse (cloud driver)",
    "detail": "Confirmed: Thank you for applying. Country US; auth option honest (valid work permit, no current sponsorship needed) + future sponsorship Yes; excluded-states No (NJ not excluded); privacy + accuracy acks. 2026-09-08",
    "at": "2026-09-08T16:27:15.300Z"
+  },
+  "6a42eb6ea5e15b106837aac0": {
+   "id": "6a42eb6ea5e15b106837aac0",
+   "key": "stitch fix::lead engineer product catalog team",
+   "title": "Lead Engineer - Product Catalog Team",
+   "company": "Stitch Fix",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a42eb6ea5e15b106837aac0",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stitchfix&jr_id=6a42eb6ea5e15b106837aac0&token=8031204",
+   "status": "applied",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed: Awesome, we received your application. Languages honest (Python/Go/TypeScript/SQL); 7 yrs; never employed by Stitch Fix; sponsorship Yes; zip 07306. 2026-09-08",
+   "at": "2026-09-08T16:31:07.010Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
