@@ -6503,6 +6503,19 @@
    "via": "greenhouse (cloud driver)",
    "detail": "Confirmed: Thank you for applying. Honest AI-tools essay (assistants + built LLM/RAG infra); hybrid commit Yes; 7 yrs; sponsorship Yes. 2026-09-08",
    "at": "2026-09-08T15:39:41.737Z"
+  },
+  "6a9f6d4168f82b403673d055": {
+   "id": "6a9f6d4168f82b403673d055",
+   "key": "nextdoor::senior software engineer backend",
+   "title": "Senior Software Engineer - Backend",
+   "company": "Nextdoor",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9f6d4168f82b403673d055",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=nextdoor&token=2080930&jr_id=6a9f6d4168f82b403673d055",
+   "status": "applied",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed: Thank you for applying. 4.5+yrs Yes; reside NJ; offsites Yes; team pick Optimizing Search Infrastructure; sponsorship Yes; certify Yes. 2026-09-08",
+   "at": "2026-09-08T15:54:25.927Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
