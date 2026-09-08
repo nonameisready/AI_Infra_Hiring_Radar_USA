@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T17:52:13.490Z",
+ "updatedAt": "2026-09-08T17:57:17.634Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -6659,6 +6659,19 @@
    "date": "2026-09-08",
    "method": "cloud-driver",
    "detail": "Oracle CX egvv tenant, 4-step + EY WOTC external survey. Confirmed on my-profile: Thank you for your job application + ACTIVE. Honest answers: sponsorship Yes, salary 150k, source job board; address via ZIP-lookup (07306 Jersey City Hudson). WOTC survey honest: rehire No; currently unemployed Yes (between roles since Dec 2025); 27wk-unemployed+collected-UI No (F-1 employer-specific work auth ended with BofA — legally ineligible to collect UI, derived not guessed); TANF No (nonqualified alien, independent high-income household); own SNAP No, family SNAP Unsure; veteran No; voc-rehab No; SSI No. E-signed 8850 + app as Hui Mao."
+  },
+  "6a7e14a9b56bea5779c03997": {
+   "id": "6a7e14a9b56bea5779c03997",
+   "company": "Ripple",
+   "title": "Senior Software Engineer, RippleX (Platform)",
+   "matchPercent": 76,
+   "ats": "greenhouse",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=ripple&token=8110122",
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7e14a9b56bea5779c03997",
+   "appliedAt": "2026-09-08T17:57:17.634Z",
+   "date": "2026-09-08",
+   "method": "cloud-driver",
+   "detail": "GH driver rescue after batch code-stall (full fresh refill, code 6OiZTSta). Confirmed: Thank you for applying. Honest: authorized Yes, sponsorship Yes, prev Ripple No, gender Female, hispanic No, not protected veteran, disability no-answer. Source Jobright."
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
