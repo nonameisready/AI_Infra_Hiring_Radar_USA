@@ -6087,6 +6087,58 @@
    "via": "greenhouse (cloud driver)",
    "detail": "Confirmed: Thank you for applying (ERGO NEXT Group board). Simple form; broader-org question No; security code fed. 2026-09-08",
    "at": "2026-09-08T11:21:06.230Z"
+  },
+  "6a523fcbe726ec56126a2432": {
+   "id": "6a523fcbe726ec56126a2432",
+   "key": "via::senior engineer ai labs",
+   "title": "Senior Engineer, AI Labs",
+   "company": "Via",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a523fcbe726ec56126a2432",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=via&jr_id=6a523fcbe726ec56126a2432&token=8507860002&utm_source=jobright",
+   "status": "applied",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed: Thank you for applying. Short why-Via essay; greater-NYC Yes (Jersey City); sponsorship Yes; security code fed. 2026-09-08",
+   "at": "2026-09-08T11:25:18.567Z"
+  },
+  "6a99ec7a90a313642c6539ab": {
+   "id": "6a99ec7a90a313642c6539ab",
+   "key": "planet::senior software engineer storage infrastructure",
+   "title": "Senior Software Engineer, Storage Infrastructure",
+   "company": "Planet",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a99ec7a90a313642c6539ab",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=planetlabs&jr_id=6a99ec7a90a313642c6539ab&token=8160294&utm_source=jobright",
+   "status": "applied",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed: Thank you for applying. Residence q was sanctions countries (No); how-found Other - Job Site (redone once to fix wrong Other - Event pick before any code fed); why-Planet essay; comp $150k negotiable. 2026-09-08",
+   "at": "2026-09-08T11:32:30.086Z"
+  },
+  "6a9d71b375edfa11b470f6a0": {
+   "id": "6a9d71b375edfa11b470f6a0",
+   "key": "nice::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "NiCE",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9d71b375edfa11b470f6a0",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=nice&jr_id=6a9d71b375edfa11b470f6a0&token=4938736101&utm_source=jobright",
+   "status": "applied",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed: Woohoo! We received your application. Relatives-at-NiCE No; sponsorship Yes; Atlanta hybrid willingness Yes; address JC NJ; research q honest. 2026-09-08",
+   "at": "2026-09-08T11:37:02.042Z"
+  },
+  "69a810d176bbe83d3afb82bb": {
+   "id": "69a810d176bbe83d3afb82bb",
+   "key": "c3 ai::senior software engineer platform data ai back end",
+   "title": "Senior Software Engineer, Platform - Data + AI (Back-End)",
+   "company": "C3 AI",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69a810d176bbe83d3afb82bb",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=c3iot&jr_id=69a810d176bbe83d3afb82bb&token=8365468002&utm_source=jobright",
+   "status": "applied",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed: Thank you for applying to C3 AI. Masters; 5+yrs Yes; Redwood City willingness Yes, commuting-distance No (honest); privacy notice accepted. 2026-09-08",
+   "at": "2026-09-08T11:41:00.980Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
