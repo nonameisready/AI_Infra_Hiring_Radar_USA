@@ -6373,6 +6373,19 @@
    "via": "greenhouse (cloud driver)",
    "detail": "Confirmed: Thank you for applying to Spire. Export-compliance citizenship answered honestly (China, dual N/A); onsite-hybrid Yes + I-will-relocate; sponsorship Yes; Team Mac. 2026-09-08",
    "at": "2026-09-08T14:34:29.728Z"
+  },
+  "6a882d7b25fc4e7ae3daf708": {
+   "id": "6a882d7b25fc4e7ae3daf708",
+   "key": "sand technologies::software engineer",
+   "title": "Software Engineer",
+   "company": "Sand Technologies",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a882d7b25fc4e7ae3daf708",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sand-us-delivery&jr_id=6a882d7b25fc4e7ae3daf708&token=4956161101",
+   "status": "applied",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed: Thank you for applying (US Delivery Hiring board). Why-Sand + fit essays; salary band $100-150k; Baltimore onsite willingness Yes; sponsorship Yes; gender prefer-not. 2026-09-08",
+   "at": "2026-09-08T14:38:17.820Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
