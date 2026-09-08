@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T14:53:30.900Z",
+ "updatedAt": "2026-09-08T15:40:37.856Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -18297,6 +18297,15 @@
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=subsplash&jr_id=6a67abfb872eb74f9eada686&token=8652453002",
    "status": "dropped",
    "note": "Remote role restricted to Subsplash 27 operating states — New Jersey NOT in their state list (verified in form dropdown). Honestly ineligible. 2026-09-08"
+  },
+  {
+   "id": "6a51321857513b72e0c64af2",
+   "company": "Rampant Technologies",
+   "title": "Software Engineer",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a51321857513b72e0c64af2",
+   "status": "dropped",
+   "note": "Defense contractor (JD: national-security missions, Dept of War/IC, Clearance Required TS/SCI with CI Poly) — hard defense/clearance block. Added to DEFENSE_BLOCK. No submission made. 2026-09-08"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
