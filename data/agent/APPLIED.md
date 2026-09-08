@@ -508,3 +508,54 @@ Brain-queue: 36 open (1 applied entry cleared); 7 POLICY-sensitive entries annot
 4. Oracle CX supply cleared again (every reachable tenant/job done).
 
 Brain-queue: 47 open, POLICY entries annotated; SpaceX/Oklo/Canonical handled per rules.
+
+## 2026-09-08 (cloud FALLBACK window — Mac absent 3rd day; 48 confirmed, NEW single-day record; all-time 525)
+
+- Compass — Senior Software Engineer I (86%) — greenhouse, confirmed
+- AP Intego (now NEXT) — Backend Software Engineer (86%) — greenhouse, confirmed
+- Via — Senior Engineer, AI Labs (82%) — greenhouse, confirmed
+- Planet — Senior Software Engineer, Storage Infrastructure (83%) — greenhouse, confirmed
+- NiCE — Senior Software Engineer (84%) — greenhouse, confirmed
+- C3 AI — Senior Software Engineer, Platform - Data + AI (Back-End) (81%) — greenhouse, confirmed
+- Fieldwire by Hilti — Senior Backend Engineer (88%) — greenhouse, confirmed
+- honeycomb.io — Senior Software Engineer II - Storage (88%) — greenhouse, confirmed
+- Yuma — Software Engineer (90%) — greenhouse, confirmed
+- Octaura — Software Engineer (86%) — greenhouse, confirmed
+- Wingspan — Engineering Lead Platform (86%) — greenhouse, confirmed
+- ZipRecruiter — Senior Software Engineer, Big Data (85%) — greenhouse, confirmed
+- Cribl — Software Engineer, Core Platform (83%) — greenhouse, confirmed
+- RVO Health — Senior Software Engineer, Golang (83%) — greenhouse, confirmed
+- Bluefish AI — Senior Backend Engineer (Data Platform) (82%) — greenhouse, confirmed
+- Dialpad — Sr. Software Engineer, Applied AI Systems (82%) — greenhouse, confirmed
+- Databricks — Senior Software Engineer - Backend (81%) — greenhouse, confirmed
+- Encora Inc. — Senior Software Engineer (81%) — greenhouse, confirmed
+- Cantor Fitzgerald — Senior Software Engineer (82%) — oracle-cx, confirmed
+- Cohere — Staff Software Engineer, Inference Infrastructure (81%) — ashby, confirmed
+- ZoomInfo — Senior Software Engineer (81%) — greenhouse, confirmed
+- Claritev — Engineer,Software III (81%) — oracle-cx, confirmed
+- Instacart — Senior Software Engineer, Fulfillment (80%) — greenhouse, confirmed
+- Spire — Senior Backend Software Engineer (80%) — greenhouse, confirmed
+- Sand Technologies — Software Engineer (80%) — greenhouse, confirmed
+- Fleetio — Senior Software Engineer, Marketplace Payments (79%) — greenhouse, confirmed
+- The Pokémon Company International — Software Development Engineer (79%) — greenhouse, confirmed
+- GoDaddy — Eng - Software Development III (79%) — greenhouse, confirmed
+- Maven Clinic — Senior Software Engineer, Backend Engineering (79%) — greenhouse, confirmed
+- Electric Hydrogen — Senior Full Stack Software Engineer (79%) — greenhouse, confirmed
+- Engine — Senior Software Engineer, Backend (78%) — greenhouse, confirmed
+- Tatari — Senior Backend Engineer (79%) — greenhouse, confirmed
+- Twilio — Software Engineer (L3) Data Substrate (78%) — greenhouse, confirmed
+- Glean — Software Engineer, APIs & Context Platform (78%) — greenhouse, confirmed
+- Nextdoor — Senior Software Engineer - Backend (78%) — greenhouse, confirmed
+- The Trade Desk — Sr Software Engineer - Backend API Platform (78%) — greenhouse, confirmed
+- Consumer Reports — Senior Software Engineer - Product (78%) — greenhouse, confirmed
+- NinjaTrader — Sr. Software Engineer II, Platform/API (78%) — greenhouse, confirmed
+- Vercel — Software Engineer, AI Gateway (78%) — greenhouse, confirmed
+- Stitch Fix — Lead Engineer - Product Catalog Team (77%) — greenhouse, confirmed
+- Zeta Global — Lead Software Engineer, Identity (77%) — greenhouse, confirmed
+- Ever — Software Engineer (77%) — greenhouse, confirmed
+- Navier AI — Backend Engineer (77%) — greenhouse, confirmed
+- Built — Senior Innovation Engineer, Marketplace (77%) — greenhouse, confirmed
+- Hightouch — Software Engineer, Control Plane (76%) — greenhouse, confirmed
+- Office Depot — Senior Software Development Engineer (76%) — oracle-cx, confirmed
+- Ripple — Senior Software Engineer, RippleX (Platform) (76%) — greenhouse, confirmed
+- Pure Storage — Senior Software Engineer, Datapath (76%) — greenhouse, confirmed

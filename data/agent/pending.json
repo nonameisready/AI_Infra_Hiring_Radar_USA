@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T17:19:59.265Z",
+ "updatedAt": "2026-09-08T18:04:37.592Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -18366,6 +18366,862 @@
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=grvty&jr_id=6a4c0aa84eb370649b27bfb7&token=4306651009",
    "status": "dropped",
    "note": "Form states position requires U.S. citizenship — honestly ineligible (PRC citizen). No submission made. 2026-09-08"
+  },
+  {
+   "id": "69f2cf77ecbc8c2f7320dc0d",
+   "company": "McKesson",
+   "title": "Software Engineer III — Full Stack (Backend-Focused, Core Platform Services)",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69f2cf77ecbc8c2f7320dc0d",
+   "originalUrl": "https://careers.mckesson.com/en/job/-/-/733/94295986800?source=jobright&jr_id=69f2cf77ecbc8c2f7320dc0d",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: careers.mckesson.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a51e1a502522b5b722ecfc3",
+   "company": "The D. E. Shaw Group",
+   "title": "Start-up Ventures: Senior Software Engineer at Wisable",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a51e1a502522b5b722ecfc3",
+   "originalUrl": "https://www.deshaw.com/careers/start-up-ventures-senior-software-engineer-at-wisable-5747?jr_id=6a51e1a502522b5b722ecfc3",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: www.deshaw.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9af655d5ff1f3f1c39c8ce",
+   "company": "EchoStar Corporation",
+   "title": "Senior Software Engineer - Streaming Backend",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9af655d5ff1f3f1c39c8ce",
+   "originalUrl": "https://www.ziprecruiter.com/kn/AAJnYM286nuOf4ZyF7Fk3k7-djST3J3kOC_SFpJzPH1eCIgwDPp2mRZYHfFLN3UlQWc8toJ5q8my4RYsytZLchg05uA6HEqPzC5FSFEb-CIT08aV8wvr6m5H-Y_KLHocn3QRN8YuYCxxsoYg3dwCPwLVOMwEiGRSQnCGHlugb6ZDT-x53mBMo9bGP0qmi-VgnmTg46DQsixeC3Zybtg2p3nhUYn4DL6Klkmo6_2tfo7jw1zxOZXtmdQ5gOX_-0T5doI7GM9bBm3h1W-5wG5WXkIL69F0QBUxeJUiHZhJuci_hKfo5Nviu30A_pMjVS4PoZeKj5zuCLeB2om1V1_lxd5abEah8VV-6NRobJ5EiRDbaKWJZTGg71v5zeLcxhus5CQyL0tm5tK5YOjqdYL6hm0Sy9u1uBH2t_1ucJbkh9taqz0pm4nyckEEYAfW3_nEkg6QK2jKO-11ebqsekEOlHs?tsid=123468825&jr_id=6a9af655d5ff1f3f1c39c8ce&__cf_chl_rt_tk=5qluV1QfOtMFozVCe93A2YhIe7JB2Pz969VuhkcXAZ0-1788888369-1.0.1.1-qx_lYLGNfZpnlmWXVZi2NIrVAdjHaEA9WSkqoieiYVA",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: www.ziprecruiter.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a7fac30927c79391ad0bcb1",
+   "company": "Atlassian",
+   "title": "Senior Fullstack Software Engineer, DX",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7fac30927c79391ad0bcb1",
+   "originalUrl": "https://globalcareers-atlassian.icims.com/jobs/26664/senior-fullstack-software-engineer%2c-dx/job?jr_id=6a7fac30927c79391ad0bcb1",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: globalcareers-atlassian.icims.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a39e2a406a4fd4b1fabc68e",
+   "company": "Workday",
+   "title": "Mid/Senior Software Engineer - Developer Platform (US Federal)",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a39e2a406a4fd4b1fabc68e",
+   "originalUrl": "https://workday.wd5.myworkdayjobs.com/workday/job/USAVAReston/Software-Engineer---Developer-Platform--US-Federal-_JR-0105497?jr_id=6a39e2a406a4fd4b1fabc68e",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: workday.wd5.myworkdayjobs.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a8ef9f1d7c91d0cf446cd1e",
+   "company": "Mclaurin Aerospace",
+   "title": "Research Software Engineer",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8ef9f1d7c91d0cf446cd1e",
+   "originalUrl": "https://mclaurin.isolvedhire.com/jobs/1851181?jr_id=6a8ef9f1d7c91d0cf446cd1e",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: mclaurin.isolvedhire.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a39969d6484fb75f2b3291c",
+   "company": "GE HealthCare",
+   "title": "Sr. Software Engineer",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a39969d6484fb75f2b3291c",
+   "originalUrl": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Waukesha/Sr-Software-Engineer_R4042750-1?jr_id=6a39969d6484fb75f2b3291c",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: gehc.wd5.myworkdayjobs.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6997214ece78e77b4fdb76b6",
+   "company": "NVIDIA",
+   "title": "Senior System Software Engineer - GPU Performance",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6997214ece78e77b4fdb76b6",
+   "originalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-HPC-Performance-Engineer_JR1997214?jr_id=6997214ece78e77b4fdb76b6",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: nvidia.wd5.myworkdayjobs.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a6b2eb357120971bf3a5927",
+   "company": "Curotec",
+   "title": "Senior Full-Stack Engineer (Python/ReactJS)",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a6b2eb357120971bf3a5927",
+   "originalUrl": "https://curotec.recruitee.com/o/senior-full-stack-engineer-pythonreactjs?jr_id=6a6b2eb357120971bf3a5927",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: curotec.recruitee.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a99a32c90a313642c651b65",
+   "company": "First Citizens Bank",
+   "title": "Senior Software Engineer - Hogan",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a99a32c90a313642c651b65",
+   "originalUrl": "https://jobs.firstcitizens.com/jobs/34755?jr_id=6a99a32c90a313642c651b65",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: jobs.firstcitizens.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a7dd037ad9ff00c26ba8bc3",
+   "company": "Brillio",
+   "title": "Java Backend Developer (Banking, CIAM)- R01568751",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7dd037ad9ff00c26ba8bc3",
+   "originalUrl": "https://jobs.lever.co/brillio-2/ba90ff87-0468-44e0-bd66-b80161ba08d1/apply?jr_id=6a7dd037ad9ff00c26ba8bc3",
+   "status": "parked",
+   "note": "Batch park: lever hCaptcha challenged this IP — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a224b707c30cc2cc516e238",
+   "company": "The Walt Disney Company",
+   "title": "Sr Software Engineer",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a224b707c30cc2cc516e238",
+   "originalUrl": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/New-York-NY-USA/Senior-Software-Engineer_10145073-1?jr_id=6a224b707c30cc2cc516e238",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: disney.wd5.myworkdayjobs.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a6b74fc57120971bf3a6e3f",
+   "company": "Lambda",
+   "title": "Senior Software Engineer - Compute",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a6b74fc57120971bf3a6e3f",
+   "originalUrl": "https://jobs.ashbyhq.com/lambda/0f94de99-5027-4cae-a6d4-757eef2845b6/application?jr_id=6a6b74fc57120971bf3a6e3f",
+   "status": "parked",
+   "note": "Batch park: ashby unconfirmed: Senior Software Engineer - Compute\nLocation\n\nSan Francisco Office (Fremont St); Bellevue Office; San — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a314b115958816970013edf",
+   "company": "Signet Jewelers",
+   "title": "Sr AWS Engineer - Enterprise Services Integration (Remote)",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a314b115958816970013edf",
+   "originalUrl": "https://signetjewelers.wd1.myworkdayjobs.com/SignetCorporateCareers/job/Support-Center---Akron-OH/Sr-AWS-Engineer---Enterprise-Services-Integration--Remote-_REQ_81117?jr_id=6a314b115958816970013edf",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: signetjewelers.wd1.myworkdayjobs.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9fccedf6ea002358298f46",
+   "company": "Starbucks",
+   "title": "software engineer sr - ST; Nashville, TN",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9fccedf6ea002358298f46",
+   "originalUrl": "https://starbucks.taleo.net/careersection/1000222ef/jobdetail.ftl?job=2309388&tz=UTC-05%3A00&tzname=America%2FNew_York&jr_id=6a9fccedf6ea002358298f46",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: starbucks.taleo.net — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "69cb40271b5ad028873aa06e",
+   "company": "Apple",
+   "title": "Software Engineer (Python) - Supply Chain Integration",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69cb40271b5ad028873aa06e",
+   "originalUrl": "https://jobs.apple.com/en-us/details/200654501-0157/software-engineer-python-supply-chain-integration?team=SFTWR&jr_id=69cb40271b5ad028873aa06e",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: jobs.apple.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a2c76f1a1d15e3c552fc0f5",
+   "company": "Huntington National Bank",
+   "title": "Senior Developer",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a2c76f1a1d15e3c552fc0f5",
+   "originalUrl": "https://huntington.wd12.myworkdayjobs.com/hnbcareers/job/Columbus-OH/Senior-Developer_R0071272?jr_id=6a2c76f1a1d15e3c552fc0f5",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: huntington.wd12.myworkdayjobs.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9b21ab2cdc5958f53eaf63",
+   "company": "Gynger",
+   "title": "Senior Software Engineer (Remote)",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9b21ab2cdc5958f53eaf63",
+   "originalUrl": "https://www.linkedin.com/jobs/view/4462308775?jr_id=6a9b21ab2cdc5958f53eaf63",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: www.linkedin.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a8632254afae74a083441da",
+   "company": "ALIGNMT AI",
+   "title": "Senior/Staff Backend Engineer",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8632254afae74a083441da",
+   "status": "parked",
+   "note": "Batch park: no ATS url discovered — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a50dfc72b161c5241662914",
+   "company": "Iru",
+   "title": "Senior Software Engineer, Full Stack, IT Products",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a50dfc72b161c5241662914",
+   "originalUrl": "https://jobs.lever.co/iru/3ec1190b-d27d-44d2-b0d8-1a59888826b7/apply?jr_id=6a50dfc72b161c5241662914",
+   "status": "parked",
+   "note": "Batch park: lever hCaptcha challenged this IP — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9e792e49f4604c7894ef90",
+   "company": "Base-2 Solutions",
+   "title": "Software Engineer Level 5",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9e792e49f4604c7894ef90",
+   "originalUrl": "https://phh.tbe.taleo.net/phh01/ats/careers/v2/viewRequisition?org=BASESOLU&cws=37&rid=4388&jr_id=6a9e792e49f4604c7894ef90",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: phh.tbe.taleo.net — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a59564963a8f619507c1b8c",
+   "company": "Tyler Technologies",
+   "title": "Senior Software Engineer, GIS",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a59564963a8f619507c1b8c",
+   "originalUrl": "https://jobs.jobvite.com/tylertech/job/oRF6zfwV?jr_id=6a59564963a8f619507c1b8c",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: jobs.jobvite.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a6444135c7e2d715ebafaf3",
+   "company": "McLane Company, Inc.",
+   "title": "MDM Integration Engineer",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a6444135c7e2d715ebafaf3",
+   "originalUrl": "https://aa224.taleo.net/careersection/ex/jobdetail.ftl?job=JR109317&tz=UTC-05%3A00&tzname=America%2FNew_York&jr_id=6a6444135c7e2d715ebafaf3",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: aa224.taleo.net — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9b64801388387060597f3a",
+   "company": "Leland",
+   "title": "Software Engineer",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9b64801388387060597f3a",
+   "originalUrl": "https://jobs.ashbyhq.com/leland/b447fec5-42cd-48b2-aed3-8d62c777019c/application?jr_id=6a9b64801388387060597f3a",
+   "status": "parked",
+   "note": "Batch park: ashby blocked this IP earlier — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a5657f610c4d945d8648f32",
+   "company": "Probook",
+   "title": "Senior Software Engineer",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5657f610c4d945d8648f32",
+   "originalUrl": "https://jobs.ashbyhq.com/probook/05516a84-77e4-4e2b-9686-49913e019c04/application?jr_id=6a5657f610c4d945d8648f32",
+   "status": "parked",
+   "note": "Batch park: ashby anti-bot flagged the datacenter IP — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9b0c1d90a313642c65853e",
+   "company": "USAA",
+   "title": "Software Engineer Senior-Life ALIP",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9b0c1d90a313642c65853e",
+   "originalUrl": "https://usaa.wd1.myworkdayjobs.com/usaajobswd/job/San-Antonio-Home-Office-I/Software-Engineer-Senior-Life-ALIP_R0118533?jr_id=6a9b0c1d90a313642c65853e",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: usaa.wd1.myworkdayjobs.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a6986e7f19e9d5c7d90f381",
+   "company": "Zoro.com",
+   "title": "Software Developer- Full Stack",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a6986e7f19e9d5c7d90f381",
+   "originalUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/Zoro/publication/f858338c-1b92-4f45-96f6-2e80150be514?dcr_ci=Zoro&jr_id=6a6986e7f19e9d5c7d90f381",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: jobs.smartrecruiters.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a95cd514c22023a07935e00",
+   "company": "Wrapbook",
+   "title": "Senior Software Engineer I, Platform Enablement",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95cd514c22023a07935e00",
+   "originalUrl": "https://jobs.ashbyhq.com/wrapbook/43eb663b-2624-4d3c-bc79-25c93a94adec/application?jr_id=6a95cd514c22023a07935e00",
+   "status": "parked",
+   "note": "Batch park: ashby unconfirmed: Senior Software Engineer I - Platform Enablement\nLocation\n\nRemote - US & Canada\n\nEmployment Type\n\nFu — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9cbc58dacf777321a8e96b",
+   "company": "Innova Solutions",
+   "title": "Senior AWS Backend Developer",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9cbc58dacf777321a8e96b",
+   "status": "parked",
+   "note": "Batch park: no_apply_button — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a5d8759c8e3a473cb8b463f",
+   "company": "Integer Technologies",
+   "title": "Software Engineer",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5d8759c8e3a473cb8b463f",
+   "originalUrl": "https://ats.rippling.com/integer/jobs/ba005d6a-d848-44de-be0c-cf45f82c2158?jr_id=6a5d8759c8e3a473cb8b463f",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: ats.rippling.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a637d3f0c8e2b4f36dce266",
+   "company": "Walmart",
+   "title": "Senior, Software Engineer - Back End",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a637d3f0c8e2b4f36dce266",
+   "originalUrl": "https://walmart.wd504.myworkdayjobs.com/walmartexternal/job/USA-Crossman-Respect-Building-CA-SUNNYVALE-Home-Office/Senior--Software-Engineer---Back-End_R-2572845?jr_id=6a637d3f0c8e2b4f36dce266",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: walmart.wd504.myworkdayjobs.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a78a8efb17cba5690361c73",
+   "company": "Hired Recruiters",
+   "title": "Senior/Principal Backend Engineer",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a78a8efb17cba5690361c73",
+   "originalUrl": "https://recruiterflow.com/HR/jobs/484?jr_id=6a78a8efb17cba5690361c73",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: recruiterflow.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a83ec1fc72fae4bcc8d641a",
+   "company": "Garmin",
+   "title": "Senior Java Software Engineer",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a83ec1fc72fae4bcc8d641a",
+   "originalUrl": "https://careers.garmin.com/careers-home/jobs/18663?jr_id=6a83ec1fc72fae4bcc8d641a",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: careers.garmin.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9eea5a68f82b403673bc8d",
+   "company": "LTM",
+   "title": "Specialist - Software Engineering",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9eea5a68f82b403673bc8d",
+   "originalUrl": "http://ltimindtree.ripplehire.com/candidate/?token=7NxEpr5zXZL9NCOzanSl&jr_id=6a9eea5a68f82b403673bc8d#list#detail/job/804200",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: ltimindtree.ripplehire.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a8eab263ac3a34f92d7ddb9",
+   "company": "EPAM Systems",
+   "title": "Senior Go Lang Engineer",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8eab263ac3a34f92d7ddb9",
+   "originalUrl": "https://careers.epam.com/en/vacancy/senior-go-lang-engineer-blt0pqsck7no88o48co_en?jr_id=6a8eab263ac3a34f92d7ddb9",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: careers.epam.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9e0b9f68f82b4036738744",
+   "company": "Victory Live",
+   "title": "Senior Software Engineer – Python",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9e0b9f68f82b4036738744",
+   "originalUrl": "https://www.linkedin.com/jobs/view/4461856218?jr_id=6a9e0b9f68f82b4036738744",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: www.linkedin.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9eb5a468f82b403673b3bf",
+   "company": "inDrive",
+   "title": "Senior Backend Engineer",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9eb5a468f82b403673b3bf",
+   "originalUrl": "https://indrive.pinpointhq.com/en/postings/f4f49735-e04f-474f-adfd-d94c3869bdbe?jr_id=6a9eb5a468f82b403673b3bf",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: indrive.pinpointhq.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a96f203455eaf6a08c196fe",
+   "company": "Sparq",
+   "title": "Senior Software Developer (Golang/Terraform)",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96f203455eaf6a08c196fe",
+   "originalUrl": "https://ats.rippling.com/sparq/jobs/0c52eea3-39f9-4ee1-aa68-1389a8edf8c9?jr_id=6a96f203455eaf6a08c196fe",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: ats.rippling.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a376db8a0f3e56e86d6cba6",
+   "company": "Fitch Ratings",
+   "title": "Senior Software Engineer",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a376db8a0f3e56e86d6cba6",
+   "originalUrl": "https://careers.fitch.group/job/New-York-Senior-Software-Engineer-NY-10001/1403094333/?jr_id=6a376db8a0f3e56e86d6cba6",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: careers.fitch.group — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a55bf1405c65f7c8f4c70eb",
+   "company": "Recruiting from Scratch",
+   "title": "Backend Engineer: Senior and Staff",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a55bf1405c65f7c8f4c70eb",
+   "originalUrl": "https://recruiterflow.com/recruitingfromscratch/jobs/5245?jr_id=6a55bf1405c65f7c8f4c70eb",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: recruiterflow.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "69a88de879f3f4037f426978",
+   "company": "Illumio",
+   "title": "Sr. Member of Technical Staff - Platform",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/69a88de879f3f4037f426978",
+   "originalUrl": "https://jobs.ashbyhq.com/illumio/904f4622-39da-4008-bd0f-f23afb70f9f1/application?jr_id=69a88de879f3f4037f426978",
+   "status": "parked",
+   "note": "Batch park: ashby unconfirmed: Sr. Member of Technical Staff - Platform\nLocation\n\nSunnyvale, California - HQ\n\nEmployment Type\n\nFull — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a53117de726ec56126a586d",
+   "company": "Mission Technologies, a division of HII",
+   "title": "Software Engineer",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a53117de726ec56126a586d",
+   "originalUrl": "https://jobs.hii-tsd.com/job/Annapolis-Junction%2C-MD-Software-Engineer-Mary/1393165600/?jr_id=6a53117de726ec56126a586d",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: jobs.hii-tsd.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a971fcfb22f636c81416026",
+   "company": "Aalyria",
+   "title": "Senior Software Engineer, Optimization Systems",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a971fcfb22f636c81416026",
+   "originalUrl": "https://ats.rippling.com/aalyria-careers/jobs/d3eae894-405c-4311-8604-11756898dbbb?jr_id=6a971fcfb22f636c81416026",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: ats.rippling.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a994abb90a313642c64fcae",
+   "company": "Google",
+   "title": "Senior Software Engineer, Backend, Google Photos",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a994abb90a313642c64fcae",
+   "originalUrl": "https://www.google.com/about/careers/applications/jobs/results/82070359544603334-senior-software-engineer/?src=jobright&utm_medium=jobposting&utm_campaign=contract&jr_id=6a994abb90a313642c64fcae",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: www.google.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9e26a6a7ba386c5d670e42",
+   "company": "The ODP Group",
+   "title": "Senior Software Engineer",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9e26a6a7ba386c5d670e42",
+   "originalUrl": "https://careers.theodpgroup.com/jobs/18212647-senior-software-development-engineer?jr_id=6a9e26a6a7ba386c5d670e42&__cf_chl_rt_tk=WORdqq.Yr_jsBDcs60j42AlMpJB8QsUvh3aS12JvOoU-1788877954-1.0.1.1-S34c4rj1NVU6JDta6pAoDAJRsRFxnkr2IYUBAtVyj.4",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: careers.theodpgroup.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a5117858d7d3e6cf1cbece3",
+   "company": "Tata Consultancy Services",
+   "title": "Java Backend developer",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5117858d7d3e6cf1cbece3",
+   "originalUrl": "chrome-error://chromewebdata/",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: chromewebdata — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a7cbdaadc3dff2d1c0c8cea",
+   "company": "Elsevier",
+   "title": "Senior Software Engineer I - Ruby on Rails with Sidekiq",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7cbdaadc3dff2d1c0c8cea",
+   "originalUrl": "https://relx.wd3.myworkdayjobs.com/elsevierjobs/job/Philadelphia-PA/Senior-Software-Engineer-I---Ruby-on-Rails-with-Sidekiq_R116811?jr_id=6a7cbdaadc3dff2d1c0c8cea",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: relx.wd3.myworkdayjobs.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9fd1fd9298954075b53f99",
+   "company": "Imagry | Autonomous Driving",
+   "title": "Software Engineer",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9fd1fd9298954075b53f99",
+   "originalUrl": "https://www.linkedin.com/jobs/view/4462284212?jr_id=6a9fd1fd9298954075b53f99",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: www.linkedin.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a989193c8ed473c5c764e30",
+   "company": "R Systems",
+   "title": "Rust Developer",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a989193c8ed473c5c764e30",
+   "originalUrl": "https://www.linkedin.com/jobs/view/4460402186?jr_id=6a989193c8ed473c5c764e30",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: www.linkedin.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a97ceabaf954907d65709a2",
+   "company": "Legion Intelligence",
+   "title": "Senior RUST Developer / Senior Software Engineer - Platform (Remote US)",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a97ceabaf954907d65709a2",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=yurtsai&jr_id=6a97ceabaf954907d65709a2&token=5171066007",
+   "status": "needs_answers",
+   "note": "Batch needs_answers: [\"Due to the nature of our federal contracts this roles required that yo\"] — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9f42bf68f82b403673c880",
+   "company": "Cocos",
+   "title": "Senior Back End Developer",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9f42bf68f82b403673c880",
+   "originalUrl": "https://cocoscapital.recruitee.com/o/senior-back-end-developer?jr_id=6a9f42bf68f82b403673c880",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: cocoscapital.recruitee.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a46972e8204a812e98c9209",
+   "company": "Medallion",
+   "title": "Software Engineer",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a46972e8204a812e98c9209",
+   "originalUrl": "https://www.linkedin.com/jobs/view/4435231668?jr_id=6a46972e8204a812e98c9209",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: www.linkedin.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a4e29cd15b4965afd5826c3",
+   "company": "ByteDance",
+   "title": "Software Engineer, Global Payment",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a4e29cd15b4965afd5826c3",
+   "originalUrl": "https://joinbytedance.com/search/7161162479660976414?jr_id=6a4e29cd15b4965afd5826c3",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: joinbytedance.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9e7cc2dacf777321a91f4d",
+   "company": "Comcast",
+   "title": "Backend Software Engineer (Python or PHP) - Chicago - ONSITE 2X Week- FreeWheel",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9e7cc2dacf777321a91f4d",
+   "originalUrl": "https://jobs.comcast.com/job/chicago/backend-software-engineer-python-or-php-chicago-onsite-2x-week-freewheel/45483/100084396112?source=jobright_at&utm_medium=referral&utm_campaign=all&jr_id=6a9e7cc2dacf777321a91f4d",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: jobs.comcast.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a54b89c8215bf1b856b6bea",
+   "company": "Crusoe",
+   "title": "Senior Software Engineer, Billing Platform",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a54b89c8215bf1b856b6bea",
+   "originalUrl": "https://jobs.ashbyhq.com/crusoe/59c7d6a0-436f-45bb-8abb-f24329d3eda1/application?jr_id=6a54b89c8215bf1b856b6bea",
+   "status": "parked",
+   "note": "Batch park: ashby anti-bot flagged the datacenter IP — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a7f5600927c79391ad07eca",
+   "company": "Radar",
+   "title": "Senior / Staff Backend Engineer, Maps",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7f5600927c79391ad07eca",
+   "originalUrl": "https://jobs.ashbyhq.com/radar/944aaea8-b40a-4347-9a51-91064e146948/application?jr_id=6a7f5600927c79391ad07eca",
+   "status": "parked",
+   "note": "Batch park: ashby unconfirmed: Senior / Staff Backend Engineer, Maps\nLocation\n\nNew York ; US Remote\n\nEmployment Type\n\nFull time\n\nLo — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9d928568f82b4036737e7b",
+   "company": "Farren",
+   "title": "Growth Engineer",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9d928568f82b4036737e7b",
+   "originalUrl": "https://jobs.gusto.com/postings/farren-growth-engineer-ffd3459c-0864-4e44-a4bc-450e426e74ec?jr_id=6a9d928568f82b4036737e7b&__cf_chl_rt_tk=hdS8Kr86MLBlmktXLkApZs6fb5WhHNWssfrOnox.Htw-1788875811-1.0.1.1-u6MU_HHxZQAVyLNEAkMuKszIv2mhIQ5IRX9RQORfam8",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: jobs.gusto.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a537871e726ec56126a6f29",
+   "company": "Publicis Groupe",
+   "title": "Senior Software Engineer",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a537871e726ec56126a6f29",
+   "originalUrl": "https://employees-publicisgroupe.icims.com/jobs/151389/senior-software-engineer/job?jr_id=6a537871e726ec56126a6f29",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: employees-publicisgroupe.icims.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9b14b590a313642c658827",
+   "company": "Made4net",
+   "title": "Senior Software Engineer",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9b14b590a313642c658827",
+   "status": "parked",
+   "note": "Batch park: no_apply_button — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a997148ad752e2ad54ff8a9",
+   "company": "Temporal Technologies",
+   "title": "Senior Software Engineer, Observability",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a997148ad752e2ad54ff8a9",
+   "originalUrl": "https://jobs.ashbyhq.com/temporal/109d72d0-e739-406c-87ae-b0f1f5ae7ade/application?utm_source=eOyVyzx5gb&source=2KnAzmpx4J&jr_id=6a997148ad752e2ad54ff8a9",
+   "status": "parked",
+   "note": "Batch park: ashby unconfirmed: Senior Software Engineer, Observability\nLocation\n\nSan Francisco, California; Bellevue, Washington; B — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9e3a0f68f82b4036738fcb",
+   "company": "IBM",
+   "title": "Sr. Software Engineer (TS/SCI)",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9e3a0f68f82b4036738fcb",
+   "originalUrl": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=119566&jr_id=6a9e3a0f68f82b4036738fcb",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: careers.ibm.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9aeed4d5ff1f3f1c39bcee",
+   "company": "Chase",
+   "title": "Software Engineer III – PySpark/AWS/Databricks",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9aeed4d5ff1f3f1c39bcee",
+   "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210784166?jr_id=6a9aeed4d5ff1f3f1c39bcee",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: jpmc.fa.oraclecloud.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a0dcea5c152ac7824480075",
+   "company": "Resmed",
+   "title": "Senior Software Engineer",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a0dcea5c152ac7824480075",
+   "originalUrl": "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/Peachtree-Corners-GA-United-States/Senior-Software-Engineer_JR_040297-1?jr_id=6a0dcea5c152ac7824480075",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: resmed.wd3.myworkdayjobs.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a510a1cae4052672fe9654c",
+   "company": "Early Warning",
+   "title": "Sr. Software Engineer - Java / SpringBoot / AWS",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a510a1cae4052672fe9654c",
+   "originalUrl": "https://earlywarning.wd5.myworkdayjobs.com/earlywarningcareers/job/Scottsdale/Sr-Software-Engineer---Java---SpringBoot---AWS_REQ2026507?jr_id=6a510a1cae4052672fe9654c",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: earlywarning.wd5.myworkdayjobs.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a614dc7ab14335fc0f17a3c",
+   "company": "Outcomes®",
+   "title": "Senior Software Engineer",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a614dc7ab14335fc0f17a3c",
+   "originalUrl": "https://www.paycomonline.net/v4/ats/web.php/portal/7E4EB3D649413723D5706AFD08F9EF3D/jobs/155259?jr_id=6a614dc7ab14335fc0f17a3c",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: www.paycomonline.net — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9efeb8a7ba386c5d674154",
+   "company": "Oxbow Talent",
+   "title": "Senior/Staff Back End Engineers",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9efeb8a7ba386c5d674154",
+   "originalUrl": "https://www.linkedin.com/jobs/view/4462206994?jr_id=6a9efeb8a7ba386c5d674154",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: www.linkedin.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a52cafee726ec56126a494a",
+   "company": "ACES, Incorporated",
+   "title": "Software Engineer",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a52cafee726ec56126a494a",
+   "originalUrl": "https://everwatch-everwatchsolutions.icims.com/jobs/3479/software-engineer/job?jr_id=6a52cafee726ec56126a494a",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: everwatch-everwatchsolutions.icims.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a4476b9b156014e414bc885",
+   "company": "Accenture Federal Services",
+   "title": "Sr. Full Stack Engineer",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a4476b9b156014e414bc885",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=accenturefederalservices&token=4693516006&jr_id=6a4476b9b156014e414bc885",
+   "status": "needs_answers",
+   "note": "Batch needs_answers: [\"Will you be serving as enlisted personnel in either the Reserves or th\",\"Were you an employee of the U.S. Government (including U.S. Congress o\",\"Do you have any family members or people you have cl — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a95add2c8763a3a87ffb4ea",
+   "company": "AssistRx",
+   "title": "Software Engineer III",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a95add2c8763a3a87ffb4ea",
+   "originalUrl": "https://careers.assistrx.com/jobs/1792?jr_id=6a95add2c8763a3a87ffb4ea",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: careers.assistrx.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a97b77472b96b1c436f12d1",
+   "company": "NVIDIA AI",
+   "title": "System Software Engineer, Distributed Systems",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a97b77472b96b1c436f12d1",
+   "originalUrl": "https://jobs.nvidia.com/careers/job/893393494431?jr_id=6a97b77472b96b1c436f12d1",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: jobs.nvidia.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a6501cb8d5360344960768d",
+   "company": "Fusion Technology LLC",
+   "title": "Senior Software Engineer",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a6501cb8d5360344960768d",
+   "originalUrl": "https://fusiontechnology.isolvedhire.com/jobs/1820296?jr_id=6a6501cb8d5360344960768d",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: fusiontechnology.isolvedhire.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a55f4cdefb06a45240d24a8",
+   "company": "Fusion Health",
+   "title": "Senior Software Engineer",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a55f4cdefb06a45240d24a8",
+   "originalUrl": "https://ats.rippling.com/fusion-health/jobs/11c98874-45fd-4522-8292-6796bbc385a0?jr_id=6a55f4cdefb06a45240d24a8",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: ats.rippling.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a96fb46e4e60e4b8da5b15d",
+   "company": "Wonder",
+   "title": "Sr. Elixir Engineer",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a96fb46e4e60e4b8da5b15d",
+   "originalUrl": "https://www.linkedin.com/jobs/view/4459544342?jr_id=6a96fb46e4e60e4b8da5b15d",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: www.linkedin.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a91af2b8e59685453376f10",
+   "company": "Homebot",
+   "title": "Senior Backend Engineer",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a91af2b8e59685453376f10",
+   "originalUrl": "https://jobs.ashbyhq.com/homebot/d4440bc0-a571-4496-b880-94767c4f5b61/application?jr_id=6a91af2b8e59685453376f10",
+   "status": "parked",
+   "note": "Batch park: ashby blocked this IP earlier — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a7e0a55e51a1e18a240ba39",
+   "company": "Nightwing",
+   "title": "Software Engineer",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7e0a55e51a1e18a240ba39",
+   "originalUrl": "https://nwis.wd12.myworkdayjobs.com/nw/job/Ft-George-G-Meade-MD/Software-Engineer_JR101972?jr_id=6a7e0a55e51a1e18a240ba39",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: nwis.wd12.myworkdayjobs.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a524bcad007ee02d95f6eac",
+   "company": "Mercury Insurance",
+   "title": "Senior Software Engineer",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a524bcad007ee02d95f6eac",
+   "originalUrl": "https://careers-mercuryinsurance.icims.com/jobs/6516/senior-software-engineer/job?jr_id=6a524bcad007ee02d95f6eac",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: careers-mercuryinsurance.icims.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9eb241a7ba386c5d67344e",
+   "company": "STERIS",
+   "title": "Advanced Software Engineer",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9eb241a7ba386c5d67344e",
+   "originalUrl": "https://careers.steris.com/us/en/job/51687/Advanced-Software-Engineer?jr_id=6a9eb241a7ba386c5d67344e",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: careers.steris.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a9f529bdacf777321a947ac",
+   "company": "Actual AI",
+   "title": "Founding Software Engineer",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9f529bdacf777321a947ac",
+   "status": "parked",
+   "note": "Batch park: no_apply_button — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a57c683e9b77f668bd6ab49",
+   "company": "Netspend",
+   "title": "Software Engineer Senior",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a57c683e9b77f668bd6ab49",
+   "originalUrl": "https://jobs.ashbyhq.com/netspend-careers-page/e7ee0591-dc01-4bf3-af48-6754d19d7727/application?jr_id=6a57c683e9b77f668bd6ab49",
+   "status": "parked",
+   "note": "Batch park: ashby anti-bot flagged the datacenter IP — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a5a8d2f686b4755d1e15c9b",
+   "company": "Automox",
+   "title": "Senior Software Engineer, Backend",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5a8d2f686b4755d1e15c9b",
+   "originalUrl": "https://app.trinethire.com/companies/16150-automox-inc/jobs/26497-senior-software-engineer-backend?jr_id=6a5a8d2f686b4755d1e15c9b",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: app.trinethire.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a5962544da96a42cfd9107c",
+   "company": "UST",
+   "title": "Java Backend Engineer",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5962544da96a42cfd9107c",
+   "originalUrl": "http://usource.ripplehire.com/candidate/?token=8YxWjpwDhdL62DFYUIcQ&jr_id=6a5962544da96a42cfd9107c#list#detail/job/61906",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: usource.ripplehire.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a115f7c619335383fb37842",
+   "company": "vCluster",
+   "title": "Senior Software Engineer (Backend)",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a115f7c619335383fb37842",
+   "originalUrl": "https://jobs.ashbyhq.com/vClusterLabs/516c8859-83be-4535-8d2d-32a305a07e6d/application?jr_id=6a115f7c619335383fb37842",
+   "status": "parked",
+   "note": "Batch park: ashby blocked this IP earlier — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a5238629fbdab22fe13a927",
+   "company": "Ampa",
+   "title": "Backend Engineer – APIs & Data Systems",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5238629fbdab22fe13a927",
+   "originalUrl": "https://ats.rippling.com/ampa/jobs/4425c023-8bf2-4540-a5b0-972b225d4ce6?jr_id=6a5238629fbdab22fe13a927",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: ats.rippling.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a8765714afae74a08348567",
+   "company": "Trillion Technology Solutions, Inc",
+   "title": "Sr Backend Engineer",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8765714afae74a08348567",
+   "originalUrl": "https://ttsiglobal.isolvedhire.com/jobs/1847698?jr_id=6a8765714afae74a08348567",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: ttsiglobal.isolvedhire.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a978dd9246d697dcee05bf5",
+   "company": "CGI",
+   "title": "Senior AWS Java/Python Developer with GenAI",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a978dd9246d697dcee05bf5",
+   "originalUrl": "https://validate.perfdrive.com/?ssa=4f6c3990-5a6f-4102-b4eb-d1c726ea49eb&ssb=56868218261&ssc=https%3A%2F%2Fclients.njoyn.com%2FNjoyn_WAF_Error.asp%3F_event_transid%3D3b39c137a229c5bacb328689917a97733d2e02557db139a498e85a962464421d&ssi=b41eada1-dcvu-463e-8891-79b21dc6fd01&ssk=botmanager_support@radware.com&ssm=06704554704344963319095742358359&ssn=b420d7dfc9d62bc6924a1ab66cc39b09323adbc984bf-c764-4b8e-bea5ee&sso=382bcd7b-315b545e8b67edf2c90f1494947e6eeccc99dde289612f69&ssp=82000874751787802585178889613403737&ssq=70360937077894292300001002989565463830448&ssr=MTYwLjc5LjEwNi4xNDI=&sst=Mozilla/5.0%20(X11;%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20HeadlessChrome/141.0.0.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwNzY0NmM3NzEtZjQ1ZS00YmI1LThkMjEtYmNjZDJmMjE0NGIzNS0xNzg3ODAxMDAyNDI0MTA2OTc3NjU3MS0wMDQ1OTQzZTI3Yzc0ZTE1M2RmMzEiLCJfX3V6bWYiOiI3ZjkwMDBkYmM5ODRiZi1jNzY0LTRiOGUtYmQ3Yi0zMTViNTQ1ZThiNjc1LTE3ODc4MDEwMDI0MjQxMDY5Nzc2NTcxLTAwNGM4ZDdjNDFjNjViMzU1MmMzMSIsInJkIjoibmpveW4uY29tIn0=",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: validate.perfdrive.com — 2026-09-08 cloud chunk"
+  },
+  {
+   "id": "6a53c177e726ec56126a7dd2",
+   "company": "FIS",
+   "title": "Senior Backend Engineer",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a53c177e726ec56126a7dd2",
+   "originalUrl": "https://fis.wd5.myworkdayjobs.com/searchjobs/job/US-IL-CHI-222-STE-1700/Senior-Backend-Engineer_JR0304834?jr_id=6a53c177e726ec56126a7dd2",
+   "status": "parked",
+   "note": "Batch park: platform not automated from cloud: fis.wd5.myworkdayjobs.com — 2026-09-08 cloud chunk"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
