@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T12:25:09.084Z",
+ "updatedAt": "2026-09-08T12:46:25.880Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -18204,6 +18204,34 @@
    "originalUrl": "http://mobomo.applytojob.com/apply/WtBbCIxyyO/Sr-Software-Engineer-DMV?jr_id=6a43ce70b156014e414b8e85",
    "status": "parked",
    "note": "Parked: platform not automated from cloud: mobomo.applytojob.com. 2026-09-08"
+  },
+  {
+   "id": "6a724b3bee751e0c793480d0",
+   "company": "Siteline",
+   "title": "Senior Software Engineer - Backend/Infrastructure",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a724b3bee751e0c793480d0",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=siteline&jr_id=6a724b3bee751e0c793480d0&token=4702467006",
+   "status": "user_manual",
+   "note": "POLICY: SF-office question offers only (1) live in Bay Area [false], (2) will relocate AT MY OWN EXPENSE within 60 days [unauthorized financial pledge — stripped in honesty audit], (3) cannot relocate [inaccurate]. User must choose personally. Everything else already fillable: years 5-7, sponsorship Yes, note text drafted. 2026-09-08"
+  },
+  {
+   "id": "6a7f7334927c79391ad0926c",
+   "company": "TeamSnap",
+   "title": "Senior Software Engineer (Backend)",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7f7334927c79391ad0926c",
+   "originalUrl": "https://jobs.lever.co/teamsnap/86869664-1c38-4f5b-9a2a-555cdb565713/apply",
+   "status": "parked",
+   "note": "Lever hCaptcha visible challenge on submit — stopped per policy, not solved. Form fully filled and answers decided: authorized Yes / need sponsorship Yes / NJ / Jersey City / $150-160k / SaaS yes / sports no / how-heard Jobright / not referred / EEO decline. Retry from Mac or user completes captcha. 2026-09-08"
+  },
+  {
+   "id": "arcfield-0908",
+   "company": "Arcfield",
+   "title": "Senior Software Engineer - Backend Developer & Cloud/AI Specialty",
+   "matchPercent": 83,
+   "status": "dropped",
+   "note": "Defense/intelligence contractor — added to DEFENSE_BLOCK. No submission was made (own portal, parked by batch). 2026-09-08"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
