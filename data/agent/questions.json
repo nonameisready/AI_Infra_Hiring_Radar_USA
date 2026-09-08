@@ -16,8 +16,8 @@
    "question": "工作授权状态，以及是否需要公司 sponsor 签证（现在或将来）？",
    "field": "workAuth,needsSponsor,usAuthorized",
    "askedAt": "2026-08-23",
-   "answer": "F-1 CPT，I-485 pending。需要 sponsor（现在或将来）：Yes。目前有合法工作授权（CPT）：Yes。",
-   "answeredAt": "2026-08-26"
+   "answer": "H-1B 已批准且已生效（前雇主 Innova/BofA 递交，cap-counted，新雇主可免抽签 transfer）。F-1 CPT/EAD 至 05/31/2027 仍有效（bridge）。需要 sponsor（现在或将来）：Yes（transfer 也算 sponsorship）。目前有合法工作授权：Yes。身份类问题选 H-1B。",
+   "answeredAt": "2026-09-08"
   },
   {
    "id": "q-location",

@@ -60,15 +60,15 @@
       "match": "sponsor(ship)?|require.*visa|visa.*(now|future)",
       "answer": "Yes",
       "source": "user",
-      "learnedAt": "2026-08-26",
-      "note": "Needs sponsorship now or in the future — always Yes."
+      "learnedAt": "2026-09-08",
+      "note": "Needs sponsorship now or in the future — always Yes (H-1B transfer IS sponsorship). Where free text allows, add: 'H-1B transfer only — cap-counted/cap-exempt, no lottery needed.'"
     },
     {
       "match": "visa status|immigration status|work authorization status|current visa",
-      "answer": "F-1 (CPT/EAD), valid through 05/31/2027",
+      "answer": "H-1B",
       "source": "user",
-      "learnedAt": "2026-08-26",
-      "note": " [audit 2026-09-01: removed unverified I-485 claim]"
+      "learnedAt": "2026-09-08",
+      "note": "user 2026-09-08: H-1B approved & activated (petition by former employer Innova/BofA), cap-counted → new employer files cap-EXEMPT transfer, no lottery. F-1 CPT/EAD (to 05/31/2027) still valid per user as bridge. [audit 2026-09-01: removed unverified I-485 claim]"
     },
     {
       "match": "current (city|location)|where (are you|do you).*(located|based)|city.*state",
@@ -216,8 +216,8 @@
     },
     {
       "match": "require.*(curricular practical training|cpt)",
-      "answer": "Yes",
-      "note": "works on F-1 CPT; a new employer needs school CPT authorization"
+      "answer": "No",
+      "note": "user 2026-09-08: identity is H-1B now — new employer files cap-exempt H-1B transfer, not CPT. CPT/EAD (to 05/31/2027) remains a fallback bridge; if a form's phrasing makes this ambiguous, route to user (POLICY)"
     },
     {
       "match": "permanent resident in any other country",
