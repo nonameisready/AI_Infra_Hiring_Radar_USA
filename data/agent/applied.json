@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T17:57:17.634Z",
+ "updatedAt": "2026-09-08T18:03:20.335Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -6672,6 +6672,19 @@
    "date": "2026-09-08",
    "method": "cloud-driver",
    "detail": "GH driver rescue after batch code-stall (full fresh refill, code 6OiZTSta). Confirmed: Thank you for applying. Honest: authorized Yes, sponsorship Yes, prev Ripple No, gender Female, hispanic No, not protected veteran, disability no-answer. Source Jobright."
+  },
+  "6a524bde8576ec69c014b4c0": {
+   "id": "6a524bde8576ec69c014b4c0",
+   "company": "Pure Storage",
+   "title": "Senior Software Engineer, Datapath",
+   "matchPercent": 76,
+   "ats": "greenhouse",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=purestorage&token=7702100",
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a524bde8576ec69c014b4c0",
+   "appliedAt": "2026-09-08T18:03:20.335Z",
+   "date": "2026-09-08",
+   "method": "cloud-driver",
+   "detail": "GH (Everpure, formerly Pure Storage). Confirmed: Thank you page. Honest: deemed-export No (their definition = sanctioned-nation citizens only: Syria/Cuba/Iran/NK — PRC not listed); employer Bank of America (via Innova Solutions) between roles; title Senior Software Engineer; UPenn Masters CS exact-anchored picks; authorized Yes, sponsorship Yes; privacy-policy ack checked; demographics standard. Code 7rDwWyFZ."
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
