@@ -232,7 +232,7 @@
   {
    "match": "i-?140.*(filed|approved)",
    "answer": "Yes",
-   "note": "user 2026-08-28: I-140 filed and approved"
+   "note": "user 2026-08-28, re-confirmed 2026-09-08: employment-based I-140 APPROVED (priority date retained). Big selling points with cap-counted H-1B: cap-exempt transfer AND H-1B extendable beyond 6 years under AC21. Do NOT claim I-485 pending (unverified, audited out 2026-09-01) or green card."
   },
   {
    "match": "state of residence",
