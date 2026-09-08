@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T14:08:05.208Z",
+ "updatedAt": "2026-09-08T14:14:26.073Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -18269,6 +18269,14 @@
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=springhealth66&jr_id=6a99a638138838706058f608&token=4730333005",
    "status": "user_manual",
    "note": "POLICY: form asks to confirm ability to work SF office 2-3 days/week AND whether based in SF metro or able to INDEPENDENTLY RELOCATE within 90 days — independent-relocation pledge is the own-expense category stripped in the honesty audit. User decides personally. 2026-09-08"
+  },
+  {
+   "id": "legion-intel-0908",
+   "company": "Legion Intelligence",
+   "title": "Senior RUST Developer / Senior Software Engineer - Platform",
+   "matchPercent": 80,
+   "status": "dropped",
+   "note": "Federal contracts require U.S. citizenship per application question — honestly ineligible (PRC citizen). Added to DEFENSE_BLOCK. No submission made. 2026-09-08"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."

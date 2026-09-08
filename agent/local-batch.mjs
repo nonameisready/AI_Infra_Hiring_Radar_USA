@@ -125,7 +125,7 @@ for (const i of pend.items) { seenIds.add(i.id); if (i.key) seenKeys.add(i.key);
 const norm = (s) => String(s ?? "").toLowerCase().trim();
 // Standing rule: never apply to defense/clearance companies (applicant cannot
 // hold a US security clearance). Mirrors RUNBOOK; extend as new ones appear.
-const DEFENSE_BLOCK = /palantir|nt ?concepts|anduril|varda|havocai|\bstr\b|l3harris|lockheed|raytheon|\brtx\b|northrop|general dynamics|bae systems|leidos|booz allen|draper|mitre|sierra nevada corp|epirus|shield ?ai|saronic|castelion|mach industries|helsing|wyetech|maxar|vantor|intrepid solutions|oklo|spacex|sphinx ?defense|\bdefense\b|arcfield|accenture federal/i;
+const DEFENSE_BLOCK = /palantir|nt ?concepts|anduril|varda|havocai|\bstr\b|l3harris|lockheed|raytheon|\brtx\b|northrop|general dynamics|bae systems|leidos|booz allen|draper|mitre|sierra nevada corp|epirus|shield ?ai|saronic|castelion|mach industries|helsing|wyetech|maxar|vantor|intrepid solutions|oklo|spacex|sphinx ?defense|\bdefense\b|arcfield|accenture federal|legion intelligence/i;
 // User directive 2026-09-06: repeatedly applied and rejected — never apply again.
 const NO_REAPPLY = /\bramp\b|\bmercor\b/i;
 const queue = [];
