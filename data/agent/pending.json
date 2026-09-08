@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T12:46:25.880Z",
+ "updatedAt": "2026-09-08T13:12:09.131Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -18232,6 +18232,15 @@
    "matchPercent": 83,
    "status": "dropped",
    "note": "Defense/intelligence contractor — added to DEFENSE_BLOCK. No submission was made (own portal, parked by batch). 2026-09-08"
+  },
+  {
+   "id": "68ca04ccd4187c55157a540f",
+   "company": "Ro",
+   "title": "Staff Software Engineer, Backend",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/68ca04ccd4187c55157a540f",
+   "status": "parked",
+   "note": "Lever platform — visible hCaptcha challenge on submit verified today (TeamSnap). Retry from Mac. Only open question was expected comp range ($150k negotiable). 2026-09-08"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
