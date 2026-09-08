@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T15:43:54.147Z",
+ "updatedAt": "2026-09-08T16:05:21.105Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -18316,6 +18316,16 @@
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=canonical&jr_id=69170f973ea85638ae1c74f8&token=5792361",
    "status": "user_manual",
    "note": "Standing rule: Canonical applications handled by user personally (essay-heavy leadership/performance questions). 2026-09-08"
+  },
+  {
+   "id": "6a8c98e12f736c304f2a6bf0",
+   "company": "Duolingo",
+   "title": "Senior/Software Engineer II, Backend",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8c98e12f736c304f2a6bf0",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=duolingo&token=8583977002&jr_id=6a8c98e12f736c304f2a6bf0",
+   "status": "user_manual",
+   "note": "POLICY: form asks precise OPT eligibility facts (currently in / eligible for OPT; eligible for 24-month STEM OPT extension) — stored profile only says F-1 CPT/EAD through 05/31/2027; exact OPT status is a personal immigration fact the agent must not guess. Questions: [\"If so, are you eligible or currently in a period of Optional Practical\",\"After the OPT, are you eligible for a 24-month OPT extension or are cu\",\"If you're less than 3 years out of school, what is your undergraduate \",\"Where did you hear about this job?*\",\"How has AI changed the way you approach y 2026-09-08"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
