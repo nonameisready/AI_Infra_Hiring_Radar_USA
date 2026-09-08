@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-06T08:17:08.030Z",
+ "updatedAt": "2026-09-08T11:46:19.872Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -17976,6 +17976,26 @@
    "addedAt": "2026-09-07",
    "status": "needs_answers",
    "note": "[\"What is highest level of education you have completed?*\",\"Do you have 5+ years of professional work experience?*\",\"Are you willing to work from our Redwood City, CA office 5x week? *\",\"Are you locat"
+  },
+  {
+   "id": "6a9b031913883870605962d5",
+   "company": "Lithic",
+   "title": "Software Engineer, Treasury",
+   "matchPercent": 95,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9b031913883870605962d5",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=lithic&jr_id=6a9b031913883870605962d5&token=5848267004",
+   "status": "dropped",
+   "note": "JD: no visa sponsorship or assistance (needs future H-1B) — honestly ineligible. JD also embeds an AI-applicant honeypot instruction; AI-detection screens are user-personal per policy. 2026-09-08"
+  },
+  {
+   "id": "6a9eac412c964816f65ee18b",
+   "company": "Expert Intelligence™",
+   "title": "Senior Software Engineer",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9eac412c964816f65ee18b",
+   "originalUrl": "https://expert-intelligence.breezy.hr/p/8a05d8325e95-senior-software-engineer/apply",
+   "status": "parked",
+   "note": "Breezy form needs structured Work History + Education + mandatory cover letter; Angular ignores programmatic fills. Heavy — deprioritized vs GH supply. 2026-09-08"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
