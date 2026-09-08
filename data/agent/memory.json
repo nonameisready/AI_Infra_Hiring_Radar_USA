@@ -226,8 +226,8 @@
   },
   {
    "match": "nonimmigrant status",
-   "answer": "F-1",
-   "note": "user profile"
+   "answer": "H-1B",
+   "note": "user 2026-09-08: H-1B approved & activated; was F-1 before"
   },
   {
    "match": "i-?140.*(filed|approved)",
