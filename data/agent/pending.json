@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T16:15:33.897Z",
+ "updatedAt": "2026-09-08T16:51:07.652Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -18336,6 +18336,16 @@
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=recordedfuture&jr_id=69f3822ac78b9e4518955036&token=8505980002",
    "status": "user_manual",
    "note": "Threat-intelligence company (heavy intelligence-community customer base — adjacent to the defense/clearance concern; user should decide). Principal role also requires multiple specific experience essays best written personally. 2026-09-08"
+  },
+  {
+   "id": "6a9e394ca7ba386c5d671154",
+   "company": "Chubb",
+   "title": "Sr. Software Engineer, Digital Consumer",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9e394ca7ba386c5d671154",
+   "originalUrl": "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/35660",
+   "status": "parked",
+   "note": "Oracle CX 4-step draft SAVED on tenant under her email (steps 1-3 done: contact/address, all questions answered honestly incl sponsorship Yes + salary 150k + Job Board). BLOCKER: education institution autocomplete picked Bloomsburg University of Pennsylvania (wrong; should be University of Pennsylvania) and the timeline item editor will not open for synthetic clicks — needs a real-mouse edit (Mac/user) to fix school + dates, then step 4 submit. DO NOT submit with wrong school. 2026-09-08"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
