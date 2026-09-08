@@ -6282,6 +6282,19 @@
    "via": "greenhouse (cloud fallback batch)",
    "detail": "Submitted by batch-apply chunk 3 with security code fed; confirmation detected. Prior Databricks rows were needs_info only — no duplicate. 2026-09-08",
    "at": "2026-09-08T13:22:28.910Z"
+  },
+  "6a68e1b53b549b0b531d28e7": {
+   "id": "6a68e1b53b549b0b531d28e7",
+   "key": "encora inc::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "Encora Inc.",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a68e1b53b549b0b531d28e7",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=encora10&token=5197638007&jr_id=6a68e1b53b549b0b531d28e7",
+   "status": "applied",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed: Thank you for applying. Residency United States; authorized Yes; available In 2 weeks; GDPR consents checked. 2026-09-08",
+   "at": "2026-09-08T13:31:01.016Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
