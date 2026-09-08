@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T16:56:35.458Z",
+ "updatedAt": "2026-09-08T17:19:59.265Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -18356,6 +18356,16 @@
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=peregrinetechnologies&jr_id=685cba59a78bcacaf84d390e&token=4580133005",
    "status": "user_manual",
    "note": "Government/public-safety intelligence platform (federal agencies, operational intelligence — Palantir-adjacent category given the Palantir ban). Also requires a 0-to-1 builder essay. User decides personally. 2026-09-08"
+  },
+  {
+   "id": "6a4c0aa84eb370649b27bfb7",
+   "company": "GRVTY",
+   "title": "Software Engineer, Senior",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a4c0aa84eb370649b27bfb7",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=grvty&jr_id=6a4c0aa84eb370649b27bfb7&token=4306651009",
+   "status": "dropped",
+   "note": "Form states position requires U.S. citizenship — honestly ineligible (PRC citizen). No submission made. 2026-09-08"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
