@@ -6490,6 +6490,19 @@
    "via": "greenhouse (cloud driver)",
    "detail": "Confirmed: Thanks for applying. Sanctions-country question honest No; sponsorship Yes; acknowledgments checked; demographics declined. 2026-09-08",
    "at": "2026-09-08T15:35:57.485Z"
+  },
+  "6a0ca7e60411d7417a1babfa": {
+   "id": "6a0ca7e60411d7417a1babfa",
+   "key": "glean::software engineer apis context platform",
+   "title": "Software Engineer, APIs & Context Platform",
+   "company": "Glean",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a0ca7e60411d7417a1babfa",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=gleanwork&jr_id=6a0ca7e60411d7417a1babfa&token=4696752005",
+   "status": "applied",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed: Thank you for applying. Honest AI-tools essay (assistants + built LLM/RAG infra); hybrid commit Yes; 7 yrs; sponsorship Yes. 2026-09-08",
+   "at": "2026-09-08T15:39:41.737Z"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
