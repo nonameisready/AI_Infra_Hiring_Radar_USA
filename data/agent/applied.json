@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-09T10:06:51.990Z",
+ "updatedAt": "2026-09-09T10:18:18.691Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -6734,6 +6734,30 @@
    "at": "2026-09-09",
    "via": "ashby (cloud driver)",
    "detail": "Gmail-confirmed (WarpStream role). Honest: heard-of Job Board; prev employed No; authorized Yes; sponsorship Yes; zip 07306; comp $150k+."
+  },
+  "6a69b2f8c63ba56308f4f9a0": {
+   "id": "6a69b2f8c63ba56308f4f9a0",
+   "company": "PayZen",
+   "title": "Senior Software Engineer",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a69b2f8c63ba56308f4f9a0",
+   "originalUrl": "https://jobs.ashbyhq.com/payzen-inc/6790f54e-51f9-4468-b031-a22364b51746/application",
+   "status": "applied",
+   "at": "2026-09-09",
+   "via": "ashby (cloud driver)",
+   "detail": "Gmail-confirmed. Honest: hybrid-SF-comfortable Yes (willing to relocate), sponsorship Yes. First attempt spam-flagged (undelivered), retry clean."
+  },
+  "6a769c827b3417772ade8d1a": {
+   "id": "6a769c827b3417772ade8d1a",
+   "company": "Charta Health",
+   "title": "Software Engineer, Senior",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a769c827b3417772ade8d1a",
+   "originalUrl": "https://jobs.ashbyhq.com/chartahealth/8b09b002-9ff1-4209-8291-7673a1e51146/application",
+   "status": "applied",
+   "at": "2026-09-09",
+   "via": "ashby (cloud driver)",
+   "detail": "Gmail-confirmed. Honest: able to commit to SF or NY office Yes (NY commutable from Jersey City); 7 yrs shipping; fluent Python/Go + TS/SQL/PySpark; sponsorship Yes."
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-09T10:06:51.990Z",
+ "updatedAt": "2026-09-09T10:18:18.691Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -5066,18 +5066,6 @@
    "note": "Workable form renders + fills from cloud but Submit fires NO network request (React never sees native-setter values; trusted Playwright click also no-ops). 2 attempts 2026-09-05 — Mac headed replay."
   },
   {
-   "id": "6a69b2f8c63ba56308f4f9a0",
-   "key": "payzen::senior software engineer",
-   "title": "Senior Software Engineer",
-   "company": "PayZen",
-   "matchPercent": 82,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a69b2f8c63ba56308f4f9a0",
-   "atsUrl": "https://jobs.ashbyhq.com/payzen-inc/6790f54e-51f9-4468-b031-a22364b51746/application?utm_source=jobright&jr_id=6a69b2f8c63ba56308f4f9a0",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: jobs.ashbyhq.com"
-  },
-  {
    "id": "6a984a45dd171c72857913ea",
    "key": "accelerant::python developer",
    "title": "Python Developer",
@@ -5124,18 +5112,6 @@
    "addedAt": "2026-09-03",
    "status": "parked",
    "note": "platform: www.linkedin.com"
-  },
-  {
-   "id": "6a769c827b3417772ade8d1a",
-   "key": "charta health::software engineer, senior",
-   "title": "Software Engineer, Senior",
-   "company": "Charta Health",
-   "matchPercent": 82,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a769c827b3417772ade8d1a",
-   "atsUrl": "https://jobs.ashbyhq.com/chartahealth/8b09b002-9ff1-4209-8291-7673a1e51146/application?utm_source=jobright&jr_id=6a769c827b3417772ade8d1a",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: jobs.ashbyhq.com"
   },
   {
    "id": "6a26faa02056260dd6e846da",
