@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-09T09:33:12.717Z",
+ "updatedAt": "2026-09-09T09:52:04.804Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -4390,8 +4390,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/67ed38b14ea29c752bd18ed9",
    "atsUrl": "https://jobs.ashbyhq.com/ema/587b9677-a59b-485a-888d-417c193268fd/application?utm_source=jobright&jr_id=67ed38b14ea29c752bd18ed9",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: jobs.ashbyhq.com"
+   "status": "submitted_unconfirmed",
+   "note": "Submitted via wd driver 2026-09-09 (success page, no spam flag, willing-to-relocate radio). No Gmail confirmation yet — check from:ashbyhq.com before counting or ever re-applying. Prior fresh-context attempt was spam-flagged and NOT delivered."
   },
   {
    "id": "6a9936acf6de551aa0aaee9b",
@@ -4730,18 +4730,6 @@
    "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
-   "id": "69eaa0953aa0c479643b1057",
-   "key": "simple ai::software engineer",
-   "title": "Software Engineer",
-   "company": "Simple AI",
-   "matchPercent": 84,
-   "jobrightUrl": "https://jobright.ai/jobs/info/69eaa0953aa0c479643b1057",
-   "atsUrl": "https://jobs.ashbyhq.com/simple-ai/9a5f5694-e066-4087-9a13-b1a62d8d8025/application?utm_source=jobright&jr_id=69eaa0953aa0c479643b1057",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: jobs.ashbyhq.com"
-  },
-  {
    "id": "6a93e6649864261ccd2a3a00",
    "key": "microsoft::software engineer ii & senior software engineer",
    "title": "Software Engineer II & Senior Software Engineer",
@@ -5016,18 +5004,6 @@
    "addedAt": "2026-09-03",
    "status": "parked",
    "note": "workday registration IP-wide silent block from cloud 2026-09-05 (5/5 tenants: att/salesforce/workday-own/acrisure/velera) — needs new account; local replay on Mac"
-  },
-  {
-   "id": "68c0951c8e65e77df55c2dbf",
-   "key": "tenex.ai::staff software engineer",
-   "title": "Staff Software Engineer",
-   "company": "TENEX.AI",
-   "matchPercent": 83,
-   "jobrightUrl": "https://jobright.ai/jobs/info/68c0951c8e65e77df55c2dbf",
-   "atsUrl": "https://jobs.ashbyhq.com/tenex/7e64f1c2-46ad-483e-8565-a4e93a81fd0d/application?utm_source=jobright&jr_id=68c0951c8e65e77df55c2dbf",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: jobs.ashbyhq.com"
   },
   {
    "id": "6a9988e0138838706058e59d",
