@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-09T10:35:39.470Z",
+ "updatedAt": "2026-09-09T11:35:50.781Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -14774,8 +14774,8 @@
    "matchPercent": 75,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a56eb3353b3962b910b31a4",
    "atsUrl": null,
-   "status": "parked",
-   "note": "harvested 2026-09-05 cloud top-up; ATS url unresolved - Mac batch or cloud wave to resolve"
+   "status": "user_manual",
+   "note": "2026-09-09: Ashby spam filter flagged both submit attempts (same as Trunk Tools) — company-level block, 2 retries used, park for Mac/user."
   },
   {
    "id": "6a8d915247679c68bf5e3389",
@@ -16401,7 +16401,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a569d10efb06a45240d6fd3",
    "atsUrl": "https://jobs.ashbyhq.com/trm-labs/288d5c63-7585-41bf-b0a6-68e635e31e97/application?utm_source=jobright&jr_id=6a569d10efb06a45240d6fd3",
    "addedAt": "2026-09-06",
-   "status": "local replay"
+   "status": "user_manual",
+   "note": "POLICY 2026-09-09: form 100% filled via driver but final required checkbox is a NO-AI-INTERVIEW-TOOLS pledge (agreeing not to use AI interview tools during TRM interviews unless permitted) — no-AI pledges must be agreed by user personally. Everything else answered honestly (why-leaving: BofA contract ended Dec 2025; outcome essay grounded in resume GUTI/parallel-pipeline work; comp 150000; notice 1-2 weeks; on-call Yes; 2y-fully-remote No; 100%-remote-ok Yes; citizenship China; work location Jersey City; level Senior IC; heard via Job Board; HPE ack). User: open https://jobs.ashbyhq.com/trm-labs/288d5c63-7585-41bf-b0a6-68e635e31e97/application, refill (state lost), tick pledge personally, submit."
   },
   {
    "id": "6a7f9423b56bea5779c0cff5",
