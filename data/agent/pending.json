@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-09T09:52:04.804Z",
+ "updatedAt": "2026-09-09T10:06:51.990Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -5014,8 +5014,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9988e0138838706058e59d",
    "atsUrl": "https://jobs.ashbyhq.com/trunk%20tools/9cd37c15-49df-4e25-893c-a7a4a43dcc10/application?utm_source=jobright&jr_id=6a9988e0138838706058e59d",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: jobs.ashbyhq.com"
+   "status": "user_manual",
+   "note": "2026-09-09: Ashby spam filter flagged BOTH submit attempts via wd driver (Lambda/TENEX/SimpleAI passed same day) — company-level anti-bot sensitivity, verified silent block, 2 plain retries used. Do not retry from cloud; Mac/user."
   },
   {
    "id": "6a991fd088f60a5ece6592c0",
@@ -5052,18 +5052,6 @@
    "addedAt": "2026-09-03",
    "status": "parked",
    "note": "workday registration IP-wide silent block from cloud 2026-09-05 (5/5 tenants: att/salesforce/workday-own/acrisure/velera) — needs new account; local replay on Mac"
-  },
-  {
-   "id": "6a5faf08b0f20036bc632675",
-   "key": "confluent::distributed systems software engineer - warpstream",
-   "title": "Distributed Systems Software Engineer - WarpStream",
-   "company": "Confluent",
-   "matchPercent": 82,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a5faf08b0f20036bc632675",
-   "atsUrl": "https://jobs.ashbyhq.com/confluent/47920ccd-db54-4ed4-a865-70857e865fff/application?utm_source=jobright&jr_id=6a5faf08b0f20036bc632675",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: jobs.ashbyhq.com"
   },
   {
    "id": "6a989f8a83fc6333576329d3",
