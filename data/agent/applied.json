@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-09T10:35:39.470Z",
+ "updatedAt": "2026-09-09T10:49:27.151Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -6794,6 +6794,18 @@
    "at": "2026-09-09",
    "via": "ashby (cloud driver)",
    "detail": "Gmail-confirmed (OSS & Product Engineer). Github + location."
+  },
+  "6a5a559a686b4755d1e148c2": {
+   "id": "6a5a559a686b4755d1e148c2",
+   "company": "IMC Trading",
+   "title": "Software Engineer - Risk Technology",
+   "matchPercent": 93,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5a559a686b4755d1e148c2",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=imc&token=4908708101",
+   "status": "applied",
+   "at": "2026-09-09",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed: Step one done page. Confidentiality Acknowledgement = pure interview NDA (PDF audited: no non-compete/non-solicit/arbitration/waiver) -> I Agree. Honest: sponsorship-to-begin No (CPT/EAD), sponsorship-future Yes; BofA via Innova Jun2024-Dec2025; UPenn; gender choose-not-to-disclose; ethnicity no-answer; code W7ktgxGW."
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
