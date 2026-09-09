@@ -2988,6 +2988,156 @@
    "label": "All Protolabs facilities in the United States are ITAR-compliant operations",
    "prefer": "No",
    "type": ""
+  },
+  {
+   "label": "What is your experience with C# and/or Unity",
+   "prefer": "None",
+   "type": ""
+  },
+  {
+   "label": "What is your experience with C\\+\\+ and/or UE",
+   "prefer": "None",
+   "type": ""
+  },
+  {
+   "label": "How many years of hands-on backend development experience do you have",
+   "prefer": "5-7 years",
+   "type": ""
+  },
+  {
+   "label": "Location.*City",
+   "prefer": "New York",
+   "type": "New York"
+  },
+  {
+   "label": "Visa.*Sponsorship|Work.*Authorization",
+   "prefer": "F-1.*CPT",
+   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+  },
+  {
+   "label": "Legally.*Authorized.*Work",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Previous.*Employment.*Vercel|Relatives.*Vercel|Referral",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Non-Compete|Conflict.*Interest",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "AI.*Usage|AI.*Tools",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Clearance|Citizenship.*Requirement|US.*Person",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Candidate AI Usage Attestation",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "What lab software systems",
+   "prefer": "None",
+   "type": ""
+  },
+  {
+   "label": "Have you customized or extended a LIMS",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "What CI/CD tools have you used",
+   "prefer": "Jenkins, GitHub Actions, GitLab CI",
+   "type": ""
+  },
+  {
+   "label": "What's your proficiency level in Python",
+   "prefer": "Expert",
+   "type": ""
+  },
+  {
+   "label": "What level of expertise do you have with Angular",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "AI transcription",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "What state do you currently live in",
+   "prefer": "New Jersey",
+   "type": "None"
+  },
+  {
+   "label": "Postal Code",
+   "prefer": "07306",
+   "type": "None"
+  },
+  {
+   "label": "Who is your most recent/current employer",
+   "prefer": "Bank of America",
+   "type": "None"
+  },
+  {
+   "label": "Onsite/Hybrid",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Relocation",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Previously worked",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Background check",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "How did you hear",
+   "prefer": "Job board",
+   "type": "Job board"
+  },
+  {
+   "label": "unable to provide employment sponsorship",
+   "prefer": "unable to accept|decline|no",
+   "type": "text"
+  },
+  {
+   "label": "Work Authorization",
+   "prefer": "F-1.*CPT",
+   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+  },
+  {
+   "label": "I have built or worked on event-driven systems using cloud services",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "passionate about tacking the issues that matter most",
+   "prefer": "I share your passion for tackling the issues that matter most",
+   "type": ""
+  },
+  {
+   "label": "All Protolabs facilities in the United States are ITAR-compliant operations. Due to ITAR",
+   "prefer": "No",
+   "type": ""
   }
  ],
  "texts": [
@@ -3862,6 +4012,90 @@
   {
    "label": "All Protolabs facilities in the United States are ITAR-compliant operations",
    "text": "I am not a US citizen and am not eligible for ITAR compliance; therefore, I cannot work at ITAR-compliant facilities."
+  },
+  {
+   "label": "What tip, trick, or technique did you recently learn that helps you be",
+   "text": "I recently deepened my integration of AI tools into my daily engineering workflow to accelerate code generation, debugging, and system design reviews. This technique allows me to iterate faster and maintain high code quality while focusing my cognitive effort on complex architectural decisions and performance optimization."
+  },
+  {
+   "label": "You are reviewing someone's code, what do you look for",
+   "text": "I look for clarity, efficiency, and robustness, specifically focusing on error handling, resource management, and adherence to the project's architectural patterns. I also verify that the code is well-tested, follows security best practices, and includes clear documentation to ensure maintainability for the team."
+  },
+  {
+   "label": "What else should we know when screening your application",
+   "text": "I am a Senior Backend Software Engineer with 7 years of experience in high-scale fintech systems, proficient in Python, Go, and distributed systems. I am authorized to work in the US on an F-1 CPT visa through May 2027 and am available to start immediately. While my core stack is Python/Go, I am eager to apply my strong engineering fundamentals to new technologies."
+  },
+  {
+   "label": "What is your notice period to your current employer",
+   "text": "Immediately / within 2 weeks"
+  },
+  {
+   "label": "How many years of relevant working experience do you have to the role?",
+   "text": "I have 7 years of relevant backend engineering experience, including 5 years building market data systems at BlackRock and 2 years scaling real-time transaction platforms at Bank of America."
+  },
+  {
+   "label": "Briefly tell me about your Agentic AI experience",
+   "text": "I integrate AI tools deeply into my daily engineering workflow, leveraging them to accelerate development cycles, optimize distributed system performance, and enhance code quality. My experience includes building scalable fintech platforms where AI-assisted workflows were critical to handling millions of daily requests and reducing latency."
+  },
+  {
+   "label": "Location.*City",
+   "text": "New York"
+  },
+  {
+   "label": "How.*Did.*You.*Hear.*About.*Us",
+   "text": "Job board"
+  },
+  {
+   "label": "Candidate AI Usage Attestation",
+   "text": "I use AI tools deeply and daily as a core part of my engineering workflow to enhance productivity and code quality."
+  },
+  {
+   "label": "What lab software systems",
+   "text": "I have not worked with specific lab software systems like LIMS or ELN, as my background is in general backend distributed systems, fintech, and quantitative research."
+  },
+  {
+   "label": "Have you customized or extended a LIMS",
+   "text": "No, I have not customized or extended a LIMS or ELN before."
+  },
+  {
+   "label": "What CI/CD tools have you used",
+   "text": "I have extensive experience using Jenkins, GitHub Actions, and GitLab CI for building, testing, and deploying code to production."
+  },
+  {
+   "label": "Vim or Emacs? Why",
+   "text": "I prefer Vim for its efficiency and keyboard-driven workflow, which aligns with my focus on high-performance backend development and rapid iteration cycles."
+  },
+  {
+   "label": "I have independently debugged and resolved complex production issues",
+   "text": "Yes, I have independently debugged and resolved complex production issues, including scaling a real-time transaction-data platform at Bank of America through 10x traffic growth and cutting p99 latency by 60%."
+  },
+  {
+   "label": "I have designed, built, and maintained production-grade APIs",
+   "text": "Yes, I have designed, built, and maintained production-grade APIs, leveraging Python, Go, and TypeScript to deliver scalable solutions in fintech environments."
+  },
+  {
+   "label": "I have hands-on experience designing and scaling backend systems",
+   "text": "Yes, I have hands-on experience designing and scaling backend systems, demonstrated by my work at BlackRock and Bank of America managing millions of requests daily."
+  },
+  {
+   "label": "I have built or worked on event-driven systems using cloud services",
+   "text": "Yes, I have built and worked on event-driven systems using cloud services, utilizing AWS and distributed system architectures to ensure high availability and performance."
+  },
+  {
+   "label": "The state I reside in is",
+   "text": "New Jersey"
+  },
+  {
+   "label": "I understand that this position will require a final round interview",
+   "text": "Yes, I understand that this position will require a final round interview and am available to travel to the West Coast for in-person meetings."
+  },
+  {
+   "label": "What pronouns do you use",
+   "text": "She/Her"
+  },
+  {
+   "label": "Here at Stand Together, we are very passionate about tacking the issues that matter most",
+   "text": "I share your passion for tackling the issues that matter most. With over seven years of experience building scalable, high-availability systems at Bank of America and BlackRock, I have dedicated my career to solving complex problems that impact millions of users. I am eager to apply my expertise in distributed systems, Python, and Go to Stand Together's mission of empowering people to build a better future."
   }
  ],
  "checkboxes": [
