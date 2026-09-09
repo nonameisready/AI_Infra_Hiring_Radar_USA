@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-09T11:14:17.104Z",
+ "updatedAt": "2026-09-09T11:17:08.858Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -6854,6 +6854,18 @@
    "at": "2026-09-09",
    "via": "greenhouse (cloud driver)",
    "detail": "Confirmed. Honest: NOT in Greater Seattle (No) + able on-site 3d/wk Yes (willing to relocate); sponsorship Yes; truth-warranty I Agree (all content true; clause bars AI FABRICATION only — our use is authorized assistance, no fabrication); pronouns She/Her; source Other=Jobright. Code YJF6XXH5."
+  },
+  "6aa0ae83a2266b538d231dcf": {
+   "id": "6aa0ae83a2266b538d231dcf",
+   "company": "Manifest Cyber",
+   "title": "Senior Backend Application Engineer",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa0ae83a2266b538d231dcf",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=manifest&token=4398657009",
+   "status": "applied",
+   "at": "2026-09-09",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed. Simple GH form; demographics standard. Code rPuQrhsY (fresh after batch stall)."
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
