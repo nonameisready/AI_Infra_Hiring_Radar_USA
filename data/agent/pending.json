@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-09T10:18:18.691Z",
+ "updatedAt": "2026-09-09T10:35:39.470Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -5450,18 +5450,6 @@
    "note": "top-up confirmed"
   },
   {
-   "id": "6a9971298a8b765bc55f3032",
-   "key": "pipekit::oss & product engineer",
-   "title": "OSS & Product Engineer",
-   "company": "Pipekit",
-   "matchPercent": 81,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a9971298a8b765bc55f3032",
-   "atsUrl": "https://jobs.ashbyhq.com/pipekit/e52eee8a-2d57-4127-94cc-41952aa38dcb/application?utm_source=jobright&jr_id=6a9971298a8b765bc55f3032",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: jobs.ashbyhq.com"
-  },
-  {
    "id": "6a6177e6eaa37f43e7588c76",
    "key": "linktree::senior software engineer, growth (activation)",
    "title": "Senior Software Engineer, Growth (Activation)",
@@ -5594,18 +5582,6 @@
    "note": "platform: www.linkedin.com"
   },
   {
-   "id": "6a97132d246d697dcee0333a",
-   "key": "close::senior software engineer - backend platforms (usa only, 100% remote)",
-   "title": "Senior Software Engineer - Backend Platforms (USA Only, 100% Remote)",
-   "company": "Close",
-   "matchPercent": 81,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a97132d246d697dcee0333a",
-   "atsUrl": "https://jobs.ashbyhq.com/close/5bf4629b-d2ee-4129-980f-e31b96185c9c/application?utm_source=jobright&jr_id=6a97132d246d697dcee0333a",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: jobs.ashbyhq.com"
-  },
-  {
    "id": "6a8c94ec2f736c304f2a6aaa",
    "key": "draftkings inc.::senior software engineer, backend",
    "title": "Senior Software Engineer, Backend",
@@ -5638,8 +5614,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7b78d0b933773d16be7980",
    "atsUrl": "https://jobs.ashbyhq.com/openai/a23bd45a-e192-460d-bd34-a0f6c4bc6865/application?utm_source=jobright&jr_id=6a7b78d0b933773d16be7980",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: jobs.ashbyhq.com"
+   "status": "user_manual",
+   "note": "POLICY 2026-09-09: form fully fillable via driver EXCEPT required Applicant Arbitration Agreement acknowledgement (binding legal waiver: I have opened/read/understood + agree to be bound) — agent does not sign legal waivers; user must read + submit personally. Answers to use: phone 2812507589, located Jersey City NJ, start 09/23/2026, authorized Yes, sponsorship Yes, US-office-3-days Yes, EEO female-or-decline per preference."
   },
   {
    "id": "69a7149d2672cb0acb4b7e57",
@@ -5832,18 +5808,6 @@
    "addedAt": "2026-09-03",
    "status": "parked",
    "note": "platform: app.nodi.global"
-  },
-  {
-   "id": "6a524d9f8576ec69c014b526",
-   "key": "langchain::senior backend engineer, langsmith deployments",
-   "title": "Senior Backend Engineer, LangSmith Deployments",
-   "company": "LangChain",
-   "matchPercent": 80,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a524d9f8576ec69c014b526",
-   "atsUrl": "https://jobs.ashbyhq.com/langchain/cb61f821-d8c4-4ec5-940d-3fd83be63a5f/application?utm_source=jobright&jr_id=6a524d9f8576ec69c014b526",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: jobs.ashbyhq.com"
   },
   {
    "id": "6a587f3d68d16a30e24139dd",
