@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T18:04:37.592Z",
+ "updatedAt": "2026-09-09T09:33:12.717Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -7452,18 +7452,6 @@
    "addedAt": "2026-09-03",
    "status": "parked",
    "note": "platform: www.google.com"
-  },
-  {
-   "id": "6a7d0626dc3dff2d1c0ca6cc",
-   "key": "lambda::senior software engineer - storage control plane",
-   "title": "Senior Software Engineer - Storage Control Plane",
-   "company": "Lambda",
-   "matchPercent": 75,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a7d0626dc3dff2d1c0ca6cc",
-   "atsUrl": "https://jobs.ashbyhq.com/lambda/71485f80-dc31-431b-a843-ab98323eeb6d/application?utm_source=jobright&jr_id=6a7d0626dc3dff2d1c0ca6cc",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: jobs.ashbyhq.com"
   },
   {
    "id": "6a960b3c3843db0159909322",
@@ -18981,8 +18969,8 @@
    "matchPercent": 80,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9aeed4d5ff1f3f1c39bcee",
    "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210784166?jr_id=6a9aeed4d5ff1f3f1c39bcee",
-   "status": "parked",
-   "note": "Batch park: platform not automated from cloud: jpmc.fa.oraclecloud.com — 2026-09-08 cloud chunk"
+   "status": "user_manual",
+   "note": "9/9 driver attempt: email gate accepts address+consent but Continue pops a VISIBLE hCaptcha challenge (same as Lead SWE role). Agent stops at captchas per policy. Apply personally: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210784166 — after captcha, Gmail OTP completes sign-in. 88% Lead role also parked user_manual."
   },
   {
    "id": "6a0dcea5c152ac7824480075",

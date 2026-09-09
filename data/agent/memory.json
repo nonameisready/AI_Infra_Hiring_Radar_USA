@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T18:59:30.282Z",
+ "updatedAt": "2026-09-09T09:33:12.717Z",
  "answers": [
   {
    "match": "first\\s*name",
@@ -379,6 +379,11 @@
    "at": "2026-09-08",
    "topic": "gmail-trash-is-user-cleanup",
    "note": "User manually trashes processed Greenhouse security-code emails after submission — Trash contents are NOT a filter/POP problem, do not flag as anomaly. Always search Gmail with in:anywhere for codes AND confirmations (Ashby/Oracle confirmation emails may be in Trash too; they remain searchable ~30 days, applied.json stays the primary registry)."
+  },
+  {
+   "at": "2026-09-09",
+   "topic": "ashby-yesno-widget",
+   "note": "Ashby forms: Yes/No questions (work auth, sponsorship) render as button[data-option=yes/no] pairs with a hidden checkbox. Synthetic MouseEvent dispatch and checkbox .click() do NOT register in React state (validation says missing entry even with DOM checked=true). FIX: assign an id to button[data-option=yes] and use a trusted Playwright click. This was the real cause of 2026-09-08 batch Ashby unconfirmed submissions — datacenter IP is fine, Lambda confirmed via Gmail 09-09."
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-08T18:03:20.335Z",
+ "updatedAt": "2026-09-09T09:33:12.717Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -6685,6 +6685,19 @@
    "date": "2026-09-08",
    "method": "cloud-driver",
    "detail": "GH (Everpure, formerly Pure Storage). Confirmed: Thank you page. Honest: deemed-export No (their definition = sanctioned-nation citizens only: Syria/Cuba/Iran/NK — PRC not listed); employer Bank of America (via Innova Solutions) between roles; title Senior Software Engineer; UPenn Masters CS exact-anchored picks; authorized Yes, sponsorship Yes; privacy-policy ack checked; demographics standard. Code 7rDwWyFZ."
+  },
+  "6a7d0626dc3dff2d1c0ca6cc": {
+   "id": "6a7d0626dc3dff2d1c0ca6cc",
+   "key": "lambda::senior software engineer - storage control plane",
+   "title": "Senior Software Engineer - Storage Control Plane",
+   "company": "Lambda",
+   "matchPercent": 75,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a7d0626dc3dff2d1c0ca6cc",
+   "originalUrl": "https://jobs.ashbyhq.com/lambda/71485f80-dc31-431b-a843-ab98323eeb6d/application",
+   "status": "applied",
+   "at": "2026-09-09",
+   "via": "ashby (cloud driver)",
+   "detail": "CONFIRMED via Gmail (no-reply@ashbyhq.com Thank you for applying to Lambda). LESSON: Ashby yesno widgets (authorized/sponsorship) are button[data-option=yes] pairs needing trusted Playwright clicks — synthetic events fail validation silently. Honest: authorized Yes, sponsorship-needed Yes, offices SF+Bellevue (willing to relocate), recording consent Yes, gender/race decline, not protected veteran."
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
