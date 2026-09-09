@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-09T11:00:53.791Z",
+ "updatedAt": "2026-09-09T11:10:02.176Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -6830,6 +6830,18 @@
    "at": "2026-09-09",
    "via": "greenhouse (cloud driver)",
    "detail": "Confirmed. Honest: languages Python+Golang (JS/TS combined option skipped); 6-8 years debugging bracket; Graduate/Masters; UPenn CS 2021; demographics standard. Code 1XaR3aL8."
+  },
+  "6a14043c83d71442898333f7": {
+   "id": "6a14043c83d71442898333f7",
+   "company": "DistroKid",
+   "title": "API Engineer",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a14043c83d71442898333f7",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=distrokid&token=4107923009",
+   "status": "applied",
+   "at": "2026-09-09",
+   "via": "greenhouse (cloud driver)",
+   "detail": "Confirmed (added to our playlist page). Honest: sponsorship Yes; salary-range comfortable Yes ($150k negotiable); residence USA-Eastern; API architecture Advanced; AWS Advanced; backend 7-9 years; AI personal+professional. Code SbVw7zhg."
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
