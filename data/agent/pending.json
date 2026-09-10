@@ -10141,18 +10141,6 @@
       "note": "platform: boeing.wd1.myworkdayjobs.com"
     },
     {
-      "id": "69fa6528582f810f9c8d5a63",
-      "key": "assembled::software engineer - platform",
-      "title": "Software Engineer - Platform",
-      "company": "Assembled",
-      "matchPercent": 81,
-      "jobrightUrl": "https://jobright.ai/jobs/info/69fa6528582f810f9c8d5a63",
-      "atsUrl": "https://jobs.ashbyhq.com/assembledhq/a3900c2e-bf0f-4ba0-9844-5726e72b74d9/application?utm_source=jobright&jr_id=69fa6528582f810f9c8d5a63",
-      "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
-    },
-    {
       "id": "6a3be7944d047136e092ea38",
       "key": "software guidance & assistance, inc. (sga, inc.)::python developer",
       "title": "Python Developer",
@@ -19827,16 +19815,6 @@
       "note": "Batch park: platform not automated from cloud: referrals-footlocker.icims.com — 2026-09-09 cloud chunk"
     },
     {
-      "id": "6a55b6ef05c65f7c8f4c6689",
-      "company": "Gamma",
-      "title": "Software Engineer, Backend",
-      "matchPercent": 83,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a55b6ef05c65f7c8f4c6689",
-      "originalUrl": "https://jobs.ashbyhq.com/gamma/a546c0a8-4c8b-471c-909c-9c7b34d1f64d/application?jr_id=6a55b6ef05c65f7c8f4c6689",
-      "status": "parked",
-      "note": "Batch park: ashby blocked this IP earlier — 2026-09-09 cloud chunk"
-    },
-    {
       "id": "6aa02b6b500b01124c777229",
       "company": "Vanguard",
       "title": "Application Engineer - III",
@@ -19893,8 +19871,8 @@
       "matchPercent": 84,
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa06d37ea127c3794697097",
       "originalUrl": "https://jobs.ashbyhq.com/writer/4481d8e1-4d86-4173-9cd0-9203c81365db/application?jr_id=6aa06d37ea127c3794697097",
-      "status": "parked",
-      "note": "Batch park: ashby unconfirmed: Software engineer, connectors & MCP\nLocation\n\nSan Francisco, CA; New York City, NY; Seattle, WA\n\nEmp — 2026-09-09 cloud chunk"
+      "status": "user_manual",
+      "note": "2026-09-10: Ashby spam-flagged 2x on submit — park. Ready answers: in-office NYC 3d/wk Yes; 18+ Yes; authorized Yes; sponsorship Yes; located within 50mi: New York (Manhattan); Python 7+ years; EEO gender decline/race Asian/veteran not-protected; why-WRITER essay (MCP/connectors + vLLM/SgLang/RAG background) and cultural-values essay (BofA pipeline ownership story, no invented metrics) both drafted in agent notes; phone/LinkedIn/GitHub."
     },
     {
       "id": "6a8344813eeac101cfa9ea9b",

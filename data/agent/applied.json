@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T15:05:25.451Z",
+  "updatedAt": "2026-09-10T15:16:14.954Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -6986,6 +6986,30 @@
       "at": "2026-09-10",
       "via": "ashby (cloud driver)",
       "detail": "Gmail-confirmed (15:05Z). Berkeley hybrid via plain relocation Yes; authorized Yes; sponsorship Yes; honest source answer (Jobright, no connections); LinkedIn/GitHub."
+    },
+    "6a55b6ef05c65f7c8f4c6689": {
+      "id": "6a55b6ef05c65f7c8f4c6689",
+      "company": "Gamma",
+      "title": "Software Engineer, Backend",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a55b6ef05c65f7c8f4c6689",
+      "originalUrl": "https://jobs.ashbyhq.com/gamma/a546c0a8-4c8b-471c-909c-9c7b34d1f64d/application",
+      "status": "applied",
+      "at": "2026-09-10",
+      "via": "ashby (cloud driver)",
+      "detail": "Gmail-confirmed (15:12Z). Onsite SF 4-5d: open-to-relocation option (plain relocation); visa text: cap-exempt H-1B transfer + I-140 approved + F-1 CPT/EAD through 05/31/2027; honest why-Gamma essay; LinkedIn; location Jersey City."
+    },
+    "69fa6528582f810f9c8d5a63": {
+      "id": "69fa6528582f810f9c8d5a63",
+      "company": "Assembled",
+      "title": "Software Engineer - Platform",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/69fa6528582f810f9c8d5a63",
+      "originalUrl": "https://jobs.ashbyhq.com/assembledhq/a3900c2e-bf0f-4ba0-9844-5726e72b74d9/application",
+      "status": "applied",
+      "at": "2026-09-10",
+      "via": "ashby (cloud driver)",
+      "detail": "Gmail-confirmed (15:15Z). Sponsorship Yes; NYC onsite M-F Yes (commutable); 4 honest essays (fit, start ~2wks, no deadlines, AI-workflow story); phone/LinkedIn/GitHub."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
