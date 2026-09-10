@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-10T14:20:25.254Z",
+ "updatedAt": "2026-09-10T14:28:00.078Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -6890,6 +6890,18 @@
    "at": "2026-09-10",
    "via": "ashby (cloud driver)",
    "detail": "Gmail-confirmed (Gen Digital We Got It). Honest: full home address; office-3-days Yes; sponsorship Yes. First attempt spam-flagged (undelivered), retry clean."
+  },
+  "6a57c683e9b77f668bd6ab49": {
+   "id": "6a57c683e9b77f668bd6ab49",
+   "company": "Netspend",
+   "title": "Software Engineer Senior",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a57c683e9b77f668bd6ab49",
+   "originalUrl": "https://jobs.ashbyhq.com/netspend-careers-page/e7ee0591-dc01-4bf3-af48-6754d19d7727/application",
+   "status": "applied",
+   "at": "2026-09-10",
+   "via": "ashby (cloud driver)",
+   "detail": "Gmail-confirmed. Honest: duties essay grounded in resume (GUTI/pipelines/AMPS + BlackRock); total/relevant yrs 7; desired salary 150000; prev employed No; relocate-open Yes; source Other; auth Yes; sponsorship Yes."
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

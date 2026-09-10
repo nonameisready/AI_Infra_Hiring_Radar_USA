@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-10T14:20:25.254Z",
+ "updatedAt": "2026-09-10T14:28:00.078Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -12459,7 +12459,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a57840110c4d945d864e86f",
    "atsUrl": "https://jobs.ashbyhq.com/vClusterLabs/516c8859-83be-4535-8d2d-32a305a07e6d/application?utm_source=jobright&jr_id=6a57840110c4d945d864e86f",
    "addedAt": "2026-09-05",
-   "status": "local replay"
+   "status": "submitted_unconfirmed",
+   "note": "Submitted via wd driver 2026-09-10 (success page). Check from:ashbyhq.com before counting/re-applying."
   },
   {
    "id": "6a9b2b0ad5ff1f3f1c39ded3",
@@ -19023,16 +19024,6 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9f529bdacf777321a947ac",
    "status": "parked",
    "note": "Batch park: no_apply_button — 2026-09-08 cloud chunk"
-  },
-  {
-   "id": "6a57c683e9b77f668bd6ab49",
-   "company": "Netspend",
-   "title": "Software Engineer Senior",
-   "matchPercent": 83,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a57c683e9b77f668bd6ab49",
-   "originalUrl": "https://jobs.ashbyhq.com/netspend-careers-page/e7ee0591-dc01-4bf3-af48-6754d19d7727/application?jr_id=6a57c683e9b77f668bd6ab49",
-   "status": "parked",
-   "note": "Batch park: ashby anti-bot flagged the datacenter IP — 2026-09-08 cloud chunk"
   },
   {
    "id": "6a5a8d2f686b4755d1e15c9b",
