@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T16:13:58.440Z",
+  "updatedAt": "2026-09-10T16:22:10.566Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -7142,6 +7142,42 @@
       "at": "2026-09-10",
       "via": "greenhouse (cloud driver)",
       "detail": "Confirmation page reached; code PhmiqbhZ; Gmail thank-you pending at booking. UPenn MS CS; YOE 7; onsite willing Yes; US work auth Yes; source Jobright; LinkedIn/GitHub; location Jersey City."
+    },
+    "6a743549b17cba5690355443": {
+      "id": "6a743549b17cba5690355443",
+      "company": "Moloco",
+      "title": "Senior Software Engineer - Experiment Platform",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a743549b17cba5690355443",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=moloco",
+      "status": "applied",
+      "at": "2026-09-10",
+      "via": "greenhouse (cloud driver)",
+      "detail": "Gmail-confirmed (16:17Z from moloco.com); code bhqZeKR7. UPenn MS; sponsorship Yes; authorized-in-job-location Yes; LinkedIn; Jersey City."
+    },
+    "6a7b2d54b933773d16be5a39": {
+      "id": "6a7b2d54b933773d16be5a39",
+      "company": "BeyondTrust",
+      "title": "Software Development Engineer",
+      "matchPercent": 80,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7b2d54b933773d16be5a39",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=beyondtrust",
+      "status": "applied",
+      "at": "2026-09-10",
+      "via": "greenhouse (cloud driver)",
+      "detail": "Gmail-confirmed (16:20Z); code yDMCQrUT. Right-to-work basis: will require sponsorship/immigration support (honest per policy); source Other; privacy acknowledge; demographics left blank (no GDPR demographic consent)."
+    },
+    "6a51be2557513b72e0c67166": {
+      "id": "6a51be2557513b72e0c67166",
+      "company": "Tubi",
+      "title": "Senior Software Engineer, Backend",
+      "matchPercent": 78,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a51be2557513b72e0c67166",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=tubitv",
+      "status": "applied",
+      "at": "2026-09-10",
+      "via": "greenhouse (cloud driver)",
+      "detail": "Confirmation page reached; code gmKyKAxe; Gmail thank-you pending at booking. Sponsorship Yes; Tubi/affiliate prev-employment No; source Other; LinkedIn/GitHub; Jersey City."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
