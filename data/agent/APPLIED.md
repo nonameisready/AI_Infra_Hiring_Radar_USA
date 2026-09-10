@@ -559,3 +559,22 @@ Brain-queue: 47 open, POLICY entries annotated; SpaceX/Oklo/Canonical handled pe
 - Office Depot — Senior Software Development Engineer (76%) — oracle-cx, confirmed
 - Ripple — Senior Software Engineer, RippleX (Platform) (76%) — greenhouse, confirmed
 - Pure Storage — Senior Software Engineer, Datapath (76%) — greenhouse, confirmed
+
+## 2026-09-09 (cloud FALLBACK window; Ashby breakthrough day — yesno-widget + persistent-session fixes; 16 confirmed; all-time 541)
+
+- Lambda — Senior Software Engineer - Storage Control Plane (75%) — ashby, confirmed
+- Simple AI — Software Engineer (84%) — ashby, confirmed
+- TENEX.AI — Staff Software Engineer (83%) — ashby, confirmed
+- Confluent — Distributed Systems Software Engineer - WarpStream (82%) — ashby, confirmed
+- PayZen — Senior Software Engineer (82%) — ashby, confirmed
+- Charta Health — Software Engineer, Senior (82%) — ashby, confirmed
+- Close — Senior Software Engineer - Backend Platforms (USA Only, 100% Remote) (81%) — ashby, confirmed
+- LangChain — Senior Backend Engineer, LangSmith Deployments (80%) — ashby, confirmed
+- Pipekit — OSS & Product Engineer (81%) — ashby, confirmed
+- IMC Trading — Software Engineer - Risk Technology (93%) — greenhouse, confirmed
+- Gemini — Senior Software Engineer, Money (91%) — greenhouse, confirmed
+- SingleStore — Sr./Principal Software Engineer (86%) — greenhouse, confirmed
+- DistroKid — API Engineer (87%) — greenhouse, confirmed
+- Yoodli AI Roleplays — Senior Software Engineer- Backend (Roleplays) (86%) — greenhouse, confirmed
+- Manifest Cyber — Senior Backend Application Engineer (87%) — greenhouse, confirmed
+- Machinify — Senior Software Engineer, Backend | Audit Product Team (80%) — greenhouse, confirmed
