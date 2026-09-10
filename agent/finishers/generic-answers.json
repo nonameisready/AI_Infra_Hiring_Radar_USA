@@ -3138,6 +3138,248 @@
    "label": "All Protolabs facilities in the United States are ITAR-compliant operations. Due to ITAR",
    "prefer": "No",
    "type": ""
+  },
+  {
+   "label": "Do you live OUTSIDE of the United States\\?",
+   "prefer": "No"
+  },
+  {
+   "label": "Have you previously been an employee of Businessolver\\?",
+   "prefer": "No"
+  },
+  {
+   "label": "Do you have previous experience supporting healthcare related bene\\?",
+   "prefer": "No"
+  },
+  {
+   "label": "Do you currently work for a client of Businessolver\\?",
+   "prefer": "No"
+  },
+  {
+   "label": "open to working.*4 days onsite",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Visa Sponsorship|Requires visa|Immigration support",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Legally authorized to work|Authorized to work",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Onsite|Hybrid|Relocation|Commute|Work from home|In-person|5 days a week",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Previously worked for|Employed by|Worked at|Referral|Relative",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Non-compete|Restrictive agreement|Conflict of interest",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "18 years old|Over 18",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Background check|Consent to background check",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Smoker|Tobacco use",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Securities license|Series 7|Series 63|Series 66",
+   "prefer": "None",
+   "type": "None"
+  },
+  {
+   "label": "How did you hear|Hear about|Source",
+   "prefer": "Job board",
+   "type": "Job board"
+  },
+  {
+   "label": "US citizen|US person|Citizenship|Permanent resident|Green card",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Government employee|Government work|Defense contractor|Clearance|Security clearance",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "AI usage|AI tools|AI in workflow|AI-assisted",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "legally authorized to work",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "commute",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "securities licenses",
+   "prefer": "None",
+   "type": "None"
+  },
+  {
+   "label": "previously worked",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "relatives",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "how did you hear",
+   "prefer": "Job board",
+   "type": "Job board"
+  },
+  {
+   "label": "Are you a U\\.S\\. citizen or U\\.S\\. person as defined by ITAR regulations\\?",
+   "prefer": "No"
+  },
+  {
+   "label": "Are you a permanent resident of a foreign country\\?",
+   "prefer": "No"
+  },
+  {
+   "label": "Have you ever been employed by a foreign government\\?",
+   "prefer": "No"
+  },
+  {
+   "label": "Work Authorization.*Visa",
+   "prefer": "F-1.*CPT",
+   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+  },
+  {
+   "label": "Visa Sponsorship",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Legally Authorized.*Work",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Previously.*Employed.*Vercel",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Non-Compete",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Background Check",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "18.*Years",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "EEO.*Hispanic",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "How.*Hear.*About",
+   "prefer": "Job Board",
+   "type": "Job Board"
+  },
+  {
+   "label": "AI.*Usage",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Clearance.*Citizenship",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "work authorization document",
+   "prefer": "F-1 \\(CPT\\)",
+   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+  },
+  {
+   "label": "security clearance",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "onsite",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Python",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Go",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "TypeScript",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "SQL",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "PySpark",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "distributed systems",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "AWS",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "backend engineering",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "previous employer",
+   "prefer": "No",
+   "type": ""
   }
  ],
  "texts": [
@@ -4096,6 +4338,46 @@
   {
    "label": "Here at Stand Together, we are very passionate about tacking the issues that matter most",
    "text": "I share your passion for tackling the issues that matter most. With over seven years of experience building scalable, high-availability systems at Bank of America and BlackRock, I have dedicated my career to solving complex problems that impact millions of users. I am eager to apply my expertise in distributed systems, Python, and Go to Stand Together's mission of empowering people to build a better future."
+  },
+  {
+   "label": "Briefly tell me about your Agentic AI experience\\:",
+   "text": "I integrate Agentic AI deeply into my daily engineering workflow to accelerate development, debug distributed systems, and optimize code generation. At Bank of America, I leveraged AI tools to scale real-time transaction platforms handling millions of requests daily, using AI to assist in designing horizontal partitioning strategies and caching layers that reduced p99 latency by 60%. My approach combines five years of quantitative data systems experience at BlackRock with modern AI-driven engineering practices to ship production code reliably and efficiently."
+  },
+  {
+   "label": "Please provide us with the NAME of YOUR CURRENT HOME STATE\\.",
+   "text": "New Jersey"
+  },
+  {
+   "label": "If you indicated \"yes\" to the question above, please share each fa",
+   "text": "N/A"
+  },
+  {
+   "label": "Please also share your current, or most recent, job title\\.",
+   "text": "Senior Software Engineer"
+  },
+  {
+   "label": "Salary expectation|Compensation|Base salary",
+   "text": "$150,000+"
+  },
+  {
+   "label": "How.*Hear.*About",
+   "text": "Job Board"
+  },
+  {
+   "label": "start availability text",
+   "text": "Immediately / within 2 weeks"
+  },
+  {
+   "label": "how heard text",
+   "text": "Job board"
+  },
+  {
+   "label": "EEO text",
+   "text": "I do not wish to answer"
+  },
+  {
+   "label": "Visa Status|visa status text",
+   "text": "F-1 (CPT/EAD), valid through 05/31/2027. Previously approved & activated H-1B (cap-counted — new employer files cap-exempt petition, no lottery). Employment-based I-140 approved."
   }
  ],
  "checkboxes": [
