@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-10T13:46:02.988Z",
+ "updatedAt": "2026-09-10T14:20:25.254Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -7910,18 +7910,6 @@
    "note": "platform: zillow.wd5.myworkdayjobs.com"
   },
   {
-   "id": "69f2852dab4ec4779fff9903",
-   "key": "gen::senior backend engineer - moneylion",
-   "title": "Senior Backend Engineer - MoneyLion",
-   "company": "Gen",
-   "matchPercent": 73,
-   "jobrightUrl": "https://jobright.ai/jobs/info/69f2852dab4ec4779fff9903",
-   "atsUrl": "https://jobs.ashbyhq.com/gen-digital/627b1f81-1c02-4754-bfdb-11e456932b2c/application?utm_source=jobright&jr_id=69f2852dab4ec4779fff9903",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: jobs.ashbyhq.com"
-  },
-  {
    "id": "6a988c4211f73b6462c8f445",
    "key": "workday::software development engineer(distributed systems)",
    "title": "Software Development Engineer(Distributed Systems)",
@@ -8074,8 +8062,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5a3d7a856af468ab0076cc",
    "atsUrl": "https://jobs.ashbyhq.com/rivianvw.tech/b4f7d522-64c9-4de8-8baf-35839fbd8969/application?utm_source=jobright&jr_id=6a5a3d7a856af468ab0076cc",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: jobs.ashbyhq.com"
+   "status": "submitted_unconfirmed",
+   "note": "Submitted via wd driver 2026-09-10 (success page after spam-flag retry; consents: consider-for-other-roles Yes, certify-true Yes, processing-notice ack). Check from:ashbyhq.com before counting/re-applying. Honest: Canada-auth No, sponsorship Yes, sanctioned-nations No, rehire No."
   },
   {
    "id": "6a973607e4e60e4b8da5cb85",
@@ -10425,8 +10413,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a46c4593dbab558e29a8819",
    "atsUrl": "https://jobs.lever.co/hhaexchange/d6539c2c-8626-4363-9a5e-18ff76ac34f6/apply?utm_source=jobright&jr_id=6a46c4593dbab558e29a8819",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"If you were referred, please provide the HHAeXchange or Sandata employee's name. If not re\"] — run on Mac with Qwen."
+   "status": "user_manual",
+   "note": "2026-09-10: driver filled full Lever form (auth Yes, sponsorship Yes, source Other, prev-employed No, referral N/A, EEO female/asian) but 2 plain submits produced no thanks-page — invisible hCaptcha silent block (widgets present, vis=false). Policy stop. Apply personally: https://jobs.lever.co/hhaexchange/e56acb41-8b08-4541-9fa8-025faed5b7a5/apply (89%)."
   },
   {
    "id": "6a99f7288a8b765bc55f699f",
