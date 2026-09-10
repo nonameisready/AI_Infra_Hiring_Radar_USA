@@ -7931,8 +7931,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/68af87dd962903596357d6b2",
       "atsUrl": "https://jobs.ashbyhq.com/radar/8dafc535-b21d-4f69-8d68-f9169afab096/application?utm_source=jobright&jr_id=68af87dd962903596357d6b2",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "user_manual",
+      "note": "2026-09-10: Ashby spam-flagged 2x — park. Ready answers: NYC-commuting-distance radio; HQ 4x/wk Yes; authorized-for-ANY-employer No (honest — CPT is restricted); sponsorship Yes; source Jobright; phone/LinkedIn; location Jersey City."
     },
     {
       "id": "6a994e37f6de551aa0aaf3b3",
@@ -16277,17 +16277,6 @@
       "note": "platform not automated from cloud: ntrs.wd1.myworkdayjobs.com"
     },
     {
-      "id": "6a9b64219c24314c35f991b8",
-      "key": "temporal technologies::senior software engineer, cloud platform foundations",
-      "title": "Senior Software Engineer, Cloud Platform Foundations",
-      "company": "Temporal Technologies",
-      "matchPercent": 84,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a9b64219c24314c35f991b8",
-      "atsUrl": "https://jobs.ashbyhq.com/temporal/ddbc1916-39a0-47ff-b868-c9e8b90569f1/application?utm_source=jobright&jr_id=6a9b64219c24314c35f991b8",
-      "addedAt": "2026-09-06",
-      "status": "local replay"
-    },
-    {
       "id": "6a9302769864261ccd2a1b06",
       "key": "edward jones::engineer iii - api office",
       "title": "Engineer III - API Office",
@@ -19370,16 +19359,6 @@
       "originalUrl": "https://www.linkedin.com/jobs/view/4414782356?jr_id=6a5c351b856af468ab00e6e4",
       "status": "parked",
       "note": "Batch park: platform not automated from cloud: www.linkedin.com — 2026-09-09 cloud chunk"
-    },
-    {
-      "id": "6aa0cc95ea127c3794699084",
-      "company": "Traba",
-      "title": "Senior Software Engineer (Applied AI)",
-      "matchPercent": 80,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6aa0cc95ea127c3794699084",
-      "originalUrl": "https://jobs.ashbyhq.com/traba/b1af12a1-9a17-447b-952a-88a4c54bb9fa/application?jr_id=6aa0cc95ea127c3794699084",
-      "status": "parked",
-      "note": "Batch park: ashby blocked this IP earlier — 2026-09-09 cloud chunk"
     },
     {
       "id": "6a52dfa39fbdab22fe13d5e7",
