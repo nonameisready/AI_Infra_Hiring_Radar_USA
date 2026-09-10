@@ -6971,8 +6971,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a509d0242c6dc326e8e9c55",
       "atsUrl": "https://jobs.ashbyhq.com/plaud/3a36edb2-0070-4d6e-b91a-b9e5dda187b4/application?utm_source=jobright&jr_id=6a509d0242c6dc326e8e9c55",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "user_manual",
+      "note": "2026-09-10: Ashby spam-flagged 2x — park. Ready: open-to-hybrid-3d Yes (openness); privacy notice confirm Yes; phone. Palo Alto role."
     },
     {
       "id": "6a998515040e5c3d07596b00",
@@ -8399,8 +8399,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a1c24c3547e292ae13a015d",
       "atsUrl": "https://jobs.ashbyhq.com/replit/7b4bc2fe-5860-4f56-8746-aabb852cf0e1/application?utm_source=jobright&jr_id=6a1c24c3547e292ae13a015d",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "user_manual",
+      "note": "2026-09-10: Ashby spam-flagged 2x (evening session burned after ~10 submissions — 3rd consecutive 2x-flag, lane stopped). Ready: 18+ Yes; authorized Yes; sponsorship Yes; Foster City 3d/wk No; relocate-near-Foster-City Yes (plain); YOE 6-8; salary 150k+; why-Replit essay in agent notes; EEO decline/Asian/not-protected; location Jersey City."
     },
     {
       "id": "6a738ffc6a034212ea028533",
@@ -10258,8 +10258,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a99e44a040e5c3d07599999",
       "atsUrl": "https://jobs.ashbyhq.com/anyscale/81809616-ef2f-44f8-bcee-d1e17749f45d/application?utm_source=jobright&jr_id=6a99e44a040e5c3d07599999",
       "addedAt": "2026-09-04",
-      "status": "submitted_unconfirmed",
-      "note": "2026-09-10: Ashby driver submit success:true (Ray Core role). Check from:ashbyhq.com before counting/re-applying. Answers: current company between-roles/BofA-thru-12/2025; hybrid Mon/Tue/Thu Yes; relocate-if-outside-SF Yes; sponsorship Yes; location Jersey City NJ; phone/LinkedIn/GitHub."
+      "status": "already_applied_externally",
+      "note": "2026-09-10: DISCOVERY — Gmail shows a Thank You for Applying to Anyscale (Ray Core) from 2026-01-16, i.e. user applied to this same job pre-agent. Today driver re-submitted (no new confirmation sent). Do not count; do not re-apply."
     },
     {
       "id": "6a9a0255ad752e2ad5503557",

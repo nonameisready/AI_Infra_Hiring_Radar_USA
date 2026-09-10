@@ -579,7 +579,7 @@ Brain-queue: 47 open, POLICY entries annotated; SpaceX/Oklo/Canonical handled pe
 - Manifest Cyber — Senior Backend Application Engineer (87%) — greenhouse, confirmed
 - Machinify — Senior Software Engineer, Backend | Audit Product Team (80%) — greenhouse, confirmed
 
-## 2026-09-10 (cloud FALLBACK window — Mac absent; GH-driver breakthrough (no-code streak) + Ashby wave; 29 confirmed so far; all-time 570)
+## 2026-09-10 (cloud FALLBACK window — Mac absent 5th day; GH-driver no-code streak + two Ashby waves; 35 confirmed, second-best day; all-time 576)
 - Gen — Senior Backend Engineer - MoneyLion (73%) — ashby, confirmed
 - Netspend — Software Engineer Senior (83%) — ashby, confirmed
 - Distyl — Software Engineer - Back End (82%) — ashby, confirmed
@@ -609,3 +609,9 @@ Brain-queue: 47 open, POLICY entries annotated; SpaceX/Oklo/Canonical handled pe
 - Traba — Senior Software Engineer (Applied AI) (80%) — ashby, confirmed
 - Zettabyte — Senior/Staff Backend Engineer - Distributed System (80%) — ashby, confirmed
 - Genius AI — Software Engineer - All Levels (78%) — ashby, confirmed
+- Bubble — Senior Software Engineer, Backend (78%) — ashby, confirmed
+- Sift — Staff Backend Engineer (78%) — ashby, confirmed
+- Leland — Software Engineer (78%) — ashby, confirmed
+- Wrapbook — Senior Software Engineer I, Platform Enablement (78%) — ashby, confirmed
+- Pano AI — Senior Software Engineer - Full Stack (78%) — ashby, confirmed
+- Poshmark — Senior Software Engineer II, Backend (77%) — ashby, confirmed
