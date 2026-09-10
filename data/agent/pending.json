@@ -6010,8 +6010,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/69e93aae3aa0c479643a8812",
       "atsUrl": "https://jobs.ashbyhq.com/probablygenetic/8f428ab0-80e7-4b3d-bc91-b347e407204d/application?utm_source=jobright&jr_id=69e93aae3aa0c479643a8812",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "user_manual",
+      "note": "2026-09-10: POLICY stop — form requires \"willing and able to relocate (without relocation assistance)?\" (own-expense relocation pledge, unauthorized) AND SF in-office Tue-Thu ack (remote not available; user is in Jersey City). All other answers ready: authorized Yes; sponsorship Yes (H-1B transfer wording fits cap-exempt case); age/gender/transgender prefer-not; EEO gender Female, race Asian, veteran not-protected; Why-PG essay drafted. If user authorizes the no-assistance relocation pledge + SF hybrid, agent can finish in one pass."
     },
     {
       "id": "6a9955e68a8b765bc55f27e4",
@@ -6382,8 +6382,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a0e6df047fea1610bcaa2e5",
       "atsUrl": "https://jobs.ashbyhq.com/candidhealth/51dcc6d0-af86-4fe8-bd68-a18b924e47f6/application?utm_source=jobright&jr_id=6a0e6df047fea1610bcaa2e5",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "user_manual",
+      "note": "2026-09-10: Ashby spam-flagged 2x on submit (Trunk Tools/BJAK precedent) — do not retry from agent. All fields were filled: LinkedIn, authorized Yes, visa transfer/sponsorship Yes, pronouns She/Her. User can submit by hand in minutes."
     },
     {
       "id": "6a12ea35619335383fb3b8d1",
@@ -18937,16 +18937,6 @@
       "originalUrl": "https://www.linkedin.com/jobs/view/4459544342?jr_id=6a96fb46e4e60e4b8da5b15d",
       "status": "parked",
       "note": "Batch park: platform not automated from cloud: www.linkedin.com — 2026-09-08 cloud chunk"
-    },
-    {
-      "id": "6a91af2b8e59685453376f10",
-      "company": "Homebot",
-      "title": "Senior Backend Engineer",
-      "matchPercent": 82,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a91af2b8e59685453376f10",
-      "originalUrl": "https://jobs.ashbyhq.com/homebot/d4440bc0-a571-4496-b880-94767c4f5b61/application?jr_id=6a91af2b8e59685453376f10",
-      "status": "parked",
-      "note": "Batch park: ashby blocked this IP earlier — 2026-09-08 cloud chunk"
     },
     {
       "id": "6a7e0a55e51a1e18a240ba39",
