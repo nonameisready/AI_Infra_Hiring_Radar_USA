@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T15:16:14.954Z",
+  "updatedAt": "2026-09-10T15:34:32.383Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -7010,6 +7010,42 @@
       "at": "2026-09-10",
       "via": "ashby (cloud driver)",
       "detail": "Gmail-confirmed (15:15Z). Sponsorship Yes; NYC onsite M-F Yes (commutable); 4 honest essays (fit, start ~2wks, no deadlines, AI-workflow story); phone/LinkedIn/GitHub."
+    },
+    "6a85f9964afae74a08342885": {
+      "id": "6a85f9964afae74a08342885",
+      "company": "EverQuote",
+      "title": "Senior Back End Software Engineer",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a85f9964afae74a08342885",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=everquote&token=7820928003",
+      "status": "applied",
+      "at": "2026-09-10",
+      "via": "ashby (cloud driver)",
+      "detail": "Gmail-confirmed (15:31Z). GH driver redo, no code requested. Hybrid Cambridge Tue-Thu No (honest); non-compete No; sponsorship Yes; salary 150k+ negotiable; EEO declines; veteran No; Jersey City."
+    },
+    "6aa01c4d500b01124c776dbf": {
+      "id": "6aa01c4d500b01124c776dbf",
+      "company": "Apptegy",
+      "title": "Sr. Software Engineer",
+      "matchPercent": 80,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa01c4d500b01124c776dbf",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=apptegy&token=4378338009",
+      "status": "applied",
+      "at": "2026-09-10",
+      "via": "ashby (cloud driver)",
+      "detail": "Gmail-confirmed (15:32Z). GH driver, simple form: names/email/phone/resume/country/LinkedIn/GitHub. No code requested."
+    },
+    "6a9fe331dbc0e60e37e0a8b1": {
+      "id": "6a9fe331dbc0e60e37e0a8b1",
+      "company": "Stash",
+      "title": "Backend Engineer III",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9fe331dbc0e60e37e0a8b1",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stashinvest&token=8080033",
+      "status": "applied",
+      "at": "2026-09-10",
+      "via": "ashby (cloud driver)",
+      "detail": "Gmail-confirmed (15:34Z). GH driver: gender decline; hispanic No; veteran not-protected; disability do-not-answer; LinkedIn/GitHub. No code requested."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

@@ -1,92 +1,92 @@
 {
- "version": 1,
- "updatedAt": "2026-08-28T14:00:00Z",
- "open": [],
- "answered": [
-  {
-   "id": "q-login-method",
-   "question": "Jobright 登录方式：设置密码并存入 Claude 环境变量 JOBRIGHT_PASSWORD。",
-   "field": "loginMethod",
-   "askedAt": "2026-08-23",
-   "answer": "已设置。2026-08-26 验证通过：JOBRIGHT_PASSWORD 在环境中，密码登录成功且无需验证码，推荐列表抓取正常。",
-   "answeredAt": "2026-08-26"
-  },
-  {
-   "id": "q-work-auth",
-   "question": "工作授权状态，以及是否需要公司 sponsor 签证（现在或将来）？",
-   "field": "workAuth,needsSponsor,usAuthorized",
-   "askedAt": "2026-08-23",
-   "answer": "H-1B 曾由 BlackRock 递交并批准生效（cap-counted）；现不在该雇主在职 → 新雇主可免抽签递交 cap-exempt H-1B。当前实际身份 = F-1 CPT/EAD（至 05/31/2027，用户确认有效）。身份下拉选 F-1；有文本框强调 cap-exempt transfer 免抽签。需要 sponsor：Yes。有合法工作授权：Yes。若用户律师确认当前仍持 H-1B 身份再改为 H-1B（见 2026-09-08 对话）。",
-   "answeredAt": "2026-09-08"
-  },
-  {
-   "id": "q-location",
-   "question": "目前所在城市/州，以及能否 relocate？",
-   "field": "location",
-   "askedAt": "2026-08-23",
-   "answer": "New York, NY（NYC）。可以 relocate。",
-   "answeredAt": "2026-08-26"
-  },
-  {
-   "id": "q-linkedin",
-   "question": "LinkedIn 个人主页 URL？",
-   "field": "linkedin",
-   "askedAt": "2026-08-23",
-   "answer": "https://www.linkedin.com/in/belindamao（用户 2026-08-26 补充提供）",
-   "answeredAt": "2026-08-26"
-  },
-  {
-   "id": "q-salary",
-   "question": "期望薪资范围？",
-   "field": "salaryExpectation",
-   "askedAt": "2026-08-23",
-   "answer": "$150,000 以上（base）。",
-   "answeredAt": "2026-08-26"
-  },
-  {
-   "id": "q-employment-restrictions",
-   "question": "你是否受任何雇佣协议或离职后限制约束（例如竞业限制 non-compete、post-employment restrictions）？GitLab 等公司的申请表必答。另外：GitLab 还问开源贡献链接和主力语言——主力语言我打算答 'Python (also Go, TypeScript)'，开源链接用 https://github.com/nonameisready，可以吗？",
-   "field": "employmentRestrictions,primaryLanguage,openSourceLinks",
-   "askedAt": "2026-08-26",
-   "blocking": true,
-   "answer": "No — 不受任何雇佣协议/竞业限制约束。主力语言 Python (also Go, TypeScript)；开源链接 github.com/nonameisready。",
-   "answeredAt": "2026-08-26"
-  },
-  {
-   "id": "q-skill-ratings-and-ai-disclosure",
-   "question": "How to answer stack self-ratings, and AI-disclosure questions on applications?",
-   "field": "skillRatings,aiDisclosure",
-   "askedAt": "2026-08-27",
-   "answer": "TypeScript: strong/proficient. JavaScript, Node and other non-core stacks: moderate. 'Strong in all of JS/TS/Node?' → No (honest). AI-disclosure questions: always answer truthfully that AI assistance was used with the applicant's authorization and review — never deny AI use, never impersonate a human.",
-   "answeredAt": "2026-08-27"
-  },
-  {
-   "id": "q-graduation-dates",
-   "question": "Graduation month/year for each degree (required by ATS registration forms): (1) University of Pennsylvania, M.S. Computer Science; (2) Rice University, M.S. Applied Mathematics & Statistics; (3) Shanghai University of Finance and Economics, B.A. Economics. Approximate month is fine if exact is unknown (e.g. 2018-05).",
-   "field": "education[].graduation",
-   "askedAt": "2026-08-27",
-   "blocking": true,
-   "answer": "UPenn M.S. CS: May 2021; Rice M.S.: Dec 2017; SUFE B.A.: May 2012 (user, 2026-08-27)",
-   "answeredAt": "2026-08-27"
-  },
-  {
-   "id": "q-compliance-family",
-   "question": "Compliance/personal disclosures needed by Bloomberg and American Express applications (asked 2026-08-27): (1) any relatives/spouse/partner employed by or providing services to Bloomberg? (2) family or close personal relationship with anyone at American Express or its obvious competitors (banks/payment companies)? (3) you or family: partner/principal/shareholder/employee of PricewaterhouseCoopers or affiliates in past 3 years, or any PwC relationship? (4) you or immediate family a Prominent Government Official in last 5 years? (5) ever worked for, been offered a position at, or hired by American Express or subsidiaries (incl. Accertify)? (6) do you currently run any paid side work you'd continue (your resume's EarningsStory/Adscream projects — are they revenue-generating businesses)?",
-   "field": "compliance.family,compliance.pwc,compliance.gov,compliance.amexHistory,compliance.sideWork",
-   "askedAt": "2026-08-27",
-   "blocking": true,
-   "answer": "All No (Bloomberg relatives, Amex competitor relationships, PwC, government official, prior Amex history). Side work: Yes — EarningsStory/Adscream are active side projects.",
-   "answeredAt": "2026-08-27"
-  },
-  {
-   "id": "q-i140-status",
-   "question": "Amazon work-eligibility form (all 3 Amazon applications): 'Has an I-140 (Immigration Visa Petition) been filed and approved on your behalf?' — answer Yes only if an employment-based I-140 was APPROVED (not just filed). If your I-485 is family-based, or the I-140 is still pending, the answer is No. One word (Yes/No) unblocks all three Amazon submissions — the applications are saved as drafts.",
-   "field": "immigration.i140Approved",
-   "askedAt": "2026-08-28",
-   "blocking": true,
-   "answer": "Yes — an employment-based I-140 has been filed and approved (user, 2026-08-28).",
-   "answeredAt": "2026-08-28"
-  }
- ],
- "note": "The agent appends questions it cannot answer here, keeps the job in pending.json, and continues. When the user answers (in the Agent tab while running locally, or by telling Claude in any session), the answer moves to `answered`, profile.json/memory.json are updated, and the next run uses it automatically. `blocking: true` means applications that need this answer are held as needs_info instead of being submitted with a guess."
+  "version": 1,
+  "updatedAt": "2026-08-28T14:00:00Z",
+  "open": [],
+  "answered": [
+    {
+      "id": "q-login-method",
+      "question": "Jobright 登录方式：设置密码并存入 Claude 环境变量 JOBRIGHT_PASSWORD。",
+      "field": "loginMethod",
+      "askedAt": "2026-08-23",
+      "answer": "已设置。2026-08-26 验证通过：JOBRIGHT_PASSWORD 在环境中，密码登录成功且无需验证码，推荐列表抓取正常。",
+      "answeredAt": "2026-08-26"
+    },
+    {
+      "id": "q-work-auth",
+      "question": "工作授权状态，以及是否需要公司 sponsor 签证（现在或将来）？",
+      "field": "workAuth,needsSponsor,usAuthorized",
+      "askedAt": "2026-08-23",
+      "answer": "H-1B 曾由 BlackRock 递交并批准生效（cap-counted）；现不在该雇主在职 → 新雇主可免抽签递交 cap-exempt H-1B。当前实际身份 = F-1 CPT/EAD（至 05/31/2027，用户确认有效）。身份下拉选 F-1；有文本框强调 cap-exempt transfer 免抽签。需要 sponsor：Yes。有合法工作授权：Yes。若用户律师确认当前仍持 H-1B 身份再改为 H-1B（见 2026-09-08 对话）。",
+      "answeredAt": "2026-09-08"
+    },
+    {
+      "id": "q-location",
+      "question": "目前所在城市/州，以及能否 relocate？",
+      "field": "location",
+      "askedAt": "2026-08-23",
+      "answer": "New York, NY（NYC）。可以 relocate。",
+      "answeredAt": "2026-08-26"
+    },
+    {
+      "id": "q-linkedin",
+      "question": "LinkedIn 个人主页 URL？",
+      "field": "linkedin",
+      "askedAt": "2026-08-23",
+      "answer": "https://www.linkedin.com/in/belindamao（用户 2026-08-26 补充提供）",
+      "answeredAt": "2026-08-26"
+    },
+    {
+      "id": "q-salary",
+      "question": "期望薪资范围？",
+      "field": "salaryExpectation",
+      "askedAt": "2026-08-23",
+      "answer": "$150,000 以上（base）。",
+      "answeredAt": "2026-08-26"
+    },
+    {
+      "id": "q-employment-restrictions",
+      "question": "你是否受任何雇佣协议或离职后限制约束（例如竞业限制 non-compete、post-employment restrictions）？GitLab 等公司的申请表必答。另外：GitLab 还问开源贡献链接和主力语言——主力语言我打算答 'Python (also Go, TypeScript)'，开源链接用 https://github.com/nonameisready，可以吗？",
+      "field": "employmentRestrictions,primaryLanguage,openSourceLinks",
+      "askedAt": "2026-08-26",
+      "blocking": true,
+      "answer": "No — 不受任何雇佣协议/竞业限制约束。主力语言 Python (also Go, TypeScript)；开源链接 github.com/nonameisready。",
+      "answeredAt": "2026-08-26"
+    },
+    {
+      "id": "q-skill-ratings-and-ai-disclosure",
+      "question": "How to answer stack self-ratings, and AI-disclosure questions on applications?",
+      "field": "skillRatings,aiDisclosure",
+      "askedAt": "2026-08-27",
+      "answer": "TypeScript: strong/proficient. JavaScript, Node and other non-core stacks: moderate. 'Strong in all of JS/TS/Node?' → No (honest). AI-disclosure questions: always answer truthfully that AI assistance was used with the applicant's authorization and review — never deny AI use, never impersonate a human.",
+      "answeredAt": "2026-08-27"
+    },
+    {
+      "id": "q-graduation-dates",
+      "question": "Graduation month/year for each degree (required by ATS registration forms): (1) University of Pennsylvania, M.S. Computer Science; (2) Rice University, M.S. Applied Mathematics & Statistics; (3) Shanghai University of Finance and Economics, B.A. Economics. Approximate month is fine if exact is unknown (e.g. 2018-05).",
+      "field": "education[].graduation",
+      "askedAt": "2026-08-27",
+      "blocking": true,
+      "answer": "UPenn M.S. CS: May 2021; Rice M.S.: Dec 2017; SUFE B.A.: May 2012 (user, 2026-08-27)",
+      "answeredAt": "2026-08-27"
+    },
+    {
+      "id": "q-compliance-family",
+      "question": "Compliance/personal disclosures needed by Bloomberg and American Express applications (asked 2026-08-27): (1) any relatives/spouse/partner employed by or providing services to Bloomberg? (2) family or close personal relationship with anyone at American Express or its obvious competitors (banks/payment companies)? (3) you or family: partner/principal/shareholder/employee of PricewaterhouseCoopers or affiliates in past 3 years, or any PwC relationship? (4) you or immediate family a Prominent Government Official in last 5 years? (5) ever worked for, been offered a position at, or hired by American Express or subsidiaries (incl. Accertify)? (6) do you currently run any paid side work you'd continue (your resume's EarningsStory/Adscream projects — are they revenue-generating businesses)?",
+      "field": "compliance.family,compliance.pwc,compliance.gov,compliance.amexHistory,compliance.sideWork",
+      "askedAt": "2026-08-27",
+      "blocking": true,
+      "answer": "All No (Bloomberg relatives, Amex competitor relationships, PwC, government official, prior Amex history). Side work: Yes — EarningsStory/Adscream are active side projects.",
+      "answeredAt": "2026-08-27"
+    },
+    {
+      "id": "q-i140-status",
+      "question": "Amazon work-eligibility form (all 3 Amazon applications): 'Has an I-140 (Immigration Visa Petition) been filed and approved on your behalf?' — answer Yes only if an employment-based I-140 was APPROVED (not just filed). If your I-485 is family-based, or the I-140 is still pending, the answer is No. One word (Yes/No) unblocks all three Amazon submissions — the applications are saved as drafts.",
+      "field": "immigration.i140Approved",
+      "askedAt": "2026-08-28",
+      "blocking": true,
+      "answer": "Yes — an employment-based I-140 has been filed and approved (user, 2026-08-28).",
+      "answeredAt": "2026-08-28"
+    }
+  ],
+  "note": "The agent appends questions it cannot answer here, keeps the job in pending.json, and continues. When the user answers (in the Agent tab while running locally, or by telling Claude in any session), the answer moves to `answered`, profile.json/memory.json are updated, and the next run uses it automatically. `blocking: true` means applications that need this answer are held as needs_info instead of being submitted with a guess."
 }

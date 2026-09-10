@@ -4027,7 +4027,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a95bf1bf28891320e85d998",
       "atsUrl": "https://jobs.ashbyhq.com/crusoe/21ff8438-535e-4846-ac5b-fec56acffe48/application?utm_source=jobright&jr_id=6a95bf1bf28891320e85d998",
       "addedAt": "2026-09-03",
-      "status": "local replay"
+      "status": "user_manual",
+      "note": "2026-09-10: Ashby spam-flagged 2x on submit — park. Ready answers: sponsorship Yes; worked-for-Crusoe No; SMS consent Yes; EEO gender decline/race Asian/veteran not-protected; phone/LinkedIn/GitHub."
     },
     {
       "id": "6a365f9a1232144fb1565ac3",
@@ -9063,18 +9064,6 @@
       "note": "SmartRecruiters oneclick-ui renders BLANK page from cloud IP (SPA JS/API blocked) 2026-09-05 — Mac replay."
     },
     {
-      "id": "6a85f9964afae74a08342885",
-      "key": "everquote::senior back end software engineer",
-      "title": "Senior Back End Software Engineer",
-      "company": "EverQuote",
-      "matchPercent": 85,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a85f9964afae74a08342885",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=everquote&jr_id=6a85f9964afae74a08342885&token=7820928003&utm_source=jobright",
-      "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "unconfirmed submit: Please complete the reCAPTCHA and resubmit your application.\n\nCreate a Job Alert\n\nInterested in building your career at "
-    },
-    {
       "id": "6a63cdde87cef057612cab99",
       "key": "polymarket::senior backend engineer, payments",
       "title": "Senior Backend Engineer, Payments",
@@ -10185,8 +10174,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a9a0b87040e5c3d0759a7f8",
       "atsUrl": "https://jobs.ashbyhq.com/sofarocean/7cd6c2b3-2172-42f4-bdf6-2b8eb24b4387/application?utm_source=jobright&jr_id=6a9a0b87040e5c3d0759a7f8",
       "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "dropped",
+      "note": "2026-09-10: dropped — form states position supports U.S. DoD customers and requires U.S. citizenship (user is not a citizen; defense-block + honest ineligibility)."
     },
     {
       "id": "6a99aab1551435518ebf03bb",
@@ -10293,8 +10282,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a99e44a040e5c3d07599999",
       "atsUrl": "https://jobs.ashbyhq.com/anyscale/81809616-ef2f-44f8-bcee-d1e17749f45d/application?utm_source=jobright&jr_id=6a99e44a040e5c3d07599999",
       "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "submitted_unconfirmed",
+      "note": "2026-09-10: Ashby driver submit success:true (Ray Core role). Check from:ashbyhq.com before counting/re-applying. Answers: current company between-roles/BofA-thru-12/2025; hybrid Mon/Tue/Thu Yes; relocate-if-outside-SF Yes; sponsorship Yes; location Jersey City NJ; phone/LinkedIn/GitHub."
     },
     {
       "id": "6a9a0255ad752e2ad5503557",
@@ -10605,8 +10594,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a34dc64649fdf16292f767d",
       "atsUrl": "https://jobs.ashbyhq.com/hadrian-automation/ec8cc324-bca9-4f27-812b-70416d6340a4/application?utm_source=jobright&jr_id=6a34dc64649fdf16292f767d",
       "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "dropped",
+      "note": "2026-09-10: dropped — defense/aerospace manufacturing (defense-block policy)"
     },
     {
       "id": "6a9a16f6138838706059268b",
@@ -10641,8 +10630,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a5ff01d193b51130967ba14",
       "atsUrl": "https://jobs.ashbyhq.com/allen-control-systems/ea9cfc80-583c-48a9-a719-a17f572c6486/application?utm_source=jobright&jr_id=6a5ff01d193b51130967ba14",
       "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "dropped",
+      "note": "2026-09-10: dropped — defense robotics/weapons systems (defense-block policy)"
     },
     {
       "id": "6a95d8d8f28891320e85e622",
@@ -19346,16 +19335,6 @@
       "note": "Batch park: platform not automated from cloud: careers.lansweeper.com — 2026-09-09 cloud chunk"
     },
     {
-      "id": "6a9fe331dbc0e60e37e0a8b1",
-      "company": "Stash",
-      "title": "Backend Engineer III",
-      "matchPercent": 79,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a9fe331dbc0e60e37e0a8b1",
-      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stashinvest&token=8080033&jr_id=6a9fe331dbc0e60e37e0a8b1",
-      "status": "needs_answers",
-      "note": "Batch needs_answers: [\"Security code\"] — 2026-09-09 cloud chunk"
-    },
-    {
       "id": "6aa05a4a500b01124c778778",
       "company": "Bristol Myers Squibb",
       "title": "Senior AI Application Engineer",
@@ -19486,16 +19465,6 @@
       "note": "Batch needs_answers: [\"What is your expected compensation range? ✱\"] — 2026-09-09 cloud chunk"
     },
     {
-      "id": "6aa01c4d500b01124c776dbf",
-      "company": "Apptegy",
-      "title": "Sr. Software Engineer",
-      "matchPercent": 80,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6aa01c4d500b01124c776dbf",
-      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=apptegy&token=4378338009&jr_id=6aa01c4d500b01124c776dbf",
-      "status": "needs_answers",
-      "note": "Batch needs_answers: [\"Security code\"] — 2026-09-09 cloud chunk"
-    },
-    {
       "id": "6a5710dd21f64463ad357c61",
       "company": "Zettabyte",
       "title": "Senior/Staff Backend Engineer - Distributed System",
@@ -19582,8 +19551,8 @@
       "matchPercent": 81,
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa057d75b2d5633ef3be03b",
       "originalUrl": "https://jobs.ashbyhq.com/withcherry/1ec343df-4df1-402e-9ce4-48f5d78dc57a/application?jr_id=6aa057d75b2d5633ef3be03b",
-      "status": "parked",
-      "note": "Batch park: ashby blocked this IP earlier — 2026-09-09 cloud chunk"
+      "status": "needs_answers",
+      "note": "2026-09-10: 5 required essays need user facts the agent does not have and will not invent: (1) metrics/KPIs in current role, (2) benchmark targets + your results, (3) team/department size, (4) rank vs peers, (5) brag/awards. Also asks Are you currently employed (honest: No, BofA contract ended 12/2025). Authorized Yes / sponsorship Yes radios ready. Recorded in questions.json."
     },
     {
       "id": "6a55b6e9ec54dd532d812701",
@@ -19592,8 +19561,8 @@
       "matchPercent": 81,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a55b6e9ec54dd532d812701",
       "originalUrl": "https://jobs.ashbyhq.com/deepgram/68372d7d-b7a9-439e-a0a7-76690576aba4/application?jr_id=6a55b6e9ec54dd532d812701",
-      "status": "parked",
-      "note": "Batch park: ashby blocked this IP earlier — 2026-09-09 cloud chunk"
+      "status": "user_manual",
+      "note": "2026-09-10: Ashby spam-flagged 2x on submit — park. Ready answers: located US Yes; Bay Area No; greater NYC Yes (checkbox group); sponsorship Yes; EEO gender decline/race Asian/veteran not-protected; phone/LinkedIn; location Jersey City."
     },
     {
       "id": "6aa04358500b01124c777e7c",
