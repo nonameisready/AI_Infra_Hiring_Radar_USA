@@ -6587,8 +6587,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a56f6f621f64463ad35796a",
       "atsUrl": "https://jobs.ashbyhq.com/elicit/aa99e2e9-5b15-4cd3-ac9d-9c9177ff61c8/application?utm_source=jobright&jr_id=6a56f6f621f64463ad35796a",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "submitted_unconfirmed",
+      "note": "2026-09-10: Ashby driver submit success:true. Check from:ashbyhq.com before counting/re-applying. Answers: code link + source Jobright; 3 honest essays (learning: LLM evals + Go concurrency; relevant: agent pipelines + fintech backend; why: correctness-first product); based Jersey City; SF-move excitement 3/5."
     },
     {
       "id": "6a986377c8ed473c5c763c71",
@@ -6625,18 +6625,6 @@
       "addedAt": "2026-09-03",
       "status": "parked",
       "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
-    },
-    {
-      "id": "6a97cdba408304609c16e38b",
-      "key": "genius ai::software engineer - all levels",
-      "title": "Software Engineer - All Levels",
-      "company": "Genius AI",
-      "matchPercent": 78,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a97cdba408304609c16e38b",
-      "atsUrl": "https://jobs.ashbyhq.com/geniusai/aff2de75-aff2-46fc-8184-dbaa09e18e55/application?utm_source=jobright&jr_id=6a97cdba408304609c16e38b",
-      "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
     },
     {
       "id": "6a8e06a247679c68bf5e649a",
