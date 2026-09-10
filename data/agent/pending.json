@@ -18354,8 +18354,8 @@
       "matchPercent": 78,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a5657f610c4d945d8648f32",
       "originalUrl": "https://jobs.ashbyhq.com/probook/05516a84-77e4-4e2b-9686-49913e019c04/application?jr_id=6a5657f610c4d945d8648f32",
-      "status": "parked",
-      "note": "Batch park: ashby anti-bot flagged the datacenter IP — 2026-09-08 cloud chunk"
+      "status": "submitted_unconfirmed",
+      "note": "2026-09-10: Ashby driver — on-page Success (Thanks for submitting). Check from:ashbyhq.com before counting. Answers: 100% in-office NYC Yes (Manhattan, commutable); sponsorship Yes; SMS consent Yes; phone/LinkedIn; location Jersey City."
     },
     {
       "id": "6a9b0c1d90a313642c65853e",
@@ -18376,16 +18376,6 @@
       "originalUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/Zoro/publication/f858338c-1b92-4f45-96f6-2e80150be514?dcr_ci=Zoro&jr_id=6a6986e7f19e9d5c7d90f381",
       "status": "parked",
       "note": "Batch park: platform not automated from cloud: jobs.smartrecruiters.com — 2026-09-08 cloud chunk"
-    },
-    {
-      "id": "6a95cd514c22023a07935e00",
-      "company": "Wrapbook",
-      "title": "Senior Software Engineer I, Platform Enablement",
-      "matchPercent": 78,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a95cd514c22023a07935e00",
-      "originalUrl": "https://jobs.ashbyhq.com/wrapbook/43eb663b-2624-4d3c-bc79-25c93a94adec/application?jr_id=6a95cd514c22023a07935e00",
-      "status": "parked",
-      "note": "Batch park: ashby unconfirmed: Senior Software Engineer I - Platform Enablement\nLocation\n\nRemote - US & Canada\n\nEmployment Type\n\nFu — 2026-09-08 cloud chunk"
     },
     {
       "id": "6a9cbc58dacf777321a8e96b",
@@ -19111,8 +19101,8 @@
       "matchPercent": 78,
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa096da5b2d5633ef3bf8f6",
       "originalUrl": "https://jobs.ashbyhq.com/logos-space/ad0e3275-9643-4471-9136-4e531c92f02f/application?jr_id=6aa096da5b2d5633ef3bf8f6",
-      "status": "parked",
-      "note": "Batch park: ashby blocked this IP earlier — 2026-09-09 cloud chunk"
+      "status": "dropped",
+      "note": "2026-09-10: dropped — space company with ITAR-style U.S. Person gate (citizen/green-card/protected status); user is none of these (honest drop per US-person policy)."
     },
     {
       "id": "6aa0da265b2d5633ef3c0a00",
@@ -19143,16 +19133,6 @@
       "originalUrl": "https://jbhunt.wd501.myworkdayjobs.com/careers/job/Lowell-AR---JB-Hunt-Corporate-E/Software-Engineer-III---ServiceNow_00638721?jr_id=6a845fe7e459fa3baa85dea3",
       "status": "parked",
       "note": "Batch park: platform not automated from cloud: jbhunt.wd501.myworkdayjobs.com — 2026-09-09 cloud chunk"
-    },
-    {
-      "id": "6a612f25ab9bd46763249c17",
-      "company": "Pano AI",
-      "title": "Senior Software Engineer - Full Stack",
-      "matchPercent": 78,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a612f25ab9bd46763249c17",
-      "originalUrl": "https://jobs.ashbyhq.com/pano-ai/13123fa6-66bb-4395-9708-0da7699823a1/application?jr_id=6a612f25ab9bd46763249c17",
-      "status": "parked",
-      "note": "Batch park: ashby anti-bot flagged the datacenter IP — 2026-09-09 cloud chunk"
     },
     {
       "id": "6aa112bfb766020e9cd28c3b",
