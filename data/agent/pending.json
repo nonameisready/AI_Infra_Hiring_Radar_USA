@@ -11146,8 +11146,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a95fe874c22023a07937667",
       "atsUrl": "https://jobs.ashbyhq.com/unify/b2e28807-8338-4fa1-9a02-8297ba2a8eec/application?utm_source=jobright&jr_id=6a95fe874c22023a07937667",
       "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "user_manual",
+      "note": "2026-09-10: Ashby spam-flagged 2x — park. Answers ready: located in SF/NYC No (honest, Jersey City); willing onsite SF/NYC Yes; sponsorship n/a not asked; EEO gender decline/race Asian/veteran not-protected; phone/LinkedIn."
     },
     {
       "id": "6a9a01e7551435518ebf28ea",
@@ -11422,8 +11422,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a99b2ba8a8b765bc55f4deb",
       "atsUrl": "https://jobs.ashbyhq.com/mintmcp/d87ec1bc-a2c0-463f-b2c9-dbbd9f1acf90/application?utm_source=jobright&jr_id=6a99b2ba8a8b765bc55f4deb",
       "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "closed",
+      "note": "2026-09-10: Ashby says Job not found — posting removed."
     },
     {
       "id": "6a874075cde3717f9e9b10ae",
@@ -18951,8 +18951,8 @@
       "matchPercent": 77,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a596e843ac7627fe9fff586",
       "originalUrl": "https://jobs.ashbyhq.com/applied/24616fbc-fc96-4e32-b73c-2fc8ac092207/application?jr_id=6a596e843ac7627fe9fff586",
-      "status": "parked",
-      "note": "Batch park: ashby blocked this IP earlier — 2026-09-09 cloud chunk"
+      "status": "dropped",
+      "note": "2026-09-10: dropped — posting states the U.S. military and its allies are customers (defense-block policy)."
     },
     {
       "id": "6a5f8f14193b511309679377",
@@ -19001,8 +19001,8 @@
       "matchPercent": 77,
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa10240dbc0e60e37e101b9",
       "originalUrl": "https://jobs.ashbyhq.com/embedding-vc/cbd48067-4b1d-4630-b71d-6c48c7aeb24e/application?jr_id=6aa10240dbc0e60e37e101b9",
-      "status": "parked",
-      "note": "Batch park: ashby blocked this IP earlier — 2026-09-09 cloud chunk"
+      "status": "submitted_unconfirmed",
+      "note": "2026-09-10: Ashby driver submit success:true (minimal form: name/email/resume/phone). Check from:ashbyhq.com before counting."
     },
     {
       "id": "6a3c8c17d261407de97fdf2a",
@@ -19021,8 +19021,8 @@
       "matchPercent": 77,
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa02963a2266b538d22e784",
       "originalUrl": "https://jobs.ashbyhq.com/mintmcp/d9e85862-764c-43ff-8981-dcba73a3b257/application?jr_id=6aa02963a2266b538d22e784",
-      "status": "parked",
-      "note": "Batch park: ashby blocked this IP earlier — 2026-09-09 cloud chunk"
+      "status": "closed",
+      "note": "2026-09-10: Ashby says Job not found — posting removed."
     },
     {
       "id": "6a5e52cef3674a0545d28526",
@@ -19045,24 +19045,14 @@
       "note": "Batch park: platform not automated from cloud: www.linkedin.com — 2026-09-09 cloud chunk"
     },
     {
-      "id": "6aa03eaadbc0e60e37e0c590",
-      "company": "Poshmark",
-      "title": "Senior Software Engineer II, Backend",
-      "matchPercent": 77,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6aa03eaadbc0e60e37e0c590",
-      "originalUrl": "https://jobs.ashbyhq.com/poshmark/ab4be205-bf24-4bba-9205-b0f9722d9606/application?jr_id=6aa03eaadbc0e60e37e0c590",
-      "status": "parked",
-      "note": "Batch park: ashby blocked this IP earlier — 2026-09-09 cloud chunk"
-    },
-    {
       "id": "6aa11987500b01124c77b902",
       "company": "UpDoc",
       "title": "Senior Software Engineer - Automation",
       "matchPercent": 77,
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa11987500b01124c77b902",
       "originalUrl": "https://jobs.ashbyhq.com/updoc/74a66e62-7d22-4028-8614-bb001cdf282e/application?jr_id=6aa11987500b01124c77b902",
-      "status": "parked",
-      "note": "Batch park: ashby blocked this IP earlier — 2026-09-09 cloud chunk"
+      "status": "user_manual",
+      "note": "2026-09-10: Ashby spam-flagged 2x — park. Ready: authorized-without-employer-sponsorship Yes (CPT/EAD is school-authorized); two honest essays drafted in agent notes (BofA silent-failure pipeline redesign; EarningsStory RAG pipeline with explicit unavailable-states); LinkedIn/GitHub; location Jersey City."
     },
     {
       "id": "6aa01bc03b5aa83237b06f2b",
