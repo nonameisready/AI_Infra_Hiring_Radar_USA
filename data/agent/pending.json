@@ -20023,8 +20023,8 @@
       "matchPercent": 87,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a1a466c6b135014dbc895c5",
       "originalUrl": "https://jobs.ashbyhq.com/drata/760b5a7c-a532-44e4-9ee3-89a60669eaa2/application?jr_id=6a1a466c6b135014dbc895c5",
-      "status": "parked",
-      "note": "Batch park: ashby blocked this IP earlier — 2026-09-09 cloud chunk"
+      "status": "user_manual",
+      "note": "2026-09-10: Ashby spam-flagged 2x on submit — park (Trunk Tools/BJAK precedent). Ready answers: commute-or-relocate Yes (plain relocation willingness); 7-10yrs Yes; live in Bay Area No; sponsorship Yes; located in US Yes; AI-tools essay (Claude/ChatGPT/Copilot/Claude Code + vLLM/SgLang/RAG side projects); EEO gender decline, race Asian, veteran not-protected; phone/LinkedIn; location Jersey City."
     },
     {
       "id": "6aa097f73b5aa83237b0a1b4",
@@ -20115,16 +20115,6 @@
       "originalUrl": "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/New-York-NY/Lead-Software-Engineer_R1000139-1?jr_id=6aa049e7500b01124c778112",
       "status": "parked",
       "note": "Batch park: platform not automated from cloud: capitalone.wd12.myworkdayjobs.com — 2026-09-09 cloud chunk"
-    },
-    {
-      "id": "6aa029f5a2266b538d22e79d",
-      "company": "MaintainX",
-      "title": "Senior Software Developer, API Platform and Ecosystem",
-      "matchPercent": 88,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6aa029f5a2266b538d22e79d",
-      "originalUrl": "https://jobs.ashbyhq.com/maintainx/630106e1-ae99-4fb4-b166-496c2e34aa84/application?jr_id=6aa029f5a2266b538d22e79d",
-      "status": "parked",
-      "note": "Batch park: ashby anti-bot flagged the datacenter IP — 2026-09-09 cloud chunk"
     },
     {
       "id": "6a5a8f2e3ac7627fe9004b05",
