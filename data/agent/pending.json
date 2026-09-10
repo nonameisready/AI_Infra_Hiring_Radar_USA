@@ -6491,8 +6491,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7b763decf5194164fbe2dd",
       "atsUrl": "https://jobs.ashbyhq.com/vanta/021cca9c-f937-4d97-8be7-bc83af8307be/application?utm_source=jobright&jr_id=6a7b763decf5194164fbe2dd",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "already_applied_externally",
+      "note": "2026-09-10: Ashby refused submit — job allows 1 application per 90 days and reports the limit reached. Not in our applied registry, so an earlier attempt (Mac batch or pre-agent manual apply) must have gone through. Treat as applied; do not retry before 90 days."
     },
     {
       "id": "6a73ae0b8cd88e7ccbf59fe4",
@@ -18559,8 +18559,8 @@
       "matchPercent": 79,
       "jobrightUrl": "https://jobright.ai/jobs/info/69a88de879f3f4037f426978",
       "originalUrl": "https://jobs.ashbyhq.com/illumio/904f4622-39da-4008-bd0f-f23afb70f9f1/application?jr_id=69a88de879f3f4037f426978",
-      "status": "parked",
-      "note": "Batch park: ashby unconfirmed: Sr. Member of Technical Staff - Platform\nLocation\n\nSunnyvale, California - HQ\n\nEmployment Type\n\nFull — 2026-09-08 cloud chunk"
+      "status": "user_manual",
+      "note": "2026-09-10: POLICY stop — application requires accepting a binding arbitration agreement with class-action waiver (FAA, individual-capacity-only). Per OpenAI precedent, legal waivers are signed by the user personally. All other answers ready: phone/zip 07306/LinkedIn/GitHub; sponsorship Yes; authorized Yes; GDPR ack fine; location Jersey City. User can submit in ~3 minutes."
     },
     {
       "id": "6a53117de726ec56126a586d",
@@ -19389,16 +19389,6 @@
       "originalUrl": "https://jobs.lever.co/ro/70759f62-1d98-4312-a6ed-db0ad9ce308c/apply?jr_id=68c9ae38a0c52d598ea39c68",
       "status": "needs_answers",
       "note": "Batch needs_answers: [\"What is your expected compensation range? ✱\"] — 2026-09-09 cloud chunk"
-    },
-    {
-      "id": "6a5710dd21f64463ad357c61",
-      "company": "Zettabyte",
-      "title": "Senior/Staff Backend Engineer - Distributed System",
-      "matchPercent": 80,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a5710dd21f64463ad357c61",
-      "originalUrl": "https://jobs.ashbyhq.com/zettabyte-space/c2737b0b-79aa-4d8a-8a52-dfd7a40312e4/application?jr_id=6a5710dd21f64463ad357c61",
-      "status": "parked",
-      "note": "Batch park: ashby blocked this IP earlier — 2026-09-09 cloud chunk"
     },
     {
       "id": "69e4bc24f8fa2f3ec329cc5e",
