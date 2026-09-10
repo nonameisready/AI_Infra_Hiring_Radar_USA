@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T20:07:21.749Z",
+  "updatedAt": "2026-09-10T20:12:08.482Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -7250,6 +7250,18 @@
       "at": "2026-09-10",
       "via": "ashby (cloud driver)",
       "detail": "Gmail-confirmed (20:06Z). Self-ratings honest: distributed Go/Python quite-a-bit; time-series/analytical DBs quite-a-bit; streaming (Flink/Kafka) a-little (conservative); MDR/SF office 2d/wk No (honest, NJ); work-auth status: F-1 Visa (CPT) per policy; location Jersey City."
+    },
+    "6a9b64801388387060597f3a": {
+      "id": "6a9b64801388387060597f3a",
+      "company": "Leland",
+      "title": "Software Engineer",
+      "matchPercent": 78,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9b64801388387060597f3a",
+      "originalUrl": "https://jobs.ashbyhq.com/leland/b447fec5-42cd-48b2-aed3-8d62c777019c/application",
+      "status": "applied",
+      "at": "2026-09-10",
+      "via": "ashby (cloud driver)",
+      "detail": "Gmail-confirmed (20:09Z). Authorized Yes; sponsorship Yes; type: H-1B Transfer (received via another employer, needs transfer — exact cap-exempt case); relocate to Utah Yes (plain willingness); reside Jersey City NJ."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
