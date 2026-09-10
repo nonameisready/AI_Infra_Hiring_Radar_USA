@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T14:41:54.191Z",
+  "updatedAt": "2026-09-10T14:44:19.150Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -6926,6 +6926,18 @@
       "at": "2026-09-10",
       "via": "ashby (cloud driver)",
       "detail": "Gmail-confirmed (14:41Z). Sponsorship Yes; authorized Yes; hybrid NYC 3d/wk Yes (commutable from Jersey City); age/gender/transgender: prefer not to answer; phone/LinkedIn/GitHub; location Jersey City."
+    },
+    "6a590578856af468ab00140c": {
+      "id": "6a590578856af468ab00140c",
+      "company": "Astra",
+      "title": "Senior Backend Engineer",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a590578856af468ab00140c",
+      "originalUrl": "https://jobs.ashbyhq.com/astra/b32566e2-7f27-4d8d-a839-3d7154a6689f/application",
+      "status": "applied",
+      "at": "2026-09-10",
+      "via": "ashby (cloud driver)",
+      "detail": "Gmail-confirmed (14:43Z). Authorized Yes; sponsorship Yes; LinkedIn; location Jersey City."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
