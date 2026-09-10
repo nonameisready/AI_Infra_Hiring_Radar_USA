@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T16:03:57.425Z",
+  "updatedAt": "2026-09-10T16:04:18.208Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -7107,16 +7107,16 @@
       "via": "greenhouse (cloud driver)",
       "detail": "Confirmation page reached (job_app/confirmation URL) after code 5oJAXOLu; Gmail thank-you pending at booking time. Simple form: names/email/phone/resume/country/LinkedIn/GitHub."
     },
-    "6a6bbabd32f9300c3a3e09ad": {
-      "id": "6a6bbabd32f9300c3a3e09ad",
+    "6a46c44e971cd25b06f90113": {
+      "id": "6a46c44e971cd25b06f90113",
       "company": "PENN Interactive",
-      "title": "Senior Software Engineer, Promotions",
-      "matchPercent": 81,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a6bbabd32f9300c3a3e09ad",
+      "title": "Software Engineer, Sportsbook Platform",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a46c44e971cd25b06f90113",
       "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=penninteractive&token=6108026004",
       "status": "applied",
       "at": "2026-09-10",
-      "via": "ashby (cloud driver)",
+      "via": "greenhouse (cloud driver)",
       "detail": "Gmail-confirmed (16:01Z). GH driver + code 3EIiMslC. Sports-fan honest answer (casual fan, no betting products, drawn to engineering); salary 150k+ negotiable; sponsorship Yes; WOTC survey participation No (voluntary); GraphQL schemas No (unverified skill); API development honest yes-text; EEO declines/hispanic No/veteran not-protected."
     }
   },

@@ -20080,6 +20080,15 @@
       "originalUrl": "https://www.linkedin.com/jobs/view/4464609550?jr_id=6aa00a82dbc0e60e37e0b1b8",
       "status": "parked",
       "note": "Batch park: platform not automated from cloud: www.linkedin.com — 2026-09-09 cloud chunk"
+    },
+    {
+      "id": "6a6bbabd32f9300c3a3e09ad",
+      "company": "PENN Interactive",
+      "title": "Senior Software Engineer, Promotions",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a6bbabd32f9300c3a3e09ad",
+      "status": "skipped",
+      "note": "2026-09-10: company-level dedupe — applied to Software Engineer, Sportsbook Platform instead (#561)."
     }
   ],
   "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
