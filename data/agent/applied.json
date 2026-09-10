@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T15:48:57.915Z",
+  "updatedAt": "2026-09-10T15:55:58.391Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -7070,6 +7070,42 @@
       "at": "2026-09-10",
       "via": "ashby (cloud driver)",
       "detail": "Gmail-confirmed (15:44Z). GH driver + security code LLjy8Iva. Flexwork 2d-office Yes (NYC commutable); authorized Yes; sponsorship Yes; salary 150k+ negotiable; education-docs-if-requested Yes; demographic: gender/transgender/orientation/disability declines, race East Asian, veteran No, veteran-spouse No, education Masters; source Jobright."
+    },
+    "6a73591c32ebbc14ffb4e585": {
+      "id": "6a73591c32ebbc14ffb4e585",
+      "company": "DoiT",
+      "title": "Senior Software Engineer - SELECT by DoiT",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a73591c32ebbc14ffb4e585",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=doitintl&token=7592117003",
+      "status": "applied",
+      "at": "2026-09-10",
+      "via": "ashby (cloud driver)",
+      "detail": "Gmail-confirmed (15:53Z). GH driver + code LrLaThe2. Based in US Yes; sponsorship Yes; 5+ yrs Yes; TS-and-React No (honest - TS strong, React limited; nuance explained in essay); gender not disclosed; salary 150k+ negotiable; honest SELECT-by-DoiT essay (PySpark/SQL/AWS cost-aware pipelines)."
+    },
+    "6a50fcb557513b72e0c62c89": {
+      "id": "6a50fcb557513b72e0c62c89",
+      "company": "VERISIGN",
+      "title": "Software Engineer - Rust",
+      "matchPercent": 80,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a50fcb557513b72e0c62c89",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=verisign&token=7723260003",
+      "status": "applied",
+      "at": "2026-09-10",
+      "via": "ashby (cloud driver)",
+      "detail": "Gmail-confirmed (15:49Z from verisign.com). GH driver + code zyIu5pUj. Rust role applied honestly (no Rust claims; resume stands as-is). Address JC NJ; immigration support Yes; Reston 70mi: No-but-ready-to-relocate (plain relocation); source Other=Jobright; gov employee No; relationship/prev/relative No; accuracy ack Yes; EEO gender decline/race Asian/veteran not-protected/disability decline."
+    },
+    "6a370eccf6b55d12c7923b66": {
+      "id": "6a370eccf6b55d12c7923b66",
+      "company": "Crexi",
+      "title": "Senior Software Engineer- Full Stack",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a370eccf6b55d12c7923b66",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=crexi",
+      "status": "applied",
+      "at": "2026-09-10",
+      "via": "greenhouse (cloud driver)",
+      "detail": "Confirmation page reached (job_app/confirmation URL) after code 5oJAXOLu; Gmail thank-you pending at booking time. Simple form: names/email/phone/resume/country/LinkedIn/GitHub."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
