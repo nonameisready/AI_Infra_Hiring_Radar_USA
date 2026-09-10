@@ -6743,8 +6743,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a560d6b21f64463ad35231d",
       "atsUrl": "https://jobs.ashbyhq.com/doppel/4a6d8843-8729-44e5-9b7a-1470e181b6de/application?utm_source=jobright&jr_id=6a560d6b21f64463ad35231d",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "user_manual",
+      "note": "2026-09-10: Ashby spam-flagged 2x — park. Only LinkedIn URL required (minimal form)."
     },
     {
       "id": "68c46a15e471ef3ce16d5d83",
@@ -6755,8 +6755,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/68c46a15e471ef3ce16d5d83",
       "atsUrl": "https://jobs.ashbyhq.com/doppel/aba5c986-7e85-4f79-8553-e85634400b78/application?utm_source=jobright&jr_id=68c46a15e471ef3ce16d5d83",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "user_manual",
+      "note": "2026-09-10: Ashby spam-flagged 2x — park. Only LinkedIn URL required (minimal form)."
     },
     {
       "id": "6a99756a551435518ebee785",
@@ -10678,8 +10678,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a99b959040e5c3d07598566",
       "atsUrl": "https://jobs.ashbyhq.com/vinci4d/8e5bdc48-0f03-4bbd-94d9-090ea2ea2e69/application?utm_source=jobright&jr_id=6a99b959040e5c3d07598566",
       "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "status": "user_manual",
+      "note": "2026-09-10: Ashby spam-flagged 2x (driver restart lost warm session — all post-restart Ashby submits flagged). Answers ready: Python 7 yrs; shipping 7 yrs; sponsorship Yes; location Jersey City. Retry from warm session later or user manual."
     },
     {
       "id": "6a51b0d2bf63b66c7997af9b",
@@ -14022,8 +14022,8 @@
       "matchPercent": 78,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a567581efb06a45240d5f09",
       "atsUrl": null,
-      "status": "parked",
-      "note": "harvested 2026-09-05 cloud top-up; ATS url unresolved - Mac batch or cloud wave to resolve"
+      "status": "user_manual",
+      "note": "2026-09-10: Ashby spam-flagged 2x — park. Only LinkedIn URL required (minimal form)."
     },
     {
       "id": "6a625d1b07e15f1ab0e45c27",
@@ -20025,6 +20025,2158 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a6bbabd32f9300c3a3e09ad",
       "status": "skipped",
       "note": "2026-09-10: company-level dedupe — applied to Software Engineer, Sportsbook Platform instead (#561)."
+    },
+    {
+      "id": "6a997148ad752e2ad54ff8a9",
+      "company": "Temporal Technologies",
+      "title": "Senior Software Engineer, Observability",
+      "matchPercent": 80,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a997148ad752e2ad54ff8a9",
+      "originalUrl": "https://jobs.ashbyhq.com/temporal/109d72d0-e739-406c-87ae-b0f1f5ae7ade/application?utm_source=eOyVyzx5gb&source=2KnAzmpx4J",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — ashby unconfirmed: Senior Software Engineer, Observability\nLocation\n\nSan Francisco, California; Bellevue, Washington; B"
+    },
+    {
+      "id": "6a84e4512f4f0014cae2339d",
+      "company": "Bank of America",
+      "title": "Sr. Quantitative Engineer",
+      "matchPercent": 97,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a84e4512f4f0014cae2339d",
+      "originalUrl": "https://ghr.wd1.myworkdayjobs.com/lateral-us/job/Chicago/Sr-Quantitative-Engineer_26024382-2?jr_id=6a84e4512f4f0014cae2339d",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: ghr.wd1.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa1df36ef23570cae246a53",
+      "company": "Andreessen Horowitz",
+      "title": "Software Engineer, Platform (Partner 16, Partner 18)",
+      "matchPercent": 95,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1df36ef23570cae246a53",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a51d61dbf63b66c7997da8a",
+      "company": "Seven Research, LLC",
+      "title": "Core Developer",
+      "matchPercent": 94,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a51d61dbf63b66c7997da8a",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa1f3703272060a8e3f2df7",
+      "company": "Swish Labs",
+      "title": "Senior Software Engineer",
+      "matchPercent": 93,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1f3703272060a8e3f2df7",
+      "originalUrl": "https://www.linkedin.com/jobs/view/4464112998?jr_id=6aa1f3703272060a8e3f2df7",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: www.linkedin.com"
+    },
+    {
+      "id": "6a5f7d7733ef5c58b4ffe288",
+      "company": "Collate",
+      "title": "Software Engineer (Backend)",
+      "matchPercent": 89,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5f7d7733ef5c58b4ffe288",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a68ef983b549b0b531d2d46",
+      "company": "CLA (CliftonLarsonAllen)",
+      "title": "Senior Palantir Engineer - Remote",
+      "matchPercent": 89,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a68ef983b549b0b531d2d46",
+      "originalUrl": "https://cliftonlarsonallen.wd115.myworkdayjobs.com/cla/job/Austin-TX/Senior-Palantir-Engineer_R17645?jr_id=6a68ef983b549b0b531d2d46",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: cliftonlarsonallen.wd115.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa1ba313272060a8e3f1b54",
+      "company": "HireQ Talent",
+      "title": "Senior Software Engineer",
+      "matchPercent": 89,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1ba313272060a8e3f1b54",
+      "originalUrl": "https://www.linkedin.com/jobs/view/4465317559?jr_id=6aa1ba313272060a8e3f1b54",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: www.linkedin.com"
+    },
+    {
+      "id": "6a8338ad1081a745e970db44",
+      "company": "HHAeXchange",
+      "title": "Sr. Software Engineer, ROR",
+      "matchPercent": 89,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8338ad1081a745e970db44",
+      "originalUrl": "https://jobs.lever.co/hhaexchange/e56acb41-8b08-4541-9fa8-025faed5b7a5/apply?jr_id=6a8338ad1081a745e970db44",
+      "status": "needs_answers",
+      "note": "2026-09-10 batch sweep: needs_answers — missing: [\"If you were referred, please provide the HHAeXchange or Sandata employee's name. If not re\"]"
+    },
+    {
+      "id": "6aa1ad090ffb3d4fea6b674c",
+      "company": "Global Credit Union",
+      "title": "Senior Integration Engineer",
+      "matchPercent": 89,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1ad090ffb3d4fea6b674c",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa04029ea127c3794695f2c",
+      "company": "Slack",
+      "title": "Software Engineering PMTS, Slack Distributed Data Service",
+      "matchPercent": 88,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa04029ea127c3794695f2c",
+      "originalUrl": "https://salesforce.wd12.myworkdayjobs.com/slack/job/California---San-Francisco/Software-Engineering-PMTS--Slack-Distributed-Data-Service_JR359018?jr_id=6aa04029ea127c3794695f2c",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: salesforce.wd12.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa1ec0d0ffb3d4fea6b7bf6",
+      "company": "Casca",
+      "title": "Senior Software Engineer",
+      "matchPercent": 87,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1ec0d0ffb3d4fea6b7bf6",
+      "originalUrl": "https://jobs.ashbyhq.com/casca/911d4c71-a3c6-4d48-9849-e80afdac5405/application?jr_id=6aa1ec0d0ffb3d4fea6b7bf6",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — ashby unconfirmed: Senior Software Engineer\nLocation\n\nSan Francisco\n\nEmployment Type\n\nFull time\n\nLocation Type\n\nOn-site"
+    },
+    {
+      "id": "6aa17d132f936e4a53dabe86",
+      "company": "Goliath Partners",
+      "title": "Senior Full Stack Engineer",
+      "matchPercent": 87,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa17d132f936e4a53dabe86",
+      "originalUrl": "https://www.linkedin.com/jobs/view/4465060812?jr_id=6aa17d132f936e4a53dabe86",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: www.linkedin.com"
+    },
+    {
+      "id": "6aa1eef23272060a8e3f2c6f",
+      "company": "Harnham",
+      "title": "Software Engineer",
+      "matchPercent": 87,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1eef23272060a8e3f2c6f",
+      "originalUrl": "https://www.linkedin.com/jobs/view/4465356166?jr_id=6aa1eef23272060a8e3f2c6f",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: www.linkedin.com"
+    },
+    {
+      "id": "6a57ecd09838a11e5d835a2c",
+      "company": "ElevenLabs",
+      "title": "Data Engineer",
+      "matchPercent": 87,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a57ecd09838a11e5d835a2c",
+      "originalUrl": "https://jobs.ashbyhq.com/elevenlabs/e53c5be6-5c1a-4870-ad85-8397a1f201de/application?jr_id=6a57ecd09838a11e5d835a2c",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — ashby unconfirmed: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /"
+    },
+    {
+      "id": "6a7b8dafb933773d16be84b9",
+      "company": "NetApp",
+      "title": "Senior Software Engineer Job Details | NetApp, Inc.",
+      "matchPercent": 87,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7b8dafb933773d16be84b9",
+      "originalUrl": "https://jobs.netapp.com/job/San-Jose-Senior-Software-Engineer-CA-95128/1413159800/?jr_id=6a7b8dafb933773d16be84b9",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: jobs.netapp.com"
+    },
+    {
+      "id": "6a830c2e3eeac101cfa9d140",
+      "company": "Crossing Hurdles",
+      "title": "Backend-Engineer",
+      "matchPercent": 86,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a830c2e3eeac101cfa9d140",
+      "originalUrl": "https://www.linkedin.com/jobs/view/4379421092?jr_id=6a830c2e3eeac101cfa9d140",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: www.linkedin.com"
+    },
+    {
+      "id": "6aa0da9a3b5aa83237b0b289",
+      "company": "Adams 12 Five Star Schools",
+      "title": "Software Engineer, Senior",
+      "matchPercent": 86,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa0da9a3b5aa83237b0b289",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a8f4e1af841e649a7191b1d",
+      "company": "Chase",
+      "title": "Software Engineer III - Python, Pyspark, GKP, Postgress",
+      "matchPercent": 86,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8f4e1af841e649a7191b1d",
+      "originalUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210777961?jr_id=6a8f4e1af841e649a7191b1d",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: jpmc.fa.oraclecloud.com"
+    },
+    {
+      "id": "6a8f856f8ffa38557e6c98d2",
+      "company": "Lansweeper",
+      "title": "Senior Software Engineer – AI-Native Platform",
+      "matchPercent": 86,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8f856f8ffa38557e6c98d2",
+      "originalUrl": "https://careers.lansweeper.com/o/senior-software-engineer-ai-native-platform?source=jobright",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: careers.lansweeper.com"
+    },
+    {
+      "id": "6aa1eb3bef23570cae246d2d",
+      "company": "Venmo",
+      "title": "Senior Software Engineer - Python",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1eb3bef23570cae246d2d",
+      "originalUrl": "https://paypal.eightfold.ai/careers?pid=274917627749",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: paypal.eightfold.ai"
+    },
+    {
+      "id": "6a39d8bd06a4fd4b1fabc48c",
+      "company": "Symetra",
+      "title": "Senior Software Engineer II, AI Enablement",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a39d8bd06a4fd4b1fabc48c",
+      "originalUrl": "https://symetra.eightfold.ai/careers?pid=446718942390",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: symetra.eightfold.ai"
+    },
+    {
+      "id": "6a5a299f856af468ab0071a3",
+      "company": "Sydecar",
+      "title": "Senior Software Engineer",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5a299f856af468ab0071a3",
+      "originalUrl": "https://jobs.ashbyhq.com/sydecar/f83568f1-caaf-4e4d-a86c-290f9c612f44/application?jr_id=6a5a299f856af468ab0071a3",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — ashby anti-bot flagged the datacenter IP"
+    },
+    {
+      "id": "6aa16650500b01124c77c72c",
+      "company": "FORT",
+      "title": "Back End Developer",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa16650500b01124c77c72c",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a84676c58ded76ad8fe6de6",
+      "company": "bioMérieux",
+      "title": "Lead Software Engineer",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a84676c58ded76ad8fe6de6",
+      "originalUrl": "https://jobs.jobvite.com/biofiredx/job/oj8FAfwq?jr_id=6a84676c58ded76ad8fe6de6",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: jobs.jobvite.com"
+    },
+    {
+      "id": "6a6902f636d36c1ff2997961",
+      "company": "Omnissa",
+      "title": "Software Engineer (Platform/Backend) - ClickHouse",
+      "matchPercent": 84,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a6902f636d36c1ff2997961",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa1aaa4500b01124c77e516",
+      "company": "Plenful",
+      "title": "Senior Software Engineer",
+      "matchPercent": 84,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1aaa4500b01124c77e516",
+      "originalUrl": "https://jobs.ashbyhq.com/plenful/a42e56b5-d079-41af-83ec-6314a167987e/application?jr_id=6aa1aaa4500b01124c77e516",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — ashby blocked this IP earlier"
+    },
+    {
+      "id": "695dc326fbd62a0a6566770d",
+      "company": "Brighterway",
+      "title": "Senior Software Engineer",
+      "matchPercent": 84,
+      "jobrightUrl": "https://jobright.ai/jobs/info/695dc326fbd62a0a6566770d",
+      "originalUrl": "https://www.ycombinator.com/companies/brighterway/jobs/vJvWxbO-senior-software-engineer?jr_id=695dc326fbd62a0a6566770d",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: www.ycombinator.com"
+    },
+    {
+      "id": "6aa1ea81500b01124c77f9fa",
+      "company": "PayPal",
+      "title": "Senior Software Engineer - Python",
+      "matchPercent": 84,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1ea81500b01124c77f9fa",
+      "originalUrl": "https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Senior-Software-Engineer---Python_R0134448-1?jr_id=6aa1ea81500b01124c77f9fa",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: paypal.wd1.myworkdayjobs.com"
+    },
+    {
+      "id": "6a8d579c47679c68bf5e2af3",
+      "company": "Frame",
+      "title": "Senior Software Engineer: Ledger Platform",
+      "matchPercent": 84,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8d579c47679c68bf5e2af3",
+      "originalUrl": "https://jobs.lever.co/frame-payments/cbbe2b3c-8b76-40ed-ad86-aa4518009c26/apply?jr_id=6a8d579c47679c68bf5e2af3",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — lever hCaptcha challenged this IP"
+    },
+    {
+      "id": "6a50e9670524e919f4a9acd2",
+      "company": "Huntington National Bank",
+      "title": "SAS Viya Developer/Admin",
+      "matchPercent": 84,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a50e9670524e919f4a9acd2",
+      "originalUrl": "https://huntington.wd12.myworkdayjobs.com/hnbcareers/job/Columbus-OH/SAS-Viya-Developer-Admin_R0071605?jr_id=6a50e9670524e919f4a9acd2",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: huntington.wd12.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa1d750ef23570cae2467b2",
+      "company": "Tata Consultancy Services",
+      "title": "Senior Software Engineer",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1d750ef23570cae2467b2",
+      "originalUrl": "chrome-error://chromewebdata/",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: chromewebdata"
+    },
+    {
+      "id": "6aa19611dbc0e60e37e124d6",
+      "company": "Camunda",
+      "title": "Senior Software Engineer, Backend - Data Layer",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa19611dbc0e60e37e124d6",
+      "originalUrl": "https://jobs.ashbyhq.com/camunda/b51b79c6-e2d8-428d-8cdc-0d1aae9792a9/application?jr_id=6aa19611dbc0e60e37e124d6",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — ashby blocked this IP earlier"
+    },
+    {
+      "id": "6aa1f3c1500b01124c77fc24",
+      "company": "Audible",
+      "title": "Senior Software Development Engineer, Audible Fintech",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1f3c1500b01124c77fc24",
+      "originalUrl": "https://www.amazon.jobs/en/jobs/10535237/senior-software-development-engineer-audible-fintech?cmpid=SPLICX0248M&utm_campaign=audible&utm_medium=social_media&utm_content=job_posting&ss=paid",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: www.amazon.jobs"
+    },
+    {
+      "id": "6aa09bb6ea127c3794698249",
+      "company": "Workday",
+      "title": "Senior Software Development Engineer",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa09bb6ea127c3794698249",
+      "originalUrl": "https://workday.wd5.myworkdayjobs.com/workday/job/USA-CA-San-Francisco/Senior-Software-Development-Engineer_JR-0109928?jr_id=6aa09bb6ea127c3794698249",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: workday.wd5.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa1c0fa3272060a8e3f1e32",
+      "company": "NegotiateAI Inc.",
+      "title": "Senior Software Engineer",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1c0fa3272060a8e3f1e32",
+      "originalUrl": "https://jobs.ashbyhq.com/negotiate-ai/57ea8828-9c7d-48e8-bade-bfa2a2e7cf6f/application?jr_id=6aa1c0fa3272060a8e3f1e32",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — ashby anti-bot flagged the datacenter IP"
+    },
+    {
+      "id": "6a8345781081a745e970e1c5",
+      "company": "MetroStar",
+      "title": "Sr. Cross-Platform Mobile Developer I (6800)",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8345781081a745e970e1c5",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=metrostarsystems",
+      "status": "needs_answers",
+      "note": "2026-09-10 batch sweep: needs_answers — missing: [\"What is your target salary range?*\",\"Were you previously one of our MetroStar teammates, and are interested\"]"
+    },
+    {
+      "id": "6aa164543272060a8e3ef890",
+      "company": "Edmund Optics",
+      "title": "Senior Ecommerce Backend Engineer: AI - Native",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa164543272060a8e3ef890",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9da7f8c1d6f91bc3886204",
+      "company": "Blue Origin",
+      "title": "Software Engineer III",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9da7f8c1d6f91bc3886204",
+      "originalUrl": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Software-Engineer-III_R58290?jr_id=6a9da7f8c1d6f91bc3886204",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: blueorigin.wd5.myworkdayjobs.com"
+    },
+    {
+      "id": "6a32a9827f3fdd180d4c2b45",
+      "company": "Bedrock Robotics",
+      "title": "Software Engineer",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a32a9827f3fdd180d4c2b45",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a59ff3c3ac7627fe9001b13",
+      "company": "CareLink (by Asepha)",
+      "title": "Senior Software Engineer, Agentic Systems",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a59ff3c3ac7627fe9001b13",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a4fe2dbf57ed168c3417261",
+      "company": "Makai Labs",
+      "title": "Senior Software Engineer",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a4fe2dbf57ed168c3417261",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9068087c32860d14cf927e",
+      "company": "Seesaw Learning",
+      "title": "Software Engineer, Backend",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9068087c32860d14cf927e",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9e7d1ea7ba386c5d672369",
+      "company": "Comcast",
+      "title": "Software Engineer (Python, Java, C++, or GoLang) - Chicago, IL- ONSITE 2X Week- FreeWheel",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9e7d1ea7ba386c5d672369",
+      "originalUrl": "https://jobs.comcast.com/job/chicago/software-engineer-python-java-c-or-golang-chicago-il-onsite-2x-week-freewheel/45483/100133687888?source=jobright_at&utm_medium=referral&utm_campaign=all",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: jobs.comcast.com"
+    },
+    {
+      "id": "6a67d7ca2bda4d2842855f5a",
+      "company": "CyberCoders",
+      "title": "Senior Backend Software Engineer - Python, Golang, APIs- REMOTE",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a67d7ca2bda4d2842855f5a",
+      "originalUrl": "https://www.linkedin.com/jobs/view/4442898473?jr_id=6a67d7ca2bda4d2842855f5a",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: www.linkedin.com"
+    },
+    {
+      "id": "6a96b8d4455eaf6a08c1861b",
+      "company": "Viasat",
+      "title": "Software Engineer (Fullstack)",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a96b8d4455eaf6a08c1861b",
+      "originalUrl": "https://careers.viasat.com/jobs/6614?jr_id=6a96b8d4455eaf6a08c1861b",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: careers.viasat.com"
+    },
+    {
+      "id": "6a51e31d02522b5b722ed0d8",
+      "company": "Beth Israel Lahey Health",
+      "title": "Senior AI Application Developer",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a51e31d02522b5b722ed0d8",
+      "originalUrl": "https://bilh.wd1.myworkdayjobs.com/external/job/Beth-Israel-Lahey-Health/Senior-AI-Application-Developer_JR95688?jr_id=6a51e31d02522b5b722ed0d8",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: bilh.wd1.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa178ad0ffb3d4fea6b4e1c",
+      "company": "Charles Schwab",
+      "title": "Full Stack Engineer",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa178ad0ffb3d4fea6b4e1c",
+      "originalUrl": "https://career-schwab.icims.com/jobs/123692/full-stack-engineer/job?jr_id=6aa178ad0ffb3d4fea6b4e1c",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: career-schwab.icims.com"
+    },
+    {
+      "id": "6a4d634cc643fd23fed3ccc1",
+      "company": "Floor & Decor",
+      "title": "Senior Developer – Connected Customer (Loyalty Platform)",
+      "matchPercent": 80,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a4d634cc643fd23fed3ccc1",
+      "originalUrl": "https://flooranddecoroutlets.wd1.myworkdayjobs.com/flooranddecorcareers/job/100-Store-Support-Center---GA/Senior-Developer---Connected-Customer--Loyalty-Platform-_R049826?jr_id=6a4d634cc643fd23fed3ccc1",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: flooranddecoroutlets.wd1.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa095b15b2d5633ef3bf893",
+      "company": "Anagh Technologies Inc",
+      "title": "Golang Developer",
+      "matchPercent": 80,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa095b15b2d5633ef3bf893",
+      "originalUrl": "https://www.linkedin.com/uas/login?session_redirect=%2Fsearch%2Fresults%2Fpeople%2F%3FcurrentCompany%3D1065186%26pastCompany%3D%255B%2522111018907%2522%252C%25226656901%2522%252C%25221123%2522%252C%25226967643%2522%252C%25224764%2522%255D&skipRedirect=true",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: www.linkedin.com"
+    },
+    {
+      "id": "6a6b253aacb0a61f9dbbf246",
+      "company": "inPowered AI",
+      "title": "Senior Backend Engineer (Remote)",
+      "matchPercent": 80,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a6b253aacb0a61f9dbbf246",
+      "originalUrl": "https://inpowered.applytojob.com/apply/FhYCIRU9HJ/Senior-Backend-Engineer-Remote?jr_id=6a6b253aacb0a61f9dbbf246",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: inpowered.applytojob.com"
+    },
+    {
+      "id": "6a5890da0304e26a7e7e6cf5",
+      "company": "Hive",
+      "title": "Senior Software Engineer - Backend",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5890da0304e26a7e7e6cf5",
+      "originalUrl": "https://jobs.lever.co/hive/55069e13-9442-4a6a-8f5b-20bb43352a73/apply?jr_id=6a5890da0304e26a7e7e6cf5",
+      "status": "needs_answers",
+      "note": "2026-09-10 batch sweep: needs_answers — missing: [\"What is/was your GPA? ✱\",\"Please check all that apply: ✱\"]"
+    },
+    {
+      "id": "6a31e6330ff23769fdb20f7a",
+      "company": "11x",
+      "title": "Data Engineer",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a31e6330ff23769fdb20f7a",
+      "originalUrl": "https://jobs.gem.com/11x-ai/am9icG9zdDpUNqtuCsDh08YG2vmhJM8S?jr_id=6a31e6330ff23769fdb20f7a",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: jobs.gem.com"
+    },
+    {
+      "id": "6a6a7fa316c69119640feab1",
+      "company": "Campspot",
+      "title": "AI Software Developer",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a6a7fa316c69119640feab1",
+      "originalUrl": "https://ats.rippling.com/campspot/jobs/67d0ee6b-7f5d-4411-a80a-002712cbac5b?jr_id=6a6a7fa316c69119640feab1",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: ats.rippling.com"
+    },
+    {
+      "id": "698157fe49964d25b5e44bad",
+      "company": "Ambience Healthcare",
+      "title": "Staff Software Engineer, Distributed Systems",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/698157fe49964d25b5e44bad",
+      "originalUrl": "https://jobs.ashbyhq.com/ambiencehealthcare/5cb55a29-7fb1-49b7-a361-fb540d000a6a/application?jr_id=698157fe49964d25b5e44bad",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — ashby blocked this IP earlier"
+    },
+    {
+      "id": "6a6bf87c32f9300c3a3e1caf",
+      "company": "Medidata Solutions",
+      "title": "Senior Applications Engineer",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a6bf87c32f9300c3a3e1caf",
+      "originalUrl": "https://www.linkedin.com/jobs/view/4444519191?jr_id=6a6bf87c32f9300c3a3e1caf",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: www.linkedin.com"
+    },
+    {
+      "id": "6aa1d70fdbc0e60e37e13e7a",
+      "company": "YPO",
+      "title": "Sr. Developer, API",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1d70fdbc0e60e37e13e7a",
+      "originalUrl": "https://ypo.wd1.myworkdayjobs.com/ypo_external/job/US-Remote/Sr-Developer--API_JR100538?jr_id=6aa1d70fdbc0e60e37e13e7a",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: ypo.wd1.myworkdayjobs.com"
+    },
+    {
+      "id": "6a432697c662c35651adbd72",
+      "company": "EITACIES Inc.",
+      "title": "Senior Go (Golang) Engineer",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a432697c662c35651adbd72",
+      "originalUrl": "https://eitacies-inc.careerplug.com/jobs/3308554/apps/new",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: eitacies-inc.careerplug.com"
+    },
+    {
+      "id": "6a613f25eaa37f43e758780c",
+      "company": "Nutanix",
+      "title": "Member of Technical Staff 4",
+      "matchPercent": 78,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a613f25eaa37f43e758780c",
+      "originalUrl": "https://jobs.jobvite.com/nutanix/job/oNpwAfw2?jr_id=6a613f25eaa37f43e758780c",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: jobs.jobvite.com"
+    },
+    {
+      "id": "6a8890a94afae74a0834c5ea",
+      "company": "VibeIQ",
+      "title": "Sr. Full Stack Engineer (Backend)",
+      "matchPercent": 78,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8890a94afae74a0834c5ea",
+      "originalUrl": "https://www.linkedin.com/jobs/view/4456257571?jr_id=6a8890a94afae74a0834c5ea",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: www.linkedin.com"
+    },
+    {
+      "id": "6a84f99b58ded76ad8fea2c7",
+      "company": "Intuitive",
+      "title": "Senior Software Engineer – Simulation & ML Platform",
+      "matchPercent": 78,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a84f99b58ded76ad8fea2c7",
+      "originalUrl": "https://careers.intuitive.com/en/jobs/744000144165357/JOB218196/senior-software-engineer-simulation-ml-platform/?source=jobright&src=jobright",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: careers.intuitive.com"
+    },
+    {
+      "id": "6aa202302f936e4a53daf2e0",
+      "company": "People In AI",
+      "title": "Senior Backend Engineer",
+      "matchPercent": 78,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa202302f936e4a53daf2e0",
+      "originalUrl": "https://www.linkedin.com/jobs/view/4465080553?jr_id=6aa202302f936e4a53daf2e0",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: www.linkedin.com"
+    },
+    {
+      "id": "69e2cdfdfcfcbd43860a4ae7",
+      "company": "TRM Labs",
+      "title": "Senior Software Engineer, Graph Analytics",
+      "matchPercent": 78,
+      "jobrightUrl": "https://jobright.ai/jobs/info/69e2cdfdfcfcbd43860a4ae7",
+      "originalUrl": "https://www.trmlabs.com/careers?ashby_jid=5f814d06-0151-4390-94de-9f3e56a59923",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: www.trmlabs.com"
+    },
+    {
+      "id": "6a8f87fc8ffa38557e6c996d",
+      "company": "Charles River Laboratories",
+      "title": "Senior Software Engineer",
+      "matchPercent": 78,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8f87fc8ffa38557e6c996d",
+      "originalUrl": "https://careers.criver.com/job/Charleston-Senior-Software-Engineer-SC-29407/1421713000/?jr_id=6a8f87fc8ffa38557e6c996d",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: careers.criver.com"
+    },
+    {
+      "id": "6a6e91b3ad0fe2053db9e2b3",
+      "company": "New York Life",
+      "title": "Senior Associate- Full Stack Software Engineer- AI",
+      "matchPercent": 78,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a6e91b3ad0fe2053db9e2b3",
+      "originalUrl": "https://newyorklife.eightfold.ai/careers?pid=43317864",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: newyorklife.eightfold.ai"
+    },
+    {
+      "id": "6a7b0acdbc05d77f2bddc7e6",
+      "company": "UMATR",
+      "title": "Software Engineer - Rust / C++ / Go",
+      "matchPercent": 78,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7b0acdbc05d77f2bddc7e6",
+      "originalUrl": "https://www.linkedin.com/jobs/view/4449833619?jr_id=6a7b0acdbc05d77f2bddc7e6",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: www.linkedin.com"
+    },
+    {
+      "id": "6a6a505419d76667a2abee5d",
+      "company": "Justworks",
+      "title": "Senior Software Engineer, Partnerships",
+      "matchPercent": 77,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a6a505419d76667a2abee5d",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=justworks",
+      "status": "needs_answers",
+      "note": "2026-09-10 batch sweep: needs_answers — missing: [\"Justworks believes in a \\\"flexwork\\\" model where teammates have at least\",\"If requested, would you be able to provide documentation reflecting th\"]"
+    },
+    {
+      "id": "6aa057473b5aa83237b087e6",
+      "company": "eBay",
+      "title": "Senior Python Engineer, AI",
+      "matchPercent": 77,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa057473b5aa83237b087e6",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a926723c12c90443efc9ded",
+      "company": "CGI",
+      "title": "AWS Python Developer",
+      "matchPercent": 77,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a926723c12c90443efc9ded",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a5e13d2270e3033b045bc81",
+      "company": "Anysphere",
+      "title": "Software Engineer, Services Platform",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5e13d2270e3033b045bc81",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa0547edbc0e60e37e0cf2f",
+      "company": "Grindr",
+      "title": "Senior Software Engineer, Backend",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa0547edbc0e60e37e0cf2f",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa08ddda2266b538d23111f",
+      "company": "X, The Moonshot Factory",
+      "title": "Backend Software Engineer, Agentic Data Platform-NYC (Tapestry)",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa08ddda2266b538d23111f",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a718c9e71acd469eeda3378",
+      "company": "Red Ventures",
+      "title": "Senior Software Engineer",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a718c9e71acd469eeda3378",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a73ac1e32ebbc14ffb507db",
+      "company": "Vast",
+      "title": "Senior Software Engineer, Enterprise Applications",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a73ac1e32ebbc14ffb507db",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa0e40d3b5aa83237b0b470",
+      "company": "Comet Plasma Control Technologies",
+      "title": "Senior Software Eng. - SMC Global",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa0e40d3b5aa83237b0b470",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a835bed9b859b227766e4b1",
+      "company": "Smarsh",
+      "title": "Senior Software Engineer, Python + AI Platform",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a835bed9b859b227766e4b1",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa03b7ca2266b538d22eed0",
+      "company": "PMAT, Inc.",
+      "title": "Programmer Engineer – Level III",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa03b7ca2266b538d22eed0",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a596ca6686b4755d1e10725",
+      "company": "Relativity Space",
+      "title": "Senior Software Engineer, Full Stack",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a596ca6686b4755d1e10725",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a63c69387cef057612ca86a",
+      "company": "Chainguard",
+      "title": "Senior Software Engineer, Developer Platform",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a63c69387cef057612ca86a",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa0d3325b2d5633ef3c0901",
+      "company": "University of Utah",
+      "title": "Software Development Engineer",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa0d3325b2d5633ef3c0901",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a836d562dbaf907b076896a",
+      "company": "Ampliwork",
+      "title": "Senior Python Developer",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a836d562dbaf907b076896a",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a4f0119397d8d353c28adf5",
+      "company": "West Monroe",
+      "title": "Senior Software Engineer-Tech Ex AI Assets Foundry Team",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a4f0119397d8d353c28adf5",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa06025a2266b538d22fee4",
+      "company": "Quantum",
+      "title": "Senior Full Stack UI Engineer",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa06025a2266b538d22fee4",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a2856bffd37e62bb47a8642",
+      "company": "Bellota Labs",
+      "title": "Senior Software Engineer (Mandarin-speaking)",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a2856bffd37e62bb47a8642",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa1ae272f936e4a53dad737",
+      "company": "Lineage",
+      "title": "Senior Software Engineer - LinOS Connect",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1ae272f936e4a53dad737",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a48a2bef9cbb100d1ab2dcf",
+      "company": "Amplitude",
+      "title": "Senior Software Engineer (Infrastructure )",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a48a2bef9cbb100d1ab2dcf",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a08a77ca203b1052e445743",
+      "company": "AV",
+      "title": "Software Engineer",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a08a77ca203b1052e445743",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a5ee2b1270e3033b0460163",
+      "company": "Vidorra Consulting Group",
+      "title": "Java Backend with AI agent development",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5ee2b1270e3033b0460163",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa1a0382f936e4a53dad0d0",
+      "company": "AtGames Cloud Holdings Ltd.",
+      "title": "Full Stack Engineer",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1a0382f936e4a53dad0d0",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "69f2a4c28d8d624381aa1ee0",
+      "company": "Illumio",
+      "title": "Sr. Staff Engineer",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/69f2a4c28d8d624381aa1ee0",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a92aada9864261ccd2a0eaa",
+      "company": "GitHub",
+      "title": "Senior Software Engineer, Code Search",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a92aada9864261ccd2a0eaa",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a8a72d74afae74a0834fe47",
+      "company": "Adobe",
+      "title": "Software Development Engineer 4",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8a72d74afae74a0834fe47",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a989ffbc8ed473c5c7652c3",
+      "company": "Microsoft",
+      "title": "Senior Software Engineer, Ads",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a989ffbc8ed473c5c7652c3",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a4671bf4f64ba41dcb53553",
+      "company": "Qualcomm",
+      "title": "Sr. Engineer, AI Platforms",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a4671bf4f64ba41dcb53553",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a57ca45f7517b519ad5d190",
+      "company": "Tarro",
+      "title": "Software Engineer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a57ca45f7517b519ad5d190",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a3c71ac8bfad862bc99a709",
+      "company": "Axon",
+      "title": "Senior Software Engineer, Axon 911",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a3c71ac8bfad862bc99a709",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a5b59323ac7627fe9008278",
+      "company": "Sigma",
+      "title": "Senior Software Engineer - Fullstack",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5b59323ac7627fe9008278",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a965537c8763a3a87fff434",
+      "company": "Siemens Digital Industries Software",
+      "title": "Web AI Software Engineer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a965537c8763a3a87fff434",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a7f2607ad9ff00c26baccaa",
+      "company": "Kinaxis",
+      "title": "Senior Software Developer, Developer Experience and Administration",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7f2607ad9ff00c26baccaa",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9819abaf954907d6571550",
+      "company": "Ensono",
+      "title": "Senior Software Engineer - Mainframe",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9819abaf954907d6571550",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a99b9c5040e5c3d075985aa",
+      "company": "QBA Worldwide",
+      "title": "Sr. Developer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a99b9c5040e5c3d075985aa",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a989f5f83fc6333576329c4",
+      "company": "Shipcom",
+      "title": "Back-end Developer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a989f5f83fc6333576329c4",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9ab55fd5ff1f3f1c39b1d1",
+      "company": "Cloudera",
+      "title": "Senior Software Engineer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9ab55fd5ff1f3f1c39b1d1",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a560d89e9b77f668bd610e4",
+      "company": "ŌURA",
+      "title": "Senior Backend Engineer (Python)",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a560d89e9b77f668bd610e4",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a43784dc8bca56ab2247caf",
+      "company": "Runpod",
+      "title": "Senior Software Engineer (Cloud)",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a43784dc8bca56ab2247caf",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a1de5bce24ef3652583aa00",
+      "company": "The Farmer's Dog",
+      "title": "Senior Software Engineer 2",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a1de5bce24ef3652583aa00",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "69cc4d00cdb525785fb7ab45",
+      "company": "1Password",
+      "title": "Senior Developer, Growth",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/69cc4d00cdb525785fb7ab45",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a396001f6b55d12c7927833",
+      "company": "Tranzeal Incorporated",
+      "title": "Java Microservices (Backend) Developer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a396001f6b55d12c7927833",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a52f6268ef95364ead907b8",
+      "company": "Level",
+      "title": "Senior Backend Engineer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a52f6268ef95364ead907b8",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a8e01e447679c68bf5e6256",
+      "company": "Quevera",
+      "title": "Backend Software Developer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8e01e447679c68bf5e6256",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa08822dbc0e60e37e0e424",
+      "company": "Scout Motors Inc.",
+      "title": "Senior Software Engineer-Backend",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa08822dbc0e60e37e0e424",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa10153dbc0e60e37e10196",
+      "company": "LTM",
+      "title": "Senior Specialist - Software Engineering",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa10153dbc0e60e37e10196",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a51c42778e364789ca5c7ac",
+      "company": "Hypervolt",
+      "title": "Senior Software Engineer - UltraGrid",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a51c42778e364789ca5c7ac",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa07372a2266b538d23076d",
+      "company": "United Airlines",
+      "title": "Senior Developer - Application Development",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa07372a2266b538d23076d",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a942d5c3603630099199762",
+      "company": "Odyssey",
+      "title": "Senior Software Engineer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a942d5c3603630099199762",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa072fd5b2d5633ef3beaed",
+      "company": "Globant",
+      "title": "Senior Software Engineer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa072fd5b2d5633ef3beaed",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9cedbfc1d6f91bc3885231",
+      "company": "Alpaca",
+      "title": "Senior Full-Stack Engineer - Alpaca Connect",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9cedbfc1d6f91bc3885231",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa0be6a3b5aa83237b0ae0d",
+      "company": "Significance",
+      "title": "Senior Programmer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa0be6a3b5aa83237b0ae0d",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a834c84379c304e892f648f",
+      "company": "Illumina",
+      "title": "Sr Software Engineer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a834c84379c304e892f648f",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a1a6635e24ef3652582b8c9",
+      "company": "Georgia IT, Inc.",
+      "title": "Data Engineer - Renton, WA",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a1a6635e24ef3652582b8c9",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa061d5ea127c3794696b15",
+      "company": "Aspida",
+      "title": "Software Engineer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa061d5ea127c3794696b15",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a0723f324dcb03739f226ea",
+      "company": "dv01",
+      "title": "Sr. Backend Engineer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a0723f324dcb03739f226ea",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a641a8a87cef057612cbdf8",
+      "company": "Omada Health",
+      "title": "Senior Software Engineer, AI Transformation",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a641a8a87cef057612cbdf8",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a733ca16a034212ea0263f9",
+      "company": "Apollo.io",
+      "title": "Senior Software Engineer (Hybrid, San Francisco)",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a733ca16a034212ea0263f9",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa0236ddbc0e60e37e0b99a",
+      "company": "Methodic",
+      "title": "Backend Software Engineer (C#/.NET)",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa0236ddbc0e60e37e0b99a",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "69f269148d8d624381aa0a72",
+      "company": "GE HealthCare",
+      "title": "Senior Software Engineer",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/69f269148d8d624381aa0a72",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa1372cef23570cae242ffa",
+      "company": "Naehas",
+      "title": "Senior Software Engineer - l",
+      "matchPercent": 75,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1372cef23570cae242ffa",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9e67aa49f4604c7894ed47",
+      "company": "T-Rex Solutions, LLC",
+      "title": "Senior Software Engineer 3",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9e67aa49f4604c7894ed47",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a52aa448576ec69c014ceaa",
+      "company": "Dragos, Inc.",
+      "title": "Senior Software Engineer - Backend",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a52aa448576ec69c014ceaa",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9dc41d2c964816f65eb434",
+      "company": "Agneyas Labs",
+      "title": "Software Engineer – Platform",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9dc41d2c964816f65eb434",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a432e9ab0f2553559ece45d",
+      "company": "TikTok",
+      "title": "Senior Backend Software Engineer - TikTok Privacy & Security, Online Infra",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a432e9ab0f2553559ece45d",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a50b28d42c6dc326e8eb672",
+      "company": "OpenEye",
+      "title": "Senior Software Engineer",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a50b28d42c6dc326e8eb672",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a69876412e2925ae3f9a838",
+      "company": "ideaVat LLC",
+      "title": "Senior Backend Engineer",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a69876412e2925ae3f9a838",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9f499bf6ea002358297bc8",
+      "company": "BluJuniper",
+      "title": "Senior Backend Engineer",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9f499bf6ea002358297bc8",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a3337967f3fdd180d4c603c",
+      "company": "Spreetail",
+      "title": "Software Engineer III (FC Ops)",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a3337967f3fdd180d4c603c",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a95e1ff9fcec5442372fcd4",
+      "company": "University of Delaware",
+      "title": "Research Software Engineer, UD Institute for Data Science",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a95e1ff9fcec5442372fcd4",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9af26fd5ff1f3f1c39bf2e",
+      "company": "Anblicks",
+      "title": "Lead Golang Developer",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9af26fd5ff1f3f1c39bf2e",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a5facc3f68dd368023e7f6c",
+      "company": "Match Group",
+      "title": "Sr. Software Engineer, MarTech",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5facc3f68dd368023e7f6c",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9ee60f352f093fc756d0aa",
+      "company": "CoreAi Consulting",
+      "title": "Java Software Engineer",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9ee60f352f093fc756d0aa",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a51e96802522b5b722ed466",
+      "company": "Deluxe",
+      "title": "Senior Software Engineer – AI & Workflow Automation",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a51e96802522b5b722ed466",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a682d7551eb742d7275654e",
+      "company": "BNY",
+      "title": "Full-Stack Engineer",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a682d7551eb742d7275654e",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a0f853112f8b43cf397ff20",
+      "company": "Hedra",
+      "title": "Senior Backend Engineer",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a0f853112f8b43cf397ff20",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa01c18500b01124c776da9",
+      "company": "VT Group (VTG)",
+      "title": "Software Development Engineer",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa01c18500b01124c776da9",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a57d6b521f64463ad35c72c",
+      "company": "Wikimedia Foundation",
+      "title": "Senior Software Engineer, Wikidata Platform",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a57d6b521f64463ad35c72c",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa02cc8a2266b538d22e886",
+      "company": "Replit",
+      "title": "Senior Software Engineer, Growth Enablement",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa02cc8a2266b538d22e886",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa075da5b2d5633ef3bec55",
+      "company": "IBM",
+      "title": "Senior Software Engineer II: Product Security Access Management (REMOTE)",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa075da5b2d5633ef3bec55",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa057335b2d5633ef3bdff0",
+      "company": "Victoria’s Secret & Co.",
+      "title": "Senior Applications Developer",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa057335b2d5633ef3bdff0",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "682ccf18571c7bb01aee3e61",
+      "company": "Datadog",
+      "title": "Senior Staff Software Engineer",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/682ccf18571c7bb01aee3e61",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa02147a2266b538d22e557",
+      "company": "ATG",
+      "title": "Senior Python Engineer",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa02147a2266b538d22e557",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa08915500b01124c779a92",
+      "company": "Think Consulting",
+      "title": "Python Application Developer (In-Person Weekend Drive)",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa08915500b01124c779a92",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a4e20f40ea38951a6ff23c2",
+      "company": "Footprint",
+      "title": "Member of Technical Staff (Backend)",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a4e20f40ea38951a6ff23c2",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa1a308dbc0e60e37e12b7b",
+      "company": "Waymo",
+      "title": "Senior Software Engineer, Internal Tooling",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1a308dbc0e60e37e12b7b",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa1cb71500b01124c77f164",
+      "company": "Abbott",
+      "title": "Sr. Software Engineer",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1cb71500b01124c77f164",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a61366dd51f6101c8fba490",
+      "company": "Greenlight",
+      "title": "Senior Software Engineer, Full-Stack (Web Core)",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a61366dd51f6101c8fba490",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a691c0436d36c1ff29983bb",
+      "company": "Cubic Corporation",
+      "title": "Senior Software Engineer - Unified Video Sustainment",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a691c0436d36c1ff29983bb",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a8be3d3680f314a29d42087",
+      "company": "Playlist",
+      "title": "Sr Software Engineer - Backend",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8be3d3680f314a29d42087",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a5dde3427bf767ea68f33f3",
+      "company": "Prometric",
+      "title": "Sr Software Engineer",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5dde3427bf767ea68f33f3",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9df1f575edfa11b471007b",
+      "company": "UST HealthProof",
+      "title": "Java Backend Engineer",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9df1f575edfa11b471007b",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a597bcb3ac7627fe9fff790",
+      "company": "Mphasis",
+      "title": "Senior Software Engg - Systems",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a597bcb3ac7627fe9fff790",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a50aaa142c6dc326e8eb08d",
+      "company": "NinjaOne",
+      "title": "Senior Software Engineer, Java",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a50aaa142c6dc326e8eb08d",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a5da655686b4755d1e1e77f",
+      "company": "Zel Technologies LLC",
+      "title": "Sr. Software Engineer",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5da655686b4755d1e1e77f",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "68c2187763b706703e1117c6",
+      "company": "FieldAI",
+      "title": "2.72 Software Engineer, Product",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/68c2187763b706703e1117c6",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a29bbf2d3ec8317fe1401e8",
+      "company": "Paramount",
+      "title": "Sr. Software Engineer, Data Streaming Systems",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a29bbf2d3ec8317fe1401e8",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a654041979290281c707c33",
+      "company": "AmaWaterways River Cruises",
+      "title": "Sr Software Engineer Backend IC",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a654041979290281c707c33",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a02252fc2ffb31f45369fd5",
+      "company": "KLA",
+      "title": "High Performance Compute (HPC) Software Engineer – HPC SW Systems",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a02252fc2ffb31f45369fd5",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6978e2d652f3c27ec645225d",
+      "company": "Amentum",
+      "title": "Software Engineer – Level 1",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6978e2d652f3c27ec645225d",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a02227ac4b08448a0b22fed",
+      "company": "Patch My PC",
+      "title": "Software Engineer, Backend",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a02227ac4b08448a0b22fed",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa0facfa2266b538d232b67",
+      "company": "NVIDIA AI",
+      "title": "Senior AI Workflow Engineer",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa0facfa2266b538d232b67",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a8da42025fc4e7ae3dbcb37",
+      "company": "StreamTV",
+      "title": "Backend Engineer (m/f/x)",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8da42025fc4e7ae3dbcb37",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a636b08e8d8d22e32928a48",
+      "company": "GRVTY",
+      "title": "Senior Software Engineer",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a636b08e8d8d22e32928a48",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa014cbdbc0e60e37e0b4ee",
+      "company": "Highmark Health",
+      "title": "Software Engineer",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa014cbdbc0e60e37e0b4ee",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a84b5622f4f0014cae2248e",
+      "company": "Cantina Labs",
+      "title": "Media Software Engineer, Speech (Senior-Staff Levels)",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a84b5622f4f0014cae2248e",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "69f327a91f90bd6ae23cdc7c",
+      "company": "Guidewire Software",
+      "title": "Senior Software Engineer - Cloud Data Platform",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/69f327a91f90bd6ae23cdc7c",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "69bcd6dde6a0d9792584f7d7",
+      "company": "YipitData",
+      "title": "Tech Lead - Senior Software Engineer",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/69bcd6dde6a0d9792584f7d7",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a5f1586270e3033b0460a06",
+      "company": "Chainlink Labs",
+      "title": "Senior Software Engineer, Data Products",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5f1586270e3033b0460a06",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a50f4f18d7d3e6cf1cbda17",
+      "company": "Actively",
+      "title": "Senior / Staff Software Engineer (AI Agents)",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a50f4f18d7d3e6cf1cbda17",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a52770b8a74e077472f4bae",
+      "company": "Ross Stores, Inc.",
+      "title": "Engineer II",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a52770b8a74e077472f4bae",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a6a422819d76667a2abe920",
+      "company": "The Depository Trust & Clearing Corporation (DTCC)",
+      "title": "Senior Java/Python Developer",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a6a422819d76667a2abe920",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a93d4e58e5968545337c5be",
+      "company": "Clear Fracture",
+      "title": "Senior Software Engineer (Auth & Identity)",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a93d4e58e5968545337c5be",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa1aac90ffb3d4fea6b66a7",
+      "company": "ALSO.",
+      "title": "Senior Cloud Backend Developer",
+      "matchPercent": 73,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1aac90ffb3d4fea6b66a7",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a5138be57513b72e0c64f0a",
+      "company": "CallRail",
+      "title": "Senior Software Engineer",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5138be57513b72e0c64f0a",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a5951d13ac7627fe9ffeb1f",
+      "company": "Scientific Research Corporation",
+      "title": "Software Engineer III / Senior",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5951d13ac7627fe9ffeb1f",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9c2f2775edfa11b470d96b",
+      "company": "OPENDataJobs",
+      "title": "Senior Python Developer, Serverless/AWS",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9c2f2775edfa11b470d96b",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9ddf6168f82b4036738514",
+      "company": "The Imagine Group, An Imagine Company",
+      "title": "Software Engineer III (Java, Spring Boot) 2778",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9ddf6168f82b4036738514",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a7f93a5e2030208f276f874",
+      "company": "Ford Motor Company",
+      "title": "Software Engineer",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7f93a5e2030208f276f874",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a7f9abdad9ff00c26baf5dd",
+      "company": "Weave",
+      "title": "Senior Backend Engineer- Users Infrastructure",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7f9abdad9ff00c26baf5dd",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a6b57cf5c54bc4752ce8643",
+      "company": "Mozilla",
+      "title": "Senior Backend Engineer, Ecosystems",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a6b57cf5c54bc4752ce8643",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa11bc1b766020e9cd28d28",
+      "company": "Jane Street",
+      "title": "Formal Methods Engineer",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa11bc1b766020e9cd28d28",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "69ea4f840a6e0955530401a0",
+      "company": "Notion",
+      "title": "Software Engineer, Collections Experience",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/69ea4f840a6e0955530401a0",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "69d942d2869c7e25d8599d49",
+      "company": "Klaviyo",
+      "title": "Senior Software Engineer - Growth",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/69d942d2869c7e25d8599d49",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a7b452d3b399d106e4d54e7",
+      "company": "Nakupuna Companies",
+      "title": "Senior Software Engineer/Developer",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7b452d3b399d106e4d54e7",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a4b45ddc2d11a6a466776e5",
+      "company": "Asana",
+      "title": "Senior Software Engineer",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a4b45ddc2d11a6a466776e5",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a52160b8a74e077472f3018",
+      "company": "Wolters Kluwer",
+      "title": "Senior Full Stack Engineer, AI Platform & Agents (US/Canada Hybrid/Remote)",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a52160b8a74e077472f3018",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a28ebab2d6c332ee52e8c98",
+      "company": "Synechron",
+      "title": "Senior Python Developer with AI ML Experience",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a28ebab2d6c332ee52e8c98",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa0456e5b2d5633ef3bd961",
+      "company": "Fastly",
+      "title": "Senior Backend Software Engineer (APIs)",
+      "matchPercent": 72,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa0456e5b2d5633ef3bd961",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9e6d1127c94c3d5a1cc8e4",
+      "company": "Aegon",
+      "title": "Specialist Software Engineering - Amazon Connect",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9e6d1127c94c3d5a1cc8e4",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "69a8bc0179f3f4037f43299c",
+      "company": "Andela",
+      "title": "Staff Fullstack Engineer",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/69a8bc0179f3f4037f43299c",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a3dfa178bfad862bc99edea",
+      "company": "SeatGeek",
+      "title": "Senior Software Engineer",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a3dfa178bfad862bc99edea",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "69f36cba461b9b613a62040a",
+      "company": "Raft",
+      "title": "Senior Software Engineer",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/69f36cba461b9b613a62040a",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a7652b17b3417772ade7dfd",
+      "company": "Samsara",
+      "title": "Staff Software Engineer",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7652b17b3417772ade7dfd",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a8c9c3e581f2d7bfdfe4b2e",
+      "company": "Anthropic",
+      "title": "Staff + Sr. Software Engineer, Scaling",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8c9c3e581f2d7bfdfe4b2e",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a5a1a29c8e3a473cb8a9e14",
+      "company": "PubMatic",
+      "title": "Principal / Senior Software Engineer - Mobile Monetization (Ad Server)",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5a1a29c8e3a473cb8a9e14",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9f680ea7ba386c5d674f99",
+      "company": "Finch",
+      "title": "Member of Technical Staff, Software Engineer",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9f680ea7ba386c5d674f99",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a51298f78e364789ca5970d",
+      "company": "Broadcom",
+      "title": "R&D Software Engineer",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a51298f78e364789ca5970d",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a626080846162391c9357c7",
+      "company": "Sidecar Health",
+      "title": "Senior Software Engineer, Full Stack (Member Experience)",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a626080846162391c9357c7",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa0369dea127c379469586f",
+      "company": "Hexaware Technologies",
+      "title": "Python Full Stack Engineer - Professional",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa0369dea127c379469586f",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9886f183fc633357631fd6",
+      "company": "Value Innovation Labs",
+      "title": "Python Developer With Django",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9886f183fc633357631fd6",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a5fb91f193b51130967a402",
+      "company": "Bitovi",
+      "title": "Backend / Platform Developer Consultant (Temporal & Kubernetes)",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5fb91f193b51130967a402",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a50dc3ff108cb138971f959",
+      "company": "Pure Storage",
+      "title": "Senior Software Engineer - Production Engineer",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a50dc3ff108cb138971f959",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a7cd02d83621355407abfc7",
+      "company": "Improvado",
+      "title": "Full-Stack AI Engineer (AI Development team)",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7cd02d83621355407abfc7",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a0cfbaf22d0d34036c9a906",
+      "company": "Ro",
+      "title": "Senior Backend Engineer, Product",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a0cfbaf22d0d34036c9a906",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa1a2efef23570cae245462",
+      "company": "CACI International Inc",
+      "title": "Sr Backend Software Developer",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1a2efef23570cae245462",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a68f3945d01972698ee571d",
+      "company": "Arcesium",
+      "title": "Senior Software Engineer - Infrastructure",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a68f3945d01972698ee571d",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a56710321f64463ad354973",
+      "company": "Block",
+      "title": "Senior Software Engineer, Cash App Taxes",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a56710321f64463ad354973",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a593b79686b4755d1e0f2f1",
+      "company": "Snap Inc.",
+      "title": "Software Engineer, Backend, Level 5 – Ads Delivery",
+      "matchPercent": 71,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a593b79686b4755d1e0f2f1",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a506f2a397d8d353c28ea8e",
+      "company": "Kizen",
+      "title": "Senior Backend Engineer",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a506f2a397d8d353c28ea8e",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a5557c3377f983ce8a99853",
+      "company": "Alteryx",
+      "title": "Sr. Software Engineer",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5557c3377f983ce8a99853",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a99e27e040e5c3d07599905",
+      "company": "ServiceNow",
+      "title": "Senior Software Engineer, Agentic Systems - Moveworks",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a99e27e040e5c3d07599905",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9ad1ae9c24314c35f95767",
+      "company": "DAW Systems Inc. - ScriptSure",
+      "title": "Senior Software Engineer",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9ad1ae9c24314c35f95767",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9e5cd249f4604c7894e9c9",
+      "company": "Micron Technology",
+      "title": "SR AI ENGINEER, SMAI",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9e5cd249f4604c7894e9c9",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a7607ac7b3417772ade640c",
+      "company": "Papa",
+      "title": "Senior Backend Engineer (Community)",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7607ac7b3417772ade640c",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9f52eda7ba386c5d674acb",
+      "company": "Bridgewater Associates",
+      "title": "Sr. Software Engineer, Infrastructure",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9f52eda7ba386c5d674acb",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a8380b99b859b227766f67a",
+      "company": "AssetMark",
+      "title": "Senior Software Engineer",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8380b99b859b227766f67a",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a5a7b3e63a8f619507c741c",
+      "company": "DigitalOcean",
+      "title": "Senior Software Engineer II - Action Infrastructure - Action Runtime",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5a7b3e63a8f619507c741c",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa0e2163b5aa83237b0b3fd",
+      "company": "Nathan Kunes Inc (NKI Engineering)",
+      "title": "Senior Software Engineer",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa0e2163b5aa83237b0b3fd",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a5323db9fbdab22fe13e6d5",
+      "company": "Neuralink",
+      "title": "Software Engineer, Implant Manufacturing",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5323db9fbdab22fe13e6d5",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a9053368ffa38557e6cc314",
+      "company": "Astrion",
+      "title": "Senior Software Engineer",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9053368ffa38557e6cc314",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6aa18c23dbc0e60e37e11dfa",
+      "company": "Arkhya Tech. Inc.",
+      "title": "Python Engineer with GCP exp",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa18c23dbc0e60e37e11dfa",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a69b7748693c23e7fb771ce",
+      "company": "JUNE GmbH",
+      "title": "AI-First Senior Software Entwickler (m/w/d)",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a69b7748693c23e7fb771ce",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a4e7a29fc327f422fef2e9e",
+      "company": "Rockwell Automation",
+      "title": "Senior Industrial Software Engineer",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a4e7a29fc327f422fef2e9e",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a51c6c68d7d3e6cf1cc2bc3",
+      "company": "Tekmetric",
+      "title": "Senior Software Engineer (Backend)",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a51c6c68d7d3e6cf1cc2bc3",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a4b99dd4f64ba41dcb5c91e",
+      "company": "KoBold Metals",
+      "title": "Senior Software Engineer, Decision Science",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a4b99dd4f64ba41dcb5c91e",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+    },
+    {
+      "id": "6a74ebfbb17cba5690358546",
+      "company": "Gridware",
+      "title": "Senior Software Engineer, Grid Communications",
+      "matchPercent": 70,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a74ebfbb17cba5690358546",
+      "status": "park",
+      "note": "2026-09-10 batch sweep: park — no ATS url discovered"
     }
   ],
   "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."

@@ -578,3 +578,34 @@ Brain-queue: 47 open, POLICY entries annotated; SpaceX/Oklo/Canonical handled pe
 - Yoodli AI Roleplays — Senior Software Engineer- Backend (Roleplays) (86%) — greenhouse, confirmed
 - Manifest Cyber — Senior Backend Application Engineer (87%) — greenhouse, confirmed
 - Machinify — Senior Software Engineer, Backend | Audit Product Team (80%) — greenhouse, confirmed
+
+## 2026-09-10 (cloud FALLBACK window — Mac absent; GH-driver breakthrough (no-code streak) + Ashby wave; 29 confirmed so far; all-time 570)
+- Gen — Senior Backend Engineer - MoneyLion (73%) — ashby, confirmed
+- Netspend — Software Engineer Senior (83%) — ashby, confirmed
+- Distyl — Software Engineer - Back End (82%) — ashby, confirmed
+- Vibe.co — Senior Backend Engineer, Integrations (82%) — ashby, confirmed
+- Astra — Senior Backend Engineer (82%) — ashby, confirmed
+- Homebot — Senior Backend Engineer (82%) — ashby, confirmed
+- MaintainX — Senior Software Developer, API Platform and Ecosystem (88%) — ashby, confirmed
+- Harmonic — Software Engineer, Product (84%) — ashby, confirmed
+- Valency Systems Inc. — Senior Software Engineer - Backend Systems (84%) — ashby, confirmed
+- Gamma — Software Engineer, Backend (83%) — ashby, confirmed
+- Assembled — Software Engineer - Platform (81%) — ashby, confirmed
+- EverQuote — Senior Back End Software Engineer (85%) — greenhouse, confirmed
+- Apptegy — Sr. Software Engineer (80%) — greenhouse, confirmed
+- Stash — Backend Engineer III (79%) — greenhouse, confirmed
+- SimpliSafe — Senior Software Engineer, CLV Monitoring (79%) — greenhouse, confirmed
+- Justworks — Senior Developer Experience Engineer (79%) — greenhouse, confirmed
+- DoiT — Senior Software Engineer - SELECT by DoiT (81%) — greenhouse, confirmed
+- VERISIGN — Software Engineer - Rust (80%) — greenhouse, confirmed
+- Crexi — Senior Software Engineer- Full Stack (79%) — greenhouse, confirmed
+- PENN Interactive — Software Engineer, Sportsbook Platform (83%) — greenhouse, confirmed
+- Torc Robotics — Senior Software Engineer: Fleet Enablement & Insights (Map Validation & Annotation Platform) (82%) — greenhouse, confirmed
+- Clockwork Systems, Inc. — Senior Software Engineer (81%) — greenhouse, confirmed
+- Moloco — Senior Software Engineer - Experiment Platform (81%) — greenhouse, confirmed
+- BeyondTrust — Software Development Engineer (80%) — greenhouse, confirmed
+- Tubi — Senior Software Engineer, Backend (78%) — greenhouse, confirmed
+- Temporal Technologies — Senior Software Engineer, Observability (84%) — ashby, confirmed
+- Traba — Senior Software Engineer (Applied AI) (80%) — ashby, confirmed
+- Zettabyte — Senior/Staff Backend Engineer - Distributed System (80%) — ashby, confirmed
+- Genius AI — Software Engineer - All Levels (78%) — ashby, confirmed
