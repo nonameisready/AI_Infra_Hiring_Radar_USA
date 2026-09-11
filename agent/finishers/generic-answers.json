@@ -1448,7 +1448,7 @@
   {
    "label": "work authorization",
    "prefer": "F-1 (CPT)",
-   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "relocation",
@@ -1514,10 +1514,6 @@
    "label": "Other",
    "prefer": "Other",
    "type": ""
-  },
-  {
-   "label": "Security code",
-   "prefer": "[0-9]{6}"
   },
   {
    "label": "Which best describes your backend engineering experience",
@@ -1892,10 +1888,6 @@
    "prefer": "Yes"
   },
   {
-   "label": "Do you have agency experience",
-   "prefer": "No"
-  },
-  {
    "label": "Do you live in any of the following states",
    "prefer": "New Jersey"
   },
@@ -1937,7 +1929,7 @@
   {
    "label": "Work Authorization",
    "prefer": "F-1 (CPT)",
-   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "SeatGeek was founded in 2008",
@@ -1951,7 +1943,7 @@
   {
    "label": "Work Status",
    "prefer": "F-1 (CPT)",
-   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "Requires visa sponsorship",
@@ -2079,11 +2071,6 @@
    "type": "I do not wish to answer"
   },
   {
-   "label": "Pronouns",
-   "prefer": "I do not wish to answer",
-   "type": "I do not wish to answer"
-  },
-  {
    "label": "How did you hear about us",
    "prefer": "Job board",
    "type": "Job board"
@@ -2181,11 +2168,6 @@
   {
    "label": "fluent.*spoken.*other than English",
    "prefer": "None",
-   "type": ""
-  },
-  {
-   "label": "unable to provide employment sponsorship",
-   "prefer": "unable to accept",
    "type": ""
   },
   {
@@ -2305,7 +2287,7 @@
   {
    "label": "Other",
    "prefer": "Other",
-   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "US citizen",
@@ -2370,7 +2352,7 @@
   {
    "label": "Work authorization",
    "prefer": "F-1",
-   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "Are you able to be fully available during Eleventh Hours Games' core h",
@@ -2538,16 +2520,6 @@
    "type": ""
   },
   {
-   "label": "Security code",
-   "prefer": ".*",
-   "type": "N/A"
-  },
-  {
-   "label": "verification code",
-   "prefer": ".*",
-   "type": "N/A"
-  },
-  {
    "label": "Which best describes your backend engineering experience",
    "prefer": "5+ years",
    "type": ""
@@ -2575,7 +2547,7 @@
   {
    "label": "Visa.*Sponsorship|Work.*Authorization|Citizenship|Green.*Card",
    "prefer": "F-1.*CPT|EAD|Other",
-   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "Start.*Date|Available.*Immediately|Within.*2.*weeks",
@@ -2681,11 +2653,6 @@
    "label": "Do you have consultation or client-facing experience",
    "prefer": ".*Yes.*",
    "type": "Yes"
-  },
-  {
-   "label": "Do you have agency experience",
-   "prefer": ".*No.*",
-   "type": "No"
   },
   {
    "label": "Do you live in any of the following states",
@@ -2807,11 +2774,6 @@
    "type": "I agree"
   },
   {
-   "label": "unable to provide employment sponsorship",
-   "prefer": "unable to accept|decline|no|not interested",
-   "type": ""
-  },
-  {
    "label": "At this time, we're only able to hire employees working from the follo",
    "prefer": "New York, NY"
   },
@@ -2822,7 +2784,7 @@
   {
    "label": "work authorization",
    "prefer": "F-1.*CPT",
-   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "legally authorized",
@@ -3012,7 +2974,7 @@
   {
    "label": "Visa.*Sponsorship|Work.*Authorization",
    "prefer": "F-1.*CPT",
-   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "Legally.*Authorized.*Work",
@@ -3115,14 +3077,9 @@
    "type": "Job board"
   },
   {
-   "label": "unable to provide employment sponsorship",
-   "prefer": "unable to accept|decline|no",
-   "type": "text"
-  },
-  {
    "label": "Work Authorization",
    "prefer": "F-1.*CPT",
-   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "I have built or worked on event-driven systems using cloud services",
@@ -3269,7 +3226,7 @@
   {
    "label": "Work Authorization.*Visa",
    "prefer": "F-1.*CPT",
-   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "Visa Sponsorship",
@@ -3324,7 +3281,7 @@
   {
    "label": "work authorization document",
    "prefer": "F-1 \\(CPT\\)",
-   "type": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "security clearance",
@@ -3338,11 +3295,6 @@
   },
   {
    "label": "Python",
-   "prefer": "Yes",
-   "type": ""
-  },
-  {
-   "label": "Go",
    "prefer": "Yes",
    "type": ""
   },
@@ -3379,6 +3331,291 @@
   {
    "label": "previous employer",
    "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "How soon after an offer are you available to start",
+   "prefer": "Immediately"
+  },
+  {
+   "label": "With your permission, we may use AI transcription software",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Onsite or hybrid",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Start date within 2 weeks",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "EEO demographics",
+   "prefer": "I do not wish to answer",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "Hispanic or Latino",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "language.*fluent.*spoken.*other than English",
+   "prefer": "Chinese",
+   "type": ""
+  },
+  {
+   "label": "language.*fluent.*written.*other than English",
+   "prefer": "Chinese",
+   "type": ""
+  },
+  {
+   "label": "Privacy",
+   "prefer": "I agree",
+   "type": ""
+  },
+  {
+   "label": "Requires visa sponsorship",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Legally authorized to work",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Eligible to begin employment",
+   "prefer": "Yes"
+  },
+  {
+   "label": "passionate about tacking the issues that matter most",
+   "prefer": "I share your passion for tackling critical social issues",
+   "type": ""
+  },
+  {
+   "label": "legally authorized to work in the US",
+   "prefer": "YES",
+   "type": ""
+  },
+  {
+   "label": "requires visa sponsorship|immigration support",
+   "prefer": "YES",
+   "type": ""
+  },
+  {
+   "label": "US citizen|permanent resident|green card holder",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "government employee|security clearance|clearance",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "onsite|hybrid|relocation|commute|RTO",
+   "prefer": "YES",
+   "type": ""
+  },
+  {
+   "label": "available to start|immediately|within 2 weeks",
+   "prefer": "YES",
+   "type": ""
+  },
+  {
+   "label": "previously worked for this company|relatives|referral",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "non-compete|restrictive agreement|conflict of interest",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "EEO|demographics|gender|race|veteran|disability|sexual orientation|pronouns",
+   "prefer": "I do not wish to answer",
+   "type": ""
+  },
+  {
+   "label": "AI usage|AI tools|artificial intelligence",
+   "prefer": "Yes, I use AI tools deeply in my daily engineering workflow",
+   "type": ""
+  },
+  {
+   "label": "5+ years software development|programming languages|SDLC|system design|microservices|APIs|mentoring|backend|payment systems|market data",
+   "prefer": "YES",
+   "type": ""
+  },
+  {
+   "label": "8 years Golang|TypeScript UI|C#/.NET|narrow stack",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Due to ITAR regulations",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Visa.*Sponsorship",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Work.*Authorization.*US",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "F-1.*CPT",
+   "prefer": "F-1 (CPT)",
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
+  },
+  {
+   "label": "Government.*Employee",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Security.*Clearance",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "US.*Citizen",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Permanent.*Resident",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Onsite.*Hybrid",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Start.*Date",
+   "prefer": "Immediately",
+   "type": "Immediately"
+  },
+  {
+   "label": "Background.*Check",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "EEO.*Gender",
+   "prefer": "I do not wish to answer",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "EEO.*Race",
+   "prefer": "I do not wish to answer",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "EEO.*Veteran",
+   "prefer": "I do not wish to answer",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "EEO.*Disability",
+   "prefer": "I do not wish to answer",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "EEO.*Sexual.*Orientation",
+   "prefer": "I do not wish to answer",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "EEO.*Pronouns",
+   "prefer": "I do not wish to answer",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "Non.*Compete",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Securities.*License",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Software.*Engineer.*5.*Years",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Python",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "TypeScript",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "SQL",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Distributed.*Systems",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "AWS",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "System.*Design",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Payment.*Systems",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Market.*Data",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Previously.*Worked.*Vercel",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Relatives.*Company",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "How.*Hear.*Us",
+   "prefer": "Job board",
+   "type": "Job board"
+  },
+  {
+   "label": "requires visa sponsorship",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "F-1|CPT",
+   "prefer": "F-1 (CPT)",
    "type": ""
   }
  ],
@@ -3453,7 +3690,7 @@
   },
   {
    "label": "basis of your current employment authorization",
-   "text": "Current authorization: F-1 student visa with CPT work authorization (issued through my school and renewable). An I-140 has been filed and approved on my behalf, and my I-485 is pending. For long-term employment I will require company sponsorship (e.g., H-1B)."
+   "text": "Current authorization: F-1 with CPT/EAD work authorization, valid through 05/31/2027. An employment-based I-140 has been filed and approved on my behalf, and I previously held an approved and activated H-1B (cap-counted), so a new employer can file a cap-exempt H-1B transfer with no lottery. I will require company sponsorship."
   },
   {
    "label": "why do you want to join figma",
@@ -3557,7 +3794,7 @@
   },
   {
    "label": "what type of visa are you currently on and when does it expire",
-   "text": "F-1 with CPT-based work authorization (renewed through my school; no fixed near-term expiry). An approved I-140 is on file and my I-485 is pending; I will require H-1B or similar sponsorship for long-term employment."
+   "text": "F-1 with CPT/EAD-based work authorization, valid through 05/31/2027. An employment-based I-140 is approved on file and my H-1B was previously approved and activated (cap-counted), so a new employer files a cap-exempt H-1B transfer — no lottery. I will require sponsorship for long-term employment."
   },
   {
    "label": "where have you most recently worked",
@@ -3949,7 +4186,7 @@
   },
   {
    "label": "What else should we know when screening your application",
-   "text": "I am a Senior Backend Software Engineer with 7 years of experience building high-scale distributed systems in fintech. I am authorized to work in the US on an F-1 visa until 05/31/2027 with an I-485 pending, and I am available to start immediately. I am eager to apply my experience in scaling transaction platforms to the gaming industry."
+   "text": "I am a Senior Backend Software Engineer with 7 years of experience building high-scale distributed systems in fintech. I am authorized to work in the US on an F-1 visa until 05/31/2027, and I am available to start immediately. I am eager to apply my experience in scaling transaction platforms to the gaming industry."
   },
   {
    "label": "Now a fun one! What game have you put the highest amount of playtime h",
@@ -3961,7 +4198,7 @@
   },
   {
    "label": "visa sponsorship",
-   "text": "Yes, I require visa sponsorship now and in the future. I am currently authorized to work in the US on an F-1 (CPT) visa valid through 05/31/2027, with an I-485 pending."
+   "text": "Yes, I require visa sponsorship now and in the future. I am currently authorized to work in the US on an F-1 (CPT) visa valid through 05/31/2027 (cap-exempt H-1B transfer eligible; employment-based I-140 approved)."
   },
   {
    "label": "relocation",
@@ -4040,10 +4277,6 @@
    "text": "No, I have not customized or extended a LIMS or ELN, as my experience is focused on building scalable transaction platforms and quantitative data systems."
   },
   {
-   "label": "What CI/CD tools have you used",
-   "text": "I have used CI/CD tools extensively in my backend engineering roles, including Jenkins, GitLab CI, and AWS CodePipeline, though I do not have specific experience with clinical/life sciences CI/CD pipelines."
-  },
-  {
    "label": "What's your proficiency level in Python",
    "text": "Expert"
   },
@@ -4068,16 +4301,8 @@
    "text": "I have read and agree to the DEPT® Privacy Statement."
   },
   {
-   "label": "What interests you in this role and Zanskar",
-   "text": "I am drawn to Zanskar's mission to democratize access to financial markets through innovative, low-latency infrastructure. With 7 years of experience scaling real-time transaction platforms at Bank of America and BlackRock, I am eager to apply my expertise in Python, Go, and distributed systems to handle the massive scale and complexity of your market data. My background in cutting p99 latency by 60% through horizontal partitioning and caching aligns directly with the high-performance requirements of a Staff Backend Engineer, and I am excited to leverage my deep integration of AI tools to accelerate development and system reliability at Zanskar."
-  },
-  {
    "label": "Why Coalition",
    "text": "I am excited to join Coalition because of your mission to make the world safer through technology, which aligns perfectly with my background in building high-scale, secure financial systems at Bank of America and BlackRock. My experience scaling real-time transaction platforms to handle millions of daily requests, combined with my proficiency in Python and Go, positions me to immediately contribute to your distributed systems and risk modeling infrastructure. I am eager to apply my deep expertise in distributed systems and AI-driven engineering to help protect policyholders and drive innovation in the insurance sector."
-  },
-  {
-   "label": "What interests you in this role and Zanskar",
-   "text": "I am drawn to Zanskar's mission to democratize access to capital markets through innovative fintech solutions. With 7 years of experience scaling high-throughput transaction systems at Bank of America and BlackRock, I am eager to apply my expertise in Python, Go, and distributed systems to help Zanskar handle massive data volumes while reducing latency. My background in building real-time platforms that process millions of requests daily aligns perfectly with your growth trajectory, and I am excited to contribute to a company that is reshaping the financial infrastructure landscape."
   },
   {
    "label": "Postal Code",
@@ -4117,7 +4342,7 @@
   },
   {
    "label": "visa status details",
-   "text": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+   "text": "F-1 (CPT), valid through 05/31/2027"
   },
   {
    "label": "passionate about tacking the issues that matter most",
@@ -4161,7 +4386,7 @@
   },
   {
    "label": "Visa.*Status|Work.*Authorization.*Status",
-   "text": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+   "text": "F-1 (CPT), valid through 05/31/2027"
   },
   {
    "label": "Start.*Date",
@@ -4200,10 +4425,6 @@
    "text": "No. I have not worked with or customized LIMS or ELN systems; my experience is in scaling financial transaction platforms and quantitative data systems."
   },
   {
-   "label": "What CI/CD tools have you used",
-   "text": "I have extensive experience with CI/CD pipelines in cloud-native environments (AWS), utilizing tools such as Jenkins, GitLab CI, and GitHub Actions to ship code to production daily."
-  },
-  {
    "label": "What's your proficiency level in Python",
    "text": "Expert. Python is my most proficient language, used for 7 years in backend engineering, data processing (PySpark), and distributed systems."
   },
@@ -4212,20 +4433,12 @@
    "text": "My most relevant experience involves scaling real-time transaction platforms to handle 10x traffic growth, where I implemented horizontal partitioning and caching to cut p99 latency by 60%. For Lithic, the complexity lies in ensuring sub-millisecond latency and 100% consistency across distributed treasury systems while processing millions of daily requests, a challenge I have solved at Bank of America and BlackRock using Python, Go, and distributed systems architecture."
   },
   {
-   "label": "What interests you in this role and Zanskar",
-   "text": "I am drawn to Zanskar's mission to build scalable, real-time financial infrastructure. With 7 years of experience scaling transaction platforms at Bank of America and BlackRock, I am eager to apply my expertise in Python, Go, and distributed systems to solve complex challenges at your scale. My background in handling millions of requests daily and optimizing latency aligns perfectly with your engineering needs, and I am excited to contribute to a team that values deep technical innovation."
-  },
-  {
    "label": "Why Coalition",
    "text": "I am excited to join Coalition because of your mission to make insurance accessible and affordable through technology, which aligns perfectly with my background in building high-scale, real-time data platforms at Bank of America and BlackRock. My experience scaling systems to handle millions of daily requests and reducing latency by 60% directly translates to the reliability and performance needs of your insurance infrastructure. I am eager to apply my expertise in Python, Go, and distributed systems to help modernize risk assessment and policy management while leveraging AI tools to drive operational efficiency."
   },
   {
-   "label": "What interests you in this role and Zanskar",
-   "text": "I am drawn to Zanskar's mission to build scalable, real-time financial infrastructure. With 7 years of experience scaling transaction platforms at Bank of America and BlackRock, I am eager to apply my expertise in Python, Go, and distributed systems to handle high-volume data challenges. My background in optimizing p99 latency by 60% and my deep integration of AI tools into daily engineering workflows align perfectly with Zanskar's need for a Senior/Staff Engineer who can ship production-ready code immediately."
-  },
-  {
    "label": "Work Authorization",
-   "text": "F-1 (CPT), valid through 05/31/2027; I-485 pending"
+   "text": "F-1 (CPT), valid through 05/31/2027"
   },
   {
    "label": "Why do you want to work at SnapLogic",
@@ -4298,10 +4511,6 @@
   {
    "label": "Have you customized or extended a LIMS",
    "text": "No, I have not customized or extended a LIMS or ELN before."
-  },
-  {
-   "label": "What CI/CD tools have you used",
-   "text": "I have extensive experience using Jenkins, GitHub Actions, and GitLab CI for building, testing, and deploying code to production."
   },
   {
    "label": "Vim or Emacs? Why",
@@ -4378,6 +4587,90 @@
   {
    "label": "Visa Status|visa status text",
    "text": "F-1 (CPT/EAD), valid through 05/31/2027. Previously approved & activated H-1B (cap-counted — new employer files cap-exempt petition, no lottery). Employment-based I-140 approved."
+  },
+  {
+   "label": "Describe a hard problem you solved. Why was it difficult? How did you",
+   "text": "At Bank of America, I scaled a real-time transaction-data platform to handle 10x traffic growth, processing millions of requests daily. The difficulty lay in maintaining sub-second latency while data volume exploded, which required implementing horizontal partitioning and an aggressive caching strategy. This approach successfully cut p99 latency by 60% and ensured system stability during peak loads."
+  },
+  {
+   "label": "What tip, trick, or technique did you recently learn that helps you be",
+   "text": "I have recently deepened my integration of AI tools into my daily engineering workflow to accelerate code generation, debugging, and architectural design. By leveraging AI as a core part of my development process, I can iterate faster and maintain high code quality while focusing my human expertise on complex system design and critical logic."
+  },
+  {
+   "label": "You are reviewing someone’s code, what do you look for",
+   "text": "I prioritize readability, maintainability, and correctness, specifically looking for clear error handling, efficient resource management, and adherence to the project's architectural patterns. I also verify that the code is well-tested, follows security best practices, and includes appropriate logging for observability in distributed systems."
+  },
+  {
+   "label": "What else should we know when screening your application",
+   "text": "I am a Senior Backend Software Engineer with 7 years of experience specializing in Python, Go, and distributed systems within high-scale fintech environments at BlackRock and Bank of America. I am authorized to work in the US on an F-1 CPT visa valid through May 2027, and I am available to start immediately."
+  },
+  {
+   "label": "What is your notice period to your current employer",
+   "text": "I am not currently employed and can start immediately, within 2 weeks."
+  },
+  {
+   "label": "How many years of relevant working experience do you have to the role",
+   "text": "7"
+  },
+  {
+   "label": "Briefly tell me about your Agentic AI experience",
+   "text": "I leverage Agentic AI deeply in my daily engineering workflow to accelerate development, debug distributed systems, and optimize code. At Bank of America, I utilized AI tools to scale a real-time transaction platform handling millions of requests daily, achieving a 60% reduction in p99 latency through AI-assisted architectural analysis and implementation of horizontal partitioning and caching strategies."
+  },
+  {
+   "label": "If you indicated yes to the question above, please share each fa",
+   "text": "N/A - I have not previously been an employee of Businessolver."
+  },
+  {
+   "label": "What lab software systems",
+   "text": "I have not worked with LIMS or ELN systems; my background is in high-scale financial transaction platforms and quantitative data systems."
+  },
+  {
+   "label": "Have you customized or extended a LIMS",
+   "text": "No, I have not customized or extended a LIMS or ELN; my experience is in building distributed systems for financial data."
+  },
+  {
+   "label": ".*complex technical challenges.*",
+   "text": "Based on Lithic's scale, the most complex challenge is building a real-time transaction platform capable of handling millions of requests daily with sub-millisecond latency. At Bank of America, I solved similar problems by implementing horizontal partitioning and caching strategies that cut p99 latency by 60% while scaling traffic 10x. My background in distributed systems, Python, and Go allows me to architect resilient treasury infrastructure that meets these high-velocity demands."
+  },
+  {
+   "label": "Why Coalition",
+   "text": "I am excited to join Coalition because of your mission to make the world safer through data-driven risk modeling, which aligns perfectly with my background in scaling high-throughput financial data systems at Bank of America and BlackRock. My experience building real-time transaction platforms that handle millions of requests daily, combined with my proficiency in Python and Go, positions me to immediately contribute to your engineering challenges. I am eager to apply my deep integration of AI tools into the development workflow to help Coalition innovate and scale its insurance solutions."
+  },
+  {
+   "label": "Why do you want to work at SnapLogic",
+   "text": "I am drawn to SnapLogic's mission of simplifying data integration and enabling seamless connectivity across hybrid cloud environments. With 7 years of experience scaling real-time transaction platforms at Bank of America and managing quantitative data systems at BlackRock, I have built deep expertise in distributed systems, Python, and Go. I am eager to apply my background in handling millions of requests per day and optimizing p99 latency to help SnapLogic's platform scale further, while leveraging my daily use of AI tools to accelerate development and system reliability."
+  },
+  {
+   "label": "Why are you interested in this role at Chainguard",
+   "text": "I am drawn to Chainguard's mission of securing the software supply chain, particularly your work with distroless containers and the Sigstore ecosystem. My background scaling real-time transaction platforms at Bank of America and building quant systems at BlackRock has given me deep experience in high-throughput, distributed systems and Python/Go development. I am eager to apply this scale and reliability expertise to build the robust, secure customer platform that powers your infrastructure, while leveraging my daily use of AI tools to accelerate development and security hardening."
+  },
+  {
+   "label": "passionate about tacking the issues that matter most",
+   "text": "I am deeply passionate about tackling the issues that matter most, particularly those that drive meaningful social impact. My background in building scalable, high-availability systems at Bank of America and BlackRock has equipped me with the technical rigor and problem-solving mindset necessary to support Stand Together's mission effectively."
+  },
+  {
+   "label": "Why do you want to work at Stand Together?",
+   "text": "I want to work at Stand Together because your mission to empower individuals and communities to solve their own problems resonates with my drive to build technology that has tangible, positive real-world impact. Having scaled mission-critical financial platforms handling millions of requests daily, I am eager to apply my expertise in distributed systems, Python, and Go to help scale your middleware and integration solutions, ensuring they are as robust and reliable as the social change you enable."
+  },
+  {
+   "label": "Describe your experience with middleware and integration",
+   "text": "I have extensive experience designing and scaling middleware and integration layers, most notably at Bank of America where I architected a real-time transaction-data platform that handled millions of requests per day. My work involved horizontal partitioning, caching strategies, and optimizing p99 latency by 60%, ensuring seamless data flow across distributed systems. At BlackRock, I built similar high-throughput data pipelines for quantitative research, leveraging Python, Go, and PySpark to integrate diverse data sources reliably."
+  },
+  {
+   "label": "How do you use AI in your work?",
+   "text": "I use AI tools deeply and daily as a core part of my engineering workflow to accelerate development, debug complex issues, and optimize code quality. I believe AI is a powerful force multiplier for engineers, allowing us to focus on high-level system design and problem-solving while leveraging AI for routine tasks and code generation."
+  },
+  {
+   "label": "Location.*State",
+   "text": "New Jersey"
+  },
+  {
+   "label": "Why.*Us",
+   "text": "As a Senior Backend Software Engineer with 7 years of experience scaling high-throughput financial systems at Bank of America and BlackRock, I am eager to apply my expertise in Python, Go, and distributed systems to Vercel's edge infrastructure. My background in handling millions of requests per day and reducing p99 latency by 60% aligns directly with Vercel's mission to deliver lightning-fast developer experiences, and I am excited to leverage AI tools to accelerate our shared development velocity."
+  },
+  {
+   "label": "Are you currently authorized to reside and work in the country where",
+   "text": "Yes. I am a PRC citizen currently authorized to work in the US on an F-1 (CPT) visa valid through 05/31/2027 (cap-exempt H-1B transfer eligible; employment-based I-140 approved)."
   }
  ],
  "checkboxes": [

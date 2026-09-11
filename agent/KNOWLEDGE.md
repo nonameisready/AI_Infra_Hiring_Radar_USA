@@ -32,15 +32,20 @@ source of truth; regenerate this file when they change materially.
 ## Work authorization (answer EXACTLY like this, never embellish)
 
 - PRC (Chinese) citizen. NOT a U.S. citizen, NOT a permanent resident.
-- Currently authorized to work in the US: YES — F-1 (CPT), valid up to
-  05/31/2027. I-485 pending. Never claim green card or citizenship.
+- Currently authorized to work in the US: YES — F-1 (CPT/EAD), valid up to
+  05/31/2027. H-1B previously approved AND activated (via BlackRock) so she is
+  cap-counted: a new employer files a cap-exempt H-1B transfer, no lottery;
+  employment-based I-140 is APPROVED. Never claim green card, citizenship,
+  LPR — and never claim an I-485 is pending (unverified, audited out
+  2026-09-01).
 - Requires visa sponsorship now or in the future: YES — always answer Yes to
   every phrasing of sponsorship/immigration-support questions.
 - "Legally authorized to work in the US?": YES. "Eligible to begin employment
   immediately?": YES.
 - Work-auth status dropdowns: pick "F-1 (CPT)"; if absent, "Employment
-  Authorization Document (EAD)" or "Other" + text "F-1 (CPT), valid through
-  05/31/2027; I-485 pending".
+  Authorization Document (EAD)" or "Other" + text "F-1 (CPT/EAD), valid through
+  05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved &
+  activated) and employment-based I-140 approved".
 - Never a government employee of ANY country (US, China, any) — always No/Never.
 - Not a US person for export-control purposes; answer export-control
   QUESTIONS honestly (not in sanctioned countries: No; permanent resident of
