@@ -330,19 +330,38 @@ async function matches() {
       const pastWeek = page.getByText(/^Past week$/i).first();
       if (await pastWeek.isVisible().catch(() => false)) {
         await pastWeek.click().catch(() => {});
-        await page.waitForTimeout(2500);
-      } else {
-        await page.keyboard.press("Escape").catch(() => {});
+        await page.waitForTimeout(1200);
+        // The panel stays open until Confirm is pressed — and while it is open
+        // it overlays the list, so the scroll harvest stalls on the first
+        // screen (~15 cards out of 7,000+). Confirm, then make sure it closed.
+        const confirm = page.getByRole("button", { name: /^Confirm/i }).first();
+        if (await confirm.isVisible().catch(() => false)) {
+          await confirm.click().catch(() => {});
+          await page.waitForTimeout(2500);
+        }
       }
+      await page.keyboard.press("Escape").catch(() => {});
+      if (await page.getByText(/^Date Posted$/i).nth(1).isVisible().catch(() => false)) {
+        await page.mouse.click(5, 400).catch(() => {});
+      }
+      await page.waitForTimeout(1500);
     }
 
     // The list lives in an inner scrollable container — scrolling the window
     // does nothing, which silently caps the pool at the first screen. It is
     // also virtualised, so harvest every round and merge rather than
     // collecting once at the end.
+    // After a filter change the list re-renders as skeletons; the scroll loop
+    // below would otherwise burn through its dry rounds in seconds and report
+    // no_cards_parsed. Wait for the first real card (up to 90s) first.
+    for (let w = 0; w < 45; w++) {
+      if ((await collectCards(page)).some((j) => j.jobrightUrl)) break;
+      await page.waitForTimeout(2000);
+    }
+
     const harvested = new Map();
     let dry = 0;
-    for (let i = 0; i < 120 && dry < 4; i++) {
+    for (let i = 0; i < 400 && dry < 6; i++) {
       const before = harvested.size;
       for (const j of await collectCards(page)) if (j.jobrightUrl) harvested.set(j.jobrightUrl, j);
       await page.evaluate(() => {
@@ -360,6 +379,7 @@ async function matches() {
       for (const j of await collectCards(page)) if (j.jobrightUrl) harvested.set(j.jobrightUrl, j);
       if (harvested.size <= before) dry++;
       else dry = 0;
+      if (harvested.size && harvested.size % 100 === 0) process.stderr.write(`harvested ${harvested.size}\n`);
     }
 
     const jobs = Array.from(harvested.values());

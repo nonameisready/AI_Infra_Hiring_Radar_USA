@@ -51,9 +51,15 @@ for (let i = 0; i < slice.length; i++) {
   const tag = `${START + i}: ${job.company} — ${job.title} (${job.matchPercent}%)`;
   try {
     // 1. Discover the ATS through the jobright handoff.
-    const disc = await runNode(path.join(REPO, "agent/finishers/run-apply.mjs"), [job.jobrightUrl], 240000);
-    const dj = parseJson(disc.out) ?? {};
-    const atsUrl = dj.atsUrl ?? dj.steps?.find((s) => s.s === "ats-open")?.atsUrl ?? "";
+    // Backlog entries already carry the ATS url that an earlier window
+    // resolved — re-running the jobright handoff for those costs ~2 minutes
+    // per job and can fail on postings jobright has since rotated away.
+    let atsUrl = job.atsUrl ?? "";
+    if (!atsUrl) {
+      const disc = await runNode(path.join(REPO, "agent/finishers/run-apply.mjs"), [job.jobrightUrl], 240000);
+      const dj = parseJson(disc.out) ?? {};
+      atsUrl = dj.atsUrl ?? dj.steps?.find((s) => s.s === "ats-open")?.atsUrl ?? "";
+    }
     if (!atsUrl) {
       log({ ...job, status: "park", reason: dj.result ?? "no ATS url discovered" });
       say(`PARK ${tag} — no ATS url (${dj.result ?? "?"})`);
