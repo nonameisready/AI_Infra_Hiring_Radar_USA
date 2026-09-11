@@ -1,0 +1,11 @@
+import fs from 'fs';
+const W = process.env.AGENT_WORK_DIR;
+const url = process.argv[2];
+const A = [];
+A.push({ do: 'goto', url });
+A.push({ do: 'wait', ms: 6000 });
+A.push({ do: 'evalJs', code: `(function(){var ls=Array.prototype.slice.call(document.querySelectorAll('label[for]'));return 'LBLS:'+ls.map(function(l){var i=document.getElementById(l.htmlFor);if(!i)return '';var ty=i.getAttribute('role')==='combobox'||/select__input/.test(i.className)?'SEL':(i.type||i.tagName);return l.htmlFor+'::'+ty+'::'+l.textContent.trim().replace(/\\s+/g,' ').slice(0,80)}).filter(Boolean).join(' || ')})()` });
+const out = JSON.stringify({ actions: A });
+JSON.parse(out);
+fs.writeFileSync(W + '/wd-cmd.json', out);
+console.log('gh1 written for ' + url.slice(40, 80));
