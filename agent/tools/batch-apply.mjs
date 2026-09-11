@@ -51,7 +51,7 @@ for (let i = 0; i < slice.length; i++) {
   const tag = `${START + i}: ${job.company} — ${job.title} (${job.matchPercent}%)`;
   try {
     // 1. Discover the ATS through the jobright handoff.
-    const disc = await runNode(path.join(REPO, ".run-apply.mjs"), [job.jobrightUrl], 240000);
+    const disc = await runNode(path.join(REPO, "agent/finishers/run-apply.mjs"), [job.jobrightUrl], 240000);
     const dj = parseJson(disc.out) ?? {};
     const atsUrl = dj.atsUrl ?? dj.steps?.find((s) => s.s === "ats-open")?.atsUrl ?? "";
     if (!atsUrl) {
