@@ -22,7 +22,9 @@ if (!url) throw new Error("usage: ashby-auto.mjs <application URL>");
 const TOOLS = path.dirname(new URL(import.meta.url).pathname);
 const REPO = process.env.REPO_DIR ?? "/home/user/AI_Infra_Hiring_Radar_USA";
 
-const count = (re) => (fs.readFileSync(LOG, "utf8").match(re) ?? []).length;
+// String.match without /g returns only the first match, so a non-global
+// regex here would always count 1 and the waits below would never fire.
+const count = (re) => (fs.readFileSync(LOG, "utf8").match(new RegExp(re.source, "g")) ?? []).length;
 const lastMatch = (re) => {
   const lines = fs.readFileSync(LOG, "utf8").split("\n").filter((l) => re.test(l));
   return lines.length ? lines[lines.length - 1] : null;
