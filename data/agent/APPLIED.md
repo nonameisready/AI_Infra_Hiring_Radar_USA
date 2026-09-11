@@ -615,3 +615,50 @@ Brain-queue: 47 open, POLICY entries annotated; SpaceX/Oklo/Canonical handled pe
 - Wrapbook — Senior Software Engineer I, Platform Enablement (78%) — ashby, confirmed
 - Pano AI — Senior Software Engineer - Full Stack (78%) — ashby, confirmed
 - Poshmark — Senior Software Engineer II, Backend (77%) — ashby, confirmed
+
+## 2026-09-11 (cloud window) — 0 new confirmed, 2 booked from yesterday's confirmations (all-time 578)
+
+The Mac's 1:00am local batch produced no applications. Root cause found and fixed:
+`worker/jobright-agent.mjs matches` selected Jobright's "Past week" date filter but
+never clicked Confirm, so the filter panel stayed open over the list and the scroll
+harvest returned 15 cards instead of 652. All 15 were already applied, so
+`agent/local-batch.mjs` hit its "nothing to do" guard and exited without committing.
+Only the 10:30am Qwen brain-rules commit landed on `ashby-local-results`.
+
+Booked (Gmail-confirmed on 2026-09-10, previously `submitted_unconfirmed`):
+
+| # | Company | Title | Match | Via | Confirmation |
+| - | ------- | ----- | ----- | --- | ------------ |
+| 577 | Elicit | Senior Software Engineer | 78% | ashby (cloud driver) | careers@elicit.com, 2026-09-10 16:44Z |
+| 578 | Rivian and Volkswagen Group Technologies | Sr. IoT Full-Stack Software Engineer | 73% | ashby (cloud driver) | no-reply@rivianvw.tech, 2026-09-10 14:01Z |
+
+Submitted today, awaiting confirmation:
+
+- Old Well Labs — Senior Software Engineer, Product (92%) — ashby, success page, no
+  spam flag; no confirmation email yet, so NOT counted. Re-check before re-applying.
+
+Parked today, with reasons:
+
+- Lithic — Software Engineer, Treasury (96%) — user_manual. Form complete; last
+  required field is a posting easter-egg ("What did you get when you cracked the
+  code?") whose answer is hidden in Lithic's own ad. Not guessed.
+- Posit PBC — Senior Software Engineer (89%) — user_manual. Submission gated on an
+  explicit human-verification question. Standing rule: never answer around an
+  anti-bot check.
+- Ncontracts — Software Developer L4 (93%) — user_personal. Requires certifying "I
+  have personally completed this application"; that pledge is the applicant's alone.
+- Andreessen Horowitz — Senior Backend Engineer (93%) — user_manual. Ashby spam-flagged
+  both attempts from the datacenter IP. Two flags, no third try.
+- Socure — Senior Backend Engineer (92%) — parked. One spam flag; one retry left.
+- Heron Power — Software Engineer (90%) — parked. Driver session degraded mid-form.
+- OKX, Verana Health, Harbinger, Honor, Pattern Data — needs_answers on Greenhouse
+  (state of residence, notice period, years of experience, start-date year, one
+  security-code challenge). Rules for the recurring ones were added to
+  generic-answers.json today; these retry in the next window.
+
+Repo fixes this window: the Jobright harvest (15 -> 652 cards); `agent/finishers/
+batch-apply.mjs` calling repo-root dotfiles that do not exist, so every Greenhouse
+job died instantly and was logged as "unconfirmed submit" with no reason; the phone
+number landing in Greenhouse "country" fields; 21 unsafe Qwen rules dropped and 23
+"I-485 pending" claims corrected repo-wide, including the stale line in KNOWLEDGE.md
+that kept regenerating them.
