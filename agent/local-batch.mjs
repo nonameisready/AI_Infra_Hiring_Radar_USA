@@ -111,6 +111,7 @@ const today = new Date().toLocaleDateString("sv", { timeZone: "America/New_York"
 const doneToday = Object.values(ap.jobs).filter((j) => String(j.appliedAt ?? j.at ?? "").slice(0, 10) === today).length;
 const budget = Math.max(0, DAILY_CAP - doneToday);
 const idOf = (u) => (String(u).match(/info\/([a-f0-9]+)/) || [])[1];
+const norm = (s) => String(s ?? "").toLowerCase().trim();
 const seenIds = new Set(), seenKeys = new Set(), seenTok = new Set();
 const tok = (u) => { const m = String(u ?? "").match(/token=(\d+)/); if (m) seenTok.add(m[1]); };
 const seenCompanies = new Set();
@@ -122,7 +123,6 @@ for (const [id, j] of Object.entries(ap.jobs)) {
   if (/^applied/.test(j.status ?? "") || /manual|user/i.test(j.via ?? "")) seenCompanies.add(norm(j.company));
 }
 for (const i of pend.items) { seenIds.add(i.id); if (i.key) seenKeys.add(i.key); tok(i.originalUrl); tok(i.atsUrl); }
-const norm = (s) => String(s ?? "").toLowerCase().trim();
 // Standing rule: never apply to defense/clearance companies (applicant cannot
 // hold a US security clearance). Mirrors RUNBOOK; extend as new ones appear.
 const DEFENSE_BLOCK = /palantir|nt ?concepts|anduril|varda|havocai|\bstr\b|l3harris|lockheed|raytheon|\brtx\b|northrop|general dynamics|bae systems|leidos|booz allen|draper|mitre|sierra nevada corp|epirus|shield ?ai|saronic|castelion|mach industries|helsing|wyetech|maxar|vantor|intrepid solutions|oklo|spacex|sphinx ?defense|\bdefense\b|arcfield|accenture federal|legion intelligence|rampant technologies/i;
