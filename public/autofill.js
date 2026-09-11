@@ -235,6 +235,10 @@
       [/\bfull\s*name\b|^name$|\byour name\b|\blegal name\b/, full],
 
       [/\be-?mail\b/, p.email],
+      // Greenhouse's phone widget pairs a country input with the number input;
+      // without this the country field inherited the phone number (seen on
+      // Lithic 2026-09-11: "country*=281-250-7589").
+      [/\bcountry\b/, "United States"],
       [/\b(phone|mobile|cell|telephone)\b/, p.phone],
 
       [/\blinked\s*-?in\b/, p.linkedin],

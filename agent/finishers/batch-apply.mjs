@@ -72,7 +72,7 @@ for (let i = 0; i < slice.length; i++) {
       if (ghDisabled) { log({ ...job, atsUrl, status: "park", reason: "greenhouse disabled this window (rate limit)" }); say(`SKIP-GH ${tag}`); continue; }
       if (ghCount >= GH_CAP) { log({ ...job, atsUrl, status: "park", reason: "greenhouse window cap reached" }); say(`CAP-GH ${tag}`); continue; }
       fs.rmSync(path.join(WORK, "gh-code.txt"), { force: true });
-      const res = await runNode(path.join(REPO, ".gh-finish.mjs"), [atsUrl, path.join(WORK, "generic-answers.json"), "--submit"], 600000);
+      const res = await runNode(path.join(REPO, "agent/finishers/gh-finish.mjs"), [atsUrl, process.env.ANSWERS_FILE ?? path.join(REPO, "agent/finishers/generic-answers.json"), "--submit"], 600000);
       const rj = parseJson(res.out) ?? {};
       const snippet = rj.confirmationSnippet ?? "";
       if (rj.confirmation) {
@@ -89,12 +89,17 @@ for (let i = 0; i < slice.length; i++) {
         log({ ...job, atsUrl, status: "needs_answers", missing: rj.missingRequired });
         say(`NEEDS-ANSWERS ${tag}: ${JSON.stringify(rj.missingRequired).slice(0, 160)}`);
       } else {
-        log({ ...job, atsUrl, status: "park", reason: `unconfirmed submit: ${snippet.slice(0, 120)}` });
-        say(`UNCONFIRMED ${tag}`);
+        // A finisher that dies before printing its JSON leaves an empty
+        // snippet, which used to park the job as "unconfirmed submit: " with
+        // no clue why. Carry its stderr tail into the reason instead.
+        if (!snippet && res.err) fs.writeFileSync(path.join(WORK, `gh-err-${(job.company||"x").replace(/\W+/g,"_")}.txt`), res.err);
+        const why = snippet || (res.err ?? "").trim().split("\n").slice(-3).join(" | ").slice(0, 200) || "no output from gh-finish";
+        log({ ...job, atsUrl, status: "park", reason: `unconfirmed submit: ${why.slice(0, 220)}` });
+        say(`UNCONFIRMED ${tag} — ${why.slice(0, 160)}`);
       }
     } else if (/ashbyhq\.com$/.test(host)) {
       if (ashbyDisabled) { log({ ...job, atsUrl, status: "park", reason: "ashby blocked this IP earlier" }); say(`SKIP-ASHBY ${tag}`); continue; }
-      const res = await runNode(path.join(REPO, ".ashby-finish.mjs"), [atsUrl, "--submit"], 420000);
+      const res = await runNode(path.join(REPO, "agent/finishers/ashby-finish.mjs"), [atsUrl, "--submit"], 420000);
       const rj = parseJson(res.out) ?? {};
       if (rj.confirmation) {
         log({ ...job, atsUrl, status: "submitted", via: "ashby" });
