@@ -662,3 +662,21 @@ job died instantly and was logged as "unconfirmed submit" with no reason; the ph
 number landing in Greenhouse "country" fields; 21 unsafe Qwen rules dropped and 23
 "I-485 pending" claims corrected repo-wide, including the stale line in KNOWLEDGE.md
 that kept regenerating them.
+
+## 2026-09-12 — 4 manual (user applied herself), all-time 582
+
+The four the agent had parked on 2026-09-11 for reasons it must not work around;
+the user submitted them from her own browser and confirmed on 2026-09-12.
+
+| # | Company | Title | Match | Via | Why the agent stopped |
+| - | ------- | ----- | ----- | --- | --------------------- |
+| 579 | Lithic | Software Engineer, Treasury | 96% | manual | posting easter-egg ("what did you get when you cracked the code?") — answer hidden in the ad, never guessed |
+| 580 | Posit PBC | Senior Software Engineer | 89% | manual | explicit human-verification question gating submit |
+| 581 | Ncontracts | Software Developer - L4 | 93% | manual | "I have personally completed this application" certification — the applicant's pledge alone |
+| 582 | Andreessen Horowitz | Senior Backend Engineer | 93% | manual | Ashby spam-flagged both submits from the datacenter IP |
+
+Socure (Senior Backend Engineer, 92%) stays parked with one retry left — agent's, not the user's.
+
+New standing rule (user, 2026-09-12): everything needing her personally is emailed to
+huiluckylucky@gmail.com at the end of each run, grouped by reason with working apply
+links. First digest sent today: 85 outstanding items.

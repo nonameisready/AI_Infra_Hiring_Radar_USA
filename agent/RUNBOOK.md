@@ -598,3 +598,35 @@ Secrets live ONLY under ~/.jobright-agent/ — never in the repo.
   links too.
 - batch-apply now references agent/finishers/* (tracked) instead of
   untracked repo-root dotfile copies — required for the Mac batch.
+
+## User-action items go out by email (user directive, 2026-09-12)
+
+The user's instruction: **anything that needs her personally, email it to
+huiluckylucky@gmail.com.** A push notification is for the run's headline; the
+email is the working list she acts from.
+
+Send one email at the end of every run, via the Gmail tools, to
+huiluckylucky@gmail.com, subject `[Jobright Agent] 需要你本人处理的 N 个职位 (YYYY-MM-DD)`:
+
+- List the jobs parked for her **in this run**, grouped by why the agent
+  stopped: Ashby/anti-bot spam flags (form already worked out — a minute in her
+  own browser), captcha or human-verification gates, personal declarations and
+  policy decisions (arbitration clauses, "I personally completed this
+  application", own-expense relocation), account/OAuth-gated sites, other.
+- One line per job: company — title (match%), then the apply URL on its own
+  line. Keep the query string on Greenhouse `embed/job_app` links — `?for=` and
+  `?token=` ARE the posting's identity; stripping them yields a dead link. Drop
+  a ZipRecruiter/aggregator link whose Cloudflare token has expired and say so
+  rather than sending a URL that will fail.
+- Close with the outstanding backlog count, where the per-job answers live
+  (`data/agent/pending.json` → `note`, mirrored in the Agent tab), and a line
+  asking her to tell the agent what she submitted.
+- Body in Chinese, like her chat summaries. Never put credentials, cookies, or
+  env values in the mail.
+
+When she reports back that she applied, book those jobs into `applied.json`
+with status `manual_done`, via `manual`, dated the day she said so, and keep
+the note explaining why the agent could not finish it —
+`node agent/tools/book-by-id.mjs <id> <date> manual '<detail>' manual_done`.
+Then append them to APPLIED.md under the day's **manual** section and push, so
+the dashboard and the next run's dedupe both see them.

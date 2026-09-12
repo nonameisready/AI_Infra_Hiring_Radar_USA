@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T19:32:19.363Z",
+  "updatedAt": "2026-09-12T01:27:38.247Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -7324,6 +7324,58 @@
       "at": "2026-09-10",
       "via": "ashby (cloud driver)",
       "detail": "Gmail-confirmed 2026-09-10 14:01Z (no-reply@rivianvw.tech, 'Thank you for applying...'); previously submitted_unconfirmed, booked by the 2026-09-11 cloud window."
+    },
+    "6a9b0319d5ff1f3f1c39d34b": {
+      "id": "6a9b0319d5ff1f3f1c39d34b",
+      "key": "lithic::software engineer, treasury",
+      "company": "Lithic",
+      "title": "Software Engineer, Treasury",
+      "matchPercent": 96,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a9b0319d5ff1f3f1c39d34b",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app",
+      "status": "manual_done",
+      "at": "2026-09-12",
+      "via": "manual",
+      "detail": "User applied herself on 2026-09-12. Agent had filled the Greenhouse form and attached the resume but stopped at the posting easter-egg ('What did you get when you cracked the code?') — an answer hidden in Lithic's own ad, never guessed."
+    },
+    "6a987475c8ed473c5c7642e8": {
+      "id": "6a987475c8ed473c5c7642e8",
+      "key": "posit pbc::senior software engineer",
+      "company": "Posit PBC",
+      "title": "Senior Software Engineer",
+      "matchPercent": 89,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a987475c8ed473c5c7642e8",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app",
+      "status": "manual_done",
+      "at": "2026-09-12",
+      "via": "manual",
+      "detail": "User applied herself on 2026-09-12. Agent had filled the Greenhouse form but the submit was gated on an explicit human-verification question; standing rule forbids answering around an anti-bot check."
+    },
+    "6a99de588a8b765bc55f60c0": {
+      "id": "6a99de588a8b765bc55f60c0",
+      "key": "ncontracts::software developer - l4",
+      "company": "Ncontracts",
+      "title": "Software Developer - L4",
+      "matchPercent": 93,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a99de588a8b765bc55f60c0",
+      "originalUrl": "https://jobs.ashbyhq.com/ncontracts/bd1677d2-beb2-4402-9b17-f3f89ba40e29/application",
+      "status": "manual_done",
+      "at": "2026-09-12",
+      "via": "manual",
+      "detail": "User applied herself on 2026-09-12. Form required certifying 'I have personally completed this application' — a pledge only the applicant may make, so the agent never submitted it."
+    },
+    "6a98991b11f73b6462c8f96e": {
+      "id": "6a98991b11f73b6462c8f96e",
+      "key": "andreessen horowitz::senior backend engineer",
+      "company": "Andreessen Horowitz",
+      "title": "Senior Backend Engineer",
+      "matchPercent": 93,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a98991b11f73b6462c8f96e",
+      "originalUrl": "https://jobs.ashbyhq.com/a16z-speedrun/307e885a-cad6-4a00-96a2-ab7fb9e2acfd/application",
+      "status": "manual_done",
+      "at": "2026-09-12",
+      "via": "manual",
+      "detail": "User applied herself on 2026-09-12. Agent had completed the Ashby form through the persistent driver but Ashby flagged both submits as possible spam from the datacenter IP (two flags, no third try)."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

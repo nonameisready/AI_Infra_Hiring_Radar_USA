@@ -20,3 +20,8 @@ Quick orientation:
 - If a blocking question is unanswered, don't guess — record it in
   `data/agent/questions.json`, tell the user, and apply only what can be applied safely.
 - End every run by committing `data/agent/**` to `main` and reporting what happened.
+- Anything that needs the user personally (captchas, anti-bot flags, arbitration or
+  "I personally completed this" pledges, account-gated sites) goes to her by EMAIL at
+  huiluckylucky@gmail.com, grouped by reason with working apply links — see
+  "User-action items go out by email" in the runbook. When she replies that she applied,
+  book those as `manual_done` via `agent/tools/book-by-id.mjs`.
