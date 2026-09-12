@@ -680,3 +680,9 @@ Socure (Senior Backend Engineer, 92%) stays parked with one retry left — agent
 New standing rule (user, 2026-09-12): everything needing her personally is emailed to
 huiluckylucky@gmail.com at the end of each run, grouped by reason with working apply
 links. First digest sent today: 85 outstanding items.
+
+## 2026-09-12 (Mac local batch, home IP)
+
+2 submitted, 75 parked, 11 queued for Qwen. All-time 584.
+- Blend — Software Engineer - Platform Foundation (93%) — greenhouse, confirmed
+- Cloudbeds — Senior Software Engineer - Workflow (82%) — greenhouse, confirmed
