@@ -105,7 +105,15 @@ for (let i = 0; i < slice.length; i++) {
         log({ ...job, atsUrl, status: "park", reason: "greenhouse 429 — window closed" });
         say(`RATE-LIMITED ${tag} — greenhouse disabled for this window`);
       } else if ((rj.missingRequired ?? []).length) {
-        log({ ...job, atsUrl, status: "needs_answers", missing: rj.missingRequired });
+        // Record the OPTIONS the finisher could not match, not just the question.
+        // Without them the next pass is writing answer rules blind: a rule whose
+        // `prefer` is "^yes" is useless against a field whose choices are four
+        // city names, and that is exactly how a whole rescue round came back
+        // empty on 2026-09-12. gh-finish already logs them; keep them.
+        const unmatched = (rj.combos ?? [])
+          .filter((c) => c.result === "no_option_matched" && (c.options ?? []).length)
+          .map((c) => ({ question: c.label, options: c.options }));
+        log({ ...job, atsUrl, status: "needs_answers", missing: rj.missingRequired, unmatched });
         say(`NEEDS-ANSWERS ${tag}: ${JSON.stringify(rj.missingRequired).slice(0, 160)}`);
       } else {
         log({ ...job, atsUrl, status: "park", reason: `unconfirmed submit: ${snippet.slice(0, 120)}` });
@@ -138,7 +146,15 @@ for (let i = 0; i < slice.length; i++) {
         log({ ...job, atsUrl, status: "park", reason: "lever hCaptcha challenged this IP" });
         say(`LEVER-CAPTCHA ${tag}`);
       } else if ((rj.missingRequired ?? []).length) {
-        log({ ...job, atsUrl, status: "needs_answers", missing: rj.missingRequired });
+        // Record the OPTIONS the finisher could not match, not just the question.
+        // Without them the next pass is writing answer rules blind: a rule whose
+        // `prefer` is "^yes" is useless against a field whose choices are four
+        // city names, and that is exactly how a whole rescue round came back
+        // empty on 2026-09-12. gh-finish already logs them; keep them.
+        const unmatched = (rj.combos ?? [])
+          .filter((c) => c.result === "no_option_matched" && (c.options ?? []).length)
+          .map((c) => ({ question: c.label, options: c.options }));
+        log({ ...job, atsUrl, status: "needs_answers", missing: rj.missingRequired, unmatched });
         say(`NEEDS-ANSWERS ${tag}: ${JSON.stringify(rj.missingRequired).slice(0, 160)}`);
       } else {
         log({ ...job, atsUrl, status: "park", reason: `lever unconfirmed: ${(rj.confirmationSnippet ?? rj.error ?? "?").slice(0, 100)}` });

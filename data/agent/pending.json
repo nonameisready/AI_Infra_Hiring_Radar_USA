@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-12T10:37:29.345Z",
+  "updatedAt": "2026-09-12T10:53:31.425Z",
   "items": [
     {
       "id": "6a8384dc2dbaf907b07695d1",
@@ -1079,7 +1079,7 @@
       "company": "Eleventh Hour Games",
       "matchPercent": 83,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a864512d34f700f87fc1428",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=eleventhhourgames&jr_id=6a864512d34f700f87fc1428&token=8731928002&utm_source=jobright",
+      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=eleventhhourgames&jr_id=6a864512d34f700f87fc1428&token=8731928002",
       "addedAt": "2026-08-31",
       "status": "needs_answers",
       "missing": [
@@ -1094,7 +1094,9 @@
         "What is your experience with C++ and/or UE?*",
         "What else should we know when screening your application?*",
         "Now a fun one! What game have you put the highest amount of playtime h"
-      ]
+      ],
+      "updatedAt": "2026-09-12",
+      "note": "2026-09-12 cloud batch: form filled, held on [\"Describe a hard problem you solved. Why was it difficult? How did you \"]. Not guessed."
     },
     {
       "id": "6a952290c12c90443efce3d6",
@@ -1228,7 +1230,8 @@
       "atsUrl": "https://careers.fitch.group/job/Chicago-Transformation-Engineer-Software-Development%2C-AI-&-Quality-Engineering-IL-60290/1208260301/?jr_id=6a733140e55c73319eb15c46",
       "addedAt": "2026-08-31",
       "status": "parked",
-      "note": "platform not automated from cloud: careers.fitch.group"
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: careers.fitch.group",
+      "updatedAt": "2026-09-12"
     },
     {
       "id": "6a9499253603630099199f3a",
@@ -16562,11 +16565,11 @@
       "key": "fictiv::senior software engineer (west coast - oakland, ca or portland, or preferred)",
       "title": "Senior Software Engineer (West Coast - Oakland, CA or Portland, OR Preferred)",
       "company": "Fictiv",
-      "matchPercent": 79,
+      "matchPercent": 82,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7f30e4927c79391ad06e46",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=fictiv&jr_id=6a7f30e4927c79391ad06e46&token=8715125002&utm_source=jobright",
+      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=fictiv&token=8715125002&jr_id=6a7f30e4927c79391ad06e46",
       "addedAt": "2026-09-06",
-      "status": "needs_answers",
+      "status": "parked",
       "missing": [
         "I have independently debugged and resolved complex production issues i",
         "I have designed, built, and maintained production-grade APIs (REST or ",
@@ -16576,7 +16579,9 @@
         "I understand that this position will require a final round interview i",
         "This role is restricted by U.S. federal regulations to U.S. citizens o",
         "What pronouns do you use?*"
-      ]
+      ],
+      "updatedAt": "2026-09-12",
+      "note": "2026-09-12 cloud batch: unconfirmed submit: Back to jobs\nSenior Software Engineer (West Coast - Oakland, CA or Portland, OR Preferred)\nOakland, CA Office\nApply\n\nAbo"
     },
     {
       "id": "6a9b049bfe45b8490f6066fc",
@@ -17575,7 +17580,8 @@
       "originalUrl": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=128174&jr_id=6a9e38e82c964816f65ec020",
       "addedAt": "2026-09-07",
       "status": "parked",
-      "note": "platform not automated from cloud: careers.ibm.com"
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: careers.ibm.com",
+      "updatedAt": "2026-09-12"
     },
     {
       "id": "6a5bdcbe63a8f619507cc1ab",
@@ -20199,8 +20205,12 @@
       "matchPercent": 84,
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa1ea81500b01124c77f9fa",
       "originalUrl": "https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Senior-Software-Engineer---Python_R0134448-1?jr_id=6aa1ea81500b01124c77f9fa",
-      "status": "park",
-      "note": "2026-09-10 batch sweep: park — platform not automated from cloud: paypal.wd1.myworkdayjobs.com"
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: paypal.wd1.myworkdayjobs.com",
+      "key": "paypal::senior software engineer - python",
+      "atsUrl": "https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Senior-Software-Engineer---Python_R0134448-1?jr_id=6aa1ea81500b01124c77f9fa",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12"
     },
     {
       "id": "6a8d579c47679c68bf5e2af3",
@@ -23572,6 +23582,279 @@
       "updatedAt": "2026-09-12",
       "status": "needs_answers",
       "note": "2026-09-12 cloud batch: form filled, held on [\"State*\",\"Are you a current or previous Pathward employee? *\",\"Are you related to, or are you in a close personal relationship with, \",\"We are excited to learn more about you! Please share what initially sp\"]. Not guessed."
+    },
+    {
+      "id": "6a303c49093df201d07b0493",
+      "key": "central insurance::senior software engineer",
+      "title": "Senior Software Engineer",
+      "company": "Central Insurance",
+      "matchPercent": 84,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a303c49093df201d07b0493",
+      "atsUrl": "https://jobs.dayforcehcm.com/en-US/centralins/CANDIDATEPORTAL/jobs/6822?jr_id=6a303c49093df201d07b0493",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: jobs.dayforcehcm.com"
+    },
+    {
+      "id": "6930b5264c474121999e7c45",
+      "key": "citi::applications development sr programmer analyst - c12 - irving",
+      "title": "Applications Development Sr Programmer Analyst - C12 - IRVING",
+      "company": "Citi",
+      "matchPercent": 84,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6930b5264c474121999e7c45",
+      "atsUrl": "https://citi.wd5.myworkdayjobs.com/2/job/Irving-Texas-United-States/Applications-Development-Sr-Programmer-Analyst---C12---IRVING_25920280-1?jr_id=6930b5264c474121999e7c45",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: citi.wd5.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa1f3bcef23570cae246f3b",
+      "key": "tata consultancy services::software engineer",
+      "title": "Software Engineer",
+      "company": "Tata Consultancy Services",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1f3bcef23570cae246f3b",
+      "atsUrl": "chrome-error://chromewebdata/",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: chromewebdata"
+    },
+    {
+      "id": "6aa3a9634233a2201a2b2b94",
+      "key": "alpaca::senior software engineer - trading",
+      "title": "Senior Software Engineer - Trading",
+      "company": "Alpaca",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa3a9634233a2201a2b2b94",
+      "atsUrl": "https://www.linkedin.com/jobs/view/4443399050?jr_id=6aa3a9634233a2201a2b2b94",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: www.linkedin.com"
+    },
+    {
+      "id": "6a8cb3561d96e6541c8c292f",
+      "key": "servicenow::senior applications development engineer",
+      "title": "Senior Applications Development Engineer",
+      "company": "ServiceNow",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8cb3561d96e6541c8c292f",
+      "atsUrl": "https://jobs.smartrecruiters.com/oneclick-ui/company/ServiceNow/publication/4b4acda7-c056-4668-ae07-166591977db7?dcr_ci=ServiceNow&jr_id=6a8cb3561d96e6541c8c292f",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: jobs.smartrecruiters.com"
+    },
+    {
+      "id": "6a93b0d49864261ccd2a310e",
+      "key": "jefferson capital systems, llc; a jefferson capital, inc. company::software developer",
+      "title": "Software Developer",
+      "company": "Jefferson Capital Systems, LLC; a Jefferson Capital, Inc. Company",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a93b0d49864261ccd2a310e",
+      "atsUrl": "https://www.ziprecruiter.com/kn/AAKHYZg1MOqZoDRa2ebNW4BJxNNYn0DsJESwNXxzbRdoZ9IolawOvgJ-mn8XnEd_PJuxg3h1vm0s1oJak0bEsAwn0Pla_foJxPAOISxv5FvIWT1Jx5lf6uBtJluh8FojkKwDMgQd09fE6rU8Z4NbZ3pnNNqKAXe_k2YR7NcpS_vf8d5eoqYh1rkf2FhXyg2ITPfLBtdln3YYxiMtXyePJi8vyYxLwWlXuBb9ujDSDO2r00Ovw_HprVT1gKgWjLp8IDznwwEZalpNvgySBQnz5E8SfVN2e5zPNGAPC_1oiUDAjYOAV4hrskK_jaJE_8VtUgU067byjaZdmByiIH4p3_E1SPjgShf06Mx9mKD1zOX3umcgmvIz4i885P7GtYwJmmPtOlaG2kS6G2o-gN7LVmG5DcIOurN9MSmO1xaPsRM_azdn6Y5YMEU_a4eot6015QehXwtbVbFcNiEwuA?tsid=123468825&jr_id=6a93b0d49864261ccd2a310e&__cf_chl_rt_tk=OwhlTomlj9U2gh3qFyllRz4Ko1Yamv6x37F1XPwqNos-1789208135-1.0.1.1-5vQRCrtAIg1znjos8u7PBQPfq1EnSKgCbsXx45zdY0M",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: www.ziprecruiter.com"
+    },
+    {
+      "id": "6aa3788bcb2e99857c2703de",
+      "key": "mitratech::sr software engineer",
+      "title": "Sr Software Engineer",
+      "company": "Mitratech",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa3788bcb2e99857c2703de",
+      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=mitratech&token=8180269&jr_id=6aa3788bcb2e99857c2703de",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "needs_answers",
+      "note": "2026-09-12 cloud batch: form filled, held on [\"Describe a recent project where you used AI-assisted or agentic coding\",\"Do you have experience using MiSop?*\",\"How would you rate your proficiency with MiSop, and can you briefly sh\",\"Please indicate your desired base salary (in USD).*\"]. Not guessed."
+    },
+    {
+      "id": "6aa3f7118275e3a21175e2f1",
+      "key": "juniper square::senior software engineer, ai platform",
+      "title": "Senior Software Engineer, AI Platform",
+      "company": "Juniper Square",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa3f7118275e3a21175e2f1",
+      "atsUrl": "https://jobs.ashbyhq.com/junipersquare/c1336f96-bb75-4723-a9d3-d164a5eca3ba/application?jr_id=6aa3f7118275e3a21175e2f1",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: ashby blocked this IP earlier"
+    },
+    {
+      "id": "6aa3d2074238ea18d430e86e",
+      "key": "u.s. bank::application developer",
+      "title": "Application Developer",
+      "company": "U.S. Bank",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa3d2074238ea18d430e86e",
+      "atsUrl": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Cincinnati-OH/Application-Developer_2026-0027520-1?jr_id=6aa3d2074238ea18d430e86e",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: usbank.wd1.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa4720e1d92e2d05d114cb7",
+      "key": "boeing::software engineer (associate or experienced)",
+      "title": "Software Engineer (Associate or Experienced)",
+      "company": "Boeing",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa4720e1d92e2d05d114cb7",
+      "atsUrl": "https://boeing.wd1.myworkdayjobs.com/tap2/job/USA---Colorado-Springs-CO/Software-Engineer--Associate-or-Experienced-_JR2026523054-3?jr_id=6aa4720e1d92e2d05d114cb7",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: boeing.wd1.myworkdayjobs.com"
+    },
+    {
+      "id": "6a7f7cd3e2030208f276e970",
+      "key": "carrum health::senior/staff software engineer, data platform",
+      "title": "Senior/Staff Software Engineer, Data Platform",
+      "company": "Carrum Health",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7f7cd3e2030208f276e970",
+      "atsUrl": "https://careers.kula.ai/carrum-health/52343?jr_id=6a7f7cd3e2030208f276e970",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: careers.kula.ai"
+    },
+    {
+      "id": "6aa4153ac1928370a285c68e",
+      "key": "hearst magazines::software engineer",
+      "title": "Software Engineer",
+      "company": "Hearst Magazines",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa4153ac1928370a285c68e",
+      "atsUrl": "https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_11/job/2027409?jr_id=6aa4153ac1928370a285c68e",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: eevd.fa.us6.oraclecloud.com"
+    },
+    {
+      "id": "6a51e05102522b5b722ece7c",
+      "key": "osaro::senior backend software engineer",
+      "title": "Senior Backend Software Engineer",
+      "company": "OSARO",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a51e05102522b5b722ece7c",
+      "atsUrl": "https://jobs.lever.co/osaro/56fcf771-5c21-4ec8-b4df-c978acbad4a0/apply?jr_id=6a51e05102522b5b722ece7c",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: lever hCaptcha challenged this IP"
+    },
+    {
+      "id": "6aa4b9822ed333b4ea5c3c0a",
+      "key": "comfyui::member of technical staff, billing",
+      "title": "Member of Technical Staff, Billing",
+      "company": "ComfyUI",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa4b9822ed333b4ea5c3c0a",
+      "atsUrl": "https://jobs.ashbyhq.com/comfy-org/5fe87378-ee26-4e28-b1a0-154e39875a38/application?jr_id=6aa4b9822ed333b4ea5c3c0a",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: ashby blocked this IP earlier"
+    },
+    {
+      "id": "6aa3c2cb959a10d7230d3d42",
+      "key": "cypress creek energy::software engineer",
+      "title": "Software Engineer",
+      "company": "Cypress Creek Energy",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa3c2cb959a10d7230d3d42",
+      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cypresscreekrenewables&jr_id=6aa3c2cb959a10d7230d3d42&token=8180722",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "needs_answers",
+      "note": "2026-09-12 cloud batch: form filled, held on [\"Which office do you prefer to work from (3 days in office per week)?*\",\"Please enter the Name and Department of any of your close relatives wh\",\"Provide a brief overview of your professional experience in the energy\",\"Briefly describe a relevant ML model that you worked on or contributed\"]. Not guessed."
+    },
+    {
+      "id": "6a3ca944982bb239f81303bc",
+      "key": "divergent::senior full stack software engineer",
+      "title": "Senior Full Stack Software Engineer",
+      "company": "Divergent",
+      "matchPercent": 82,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a3ca944982bb239f81303bc",
+      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=divergent&jr_id=6a3ca944982bb239f81303bc&token=5281515008",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: unconfirmed submit: "
+    },
+    {
+      "id": "6aa4823cf3aa936e2cdb17e3",
+      "key": "covermymeds::sr. software engineer",
+      "title": "Sr. Software Engineer",
+      "company": "CoverMyMeds",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa4823cf3aa936e2cdb17e3",
+      "atsUrl": "https://mckesson.wd3.myworkdayjobs.com/covermymeds_external_careers/job/USA-OH-Columbus/Sr-Software-Engineer_JR0153440-2?jr_id=6aa4823cf3aa936e2cdb17e3",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: mckesson.wd3.myworkdayjobs.com"
+    },
+    {
+      "id": "6a5ad39e63a8f619507c835b",
+      "key": "picogrid::senior software engineer",
+      "title": "Senior Software Engineer",
+      "company": "Picogrid",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5ad39e63a8f619507c835b",
+      "atsUrl": "https://jobs.ashbyhq.com/picogrid/44fea57b-71fa-42af-a983-238227de80b3/application?jr_id=6a5ad39e63a8f619507c835b",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: ashby blocked this IP earlier"
+    },
+    {
+      "id": "6a83908f1081a745e97103f0",
+      "key": "echostar corporation::senior software engineer - order orchestration",
+      "title": "Senior Software Engineer - Order Orchestration",
+      "company": "EchoStar Corporation",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a83908f1081a745e97103f0",
+      "atsUrl": "https://jobs.echostar.com/jobs/94442?jr_id=6a83908f1081a745e97103f0",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: jobs.echostar.com"
+    },
+    {
+      "id": "6aa42d441d92e2d05d113af3",
+      "key": "bonterra::senior software engineer",
+      "title": "Senior Software Engineer",
+      "company": "Bonterra",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa42d441d92e2d05d113af3",
+      "atsUrl": "https://bonterra.wd1.myworkdayjobs.com/bonterratech/job/Remote-United-States/Senior-Software-Engineer_R2026-0310?jr_id=6aa42d441d92e2d05d113af3",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: bonterra.wd1.myworkdayjobs.com"
+    },
+    {
+      "id": "6a4e8eb7fc327f422fef33f6",
+      "key": "micron technology::sr. full-stack ai software development engineer",
+      "title": "Sr. Full-Stack AI Software Development Engineer",
+      "company": "Micron Technology",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a4e8eb7fc327f422fef33f6",
+      "atsUrl": "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Sr-Full-Stack-AI-Software-Development-Engineer_JR105213?jr_id=6a4e8eb7fc327f422fef33f6",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: micron.wd1.myworkdayjobs.com"
     }
   ],
   "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
