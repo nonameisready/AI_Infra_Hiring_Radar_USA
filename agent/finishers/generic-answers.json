@@ -3789,6 +3789,1049 @@
   {
    "label": "which (office|location) (are you|would you)",
    "prefer": "nyc|new york"
+  },
+  {
+   "label": "What is your notice period to your current employer",
+   "prefer": "Immediately|Within 2 weeks|Less than a month",
+   "type": ""
+  },
+  {
+   "label": "English",
+   "prefer": "Native|Fluent|Proficient",
+   "type": ""
+  },
+  {
+   "label": "Mandarin Chinese",
+   "prefer": "Native|Fluent|Proficient",
+   "type": ""
+  },
+  {
+   "label": "Spanish",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "French",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Arabic",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Bengali",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Cantonese",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Czech",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Dutch",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "German",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Greek",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Hebrew",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Hindi",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Hungarian",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Indonesian",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Italian",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Japanese",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Korean",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Bahasa Malaysia",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Norwegian",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Persian",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Polish",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Portuguese",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Romanian",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Russian",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Swedish",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Thai",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Turkish",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Ukrainian",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Vietnamese",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Other",
+   "prefer": "I do not wish to answer|Prefer not to say|None",
+   "type": ""
+  },
+  {
+   "label": "Security code",
+   "prefer": ".*",
+   "type": "Enter the code sent to your email"
+  },
+  {
+   "label": "verification code",
+   "prefer": ".*",
+   "type": "Enter the code sent to huiluckylucky@gmail.com"
+  },
+  {
+   "label": "Which best describes your backend engineering experience",
+   "prefer": "7 years or more",
+   "type": ""
+  },
+  {
+   "label": "How many years of relevant working experience",
+   "prefer": "5",
+   "type": ""
+  },
+  {
+   "label": "How soon after an offer are you available to start",
+   "prefer": "Immediately|Within 2 weeks|Less than a month"
+  },
+  {
+   "label": "How many years of hands-on backend development experience do you have",
+   "prefer": "5|6|7|8"
+  },
+  {
+   "label": "Candidate AI Usage Attestation",
+   "prefer": "Yes, I use AI tools in my daily work",
+   "type": ""
+  },
+  {
+   "label": "What do you think are our most complex technical challenges based on t",
+   "prefer": ".*",
+   "type": "text"
+  },
+  {
+   "label": "Our interviews require you to be on video. Can you confirm that you ca",
+   "prefer": ".*Yes.*",
+   "type": "text"
+  },
+  {
+   "label": "What did you get when you cracked the code\\*",
+   "prefer": ".*",
+   "type": "text"
+  },
+  {
+   "label": "What level of expertise do you have with Angular",
+   "prefer": "No experience",
+   "type": ""
+  },
+  {
+   "label": "Do you have agency experience",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you open to working 4 days onsite in one of our central offices",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Is the following statement True or False? SeatGeek was founded in 2008",
+   "prefer": "True"
+  },
+  {
+   "label": "Who is your most recent/current employer",
+   "prefer": "Bank of America",
+   "type": ""
+  },
+  {
+   "label": "Work Status",
+   "prefer": "F-1.*CPT.*EAD",
+   "type": ""
+  },
+  {
+   "label": "Visa.*Sponsorship",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Legally.*authorized.*work",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Eligible.*begin.*employment",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "US.*citizen.*Permanent.*Resident",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Requires.*sponsorship",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Government.*employee",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Sanctioned.*countries",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Permanent.*resident.*another.*country",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Onsite.*Hybrid.*Relocation",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Available.*start",
+   "prefer": "Immediately",
+   "type": ""
+  },
+  {
+   "label": "Previously.*worked.*SnapLogic",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Relatives.*company",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Referral",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Non-compete",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Conflicts.*interest",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "18+",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Background.*check",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Lived.*outside.*US",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Smoker",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Securities.*licenses",
+   "prefer": "None",
+   "type": ""
+  },
+  {
+   "label": "EEO.*Gender",
+   "prefer": "I.*do.*not.*wish.*to.*answer",
+   "type": ""
+  },
+  {
+   "label": "EEO.*Race.*Ethnicity",
+   "prefer": "I.*do.*not.*wish.*to.*answer",
+   "type": ""
+  },
+  {
+   "label": "EEO.*Veteran",
+   "prefer": "I.*do.*not.*wish.*to.*answer",
+   "type": ""
+  },
+  {
+   "label": "EEO.*Disability",
+   "prefer": "I.*do.*not.*wish.*to.*answer",
+   "type": ""
+  },
+  {
+   "label": "EEO.*Sexual.*Orientation",
+   "prefer": "I.*do.*not.*wish.*to.*answer",
+   "type": ""
+  },
+  {
+   "label": "EEO.*Pronouns",
+   "prefer": "I.*do.*not.*wish.*to.*answer",
+   "type": ""
+  },
+  {
+   "label": "Hispanic.*Latino",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "How.*hear.*us",
+   "prefer": "Job.*board",
+   "type": ""
+  },
+  {
+   "label": "language\\(s\\) are you fluent \\(written\\) other than English",
+   "prefer": "Chinese",
+   "type": "Chinese"
+  },
+  {
+   "label": "language\\(s\\) are you fluent \\(spoken\\) other than English",
+   "prefer": "Chinese",
+   "type": "Chinese"
+  },
+  {
+   "label": "At this time, Chainguard is unable to provide employment sponsorship",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Work Authorization",
+   "prefer": "F-1 (CPT)",
+   "type": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved"
+  },
+  {
+   "label": "work authorization",
+   "prefer": "F-1 \\(CPT\\)",
+   "type": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved"
+  },
+  {
+   "label": "security clearance",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "onsite",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "EEO ethnicity",
+   "prefer": "I do not wish to answer",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "interview personally",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Go",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "PySpark",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "distributed systems",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "backend engineering",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "lived outside US 12+ months",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "relatives at company",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "All Protolabs facilities in the United States are ITAR-compliant operations. Due to ITAR regulations, which of the following best describes your work authorization status?",
+   "prefer": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved",
+   "type": ""
+  },
+  {
+   "label": "Are you a U.S. citizen or U.S. permanent resident?",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Do you require visa sponsorship now or in the future?",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Are you legally authorized to work in the United States?",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Are you eligible to begin employment immediately?",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Have you ever been employed by a U.S. government entity?",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you a U.S. person for export control purposes?",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you a permanent resident of a country other than the United States?",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "position is a hybrid role",
+   "prefer": "Hybrid",
+   "type": ""
+  },
+  {
+   "label": "San Francisco or Denver",
+   "prefer": "San Francisco",
+   "type": ""
+  },
+  {
+   "label": "What level of travel are you comfort",
+   "prefer": ".*",
+   "type": "Willing to travel up to 50% or as required by business needs"
+  },
+  {
+   "label": "Opt-in to receive text messages about jobs at nCino",
+   "prefer": ".*",
+   "type": "Yes"
+  },
+  {
+   "label": "I would like to receive updates from a recruiter about this job via SM",
+   "prefer": ".*",
+   "type": "Yes"
+  },
+  {
+   "label": "Are you currently a F-1 visa holder on Optional Practical Training",
+   "prefer": ".*",
+   "type": "Yes"
+  },
+  {
+   "label": "Security code",
+   "prefer": ".*",
+   "type": "Enter the code provided in the email or SMS"
+  },
+  {
+   "label": "What is your country of legal residence",
+   "prefer": "United States"
+  },
+  {
+   "label": "Do you currently have legal authorization to work in your country of residence",
+   "prefer": "Yes"
+  },
+  {
+   "label": "soonest date you can start",
+   "prefer": "immediately|within 2 weeks|less than a month"
+  },
+  {
+   "label": "Employment Eligibility Information",
+   "prefer": "F-1 (CPT)",
+   "type": ""
+  },
+  {
+   "label": "Visa Requirement Status",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Affirmation",
+   "prefer": "I do not wish to answer",
+   "type": ""
+  },
+  {
+   "label": "Authorization and Acknowledgement",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Can you provide verification of both your identity and authorization to work in the United States",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Do you have any contractual obligations, agreements, relationships, or",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you a fugitive from justice",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you an alien illegally or unlawfully in the United States",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you an alien who has been admitted to the United States under a no",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you an unlawful user of, or addicted to, marijuana or any depressa",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you subject to a court order, including a Military Protection Orde",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you under indictment or information in any court for a felony, or",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Have you ever been adjudicated as a mental defective OR have you ever",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Have you ever been convicted in any court, including a military court",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Have you ever been discharged from the Armed Forces under dishonorable",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Please select your State",
+   "prefer": "New Jersey"
+  },
+  {
+   "label": "Have you worked for Two Six Technologies or an affiliate in the past",
+   "prefer": "No"
+  },
+  {
+   "label": "Are you a current or former direct employee of any government institut",
+   "prefer": "No"
+  },
+  {
+   "label": "Please identify your race",
+   "prefer": "I do not wish to answer"
+  },
+  {
+   "label": "If hired by Warp, will you be based in the U.S. or Canada\\?",
+   "prefer": "U.S.",
+   "type": ""
+  },
+  {
+   "label": "Do you have permanent authorization to work for Warp in the U.S. or Canada",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Processing of Personal Data",
+   "prefer": "I agree",
+   "type": ""
+  },
+  {
+   "label": "Do you accept the listed salary range for this position",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Where have you learned about Samsara",
+   "prefer": "Job board",
+   "type": ""
+  },
+  {
+   "label": "Do you have experience in manufacturing, OEM, Tier I supplier, or auto",
+   "prefer": "No"
+  },
+  {
+   "label": "Are you able to meet the travel requirements outlined in the job descr",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Which Scout Motors location are you closest to",
+   "prefer": "Fremont"
+  },
+  {
+   "label": "Where did you hear about this role",
+   "prefer": "Job board"
+  },
+  {
+   "label": "Do you currently work for Scout Motors",
+   "prefer": "No"
+  },
+  {
+   "label": "Do you have any conflicts of interest that could affect your ability t",
+   "prefer": "No"
+  },
+  {
+   "label": "Have you previously held a position at Socure",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Do you currently reside in any of the following states: DE, HI, IA, KY, MS, NE",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Do you live within 45 miles of one of Socure's Tech talent hubs in the US",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Do you need a Work VISA to work in the country where this job is located",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Have you previously built or maintained internal tools, internal platforms, or",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "On-Call Requirements: Are you willing and able to participate in this job's on",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Do you have at least 2 years of experience working in a fully remote environment",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Do you want to work in a 100% remote environment on a long-term basis",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Outside Work / Advisory Disclosure",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Security code",
+   "prefer": ".*",
+   "type": "skip"
+  },
+  {
+   "label": "work authorization",
+   "prefer": "F-1.*|EAD.*|Other.*",
+   "type": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved"
+  },
+  {
+   "label": "sponsorship",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "eligible to begin",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "US person.*export",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "permanent resident.*other country",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "onsite|hybrid|relocation|commute|RTO",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "start immediately|within 2 weeks",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "previously worked.*this company",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "relatives.*company",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "non-compete|restrictive agreement",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "conflicts of interest",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "lived outside.*12.*months.*7.*years",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "hear about us",
+   "prefer": "Job board",
+   "type": "Job board"
+  },
+  {
+   "label": "EEO|demographics|gender|race|veteran|disability|sexual orientation|pronouns",
+   "prefer": "I do not wish to answer|Prefer not to say|Not declared|Not Specified",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "Hispanic|Latino",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "AI.*usage",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "interview.*AI|assessment.*AI",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "5.*years.*software",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "SDLC|system design|microservices|APIs|mentoring|backend|payment|market data",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "8.*years.*Golang|TypeScript.*UI|C#.*NET",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Do you have customer and/or stakeholder facing experience",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "What is your SQL skill level",
+   "prefer": "Advanced",
+   "type": ""
+  },
+  {
+   "label": "Where did you first learn about this position",
+   "prefer": "Job board",
+   "type": ""
+  },
+  {
+   "label": "State",
+   "prefer": "New Jersey",
+   "type": ""
+  },
+  {
+   "label": "Are you a current or previous Pathward employee",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you related to, or are you in a close personal relationship with",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Work Authorization.*Visa|Sponsorship",
+   "prefer": "F-1.*CPT",
+   "type": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved"
+  },
+  {
+   "label": "Available to start",
+   "prefer": "Immediately",
+   "type": "Immediately"
+  },
+  {
+   "label": "Onsite|Hybrid|Relocation|Commute",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Relatives at the company",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Non-compete|Restrictive agreement",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Conflicts of interest",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "EEO|Demographics|Gender|Race|Veteran|Disability|Sexual orientation|Pronouns",
+   "prefer": "I do not wish to answer",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "SDLC|System design|Microservices|APIs|Mentoring|Backend|Payment systems|Market data",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Interview/assessment pledge",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Location.*City",
+   "prefer": "New York",
+   "type": ""
+  },
+  {
+   "label": "Visa.*sponsorship|Immigration.*support|Work.*authorization",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "US.*citizen|Permanent.*resident|Green.*card",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Visa.*status|Current.*status",
+   "prefer": "F-1.*CPT",
+   "type": ""
+  },
+  {
+   "label": "Start.*date|Available.*to.*start",
+   "prefer": "Immediately",
+   "type": ""
+  },
+  {
+   "label": "Relocation|Relocate",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Onsite|Hybrid|Remote|In.*office|RTO",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Background.*check|Consent.*background",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "EEO|Demographics|Gender|Race|Ethnicity|Veteran|Disability|Sexual.*orientation|Pronouns",
+   "prefer": "I do not wish to answer|Prefer not to say|Not Specified",
+   "type": ""
+  },
+  {
+   "label": "Non-compete|Restrictive.*agreement",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Previously.*worked.*for.*this.*company",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Referral|Referred.*by",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Government.*employee|Security.*clearance|US.*person.*export",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "AI.*usage|Use.*AI|AI.*tools",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Interview.*assessment.*AI|Write.*own.*words",
+   "prefer": "Skip",
+   "type": ""
+  },
+  {
+   "label": "How did you first hear about Planet before applying for this position",
+   "prefer": "Job board",
+   "type": ""
+  },
+  {
+   "label": "Do you reside in or maintain an established permanent residence in any",
+   "prefer": "New York, NY",
+   "type": ""
+  },
+  {
+   "label": "Do you identify as a member of the LGBT2QIA+ community",
+   "prefer": "I do not wish to answer",
+   "type": ""
+  },
+  {
+   "label": "F-1|CPT|EAD|Employment Authorization Document",
+   "prefer": "F-1 (CPT)",
+   "type": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved"
+  },
+  {
+   "label": "Available to start",
+   "prefer": "Immediately",
+   "type": ""
+  },
+  {
+   "label": "Previously worked for this company",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Relatives at the company",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Non-compete|Restrictive agreement",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "18 years old",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Background check",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Lived outside the US",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Securities licenses",
+   "prefer": "None",
+   "type": ""
+  },
+  {
+   "label": "Gender|Race|Ethnicity|Veteran|Disability|Sexual orientation|Pronouns",
+   "prefer": "I do not wish to answer",
+   "type": ""
   }
  ],
  "texts": [
@@ -4895,6 +5938,210 @@
   {
    "label": "vim or emacs",
    "text": "Neither by religion — I do most of my work in VS Code with an AI assistant in the loop, and I reach for vim whenever I am editing on a remote box. If I had to pick a camp, vim: the muscle memory has paid for itself every time I have had to debug something over ssh at 2am."
+  },
+  {
+   "label": "Describe a hard problem you solved. Why was it difficult. How did you",
+   "text": "At Bank of America, I architected a real-time transaction-data platform that had to scale to handle 10x traffic growth, processing millions of requests daily. The difficulty lay in maintaining sub-second p99 latency while ensuring data consistency across a distributed system. I solved this by implementing horizontal partitioning and an aggressive caching strategy, which cut p99 latency by 60% and allowed the system to handle the load reliably."
+  },
+  {
+   "label": "What tip, trick, or technique did you recently learn that helps you be",
+   "text": "I recently deepened my integration of AI tools into my daily engineering workflow to accelerate code generation, debugging, and system design documentation. This allows me to iterate faster and focus more on architectural decisions and complex logic, significantly boosting my productivity and code quality."
+  },
+  {
+   "label": "You are reviewing someone's code, what do you look for",
+   "text": "I look for clarity, maintainability, and adherence to the language's idioms (especially Python or Go). I prioritize checking for edge-case handling, resource management, and whether the code scales well under load. I also verify that the code is well-tested and that the logic aligns with the system's distributed architecture requirements."
+  },
+  {
+   "label": "What else should we know when screening your application",
+   "text": "I am a Senior Backend Software Engineer with 7 years of experience in high-scale fintech systems at Bank of America and BlackRock. While my core stack is Python, Go, and distributed systems, I am eager to apply my experience in scaling high-throughput data platforms to the gaming industry. I am authorized to work in the US and can start immediately."
+  },
+  {
+   "label": "Now a fun one! What game have you put the highest amount of playtime h",
+   "text": "I do not wish to answer."
+  },
+  {
+   "label": "How many years of relevant working experience",
+   "text": "7 years"
+  },
+  {
+   "label": "Briefly tell me about your Agentic AI experience",
+   "text": "I integrate Agentic AI deeply into my daily engineering workflow to accelerate development, debugging, and system design. At Bank of America, I leveraged AI tools to scale a real-time transaction platform handling millions of requests daily, using AI to optimize horizontal partitioning and caching strategies that reduced p99 latency by 60%. My approach combines Python and Go expertise with AI-driven automation to ship production code reliably and efficiently."
+  },
+  {
+   "label": "Businessolver uses text messaging to help move you through the int",
+   "text": "N/A"
+  },
+  {
+   "label": "What lab software systems",
+   "text": "I have not worked with specific lab software systems such as LIMS or ELN. My background is in high-scale distributed systems, real-time transaction processing, and quantitative data platforms at Bank of America and BlackRock, utilizing Python, Go, and PySpark."
+  },
+  {
+   "label": "Have you customized or extended a LIMS",
+   "text": "No, I have not customized or extended a LIMS or ELN. My experience focuses on building scalable backend infrastructure, microservices, and data pipelines for financial markets and banking transactions."
+  },
+  {
+   "label": "What CI/CD tools have you used",
+   "text": "I have not used specific lab software CI/CD tools. My experience includes implementing CI/CD pipelines for distributed systems and microservices using AWS, Docker, and Kubernetes to support high-traffic financial platforms."
+  },
+  {
+   "label": "What do you think are our most complex technical challenges based on t",
+   "text": "Based on Lithic's focus on embedded finance and real-time treasury operations, the most complex challenges involve building a platform that handles high-volume, low-latency transaction processing while ensuring strict financial compliance and data consistency across distributed systems. My experience scaling real-time transaction platforms at Bank of America to handle millions of requests daily, cutting p99 latency by 60% through horizontal partitioning and caching, directly translates to solving these scalability and reliability hurdles."
+  },
+  {
+   "label": "Our interviews require you to be on video. Can you confirm that you ca",
+   "text": "Yes, I can confirm that I am fully able to participate in video interviews. I have the necessary equipment and a stable internet connection to ensure a professional and reliable video experience."
+  },
+  {
+   "label": "What did you get when you cracked the code\\*",
+   "text": "I do not know the specific answer to this question as it is not a verifiable personal fact in my background. However, I am confident in my ability to solve complex technical problems and contribute to Lithic's mission."
+  },
+  {
+   "label": "Vim or Emacs",
+   "text": "Vim. I prefer Vim for its efficiency in terminal-based editing and extensive plugin ecosystem, which aligns with my workflow as a backend engineer focusing on Python and Go."
+  },
+  {
+   "label": "DEPT® Privacy Statement",
+   "text": "I agree to the DEPT® Privacy Statement."
+  },
+  {
+   "label": "What interests you in this role and Zanskar",
+   "text": "I am drawn to Zanskar's mission to democratize access to capital markets through innovative fintech solutions. With 7 years of experience scaling high-throughput transaction systems at Bank of America and BlackRock, I am eager to apply my expertise in Python, Go, and distributed systems to handle Zanskar's growing data complexity. My background in reducing p99 latency by 60% during 10x traffic growth aligns perfectly with your need for robust, real-time backend infrastructure, and I am excited to leverage AI-driven development to accelerate your engineering velocity."
+  },
+  {
+   "label": "Why Coalition",
+   "text": "I am excited to join Coalition because your mission to make the world more resilient through data-driven risk modeling aligns perfectly with my background in scaling high-throughput financial systems at Bank of America and BlackRock. My experience building real-time transaction platforms that handle millions of requests daily, combined with my proficiency in Python and Go, positions me to immediately contribute to your engineering challenges. I am eager to apply my deep expertise in distributed systems and my AI-forward development workflow to help protect policyholders and drive innovation at Coalition."
+  },
+  {
+   "label": "What interests you in this role and Zanskar",
+   "text": "I am drawn to Zanskar's mission to build robust, scalable financial infrastructure. With 7 years of experience scaling real-time transaction platforms at Bank of America and BlackRock, I am eager to apply my expertise in Python, Go, and distributed systems to solve high-volume data challenges. My background in handling millions of requests daily and reducing p99 latency by 60% aligns perfectly with Zanskar's engineering needs, and I am excited to contribute to a team that values deep technical innovation and AI-driven development."
+  },
+  {
+   "label": "Visa.*Status.*Details",
+   "text": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved."
+  },
+  {
+   "label": "Why are you interested in this role at Chainguard",
+   "text": "I am drawn to Chainguard's mission of securing the software supply chain through immutable, verified artifacts, which aligns perfectly with my background building high-scale, real-time transaction platforms at Bank of America and BlackRock. My experience scaling systems to handle millions of requests daily, combined with my deep proficiency in Python, Go, and distributed systems, positions me to immediately contribute to the reliability and performance of your customer platform. Furthermore, my proactive integration of AI tools into my engineering workflow allows me to accelerate development cycles while maintaining the rigorous security standards your infrastructure demands."
+  },
+  {
+   "label": "passionate about tacking",
+   "text": "I am deeply passionate about tackling the issues that matter most, particularly in fintech and financial infrastructure. At Bank of America, I scaled a real-time transaction-data platform to handle 10x traffic growth, cutting p99 latency by 60% through horizontal partitioning and caching. My five years at BlackRock and current work at BoA have honed my ability to build resilient, high-scale middleware and integration systems that drive critical business outcomes."
+  },
+  {
+   "label": "salary expectation",
+   "text": "$150,000+"
+  },
+  {
+   "label": "Why are you interested in joining Windfall",
+   "text": "I am drawn to Windfall's innovative approach to financial technology and the opportunity to apply my seven years of backend engineering experience at scale. My background in building high-throughput, real-time transaction platforms at Bank of America and BlackRock aligns perfectly with the challenges of your distributed systems. I am eager to contribute to your engineering team, leveraging my expertise in Python, Go, and AI-driven development to drive impactful solutions in a collaborative hybrid environment."
+  },
+  {
+   "label": "What attracted you to this role at nCino",
+   "text": "I am drawn to nCino's leadership in cloud-native banking solutions and the opportunity to apply my 7 years of backend engineering experience in high-scale fintech environments to solve complex distributed system challenges. My background scaling real-time transaction platforms at Bank of America and BlackRock aligns perfectly with nCino's mission to modernize financial services, and I am eager to contribute to a team that values innovation and AI-driven engineering workflows."
+  },
+  {
+   "label": "To the best of your knowledge, are you currently working for a partner",
+   "text": "No"
+  },
+  {
+   "label": "What is your work authorization status",
+   "text": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved."
+  },
+  {
+   "label": "Employment Eligibility Information",
+   "text": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved."
+  },
+  {
+   "label": "Visa Requirement Status",
+   "text": "Yes"
+  },
+  {
+   "label": "Affirmation",
+   "text": "I do not wish to answer"
+  },
+  {
+   "label": "Authorization and Acknowledgement",
+   "text": "Yes"
+  },
+  {
+   "label": "Please identify your race",
+   "text": "I do not wish to answer"
+  },
+  {
+   "label": "Please provide your Zip Code",
+   "text": "07306"
+  },
+  {
+   "label": "Desired Salary",
+   "text": "150000"
+  },
+  {
+   "label": "Share your favorite blog post, article, or paper you've read in the la",
+   "text": "I recently read 'The Pragmatic Programmer' by Andrew Hunt and David Thomas, which remains a cornerstone for my engineering philosophy, and I also deeply value Warp's engineering blog posts on building high-performance terminal emulators, which align with my passion for optimizing developer tooling."
+  },
+  {
+   "label": "What is the zip code of your primary residence",
+   "text": "07306"
+  },
+  {
+   "label": "AI Policy for Interviewers",
+   "text": "I agree to complete the interview and assessment personally without using AI tools, while acknowledging that I use AI tools deeply in my daily engineering workflow."
+  },
+  {
+   "label": "This role is based out of the Scout Motors location in Fremont, Califo",
+   "text": "Yes, I am able to relocate to Fremont, California at my own expense and am available to start immediately."
+  },
+  {
+   "label": "The job description includes a stated initial base pay range. Final pa",
+   "text": "My salary expectation is $150,000+ base."
+  },
+  {
+   "label": "Have you heard of TRM",
+   "text": "Yes, I have followed TRM Labs' work in blockchain intelligence and anti-money laundering solutions, and I am impressed by your platform's ability to provide real-time visibility into the crypto economy."
+  },
+  {
+   "label": "Security code",
+   "text": "SKIP"
+  },
+  {
+   "label": "Do you have customer and/or stakeholder facing experience",
+   "text": "Yes, I have extensive stakeholder-facing experience from my roles at Bank of America and BlackRock, where I collaborated with product managers, data scientists, and business leaders to define requirements and deliver scalable financial transaction and quantitative research platforms."
+  },
+  {
+   "label": "What is your SQL skill level",
+   "text": "Advanced"
+  },
+  {
+   "label": "Where did you first learn about this position",
+   "text": "Job board"
+  },
+  {
+   "label": "Please share what initially sp",
+   "text": "I am drawn to Pathward's mission of empowering financial institutions through innovative technology. With over seven years of experience scaling real-time transaction platforms at Bank of America and managing quantitative data systems at BlackRock, I am eager to apply my expertise in Python, Go, and distributed systems to help Pathward drive digital transformation in the financial sector."
+  },
+  {
+   "label": "Visa status text field",
+   "text": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved"
+  },
+  {
+   "label": "Why this role|Why us|Essay",
+   "text": "As a Senior Backend Software Engineer with 7 years of experience scaling real-time transaction platforms at Bank of America and managing quantitative data systems at BlackRock, I am eager to apply my expertise in Python, Go, and distributed systems to Samaya AI's mission. My background includes successfully handling 10x traffic growth and reducing p99 latency by 60%, and I am deeply committed to leveraging AI tools to drive engineering excellence and innovation at your company."
+  },
+  {
+   "label": "Visa.*status.*details|Visa.*expiration|Visa.*notes",
+   "text": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved."
+  },
+  {
+   "label": "How.*did.*you.*hear.*about.*us|Source",
+   "text": "Job board"
+  },
+  {
+   "label": "Do you reside in or maintain an established permanent residence in any",
+   "text": "New York, NY"
+  },
+  {
+   "label": "Are you currently authorized to reside and work in the country",
+   "text": "Yes. I am a PRC citizen currently authorized to work in the US on F-1 (CPT/EAD) valid through 05/31/2027. I require visa sponsorship for future employment (cap-exempt H-1B transfer) and have an approved employment-based I-140."
   }
  ],
  "checkboxes": [
