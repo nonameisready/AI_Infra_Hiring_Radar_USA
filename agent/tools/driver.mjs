@@ -43,6 +43,14 @@ const writeOut = async (tag) => {
   log.length = 0;
 };
 
+// evalJs results are parsed as JSON by callers (gen-ashby1 -> ashby-auto). A hard
+// 3500-char slice cut long probes mid-string, so JSON.parse threw and the whole
+// Ashby lane died on any form with more than a handful of questions. Keep a cap so
+// the log stays readable, but make it big enough for a real form probe and mark
+// the rare overflow explicitly instead of emitting silently-invalid JSON.
+const EVAL_LOG_MAX = 60000;
+const clip = (s) => (s.length <= EVAL_LOG_MAX ? s : s.slice(0, EVAL_LOG_MAX) + ` ...[TRUNCATED ${s.length} chars]`);
+
 const ACT = {
   goto: async (a) => { await page.goto(a.url, { waitUntil: "domcontentloaded", timeout: 90000 }); },
   fill: async (a) => { await page.locator(a.sel).first().fill(a.value, { timeout: 8000 }); },
@@ -89,12 +97,12 @@ const ACT = {
   wait: async (a) => { await page.waitForTimeout(a.ms ?? 5000); },
   saveState: async () => { await ctx.storageState({ path: stateFile }); say("state saved"); },
   evalHtml: async (a) => { say(await page.evaluate((sel) => document.querySelector(sel)?.outerHTML?.slice(0, 3000) ?? "not found", a.sel)); },
-  evalJs: async (a) => { say(String(await page.evaluate(a.code)).slice(0, 3500)); },
+  evalJs: async (a) => { say(clip(String(await page.evaluate(a.code)))); },
   frameDump: async () => { say(JSON.stringify(page.frames().map((f) => f.url()).slice(0, 10))); },
   evalFrame: async (a) => {
     const f = page.frames().find((fr) => new RegExp(a.frameRe).test(fr.url()));
     if (!f) { say("no frame matching " + a.frameRe); return; }
-    say(String(await f.evaluate(a.code)).slice(0, 3500));
+    say(clip(String(await f.evaluate(a.code))));
   },
   clickFrame: async (a) => {
     const f = page.frames().find((fr) => new RegExp(a.frameRe).test(fr.url()));
