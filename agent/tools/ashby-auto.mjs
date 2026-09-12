@@ -54,20 +54,20 @@ const probe = JSON.parse(planLine);
 // is never guessed.
 const unknown = probe.unknown ?? [];
 const extraYes = [], extraNo = [], unresolved = [];
+const ANSWERS = JSON.parse(fs.readFileSync(
+  process.env.ANSWERS_FILE ?? path.join(REPO, "agent/finishers/generic-answers.json"), "utf8"));
+const decide = (q) => {
+  for (const c of ANSWERS.combos ?? []) {
+    let re;
+    try { re = new RegExp(c.label, "i"); } catch { continue; }
+    if (!re.test(q)) continue;
+    const p = String(c.prefer ?? "");
+    if (/^\^?\(?(yes|i consent|i agree)/i.test(p)) return "yes";
+    if (/^\^?\(?(no|none)/i.test(p)) return "no";
+  }
+  return null;
+};
 if (unknown.length) {
-  const ANSWERS = JSON.parse(fs.readFileSync(
-    process.env.ANSWERS_FILE ?? path.join(REPO, "agent/finishers/generic-answers.json"), "utf8"));
-  const decide = (q) => {
-    for (const c of ANSWERS.combos ?? []) {
-      let re;
-      try { re = new RegExp(c.label, "i"); } catch { continue; }
-      if (!re.test(q)) continue;
-      const p = String(c.prefer ?? "");
-      if (/^\^?\(?(yes|i consent|i agree)/i.test(p)) return "yes";
-      if (/^\^?\(?(no|none)/i.test(p)) return "no";
-    }
-    return null;
-  };
   const tagged = unknown.map((q, i) => ({ q, i, want: decide(q) }));
   const answerable = tagged.filter((t) => t.want);
   unresolved.push(...tagged.filter((t) => !t.want).map((t) => t.q));
@@ -88,6 +88,50 @@ if (unknown.length) {
     unresolved.push(...missed);
   }
 }
+// Radio groups: auto-pick ONLY where the standing answers make the choice
+// unambiguous. Anything about domain-specific experience the applicant may or
+// may not have (a named stack, an industry, a tool) is deliberately left for the
+// orchestrator — a guessed "yes" there is a lie to a hiring team.
+function pickRadio(g) {
+  const q = String(g.q ?? ""), opts = g.opts ?? [];
+  const find = (re) => opts.find((x) => re.test(x.label));
+  if (/pronoun|gender|race|ethnic|veteran|disab/i.test(q)) return find(/prefer not|decline|do not wish|not specified/i);
+  if (/referral source|how did you hear|where did you hear/i.test(q)) return find(/job board|linkedin/i);
+  // 7 years of professional experience — pick the bracket that actually contains 7.
+  if (/how many years|years of (professional|industry|relevant|software|engineering)/i.test(q)) {
+    for (const o of opts) {
+      const m = o.label.match(/(\d+)\s*(?:[-–—]|to)\s*(\d+)/);
+      if (m && 7 >= Number(m[1]) && 7 <= Number(m[2])) return o;
+    }
+    const plus = opts.map((o) => ({ o, m: o.label.match(/(\d+)\s*\+/) }))
+      .filter((x) => x.m && Number(x.m[1]) <= 7)
+      .sort((a, b) => Number(b.m[1]) - Number(a.m[1]))[0];
+    return plus ? plus.o : null;
+  }
+  // Work authorization: "any employer"/permanent is No; plain authorization and
+  // every sponsorship phrasing is Yes (KNOWLEDGE.md, never varied).
+  if (/any employer|permanent (work )?authorization|without (any )?(restriction|sponsorship)/i.test(q)) return find(/^no\b/i);
+  if (/require.*sponsor|sponsorship|visa support/i.test(q)) return find(/^yes\b/i);
+  if (/authorized to work|legally (able|authorized)|eligible to work/i.test(q)) return find(/^yes\b/i);
+  // Onsite / hybrid / relocation — yes to every arrangement, any US city.
+  if (/on-?site|in.?office|hybrid|relocat|days (a|per) week|commute/i.test(q)) {
+    return find(/^yes$/i) ?? find(/^yes\b/i);
+  }
+  // Fall back to the shared standing-answer rules for plain Yes/No groups.
+  const want = decide(q);
+  if (want === "yes") return find(/^yes\b/i);
+  if (want === "no") return find(/^no\b/i);
+  return null;
+}
+
+// A required radio group nobody could answer is as blocking as an unknown
+// yes/no: report it instead of submitting an incomplete form.
+for (const g of probe.radioGroups ?? []) {
+  const q = String(g.q ?? "");
+  if ((g.opts ?? []).length < 2) continue;        // option echoes, not real groups
+  if (!pickRadio(g)) unresolved.push("[radio] " + q);
+}
+
 if (unresolved.length) {
   console.log(JSON.stringify({ ok: false, stage: "probe", reason: "questions no standing rule covers — orchestrator must answer", unresolved, probe }, null, 1));
   process.exit(2);
@@ -98,17 +142,8 @@ const plan = {
   yesIds: [...(probe.yesIds ?? []), ...extraYes],
   noIds: [...(probe.noIds ?? []), ...extraNo],
   radioIds: (probe.radioGroups ?? []).flatMap((g) => {
-    // only auto-pick groups whose intent is unambiguous under the standing
-    // answers: EEO/pronoun questions decline, referral source is a job board.
-    if (/pronoun|gender|race|ethnic|veteran|disab/i.test(g.q)) {
-      const o = (g.opts ?? []).find((x) => /prefer not|decline|do not wish|not specified/i.test(x.label));
-      return o ? [o.id] : [];
-    }
-    if (/referral source|how did you hear/i.test(g.q)) {
-      const o = (g.opts ?? []).find((x) => /linkedin|job board/i.test(x.label));
-      return o ? [o.id] : [];
-    }
-    return [];
+    const o = pickRadio(g);
+    return o ? [o.id] : [];
   }),
   loc: probe.loc ?? null,
 };

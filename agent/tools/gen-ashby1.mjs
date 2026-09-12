@@ -20,11 +20,13 @@ var done=[];var fillPlan=[];var fn=0;
 [].slice.call(document.querySelectorAll('input[type=text],input[type=email],input[type=tel],input[type=url],textarea')).forEach(function(e){if(!e.offsetParent||e.value)return;var lb=lblOf(e);for(var i=0;i<fills.length;i++){if(fills[i][0].test(lb)){if(!e.id)e.id='ff'+(fn++);fillPlan.push({id:e.id,val:fills[i][1]});done.push(lb.slice(0,25));fills.splice(i,1);return}}});
 var loc=null;var ll=[].slice.call(document.querySelectorAll('label')).filter(function(x){return /^location/i.test(x.textContent.trim())})[0];
 if(ll){var f=ll.closest('div');var li=(f&&f.querySelector('input'))||(ll.parentElement.parentElement&&ll.parentElement.parentElement.querySelector('input'));if(li&&!li.value){li.id=li.id||'locfield';loc=li.id}}
-var YES=[/legally authorized to work/i,/require.*sponsorship/i,/may agree to sponsor/i,/now or in the future require/i,/18 years|age of 18/i,/consent to be recorded/i];
-var NO=[/previously (worked|been employed)/i,/have you (ever )?worked (at|for)/i,/current or former employee/i];
+var ANYEMP=/any employer|without (any )?(restriction|sponsorship|need for)|permanent (work )?authorization|permanently authorized|do not (now or in the future )?require/i;
+var YES=[/legally authorized to work/i,/authorized to work in the country/i,/currently authorized to work/i,/eligible to (work|begin employment)/i,/require.*sponsorship/i,/may agree to sponsor/i,/now or in the future require/i,/18 years|age of 18/i,/consent to be recorded/i,/willing to relocate/i,/willing to work (on-?site|in.?office|hybrid)/i,/comfortable (with|working).*(hybrid|on-?site|in.?office|travel)/i,/days (a|per) week (in|at|from)/i,/consent to a background check|agree to a background check/i];
+var NO=[/previously (worked|been employed)/i,/have you (ever )?worked (at|for)/i,/current or former employee/i,/non-?compete|restrictive (agreement|covenant)/i,/conflict of interest/i,/(relative|family member|spouse|immediate family).*(employ|work)/i,/government official/i,/referred by|employee referral/i];
 var yesIds=[],noIds=[],unknown=[],pre=[];var n=0;
 [].slice.call(document.querySelectorAll('[class*=fieldEntry]')).forEach(function(fd){var b=fd.querySelector('button[data-option]');if(!b)return;var lb=((fd.querySelector('label,legend')||{}).textContent||'').trim();var pressed=fd.querySelector('button[aria-pressed=true]');if(pressed){pre.push(lb.slice(0,30));return}var y=fd.querySelector('button[data-option=yes]'),no=fd.querySelector('button[data-option=no]');
-if(YES.some(function(r){return r.test(lb)})&&y){y.id=y.id||('yn_yes_'+(n++));yesIds.push(y.id)}
+if(ANYEMP.test(lb)&&no){no.id=no.id||('yn_no_'+(n++));noIds.push(no.id)}
+else if(YES.some(function(r){return r.test(lb)})&&y){y.id=y.id||('yn_yes_'+(n++));yesIds.push(y.id)}
 else if(NO.some(function(r){return r.test(lb)})&&no){no.id=no.id||('yn_no_'+(n++));noIds.push(no.id)}
 else unknown.push(lb.slice(0,80))});
 var vetDecl=[];
