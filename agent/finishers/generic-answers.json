@@ -3700,7 +3700,7 @@
   },
   {
    "label": "open to working\\s*\\d*\\s*days?\\s*(on-?site|in.?office)",
-   "prefer": "^yes"
+   "prefer": "^yes|nyc|new york"
   },
   {
    "label": "(willing|able|open) to work\\s*\\d+\\s*days?\\s*(a|per)?\\s*week",
@@ -3765,6 +3765,30 @@
   {
    "label": "receive (updates|messages).*(recruiter|job).*(sms|text)",
    "prefer": "^no"
+  },
+  {
+   "label": "customer and/?or stakeholder.?facing experience",
+   "prefer": "^yes"
+  },
+  {
+   "label": "(what is your )?sql (skill level|proficiency|experience level)",
+   "prefer": "advanced|proficient|strong|4|5"
+  },
+  {
+   "label": "level of expertise.*typescript",
+   "prefer": "proficient|strong|advanced|intermediate"
+  },
+  {
+   "label": "do you have agency experience",
+   "prefer": "^no"
+  },
+  {
+   "label": "do you live in any of the following states",
+   "prefer": "new jersey|no\\b"
+  },
+  {
+   "label": "which (office|location) (are you|would you)",
+   "prefer": "nyc|new york"
   }
  ],
  "texts": [
@@ -4867,6 +4891,10 @@
   {
    "label": "soonest date you can start|earliest (possible )?start date|when (can|could) you start",
    "text": "Immediately — I am available to start within two weeks of an offer."
+  },
+  {
+   "label": "vim or emacs",
+   "text": "Neither by religion — I do most of my work in VS Code with an AI assistant in the loop, and I reach for vim whenever I am editing on a remote box. If I had to pick a camp, vim: the muscle memory has paid for itself every time I have had to debug something over ssh at 2am."
   }
  ],
  "checkboxes": [

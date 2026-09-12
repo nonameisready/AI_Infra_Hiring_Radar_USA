@@ -686,3 +686,74 @@ links. First digest sent today: 85 outstanding items.
 2 submitted, 75 parked, 11 queued for Qwen. All-time 584.
 - Blend — Software Engineer - Platform Foundation (93%) — greenhouse, confirmed
 - Cloudbeds — Senior Software Engineer - Workflow (82%) — greenhouse, confirmed
+
+## 2026-09-12 (cloud window, 5:00am ET) — 2 confirmed, all-time 586
+
+Mac ran at 1:00am ET as designed and pushed `ashby-local-results` (2 submitted,
+75 parked, 11 queued for Qwen); that branch was fast-forwarded into main at the
+top of this window. Cloud additions below are on top of the Mac's two.
+
+| # | Company | Title | Match | Via | Confirmation |
+| - | ------- | ----- | ----- | --- | ------------ |
+| 585 | AuthZed | Senior Software Engineer | 84% | ashby (cloud driver) | no-reply@ashbyhq.com 09:11Z |
+| 586 | Suno | Senior/Staff Software Engineer - Commerce Platform | 83% | ashby (cloud driver) | no-reply@ashbyhq.com 09:17Z |
+
+Submitted, not yet counted: **Rain** (Backend Engineer, AI, 81%) — Ashby driver
+reported on-page success with no spam flag, but no confirmation mail had arrived
+by the close of the window. Stays `submitted_unconfirmed`; re-check
+from:ashbyhq.com before counting or re-applying.
+
+**Confirmed today: 4 of the 100 goal** (Mac's Blend + Cloudbeds, cloud's AuthZed
++ Suno). The four `manual_done` rows dated today are the ones the user submitted
+herself and were already counted on 2026-09-11.
+
+### Why the day fell short — three real limits, not pacing
+
+1. **The automatable supply was already spent by 1am.** The Mac takes the
+   Greenhouse lane from the home IP overnight. What the 5am harvest had left was
+   652 cards → 159 new-eligible after dedupe, and the batch's own ATS discovery
+   put 38 of the first 45 on platforms this container cannot drive: Workday
+   tenants (14), LinkedIn/Google/ZipRecruiter aggregator links, iCIMS, Apple,
+   Rippling, TikTok, Microsoft. That is the binding constraint now — not the
+   pool size, and not the cap.
+2. **Ashby's spam filter heated up and the lane stopped itself.** AuthZed, Suno
+   and Rain went through cleanly; then Wynd Labs and SavvyMoney double-flagged
+   back to back and the lane stopped per the standing rule (2 flags per company,
+   2 consecutive double-flags ends the lane). Kira and Heron Power had already
+   spent their two attempts. **A retry after ~3h of cooldown is worth running**
+   — 41 workable Ashby postings are still queued.
+3. **Every cloud Greenhouse submit needs an emailed security code.** From the
+   datacenter IP the challenge fires on essentially every submit, and each code
+   has to be fetched and typed inside a 5-minute window, which makes the lane
+   strictly serial. The Mac's home IP usually skips the challenge entirely —
+   which is exactly why the Greenhouse batch lives there.
+
+### Repo fixes this window
+
+- `driver.mjs` truncated every evalJs result at 3500 chars. Callers JSON.parse
+  that line, so any Ashby form with more than a handful of questions came back
+  cut mid-string and the lane died with a SyntaxError. Cap raised to 60k with an
+  explicit truncation marker.
+- `gen-ashby1.mjs` answered **"authorized to work for ANY employer"** and
+  **"permanent authorization to work"** as **Yes**. Both are false — F-1 CPT/EAD
+  is employer-restricted and she needs sponsorship. Those phrasings are now
+  checked first and answered No. This was live and could have put a wrong answer
+  in front of a hiring team; it is the most important fix of the window.
+- `book-generic.mjs` wrote `at: '2026-09-10'` as a literal, so everything booked
+  since that date was filed under the wrong day and the per-day counts the goal
+  is measured against were wrong. Now defaults to today in ET.
+- `ashby-auto.mjs` now resolves the safe radio groups itself (EEO declines,
+  referral source, the experience bracket containing 7, work auth, sponsorship,
+  onsite/hybrid) and still refuses to guess domain-experience questions.
+- `gh-finish.mjs` counted Greenhouse's security-code field as an unanswered
+  required question, which both mislabelled the park and deadlocked the submit.
+  It now parks with the real reason.
+- A fresh cloud container never wrote `autofill-profile.json`, so **every** job in
+  the first batch failed ATS discovery instantly and logged "no ATS url". Worth
+  making the cloud path generate it the way `local-batch.mjs` does.
+
+### Needs the user personally (4, emailed)
+
+Heron Power (90%), Wynd Labs (88%), SavvyMoney (88%), Kira (87%) — all Ashby,
+all double-flagged as spam from the datacenter IP, all with the answers already
+worked out. About two minutes each from her own browser.

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-12T07:51:19.020Z",
+  "updatedAt": "2026-09-12T10:37:29.345Z",
   "items": [
     {
       "id": "6a8384dc2dbaf907b07695d1",
@@ -3235,10 +3235,11 @@
       "company": "Heron Power",
       "matchPercent": 90,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7e02010cd4a0703257d11b",
-      "atsUrl": "https://jobs.ashbyhq.com/heron-power/a898379d-aaeb-488a-81ea-58eb3d0ad9ab/application?utm_source=jobright&jr_id=6a7e02010cd4a0703257d11b",
+      "atsUrl": "https://jobs.ashbyhq.com/heron-power/a898379d-aaeb-488a-81ea-58eb3d0ad9ab/application?jr_id=6a7e02010cd4a0703257d11b",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "2026-09-11 cloud: Ashby driver could not complete the form — the persistent browser session degraded (name/email fields timed out) after ~40 Ashby page loads. Form questions are known: onsite-in-Scotts-Valley acknowledgement Yes, years of full-time industry experience 7, plus a three-accomplishments essay. Retry in a fresh driver session."
+      "status": "user_manual",
+      "note": "2026-09-12 cloud: Ashby flagged BOTH submits as possible spam from the datacenter IP — no third attempt, per the standing rule. The form itself is straightforward and the answers are the standing ones (authorized to work Yes, sponsorship needed Yes, F-1 CPT/EAD, onsite/relocation Yes, EEO decline); it takes about two minutes from your own browser. Apply link: https://jobs.ashbyhq.com/heron-power/a898379d-aaeb-488a-81ea-58eb3d0ad9ab/application?jr_id=6a7e02010cd4a0703257d11b",
+      "updatedAt": "2026-09-12"
     },
     {
       "id": "6a4c24755d7b097d2df3fa68",
@@ -8591,8 +8592,9 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/696e8497db26b61895116267",
       "atsUrl": "https://jobs.ashbyhq.com/socure/0fa30965-200d-435b-ad30-7f778b9f8ec7/application?utm_source=jobright&jr_id=696e8497db26b61895116267",
       "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "2026-09-11 cloud window: ashby unconfirmed: Senior Backend Engineer\nLocation\n\nHybrid - New York, NY; Hybrid - San Francisco, CA; Hybrid - Seattl"
+      "status": "needs_answers",
+      "note": "2026-09-12 cloud: form filled through the persistent Ashby driver, held on questions no standing rule covers: [\"Have you previously held a position at Socure?\",\"Do you currently reside in any of the following states: DE, HI, IA, KY, MS, NE, \",\"Do you live within 45 miles of one of Socure's Tech talent hubs in the US?\"]. Not guessed. Retry next window once these are answered.",
+      "updatedAt": "2026-09-12"
     },
     {
       "id": "6a072b981f7fa33581c9d166",
@@ -8816,7 +8818,9 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a565b42f7517b519ad55118",
       "atsUrl": "https://jobs.ashbyhq.com/wynd-labs/1e0ceb41-435e-48f7-b70d-4e6b8ed2df0a/application?utm_source=jobright&jr_id=6a565b42f7517b519ad55118",
       "addedAt": "2026-09-04",
-      "status": "local replay"
+      "status": "user_manual",
+      "updatedAt": "2026-09-12",
+      "note": "2026-09-12 cloud: Ashby flagged BOTH submits as possible spam from the datacenter IP — no third attempt, per the standing rule. The form itself is straightforward and the answers are the standing ones (authorized to work Yes, sponsorship needed Yes, F-1 CPT/EAD, onsite/relocation Yes, EEO decline); it takes about two minutes from your own browser. Apply link: https://jobs.ashbyhq.com/wynd-labs/1e0ceb41-435e-48f7-b70d-4e6b8ed2df0a/application?utm_source=jobright&jr_id=6a565b42f7517b519ad55118"
     },
     {
       "id": "6a9a142613883870605925db",
@@ -9934,10 +9938,11 @@
       "company": "NexHealth",
       "matchPercent": 84,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a5664e153b3962b910afd72",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=nexhealth&jr_id=6a5664e153b3962b910afd72&token=5993376004&utm_source=jobright",
+      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=nexhealth&jr_id=6a5664e153b3962b910afd72&token=5993376004",
       "addedAt": "2026-09-04",
-      "status": "local replay",
-      "note": "9/4 cloud GH flagged; missing: [\"Are you currently authorized to work in the country outlined for this \",\"Have you previously applied for this position — run on Mac with Qwen."
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: unconfirmed submit: ",
+      "updatedAt": "2026-09-12"
     },
     {
       "id": "6a56ac0553b3962b910b1e0b",
@@ -12098,7 +12103,9 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a9b05c713883870605963b1",
       "atsUrl": "https://jobs.ashbyhq.com/savvymoney/71388610-93d4-4c09-b0cc-435e7c1f7073/application?utm_source=jobright&jr_id=6a9b05c713883870605963b1",
       "addedAt": "2026-09-05",
-      "status": "local replay"
+      "status": "user_manual",
+      "updatedAt": "2026-09-12",
+      "note": "2026-09-12 cloud: Ashby flagged BOTH submits as possible spam from the datacenter IP — no third attempt, per the standing rule. The form itself is straightforward and the answers are the standing ones (authorized to work Yes, sponsorship needed Yes, F-1 CPT/EAD, onsite/relocation Yes, EEO decline); it takes about two minutes from your own browser. Apply link: https://jobs.ashbyhq.com/savvymoney/71388610-93d4-4c09-b0cc-435e7c1f7073/application?utm_source=jobright&jr_id=6a9b05c713883870605963b1"
     },
     {
       "id": "6a9b07c3138838706059643a",
@@ -12135,7 +12142,7 @@
       "company": "DEPT®",
       "matchPercent": 87,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a887b33cde3717f9e9b5694",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=dept&jr_id=6a887b33cde3717f9e9b5694&token=8147678&utm_source=jobright",
+      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=dept&jr_id=6a887b33cde3717f9e9b5694&token=8147678",
       "addedAt": "2026-09-05",
       "status": "needs_answers",
       "missing": [
@@ -12147,7 +12154,9 @@
         "Vim or Emacs? Why?*",
         "Do you live in any of the following states?*",
         "DEPT® Privacy Statement*"
-      ]
+      ],
+      "updatedAt": "2026-09-12",
+      "note": "2026-09-12 cloud batch: form filled, held on [\"What level of expertise do you have with Typescript? *\",\"Do you have agency experience? *\",\"Vim or Emacs? Why?*\",\"Do you live in any of the following states?*\"]. Not guessed."
     },
     {
       "id": "6a5f8ce26e0c3c7c7d3d7855",
@@ -12260,14 +12269,16 @@
       "key": "sigma::software engineer - compiler",
       "title": "Software Engineer - Compiler",
       "company": "Sigma",
-      "matchPercent": 86,
+      "matchPercent": 88,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a56104d10c4d945d86477fa",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sigmacomputing&jr_id=6a56104d10c4d945d86477fa&token=7767918003&utm_source=jobright",
+      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sigmacomputing&token=7767918003&jr_id=6a56104d10c4d945d86477fa",
       "addedAt": "2026-09-05",
       "status": "needs_answers",
       "missing": [
         "Are you open to working 4 days onsite in one of our central offices?*"
-      ]
+      ],
+      "updatedAt": "2026-09-12",
+      "note": "2026-09-12 cloud batch: form filled, held on [\"Are you open to working 4 days onsite in one of our central offices?*\"]. Not guessed."
     },
     {
       "id": "6a7e0fe1b56bea5779c03667",
@@ -17105,8 +17116,9 @@
       "atsUrl": "https://jobs.ashbyhq.com/trm-labs/f671d26c-dd0e-429e-9c08-58c78c4f5dd7/application?utm_source=jobright&jr_id=6a55b5deec54dd532d812506",
       "originalUrl": "https://jobs.ashbyhq.com/trm-labs/f671d26c-dd0e-429e-9c08-58c78c4f5dd7/application?utm_source=jobright&jr_id=6a55b5deec54dd532d812506",
       "addedAt": "2026-09-07",
-      "status": "parked",
-      "note": "ashby anti-bot flagged the datacenter IP"
+      "status": "needs_answers",
+      "note": "2026-09-12 cloud: form filled through the persistent Ashby driver, held on questions no standing rule covers: [\"On-Call Requirements: Are you willing and able to participate in this job's on-c\",\"Do you have at least 2 years of experience working in a fully remote environment\",\"Do you want to work in a 100% remote environment on a long-term basis?\",\"Outside Work / Advisory Disclosure\",\"Have you heard of TRM . Not guessed. Retry next window once these are answered.",
+      "updatedAt": "2026-09-12"
     },
     {
       "id": "6a608ceb129b652e9cd291a5",
@@ -17214,7 +17226,7 @@
     },
     {
       "id": "6a5f9f3ef68dd368023e78dc",
-      "key": "tiktok::general hire tech lead senior software engineer monetization technology",
+      "key": "tiktok::[general hire] tech lead / senior software engineer, monetization technology",
       "title": "[General Hire] Tech Lead / Senior Software Engineer, Monetization Technology",
       "company": "TikTok",
       "matchPercent": 87,
@@ -17223,7 +17235,8 @@
       "originalUrl": "https://lifeattiktok.com/search/7195738113443760441",
       "addedAt": "2026-09-07",
       "status": "parked",
-      "note": "platform not automated from cloud: lifeattiktok.com"
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: lifeattiktok.com",
+      "updatedAt": "2026-09-12"
     },
     {
       "id": "6a6141b411edf44d7915fcc1",
@@ -17357,7 +17370,7 @@
     },
     {
       "id": "6a9cc830a7ba386c5d66ee73",
-      "key": "workday::sr software engineer api platform product engineering python typescript",
+      "key": "workday::sr software engineer – api platform, product engineering (python/typescript)",
       "title": "Sr Software Engineer – API Platform, Product Engineering (Python/Typescript)",
       "company": "Workday",
       "matchPercent": 84,
@@ -17366,7 +17379,8 @@
       "originalUrl": "https://workday.wd5.myworkdayjobs.com/workday/job/USA-CA-Pleasanton/Sr-Software-Development-Engineer--Product-Engineering---API-Platform---Agentic-AI_JR-0108225?jr_id=6a9cc830a7ba386c5d66ee73",
       "addedAt": "2026-09-07",
       "status": "parked",
-      "note": "platform not automated from cloud: workday.wd5.myworkdayjobs.com"
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: workday.wd5.myworkdayjobs.com",
+      "updatedAt": "2026-09-12"
     },
     {
       "id": "69feb20e1161630dd3b017dd",
@@ -17751,7 +17765,11 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a9efbd3dacf777321a93d58",
       "originalUrl": "https://jobs.ashbyhq.com/trm-labs/5b1c4862-550f-48fe-89bf-33a9181f9bdc/application?jr_id=6a9efbd3dacf777321a93d58",
       "status": "parked",
-      "note": "Parked: ashby unconfirmed: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /. 2026-09-08"
+      "note": "2026-09-12 cloud batch: ashby blocked this IP earlier",
+      "key": "trm labs::senior software engineer, backend | product engineering - sf only",
+      "atsUrl": "https://jobs.ashbyhq.com/trm-labs/5b1c4862-550f-48fe-89bf-33a9181f9bdc/application?jr_id=6a9efbd3dacf777321a93d58",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12"
     },
     {
       "id": "6a7f8010ad9ff00c26baeac7",
@@ -18849,7 +18867,11 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a53c177e726ec56126a7dd2",
       "originalUrl": "https://fis.wd5.myworkdayjobs.com/searchjobs/job/US-IL-CHI-222-STE-1700/Senior-Backend-Engineer_JR0304834?jr_id=6a53c177e726ec56126a7dd2",
       "status": "parked",
-      "note": "Batch park: platform not automated from cloud: fis.wd5.myworkdayjobs.com — 2026-09-08 cloud chunk"
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: fis.wd5.myworkdayjobs.com",
+      "key": "fis::senior backend engineer",
+      "atsUrl": "https://fis.wd5.myworkdayjobs.com/searchjobs/job/US-IL-CHI-222-STE-1700/Senior-Backend-Engineer_JR0304834?jr_id=6a53c177e726ec56126a7dd2",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12"
     },
     {
       "id": "6a065a6b6c07461fe171fbd6",
@@ -19688,7 +19710,11 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a63ea7987cef057612cb4b7",
       "originalUrl": "https://careers.rocket.com/us/en/job/R-081819/Senior-Amazon-Connect-Platform-Engineer?jr_id=6a63ea7987cef057612cb4b7",
       "status": "parked",
-      "note": "Batch park: platform not automated from cloud: careers.rocket.com — 2026-09-09 cloud chunk"
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: careers.rocket.com",
+      "key": "rocket::senior amazon connect platform engineer",
+      "atsUrl": "https://careers.rocket.com/us/en/job/R-081819/Senior-Amazon-Connect-Platform-Engineer?jr_id=6a63ea7987cef057612cb4b7",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12"
     },
     {
       "id": "6a1a466c6b135014dbc895c5",
@@ -19778,7 +19804,11 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa0543fdbc0e60e37e0cf13",
       "originalUrl": "https://jobs.apple.com/en-us/details/200680250-3956/software-development-engineer?team=HRDWR&jr_id=6aa0543fdbc0e60e37e0cf13",
       "status": "parked",
-      "note": "Batch park: platform not automated from cloud: jobs.apple.com — 2026-09-09 cloud chunk"
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: jobs.apple.com",
+      "key": "apple::software development engineer",
+      "atsUrl": "https://jobs.apple.com/en-us/details/200680250-3956/software-development-engineer?team=HRDWR&jr_id=6aa0543fdbc0e60e37e0cf13",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12"
     },
     {
       "id": "6aa049e7500b01124c778112",
@@ -22265,7 +22295,9 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a6b857432f9300c3a3df6a9",
       "atsUrl": "https://jobs.ashbyhq.com/kira/545c342e-e107-41ca-bdd8-24c4cfa6eedf/application?jr_id=6a6b857432f9300c3a3df6a9",
       "addedAt": "2026-09-12",
-      "status": "local replay"
+      "status": "user_manual",
+      "updatedAt": "2026-09-12",
+      "note": "2026-09-12 cloud: Ashby flagged BOTH submits as possible spam from the datacenter IP — no third attempt, per the standing rule. The form itself is straightforward and the answers are the standing ones (authorized to work Yes, sponsorship needed Yes, F-1 CPT/EAD, onsite/relocation Yes, EEO decline); it takes about two minutes from your own browser. Apply link: https://jobs.ashbyhq.com/kira/545c342e-e107-41ca-bdd8-24c4cfa6eedf/application?jr_id=6a6b857432f9300c3a3df6a9"
     },
     {
       "id": "6a64d0cce8d8d22e3292d79b",
@@ -22709,7 +22741,9 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a53f38fc8eb0843027ae402",
       "atsUrl": "https://jobs.ashbyhq.com/rain/2cef52c3-cd7a-42f2-9d86-3f13185ef205/application?jr_id=6a53f38fc8eb0843027ae402",
       "addedAt": "2026-09-12",
-      "status": "local replay"
+      "status": "submitted_unconfirmed",
+      "updatedAt": "2026-09-12",
+      "note": "2026-09-12 cloud: submitted through the persistent Ashby driver — on-page success, no spam flag. Answers: authorized for ANY employer No (F-1 CPT is employer-restricted), sponsorship Yes, fintech/payments experience Yes, hybrid NYC 3 days Yes, 4-year degree Yes (UPenn), 5-8 years bracket, why-Rain essay, location Jersey City. No ashbyhq.com confirmation yet — check from:ashbyhq.com before counting or re-applying."
     },
     {
       "id": "6a876f4b680f314a29d38dd1",
@@ -23200,6 +23234,344 @@
       "addedAt": "2026-09-12",
       "status": "parked",
       "note": "platform not automated from cloud: careers.nttdata.com"
+    },
+    {
+      "id": "6aa403271d92e2d05d112e5b",
+      "key": "zipline::senior software engineer - maps platform",
+      "title": "Senior Software Engineer - Maps Platform",
+      "company": "Zipline",
+      "matchPercent": 91,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa403271d92e2d05d112e5b",
+      "atsUrl": "https://www.ziprecruiter.com/kn/AAKfisl33iwKdU5Gfcy-Q43q6U-bqCoLz7zpwBd1YdwVrv42vtBq0vISYhKDggMIu1-j642ft1zlnyJoE3HPJLb9G-UyDr-Gdp69GYMAczYFc17taxLiPB-79zHC-TcykNBWDGljCBM3hGN4WvWUWKo2ETJB0mISgEoYhdD-P8VVizWma8eiSvgAOgHeK7aHYT4nDWl6gpRwUspZXa0FhEBJajIY4mb8XzvmwDwmRFxq5vAEGhUIjgJlvM2ZIQLn6exM3pwbaLa8_EO9Mly7bieU_a4HB7bO94-0f67j7MXx5tdjEWeel2G3cjyIWOjOAmsX_sgVknQxs9U40cKkioKcqCG3OkyOgIcLFvp7ZRYZbhKZljvvANX3NAcqBGBDfRzPNhfuXfr6zcSut-DjkV1OlDLVO9bbkmyy2E-nWQdyNSql7eEt6QioZvzH309IAupT6XldUY7om3JBHHw?tsid=123468825&jr_id=6aa403271d92e2d05d112e5b&__cf_chl_rt_tk=WtZmnE8xOUdBYWx6PVvj2VrdM6JlXL9WECH20K.h3Us-1789204851-1.0.1.1-HInK.OTZMoPDicFUPNU9wBMlsQRrCC6Ur2lbUQ0mylQ",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: www.ziprecruiter.com"
+    },
+    {
+      "id": "6aa50a32930bff471a29cbed",
+      "key": "dtn::senior software engineer – workday finance",
+      "title": "Senior Software Engineer – Workday Finance",
+      "company": "DTN",
+      "matchPercent": 89,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa50a32930bff471a29cbed",
+      "atsUrl": "https://dtn.wd1.myworkdayjobs.com/en-US/DTN_Careers/job/Remote-TX/Senior-Software-Engineer---Workday-Finance_R-003151?source=jobright&jr_id=6aa50a32930bff471a29cbed",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: dtn.wd1.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa440ac422289703bd65d85",
+      "key": "indeed::software engineer iii",
+      "title": "Software Engineer III",
+      "company": "Indeed",
+      "matchPercent": 89,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa440ac422289703bd65d85",
+      "atsUrl": "https://careers-indeed.icims.com/jobs/47445/software-engineer-iii/job?jr_id=6aa440ac422289703bd65d85",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: careers-indeed.icims.com"
+    },
+    {
+      "id": "6aa3a0ad4233a2201a2b2854",
+      "key": "capgemini::io developer",
+      "title": "IO Developer",
+      "company": "Capgemini",
+      "matchPercent": 89,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa3a0ad4233a2201a2b2854",
+      "atsUrl": "https://careers.capgemini.com/job/New-York%2C-NY-IO-Developer-NY-10001/1435886433/?jr_id=6aa3a0ad4233a2201a2b2854",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: careers.capgemini.com"
+    },
+    {
+      "id": "6a91b813a27a2d3c98489701",
+      "key": "peregrine::senior software engineer, foundations",
+      "title": "Senior Software Engineer, Foundations",
+      "company": "Peregrine",
+      "matchPercent": 89,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a91b813a27a2d3c98489701",
+      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=peregrinetechnologies&token=4704814005&jr_id=6a91b813a27a2d3c98489701",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "needs_answers",
+      "note": "2026-09-12 cloud batch: form filled, held on [\"Security code\"]. Not guessed."
+    },
+    {
+      "id": "6a87433ad34f700f87fc4698",
+      "key": "fifth third bank::lead software engineer - adenza",
+      "title": "Lead Software Engineer - Adenza",
+      "company": "Fifth Third Bank",
+      "matchPercent": 88,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a87433ad34f700f87fc4698",
+      "atsUrl": "https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/Lead-Software-Engineer---Adenza_R69974-1?jr_id=6a87433ad34f700f87fc4698",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: fifththird.wd5.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa4ede682e82a31997bb428",
+      "key": "sidley austin llp::senior software engineer",
+      "title": "Senior Software Engineer",
+      "company": "Sidley Austin LLP",
+      "matchPercent": 88,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa4ede682e82a31997bb428",
+      "atsUrl": "https://sidley.wd501.myworkdayjobs.com/en-US/US/job/Chicago/Senior-Software-Engineer_R00993?source=jobright&jr_id=6aa4ede682e82a31997bb428",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: sidley.wd501.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa1cca9500b01124c77f206",
+      "key": "reserv::senior software engineer",
+      "title": "Senior Software Engineer",
+      "company": "Reserv",
+      "matchPercent": 88,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1cca9500b01124c77f206",
+      "atsUrl": "https://ats.rippling.com/reserv/jobs/588642cb-d71b-4f4d-bf7e-8e2609565f01?jr_id=6aa1cca9500b01124c77f206",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: ats.rippling.com"
+    },
+    {
+      "id": "6a7d0beed77e8156a8e35ad4",
+      "key": "liftoff mobile::software engineer, partner engineering",
+      "title": "Software Engineer, Partner Engineering",
+      "company": "Liftoff Mobile",
+      "matchPercent": 88,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7d0beed77e8156a8e35ad4",
+      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=liftoff&token=8127027&jr_id=6a7d0beed77e8156a8e35ad4",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "needs_answers",
+      "note": "2026-09-12 cloud batch: form filled, held on [\"Do you have customer and/or stakeholder facing experience?*\",\"What is your SQL skill level?*\"]. Not guessed."
+    },
+    {
+      "id": "6a8c3f0e1d96e6541c8bfb7b",
+      "key": "mphasis::delivery module lead",
+      "title": "Delivery Module Lead",
+      "company": "Mphasis",
+      "matchPercent": 88,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8c3f0e1d96e6541c8bfb7b",
+      "atsUrl": "https://mphasis.ripplehire.com/candidate/?token=QBghj9dAEVmZUtMzyrCx&jr_id=6a8c3f0e1d96e6541c8bfb7b#list#detail/job/894792",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: mphasis.ripplehire.com"
+    },
+    {
+      "id": "6aa1a00e2f936e4a53dad0b1",
+      "key": "bitovi::backend developer consultant (graphql & kafka)",
+      "title": "Backend Developer Consultant (GraphQL & Kafka)",
+      "company": "Bitovi",
+      "matchPercent": 87,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1a00e2f936e4a53dad0b1",
+      "atsUrl": "https://bitovi.applytojob.com/apply/m1cn6IBk45/Backend-Developer-Consultant-GraphQL-Kafka?jr_id=6aa1a00e2f936e4a53dad0b1",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: bitovi.applytojob.com"
+    },
+    {
+      "id": "6a84a80b7b33d722762575e3",
+      "key": "ninth wave::ai java developer",
+      "title": "AI Java Developer",
+      "company": "Ninth Wave",
+      "matchPercent": 87,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a84a80b7b33d722762575e3",
+      "atsUrl": "https://ninthwave.bamboohr.com/careers/155?jr_id=6a84a80b7b33d722762575e3",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: ninthwave.bamboohr.com"
+    },
+    {
+      "id": "6aa3785283233ca167c8ab2b",
+      "key": "nvidia::senior software engineer, data platform",
+      "title": "Senior Software Engineer, Data Platform",
+      "company": "NVIDIA",
+      "matchPercent": 86,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa3785283233ca167c8ab2b",
+      "atsUrl": "https://nvidia.eightfold.ai/careers?pid=893392771278&jr_id=6aa3785283233ca167c8ab2b",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: nvidia.eightfold.ai"
+    },
+    {
+      "id": "6a5102fc78e364789ca57f65",
+      "key": "google::senior software engineer, performance, platforms infrastructure engineering",
+      "title": "Senior Software Engineer, Performance, Platforms Infrastructure Engineering",
+      "company": "Google",
+      "matchPercent": 86,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a5102fc78e364789ca57f65",
+      "atsUrl": "https://www.google.com/about/careers/applications/jobs/results/77514678506267334-senior-software-engineer-performance-platforms-infrastructure-engineering?page=159&jr_id=6a5102fc78e364789ca57f65",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: www.google.com"
+    },
+    {
+      "id": "6a53b27be726ec56126a7b16",
+      "key": "pushpay::software development engineer 3, resi",
+      "title": "Software Development Engineer 3, Resi",
+      "company": "Pushpay",
+      "matchPercent": 86,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a53b27be726ec56126a7b16",
+      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=pushpay&jr_id=6a53b27be726ec56126a7b16&token=7834020",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "needs_answers",
+      "note": "2026-09-12 cloud batch: form filled, held on [\"Where did you first learn about this position at Pushpay?*\"]. Not guessed."
+    },
+    {
+      "id": "6aa3ae91959a10d7230d3368",
+      "key": "bytedance::senior software development engineer (multiple positions)",
+      "title": "Senior Software Development Engineer (Multiple Positions)",
+      "company": "ByteDance",
+      "matchPercent": 86,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa3ae91959a10d7230d3368",
+      "atsUrl": "https://joinbytedance.com/search/7683244311123265845?jr_id=6aa3ae91959a10d7230d3368",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: joinbytedance.com"
+    },
+    {
+      "id": "6a4716300dd56c76cc2fbeae",
+      "key": "oclc::senior software engineer",
+      "title": "Senior Software Engineer",
+      "company": "OCLC",
+      "matchPercent": 86,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a4716300dd56c76cc2fbeae",
+      "atsUrl": "https://oclc.wd1.myworkdayjobs.com/OCLC_Careers/job/Dublin-OH--Hybrid/Senior-Software-Engineer_R0003862?jr_id=6a4716300dd56c76cc2fbeae",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: oclc.wd1.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa49980c1928370a285ea53",
+      "key": "temu::software engineer, payments",
+      "title": "Software Engineer, Payments",
+      "company": "Temu",
+      "matchPercent": 86,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa49980c1928370a285ea53",
+      "atsUrl": "https://www.linkedin.com/jobs/view/4465154018?jr_id=6aa49980c1928370a285ea53",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: www.linkedin.com"
+    },
+    {
+      "id": "6aa38c524238ea18d430c7a3",
+      "key": "cotality::senior software engineer",
+      "title": "Senior Software Engineer",
+      "company": "Cotality",
+      "matchPercent": 86,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa38c524238ea18d430c7a3",
+      "atsUrl": "https://cotality.wd115.myworkdayjobs.com/global/job/Dallas-TX/Principal-Software-Engineer_REQ18823-2?jr_id=6aa38c524238ea18d430c7a3",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: cotality.wd115.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa45bfbf3aa936e2cdb0f70",
+      "key": "hewlett packard enterprise::senior software developer cloud & distributed systems",
+      "title": "Senior Software Developer Cloud & Distributed Systems",
+      "company": "Hewlett Packard Enterprise",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa45bfbf3aa936e2cdb0f70",
+      "atsUrl": "https://hpe.wd5.myworkdayjobs.com/wfmathpe/job/San-Juan-Puerto-Rico-Puerto-Rico/Senior-Software-Developer-Cloud---Distributed-Systems_1213214-2?jr_id=6aa45bfbf3aa936e2cdb0f70",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: hpe.wd5.myworkdayjobs.com"
+    },
+    {
+      "id": "6a68dd593b549b0b531d2679",
+      "key": "healthstream::sr. developer",
+      "title": "Sr. Developer",
+      "company": "HealthStream",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a68dd593b549b0b531d2679",
+      "atsUrl": "https://www.paycomonline.net/v4/ats/web.php/portal/4689D9AB2F6F99AD5F352379B206FD14/jobs/570378?jr_id=6a68dd593b549b0b531d2679",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: www.paycomonline.net"
+    },
+    {
+      "id": "6aa388a8c5a856ac7e339e09",
+      "key": "penn state university::r&d engineer: software engineer",
+      "title": "R&D Engineer: Software Engineer",
+      "company": "Penn State University",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa388a8c5a856ac7e339e09",
+      "atsUrl": "https://psu.wd1.myworkdayjobs.com/psu_staff/job/Penn-State-University-Park/R-D-Engineer--Software-Engineer_REQ_0000081602-2?jr_id=6aa388a8c5a856ac7e339e09",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: psu.wd1.myworkdayjobs.com"
+    },
+    {
+      "id": "6aa3bc9f5c11cce360365fe9",
+      "key": "centurylink::lead software developer",
+      "title": "Lead Software Developer",
+      "company": "CenturyLink",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa3bc9f5c11cce360365fe9",
+      "atsUrl": "https://internaljobs.centurylink.com/job/Remote-Lead-Software-Developer/1428639300/?jr_id=6aa3bc9f5c11cce360365fe9",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: internaljobs.centurylink.com"
+    },
+    {
+      "id": "6a6bd71832f9300c3a3e1314",
+      "key": "innovative defense technologies (idt)::software engineer - jobid-0207",
+      "title": "Software Engineer - JobID-0207",
+      "company": "Innovative Defense Technologies (IDT)",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a6bd71832f9300c3a3e1314",
+      "atsUrl": "https://idtus.pinpointhq.com/en/postings/1dcc2c3a-0baf-48a8-b1b3-2bccee266405?jr_id=6a6bd71832f9300c3a3e1314",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: idtus.pinpointhq.com"
+    },
+    {
+      "id": "6aa1ebda500b01124c77fa21",
+      "key": "base power company::senior software engineer, backend",
+      "title": "Senior Software Engineer, Backend",
+      "company": "Base Power Company",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa1ebda500b01124c77fa21",
+      "atsUrl": "https://jobs.ashbyhq.com/base-power/d5149c86-5649-48bd-8d30-7708c3e36233/application?jr_id=6aa1ebda500b01124c77fa21",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: ashby blocked this IP earlier"
+    },
+    {
+      "id": "6aa510c4a77a53f5a156f60b",
+      "key": "pathward::software engineer senior",
+      "title": "Software Engineer Senior",
+      "company": "Pathward",
+      "matchPercent": 84,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa510c4a77a53f5a156f60b",
+      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=pathward&token=6188682004&jr_id=6aa510c4a77a53f5a156f60b",
+      "addedAt": "2026-09-12",
+      "updatedAt": "2026-09-12",
+      "status": "needs_answers",
+      "note": "2026-09-12 cloud batch: form filled, held on [\"State*\",\"Are you a current or previous Pathward employee? *\",\"Are you related to, or are you in a close personal relationship with, \",\"We are excited to learn more about you! Please share what initially sp\"]. Not guessed."
     }
   ],
   "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."

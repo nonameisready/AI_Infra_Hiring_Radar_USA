@@ -355,10 +355,20 @@ try {
     }
     return res;
   });
+  // A security-code field present BEFORE we submit means Greenhouse is still
+  // holding an earlier verification for this posting. It is not a question the
+  // orchestrator can answer, so it does not belong in missingRequired — but the
+  // submit button stays disabled until a code is entered, so clicking it just
+  // spins. Park the job with the real reason instead of mislabelling it as an
+  // unanswered question or hanging on a dead button.
+  out.securityCodePending = out.missingRequired.some((l) => /security code|verification code/i.test(l));
+  out.missingRequired = out.missingRequired.filter((l) => !/security code|verification code/i.test(l));
+  if (out.securityCodePending) out.note = "not submitted — Greenhouse is holding an unfinished verification for this posting; the submit button stays disabled until a fresh emailed code is entered. Retry from a session that can read the code, or from the Mac's home IP where the challenge usually does not fire.";
+
   out.filledScreenshot = path.join(WORK, `ghfill-${tag}.png`);
   await page.screenshot({ path: out.filledScreenshot, fullPage: true });
 
-  if (SUBMIT && out.missingRequired.length === 0) {
+  if (SUBMIT && out.missingRequired.length === 0 && !out.securityCodePending) {
     await page.getByRole("button", { name: /submit application|submit/i }).first().click();
     await page.waitForTimeout(7000);
     let text = await page.evaluate(() => document.body?.innerText ?? "");
