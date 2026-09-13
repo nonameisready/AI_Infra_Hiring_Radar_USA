@@ -4925,6 +4925,14 @@
   {
    "label": "start date year",
    "text": "2026"
+  },
+  {
+   "label": "^zipcode|zip ?code|postal ?code",
+   "text": "07306"
+  },
+  {
+   "label": "^street address|^address( line ?1)?$|home address|mailing address",
+   "text": "225 Saint Pauls Ave APT 5P"
   }
  ],
  "checkboxes": [
