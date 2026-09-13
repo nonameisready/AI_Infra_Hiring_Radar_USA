@@ -630,3 +630,40 @@ the note explaining why the agent could not finish it —
 `node agent/tools/book-by-id.mjs <id> <date> manual '<detail>' manual_done`.
 Then append them to APPLIED.md under the day's **manual** section and push, so
 the dashboard and the next run's dedupe both see them.
+
+## Standing answers added 2026-09-13 (user)
+
+- **Working hours are not location.** The blanket Yes to onsite/hybrid/relocation
+  anywhere in the US says nothing about WHEN she works. A role that requires a
+  European schedule — UTC+0/UTC+1, CET, "overlap with our UK/EU team", i.e. a
+  3-4am start in New York — is a commitment she has **declined**. Answer No
+  honestly and drop the posting; never derive this answer from the relocation
+  one. (Surfaced by Zerion, Senior Backend Engineer.) The refusal rule is
+  ordered ahead of the older "timezone -> Eastern" rules in
+  generic-answers.json, which otherwise match "can you work UTC+0/+1?" first
+  and answer "Eastern Time" — agreeing to exactly what she ruled out.
+- **Legal self-declarations are all No**, given by the user herself: convicted of
+  a crime or court-martialled, charged with or under indictment for a felony,
+  fugitive from justice, adjudicated mentally defective or committed to an
+  institution, dishonorably discharged, subject to a restraining order, unlawful
+  user of a controlled substance. Recorded as `q-criminal-history`. Answer them
+  from this list, never by inference, and park any NEW declaration it does not
+  cover instead of guessing.
+- **Never apply**, any posting (user directives): Axon, GRVTY, Amazon
+  (including Amazon Web Services), Capital One, SAS, Cisco, HP / Hewlett Packard
+  Enterprise. Same handling as the defense/clearance blocklist: record `dropped`
+  so dedupe never re-queues them. Enforced in `agent/local-batch.mjs` via
+  `USER_BLOCK`; cloud sessions building their own queue must apply it too.
+  Two deliberate choices in that pattern: "sas" is anchored to the start of the
+  company name or to "SAS Institute", because a bare `\bsas\b` also matches the
+  French legal suffix and would block Criteo SAS or Dataiku SAS; and "hp" is
+  widened to HPE/Hewlett Packard, since HP Inc. alone would have missed the
+  Hewlett Packard Enterprise postings actually in the pool.
+- **One-year cooldown on Canonical, JPMorgan/JPMorganChase/Chase, and Bank of
+  America** (user directive 2026-09-13): no new applications until
+  **2027-09-13**. Enforced in `agent/local-batch.mjs` via `COOLDOWN`, which
+  carries the expiry date and lapses on its own — do not convert it into a
+  permanent block, and do not delete the entry when it expires without asking.
+  Cloud sessions building their own queue must apply it too. Note the company
+  regexes are name-based: `\bchase\b` would also catch an unrelated "Chase
+  Corporation" if one ever appears in the pool.

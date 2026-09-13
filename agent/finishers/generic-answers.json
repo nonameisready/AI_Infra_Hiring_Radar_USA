@@ -789,6 +789,11 @@
    "prefer": "acknowledge|agree|^yes|i have read"
   },
   {
+   "label": "utc\\s*\\+?\\s*[01]\\b|gmt\\s*\\+?\\s*[01]\\b|central european time|\\bcet\\b|\\bcest\\b|european (working )?(hours|time ?zone)|overlap .{0,25}(european|uk|eu) (team|hours)",
+   "prefer": "^No$",
+   "type": "No"
+  },
+  {
    "label": "time ?zone",
    "prefer": "eastern",
    "type": "Eastern Time (ET) — New York"
@@ -1406,10 +1411,6 @@
   {
    "label": "what state will you be working|state will you be working\\/residing",
    "prefer": "new jersey|new york|^nj$"
-  },
-  {
-   "label": "comfortable working within our time zone",
-   "prefer": "^yes"
   },
   {
    "label": "hands-on experience designing schemas",
@@ -3828,6 +3829,40 @@
   {
    "label": "need [a-z0-9 .,'&-]{0,30}sponsorship|sponsorship to continue|will you need .{0,30}sponsorship",
    "prefer": "^yes\\b"
+  },
+  {
+   "label": "convicted (of )?(a )?(crime|felony|misdemean)|found guilty (of|by)|court[- ]?martial|criminal conviction",
+   "prefer": "^No$",
+   "type": "No"
+  },
+  {
+   "label": "charged with (a )?(felony|crime)|under indictment|pending criminal charges|fugitive from justice",
+   "prefer": "^No$",
+   "type": "No"
+  },
+  {
+   "label": "adjudicated (as )?(a )?mental(ly)? (defective|ill)|committed to a mental institution",
+   "prefer": "^No$",
+   "type": "No"
+  },
+  {
+   "label": "dishonorabl(e|y) discharged",
+   "prefer": "^No$",
+   "type": "No"
+  },
+  {
+   "label": "restraining order|order of protection",
+   "prefer": "^No$",
+   "type": "No"
+  },
+  {
+   "label": "unlawful user of|addicted to any controlled substance|illegal(ly)? use[sd]? .{0,20}(drug|controlled substance)",
+   "prefer": "^No$",
+   "type": "No"
+  },
+  {
+   "label": "comfortable working (within|in) (our|the) (us|u\\.s\\.|eastern|pacific|central|mountain|et|pt|ct)\\b|overlap with (our|the) (us|u\\.s\\.|east coast|west coast) team",
+   "prefer": "^yes"
   }
  ],
  "texts": [
@@ -5034,6 +5069,10 @@
   {
    "label": "where did you (first )?(learn|hear) about (this|the) (position|role|job)",
    "text": "Job board"
+  },
+  {
+   "label": "utc\\s*\\+?\\s*[01]\\b|european (working )?(hours|time ?zone)|\\bcet\\b",
+   "text": "I am based in the New York metro area and work US Eastern hours; I am not able to commit to a European (UTC+0/+1) working schedule. I am fully flexible on location within the US, including onsite up to five days a week."
   }
  ],
  "checkboxes": [

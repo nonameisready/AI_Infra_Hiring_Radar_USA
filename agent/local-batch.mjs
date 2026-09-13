@@ -128,6 +128,21 @@ for (const i of pend.items) { seenIds.add(i.id); if (i.key) seenKeys.add(i.key);
 const DEFENSE_BLOCK = /palantir|nt ?concepts|anduril|varda|havocai|\bstr\b|l3harris|lockheed|raytheon|\brtx\b|northrop|general dynamics|bae systems|leidos|booz allen|draper|mitre|sierra nevada corp|epirus|shield ?ai|saronic|castelion|mach industries|helsing|wyetech|maxar|vantor|intrepid solutions|oklo|spacex|sphinx ?defense|\bdefense\b|arcfield|accenture federal|legion intelligence|rampant technologies|rackner|tria federal|\btria\b|metrostar|applied intuition/i;
 // User directive 2026-09-06: repeatedly applied and rejected — never apply again.
 const NO_REAPPLY = /\bramp\b|\bmercor\b/i;
+// User directive 2026-09-13: companies she does not want applied to at all.
+// Permanent never-apply list (user directives). "sas" is anchored to the start
+// of the name or to "SAS Institute" on purpose: a bare \bsas\b also matches the
+// French legal suffix and would block Criteo SAS, Dataiku SAS and the like.
+const USER_BLOCK =
+  /\baxon\b|\bgrvty\b|\bamazon\b|capital one|^\s*sas\b|\bsas institute\b|\bcisco\b|\bhp\b|\bhpe\b|hewlett/i;
+// User directive 2026-09-13: applied to these enough for now — no new
+// applications for a year. A cooldown, not a permanent block: it expires on
+// its own date, so keep the date here rather than deleting the companies.
+const COOLDOWN = [
+  { re: /\bcanonical\b/i, until: "2027-09-13" },
+  { re: /jpmorgan|\bchase\b/i, until: "2027-09-13" },
+  { re: /bank of america|\bbofa\b/i, until: "2027-09-13" },
+];
+const cooling = (company) => COOLDOWN.find((c) => c.re.test(company ?? "") && new Date() < new Date(c.until));
 const queue = [];
 const qKeys = new Set();
 for (const j of matches.jobs) {
@@ -135,6 +150,9 @@ for (const j of matches.jobs) {
   if (!id || seenIds.has(id)) continue;
   if (DEFENSE_BLOCK.test(j.company ?? "")) { log(`blocked (defense/clearance): ${j.company}`); continue; }
   if (NO_REAPPLY.test(j.company ?? "")) { log(`blocked (no-reapply, user directive): ${j.company}`); continue; }
+  if (USER_BLOCK.test(j.company ?? "")) { log(`blocked (user directive, never apply): ${j.company}`); continue; }
+  const cool = cooling(j.company);
+  if (cool) { log(`blocked (user cooldown until ${cool.until}): ${j.company}`); continue; }
   if (seenCompanies.has(norm(j.company))) { log(`skipped (company already applied): ${j.company} — ${j.title}`); continue; }
   const key = `${norm(j.company)}::${norm(j.title)}`;
   if (seenKeys.has(key) || qKeys.has(key)) continue;

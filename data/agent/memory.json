@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-09T09:33:12.717Z",
+ "updatedAt": "2026-09-13T00:00:00Z",
  "answers": [
   {
    "match": "first\\s*name",
@@ -313,6 +313,48 @@
    "match": "government employee|employed by (a|any) government|government entity|prior (us |u\\.s\\. )?government employment|worked for (the )?(us|u\\.s\\.|chinese|prc) government",
    "answer": "No — never a government employee of any country (including the U.S. and China).",
    "note": "user 2026-08-30: never a Chinese or U.S. government employee"
+  },
+  {
+   "match": "convicted (of )?(a )?(crime|felony|misdemean)|found guilty|court[- ]martial|criminal (conviction|record|history)",
+   "answer": "No",
+   "source": "user 2026-09-13 (q-criminal-history)",
+   "learnedAt": "2026-09-13"
+  },
+  {
+   "match": "charged with (a )?(felony|crime)|pending (criminal )?charges|fugitive from justice|under indictment",
+   "answer": "No",
+   "source": "user 2026-09-13 (q-criminal-history)",
+   "learnedAt": "2026-09-13"
+  },
+  {
+   "match": "adjudicated (as )?(a )?mental(ly)? (defective|ill)|committed to a mental institution",
+   "answer": "No",
+   "source": "user 2026-09-13 (q-criminal-history)",
+   "learnedAt": "2026-09-13"
+  },
+  {
+   "match": "dishonorabl(e|y) discharged|discharged .*dishonorable",
+   "answer": "No",
+   "source": "user 2026-09-13 (q-criminal-history)",
+   "learnedAt": "2026-09-13"
+  },
+  {
+   "match": "restraining order|order of protection",
+   "answer": "No",
+   "source": "user 2026-09-13 (q-criminal-history)",
+   "learnedAt": "2026-09-13"
+  },
+  {
+   "match": "unlawful user of|addicted to any controlled substance|illegal(ly)? use.*(drug|controlled substance)",
+   "answer": "No",
+   "source": "user 2026-09-13 (q-criminal-history)",
+   "learnedAt": "2026-09-13"
+  },
+  {
+   "match": "utc\\s*[+]?\\s*[01]\\b|gmt\\s*[+]?\\s*[01]\\b|central european|european (time|hours|working hours)|cet\\b|cest\\b|overlap with (our )?(european|uk|eu) (team|hours)",
+   "answer": "No — she works US Eastern hours and does not accept a European (UTC+0/+1) working schedule. This does NOT change the standing Yes to any US city, onsite/hybrid, 5 days a week, or relocation.",
+   "source": "user 2026-09-13 (q-timezone-europe)",
+   "learnedAt": "2026-09-13"
   }
  ],
  "note": "Regex `match` is tested case-insensitively against a form question's label. Answers the user gives to open questions in questions.json get appended here so the agent never asks twice. Never store passwords or secrets in this file.",
@@ -384,6 +426,21 @@
    "at": "2026-09-09",
    "topic": "ashby-yesno-widget",
    "note": "Ashby forms: Yes/No questions (work auth, sponsorship) render as button[data-option=yes/no] pairs with a hidden checkbox. Synthetic MouseEvent dispatch and checkbox .click() do NOT register in React state (validation says missing entry even with DOM checked=true). FIX: assign an id to button[data-option=yes] and use a trusted Playwright click. This was the real cause of 2026-09-08 batch Ashby unconfirmed submissions — datacenter IP is fine, Lambda confirmed via Gmail 09-09."
+  },
+  {
+   "at": "2026-09-13",
+   "topic": "standing-answers-scope",
+   "note": "The standing 'Yes to onsite/hybrid/relocation anywhere in the US' NEVER implies agreeing to work another continent's hours. Zerion's UTC+0/+1 question is a separate commitment the user declined (2026-09-13); answer No and drop roles that require it. Legal self-declarations (convictions, indictments, fugitive status, mental-health adjudication, dishonorable discharge, restraining orders, unlawful drug use) are all No per the user's own statement of 2026-09-13 — her declaration, never the agent's inference."
+  },
+  {
+   "at": "2026-09-13",
+   "topic": "no-apply-companies",
+   "note": "User directives 2026-09-13: never apply to Axon, GRVTY, Amazon (incl. Amazon Web Services), Capital One, SAS, Cisco, or HP / Hewlett Packard Enterprise — any posting. Permanent, unlike the dated cooldown on Canonical / JPMorgan-Chase / Bank of America. Record as dropped so dedupe never re-queues them."
+  },
+  {
+   "at": "2026-09-13",
+   "topic": "cooldown-companies",
+   "note": "User directive 2026-09-13: no new applications to Canonical, JPMorgan/JPMorganChase/Chase, or Bank of America until 2027-09-13 — she has applied to them enough for now. A dated cooldown, not a permanent block (those are Axon and GRVTY). Existing parked postings for these companies were dropped with the expiry in the note."
   }
  ]
 }

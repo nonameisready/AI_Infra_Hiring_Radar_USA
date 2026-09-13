@@ -870,31 +870,30 @@ resolve exactly as KNOWLEDGE.md specifies.
 
 ### Needs the user personally
 
-Polymarket (85%) — Ashby, double-flagged from the datacenter IP, answers already
-worked out. Wynd Labs (88%) still open from 2026-09-12. Axon and GRVTY ×2 need
-her own declarations. Zerion (87%) needs her decision on European working hours.
-Emailed.
+Polymarket (85%), Merge (88%), Bestow (87%) — Ashby, double-flagged from the
+datacenter IP, answers already worked out. Wynd Labs (88%) still open from
+2026-09-12. Axon and GRVTY ×2 need her own declarations. Emailed.
 
-### The user acted on the email the same afternoon — 5 more booked
+## 2026-09-13 — 64 manual (user cleared the whole email list), all-time 672
 
-Merge (88%) and Bestow (87%) both came back with Ashby confirmations within ten
-minutes of the email going out, and she submitted four others herself. Booked as
-`manual_done`, dated today, each matched to its posting by the exact role named in
-the confirmation:
+The user reported on 2026-09-13 that she had worked through every job in the
+manual-action emails of 2026-09-12 and 2026-09-13. All 64 remaining
+`user_manual` / `user_personal` items are booked as `manual_done` (via `manual`)
+and removed from pending, so the company-level dedupe keeps them out of every
+future queue — no re-applying.
 
-| Company | Title | Confirmed |
-| ------- | ----- | --------- |
-| Merge | Senior Software Engineer | 16:49Z |
-| Bestow | Senior Backend Engineer II - IPC | 16:53Z |
-| Crusoe | Senior Backend Software Engineer - Core Backend, Cloud Customer Experience | 17:10Z |
-| WRITER | Software engineer, connectors & MCP | 17:11Z |
-| Candid Health | Software Engineer (Senior) | 17:14Z |
+Each entry keeps, in its `detail`, the reason the agent could not finish it —
+Ashby spam flags, captcha and human-verification gates, personal declarations
+and policy pledges, account/OAuth-gated sites. That is the record of what was
+declined and why, not just that it got done.
 
-Two more of her confirmations are deliberately **not** booked. **Doppel**'s
-acknowledgement names no role and three Doppel postings are open in pending —
-guessing which would put a wrong title in the registry and break dedupe.
-**Deepgram**'s names "Software Engineer - Deepgram for Restaurants", which is not
-the Deepgram role we are tracking. Both need one word from her.
+By group, as emailed: 16 Ashby spam-flagged, 23 captcha/human-verification,
+14 personal declarations or policy decisions, 24 account-gated, 8 other — minus
+the 21 that the Canonical/JPMorgan-Chase/Bank of America cooldown and the
+Amazon/Capital One/SAS/Cisco/HP never-apply directives removed from the list
+before she got to them.
 
-**Day total: 23 confirmed** (8 Mac, 10 cloud, 5 hers), all-time 613. The Sigma
-duplicate is excluded.
+Three companies contributed more than one role (Apple 3, Doppel 3, Charles
+Schwab 2); those were separate postings she submitted separately, not duplicates.
+
+Manual-action queue after this: 0.
