@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T17:13:15.145Z",
+  "updatedAt": "2026-09-13T18:53:37.700Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -8524,6 +8524,32 @@
       "at": "2026-09-13",
       "via": "manual",
       "detail": "User applied herself (reported 2026-09-13) after the manual-action email. Why the agent could not finish it: [radio] What is your current age?"
+    },
+    "6aa45c928275e3a211760139": {
+      "id": "6aa45c928275e3a211760139",
+      "key": "fingerprint::backend engineer, core apis",
+      "company": "Fingerprint",
+      "title": "Backend Engineer, Core APIs",
+      "matchPercent": 84,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa45c928275e3a211760139",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app",
+      "status": "applied",
+      "at": "2026-09-13",
+      "via": "greenhouse (cloud batch)",
+      "detail": "Submitted on the third pass, after the country-of-legal-residence and work-authorization-in-country-of-residence answers were added; security code entered and confirmation page rendered."
+    },
+    "6a7b45463b399d106e4d54ed": {
+      "id": "6a7b45463b399d106e4d54ed",
+      "key": "businessolver::software engineer iii (remote)",
+      "company": "Businessolver",
+      "title": "Software Engineer III (Remote)",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7b45463b399d106e4d54ed",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app",
+      "status": "applied",
+      "at": "2026-09-13",
+      "via": "greenhouse (cloud batch)",
+      "detail": "Submitted on the third pass, after the statement-style \"I live INSIDE the United States\" option was handled; security code entered and confirmation page rendered."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
