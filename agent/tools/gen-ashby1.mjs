@@ -28,12 +28,12 @@ var yesIds=[],noIds=[],unknown=[],pre=[];var n=0;
 if(ANYEMP.test(lb)&&no){no.id=no.id||('yn_no_'+(n++));noIds.push(no.id)}
 else if(YES.some(function(r){return r.test(lb)})&&y){y.id=y.id||('yn_yes_'+(n++));yesIds.push(y.id)}
 else if(NO.some(function(r){return r.test(lb)})&&no){no.id=no.id||('yn_no_'+(n++));noIds.push(no.id)}
-else unknown.push(lb.slice(0,80))});
+else unknown.push(lb.slice(0,240))});
 var vetDecl=[];
 [].slice.call(document.querySelectorAll('label')).forEach(function(l){var t=l.textContent.trim();if(/^I am not a protected veteran$|^Decline to self-identify$|^I do ?n.t wish to answer/i.test(t)){var i=l.querySelector('input')||document.getElementById(l.htmlFor);if(i&&!i.checked){i.click();vetDecl.push(t.slice(0,20))}}});
 var req=[];[].slice.call(document.querySelectorAll('input,textarea,select')).forEach(function(e){if(e.type==='file'||e.type==='hidden'||!e.offsetParent)return;if(!(e.required||e.getAttribute('aria-required')==='true'))return;if(e.value||e.checked)return;req.push(lblOf(e).slice(0,60)||e.name)});
 var radioGroups=[];var rgSeen=new Set();var rn=0;
-[].slice.call(document.querySelectorAll('fieldset[class*=radio-group], [class*=radio-group]')).forEach(function(fd){var rads=[].slice.call(fd.querySelectorAll('input[type=radio]'));if(!rads.length)return;var q=((fd.querySelector('label,legend')||{}).textContent||'').trim().slice(0,90);if(rgSeen.has(q))return;rgSeen.add(q);if(rads.some(function(r){return r.checked}))return;if(/gender|race|veteran|disability|hispanic|ethnic/i.test(q))return;var opts=rads.map(function(r){r.id=r.id||('rg'+(rn++));var ol=((r.labels&&r.labels[0]&&r.labels[0].textContent)||(r.closest('[class*=option]')||{}).textContent||'').trim().slice(0,50);return {id:r.id,label:ol}});radioGroups.push({q:q,opts:opts})});
+[].slice.call(document.querySelectorAll('fieldset[class*=radio-group], [class*=radio-group]')).forEach(function(fd){var rads=[].slice.call(fd.querySelectorAll('input[type=radio]'));if(!rads.length)return;var q=((fd.querySelector('label,legend')||{}).textContent||'').trim().slice(0,240);if(rgSeen.has(q))return;rgSeen.add(q);if(rads.some(function(r){return r.checked}))return;if(/gender|race|veteran|disability|hispanic|ethnic/i.test(q))return;var opts=rads.map(function(r){r.id=r.id||('rg'+(rn++));var ol=((r.labels&&r.labels[0]&&r.labels[0].textContent)||(r.closest('[class*=option]')||{}).textContent||'').trim().slice(0,90);return {id:r.id,label:ol}});radioGroups.push({q:q,opts:opts})});
 return JSON.stringify({fillPlan:fillPlan,done:done,loc:loc,yesIds:yesIds,noIds:noIds,unknown:unknown,pre:pre,vetDecl:vetDecl,req:req.slice(0,10),radioGroups:radioGroups})})()` });
 const out = JSON.stringify({ actions: A });
 JSON.parse(out);

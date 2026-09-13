@@ -56,7 +56,19 @@ const unknown = probe.unknown ?? [];
 const extraYes = [], extraNo = [], unresolved = [];
 const ANSWERS = JSON.parse(fs.readFileSync(
   process.env.ANSWERS_FILE ?? path.join(REPO, "agent/finishers/generic-answers.json"), "utf8"));
+// "Do you reside in any of the following states: ..." — the list is in the
+// question, and where she lives is a fact, not a preference: New Jersey (the
+// address in profile.json). Answer from the list itself rather than guessing.
+const stateListAnswer = (q) => {
+  if (!/reside in (any of )?(the )?following|live in (any of )?(the )?following|located in (any of )?(these|the following)/i.test(q)) return null;
+  if (!/:/.test(q)) return null;                       // no list to read
+  const list = q.slice(q.indexOf(":") + 1);
+  if (/\.\.\.|…/.test(list)) return null;               // list was truncated — never guess
+  return /\bnew jersey\b|\bNJ\b/.test(list) ? "yes" : "no";
+};
 const decide = (q) => {
+  const fromList = stateListAnswer(q);
+  if (fromList) return fromList;
   for (const c of ANSWERS.combos ?? []) {
     let re;
     try { re = new RegExp(c.label, "i"); } catch { continue; }
