@@ -434,8 +434,20 @@ try {
       }
     }
 
-    out.confirmation = /thanks? (you|for)|application (was )?(received|submitted|sent)|successfully/i.test(text);
-    out.confirmationSnippet = text.slice(0, 400);
+    // The embedded job_app form can leave document.body empty after submit —
+    // Peregrine, Harbinger, Roadie and Amplitude all came back with a blank
+    // snippet on 2026-09-13 and were written off as unconfirmed. Read every
+    // frame, and honour the confirmation URL the PLAYBOOK already documents.
+    if (!text.trim()) {
+      for (const f of page.frames()) {
+        const t = await f.evaluate(() => document.body?.innerText ?? "").catch(() => "");
+        if (t && t.trim().length > text.trim().length) text = t;
+      }
+    }
+    const url = page.url();
+    const CONFIRM_TEXT = /thanks? (you|for)|application (was )?(received|submitted|sent)|successfully|we.?ve received|received your application/i;
+    out.confirmation = CONFIRM_TEXT.test(text) || /\/confirmation|application_confirmation|thank[_-]?you/i.test(url);
+    out.confirmationSnippet = text.slice(0, 400) || `(no page text; url=${url})`;
     if (!out.confirmation) {
       out.finalUrl = page.url();
       out.errors = await page.evaluate(() =>
