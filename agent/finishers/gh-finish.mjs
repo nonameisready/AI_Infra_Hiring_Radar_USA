@@ -378,8 +378,20 @@ try {
     // code on 2026-09-13 while this branch never fired, so the code was never
     // entered and two finished applications were thrown away. The 8-cell input
     // is the thing that is actually always there.
-    const codeWidget = await page.locator('input[id^="security-input"], input[maxlength="1"]').first()
-      .isVisible({ timeout: 5000 }).catch(() => false);
+    // Poll rather than probe once: Roadie mailed a code at 10:47 on 2026-09-13
+    // and the single 5s check still missed the widget, so a finished application
+    // was thrown away again. Greenhouse renders the cells a few seconds after
+    // the submit round-trip.
+    let codeWidget = false;
+    for (let i = 0; i < 8 && !codeWidget; i++) {
+      codeWidget = await page.locator('input[id^="security-input"], input[maxlength="1"]').first()
+        .isVisible({ timeout: 2500 }).catch(() => false);
+      if (!codeWidget) {
+        text = await page.evaluate(() => document.body?.innerText ?? "");
+        if (/verification code|security code|code we (just )?(e-?mailed|sent)|enter the code/i.test(text)) break;
+        await page.waitForTimeout(1500);
+      }
+    }
     if (codeWidget || /verification code was sent|security code|enter the code|code we (just )?(e-?mailed|sent)/i.test(text)) {
       const codeFile = path.join(WORK, "gh-code.txt");
       fs.rmSync(codeFile, { force: true });

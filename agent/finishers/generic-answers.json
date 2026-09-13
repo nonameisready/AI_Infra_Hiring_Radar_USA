@@ -3763,6 +3763,14 @@
   {
    "label": "comfortable working within our time ?zone|overlap with (our|the) team.?s time ?zone|work(ing)? hours overlap",
    "prefer": "^yes"
+  },
+  {
+   "label": "level of expertise .{0,20}typescript|typescript (expertise|proficiency|experience level)",
+   "prefer": "advanced|proficient|strong|expert|4|5"
+  },
+  {
+   "label": "level of expertise .{0,20}(javascript|node)|node\\.?js (expertise|proficiency)",
+   "prefer": "intermediate|moderate|working|3"
   }
  ],
  "texts": [
