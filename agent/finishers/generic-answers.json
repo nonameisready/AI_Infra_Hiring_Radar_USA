@@ -1,6 +1,10 @@
 {
  "combos": [
   {
+   "label": "where did you (first )?(learn|hear) about (this|the) (position|role|job|opening)|how did you first (learn|hear) about",
+   "prefer": "job board|linkedin|online|job posting|website|other|indeed"
+  },
+  {
    "label": "which best describes your primary backend|primary backend (experience|language)|main backend language",
    "prefer": "^python|\\bpython\\b"
   },
@@ -4993,6 +4997,10 @@
   {
    "label": "by submitting your application you confirm that the information|confirm that the information you (have )?provided is (true|accurate)|information provided is (true|accurate) (and )?(complete)?",
    "text": "Yes, I confirm the information provided is true and accurate."
+  },
+  {
+   "label": "where did you (first )?(learn|hear) about (this|the) (position|role|job)",
+   "text": "Job board"
   }
  ],
  "checkboxes": [
