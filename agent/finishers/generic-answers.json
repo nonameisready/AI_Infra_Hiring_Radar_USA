@@ -1,6 +1,10 @@
 {
  "combos": [
   {
+   "label": "have you previously applied (for|to) (this|the|a) (position|role|job)|previously applied (for this position )?at|applied to .{0,30} (before|previously)",
+   "prefer": "^no\\b"
+  },
+  {
    "label": "where did you (first )?(learn|hear) about (this|the) (position|role|job|opening)|how did you first (learn|hear) about",
    "prefer": "job board|linkedin|online|job posting|website|other|indeed"
   },
@@ -3818,6 +3822,14 @@
   }
  ],
  "texts": [
+  {
+   "label": "target compensation|base salary \\+ ote|required base salary|desired (base )?(salary|compensation)",
+   "text": "$150,000+ base (open to discussing the full package, including OTE)"
+  },
+  {
+   "label": "^work authorization|work authorization ?✱|work authorization status$",
+   "text": "F-1 (CPT/EAD), valid through 05/31/2027. I will require sponsorship: a cap-exempt H-1B transfer only — my H-1B was previously approved and activated, and my employment-based I-140 is approved, so no lottery is needed."
+  },
   {
    "label": "country of legal residence|what is your country of residence",
    "text": "United States"
