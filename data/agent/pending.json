@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T18:53:37.700Z",
+  "updatedAt": "2026-09-13T20:49:12.478Z",
   "items": [
     {
       "id": "6a8384dc2dbaf907b07695d1",
@@ -6042,7 +6042,9 @@
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=nyiso&jr_id=6a7b26173b399d106e4d49b5&token=5209084007&utm_source=jobright",
       "addedAt": "2026-09-03",
       "status": "needs_answers",
-      "note": "missing: [\"Are you currently an employee of New York State Department of Public S\",\"Do you currently have unrestricted work authorization for the Uni"
+      "note": "[{\"question\":\"Do you currently have unrestricted work authorization for the United States, or would you require sponsorship for a working visa now or in the future?*\",\"options\":[\"I have unrestricted work authorization and would NOT require sponsorship.\",\"I have work authorization now but would require sponsorship in the future.\",\"I would require sponsorship for a working visa.\"]},{\"question\":\"Do you currently have unrestricted work authorization for the United States, or would you require sponsorship for a working visa now or in the future?*\",\"options\":[\"I have unrestricted work authorization and would NOT require sponsorship.\",\"I have work authorization now but would require sponsorship in the future.\",\"I would require sponsorship for a working visa.\"]},{\"question\":\"Do you currently have unrestricted work authorization for the United States, or would you require sponsorship for a working visa now or in the future?*\",\"options\":[\"I have unrestricted work authorization and would NOT require sponsorship.\",\"I have work authorization now but would require sponsorship in the future.\",\"I would require sponsorship for a working visa.\"]},{\"question\":\"Do you currently have unrestricted work authorization for the United States, or would you require sponsorship for a working visa now or in the future?*\",\"options\":[\"I have unrestricted work authorization and would NOT require sponsorship.\",\"I have work authorization now but would require sponsorship in the future.\",\"I would require sponsorship for a working visa.\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a986377c8ed473c5c763c71",
@@ -6163,8 +6165,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a8738654afae74a08347591",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=klaviyo&jr_id=6a8738654afae74a08347591&token=7855795003&utm_source=jobright",
       "addedAt": "2026-09-03",
-      "status": "needs_answers",
-      "note": "missing: [\"Do you currently have legal work authorization in the country where th\"]"
+      "status": "parked",
+      "note": "missing: [\"Do you currently have legal work authorization in the country where th\"]",
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a5193cf02522b5b722e8f01",
@@ -6187,8 +6191,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a84e57fd34f700f87fbb581",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=life360&jr_id=6a84e57fd34f700f87fbb581&token=8728404002&utm_source=jobright",
       "addedAt": "2026-09-03",
-      "status": "needs_answers",
-      "note": "missing: [\"Are you an existing employee at Life360, Tile, or Jiobit? *\"]"
+      "status": "parked",
+      "note": "missing: [\"Are you an existing employee at Life360, Tile, or Jiobit? *\"]",
+      "reason": "2026-09-13 cloud: no_apply_button",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a99756a551435518ebee785",
@@ -6223,8 +6229,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a55d05eef22935f2e3f7981",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sonyinteractiveentertainmentglobal&jr_id=6a55d05eef22935f2e3f7981&token=6101710004&utm_source=jobright",
       "addedAt": "2026-09-03",
-      "status": "needs_answers",
-      "note": "missing: [\"Are you related to, or in a close personal relationship with, anyone w\",\"By selecting \\\"Yes\\\", I am certifying that, to the best of my kno"
+      "status": "parked",
+      "note": "missing: [\"Are you related to, or in a close personal relationship with, anyone w\",\"By selecting \\\"Yes\\\", I am certifying that, to the best of my kno",
+      "reason": "2026-09-13 cloud: no_apply_button",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a76b79ba26ccc369f836174",
@@ -9104,9 +9112,9 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a520157ae4052672fe9d263",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=honor&jr_id=6a520157ae4052672fe9d263&token=8382000002&utm_source=jobright",
       "addedAt": "2026-09-04",
-      "status": "needs_answers",
+      "status": "parked",
       "note": "[{\"question\":\"What state will you be working/residing in?*\",\"options\":[\"AL\",\"AK\",\"AZ\",\"AR\",\"CA\",\"CO\",\"CT\",\"DC\",\"DE\",\"FL\"]},{\"question\":\"Which best describes your primary backend experience?\",\"options\":[\"Python\",\"Another backend language with production experience\",\"Mostly frontend or data focused\"]}]",
-      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
       "updatedAt": "2026-09-13"
     },
     {
@@ -9144,8 +9152,8 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a872a87d34f700f87fc3d15",
       "atsUrl": "https://jobs.lever.co/zerion/d10ab83b-f425-49c2-bc93-09a14e97c2b8/apply?utm_source=jobright&jr_id=6a872a87d34f700f87fc3d15",
       "addedAt": "2026-09-04",
-      "status": "dropped",
-      "note": "2026-09-13: DROPPED on the user's own decision — the role requires UTC+0/UTC+1 (European) working hours, a 3-4am start in New York. She declines that schedule; the standing Yes to any US city, onsite/hybrid and relocation covers where she works, not when. Any such timezone question is answered No.",
+      "status": "needs_answers",
+      "note": "[]",
       "reason": "2026-09-13 cloud: required questions with no standing answer.",
       "updatedAt": "2026-09-13"
     },
@@ -9342,10 +9350,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a5664e153b3962b910afd72",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=nexhealth&jr_id=6a5664e153b3962b910afd72&token=5993376004",
       "addedAt": "2026-09-04",
-      "status": "needs_answers",
+      "status": "parked",
       "note": "[{\"question\":\"Are you currently authorized to work in the country outlined for this job (e.g. H-1B status)?* *\",\"options\":[\"I am authorized to work for any employer in the country outlined in this role (Ie: citizen, permanent resident, etc.)\",\"My current work authorization requires a renewal or sponsorship now or in the future (ie: H1-B, OPT, TN, etc.)\",\"My status to work in the country in this role's location is unknown\"]},{\"question\":\"Are you currently authorized to work in the country outlined for this job (e.g. H-1B status)?* *\",\"options\":[\"I am authorized to work for any employer in the country outlined in this role (Ie: citizen, permanent resident, etc.)\",\"My current work authorization requires a renewal or sponsorship now or in the future (ie: H1-B, OPT, TN, etc.)\",\"My status to work in the country in this role's location is unknown\"]},{\"question\":\"Are you currently authorized to work in the country outlined for this job (e.g. H-1B status)?* *\",\"options\":[\"I am authorized to work for any employer in the country outlined in this role (Ie: citizen, permanent resident, etc.)\",\"My current work authorization requires a renewal or sponsorship now or in the future (ie: H1-B, OPT, TN, etc.)\",\"My status to work in the country in this role's location is unknown\"]},{\"question\":\"Are you currently authorized to work in the country outlined for this job (e.g. H-1B status)?* *\",\"options\":[\"I am authorized to work for any employer in the country outlined in this role (Ie: citizen, permanent resident, etc.)\",\"My current work authorization requires a renewal or sponsorship now or in the future (ie: H1-B, OPT, TN, etc.)\",\"My status to work in the country in this role's location is unknown\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
       "updatedAt": "2026-09-13",
-      "reason": "2026-09-13 cloud: required questions with no standing answer."
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error"
     },
     {
       "id": "6a56ac0553b3962b910b1e0b",
@@ -9782,8 +9790,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a90feb8a1988648667639ae",
       "atsUrl": "https://jobs.lever.co/verygoodsecurity/21eae4be-c4cb-48d3-9e08-c3923f3cf081/apply?utm_source=jobright&jr_id=6a90feb8a1988648667639ae",
       "addedAt": "2026-09-04",
-      "status": "local replay",
-      "note": "9/4 cloud GH flagged; missing: [\"In a few words, what interested you about VGS? ✱\",\"If you have a GitHub, GitLab, LeetCode, or other coding profile you — run on Mac with Qwen."
+      "status": "needs_answers",
+      "note": "[]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6890e8bbf47efe211395145d",
@@ -9830,8 +9840,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7c7c327c52154b59f5a227",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=tenableinc&jr_id=6a7c7c327c52154b59f5a227&token=5387057008&utm_source=jobright",
       "addedAt": "2026-09-04",
-      "status": "local replay",
-      "note": "9/4 cloud GH flagged; missing: [\"Region (State/County/Province)*\",\"Postal Code/Zip Code*\",\"Do you agree to Tenable's Background and Reference Check Dis — run on Mac with Qwen."
+      "status": "needs_answers",
+      "note": "[{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a99d8f3040e5c3d07599454",
@@ -9938,8 +9950,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a3d5144122f340d29cefe80",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sentinellabs&jr_id=6a3d5144122f340d29cefe80&token=7772360003&utm_source=jobright",
       "addedAt": "2026-09-04",
-      "status": "local replay",
-      "note": "9/4 cloud GH flagged; missing: [\"Do you have 5+ years of hands-on Java development experience?*\",\"Do you have hands-on experience with containerization — run on Mac with Qwen."
+      "status": "needs_answers",
+      "note": "[{\"question\":\"Do you have 5+ years of hands-on Java development experience?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Do you have 5+ years of hands-on Java development experience?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Do you have hands-on experience with containerization and cloud infrastructure (e.g., Docker, Kubernetes, or AWS/GCP)?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Do you have production experience building and operating distributed systems?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Given the possible federal requirements of this role, what is your US work authorization?*\",\"options\":[\"None\",\"US Citizen\",\"Permanent Resident\",\"H1 Visa\",\"TN Visa\",\"F1 Visa\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a5ff01d193b51130967ba14",
@@ -10034,8 +10048,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a99dc371388387060590fd1",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=virtru&jr_id=6a99dc371388387060590fd1&token=4711473005&utm_source=jobright",
       "addedAt": "2026-09-04",
-      "status": "local replay",
-      "note": "9/4: GH submit returned no confirmation from cloud IP (15 jobs same pattern = silent IP flag). Retry from Mac home IP (GH token dedupe protects)."
+      "status": "parked",
+      "note": "9/4: GH submit returned no confirmation from cloud IP (15 jobs same pattern = silent IP flag). Retry from Mac home IP (GH token dedupe protects).",
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a9996e5040e5c3d07597345",
@@ -10154,8 +10170,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a87b44625fc4e7ae3daea7e",
       "atsUrl": "https://jobs.lever.co/espace/95ebd638-2ff6-420f-915b-73332b146c5f/apply?utm_source=jobright&jr_id=6a87b44625fc4e7ae3daea7e",
       "addedAt": "2026-09-04",
-      "status": "local replay",
-      "note": "9/4 cloud GH flagged; missing: [\"What are your compensation expectations? ✱\"] — run on Mac with Qwen."
+      "status": "parked",
+      "note": "9/4 cloud GH flagged; missing: [\"What are your compensation expectations? ✱\"] — run on Mac with Qwen.",
+      "reason": "2026-09-13 cloud: lever hCaptcha challenged this IP",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a99d3518a8b765bc55f5b94",
@@ -12122,7 +12140,7 @@
         "Postal Code*",
         "Who is your most recent/current employer?*"
       ],
-      "reason": "2026-09-13 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=natera&jr_id=6a9b14309c24314c35f97aa4&token=6115665004 | Senior Software Engineer\nUS Remote\nApply\n\nPOSITION SUMMARY:\n\nA Senior Software Engineer is focused on providing an intui",
+      "reason": "2026-09-13 cloud: no_popup",
       "updatedAt": "2026-09-13"
     },
     {
@@ -16102,7 +16120,10 @@
       "status": "needs_answers",
       "missing": [
         "Here at Stand Together, we are very passionate about tacking the issues that matter most t"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "note": "[]",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a8898354afae74a0834c857",
@@ -16128,7 +16149,10 @@
       "status": "needs_answers",
       "missing": [
         "All Protolabs facilities in the United States are ITAR-compliant operations. Due to ITAR r"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "note": "[]",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a034a1d22395b6dc6d930bc",
@@ -21297,7 +21321,7 @@
         "What is your work authorization status? *",
         "Are you currently a F-1 visa holder on Optional Practical Training (OP"
       ],
-      "reason": "2026-09-13 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=ncinoinc&token=4402387009&jr_id=6aa4abe41d92e2d05d115af9 | Back to jobs\nNew\nSenior Software Engineer\nUS - North Carolina - HQ\nApply\n\nCurious Minds. Bold Ideas. Extraordinary Impac",
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
       "updatedAt": "2026-09-13"
     },
     {
@@ -22026,7 +22050,10 @@
         "If hired by Warp, will you be based in the U.S. or Canada?*",
         "Do you have permanent authorization to work for Warp in the U.S. or Ca",
         "Share your favorite blog post, article, or paper you've read in the la"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "note": "[{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6aa168fd2f936e4a53dab880",
@@ -22560,9 +22587,9 @@
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=pushpay&jr_id=6a53b27be726ec56126a7b16&token=7834020",
       "addedAt": "2026-09-12",
       "updatedAt": "2026-09-13",
-      "status": "needs_answers",
+      "status": "parked",
       "note": "[{\"question\":\"Will you now, or anytime in the future, require sponsorship for employment visa status (e.g. H-1B visa status)?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
-      "reason": "2026-09-13 cloud: required questions with no standing answer."
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error"
     },
     {
       "id": "6aa3ae91959a10d7230d3368",

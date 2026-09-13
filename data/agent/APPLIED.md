@@ -897,3 +897,47 @@ Three companies contributed more than one role (Apple 3, Doppel 3, Charles
 Schwab 2); those were separate postings she submitted separately, not duplicates.
 
 Manual-action queue after this: 0.
+
+## 2026-09-13 — cloud window close: 84 confirmed for the day, all-time 674
+
+Three cloud passes in total. The second and third existed because each pass's
+parks were mostly ONE unanswered question, and every one of those that a standing
+answer could settle became a rule during the window — 40-odd of them. The effect
+is visible in the retries: OKX, Point72, DEPT, Coalition, Eleventh Hour Games,
+SeatGeek, Fingerprint and Businessolver all submitted on a later pass after
+failing on an earlier one.
+
+Final cloud tally: **12 confirmed** (January via Ashby; Personalis, Trumid, Forge,
+OKX, Point72, DEPT, Coalition, Eleventh Hour Games, SeatGeek, Fingerprint and
+Businessolver via Greenhouse), plus the Sigma duplicate which is excluded.
+
+**Day total: 84** — 8 Mac, 12 cloud, 64 the user cleared herself. All-time 674.
+
+### Still unexplained, and left diagnosable rather than guessed
+
+Nine Greenhouse boards accept a fully filled form and then confirm nothing:
+nCino, Peregrine, Harbinger, Roadie, Amplitude, Pushpay, Greenhouse Software,
+Cross River, CLEAR, Picarro, Divergent. None of them sends an acknowledgement
+mail, so the submissions genuinely did not land — they are not counted. Two
+distinct shapes: the page goes blank after submit, or it returns to the job
+posting. The park reason now carries the finisher's own `note`,
+`securityCodePending`, error and final URL, so the next run can tell a disabled
+submit button from a missing confirmation instead of re-running blind.
+
+### Rule corrections worth remembering
+
+Three rules added earlier in this same window were wrong and were fixed before
+they could do damage:
+
+- The long-form sponsorship rule preferred "need sponsorship", which is a
+  substring of "won't need sponsorship — citizen / permanent resident", and
+  selected that false option on Syndio.
+- `golang` was listed beside Java and C# in the off-stack rule, which would have
+  answered "less than 1 year" to any Go question — understating a real skill.
+- "comfortable working within our time zone → Yes" was written from the standing
+  willingness on working arrangements, before the user answered the underlying
+  question herself: European hours are declined. Now scoped to US time zones only.
+
+The lesson for the next window: a rule that reads correctly can still pick the
+wrong option, because matching takes the first option that hits. Every new rule
+was verified against the real option list before being committed.
