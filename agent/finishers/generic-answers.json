@@ -3751,6 +3751,18 @@
   {
    "label": "require [a-z0-9 .,'&-]{0,40}to (provide|offer|furnish|obtain|file)[^?]{0,30}sponsorship|now,? or in the future,? require[^?]{0,60}sponsorship",
    "prefer": "^yes\\b"
+  },
+  {
+   "label": "high school diploma|\\bged\\b|equivalent \\(ged\\)|completed high school",
+   "prefer": "^yes"
+  },
+  {
+   "label": "customer and/?or stakeholder.?facing|stakeholder.?facing experience|client.?facing experience",
+   "prefer": "^yes"
+  },
+  {
+   "label": "comfortable working within our time ?zone|overlap with (our|the) team.?s time ?zone|work(ing)? hours overlap",
+   "prefer": "^yes"
   }
  ],
  "texts": [
