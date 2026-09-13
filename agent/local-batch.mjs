@@ -129,7 +129,11 @@ const DEFENSE_BLOCK = /palantir|nt ?concepts|anduril|varda|havocai|\bstr\b|l3har
 // User directive 2026-09-06: repeatedly applied and rejected — never apply again.
 const NO_REAPPLY = /\bramp\b|\bmercor\b/i;
 // User directive 2026-09-13: companies she does not want applied to at all.
-const USER_BLOCK = /\baxon\b|\bgrvty\b/i;
+// Permanent never-apply list (user directives). "sas" is anchored to the start
+// of the name or to "SAS Institute" on purpose: a bare \bsas\b also matches the
+// French legal suffix and would block Criteo SAS, Dataiku SAS and the like.
+const USER_BLOCK =
+  /\baxon\b|\bgrvty\b|\bamazon\b|capital one|^\s*sas\b|\bsas institute\b|\bcisco\b|\bhp\b|\bhpe\b|hewlett/i;
 // User directive 2026-09-13: applied to these enough for now — no new
 // applications for a year. A cooldown, not a permanent block: it expires on
 // its own date, so keep the date here rather than deleting the companies.

@@ -435,7 +435,7 @@
   {
    "at": "2026-09-13",
    "topic": "no-apply-companies",
-   "note": "User directive 2026-09-13: never apply to Axon or GRVTY (any posting). Treat like the permanent company blocklist — record as dropped so dedupe never re-queues them."
+   "note": "User directives 2026-09-13: never apply to Axon, GRVTY, Amazon (incl. Amazon Web Services), Capital One, SAS, Cisco, or HP / Hewlett Packard Enterprise — any posting. Permanent, unlike the dated cooldown on Canonical / JPMorgan-Chase / Bank of America. Record as dropped so dedupe never re-queues them."
   },
   {
    "at": "2026-09-13",

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-13T17:04:50.155Z",
+ "updatedAt": "2026-09-13T17:07:02.098Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -19,8 +19,9 @@
    "matchPercent": 84,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8f1002a10ee661e24d6414",
    "originalUrl": "https://www.amazon.jobs/en/jobs/10515707",
-   "status": "withdrawn",
-   "reason": "User withdrew the application on 2026-08-29 (identity-verification step not worth completing). Do not re-apply. Kept for dedupe."
+   "status": "dropped",
+   "reason": "User withdrew the application on 2026-08-29 (identity-verification step not worth completing). Do not re-apply. Kept for dedupe.",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again."
   },
   {
    "id": "6a91a0ca8e596854533769f8",
@@ -186,8 +187,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6968bb981703f05405aa945e",
    "atsUrl": "https://www.capitalonecareers.com/job/-/-/234/86179445296?p_sid=Uh-NYBb&p_uid=EMTmy7UaeB&source=jobright&ss=paid&utm_campaign=tech_26&utm_content=pj_board&utm_medium=jobad&utm_source=jobright&jr_id=6968bb981703f05405aa945e",
    "addedAt": "2026-08-30",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.capitalonecareers.com"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: www.capitalonecareers.com"
   },
   {
    "id": "6946376e7d506e3808f19b71",
@@ -607,8 +608,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a22e9f9dedf78312c7ab572",
    "atsUrl": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Senior-Lead-Software-Engineer--Back-End-Distributed-Systems--AWS--Go--Kubernetes--MCP--Lua--Python-_R241951?jr_id=6a22e9f9dedf78312c7ab572",
    "addedAt": "2026-08-31",
-   "status": "user_action",
-   "note": "capitalone.wd12 account exists with a different password (or locked) — reset it yourself, then tell the agent the standard ATS password works"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: capitalone.wd12 account exists with a different password (or locked) — reset it yourself, then tell the agent the standard ATS password works"
   },
   {
    "id": "6a423c10557b3862f15e05e2",
@@ -899,8 +900,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9536cfc12c90443efce4e8",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10521497/software-development-engineer-ml-symphony?jr_id=6a9536cfc12c90443efce4e8",
    "addedAt": "2026-08-31",
-   "status": "user_personal",
-   "note": "BLOCKED at mandatory Identity Verification: this req requires government-ID photo upload + live camera selfie before submit (job-specific; other 3 Amazon reqs lacked it). Everything before that step is filled and auto-saved — user completes personally at https://account.amazon.jobs/en-US/applicant/jobs/10521497/apply (alias account). Eligibility answers corrected to honest F-1 set (H-1B NO, I-140 NO, CPT YES)."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: BLOCKED at mandatory Identity Verification: this req requires government-ID photo upload + live camera selfie before submit (job-specific; other 3 Amazon reqs lacked it). Everything before that step is filled and auto-saved — user completes personally at https://account.amazon.jobs/en-US/applicant/jobs/10521497/apply (alias account"
   },
   {
    "id": "6a94f90f360363009919a5fd",
@@ -1071,8 +1072,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/68e80ffbcc49a84b7e101802",
    "atsUrl": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Lead-Software-Engineer--Full-Stack--Enterprise-Platforms-Technology-_R227960-2?jr_id=68e80ffbcc49a84b7e101802",
    "addedAt": "2026-08-31",
-   "status": "user_action",
-   "note": "capitalone.wd12 account exists with a different password (or locked) — reset it yourself, then tell the agent the standard ATS password works"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: capitalone.wd12 account exists with a different password (or locked) — reset it yourself, then tell the agent the standard ATS password works"
   },
   {
    "id": "6a952290c12c90443efce3d6",
@@ -1107,8 +1108,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a2a1a1d0c4972328e7e6c95",
    "atsUrl": "https://hpe.wd5.myworkdayjobs.com/wfmathpe/job/Sunnyvale-California-United-States-of-America/System-Software-Engineer_1203998-1?jr_id=6a2a1a1d0c4972328e7e6c95",
    "addedAt": "2026-08-31",
-   "status": "user_manual",
-   "note": "platform not automated from cloud: hpe.wd5.myworkdayjobs.com",
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: hpe.wd5.myworkdayjobs.com",
    "reason": "workday hpe.wd5: create-account submit unresponsive and sign-in refused (silent anti-bot like PANW/Walmart) — register personally"
   },
   {
@@ -1781,8 +1782,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a94ec4d9864261ccd2a4b7c",
    "atsUrl": "https://erp-sas.icims.com/jobs/42210/software-developer---saas-software-engineer/job?jr_id=6a94ec4d9864261ccd2a4b7c",
    "addedAt": "2026-09-01",
-   "status": "user_manual",
-   "note": "iCIMS tenant requires account+captcha from cloud (VERIFIED on Schwab 2026-09-01: hCaptcha at email gate rejects automation) — personal apply: https://erp-sas.icims.com/jobs/42210/software-developer---saas-software-engineer/job?jr_id=6a94ec4d9864261ccd2a4b7c"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: iCIMS tenant requires account+captcha from cloud (VERIFIED on Schwab 2026-09-01: hCaptcha at email gate rejects automation) — personal apply: https://erp-sas.icims.com/jobs/42210/software-developer---saas-software-engineer/job?jr_id=6a94ec4d9864261ccd2a4b7c"
   },
   {
    "id": "6a7a18b19ee17f276dbf1310",
@@ -1889,8 +1890,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a875f20cde3717f9e9b1b1b",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10509308/software-dev-engineer-iii-aws-catalog?jr_id=6a875f20cde3717f9e9b1b1b",
    "addedAt": "2026-09-01",
-   "status": "user_personal",
-   "note": "Company portal requires personal account (www.amazon.jobs) — apply personally: https://www.amazon.jobs/en/jobs/10509308/software-dev-engineer-iii-aws-catalog?jr_id=6a875f20cde3717f9e9b1b1b"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: Company portal requires personal account (www.amazon.jobs) — apply personally: https://www.amazon.jobs/en/jobs/10509308/software-dev-engineer-iii-aws-catalog?jr_id=6a875f20cde3717f9e9b1b1b"
   },
   {
    "id": "6a8f06daf841e649a7190377",
@@ -2674,7 +2675,7 @@
    "atsUrl": "https://www.amazon.jobs/en/jobs/10504174/software-development-engineer-leo-autopilot?jr_id=6a8388492dbaf907b0769705",
    "addedAt": "2026-09-02",
    "status": "dropped",
-   "note": "Amazon Leo export-control requirement: must be US citizen/national/green card/asylee — user is F-1, not eligible. Dropped honestly."
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: Amazon Leo export-control requirement: must be US citizen/national/green card/asylee — user is F-1, not eligible. Dropped honestly."
   },
   {
    "id": "6a9723adb22f636c8141617c",
@@ -2698,7 +2699,7 @@
    "atsUrl": "https://www.amazon.jobs/en/jobs/3017401/software-development-engineer-amazon-redshift-query-processing?cmpid=SPLICX0248M&jr_id=6a956f774d5932306d6ac86e&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
    "addedAt": "2026-09-02",
    "status": "dropped",
-   "note": "Posting no longer available on amazon.jobs (job removed)."
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: Posting no longer available on amazon.jobs (job removed)."
   },
   {
    "id": "6a96f8e9f5337b2cf731ef3d",
@@ -2710,7 +2711,7 @@
    "atsUrl": "https://www.amazon.jobs/en/jobs/10523866/sr-embedded-software-engineer-leo-autopilot?jr_id=6a96f8e9f5337b2cf731ef3d",
    "addedAt": "2026-09-02",
    "status": "dropped",
-   "note": "Amazon Leo export-control requirement (same as sibling req) — not eligible on F-1."
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: Amazon Leo export-control requirement (same as sibling req) — not eligible on F-1."
   },
   {
    "id": "6a8331d69b859b227766d116",
@@ -2903,8 +2904,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a976ff8e4e60e4b8da5e058",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10442900/senior-software-development-engineer-p-s-engineering-services?cmpid=SPLICX0248M&jr_id=6a976ff8e4e60e4b8da5e058&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a58c83e686b4755d1e0c3fb",
@@ -3016,8 +3017,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a88b0c2cde3717f9e9b691a",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10510493/software-development-engineer-kinesis-data-streams-kinesis-data-streams?jr_id=6a88b0c2cde3717f9e9b691a",
    "addedAt": "2026-09-02",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a8754f94afae74a08347f2e",
@@ -3271,8 +3272,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69433ffa94730b7398764c4c",
    "atsUrl": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Senior-Lead-Software-Engineer--Full-Stack--Intelligent-Foundations---Experiences-_R232101-2?jr_id=69433ffa94730b7398764c4c",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
   },
   {
    "id": "6a8fedf00bd89e205d2481d7",
@@ -3475,8 +3476,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a92cf1aa27a2d3c9848c264",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10520834/sr-software-development-engineer-quick-core-experience?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a92cf1aa27a2d3c9848c264",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a76ac8667a1ad0bc53cafd2",
@@ -3982,8 +3983,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9387e7a27a2d3c9848e034",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10520050/software-development-engineer-route-53?cmpid=SPLICX0248M&jr_id=6a9387e7a27a2d3c9848e034&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a447b2657ffc220294076a8",
@@ -4058,8 +4059,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a88e78025fc4e7ae3db2d54",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10510493/software-development-engineer-kinesis-data-streams-kinesis-data-streams?cmpid=SPLICX0248M&jr_id=6a88e78025fc4e7ae3db2d54&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a40d5e6b526a24fc3131338",
@@ -4255,8 +4256,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a98673811f73b6462c8e6e7",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10526482/software-development-engineer-devx-lift?jr_id=6a98673811f73b6462c8e6e7",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a985515def18223c854ec29",
@@ -4449,8 +4450,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a988368af954907d6573bfc",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10526602/sr-software-dev-engineer-cloudtrail?jr_id=6a988368af954907d6573bfc",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a609ed471c79e639619bff6",
@@ -4653,8 +4654,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a998965138838706058e5e2",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10526602/sr-software-dev-engineer-cloudtrail?cmpid=SPLICX0248M&jr_id=6a998965138838706058e5e2&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a93e6649864261ccd2a3a00",
@@ -4919,8 +4920,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a92db69d18f75674827c596",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10521208/senior-software-development-engineer-aws-secdevops?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a92db69d18f75674827c596",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a95e713cabc9f6703e1ad45",
@@ -5149,8 +5150,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a978ba1e4e60e4b8da5e588",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10460379/sr-software-development-engineer-p-s-engineering-services?cmpid=SPLICX0248M&jr_id=6a978ba1e4e60e4b8da5e588&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a51e7b157513b72e0c69a8c",
@@ -5161,8 +5162,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a51e7b157513b72e0c69a8c",
    "atsUrl": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Francisco--CA/Senior-Lead-Software-Engineer--Distributed-Systems--Golang---Python-on-Kubernetes-_R243138-1?jr_id=6a51e7b157513b72e0c69a8c",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: capitalone.wd12.myworkdayjobs.com"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform: capitalone.wd12.myworkdayjobs.com"
   },
   {
    "id": "6a996b19ad752e2ad54ff6ba",
@@ -6025,8 +6026,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a967067d13b4819f39dbde3",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10523003/software-development-engineer-iii-aws-core-networking-network-fabric-engineering-core-networking-edge-capacity?cmpid=SPLICX0248M&jr_id=6a967067d13b4819f39dbde3&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a57445a367e61670f5aecac",
@@ -6123,8 +6124,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a988362c8ed473c5c76477a",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10526604/software-development-engineer-measurement-adtech-and-data-science?jr_id=6a988362c8ed473c5c76477a",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a63330200459a72f2abf778",
@@ -6391,8 +6392,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a0eda0b12f8b43cf3979eb1",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10426333/software-development-engineer-ii-managed-operations-mo?jr_id=6a0eda0b12f8b43cf3979eb1",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a930112a27a2d3c9848cbb2",
@@ -6565,8 +6566,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a998c20551435518ebef107",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10526573/software-development-engineer-aws-guardduty?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a998c20551435518ebef107",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a8e06a247679c68bf5e649a",
@@ -7201,8 +7202,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a94ec3cc12c90443efce037",
    "atsUrl": "https://erp-sas.icims.com/jobs/42453/software-developer/job?jr_id=6a94ec3cc12c90443efce037",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: erp-sas.icims.com"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform: erp-sas.icims.com"
   },
   {
    "id": "6a96fca3455eaf6a08c19b86",
@@ -7993,8 +7994,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a98835bdef18223c854fd31",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10526632/software-development-engineer-route-53-waypoint?jr_id=6a98835bdef18223c854fd31",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a9918cf83fc63335763315c",
@@ -8163,8 +8164,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9961898a8b765bc55f2b8f",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10526572/software-dev-engineer-guardduty?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a9961898a8b765bc55f2b8f",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a9729bed13b4819f39df6e8",
@@ -8587,8 +8588,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a072b981f7fa33581c9d166",
    "atsUrl": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Lead-Software-Engineer--Back-End--Java--AWS---Enterprise-Platforms-Technology-_R242631-2?jr_id=6a072b981f7fa33581c9d166",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
   },
   {
    "id": "6a56e7fd21f64463ad3575f8",
@@ -8694,8 +8695,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a99607e8a8b765bc55f2b70",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10526482/software-development-engineer-devx-lift?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a99607e8a8b765bc55f2b70",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a99de2b040e5c3d0759974f",
@@ -8778,8 +8779,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a99b818138838706058fd46",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10528830/software-development-engineer-iii-annapurna-labs?jr_id=6a99b818138838706058fd46",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a865e53cc81eb647e9f2a6e",
@@ -8953,8 +8954,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a99f039ad752e2ad5502e32",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10529317/software-development-engineer-amazon-quick?jr_id=6a99f039ad752e2ad5502e32",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a99c7e490a313642c652b86",
@@ -9254,8 +9255,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9a0b88040e5c3d0759a7f9",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10528830/software-development-engineer-iii-annapurna-labs?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a9a0b88040e5c3d0759a7f9",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a591e23686b4755d1e0e724",
@@ -9790,8 +9791,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a990587af954907d6574c0c",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10496425/sr-software-engineer-aws-managed-backend-services?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a990587af954907d6574c0c",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a998cff040e5c3d07596edc",
@@ -9928,8 +9929,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a56ac0553b3962b910b1e0b",
    "atsUrl": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Francisco--CA/Senior-Lead-Software-Engineer--Golang---EKS---Kubernetes--LLM-s---Agentic-flows---control-data-planes-_R242704-1?jr_id=6a56ac0553b3962b910b1e0b",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "platform: capitalone.wd12.myworkdayjobs.com"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform: capitalone.wd12.myworkdayjobs.com"
   },
   {
    "id": "6a999fe08a8b765bc55f450f",
@@ -9964,8 +9965,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a99d426ad752e2ad5502430",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10529021/software-development-engineer-amazon?jr_id=6a99d426ad752e2ad5502430",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a9925acdef18223c855128f",
@@ -10342,8 +10343,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a99f0568a8b765bc55f6693",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10529297/software-dev-engineer-iii-amazon-interactive-video-service-ivs-stream-management?jr_id=6a99f0568a8b765bc55f6693",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a99658d551435518ebee1ca",
@@ -11410,8 +11411,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4cb4570209ea6fd684ff97",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10396509/software-development-engineer-aws-central-sde-team?jr_id=6a4cb4570209ea6fd684ff97",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a61449d7196365a6f009eea",
@@ -12000,8 +12001,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9ad177fe45b8490f6047cc",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10529793/sr-software-development-engineer-agentic-workspaces-client?jr_id=6a9ad177fe45b8490f6047cc",
    "addedAt": "2026-09-05",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a9b30c02cdc5958f53eb488",
@@ -12086,8 +12087,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9b07c3138838706059643a",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10529793/sr-software-development-engineer-agentic-workspaces-client?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a9b07c3138838706059643a",
    "addedAt": "2026-09-05",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "69fa389881706a5bd2174700",
@@ -12756,8 +12757,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9ab38d1388387060594000",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10529317/software-development-engineer-amazon-quick?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a9ab38d1388387060594000",
    "addedAt": "2026-09-05",
-   "status": "parked",
-   "note": "amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
   },
   {
    "id": "6a9b12032cdc5958f53eab87",
@@ -12780,8 +12781,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8cef252f736c304f2a875d",
    "atsUrl": "https://static.community.workday.com/maintenance-page.html",
    "addedAt": "2026-09-05",
-   "status": "parked",
-   "note": "platform not automated from cloud: static.community.workday.com"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: static.community.workday.com"
   },
   {
    "id": "6a55d245fdf4fa71202b5e6d",
@@ -14573,8 +14574,8 @@
    "matchPercent": 75,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9b4206fe45b8490f607a54",
    "atsUrl": null,
-   "status": "parked",
-   "note": "harvested 2026-09-05 cloud top-up; ATS url unresolved - Mac batch or cloud wave to resolve"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: harvested 2026-09-05 cloud top-up; ATS url unresolved - Mac batch or cloud wave to resolve"
   },
   {
    "id": "6a1635c8554b0e12c058a212",
@@ -14881,8 +14882,8 @@
    "matchPercent": 73,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9a0ae913883870605923c3",
    "atsUrl": null,
-   "status": "parked",
-   "note": "harvested 2026-09-05 cloud top-up; ATS url unresolved - Mac batch or cloud wave to resolve"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: harvested 2026-09-05 cloud top-up; ATS url unresolved - Mac batch or cloud wave to resolve"
   },
   {
    "id": "6a9b49a1d5ff1f3f1c39ea41",
@@ -16362,8 +16363,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9c0f8175edfa11b470d71d",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10530563/senior-software-development-engineer-release-engineering-network-product-development?cmpid=SPLICX0248M&jr_id=6a9c0f8175edfa11b470d71d&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=jobright",
    "addedAt": "2026-09-06",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: www.amazon.jobs"
   },
   {
    "id": "6a75d015b17cba569035b185",
@@ -16398,8 +16399,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a99d007551435518ebf14d8",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10526569/senior-software-dev-engineer-guardduty?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a99d007551435518ebf14d8",
    "addedAt": "2026-09-06",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: www.amazon.jobs"
   },
   {
    "id": "6a70a0c51003bd7b70d6b73c",
@@ -16422,8 +16423,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9b68409c24314c35f992e4",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10457078/senior-software-development-engineer-agentic-workspaces?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a9b68409c24314c35f992e4",
    "addedAt": "2026-09-06",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: www.amazon.jobs"
   },
   {
    "id": "6a5f9f0f193b5113096798b3",
@@ -16535,8 +16536,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9c04e368f82b4036735b12",
    "atsUrl": "https://www.amazon.jobs/en/jobs/10530587/software-development-engineer-aws-infra-supply-chain-automation-aws-infra-supply-chain-automation?cmpid=SPLICX0248M&utm_source=jobright&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&jr_id=6a9c04e368f82b4036735b12",
    "addedAt": "2026-09-06",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.amazon.jobs"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: www.amazon.jobs"
   },
   {
    "id": "6a63a5445c7e2d715ebad24f",
@@ -17467,8 +17468,8 @@
    "atsUrl": "https://www.capitalonecareers.com/job/plano/lead-software-engineer-back-end/1732/99500036240?jr_id=6a8749a825fc4e7ae3dac5f0",
    "originalUrl": "https://www.capitalonecareers.com/job/plano/lead-software-engineer-back-end/1732/99500036240?jr_id=6a8749a825fc4e7ae3dac5f0",
    "addedAt": "2026-09-07",
-   "status": "parked",
-   "note": "platform not automated from cloud: www.capitalonecareers.com"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: www.capitalonecareers.com"
   },
   {
    "id": "6a9e266227c94c3d5a1cb58f",
@@ -19751,8 +19752,8 @@
    "matchPercent": 88,
    "jobrightUrl": "https://jobright.ai/jobs/info/6aa049e7500b01124c778112",
    "originalUrl": "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/New-York-NY/Lead-Software-Engineer_R1000139-1?jr_id=6aa049e7500b01124c778112",
-   "status": "parked",
-   "note": "Batch park: platform not automated from cloud: capitalone.wd12.myworkdayjobs.com — 2026-09-09 cloud chunk"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: Batch park: platform not automated from cloud: capitalone.wd12.myworkdayjobs.com — 2026-09-09 cloud chunk"
   },
   {
    "id": "6a5a8f2e3ac7627fe9004b05",
@@ -22030,8 +22031,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a69fc2f48355b3f12bee64d",
    "atsUrl": "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/McLean-VA/Senior-Lead-Software-Engineer--Back-End---Card-Tech_R247035-1?jr_id=6a69fc2f48355b3f12bee64d",
    "addedAt": "2026-09-12",
-   "status": "parked",
-   "note": "platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
   },
   {
    "id": "6a6fc977cd3bac13d3709034",
@@ -22214,8 +22215,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a452830c2d11a6a466683f8",
    "atsUrl": "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/McLean-VA/Lead-Data-Engineer-IC_R245873-2?jr_id=6a452830c2d11a6a466683f8",
    "addedAt": "2026-09-12",
-   "status": "parked",
-   "note": "platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
   },
   {
    "id": "6a6c8d18ba7efe79c2f6547a",
@@ -22238,8 +22239,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a64d0cce8d8d22e3292d79b",
    "atsUrl": "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/McLean-VA/Senior-Lead-Software-Engineer_R244996-1?jr_id=6a64d0cce8d8d22e3292d79b",
    "addedAt": "2026-09-12",
-   "status": "parked",
-   "note": "platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
   },
   {
    "id": "6aa3f922422289703bd6473d",
@@ -22380,8 +22381,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6aa4a0a5422289703bd675a3",
    "atsUrl": "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/New-York-NY/Lead-Software-Engineer_R1000307-1?jr_id=6aa4a0a5422289703bd675a3",
    "addedAt": "2026-09-12",
-   "status": "parked",
-   "note": "platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
   },
   {
    "id": "6aa382c15c11cce360364684",
@@ -22913,8 +22914,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a690f845d01972698ee6311",
    "atsUrl": "https://community.workday.com/maintenance-page?d=5&s=1&e=1&o=",
    "addedAt": "2026-09-12",
-   "status": "parked",
-   "note": "platform not automated from cloud: community.workday.com"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: community.workday.com"
   },
   {
    "id": "6aa18487500b01124c77cfe0",
@@ -23429,8 +23430,8 @@
    "atsUrl": "https://hpe.wd5.myworkdayjobs.com/wfmathpe/job/San-Juan-Puerto-Rico-Puerto-Rico/Senior-Software-Developer-Cloud---Distributed-Systems_1213214-2?jr_id=6aa45bfbf3aa936e2cdb0f70",
    "addedAt": "2026-09-12",
    "updatedAt": "2026-09-12",
-   "status": "parked",
-   "note": "2026-09-12 cloud batch: platform not automated from cloud: hpe.wd5.myworkdayjobs.com"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: 2026-09-12 cloud batch: platform not automated from cloud: hpe.wd5.myworkdayjobs.com"
   },
   {
    "id": "6a68dd593b549b0b531d2679",

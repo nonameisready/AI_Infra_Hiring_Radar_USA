@@ -649,10 +649,16 @@ the dashboard and the next run's dedupe both see them.
   user of a controlled substance. Recorded as `q-criminal-history`. Answer them
   from this list, never by inference, and park any NEW declaration it does not
   cover instead of guessing.
-- **Never apply to Axon or GRVTY**, any posting (user directive). Same handling
-  as the defense/clearance blocklist: record `dropped` so dedupe never re-queues
-  them. Enforced in `agent/local-batch.mjs` via `USER_BLOCK`; cloud sessions
-  building their own queue must apply it too.
+- **Never apply**, any posting (user directives): Axon, GRVTY, Amazon
+  (including Amazon Web Services), Capital One, SAS, Cisco, HP / Hewlett Packard
+  Enterprise. Same handling as the defense/clearance blocklist: record `dropped`
+  so dedupe never re-queues them. Enforced in `agent/local-batch.mjs` via
+  `USER_BLOCK`; cloud sessions building their own queue must apply it too.
+  Two deliberate choices in that pattern: "sas" is anchored to the start of the
+  company name or to "SAS Institute", because a bare `\bsas\b` also matches the
+  French legal suffix and would block Criteo SAS or Dataiku SAS; and "hp" is
+  widened to HPE/Hewlett Packard, since HP Inc. alone would have missed the
+  Hewlett Packard Enterprise postings actually in the pool.
 - **One-year cooldown on Canonical, JPMorgan/JPMorganChase/Chase, and Bank of
   America** (user directive 2026-09-13): no new applications until
   **2027-09-13**. Enforced in `agent/local-batch.mjs` via `COOLDOWN`, which

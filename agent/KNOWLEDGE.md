@@ -95,8 +95,9 @@ source of truth; regenerate this file when they change materially.
   verifiable personal facts (visa dates, grades, licenses) beyond this file.
 - Never agree to an "I wrote this in my own words" pledge on her behalf —
   leave those for the user.
-- Never apply to Axon or GRVTY, any posting (user directive, 2026-09-13) —
-  record them dropped so dedupe never re-queues them.
+- Never apply, any posting (user directives, 2026-09-13): Axon, GRVTY, Amazon
+  (incl. Amazon Web Services), Capital One, SAS, Cisco, HP / Hewlett Packard
+  Enterprise — record them dropped so dedupe never re-queues them.
 - One-year cooldown, no new applications until 2027-09-13 (user directive,
   2026-09-13): Canonical, JPMorgan / JPMorganChase / Chase, Bank of America.
   Enough has gone in for now. This is a cooldown with an expiry date, not a
