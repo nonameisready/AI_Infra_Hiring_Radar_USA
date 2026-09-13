@@ -757,3 +757,15 @@ herself and were already counted on 2026-09-11.
 Heron Power (90%), Wynd Labs (88%), SavvyMoney (88%), Kira (87%) — all Ashby,
 all double-flagged as spam from the datacenter IP, all with the answers already
 worked out. About two minutes each from her own browser.
+
+## 2026-09-13 (Mac local batch, home IP)
+
+8 submitted, 46 parked, 5 queued for Qwen. All-time 594.
+- Wiz — Expert Backend Engineer (85%) — greenhouse, confirmed
+- Toast — Senior Software Engineer, Retail (83%) — greenhouse, confirmed
+- Checkr, Inc. — Senior Software Engineer, Data (82%) — greenhouse, confirmed
+- Nscale — Staff Infrastructure Software Engineer, Fleet & Automation (80%) — greenhouse, confirmed
+- Gusto — Senior Staff Engineer - Tax Platform Engineering (77%) — greenhouse, confirmed
+- Motive — Senior Software Engineer - Backend (77%) — greenhouse, confirmed
+- inKind — Senior Software Engineer (75%) — greenhouse, confirmed
+- Toast — Senior Software Engineer, Care Experience (73%) — greenhouse, confirmed
