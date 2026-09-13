@@ -4985,6 +4985,14 @@
   {
    "label": "(acknowledge|confirm|understand) (that )?this (position|role) is (hybrid|onsite|in-?office)",
    "text": "Yes, I understand and am able to meet the onsite requirement."
+  },
+  {
+   "label": "will you be able to work in the location listed|able to work (in|from) the location (listed|specified)",
+   "text": "Yes — I am able to work in the location listed, and I am willing to relocate for the role."
+  },
+  {
+   "label": "by submitting your application you confirm that the information|confirm that the information you (have )?provided is (true|accurate)|information provided is (true|accurate) (and )?(complete)?",
+   "text": "Yes, I confirm the information provided is true and accurate."
   }
  ],
  "checkboxes": [
