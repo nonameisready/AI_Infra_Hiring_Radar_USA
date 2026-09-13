@@ -1,6 +1,18 @@
 {
  "combos": [
   {
+   "label": "permanent (work )?authorization|permanently authorized to work|unrestricted (work )?authorization",
+   "prefer": "^no\\b"
+  },
+  {
+   "label": "(currently )?(legally )?authorized to work.*(for any employer|without (any )?(restriction|sponsorship))",
+   "prefer": "^no"
+  },
+  {
+   "label": "(work|employment|employed|authorized|eligible|begin work)[^?]{0,60}without[^?]{0,25}sponsorship|without (requiring|needing)[^?]{0,15}sponsorship|not require (any )?sponsorship|no sponsorship (is )?(required|needed)",
+   "prefer": "^no\\b"
+  },
+  {
    "label": "location.*city|^location",
    "prefer": "new york",
    "type": "New York"
@@ -597,10 +609,6 @@
    "prefer": "acknowledge|agree|^yes|accept"
   },
   {
-   "label": "arbitration agreement acknowledgement",
-   "prefer": "acknowledge|agree|^yes|accept"
-  },
-  {
    "label": "how did you hear about (this opportunity|decagon)",
    "prefer": "job board|other|linkedin"
   },
@@ -730,10 +738,6 @@
   {
    "label": "privacy (notice|policy)",
    "prefer": "acknowledge|agree|^yes|i have read"
-  },
-  {
-   "label": "arbitration",
-   "prefer": "acknowledge|agree|^yes"
   },
   {
    "label": "time ?zone",
@@ -899,10 +903,6 @@
    "prefer": "agree|acknowledge|^yes|accept"
   },
   {
-   "label": "arbitration agreement",
-   "prefer": "agree|acknowledge|^yes|accept"
-  },
-  {
    "label": "hybrid role based in san francisco|acknowledge that this is a hybrid",
    "prefer": "^yes|acknowledge"
   },
@@ -1021,10 +1021,6 @@
   {
    "label": "authorized to lawfully work",
    "prefer": "^yes"
-  },
-  {
-   "label": "confirm receipt of the above|data privacy notice and (us )?arbitration",
-   "prefer": "^yes|acknowledge|confirm"
   },
   {
    "label": "have you worked at \\w+\\?|have you (ever )?been employed by \\w+",
@@ -1423,22 +1419,9 @@
    "prefer": "None of these apply to me"
   },
   {
-   "label": "None of these apply to me",
-   "prefer": "None of these apply to me"
-  },
-  {
-   "label": "Not applicable",
-   "prefer": "None of these apply to me"
-  },
-  {
    "label": "current location",
    "prefer": "New York, NY",
    "type": "New York, NY"
-  },
-  {
-   "label": "unable to hire",
-   "prefer": "Yes",
-   "type": "Yes"
   },
   {
    "label": "visa sponsorship",
@@ -1459,61 +1442,6 @@
    "label": "start date",
    "prefer": "Immediately",
    "type": "Immediately"
-  },
-  {
-   "label": "English",
-   "prefer": "English",
-   "type": ""
-  },
-  {
-   "label": "Mandarin Chinese",
-   "prefer": "Mandarin Chinese",
-   "type": ""
-  },
-  {
-   "label": "Cantonese",
-   "prefer": "Cantonese",
-   "type": ""
-  },
-  {
-   "label": "Czech",
-   "prefer": "Czech",
-   "type": ""
-  },
-  {
-   "label": "Hungarian",
-   "prefer": "Hungarian",
-   "type": ""
-  },
-  {
-   "label": "Indonesian",
-   "prefer": "Indonesian",
-   "type": ""
-  },
-  {
-   "label": "Bahasa Malaysia",
-   "prefer": "Bahasa Malaysia",
-   "type": ""
-  },
-  {
-   "label": "Norwegian",
-   "prefer": "Norwegian",
-   "type": ""
-  },
-  {
-   "label": "Romanian",
-   "prefer": "Romanian",
-   "type": ""
-  },
-  {
-   "label": "Ukrainian",
-   "prefer": "Ukrainian",
-   "type": ""
-  },
-  {
-   "label": "Other",
-   "prefer": "Other",
-   "type": ""
   },
   {
    "label": "Which best describes your backend engineering experience",
@@ -1802,44 +1730,12 @@
    "prefer": "No"
   },
   {
-   "label": "Bay Area, CA",
-   "prefer": "None of the above"
-  },
-  {
    "label": "New York City, NY",
-   "prefer": "None of the above"
-  },
-  {
-   "label": "Seattle, WA",
-   "prefer": "None of the above"
-  },
-  {
-   "label": "Ann Arbor, MI",
    "prefer": "None of the above"
   },
   {
    "label": "Toronto, ON, Canada",
    "prefer": "None of the above"
-  },
-  {
-   "label": "Early Career",
-   "prefer": "Staff (E6)"
-  },
-  {
-   "label": "Mid-Level",
-   "prefer": "Staff (E6)"
-  },
-  {
-   "label": "Senior",
-   "prefer": "Staff (E6)"
-  },
-  {
-   "label": "Senior Staff",
-   "prefer": "Staff (E6)"
-  },
-  {
-   "label": "Not sure",
-   "prefer": "Staff (E6)"
   },
   {
    "label": "What do you think are our most complex technical challenges based on t",
@@ -1899,10 +1795,6 @@
    "label": "Zipcode",
    "prefer": "07306",
    "type": ""
-  },
-  {
-   "label": "Accept",
-   "prefer": "Accept"
   },
   {
    "label": "How we interview",
@@ -2285,11 +2177,6 @@
    "type": ""
   },
   {
-   "label": "Other",
-   "prefer": "Other",
-   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
-  },
-  {
    "label": "US citizen",
    "prefer": "No",
    "type": ""
@@ -2511,11 +2398,6 @@
   },
   {
    "label": "Vietnamese",
-   "prefer": "I do not wish to answer",
-   "type": ""
-  },
-  {
-   "label": "Other",
    "prefer": "I do not wish to answer",
    "type": ""
   },
@@ -3719,10 +3601,6 @@
    "prefer": "^yes"
   },
   {
-   "label": "(currently )?(legally )?authorized to work.*(for any employer|without (any )?(restriction|sponsorship))",
-   "prefer": "^no"
-  },
-  {
    "label": "permanent (work )?authorization to work",
    "prefer": "^no"
   },
@@ -3869,6 +3747,10 @@
    "label": "start date month|month you (can|could|would) start",
    "prefer": "september|sept?\\b|october",
    "type": "September"
+  },
+  {
+   "label": "require [a-z0-9 .,'&-]{0,40}to (provide|offer|furnish|obtain|file)[^?]{0,30}sponsorship|now,? or in the future,? require[^?]{0,60}sponsorship",
+   "prefer": "^yes\\b"
   }
  ],
  "texts": [
