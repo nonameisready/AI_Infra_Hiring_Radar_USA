@@ -653,3 +653,11 @@ the dashboard and the next run's dedupe both see them.
   as the defense/clearance blocklist: record `dropped` so dedupe never re-queues
   them. Enforced in `agent/local-batch.mjs` via `USER_BLOCK`; cloud sessions
   building their own queue must apply it too.
+- **One-year cooldown on Canonical, JPMorgan/JPMorganChase/Chase, and Bank of
+  America** (user directive 2026-09-13): no new applications until
+  **2027-09-13**. Enforced in `agent/local-batch.mjs` via `COOLDOWN`, which
+  carries the expiry date and lapses on its own — do not convert it into a
+  permanent block, and do not delete the entry when it expires without asking.
+  Cloud sessions building their own queue must apply it too. Note the company
+  regexes are name-based: `\bchase\b` would also catch an unrelated "Chase
+  Corporation" if one ever appears in the pool.

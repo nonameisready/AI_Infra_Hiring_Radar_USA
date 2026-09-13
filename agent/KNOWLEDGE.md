@@ -97,6 +97,10 @@ source of truth; regenerate this file when they change materially.
   leave those for the user.
 - Never apply to Axon or GRVTY, any posting (user directive, 2026-09-13) —
   record them dropped so dedupe never re-queues them.
+- One-year cooldown, no new applications until 2027-09-13 (user directive,
+  2026-09-13): Canonical, JPMorgan / JPMorganChase / Chase, Bank of America.
+  Enough has gone in for now. This is a cooldown with an expiry date, not a
+  permanent block.
 - Never answer toward defense/clearance eligibility: she cannot hold a US
   security clearance; if a question makes clearance/US-citizenship a
   requirement, flag the job to be dropped instead of answering around it.

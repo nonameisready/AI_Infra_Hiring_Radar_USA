@@ -130,6 +130,15 @@ const DEFENSE_BLOCK = /palantir|nt ?concepts|anduril|varda|havocai|\bstr\b|l3har
 const NO_REAPPLY = /\bramp\b|\bmercor\b/i;
 // User directive 2026-09-13: companies she does not want applied to at all.
 const USER_BLOCK = /\baxon\b|\bgrvty\b/i;
+// User directive 2026-09-13: applied to these enough for now — no new
+// applications for a year. A cooldown, not a permanent block: it expires on
+// its own date, so keep the date here rather than deleting the companies.
+const COOLDOWN = [
+  { re: /\bcanonical\b/i, until: "2027-09-13" },
+  { re: /jpmorgan|\bchase\b/i, until: "2027-09-13" },
+  { re: /bank of america|\bbofa\b/i, until: "2027-09-13" },
+];
+const cooling = (company) => COOLDOWN.find((c) => c.re.test(company ?? "") && new Date() < new Date(c.until));
 const queue = [];
 const qKeys = new Set();
 for (const j of matches.jobs) {
@@ -138,6 +147,8 @@ for (const j of matches.jobs) {
   if (DEFENSE_BLOCK.test(j.company ?? "")) { log(`blocked (defense/clearance): ${j.company}`); continue; }
   if (NO_REAPPLY.test(j.company ?? "")) { log(`blocked (no-reapply, user directive): ${j.company}`); continue; }
   if (USER_BLOCK.test(j.company ?? "")) { log(`blocked (user directive, never apply): ${j.company}`); continue; }
+  const cool = cooling(j.company);
+  if (cool) { log(`blocked (user cooldown until ${cool.until}): ${j.company}`); continue; }
   if (seenCompanies.has(norm(j.company))) { log(`skipped (company already applied): ${j.company} — ${j.title}`); continue; }
   const key = `${norm(j.company)}::${norm(j.title)}`;
   if (seenKeys.has(key) || qKeys.has(key)) continue;

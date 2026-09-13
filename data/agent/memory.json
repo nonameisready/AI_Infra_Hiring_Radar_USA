@@ -436,6 +436,11 @@
    "at": "2026-09-13",
    "topic": "no-apply-companies",
    "note": "User directive 2026-09-13: never apply to Axon or GRVTY (any posting). Treat like the permanent company blocklist — record as dropped so dedupe never re-queues them."
+  },
+  {
+   "at": "2026-09-13",
+   "topic": "cooldown-companies",
+   "note": "User directive 2026-09-13: no new applications to Canonical, JPMorgan/JPMorganChase/Chase, or Bank of America until 2027-09-13 — she has applied to them enough for now. A dated cooldown, not a permanent block (those are Axon and GRVTY). Existing parked postings for these companies were dropped with the expiry in the note."
   }
  ]
 }
