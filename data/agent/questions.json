@@ -1,15 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T09:11:22.629Z",
-  "open": [
-    {
-      "id": "q-criminal-history",
-      "question": "很多申请表（Axon 等）要求本人声明的法律问题，一次回答可长期使用：(1) 是否曾在任何法院（含军事法庭）被判有罪？(2) 目前是否因重罪被起诉/被控？(3) 是否为在逃通缉犯？(4) 是否曾被法院裁定为精神障碍或被强制送医？(5) 是否曾被军队以不名誉方式退役？(6) 是否受任何法院保护令约束？(7) 是否为管制药品的非法使用者？通常全部是 No，但这些是你本人的法律声明，代理绝不替你猜。",
-      "field": "compliance.criminalHistory",
-      "askedAt": "2026-09-13",
-      "blocking": true
-    }
-  ],
+  "updatedAt": "2026-09-13T00:00:00Z",
+  "open": [],
   "answered": [
     {
       "id": "q-login-method",
@@ -94,6 +86,24 @@
       "blocking": true,
       "answer": "Yes — an employment-based I-140 has been filed and approved (user, 2026-08-28).",
       "answeredAt": "2026-08-28"
+    },
+    {
+      "id": "q-timezone-europe",
+      "question": "Zerion 等欧洲公司问「能否按 UTC+0/UTC+1 时区作息工作」（纽约时间凌晨三四点开始）。标准答复里的「美国境内任何城市、任何到岗安排都可以」不覆盖这一条，需要本人决定。",
+      "field": "workingHours.timezone",
+      "askedAt": "2026-09-13",
+      "blocking": true,
+      "answer": "不接受欧洲作息（UTC+0/UTC+1 上班时间）→ 一律答 No。美国境内任何城市、onsite/hybrid/5 天到岗、搬迁仍然全部 Yes —— 这两件事不是一回事，不要互相推导。要求按欧洲时区作息的职位按诚实答 No 处理并 drop。",
+      "answeredAt": "2026-09-13"
+    },
+    {
+      "id": "q-criminal-history",
+      "question": "很多申请表（Axon 等）要求本人声明的法律问题，一次回答可长期使用：(1) 是否曾在任何法院（含军事法庭）被判有罪？(2) 目前是否因重罪被起诉/被控？(3) 是否为在逃通缉犯？(4) 是否曾被法院裁定为精神障碍或被强制送医？(5) 是否曾被军队以不名誉方式退役？(6) 是否受任何法院保护令约束？(7) 是否为管制药品的非法使用者？通常全部是 No，但这些是你本人的法律声明，代理绝不替你猜。",
+      "field": "compliance.criminalHistory",
+      "askedAt": "2026-09-13",
+      "blocking": true,
+      "answer": "全部 No（用户 2026-09-13 亲自确认，七问逐条 No）。这是本人法律声明，agent 不得推断；此后同类声明一律 No，清单之外的新声明仍需回问本人。另：用户指令永不投递 Axon。",
+      "answeredAt": "2026-09-13"
     }
   ],
   "note": "The agent appends questions it cannot answer here, keeps the job in pending.json, and continues. When the user answers (in the Agent tab while running locally, or by telling Claude in any session), the answer moves to `answered`, profile.json/memory.json are updated, and the next run uses it automatically. `blocking: true` means applications that need this answer are held as needs_info instead of being submitted with a guess."

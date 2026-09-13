@@ -93,7 +93,7 @@
   },
   {
    "label": "years of.*experience",
-   "prefer": "5.7|^7|7\\+|5\\+|5\\s*[-–—]\\s*10|^6|8\\s*[-–—]\\s*10|5\\s*[-–—]\\s*7"
+   "prefer": "5.7|^7|7\\+|5\\+|5\\s*[-\u2013\u2014]\\s*10|^6|8\\s*[-\u2013\u2014]\\s*10|5\\s*[-\u2013\u2014]\\s*7"
   },
   {
    "label": "located in the (us|united states)",
@@ -333,7 +333,7 @@
   },
   {
    "label": "years of professional,? (full.?time )?software engineering",
-   "prefer": "^7|7\\s*[-–]|5\\s*[-–]\\s*(7|10)|^6|6\\s*[-–]\\s*(8|9|10)|6\\s*\\+|over\\s*(3|5)"
+   "prefer": "^7|7\\s*[-\u2013]|5\\s*[-\u2013]\\s*(7|10)|^6|6\\s*[-\u2013]\\s*(8|9|10)|6\\s*\\+|over\\s*(3|5)"
   },
   {
    "label": "leveled as senior|senior-?level or (higher|above)",
@@ -789,9 +789,14 @@
    "prefer": "acknowledge|agree|^yes|i have read"
   },
   {
+   "label": "utc\\s*\\+?\\s*[01]\\b|gmt\\s*\\+?\\s*[01]\\b|central european time|\\bcet\\b|\\bcest\\b|european (working )?(hours|time ?zone)|overlap .{0,25}(european|uk|eu) (team|hours)",
+   "prefer": "^No$",
+   "type": "No"
+  },
+  {
    "label": "time ?zone",
    "prefer": "eastern",
-   "type": "Eastern Time (ET) — New York"
+   "type": "Eastern Time (ET) \u2014 New York"
   },
   {
    "label": "reside in the location specified|currently reside in the location|currently based in",
@@ -833,7 +838,7 @@
   {
    "label": "how soon.*start|when (can|could) you start|able to start",
    "prefer": "immediate|within (2 weeks|a month|30)|less than",
-   "type": "Immediately — within 2 weeks"
+   "type": "Immediately \u2014 within 2 weeks"
   },
   {
    "label": "18\\+ years of age|at least 18",
@@ -877,7 +882,7 @@
   },
   {
    "label": "time ?zone",
-   "prefer": "eastern|^e\\.?s\\.?t\\.?$|\\(est\\)|gmt\\s*[-−]\\s*0?[45]|new york"
+   "prefer": "eastern|^e\\.?s\\.?t\\.?$|\\(est\\)|gmt\\s*[-\u2212]\\s*0?[45]|new york"
   },
   {
    "label": "how soon.*(start|able)",
@@ -1480,7 +1485,7 @@
   {
    "label": "work authorization",
    "prefer": "F-1 (CPT)",
-   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted \u2014 new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "relocation",
@@ -1870,7 +1875,7 @@
   {
    "label": "Work Authorization",
    "prefer": "F-1 (CPT)",
-   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted \u2014 new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "SeatGeek was founded in 2008",
@@ -1884,7 +1889,7 @@
   {
    "label": "Work Status",
    "prefer": "F-1 (CPT)",
-   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted \u2014 new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "Requires visa sponsorship",
@@ -2288,7 +2293,7 @@
   {
    "label": "Work authorization",
    "prefer": "F-1",
-   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted \u2014 new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "Are you able to be fully available during Eleventh Hours Games' core h",
@@ -2478,7 +2483,7 @@
   {
    "label": "Visa.*Sponsorship|Work.*Authorization|Citizenship|Green.*Card",
    "prefer": "F-1.*CPT|EAD|Other",
-   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted \u2014 new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "Start.*Date|Available.*Immediately|Within.*2.*weeks",
@@ -2715,7 +2720,7 @@
   {
    "label": "work authorization",
    "prefer": "F-1.*CPT",
-   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted \u2014 new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "legally authorized",
@@ -2905,7 +2910,7 @@
   {
    "label": "Visa.*Sponsorship|Work.*Authorization",
    "prefer": "F-1.*CPT",
-   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted \u2014 new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "Legally.*Authorized.*Work",
@@ -3010,7 +3015,7 @@
   {
    "label": "Work Authorization",
    "prefer": "F-1.*CPT",
-   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted \u2014 new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "I have built or worked on event-driven systems using cloud services",
@@ -3157,7 +3162,7 @@
   {
    "label": "Work Authorization.*Visa",
    "prefer": "F-1.*CPT",
-   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted \u2014 new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "Visa Sponsorship",
@@ -3212,7 +3217,7 @@
   {
    "label": "work authorization document",
    "prefer": "F-1 \\(CPT\\)",
-   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted \u2014 new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "security clearance",
@@ -3402,7 +3407,7 @@
   {
    "label": "F-1.*CPT",
    "prefer": "F-1 (CPT)",
-   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted — new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
+   "type": "F-1 (CPT/EAD) valid through 05/31/2027; H-1B previously approved & activated (cap-counted \u2014 new employer files a cap-exempt petition, no lottery); employment-based I-140 approved."
   },
   {
    "label": "Government.*Employee",
@@ -3828,24 +3833,54 @@
   {
    "label": "need [a-z0-9 .,'&-]{0,30}sponsorship|sponsorship to continue|will you need .{0,30}sponsorship",
    "prefer": "^yes\\b"
+  },
+  {
+   "label": "convicted (of )?(a )?(crime|felony|misdemean)|found guilty (of|by)|court[- ]?martial|criminal conviction",
+   "prefer": "^No$",
+   "type": "No"
+  },
+  {
+   "label": "charged with (a )?(felony|crime)|under indictment|pending criminal charges|fugitive from justice",
+   "prefer": "^No$",
+   "type": "No"
+  },
+  {
+   "label": "adjudicated (as )?(a )?mental(ly)? (defective|ill)|committed to a mental institution",
+   "prefer": "^No$",
+   "type": "No"
+  },
+  {
+   "label": "dishonorabl(e|y) discharged",
+   "prefer": "^No$",
+   "type": "No"
+  },
+  {
+   "label": "restraining order|order of protection",
+   "prefer": "^No$",
+   "type": "No"
+  },
+  {
+   "label": "unlawful user of|addicted to any controlled substance|illegal(ly)? use[sd]? .{0,20}(drug|controlled substance)",
+   "prefer": "^No$",
+   "type": "No"
   }
  ],
  "texts": [
   {
    "label": "describe a (recent )?project where you used ai|ai-?assisted development|how (do|have) you use(d)? ai (tools )?(in|for) (your )?(development|work|engineering)|experience (with|using) ai(-| )?(assisted|coding) tools",
-   "text": "AI-assisted development is a core part of how I work rather than an occasional aid. On a recent backend project I used an AI coding assistant across the whole loop: sketching the design and having it argue the trade-offs back at me, generating the first pass of service and test scaffolding, and — where it earns its keep most — reviewing my own diffs for the edge cases I had stopped seeing after hours in the same file. I treat its output as a fast draft from a capable colleague, not as an authority: every suggestion gets read, run against tests, and rejected when it is wrong, which it regularly is about domain specifics it cannot know. The practical effect is that the mechanical part of the work compresses and I spend my time on the parts that actually decide whether a system holds up — data modelling, failure modes, and latency behaviour under real load."
+   "text": "AI-assisted development is a core part of how I work rather than an occasional aid. On a recent backend project I used an AI coding assistant across the whole loop: sketching the design and having it argue the trade-offs back at me, generating the first pass of service and test scaffolding, and \u2014 where it earns its keep most \u2014 reviewing my own diffs for the edge cases I had stopped seeing after hours in the same file. I treat its output as a fast draft from a capable colleague, not as an authority: every suggestion gets read, run against tests, and rejected when it is wrong, which it regularly is about domain specifics it cannot know. The practical effect is that the mechanical part of the work compresses and I spend my time on the parts that actually decide whether a system holds up \u2014 data modelling, failure modes, and latency behaviour under real load."
   },
   {
    "label": "please share (with us )?your location|share your (current )?location|where are you (currently )?(located|based)",
-   "text": "New York, NY (Jersey City, NJ — NYC metro)"
+   "text": "New York, NY (Jersey City, NJ \u2014 NYC metro)"
   },
   {
    "label": "target compensation|base salary \\+ ote|required base salary|desired (base )?(salary|compensation)",
    "text": "$150,000+ base (open to discussing the full package, including OTE)"
   },
   {
-   "label": "^work authorization|work authorization ?✱|work authorization status$",
-   "text": "F-1 (CPT/EAD), valid through 05/31/2027. I will require sponsorship: a cap-exempt H-1B transfer only — my H-1B was previously approved and activated, and my employment-based I-140 is approved, so no lottery is needed."
+   "label": "^work authorization|work authorization ?\u2731|work authorization status$",
+   "text": "F-1 (CPT/EAD), valid through 05/31/2027. I will require sponsorship: a cap-exempt H-1B transfer only \u2014 my H-1B was previously approved and activated, and my employment-based I-140 is approved, so no lottery is needed."
   },
   {
    "label": "country of legal residence|what is your country of residence",
@@ -3869,7 +3904,7 @@
   },
   {
    "label": "if you are an automated system or ai",
-   "text": "Yes — this application was completed with AI assistance, authorized and reviewed by the applicant (Hui Mao)."
+   "text": "Yes \u2014 this application was completed with AI assistance, authorized and reviewed by the applicant (Hui Mao)."
   },
   {
    "label": "linkedin profile",
@@ -3925,11 +3960,11 @@
   },
   {
    "label": "why do you want to join figma",
-   "text": "Figma's core product is one of the hardest distributed-systems problems in consumer software: real-time multiplayer editing that has to feel instant at massive scale. I've spent seven years building low-latency backend and data systems in finance (BlackRock, Bank of America), and I want to apply that experience to infrastructure that millions of designers and developers feel every day. I also admire how openly Figma's engineering team writes about its technical decisions — the multiplayer protocol, LiveGraph, the databases behind them — and I want to work somewhere that treats that rigor as part of the product."
+   "text": "Figma's core product is one of the hardest distributed-systems problems in consumer software: real-time multiplayer editing that has to feel instant at massive scale. I've spent seven years building low-latency backend and data systems in finance (BlackRock, Bank of America), and I want to apply that experience to infrastructure that millions of designers and developers feel every day. I also admire how openly Figma's engineering team writes about its technical decisions \u2014 the multiplayer protocol, LiveGraph, the databases behind them \u2014 and I want to work somewhere that treats that rigor as part of the product."
   },
   {
    "label": "^current company",
-   "text": "Bank of America (via Innova Solutions) — most recent role; currently between positions"
+   "text": "Bank of America (via Innova Solutions) \u2014 most recent role; currently between positions"
   },
   {
    "label": "postal/?\\s*zip code",
@@ -3969,11 +4004,11 @@
   },
   {
    "label": "why are you interested in working at seatgeek",
-   "text": "SeatGeek sits at the intersection of live events and serious engineering: high-concurrency onsales, dynamic pricing, and a marketplace where reliability directly decides whether a fan gets into the building. I've spent seven years building low-latency, high-throughput backend systems in finance, and I'd love to point that experience at a product people are genuinely excited about. I also respect how SeatGeek's engineering team writes openly about its platform work — that culture of craft is what I'm looking for."
+   "text": "SeatGeek sits at the intersection of live events and serious engineering: high-concurrency onsales, dynamic pricing, and a marketplace where reliability directly decides whether a fan gets into the building. I've spent seven years building low-latency, high-throughput backend systems in finance, and I'd love to point that experience at a product people are genuinely excited about. I also respect how SeatGeek's engineering team writes openly about its platform work \u2014 that culture of craft is what I'm looking for."
   },
   {
    "label": "hard technical problems? you have worked on",
-   "text": "One of the hardest problems I've worked on was rebuilding a portfolio-analytics computation pipeline at BlackRock: risk and performance aggregation across thousands of positions with strict latency budgets. The hard parts were incremental recomputation (avoiding full re-aggregation on every update) and correctness under concurrent updates — solved with a dependency-graph scheduler and idempotent, versioned computation steps. More recently I've built LLM/RAG pipelines where the real engineering problems were retrieval quality, evaluation, and cost control rather than the model calls themselves."
+   "text": "One of the hardest problems I've worked on was rebuilding a portfolio-analytics computation pipeline at BlackRock: risk and performance aggregation across thousands of positions with strict latency budgets. The hard parts were incremental recomputation (avoiding full re-aggregation on every update) and correctness under concurrent updates \u2014 solved with a dependency-graph scheduler and idempotent, versioned computation steps. More recently I've built LLM/RAG pipelines where the real engineering problems were retrieval quality, evaluation, and cost control rather than the model calls themselves."
   },
   {
    "label": "reasons why you.?re excited to apply|why you.?re excited about this role",
@@ -3981,11 +4016,11 @@
   },
   {
    "label": "where are you currently employed or where were you last employed",
-   "text": "Bank of America (via Innova Solutions) — most recent role; currently between positions."
+   "text": "Bank of America (via Innova Solutions) \u2014 most recent role; currently between positions."
   },
   {
    "label": "notice period",
-   "text": "None — currently between roles, available immediately."
+   "text": "None \u2014 currently between roles, available immediately."
   },
   {
    "label": "which state do you currently live in|what state do you currently reside",
@@ -4005,7 +4040,7 @@
   },
   {
    "label": "why do you want to work at par",
-   "text": "PAR's platform processes real-world commerce for thousands of restaurants — high-volume, reliability-critical backend work. That matches my seven years building transaction and data systems in finance, and I want to keep doing it where uptime directly affects a business's day."
+   "text": "PAR's platform processes real-world commerce for thousands of restaurants \u2014 high-volume, reliability-critical backend work. That matches my seven years building transaction and data systems in finance, and I want to keep doing it where uptime directly affects a business's day."
   },
   {
    "label": "what draws you to an environment like that",
@@ -4025,15 +4060,15 @@
   },
   {
    "label": "what type of visa are you currently on and when does it expire",
-   "text": "F-1 with CPT/EAD-based work authorization, valid through 05/31/2027. An employment-based I-140 is approved on file and my H-1B was previously approved and activated (cap-counted), so a new employer files a cap-exempt H-1B transfer — no lottery. I will require sponsorship for long-term employment."
+   "text": "F-1 with CPT/EAD-based work authorization, valid through 05/31/2027. An employment-based I-140 is approved on file and my H-1B was previously approved and activated (cap-counted), so a new employer files a cap-exempt H-1B transfer \u2014 no lottery. I will require sponsorship for long-term employment."
   },
   {
    "label": "where have you most recently worked",
-   "text": "Bank of America (via Innova Solutions) — most recent role; currently between positions."
+   "text": "Bank of America (via Innova Solutions) \u2014 most recent role; currently between positions."
   },
   {
    "label": "share a link \\(url\\) to a dev-?tool company",
-   "text": "N/A — my professional background is financial technology (BlackRock, Bank of America)."
+   "text": "N/A \u2014 my professional background is financial technology (BlackRock, Bank of America)."
   },
   {
    "label": "knowledge of typescript.{0,3}(&|and) node",
@@ -4061,11 +4096,11 @@
   },
   {
    "label": "when (could|can) you start",
-   "text": "Immediately — within 30 days."
+   "text": "Immediately \u2014 within 30 days."
   },
   {
    "label": "describe a time you significantly improved the (reliability|performance)",
-   "text": "At BlackRock I cut a portfolio-analytics pipeline's recompute time and failure rate by replacing full re-aggregation with a dependency-graph scheduler and idempotent incremental steps — it went from a daily operational headache to a system the team stopped thinking about."
+   "text": "At BlackRock I cut a portfolio-analytics pipeline's recompute time and failure rate by replacing full re-aggregation with a dependency-graph scheduler and idempotent incremental steps \u2014 it went from a daily operational headache to a system the team stopped thinking about."
   },
   {
    "label": "why are you interested in this position",
@@ -4089,15 +4124,15 @@
   },
   {
    "label": "external api call.*(fastapi|block|database write)|slow, external api call",
-   "text": "My default pattern is the transactional outbox: inside the same PostgreSQL transaction as the primary write, I insert an event row describing the external call, then commit. The API returns immediately. A separate async worker (Celery/ARQ, or a poller on LISTEN/NOTIFY) makes the external call with timeouts and exponential-backoff retries, marking the row done or dead-lettered after N attempts. This gives at-least-once delivery with clean consistency: the event exists if and only if the write committed, so we never notify about rolled-back data and never lose work if the process dies after commit. Because delivery is at-least-once, the call must be idempotent — I attach the outbox row ID as an idempotency key so the third party deduplicates. FastAPI BackgroundTasks is fine for low-stakes fire-and-forget, but it loses work on restart, so anything that matters goes through the outbox. Failures surface via dead-letter state plus alerts on outbox lag."
+   "text": "My default pattern is the transactional outbox: inside the same PostgreSQL transaction as the primary write, I insert an event row describing the external call, then commit. The API returns immediately. A separate async worker (Celery/ARQ, or a poller on LISTEN/NOTIFY) makes the external call with timeouts and exponential-backoff retries, marking the row done or dead-lettered after N attempts. This gives at-least-once delivery with clean consistency: the event exists if and only if the write committed, so we never notify about rolled-back data and never lose work if the process dies after commit. Because delivery is at-least-once, the call must be idempotent \u2014 I attach the outbox row ID as an idempotency key so the third party deduplicates. FastAPI BackgroundTasks is fine for low-stakes fire-and-forget, but it loses work on restart, so anything that matters goes through the outbox. Failures surface via dead-letter state plus alerts on outbox lag."
   },
   {
    "label": "real-?world, high-?impact problems.*(excite|motivate)|aspects of solving.*excite",
-   "text": "What excites me about ambiguous, real-world problems is the moment a messy physical reality becomes a system someone can trust. At BlackRock I rebuilt a portfolio-analytics pipeline that portfolio managers relied on every morning — the math was not the hard part; the hard part was that inputs were late, inconsistent, and human. Making it boring and dependable changed how a whole team started their day, and that beat any clever algorithm. Energy, real estate, and infrastructure are the same shape of problem at higher stakes: imperfect data because the world is imperfect, and software that must stay honest about uncertainty while letting people act. I want to work where 'it works' means something physical happened correctly."
+   "text": "What excites me about ambiguous, real-world problems is the moment a messy physical reality becomes a system someone can trust. At BlackRock I rebuilt a portfolio-analytics pipeline that portfolio managers relied on every morning \u2014 the math was not the hard part; the hard part was that inputs were late, inconsistent, and human. Making it boring and dependable changed how a whole team started their day, and that beat any clever algorithm. Energy, real estate, and infrastructure are the same shape of problem at higher stakes: imperfect data because the world is imperfect, and software that must stay honest about uncertainty while letting people act. I want to work where 'it works' means something physical happened correctly."
   },
   {
    "label": "what specifically about this role",
-   "text": "GiveDirectly's model of unconditional cash transfers is the kind of evidence-backed, high-leverage engineering problem I want to work on: the backend systems that move money reliably to recipients are directly the product. My background is exactly this — high-throughput, correctness-critical payment and reporting pipelines at Bank of America and BlackRock — and I would rather apply it to direct impact than to another trading desk."
+   "text": "GiveDirectly's model of unconditional cash transfers is the kind of evidence-backed, high-leverage engineering problem I want to work on: the backend systems that move money reliably to recipients are directly the product. My background is exactly this \u2014 high-throughput, correctness-critical payment and reporting pipelines at Bank of America and BlackRock \u2014 and I would rather apply it to direct impact than to another trading desk."
   },
   {
    "label": "why do you want to work at|what.s motivating you",
@@ -4109,7 +4144,7 @@
   },
   {
    "label": "disagree with about how most companies build",
-   "text": "Most teams over-invest in new-framework churn and under-invest in operability: explicit state, idempotency, retries, and observability. I have seen more incidents caused by clever abstractions than by boring code. I would rather ship a plain, well-instrumented service whose failure modes are understood than an elegant one that only its author can debug — and I think code review culture should prize that."
+   "text": "Most teams over-invest in new-framework churn and under-invest in operability: explicit state, idempotency, retries, and observability. I have seen more incidents caused by clever abstractions than by boring code. I would rather ship a plain, well-instrumented service whose failure modes are understood than an elegant one that only its author can debug \u2014 and I think code review culture should prize that."
   },
   {
    "label": "minimum annual salary|desired salary|salary expectation",
@@ -4125,11 +4160,11 @@
   },
   {
    "label": "if you have startup experience",
-   "text": "N/A — my industry experience is at BlackRock and Bank of America, where I built greenfield systems at startup pace inside large firms."
+   "text": "N/A \u2014 my industry experience is at BlackRock and Bank of America, where I built greenfield systems at startup pace inside large firms."
   },
   {
    "label": "please explain your answer to the previous question",
-   "text": "At Bank of America I scaled a real-time transaction-data platform through 10x traffic growth (to millions of requests/day), redesigning the ingestion layer, adding horizontal partitioning and caching, and cutting p99 latency 60% — the same scaling problems a hypergrowth SaaS faces: capacity planning under fast-moving demand, zero-downtime migrations, and reliability while shipping weekly."
+   "text": "At Bank of America I scaled a real-time transaction-data platform through 10x traffic growth (to millions of requests/day), redesigning the ingestion layer, adding horizontal partitioning and caching, and cutting p99 latency 60% \u2014 the same scaling problems a hypergrowth SaaS faces: capacity planning under fast-moving demand, zero-downtime migrations, and reliability while shipping weekly."
   },
   {
    "label": "which languages do you speak",
@@ -4137,11 +4172,11 @@
   },
   {
    "label": "why are you passionate about joining team clerkie",
-   "text": "Clerkie sits exactly where my background and interests meet: applying AI to messy, high-stakes financial data. I spent five years at BlackRock building quantitative systems and two at Bank of America scaling backend transaction platforms, and I have seen how much consumer financial stress comes down to information problems software can actually fix. Building an AI copilot that helps real people get out of debt — with the engineering bar that fintech correctness demands — is the kind of mission I want to ship code for every day."
+   "text": "Clerkie sits exactly where my background and interests meet: applying AI to messy, high-stakes financial data. I spent five years at BlackRock building quantitative systems and two at Bank of America scaling backend transaction platforms, and I have seen how much consumer financial stress comes down to information problems software can actually fix. Building an AI copilot that helps real people get out of debt \u2014 with the engineering bar that fintech correctness demands \u2014 is the kind of mission I want to ship code for every day."
   },
   {
    "label": "fun fact",
-   "text": "I have collected three quite different degrees — economics, applied mathematics, and computer science — because every few years I fall for a harder problem. My friends say my hobby is switching hobbies rigorously."
+   "text": "I have collected three quite different degrees \u2014 economics, applied mathematics, and computer science \u2014 because every few years I fall for a harder problem. My friends say my hobby is switching hobbies rigorously."
   },
   {
    "label": "how.?(where)? did you first learn|how did you (hear|learn)",
@@ -4181,11 +4216,11 @@
   },
   {
    "label": "^sponsorship requirements?",
-   "text": "Yes — I will require sponsorship in the future; currently authorized to work on F-1 CPT/EAD (valid through 05/31/2027)."
+   "text": "Yes \u2014 I will require sponsorship in the future; currently authorized to work on F-1 CPT/EAD (valid through 05/31/2027)."
   },
   {
    "label": "what time ?zone",
-   "text": "Eastern Time (ET) — New York"
+   "text": "Eastern Time (ET) \u2014 New York"
   },
   {
    "label": "please enter the name\\(s\\)|enter the name\\(s\\) of",
@@ -4209,11 +4244,11 @@
   },
   {
    "label": "how soon are you able to start",
-   "text": "Immediately — I can start within two weeks."
+   "text": "Immediately \u2014 I can start within two weeks."
   },
   {
    "label": "which of these technologies have you used",
-   "text": "Node.js and TypeScript in production backend services. I have not used React, Next.js (App Router), or GraphQL in a production setting — my production stack is Java, Go, and Python."
+   "text": "Node.js and TypeScript in production backend services. I have not used React, Next.js (App Router), or GraphQL in a production setting \u2014 my production stack is Java, Go, and Python."
   },
   {
    "label": "close personal relationship with any current employees|related to .* current employees",
@@ -4233,7 +4268,7 @@
   },
   {
    "label": "finra registered",
-   "text": "No — I am not FINRA registered and hold no securities registrations."
+   "text": "No \u2014 I am not FINRA registered and hold no securities registrations."
   },
   {
    "label": "relatives employed by",
@@ -4245,7 +4280,7 @@
   },
   {
    "label": "hybrid role requiring 3 days|3 days per week in office",
-   "text": "Yes — I can work from the office 3 days per week (Tuesday/Wednesday/Thursday)."
+   "text": "Yes \u2014 I can work from the office 3 days per week (Tuesday/Wednesday/Thursday)."
   },
   {
    "label": "name of your current employer",
@@ -4289,7 +4324,7 @@
   },
   {
    "label": "why are you looking for a new opportunity",
-   "text": "I am looking for a role with deeper ownership of core backend systems and a faster-moving product environment. This position fits because it centers on the work I do best — reliable, high-throughput services, pragmatic architecture, and end-to-end ownership from design through production."
+   "text": "I am looking for a role with deeper ownership of core backend systems and a faster-moving product environment. This position fits because it centers on the work I do best \u2014 reliable, high-throughput services, pragmatic architecture, and end-to-end ownership from design through production."
   },
   {
    "label": "relatives employed at",
@@ -4365,7 +4400,7 @@
   },
   {
    "label": "did you have a chance to visit prizepicks",
-   "text": "Yes — I explored PrizePicks.com and the product pages to understand the DFS pick-em format before applying."
+   "text": "Yes \u2014 I explored PrizePicks.com and the product pages to understand the DFS pick-em format before applying."
   },
   {
    "label": "please share with us you",
@@ -4377,7 +4412,7 @@
   },
   {
    "label": "have you customized or extended a lims",
-   "text": "No — no LIMS/ELN customization experience."
+   "text": "No \u2014 no LIMS/ELN customization experience."
   },
   {
    "label": "what ci\\/cd tools have you",
@@ -4389,7 +4424,7 @@
   },
   {
    "label": "location and the country of tax residence",
-   "text": "Jersey City, NJ, USA — US tax resident"
+   "text": "Jersey City, NJ, USA \u2014 US tax resident"
   },
   {
    "label": "which primary backend language\\/stack are you most proficient",
@@ -4404,7 +4439,7 @@
    "text": "I recently deepened my integration of AI tools into my daily engineering workflow, using them to accelerate boilerplate generation, debug complex distributed system race conditions, and optimize SQL queries. This approach allows me to ship code to production daily while maintaining high code quality and system reliability."
   },
   {
-   "label": "You are reviewing someone’s code, what do you look for",
+   "label": "You are reviewing someone\u2019s code, what do you look for",
    "text": "I focus on correctness, performance, and maintainability. Specifically, I check for proper error handling in distributed systems, verify that database queries are efficient and indexed correctly, and ensure that the code adheres to our team's architectural patterns and security best practices. I also look for clear logging and observability hooks to ensure the system is debuggable in production."
   },
   {
@@ -4528,8 +4563,8 @@
    "text": "I prefer Vim for its efficiency and keyboard-driven workflow, which aligns with my focus on rapid iteration and deep focus during backend development."
   },
   {
-   "label": "DEPT® Privacy Statement",
-   "text": "I have read and agree to the DEPT® Privacy Statement."
+   "label": "DEPT\u00ae Privacy Statement",
+   "text": "I have read and agree to the DEPT\u00ae Privacy Statement."
   },
   {
    "label": "Why Coalition",
@@ -4592,7 +4627,7 @@
    "text": "I recently deepened my integration of AI tools into my daily engineering workflow to accelerate code generation and debugging, allowing me to ship production code more rapidly while maintaining high quality. This technique has become a core part of my development process, enabling me to iterate faster on complex distributed systems."
   },
   {
-   "label": "You are reviewing someone’s code, what do you look for",
+   "label": "You are reviewing someone\u2019s code, what do you look for",
    "text": "I look for clear logic, robust error handling, and adherence to the language's idioms, specifically ensuring that the code is performant and maintainable at scale. In my experience with fintech systems, I prioritize checking for race conditions, proper resource management, and whether the solution aligns with our distributed architecture patterns."
   },
   {
@@ -4817,7 +4852,7 @@
   },
   {
    "label": "Visa Status|visa status text",
-   "text": "F-1 (CPT/EAD), valid through 05/31/2027. Previously approved & activated H-1B (cap-counted — new employer files cap-exempt petition, no lottery). Employment-based I-140 approved."
+   "text": "F-1 (CPT/EAD), valid through 05/31/2027. Previously approved & activated H-1B (cap-counted \u2014 new employer files cap-exempt petition, no lottery). Employment-based I-140 approved."
   },
   {
    "label": "Describe a hard problem you solved. Why was it difficult? How did you",
@@ -4828,7 +4863,7 @@
    "text": "I have recently deepened my integration of AI tools into my daily engineering workflow to accelerate code generation, debugging, and architectural design. By leveraging AI as a core part of my development process, I can iterate faster and maintain high code quality while focusing my human expertise on complex system design and critical logic."
   },
   {
-   "label": "You are reviewing someone’s code, what do you look for",
+   "label": "You are reviewing someone\u2019s code, what do you look for",
    "text": "I prioritize readability, maintainability, and correctness, specifically looking for clear error handling, efficient resource management, and adherence to the project's architectural patterns. I also verify that the code is well-tested, follows security best practices, and includes appropriate logging for observability in distributed systems."
   },
   {
@@ -4921,7 +4956,7 @@
   },
   {
    "label": "shipped title\\(?s?\\)? do you have credit on",
-   "text": "None — my background is backend and distributed systems in fintech (Bank of America, BlackRock) rather than game development, so I have no shipped game credits."
+   "text": "None \u2014 my background is backend and distributed systems in fintech (Bank of America, BlackRock) rather than game development, so I have no shipped game credits."
   },
   {
    "label": "experience with C#\\s*and/?or Unity",
@@ -4949,43 +4984,43 @@
   },
   {
    "label": "soonest date you can start|earliest (possible )?start date|when (can|could) you start",
-   "text": "Immediately — I am available to start within two weeks of an offer."
+   "text": "Immediately \u2014 I am available to start within two weeks of an offer."
   },
   {
    "label": "vim or emacs",
-   "text": "Neither by religion — I do most of my work in VS Code with an AI assistant in the loop, and I reach for vim whenever I am editing on a remote box. If I had to pick a camp, vim: the muscle memory has paid for itself every time I have had to debug something over ssh at 2am."
+   "text": "Neither by religion \u2014 I do most of my work in VS Code with an AI assistant in the loop, and I reach for vim whenever I am editing on a remote box. If I had to pick a camp, vim: the muscle memory has paid for itself every time I have had to debug something over ssh at 2am."
   },
   {
    "label": "why (are|do) you (interested|want|excited)[^?]*(join|work(ing)? (at|with|for)|apply)|why are you interested in joining|why do you want to join",
-   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard — high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
+   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard \u2014 high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
   },
   {
    "label": "why (this company|us|our (company|team))\\b|what draws you to (us|our)",
-   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard — high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
+   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard \u2014 high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
   },
   {
    "label": "tell us why you.?(re| are) (interested|excited|applying)",
-   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard — high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
+   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard \u2014 high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
   },
   {
    "label": "what attracted you to (this|the) (role|position|opportunity|job)|what attracted you to",
-   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard — high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
+   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard \u2014 high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
   },
   {
    "label": "what (interests|excites) you (about|in) (this|our|the)",
-   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard — high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
+   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard \u2014 high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
   },
   {
    "label": "outside work( ?\\/ ?advisory)? disclosure|outside (business )?activities|advisory (role|disclosure)|other (outside )?employment or advisory",
-   "text": "I maintain two personal side projects outside of work — EarningsStory and Adscream — which I build in my own time. Neither competes with this company, neither involves an advisory or board role at another firm, and neither would interfere with a full-time commitment here. I hold no other outside employment, advisory positions, or directorships."
+   "text": "I maintain two personal side projects outside of work \u2014 EarningsStory and Adscream \u2014 which I build in my own time. Neither competes with this company, neither involves an advisory or board role at another firm, and neither would interfere with a full-time commitment here. I hold no other outside employment, advisory positions, or directorships."
   },
   {
    "label": "do you have any (outside|other) (work|business|employment|activities)",
-   "text": "I maintain two personal side projects outside of work — EarningsStory and Adscream — which I build in my own time. Neither competes with this company, neither involves an advisory or board role at another firm, and neither would interfere with a full-time commitment here. I hold no other outside employment, advisory positions, or directorships."
+   "text": "I maintain two personal side projects outside of work \u2014 EarningsStory and Adscream \u2014 which I build in my own time. Neither competes with this company, neither involves an advisory or board role at another firm, and neither would interfere with a full-time commitment here. I hold no other outside employment, advisory positions, or directorships."
   },
   {
    "label": "notice period (to|with|at) your current employer|what is your notice period|how much notice",
-   "text": "None — I am not currently employed (my last role ended in December 2025), so I am available to start immediately."
+   "text": "None \u2014 I am not currently employed (my last role ended in December 2025), so I am available to start immediately."
   },
   {
    "label": "preferred work location|preferred (office )?location|where would you prefer to (work|be based)",
@@ -5013,7 +5048,7 @@
   },
   {
    "label": "hybrid role in .{0,60}(prioritiz|are you able|can you work)|first be prioritizing|prioritiz(ing|e) candidates (who are )?(located|based|in)",
-   "text": "Yes — I am able to work on a hybrid schedule from either office and am willing to relocate for the role."
+   "text": "Yes \u2014 I am able to work on a hybrid schedule from either office and am willing to relocate for the role."
   },
   {
    "label": "(acknowledge|confirm|understand) (that )?this (position|role) is (hybrid|onsite|in-?office)",
@@ -5021,7 +5056,7 @@
   },
   {
    "label": "will you be able to work in the location listed|able to work (in|from) the location (listed|specified)",
-   "text": "Yes — I am able to work in the location listed, and I am willing to relocate for the role."
+   "text": "Yes \u2014 I am able to work in the location listed, and I am willing to relocate for the role."
   },
   {
    "label": "by submitting your application you confirm that the information|confirm that the information you (have )?provided is (true|accurate)|information provided is (true|accurate) (and )?(complete)?",
@@ -5030,6 +5065,10 @@
   {
    "label": "where did you (first )?(learn|hear) about (this|the) (position|role|job)",
    "text": "Job board"
+  },
+  {
+   "label": "utc\\s*\\+?\\s*[01]\\b|european (working )?(hours|time ?zone)|\\bcet\\b",
+   "text": "I am based in the New York metro area and work US Eastern hours; I am not able to commit to a European (UTC+0/+1) working schedule. I am fully flexible on location within the US, including onsite up to five days a week."
   }
  ],
  "checkboxes": [

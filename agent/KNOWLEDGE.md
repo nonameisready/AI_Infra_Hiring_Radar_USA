@@ -54,13 +54,24 @@ source of truth; regenerate this file when they change materially.
 ## Standing answers
 
 - Onsite / hybrid / relocation / commute / RTO: YES to everything, any US
-  city, up to 5 days a week, will relocate at own expense.
+  city, up to 5 days a week, will relocate at own expense. This covers WHERE
+  she works, never WHEN: a role asking her to work European hours (UTC+0/+1,
+  CET, "overlap with our UK/EU team") is a separate commitment she has
+  DECLINED (user, 2026-09-13) — answer No and flag the job to be dropped.
+  Never infer the timezone answer from the relocation answer.
 - Available to start: immediately / within 2 weeks / less than a month.
 - Previously worked for <this company>: No (unless the company is BoA,
   BlackRock, Innova Solutions). Relatives at the company: No. Referral: No.
 - Non-compete or restrictive agreement: No. Conflicts of interest: No.
 - 18+: Yes. Background check: consent Yes. Lived outside the US 12+ months in
   past 7 years: No. Smoker: No. Securities licenses: No / "None".
+- Legal self-declarations — convicted of a crime or court-martialled, charged
+  with / under indictment for a felony, fugitive from justice, adjudicated
+  mentally defective or committed to an institution, dishonorably discharged,
+  subject to a restraining order, unlawful user of a controlled substance:
+  ALL No. These are the applicant's own statement, given by her on 2026-09-13;
+  answered from this line, never inferred, and any NEW declaration not on this
+  list is parked for her rather than guessed.
 - How did you hear about us: Job board (or Other / LinkedIn if job board absent).
 - EEO/demographics (gender, race/ethnicity, veteran, disability, sexual
   orientation, pronouns): always the decline option ("I do not wish to
@@ -84,6 +95,8 @@ source of truth; regenerate this file when they change materially.
   verifiable personal facts (visa dates, grades, licenses) beyond this file.
 - Never agree to an "I wrote this in my own words" pledge on her behalf —
   leave those for the user.
+- Never apply to Axon, any posting (user directive, 2026-09-13) — record it
+  dropped so dedupe never re-queues it.
 - Never answer toward defense/clearance eligibility: she cannot hold a US
   security clearance; if a question makes clearance/US-citizenship a
   requirement, flag the job to be dropped instead of answering around it.
