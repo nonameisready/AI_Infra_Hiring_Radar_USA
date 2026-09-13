@@ -3832,6 +3832,10 @@
  ],
  "texts": [
   {
+   "label": "please share (with us )?your location|share your (current )?location|where are you (currently )?(located|based)",
+   "text": "New York, NY (Jersey City, NJ — NYC metro)"
+  },
+  {
    "label": "target compensation|base salary \\+ ote|required base salary|desired (base )?(salary|compensation)",
    "text": "$150,000+ base (open to discussing the full package, including OTE)"
   },
