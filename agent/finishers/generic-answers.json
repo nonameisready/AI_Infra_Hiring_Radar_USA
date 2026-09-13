@@ -4963,6 +4963,14 @@
   {
    "label": "what (interests|excites) you (about|in) (this|our|the)",
    "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard — high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
+  },
+  {
+   "label": "outside work( ?\\/ ?advisory)? disclosure|outside (business )?activities|advisory (role|disclosure)|other (outside )?employment or advisory",
+   "text": "I maintain two personal side projects outside of work — EarningsStory and Adscream — which I build in my own time. Neither competes with this company, neither involves an advisory or board role at another firm, and neither would interfere with a full-time commitment here. I hold no other outside employment, advisory positions, or directorships."
+  },
+  {
+   "label": "do you have any (outside|other) (work|business|employment|activities)",
+   "text": "I maintain two personal side projects outside of work — EarningsStory and Adscream — which I build in my own time. Neither competes with this company, neither involves an advisory or board role at another firm, and neither would interfere with a full-time commitment here. I hold no other outside employment, advisory positions, or directorships."
   }
  ],
  "checkboxes": [
