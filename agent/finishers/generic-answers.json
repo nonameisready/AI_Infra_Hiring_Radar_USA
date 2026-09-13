@@ -1,6 +1,10 @@
 {
  "combos": [
   {
+   "label": "live outside (of )?the (us|u\\.s\\.|united states)|resid(e|ing) outside (of )?the (us|u\\.s\\.|united states)|located outside (of )?the (us|u\\.s\\.|united states)|based outside (of )?the (us|u\\.s\\.|united states)",
+   "prefer": "^no\\b"
+  },
+  {
    "label": "currently authorized to work in the country outlined|authorized to work in the country outlined for this job",
    "prefer": "requires? a renewal or sponsorship|renewal or sponsorship|requires sponsorship"
   },
