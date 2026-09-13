@@ -3854,6 +3854,21 @@
    "label": "what (us |u\\.s\\. )?state (do|are) you|state (do|are) you (currently )?(reside|residing|live|living|based)|state of residence",
    "prefer": "new jersey",
    "type": "New Jersey"
+  },
+  {
+   "label": "what state will you be (working|residing|located|based)|state will you (be )?work|state you will (be )?(work|resid)",
+   "prefer": "new jersey",
+   "type": "New Jersey"
+  },
+  {
+   "label": "start date year|year you (can|could|would) start|earliest start year",
+   "prefer": "2026",
+   "type": "2026"
+  },
+  {
+   "label": "start date month|month you (can|could|would) start",
+   "prefer": "september|sept?\\b|october",
+   "type": "September"
   }
  ],
  "texts": [
@@ -4996,6 +5011,10 @@
   {
    "label": "preferred work location|preferred (office )?location|where would you prefer to (work|be based)",
    "text": "New York, NY"
+  },
+  {
+   "label": "start date year",
+   "text": "2026"
   }
  ],
  "checkboxes": [
