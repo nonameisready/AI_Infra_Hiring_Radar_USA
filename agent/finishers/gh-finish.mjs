@@ -373,8 +373,14 @@ try {
     await page.waitForTimeout(7000);
     let text = await page.evaluate(() => document.body?.innerText ?? "");
 
-    // Greenhouse can demand an emailed security code before accepting.
-    if (/verification code was sent|security code/i.test(text)) {
+    // Greenhouse can demand an emailed security code before accepting. Detect it
+    // by the widget, not by page wording: Peregrine and Harbinger both mailed a
+    // code on 2026-09-13 while this branch never fired, so the code was never
+    // entered and two finished applications were thrown away. The 8-cell input
+    // is the thing that is actually always there.
+    const codeWidget = await page.locator('input[id^="security-input"], input[maxlength="1"]').first()
+      .isVisible({ timeout: 5000 }).catch(() => false);
+    if (codeWidget || /verification code was sent|security code|enter the code|code we (just )?(e-?mailed|sent)/i.test(text)) {
       const codeFile = path.join(WORK, "gh-code.txt");
       fs.rmSync(codeFile, { force: true });
       console.error("WAITING_FOR_CODE " + codeFile);
