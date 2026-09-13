@@ -3837,6 +3837,18 @@
   {
    "label": "integrations between multiple systems|saas platforms \\(e\\.?g|hris, ?crm",
    "prefer": "limited experience|^yes.*limited|^yes\\b"
+  },
+  {
+   "label": "^privacy ?\\*?$|privacy( notice| policy| statement)? ?\\*?$",
+   "prefer": "^yes|acknowledge|agree|accept|i have read|consent"
+  },
+  {
+   "label": "notice period",
+   "prefer": "immediate|none|no notice|less than 2 ?weeks|1 ?week|2 ?weeks|asap"
+  },
+  {
+   "label": "preferred work location|preferred (office )?location",
+   "prefer": "new york|nyc|remote"
   }
  ],
  "texts": [
@@ -4971,6 +4983,14 @@
   {
    "label": "do you have any (outside|other) (work|business|employment|activities)",
    "text": "I maintain two personal side projects outside of work — EarningsStory and Adscream — which I build in my own time. Neither competes with this company, neither involves an advisory or board role at another firm, and neither would interfere with a full-time commitment here. I hold no other outside employment, advisory positions, or directorships."
+  },
+  {
+   "label": "notice period (to|with|at) your current employer|what is your notice period|how much notice",
+   "text": "None — I am not currently employed (my last role ended in December 2025), so I am available to start immediately."
+  },
+  {
+   "label": "preferred work location|preferred (office )?location|where would you prefer to (work|be based)",
+   "text": "New York, NY"
   }
  ],
  "checkboxes": [
