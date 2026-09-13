@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T10:18:44.902Z",
+  "updatedAt": "2026-09-13T11:54:03.453Z",
   "items": [
     {
       "id": "6a8384dc2dbaf907b07695d1",
@@ -9041,23 +9041,6 @@
       "note": "platform not automated from cloud: careers.docusign.com"
     },
     {
-      "id": "6a86508b74e02153f145b8a9",
-      "key": "personalis, inc.::sr. software engineer, clinical software",
-      "title": "Sr. Software Engineer, Clinical Software",
-      "company": "Personalis, Inc.",
-      "matchPercent": 85,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a86508b74e02153f145b8a9",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=personalisinc&jr_id=6a86508b74e02153f145b8a9&token=7909364003&utm_source=jobright",
-      "addedAt": "2026-09-04",
-      "status": "needs_answers",
-      "missing": [
-        "What lab software systems (LIMS, ELN, etc.) have you worked with, and ",
-        "Have you customized or extended a LIMS or ELN before? If so, what tool",
-        "What CI/CD tools have you used?*",
-        "What's your proficiency level in Python? *"
-      ]
-    },
-    {
       "id": "6a984968dd171c7285791395",
       "key": "jpmorganchase::software engineer iii (python/aws)",
       "title": "Software Engineer III (Python/AWS)",
@@ -9080,18 +9063,6 @@
       "addedAt": "2026-09-04",
       "status": "parked",
       "note": "platform not automated from cloud: www.ziprecruiter.com"
-    },
-    {
-      "id": "6a7cc30edc3dff2d1c0c8fb2",
-      "key": "trumid::senior software engineer (trading systems)",
-      "title": "Senior Software Engineer (Trading Systems)",
-      "company": "Trumid",
-      "matchPercent": 84,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a7cc30edc3dff2d1c0c8fb2",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=trumid&jr_id=6a7cc30edc3dff2d1c0c8fb2&token=7860224003&utm_source=jobright",
-      "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "unconfirmed submit: Please complete the reCAPTCHA and resubmit your application.\n\nCreate a Job Alert\n\nInterested in building your career at "
     },
     {
       "id": "6a550c73377f983ce8a9763d",
@@ -22412,20 +22383,6 @@
       "missing": [
         "What is your country of legal residence?*",
         "Do you currently have legal authorization to work in your country of r"
-      ]
-    },
-    {
-      "id": "6aa45e778275e3a2117601a1",
-      "key": "forge::senior software engineer, customer domain engineering",
-      "title": "Senior Software Engineer, Customer Domain Engineering",
-      "company": "Forge",
-      "matchPercent": 84,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6aa45e778275e3a2117601a1",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=forgeglobal&token=6190331004&jr_id=6aa45e778275e3a2117601a1",
-      "addedAt": "2026-09-12",
-      "status": "needs_answers",
-      "missing": [
-        "Please let us know the soonest date you can start.*"
       ]
     },
     {

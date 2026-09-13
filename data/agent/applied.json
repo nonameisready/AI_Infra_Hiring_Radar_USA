@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T10:18:44.902Z",
+  "updatedAt": "2026-09-13T11:54:03.453Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -7575,6 +7575,45 @@
       "at": "2026-09-13",
       "via": "greenhouse (cloud batch)",
       "detail": "DUPLICATE — this is the same Sigma Computing \"Software Engineer - Compiler\" posting already applied to on 2026-09-07 (and declined on 2026-09-12), listed again under a second Jobright id with a different Greenhouse token and the company spelled \"Sigma\". Submitted before the gap was found. Not counted toward the daily goal; dedupe now keys on the for= board name plus a punctuation-flattened title."
+    },
+    "6a86508b74e02153f145b8a9": {
+      "id": "6a86508b74e02153f145b8a9",
+      "key": "personalis, inc.::sr. software engineer, clinical software",
+      "company": "Personalis, Inc.",
+      "title": "Sr. Software Engineer, Clinical Software",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a86508b74e02153f145b8a9",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app",
+      "status": "applied",
+      "at": "2026-09-13",
+      "via": "greenhouse (cloud batch)",
+      "detail": "Submitted from the cloud container; Greenhouse emailed a security code, it was entered, and the confirmation page rendered."
+    },
+    "6a7cc30edc3dff2d1c0c8fb2": {
+      "id": "6a7cc30edc3dff2d1c0c8fb2",
+      "key": "trumid::senior software engineer (trading systems)",
+      "company": "Trumid",
+      "title": "Senior Software Engineer (Trading Systems)",
+      "matchPercent": 84,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7cc30edc3dff2d1c0c8fb2",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app",
+      "status": "applied",
+      "at": "2026-09-13",
+      "via": "greenhouse (cloud batch)",
+      "detail": "Submitted from the cloud container; security code entered and confirmation page rendered."
+    },
+    "6aa45e778275e3a2117601a1": {
+      "id": "6aa45e778275e3a2117601a1",
+      "key": "forge::senior software engineer, customer domain engineering",
+      "company": "Forge",
+      "title": "Senior Software Engineer, Customer Domain Engineering",
+      "matchPercent": 84,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa45e778275e3a2117601a1",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app",
+      "status": "applied",
+      "at": "2026-09-13",
+      "via": "greenhouse (cloud batch)",
+      "detail": "Submitted from the cloud container; security code entered and confirmation page rendered."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
