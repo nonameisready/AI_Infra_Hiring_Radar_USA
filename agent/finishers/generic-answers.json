@@ -4957,6 +4957,14 @@
   {
    "label": "proudest (technical )?(achievement|accomplishment|project)|project you.?re most proud of|most impactful (project|work)",
    "text": "At Bank of America I owned a real-time transaction-data platform that went through roughly 10x traffic growth, to millions of requests a day. The hard part was not raw throughput but tail latency: p99 was degrading badly under load while the median looked fine, so the dashboards said the system was healthy while real users waited. I profiled the access patterns, found that a small number of hot keys were serialising work across the cluster, and reworked the data layer around horizontal partitioning plus a caching tier sized to those access patterns. That cut p99 latency by about 60% and left the system with headroom for the next growth step. The lesson I carry from it is to instrument for percentiles rather than averages, and to fix the distribution of the load rather than adding capacity to hide it."
+  },
+  {
+   "label": "hybrid role in .{0,60}(prioritiz|are you able|can you work)|first be prioritizing|prioritiz(ing|e) candidates (who are )?(located|based|in)",
+   "text": "Yes — I am able to work on a hybrid schedule from either office and am willing to relocate for the role."
+  },
+  {
+   "label": "(acknowledge|confirm|understand) (that )?this (position|role) is (hybrid|onsite|in-?office)",
+   "text": "Yes, I understand and am able to meet the onsite requirement."
   }
  ],
  "checkboxes": [
