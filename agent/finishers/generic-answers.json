@@ -1,6 +1,10 @@
 {
  "combos": [
   {
+   "label": "are you related to,? or are you in a close personal relationship|related to .{0,30}or .{0,20}close personal relationship|close personal relationship with (any|an) (current )?(employee|associate)",
+   "prefer": "^no\\b"
+  },
+  {
    "label": "which best describes your backend( engineering)? experience|best describes your (backend )?experience",
    "prefer": "designed or owned distributed production systems|owned distributed production|distributed production systems"
   },
