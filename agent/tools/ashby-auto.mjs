@@ -111,6 +111,11 @@ function pickRadio(g) {
   // Work authorization: "any employer"/permanent is No; plain authorization and
   // every sponsorship phrasing is Yes (KNOWLEDGE.md, never varied).
   if (/any employer|permanent (work )?authorization|without (any )?(restriction|sponsorship)/i.test(q)) return find(/^no\b/i);
+  // Which visa / immigration status: F-1 (CPT/EAD) is the operative status.
+  // Never "other" when a real F-1 option exists, and never H-1B-in-hand.
+  if (/type of (employment )?visa|visa (type|status)|immigration status|which visa|what is your (current )?status/i.test(q)) {
+    return find(/f-?1/i) ?? find(/employment authorization|\bead\b|opt\b|cpt\b/i) ?? find(/^other/i);
+  }
   if (/require.*sponsor|sponsorship|visa support/i.test(q)) return find(/^yes\b/i);
   if (/authorized to work|legally (able|authorized)|eligible to work/i.test(q)) return find(/^yes\b/i);
   // Onsite / hybrid / relocation — yes to every arrangement, any US city.
