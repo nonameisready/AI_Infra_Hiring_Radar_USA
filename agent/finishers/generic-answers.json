@@ -3813,6 +3813,18 @@
   {
    "label": "have you heard of .* before applying|had you heard of (us|our company)",
    "prefer": "^no\\b"
+  },
+  {
+   "label": "currently (a|an) f-?1 visa holder|f-?1 visa holder on (optional|curricular)|on (opt|cpt)\\b",
+   "prefer": "^yes"
+  },
+  {
+   "label": "work authorization status|what is your (current )?(work )?authorization",
+   "prefer": "needs sponsorship|requires? sponsorship|visa holder|f-?1"
+  },
+  {
+   "label": "level of travel|comfortable with travel|willing to travel|travel requirement",
+   "prefer": "as needed|up to 50|50%|up to 25|25%|occasional|some travel|^yes"
   }
  ],
  "texts": [
@@ -4930,6 +4942,14 @@
   },
   {
    "label": "tell us why you.?(re| are) (interested|excited|applying)",
+   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard — high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
+  },
+  {
+   "label": "what attracted you to (this|the) (role|position|opportunity|job)|what attracted you to",
+   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard — high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
+  },
+  {
+   "label": "what (interests|excites) you (about|in) (this|our|the)",
    "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard — high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
   }
  ],
