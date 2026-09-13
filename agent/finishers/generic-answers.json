@@ -1,6 +1,15 @@
 {
  "combos": [
   {
+   "label": "country of (legal )?residence|in which country do you (currently )?(live|reside)",
+   "prefer": "^united states|^usa$|^u\\.?s\\.?a?\\.?$",
+   "type": "United States"
+  },
+  {
+   "label": "are you a (current or (previous|former)|former|previous) .{0,30}employee|current or former employee of",
+   "prefer": "^no\\b"
+  },
+  {
    "label": "have you previously applied (for|to) (this|the|a) (position|role|job)|previously applied (for this position )?at|applied to .{0,30} (before|previously)",
    "prefer": "^no\\b"
   },
