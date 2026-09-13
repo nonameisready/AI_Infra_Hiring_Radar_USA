@@ -116,7 +116,19 @@ function pickRadio(g) {
   if (/type of (employment )?visa|visa (type|status)|immigration status|which visa|what is your (current )?status/i.test(q)) {
     return find(/f-?1/i) ?? find(/employment authorization|\bead\b|opt\b|cpt\b/i) ?? find(/^other/i);
   }
-  if (/require.*sponsor|sponsorship|visa support/i.test(q)) return find(/^yes\b/i);
+  if (/require.*sponsor|sponsorship|visa support/i.test(q)) {
+    // Plain Yes/No where it exists; otherwise name the real route — a cap-exempt
+    // H-1B transfer (H-1B previously approved and activated), never "no visa
+    // requirements", which would be false.
+    return find(/^yes\b/i)
+      ?? find(/h-?1\s?b.*(sponsor|transfer)|require.*(sponsorship|transfer)/i)
+      ?? find(/another visa|other visa|opt\b|cpt\b|\bead\b|f-?1/i);
+  }
+  // Education: highest degree completed is a Master's (UPenn M.S. CS, 2021).
+  if (/education (status|level)|highest (level of )?education|highest degree/i.test(q)) {
+    return find(/master|graduate degree|advanced degree|m\.?s\.?\b|msc\b/i)
+      ?? find(/bachelor/i);
+  }
   if (/authorized to work|legally (able|authorized)|eligible to work/i.test(q)) return find(/^yes\b/i);
   // Onsite / hybrid / relocation — yes to every arrangement, any US city.
   // Which office / preferred location: she is in the NYC metro and open to any
