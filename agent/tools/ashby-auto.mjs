@@ -95,7 +95,7 @@ if (unknown.length) {
 function pickRadio(g) {
   const q = String(g.q ?? ""), opts = g.opts ?? [];
   const find = (re) => opts.find((x) => re.test(x.label));
-  if (/pronoun|gender|race|ethnic|veteran|disab/i.test(q)) return find(/prefer not|decline|do not wish|not specified/i);
+  if (/pronoun|gender|race|ethnic|veteran|disab|current age|age range|what is your age/i.test(q)) return find(/prefer not|decline|do not wish|not specified/i);
   if (/referral source|how did you hear|where did you hear/i.test(q)) return find(/job board|linkedin/i);
   // 7 years of professional experience — pick the bracket that actually contains 7.
   if (/how many years|years of (professional|industry|relevant|software|engineering)/i.test(q)) {
@@ -114,7 +114,23 @@ function pickRadio(g) {
   if (/require.*sponsor|sponsorship|visa support/i.test(q)) return find(/^yes\b/i);
   if (/authorized to work|legally (able|authorized)|eligible to work/i.test(q)) return find(/^yes\b/i);
   // Onsite / hybrid / relocation — yes to every arrangement, any US city.
-  if (/on-?site|in.?office|hybrid|relocat|days (a|per) week|commute/i.test(q)) {
+  // Which office / preferred location: she is in the NYC metro and open to any
+  // US city, so name New York when it is offered and fall back to remote.
+  if (/which office|office location|preferred (office|location)|which (of our )?(hub|site)/i.test(q)) {
+    return find(/new york|nyc|manhattan/i) ?? find(/remote/i) ?? null;
+  }
+  // Notice period: not currently employed, so available immediately.
+  if (/notice period|when (can|could) you start|earliest start|availability to start/i.test(q)) {
+    return find(/immediate|none|no notice|right away|asap|less than 2 ?weeks|1 ?week|2 ?weeks/i);
+  }
+  // Living in the US / the contiguous 48: yes — Jersey City, NY metro.
+  if (/contiguous (48|us|united states)|reside in the (us|united states)|based in the (us|united states)|located in the (us|united states)/i.test(q)) {
+    return find(/^yes\b/i);
+  }
+  // On-call rotations are an ordinary condition of backend work, and she works
+  // onsite/hybrid/remote anywhere in the US at any cadence.
+  if (/on-?call/i.test(q)) return find(/^yes\b/i);
+  if (/on-?site|in.?office|in one of (our|the) offices|hybrid|relocat|days (a|per) week|commute|100% remote|fully remote|work remote/i.test(q)) {
     return find(/^yes$/i) ?? find(/^yes\b/i);
   }
   // Fall back to the shared standing-answer rules for plain Yes/No groups.

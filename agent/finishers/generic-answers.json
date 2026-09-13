@@ -3789,6 +3789,30 @@
   {
    "label": "which (office|location) (are you|would you)",
    "prefer": "nyc|new york"
+  },
+  {
+   "label": "hybrid role in [a-z .,'-]+ (or|and) [a-z .,'-]+|prioritiz(ing|e) candidates (who|in|located|based)|first be prioritizing",
+   "prefer": "^yes|acknowledge|agree|i understand|i am"
+  },
+  {
+   "label": "are you able to work (in|from|out of) one of (our|the) offices",
+   "prefer": "^yes"
+  },
+  {
+   "label": "(willing|able) (and able )?to participate in .*on-?call|on-?call (rotation|requirement)",
+   "prefer": "^yes"
+  },
+  {
+   "label": "want to work in a 100% remote environment|long-?term (fully )?remote",
+   "prefer": "^yes"
+  },
+  {
+   "label": "reside in the contiguous|contiguous 48",
+   "prefer": "^yes"
+  },
+  {
+   "label": "have you heard of .* before applying|had you heard of (us|our company)",
+   "prefer": "^no\\b"
   }
  ],
  "texts": [
@@ -4895,6 +4919,18 @@
   {
    "label": "vim or emacs",
    "text": "Neither by religion — I do most of my work in VS Code with an AI assistant in the loop, and I reach for vim whenever I am editing on a remote box. If I had to pick a camp, vim: the muscle memory has paid for itself every time I have had to debug something over ssh at 2am."
+  },
+  {
+   "label": "why (are|do) you (interested|want|excited)[^?]*(join|work(ing)? (at|with|for)|apply)|why are you interested in joining|why do you want to join",
+   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard — high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
+  },
+  {
+   "label": "why (this company|us|our (company|team))\\b|what draws you to (us|our)",
+   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard — high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
+  },
+  {
+   "label": "tell us why you.?(re| are) (interested|excited|applying)",
+   "text": "I have spent seven years building backend and distributed systems where reliability is the product: at Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%, and before that five years of quantitative data systems at BlackRock. I want to keep doing that on a product whose engineering problems are genuinely hard — high throughput, correctness under load, and systems other engineers depend on. This role sits squarely in that space, and I ship to production daily with AI tooling as a core part of how I work, which is how I move quickly without giving up rigor."
   }
  ],
  "checkboxes": [

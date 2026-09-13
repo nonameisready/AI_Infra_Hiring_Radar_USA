@@ -16,6 +16,14 @@ const COUNT = Number(opt("count", "5"));
 const GH_CAP = Number(opt("gh-cap", "15"));
 const GH_PACE_MS = Number(opt("gh-pace", "180")) * 1000;
 
+// Every finisher reads autofill-profile.json at import time; a fresh container
+// has no work dir, so build it before the first job instead of losing the whole
+// batch to "no ATS url" (the 2026-09-12 cloud failure).
+if (!fs.existsSync(path.join(WORK, "autofill-profile.json"))) {
+  const { spawnSync } = await import("node:child_process");
+  spawnSync("node", [path.join(REPO, "agent/tools/make-profile.mjs")], { env: process.env, stdio: "inherit" });
+}
+
 const queue = JSON.parse(fs.readFileSync(path.join(WORK, "today-queue.json"), "utf8"));
 const RESULTS = path.join(WORK, "batch-results.jsonl");
 const log = (obj) => fs.appendFileSync(RESULTS, JSON.stringify(obj) + "\n");

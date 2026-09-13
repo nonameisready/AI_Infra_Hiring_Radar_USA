@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T09:05:48.837Z",
+  "updatedAt": "2026-09-13T09:11:22.618Z",
   "items": [
     {
       "id": "6a8384dc2dbaf907b07695d1",
@@ -619,8 +619,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a423c10557b3862f15e05e2",
       "atsUrl": "https://careers.tiktokusds.com/usds/position/7613278094337739061/detail?jr_id=6a423c10557b3862f15e05e2",
       "addedAt": "2026-08-31",
-      "status": "parked",
-      "note": "platform not automated from cloud: careers.tiktokusds.com"
+      "status": "dropped",
+      "note": "platform not automated from cloud: careers.tiktokusds.com",
+      "reason": "TikTok USDS is the CFIUS-agreement US Data Security entity; its engineering roles are restricted to US persons. Dropped honestly rather than answered around.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a6a50fa16c69119640fdac3",
@@ -1621,8 +1623,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a9623d83843db0159909c59",
       "atsUrl": "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---El-Segundo-CA/Experienced-Software-Engineer_JR2026523599-1?jr_id=6a9623d83843db0159909c59",
       "addedAt": "2026-09-01",
-      "status": "parked",
-      "note": "Workday tenant resolved (boeing.wd1.myworkdayjobs.com) — queue for agent Workday registration wave | workday wave continues next window"
+      "status": "dropped",
+      "note": "Workday tenant resolved (boeing.wd1.myworkdayjobs.com) — queue for agent Workday registration wave | workday wave continues next window",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a52c23b8ef95364ead8fab9",
@@ -3358,8 +3362,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a959e334c22023a07934af1",
       "atsUrl": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---Berkeley-MO/BackEnd-Software-Engineer--Experienced-or-Senior-_JR2026518767?jr_id=6a959e334c22023a07934af1",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform not automated from cloud: boeing.wd1.myworkdayjobs.com"
+      "status": "dropped",
+      "note": "platform not automated from cloud: boeing.wd1.myworkdayjobs.com",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a8768b325fc4e7ae3dad230",
@@ -5834,8 +5840,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a98646cdd171c7285791f90",
       "atsUrl": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---Colorado-Springs-CO/Software-Systems-Engineer--Associate-or-Experienced-_JR2026520215?jr_id=6a98646cdd171c7285791f90",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: boeing.wd1.myworkdayjobs.com"
+      "status": "dropped",
+      "note": "platform: boeing.wd1.myworkdayjobs.com",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a98471adef18223c854e65e",
@@ -5858,8 +5866,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7ba663b933773d16be8c4d",
       "atsUrl": "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Oklahoma-City-OK/Software-Engineer---Developer--Associate--Mid-Level-or-Senior-_JR2026518755-1?jr_id=6a7ba663b933773d16be8c4d",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: boeing.wd1.myworkdayjobs.com"
+      "status": "dropped",
+      "note": "platform: boeing.wd1.myworkdayjobs.com",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a7ca1e477d5f033c4b8f730",
@@ -6530,8 +6540,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a98713c83fc633357631963",
       "atsUrl": "https://boeing.wd1.myworkdayjobs.com/tap_event/job/USA---Manassas-VA/Software-Engineer-Developer-3_AU000000092?jr_id=6a98713c83fc633357631963",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: boeing.wd1.myworkdayjobs.com"
+      "status": "dropped",
+      "note": "platform: boeing.wd1.myworkdayjobs.com",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a7b26173b399d106e4d49b5",
@@ -6566,8 +6578,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a8be1b4d34f700f87fcea87",
       "atsUrl": "https://apply.careers.microsoft.com/careers/job/1970393556866169/?jr_id=6a8be1b4d34f700f87fcea87",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: apply.careers.microsoft.com"
+      "status": "dropped",
+      "note": "platform: apply.careers.microsoft.com",
+      "reason": "Microsoft CTJ/POLY role — requires an active US polygraph clearance, impossible for a PRC citizen. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a998c20551435518ebef107",
@@ -8114,8 +8128,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7b558b3b399d106e4d5cb8",
       "atsUrl": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---Hazelwood-MO/Experienced-Simulation-Software-Engineer---Training-Systems_JR2026521191?jr_id=6a7b558b3b399d106e4d5cb8",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: boeing.wd1.myworkdayjobs.com"
+      "status": "dropped",
+      "note": "platform: boeing.wd1.myworkdayjobs.com",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a9980ce040e5c3d07596954",
@@ -8426,8 +8442,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a71660402d93145bf88f474",
       "atsUrl": "https://apply.careers.microsoft.com/careers/job/1970393556947844/?jr_id=6a71660402d93145bf88f474",
       "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "platform: apply.careers.microsoft.com"
+      "status": "dropped",
+      "note": "platform: apply.careers.microsoft.com",
+      "reason": "Microsoft CTJ/POLY role — requires an active US polygraph clearance, impossible for a PRC citizen. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a7a001eab1385611f8fcbff",
@@ -10039,8 +10057,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a986500af954907d65731a1",
       "atsUrl": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---Colorado-Springs-CO/Software-Engineer--Associate-or-Experienced-_JR2026523054?jr_id=6a986500af954907d65731a1",
       "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "platform: boeing.wd1.myworkdayjobs.com"
+      "status": "dropped",
+      "note": "platform: boeing.wd1.myworkdayjobs.com",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a3be7944d047136e092ea38",
@@ -11779,8 +11799,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a455ccf48d2f00f2a86d54d",
       "atsUrl": "https://careers.tiktokusds.com/usds/position/7626461410914486581/detail?jr_id=6a455ccf48d2f00f2a86d54d",
       "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "platform: careers.tiktokusds.com"
+      "status": "dropped",
+      "note": "platform: careers.tiktokusds.com",
+      "reason": "TikTok USDS is the CFIUS-agreement US Data Security entity; its engineering roles are restricted to US persons. Dropped honestly rather than answered around.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a223952c00e701fe83735f7",
@@ -12156,8 +12178,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a9b07789c24314c35f97656",
       "atsUrl": "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Berkeley-MO/Software-Engineer--Associate--Mid-Level-or-Lead-_JR2026520554-1?jr_id=6a9b07789c24314c35f97656",
       "addedAt": "2026-09-05",
-      "status": "parked",
-      "note": "platform not automated from cloud: boeing.wd1.myworkdayjobs.com"
+      "status": "dropped",
+      "note": "platform not automated from cloud: boeing.wd1.myworkdayjobs.com",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a9996b790a313642c6512a1",
@@ -14022,8 +14046,10 @@
       "matchPercent": 78,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a98713f11f73b6462c8eb29",
       "atsUrl": null,
-      "status": "parked",
-      "note": "harvested 2026-09-05 cloud top-up; ATS url unresolved - Mac batch or cloud wave to resolve"
+      "status": "dropped",
+      "note": "harvested 2026-09-05 cloud top-up; ATS url unresolved - Mac batch or cloud wave to resolve",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "698dc16bf64d441a164ff0cf",
@@ -14495,8 +14521,10 @@
       "matchPercent": 75,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a993c3e138838706058d1a7",
       "atsUrl": null,
-      "status": "parked",
-      "note": "harvested 2026-09-05 cloud top-up; ATS url unresolved - Mac batch or cloud wave to resolve"
+      "status": "dropped",
+      "note": "harvested 2026-09-05 cloud top-up; ATS url unresolved - Mac batch or cloud wave to resolve",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "69f4e624a3d34b4f76f525a8",
@@ -14539,8 +14567,10 @@
       "matchPercent": 75,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a96e785f5337b2cf731e9bd",
       "atsUrl": null,
-      "status": "parked",
-      "note": "harvested 2026-09-05 cloud top-up; ATS url unresolved - Mac batch or cloud wave to resolve"
+      "status": "dropped",
+      "note": "harvested 2026-09-05 cloud top-up; ATS url unresolved - Mac batch or cloud wave to resolve",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a9b20372cdc5958f53eaf1f",
@@ -16336,8 +16366,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a9717af455eaf6a08c1a982",
       "atsUrl": "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Seal-Beach-CA/ESS-Mission-Planning-Associate-Experienced-Software-Engineer_JR2026512722?jr_id=6a9717af455eaf6a08c1a982",
       "addedAt": "2026-09-06",
-      "status": "parked",
-      "note": "platform not automated from cloud: boeing.wd1.myworkdayjobs.com"
+      "status": "dropped",
+      "note": "platform not automated from cloud: boeing.wd1.myworkdayjobs.com",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a4e04d0bc9c765d1ef83bfa",
@@ -16543,7 +16575,7 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7f30e4927c79391ad06e46",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=fictiv&token=8715125002&jr_id=6a7f30e4927c79391ad06e46",
       "addedAt": "2026-09-06",
-      "status": "parked",
+      "status": "dropped",
       "missing": [
         "I have independently debugged and resolved complex production issues i",
         "I have designed, built, and maintained production-grade APIs (REST or ",
@@ -16554,8 +16586,9 @@
         "This role is restricted by U.S. federal regulations to U.S. citizens o",
         "What pronouns do you use?*"
       ],
-      "updatedAt": "2026-09-12",
-      "note": "2026-09-12 cloud batch: unconfirmed submit: Back to jobs\nSenior Software Engineer (West Coast - Oakland, CA or Portland, OR Preferred)\nOakland, CA Office\nApply\n\nAbo"
+      "updatedAt": "2026-09-13",
+      "note": "2026-09-12 cloud batch: unconfirmed submit: Back to jobs\nSenior Software Engineer (West Coast - Oakland, CA or Portland, OR Preferred)\nOakland, CA Office\nApply\n\nAbo",
+      "reason": "Posting states the role is restricted by U.S. federal regulations to U.S. citizens/permanent residents (export-control gate). The applicant is a PRC citizen on F-1 — standing rule: drop honestly, never answer around a citizenship requirement."
     },
     {
       "id": "6a9b049bfe45b8490f6066fc",
@@ -19070,8 +19103,10 @@
       "matchPercent": 78,
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa05ee6ea127c3794696a66",
       "originalUrl": "https://boeing.wd1.myworkdayjobs.com/tap_event/job/USA---Manassas-VA/Software-Engineer-Developer-3_AU000000126?jr_id=6aa05ee6ea127c3794696a66",
-      "status": "parked",
-      "note": "Batch park: platform not automated from cloud: boeing.wd1.myworkdayjobs.com — 2026-09-09 cloud chunk"
+      "status": "dropped",
+      "note": "Batch park: platform not automated from cloud: boeing.wd1.myworkdayjobs.com — 2026-09-09 cloud chunk",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a7b6a1577e6b569c61c0497",
@@ -22466,13 +22501,16 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa3dd1e8275e3a21175d951",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=grvty&token=4402196009&jr_id=6aa3dd1e8275e3a21175d951",
       "addedAt": "2026-09-12",
-      "status": "needs_answers",
+      "status": "user_personal",
       "missing": [
         "Employment Eligibility Information*",
         "Visa Requirement Status*",
         "Affirmation*",
         "Authorization and Acknowledgement*"
-      ]
+      ],
+      "reason": "Required \"Affirmation\" and \"Authorization and Acknowledgement\" blocks are personal attestations the applicant signs herself; standing rule keeps pledges out of the agent's hands.",
+      "note": "Employment Eligibility / Visa Requirement Status answers are standard: authorized Yes, sponsorship required Yes (cap-exempt H-1B transfer, I-140 approved), current status F-1 CPT/EAD through 05/31/2027.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6aa464fbc1928370a285dcb9",
@@ -22663,7 +22701,7 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/69f26a408feca91f14924be7",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=axon&jr_id=69f26a408feca91f14924be7&token=7576935003",
       "addedAt": "2026-09-12",
-      "status": "needs_answers",
+      "status": "user_personal",
       "missing": [
         "Can you provide verification of both your identity and authorization t",
         "Do you have any contractual obligations, agreements, relationships, or",
@@ -22677,7 +22715,10 @@
         "Have you ever been convicted in any court, including a military court,",
         "Have you ever been discharged from the Armed Forces under dishonorable",
         "Please identify your race*"
-      ]
+      ],
+      "reason": "Form carries the ATF-style personal eligibility declarations (fugitive from justice, indictment, convictions, adjudication as mental defective, dishonorable discharge, controlled substances). These are the applicant's own legal declarations and are not in the profile — the agent never invents them.",
+      "note": "Only the applicant can sign these. Everything else on the form is already worked out: work authorization Yes, sponsorship Yes, F-1 CPT/EAD through 05/31/2027, race/ethnicity decline to answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a989fe9def18223c8550855",
@@ -22879,8 +22920,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa168fd2f936e4a53dab880",
       "atsUrl": "https://apply.careers.microsoft.com/careers/job/1970393556986766/?jr_id=6aa168fd2f936e4a53dab880",
       "addedAt": "2026-09-12",
-      "status": "parked",
-      "note": "platform not automated from cloud: apply.careers.microsoft.com"
+      "status": "dropped",
+      "note": "platform not automated from cloud: apply.careers.microsoft.com",
+      "reason": "Microsoft CTJ/POLY role — requires an active US polygraph clearance, impossible for a PRC citizen. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a6a632cc63ba56308f52e94",
@@ -23671,8 +23714,10 @@
       "atsUrl": "https://boeing.wd1.myworkdayjobs.com/tap2/job/USA---Colorado-Springs-CO/Software-Engineer--Associate-or-Experienced-_JR2026523054-3?jr_id=6aa4720e1d92e2d05d114cb7",
       "addedAt": "2026-09-12",
       "updatedAt": "2026-09-12",
-      "status": "parked",
-      "note": "2026-09-12 cloud batch: platform not automated from cloud: boeing.wd1.myworkdayjobs.com"
+      "status": "dropped",
+      "note": "2026-09-12 cloud batch: platform not automated from cloud: boeing.wd1.myworkdayjobs.com",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a7f7cd3e2030208f276e970",
@@ -23775,8 +23820,10 @@
       "atsUrl": "https://jobs.ashbyhq.com/picogrid/44fea57b-71fa-42af-a983-238227de80b3/application?jr_id=6a5ad39e63a8f619507c835b",
       "addedAt": "2026-09-12",
       "updatedAt": "2026-09-12",
-      "status": "parked",
-      "note": "2026-09-12 cloud batch: ashby blocked this IP earlier"
+      "status": "dropped",
+      "note": "2026-09-12 cloud batch: ashby blocked this IP earlier",
+      "reason": "Picogrid builds defense/military sensor platforms — US-person gated work. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a83908f1081a745e97103f0",
@@ -24060,13 +24107,16 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa38fa95c11cce360364ccd",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=grvty&token=4402182009&jr_id=6aa38fa95c11cce360364ccd",
       "addedAt": "2026-09-13",
-      "status": "needs_answers",
+      "status": "user_personal",
       "missing": [
         "Employment Eligibility Information*",
         "Visa Requirement Status*",
         "Affirmation*",
         "Authorization and Acknowledgement*"
-      ]
+      ],
+      "reason": "Required \"Affirmation\" and \"Authorization and Acknowledgement\" blocks are personal attestations the applicant signs herself; standing rule keeps pledges out of the agent's hands.",
+      "note": "Employment Eligibility / Visa Requirement Status answers are standard: authorized Yes, sponsorship required Yes (cap-exempt H-1B transfer, I-140 approved), current status F-1 CPT/EAD through 05/31/2027.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a6b92e957120971bf3a7a2b",
@@ -24137,8 +24187,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa4b0968275e3a211761524",
       "atsUrl": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---Hazelwood-MO/Experienced-Software-Development-Engineer_JR2026513298?jr_id=6aa4b0968275e3a211761524",
       "addedAt": "2026-09-13",
-      "status": "parked",
-      "note": "platform not automated from cloud: boeing.wd1.myworkdayjobs.com"
+      "status": "dropped",
+      "note": "platform not automated from cloud: boeing.wd1.myworkdayjobs.com",
+      "reason": "US defense/aerospace contractor — roles require US person status / clearance. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6aa494c21d92e2d05d1155b3",
@@ -24185,8 +24237,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa4d08f42411952ff9a5a72",
       "atsUrl": "https://microsoft.eightfold.ai/careers?pid=1970393556984683&jr_id=6aa4d08f42411952ff9a5a72",
       "addedAt": "2026-09-13",
-      "status": "parked",
-      "note": "platform not automated from cloud: microsoft.eightfold.ai"
+      "status": "dropped",
+      "note": "platform not automated from cloud: microsoft.eightfold.ai",
+      "reason": "Microsoft CTJ/POLY role — requires an active US polygraph clearance, impossible for a PRC citizen. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6aa5c5ad42411952ff9a9bb0",
@@ -24197,8 +24251,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa5c5ad42411952ff9a9bb0",
       "atsUrl": "https://blackskyweb.xyz/about/jobs/founding-engineer/?jr_id=6aa5c5ad42411952ff9a9bb0",
       "addedAt": "2026-09-13",
-      "status": "parked",
-      "note": "platform not automated from cloud: blackskyweb.xyz"
+      "status": "dropped",
+      "note": "platform not automated from cloud: blackskyweb.xyz",
+      "reason": "BlackSky — geospatial intelligence for defense/intel customers; US-person gated. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a6a165a19d76667a2abd8ae",
@@ -24268,8 +24324,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a423c126a9c2774b3fa56e5",
       "atsUrl": "https://careers.tiktokusds.com/usds/position/7531078345758427399/detail?jr_id=6a423c126a9c2774b3fa56e5",
       "addedAt": "2026-09-13",
-      "status": "parked",
-      "note": "platform not automated from cloud: careers.tiktokusds.com"
+      "status": "dropped",
+      "note": "platform not automated from cloud: careers.tiktokusds.com",
+      "reason": "TikTok USDS is the CFIUS-agreement US Data Security entity; its engineering roles are restricted to US persons. Dropped honestly rather than answered around.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a16c2aa128680351d96cb67",
@@ -24323,8 +24381,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7d7298d77e8156a8e366c1",
       "atsUrl": "https://careers.tiktokusds.com/usds/position/7672841877063338245/detail?jr_id=6a7d7298d77e8156a8e366c1",
       "addedAt": "2026-09-13",
-      "status": "parked",
-      "note": "platform not automated from cloud: careers.tiktokusds.com"
+      "status": "dropped",
+      "note": "platform not automated from cloud: careers.tiktokusds.com",
+      "reason": "TikTok USDS is the CFIUS-agreement US Data Security entity; its engineering roles are restricted to US persons. Dropped honestly rather than answered around.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6aa1fa24ef23570cae2471d6",
@@ -24425,8 +24485,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a8332a11081a745e970d855",
       "atsUrl": "https://careers-peraton.icims.com/jobs/169753/software-engineer/job?jr_id=6a8332a11081a745e970d855",
       "addedAt": "2026-09-13",
-      "status": "parked",
-      "note": "platform not automated from cloud: careers-peraton.icims.com"
+      "status": "dropped",
+      "note": "platform not automated from cloud: careers-peraton.icims.com",
+      "reason": "US national-security contractor — clearance required. Standing rule: never apply.",
+      "droppedAt": "2026-09-13"
     },
     {
       "id": "6a74f9ce972ac843c69985ba",
