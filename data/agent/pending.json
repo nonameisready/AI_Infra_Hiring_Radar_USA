@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T09:11:22.618Z",
+  "updatedAt": "2026-09-13T10:18:44.902Z",
   "items": [
     {
       "id": "6a8384dc2dbaf907b07695d1",
@@ -12266,22 +12266,6 @@
       "note": "platform not automated from cloud: oclc.wd1.myworkdayjobs.com"
     },
     {
-      "id": "6a56104d10c4d945d86477fa",
-      "key": "sigma::software engineer - compiler",
-      "title": "Software Engineer - Compiler",
-      "company": "Sigma",
-      "matchPercent": 88,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a56104d10c4d945d86477fa",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sigmacomputing&token=7767918003&jr_id=6a56104d10c4d945d86477fa",
-      "addedAt": "2026-09-05",
-      "status": "needs_answers",
-      "missing": [
-        "Are you open to working 4 days onsite in one of our central offices?*"
-      ],
-      "updatedAt": "2026-09-12",
-      "note": "2026-09-12 cloud batch: form filled, held on [\"Are you open to working 4 days onsite in one of our central offices?*\"]. Not guessed."
-    },
-    {
       "id": "6a7e0fe1b56bea5779c03667",
       "key": "swift::senior software developer - c++ (hybrid)",
       "title": "Senior Software Developer - C++ (Hybrid)",
@@ -23875,17 +23859,6 @@
       "addedAt": "2026-09-13",
       "status": "parked",
       "note": "platform not automated from cloud: careers.moodys.com"
-    },
-    {
-      "id": "6a562b5b53b3962b910ae769",
-      "key": "january::senior software engineer",
-      "title": "Senior Software Engineer",
-      "company": "January",
-      "matchPercent": 88,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a562b5b53b3962b910ae769",
-      "atsUrl": "https://jobs.ashbyhq.com/january/7b1fac0b-9860-441c-bbf7-2cf47b387e00/application?jr_id=6a562b5b53b3962b910ae769",
-      "addedAt": "2026-09-13",
-      "status": "local replay"
     },
     {
       "id": "6aa4d516930bff471a29bca5",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T09:05:48.837Z",
+  "updatedAt": "2026-09-13T10:18:44.902Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -7549,6 +7549,32 @@
       "at": "2026-09-12",
       "via": "manual",
       "detail": "User submitted from her own browser after the agent emailed the answer sheet (datacenter-IP spam flag). Ashby confirmation mail 2026-09-12 18:56Z."
+    },
+    "6a562b5b53b3962b910ae769": {
+      "id": "6a562b5b53b3962b910ae769",
+      "key": "january::senior software engineer",
+      "company": "January",
+      "title": "Senior Software Engineer",
+      "matchPercent": 88,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a562b5b53b3962b910ae769",
+      "originalUrl": "https://jobs.ashbyhq.com/january/7b1fac0b-9860-441c-bbf7-2cf47b387e00/application",
+      "status": "applied",
+      "at": "2026-09-13",
+      "via": "ashby (cloud driver)",
+      "detail": "Submitted through the persistent Ashby driver; the form cleared without an on-page confirmation, and the \"We have Received Your Application | January\" mail at 09:28Z confirms it landed."
+    },
+    "6a56104d10c4d945d86477fa": {
+      "id": "6a56104d10c4d945d86477fa",
+      "key": "sigma::software engineer - compiler",
+      "company": "Sigma",
+      "title": "Software Engineer - Compiler",
+      "matchPercent": 88,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a56104d10c4d945d86477fa",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app",
+      "status": "applied",
+      "at": "2026-09-13",
+      "via": "greenhouse (cloud batch)",
+      "detail": "DUPLICATE — this is the same Sigma Computing \"Software Engineer - Compiler\" posting already applied to on 2026-09-07 (and declined on 2026-09-12), listed again under a second Jobright id with a different Greenhouse token and the company spelled \"Sigma\". Submitted before the gap was found. Not counted toward the daily goal; dedupe now keys on the for= board name plus a punctuation-flattened title."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

@@ -28,6 +28,11 @@ const queue = JSON.parse(fs.readFileSync(path.join(WORK, "today-queue.json"), "u
 const RESULTS = path.join(WORK, "batch-results.jsonl");
 const log = (obj) => fs.appendFileSync(RESULTS, JSON.stringify(obj) + "\n");
 const say = (s) => console.log(s);
+const normTitle = (t) => String(t).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+const boardKey = (url, title) => {
+  const m = /[?&]for=([^&]+)/.exec(String(url));
+  return m ? `${m[1].toLowerCase()}::${normTitle(title)}` : null;
+};
 
 function runNode(script, args, timeoutMs = 420000) {
   return new Promise((resolve) => {
@@ -85,6 +90,23 @@ for (let i = 0; i < slice.length; i++) {
           for (const v of Object.values(ap.jobs)) { const m = /[?&]token=(\d+)/.exec(v.originalUrl ?? ""); if (m) seen.add(m[1]); }
         } catch {}
         globalThis.__seenTokens = seen;
+        // Greenhouse mints a new token per posting instance and Jobright spells
+        // the same employer several ways ("Sigma" vs "Sigma Computing"), so
+        // neither token nor company name identifies a role. The board name in
+        // `for=` plus a punctuation-flattened title does: that pair is what let
+        // a second application go to Sigma's Compiler role on 2026-09-13, nine
+        // days after the first and a day after they declined it.
+        const boards = new Set();
+        try {
+          const ap2 = JSON.parse(fs.readFileSync(path.join(REPO, "data/agent/applied.json"), "utf8"));
+          for (const v of Object.values(ap2.jobs)) { const k = boardKey(v.originalUrl ?? "", v.title ?? ""); if (k) boards.add(k); }
+        } catch {}
+        globalThis.__seenBoards = boards;
+      }
+      if (globalThis.__seenBoards?.has(boardKey(atsUrl, job.title))) {
+        log({ ...job, atsUrl, status: "park", reason: `duplicate posting: already applied to this role on the ${/[?&]for=([^&]+)/.exec(atsUrl)?.[1]} board under another Jobright id` });
+        say(`DUP-BOARD ${tag}`);
+        continue;
       }
       if (globalThis.__seenTokens.has(tokMatch[1])) {
         log({ ...job, atsUrl, status: "park", reason: `duplicate posting: board token ${tokMatch[1]} already submitted under another Jobright id` });
