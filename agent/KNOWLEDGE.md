@@ -95,8 +95,8 @@ source of truth; regenerate this file when they change materially.
   verifiable personal facts (visa dates, grades, licenses) beyond this file.
 - Never agree to an "I wrote this in my own words" pledge on her behalf —
   leave those for the user.
-- Never apply to Axon, any posting (user directive, 2026-09-13) — record it
-  dropped so dedupe never re-queues it.
+- Never apply to Axon or GRVTY, any posting (user directive, 2026-09-13) —
+  record them dropped so dedupe never re-queues them.
 - Never answer toward defense/clearance eligibility: she cannot hold a US
   security clearance; if a question makes clearance/US-citizenship a
   requirement, flag the job to be dropped instead of answering around it.

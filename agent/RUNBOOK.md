@@ -649,7 +649,7 @@ the dashboard and the next run's dedupe both see them.
   user of a controlled substance. Recorded as `q-criminal-history`. Answer them
   from this list, never by inference, and park any NEW declaration it does not
   cover instead of guessing.
-- **Never apply to Axon**, any posting (user directive). Same handling as the
-  defense/clearance blocklist: record `dropped` so dedupe never re-queues it.
-  Enforced in `agent/local-batch.mjs` via `USER_BLOCK`; cloud sessions building
-  their own queue must apply it too.
+- **Never apply to Axon or GRVTY**, any posting (user directive). Same handling
+  as the defense/clearance blocklist: record `dropped` so dedupe never re-queues
+  them. Enforced in `agent/local-batch.mjs` via `USER_BLOCK`; cloud sessions
+  building their own queue must apply it too.

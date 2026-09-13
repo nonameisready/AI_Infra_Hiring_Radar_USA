@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-13T16:51:08.798Z",
+ "updatedAt": "2026-09-13T17:00:49.137Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -17993,7 +17993,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4c0aa84eb370649b27bfb7",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=grvty&jr_id=6a4c0aa84eb370649b27bfb7&token=4306651009",
    "status": "dropped",
-   "note": "Form states position requires U.S. citizenship — honestly ineligible (PRC citizen). No submission made. 2026-09-08"
+   "note": "2026-09-13: DROPPED — user directive, never apply to GRVTY (any posting). Earlier note: Form states position requires U.S. citizenship — honestly ineligible (PRC citizen). No submission made. 2026-09-08"
   },
   {
    "id": "69f2cf77ecbc8c2f7320dc0d",
@@ -21439,8 +21439,8 @@
    "title": "Senior Software Engineer",
    "matchPercent": 73,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a636b08e8d8d22e32928a48",
-   "status": "park",
-   "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+   "status": "dropped",
+   "note": "2026-09-13: DROPPED — user directive, never apply to GRVTY (any posting). Earlier note: 2026-09-10 batch sweep: park — no ATS url discovered"
   },
   {
    "id": "6aa014cbdbc0e60e37e0b4ee",
@@ -22416,7 +22416,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6aa3dd1e8275e3a21175d951",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=grvty&token=4402196009&jr_id=6aa3dd1e8275e3a21175d951",
    "addedAt": "2026-09-12",
-   "status": "user_personal",
+   "status": "dropped",
    "missing": [
     "Employment Eligibility Information*",
     "Visa Requirement Status*",
@@ -22424,7 +22424,7 @@
     "Authorization and Acknowledgement*"
    ],
    "reason": "Required \"Affirmation\" and \"Authorization and Acknowledgement\" blocks are personal attestations the applicant signs herself; standing rule keeps pledges out of the agent's hands.",
-   "note": "Employment Eligibility / Visa Requirement Status answers are standard: authorized Yes, sponsorship required Yes (cap-exempt H-1B transfer, I-140 approved), current status F-1 CPT/EAD through 05/31/2027.",
+   "note": "2026-09-13: DROPPED — user directive, never apply to GRVTY (any posting). Earlier note: Employment Eligibility / Visa Requirement Status answers are standard: authorized Yes, sponsorship required Yes (cap-exempt H-1B transfer, I-140 approved), current status F-1 CPT/EAD through 05/31/2027.",
    "updatedAt": "2026-09-13"
   },
   {
@@ -24032,7 +24032,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6aa38fa95c11cce360364ccd",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=grvty&token=4402182009&jr_id=6aa38fa95c11cce360364ccd",
    "addedAt": "2026-09-13",
-   "status": "user_personal",
+   "status": "dropped",
    "missing": [
     "Employment Eligibility Information*",
     "Visa Requirement Status*",
@@ -24040,7 +24040,7 @@
     "Authorization and Acknowledgement*"
    ],
    "reason": "Required \"Affirmation\" and \"Authorization and Acknowledgement\" blocks are personal attestations the applicant signs herself; standing rule keeps pledges out of the agent's hands.",
-   "note": "Employment Eligibility / Visa Requirement Status answers are standard: authorized Yes, sponsorship required Yes (cap-exempt H-1B transfer, I-140 approved), current status F-1 CPT/EAD through 05/31/2027.",
+   "note": "2026-09-13: DROPPED — user directive, never apply to GRVTY (any posting). Earlier note: Employment Eligibility / Visa Requirement Status answers are standard: authorized Yes, sponsorship required Yes (cap-exempt H-1B transfer, I-140 approved), current status F-1 CPT/EAD through 05/31/2027.",
    "updatedAt": "2026-09-13"
   },
   {

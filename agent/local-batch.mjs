@@ -129,7 +129,7 @@ const DEFENSE_BLOCK = /palantir|nt ?concepts|anduril|varda|havocai|\bstr\b|l3har
 // User directive 2026-09-06: repeatedly applied and rejected — never apply again.
 const NO_REAPPLY = /\bramp\b|\bmercor\b/i;
 // User directive 2026-09-13: companies she does not want applied to at all.
-const USER_BLOCK = /\baxon\b/i;
+const USER_BLOCK = /\baxon\b|\bgrvty\b/i;
 const queue = [];
 const qKeys = new Set();
 for (const j of matches.jobs) {

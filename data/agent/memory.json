@@ -434,8 +434,8 @@
   },
   {
    "at": "2026-09-13",
-   "topic": "no-apply-axon",
-   "note": "User directive 2026-09-13: never apply to Axon (any posting). Treat like the permanent company blocklist — record as dropped so dedupe never re-queues it."
+   "topic": "no-apply-companies",
+   "note": "User directive 2026-09-13: never apply to Axon or GRVTY (any posting). Treat like the permanent company blocklist — record as dropped so dedupe never re-queues them."
   }
  ]
 }
