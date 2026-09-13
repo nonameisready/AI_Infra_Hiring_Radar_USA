@@ -4945,6 +4945,14 @@
   {
    "label": "^street address|^address( line ?1)?$|home address|mailing address",
    "text": "225 Saint Pauls Ave APT 5P"
+  },
+  {
+   "label": "describe a (hard|difficult|challenging|complex) (technical )?problem|hardest (technical )?problem|most (challenging|difficult) (technical )?(problem|project)|tell us about a (hard|difficult|challenging) (problem|project)",
+   "text": "At Bank of America I owned a real-time transaction-data platform that went through roughly 10x traffic growth, to millions of requests a day. The hard part was not raw throughput but tail latency: p99 was degrading badly under load while the median looked fine, so the dashboards said the system was healthy while real users waited. I profiled the access patterns, found that a small number of hot keys were serialising work across the cluster, and reworked the data layer around horizontal partitioning plus a caching tier sized to those access patterns. That cut p99 latency by about 60% and left the system with headroom for the next growth step. The lesson I carry from it is to instrument for percentiles rather than averages, and to fix the distribution of the load rather than adding capacity to hide it."
+  },
+  {
+   "label": "proudest (technical )?(achievement|accomplishment|project)|project you.?re most proud of|most impactful (project|work)",
+   "text": "At Bank of America I owned a real-time transaction-data platform that went through roughly 10x traffic growth, to millions of requests a day. The hard part was not raw throughput but tail latency: p99 was degrading badly under load while the median looked fine, so the dashboards said the system was healthy while real users waited. I profiled the access patterns, found that a small number of hot keys were serialising work across the cluster, and reworked the data layer around horizontal partitioning plus a caching tier sized to those access patterns. That cut p99 latency by about 60% and left the system with headroom for the next growth step. The lesson I carry from it is to instrument for percentiles rather than averages, and to fix the distribution of the load rather than adding capacity to hide it."
   }
  ],
  "checkboxes": [
