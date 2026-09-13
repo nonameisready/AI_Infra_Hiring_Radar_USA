@@ -3771,6 +3771,14 @@
   {
    "label": "level of expertise .{0,20}(javascript|node)|node\\.?js (expertise|proficiency)",
    "prefer": "intermediate|moderate|working|3"
+  },
+  {
+   "label": "use ai tools? in day.?to.?day|do you use ai (tools|assistants)|use (of )?ai (tools )?in your (daily )?(work|development)|ai tools in your workflow",
+   "prefer": "^yes"
+  },
+  {
+   "label": "need [a-z0-9 .,'&-]{0,30}sponsorship|sponsorship to continue|will you need .{0,30}sponsorship",
+   "prefer": "^yes\\b"
   }
  ],
  "texts": [
