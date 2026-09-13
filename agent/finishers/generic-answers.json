@@ -1,6 +1,10 @@
 {
  "combos": [
   {
+   "label": "which best describes your primary backend|primary backend (experience|language)|main backend language",
+   "prefer": "^python|\\bpython\\b"
+  },
+  {
    "label": "(years|experience)[^?]{0,80}\\b(java|spring boot|spring framework|c#|\\.net|ruby|rails|scala|rust|c\\+\\+|php|golang)\\b",
    "prefer": "less than (a |one |1 )?year|less than 1|^0\\b|^none|no experience|not applicable|n/?a\\b"
   },
@@ -372,7 +376,7 @@
   },
   {
    "label": "province/state",
-   "prefer": "New Jersey"
+   "prefer": "New Jersey|^nj$"
   },
   {
    "label": "paired coding exercise in python|coding exercise .*python",
@@ -489,7 +493,7 @@
   },
   {
    "label": "which u\\.?s\\.? state or canadian province do you reside",
-   "prefer": "new jersey",
+   "prefer": "new jersey|^nj$",
    "type": "New Jersey"
   },
   {
@@ -739,7 +743,7 @@
   },
   {
    "label": "^state\\b",
-   "prefer": "new jersey",
+   "prefer": "new jersey|^nj$",
    "type": "New Jersey"
   },
   {
@@ -756,7 +760,7 @@
   },
   {
    "label": "which u\\.?s\\.? state|state (or|/) (canadian )?province|state.*do you (reside|live)",
-   "prefer": "new jersey",
+   "prefer": "new jersey|^nj$",
    "type": "New Jersey"
   },
   {
@@ -1268,7 +1272,7 @@
   },
   {
    "label": "name of your current home state",
-   "prefer": "new jersey"
+   "prefer": "new jersey|^nj$"
   },
   {
    "label": "which best describes your backend engineering experience",
@@ -1352,7 +1356,7 @@
   },
   {
    "label": "what us state do you currently reside",
-   "prefer": "new jersey"
+   "prefer": "new jersey|^nj$"
   },
   {
    "label": "how soon after an offer are you available",
@@ -1384,7 +1388,7 @@
   },
   {
    "label": "what state will you be working|state will you be working\\/residing",
-   "prefer": "new jersey|new york"
+   "prefer": "new jersey|new york|^nj$"
   },
   {
    "label": "comfortable working within our time zone",
@@ -1679,7 +1683,7 @@
   },
   {
    "label": "What US State do you currently reside in",
-   "prefer": "New Jersey"
+   "prefer": "New Jersey|^nj$"
   },
   {
    "label": "How soon after an offer are you available to start",
@@ -1813,7 +1817,7 @@
   },
   {
    "label": "Do you live in any of the following states",
-   "prefer": "New Jersey"
+   "prefer": "New Jersey|^nj$"
   },
   {
    "label": "open to working 4 days onsite",
@@ -1858,7 +1862,7 @@
   },
   {
    "label": "What state do you currently live in",
-   "prefer": "New Jersey"
+   "prefer": "New Jersey|^nj$"
   },
   {
    "label": "Work Status",
@@ -2153,7 +2157,7 @@
   },
   {
    "label": "The state I reside in is",
-   "prefer": "New Jersey"
+   "prefer": "New Jersey|^nj$"
   },
   {
    "label": "I understand that this position will require a final round interview",
@@ -2566,7 +2570,7 @@
   },
   {
    "label": "Do you live in any of the following states",
-   "prefer": ".*New Jersey.*|.*New York.*",
+   "prefer": ".*New Jersey.*|.*New York.*|^nj$",
    "type": "New Jersey"
   },
   {
@@ -2689,7 +2693,7 @@
   },
   {
    "label": "The state I reside in",
-   "prefer": "New Jersey"
+   "prefer": "New Jersey|^nj$"
   },
   {
    "label": "work authorization",
@@ -2948,7 +2952,7 @@
   },
   {
    "label": "What state do you currently live in",
-   "prefer": "New Jersey",
+   "prefer": "New Jersey|^nj$",
    "type": "None"
   },
   {
@@ -3590,12 +3594,12 @@
   },
   {
    "label": "what (us )?state (do you|will you|are you)",
-   "prefer": "New Jersey",
+   "prefer": "New Jersey|^nj$",
    "type": "New Jersey"
   },
   {
    "label": "state (of residence|you reside|will you be working)",
-   "prefer": "New Jersey",
+   "prefer": "New Jersey|^nj$",
    "type": "New Jersey"
   },
   {
@@ -3662,7 +3666,7 @@
   },
   {
    "label": "please select your state",
-   "prefer": "new jersey"
+   "prefer": "new jersey|^nj$"
   },
   {
    "label": "opt.?in to receive text messages",
@@ -3690,7 +3694,7 @@
   },
   {
    "label": "do you live in any of the following states",
-   "prefer": "new jersey|no\\b"
+   "prefer": "new jersey|no\\b|^nj$"
   },
   {
    "label": "which (office|location) (are you|would you)",
@@ -3758,12 +3762,12 @@
   },
   {
    "label": "what (us |u\\.s\\. )?state (do|are) you|state (do|are) you (currently )?(reside|residing|live|living|based)|state of residence",
-   "prefer": "new jersey",
+   "prefer": "new jersey|^nj$",
    "type": "New Jersey"
   },
   {
    "label": "what state will you be (working|residing|located|based)|state will you (be )?work|state you will (be )?(work|resid)",
-   "prefer": "new jersey",
+   "prefer": "new jersey|^nj$",
    "type": "New Jersey"
   },
   {
