@@ -146,7 +146,13 @@ for (let i = 0; i < slice.length; i++) {
         log({ ...job, atsUrl, status: "needs_answers", missing: rj.missingRequired, unmatched });
         say(`NEEDS-ANSWERS ${tag}: ${JSON.stringify(rj.missingRequired).slice(0, 160)}`);
       } else {
-        log({ ...job, atsUrl, status: "park", reason: `unconfirmed submit: ${snippet.slice(0, 120)}` });
+        // Carry the finisher's own error and final URL into the reason: a bare
+        // "unconfirmed submit:" with an empty snippet told us nothing about the
+        // four applications lost on 2026-09-13, and an exception inside the
+        // finisher looks identical to a missing confirmation without it.
+        const why = [rj.error && `error: ${rj.error}`, rj.finalUrl && `url: ${rj.finalUrl}`, snippet.slice(0, 120)]
+          .filter(Boolean).join(" | ") || "no confirmation, no page text, no error";
+        log({ ...job, atsUrl, status: "park", reason: `unconfirmed submit: ${why}`, codeEntered: rj.codeEntered ?? false, codeTimeout: rj.codeTimeout ?? false });
         say(`UNCONFIRMED ${tag}`);
       }
     } else if (/ashbyhq\.com$/.test(host)) {
