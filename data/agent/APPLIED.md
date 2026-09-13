@@ -870,6 +870,31 @@ resolve exactly as KNOWLEDGE.md specifies.
 
 ### Needs the user personally
 
-Polymarket (85%), Merge (88%), Bestow (87%) — Ashby, double-flagged from the
-datacenter IP, answers already worked out. Wynd Labs (88%) still open from
-2026-09-12. Axon and GRVTY ×2 need her own declarations. Emailed.
+Polymarket (85%) — Ashby, double-flagged from the datacenter IP, answers already
+worked out. Wynd Labs (88%) still open from 2026-09-12. Axon and GRVTY ×2 need
+her own declarations. Zerion (87%) needs her decision on European working hours.
+Emailed.
+
+### The user acted on the email the same afternoon — 5 more booked
+
+Merge (88%) and Bestow (87%) both came back with Ashby confirmations within ten
+minutes of the email going out, and she submitted four others herself. Booked as
+`manual_done`, dated today, each matched to its posting by the exact role named in
+the confirmation:
+
+| Company | Title | Confirmed |
+| ------- | ----- | --------- |
+| Merge | Senior Software Engineer | 16:49Z |
+| Bestow | Senior Backend Engineer II - IPC | 16:53Z |
+| Crusoe | Senior Backend Software Engineer - Core Backend, Cloud Customer Experience | 17:10Z |
+| WRITER | Software engineer, connectors & MCP | 17:11Z |
+| Candid Health | Software Engineer (Senior) | 17:14Z |
+
+Two more of her confirmations are deliberately **not** booked. **Doppel**'s
+acknowledgement names no role and three Doppel postings are open in pending —
+guessing which would put a wrong title in the registry and break dedupe.
+**Deepgram**'s names "Software Engineer - Deepgram for Restaurants", which is not
+the Deepgram role we are tracking. Both need one word from her.
+
+**Day total: 23 confirmed** (8 Mac, 10 cloud, 5 hers), all-time 613. The Sigma
+duplicate is excluded.

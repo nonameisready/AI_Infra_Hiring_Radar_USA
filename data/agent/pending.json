@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T16:42:38.035Z",
+  "updatedAt": "2026-09-13T17:52:33.600Z",
   "items": [
     {
       "id": "6a8384dc2dbaf907b07695d1",
@@ -3391,20 +3391,6 @@
       "note": "Round-2 repass with firm-sponsorship + location combos; code DCYZEawm fed. OK."
     },
     {
-      "id": "6a98937bdd171c7285793123",
-      "key": "bestow::senior backend engineer ii - ipc",
-      "title": "Senior Backend Engineer II - IPC",
-      "company": "Bestow",
-      "matchPercent": 87,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a98937bdd171c7285793123",
-      "atsUrl": "https://jobs.ashbyhq.com/bestow/58394129-0a2d-45da-a3d4-01e657f7e2c2/application?utm_source=jobright&jr_id=6a98937bdd171c7285793123",
-      "addedAt": "2026-09-03",
-      "status": "user_manual",
-      "reason": "2026-09-13 cloud: Ashby's spam filter rejected two submissions from this container's IP. The form is fully worked out — about two minutes from a residential browser.",
-      "note": "We are open to US Remote Employees in the contiguous 48 state region. Do you res",
-      "updatedAt": "2026-09-13"
-    },
-    {
       "id": "6a9888a4dd171c7285792bec",
       "key": "carnegie mellon university::software engineer",
       "title": "Software Engineer",
@@ -3936,18 +3922,6 @@
       "addedAt": "2026-09-03",
       "status": "parked",
       "note": "platform not automated from cloud: jpmc.fa.oraclecloud.com"
-    },
-    {
-      "id": "6a95bf1bf28891320e85d998",
-      "key": "crusoe::senior backend software engineer - core backend, cloud customer experience",
-      "title": "Senior Backend Software Engineer - Core Backend, Cloud Customer Experience",
-      "company": "Crusoe",
-      "matchPercent": 84,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a95bf1bf28891320e85d998",
-      "atsUrl": "https://jobs.ashbyhq.com/crusoe/21ff8438-535e-4846-ac5b-fec56acffe48/application?utm_source=jobright&jr_id=6a95bf1bf28891320e85d998",
-      "addedAt": "2026-09-03",
-      "status": "user_manual",
-      "note": "2026-09-10: Ashby spam-flagged 2x on submit — park. Ready answers: sponsorship Yes; worked-for-Crusoe No; SMS consent Yes; EEO gender decline/race Asian/veteran not-protected; phone/LinkedIn/GitHub."
     },
     {
       "id": "6a365f9a1232144fb1565ac3",
@@ -6307,18 +6281,6 @@
       "addedAt": "2026-09-03",
       "status": "needs_answers",
       "note": "missing: [\"Will you be serving as enlisted personnel in either the Reserves or th\",\"Were you an employee of the U.S. Government (including U.S. Congr"
-    },
-    {
-      "id": "6a0e6df047fea1610bcaa2e5",
-      "key": "candid health::software engineer (senior)",
-      "title": "Software Engineer (Senior)",
-      "company": "Candid Health",
-      "matchPercent": 79,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a0e6df047fea1610bcaa2e5",
-      "atsUrl": "https://jobs.ashbyhq.com/candidhealth/51dcc6d0-af86-4fe8-bd68-a18b924e47f6/application?utm_source=jobright&jr_id=6a0e6df047fea1610bcaa2e5",
-      "addedAt": "2026-09-03",
-      "status": "user_manual",
-      "note": "2026-09-10: Ashby spam-flagged 2x on submit (Trunk Tools/BJAK precedent) — do not retry from agent. All fields were filled: LinkedIn, authorized Yes, visa transfer/sponsorship Yes, pronouns She/Her. User can submit by hand in minutes."
     },
     {
       "id": "6a12ea35619335383fb3b8d1",
@@ -19537,16 +19499,6 @@
       "note": "Batch park: platform not automated from cloud: ats.rippling.com — 2026-09-09 cloud chunk"
     },
     {
-      "id": "6aa06d37ea127c3794697097",
-      "company": "WRITER",
-      "title": "Software engineer, connectors & MCP",
-      "matchPercent": 84,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6aa06d37ea127c3794697097",
-      "originalUrl": "https://jobs.ashbyhq.com/writer/4481d8e1-4d86-4173-9cd0-9203c81365db/application?jr_id=6aa06d37ea127c3794697097",
-      "status": "user_manual",
-      "note": "2026-09-10: Ashby spam-flagged 2x on submit — park. Ready answers: in-office NYC 3d/wk Yes; 18+ Yes; authorized Yes; sponsorship Yes; located within 50mi: New York (Manhattan); Python 7+ years; EEO gender decline/race Asian/veteran not-protected; why-WRITER essay (MCP/connectors + vLLM/SgLang/RAG background) and cultural-values essay (BofA pipeline ownership story, no invented metrics) both drafted in agent notes; phone/LinkedIn/GitHub."
-    },
-    {
       "id": "6a8344813eeac101cfa9ea9b",
       "company": "Whisker",
       "title": "Senior Software Engineer",
@@ -23815,20 +23767,6 @@
       "addedAt": "2026-09-13",
       "status": "parked",
       "note": "platform not automated from cloud: nvidia.wd5.myworkdayjobs.com"
-    },
-    {
-      "id": "6a51bb81bf63b66c7997bb01",
-      "key": "merge::senior software engineer",
-      "title": "Senior Software Engineer",
-      "company": "Merge",
-      "matchPercent": 88,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a51bb81bf63b66c7997bb01",
-      "atsUrl": "https://jobs.ashbyhq.com/merge/c923ede7-3320-4b81-ada9-b772c9b4a4b9/application?jr_id=6a51bb81bf63b66c7997bb01",
-      "addedAt": "2026-09-13",
-      "status": "user_manual",
-      "reason": "2026-09-13 cloud: Ashby's spam filter rejected two submissions from this container's IP. The form is fully worked out — about two minutes from a residential browser.",
-      "note": "[radio] What is your current age?",
-      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a84a42be459fa3baa85fad0",

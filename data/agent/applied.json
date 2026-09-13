@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T16:42:37.934Z",
+  "updatedAt": "2026-09-13T17:52:33.600Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -7692,6 +7692,71 @@
       "at": "2026-09-13",
       "via": "greenhouse (cloud batch)",
       "detail": "Submitted from the cloud container; security code entered and confirmation page rendered."
+    },
+    "6a51bb81bf63b66c7997bb01": {
+      "id": "6a51bb81bf63b66c7997bb01",
+      "key": "merge::senior software engineer",
+      "company": "Merge",
+      "title": "Senior Software Engineer",
+      "matchPercent": 88,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a51bb81bf63b66c7997bb01",
+      "originalUrl": "https://jobs.ashbyhq.com/merge/c923ede7-3320-4b81-ada9-b772c9b4a4b9/application",
+      "status": "manual_done",
+      "at": "2026-09-13",
+      "via": "manual",
+      "detail": "User submitted from her own browser after the 2026-09-13 email; the datacenter IP had double-flagged it as spam. Ashby confirmation 16:49Z."
+    },
+    "6a98937bdd171c7285793123": {
+      "id": "6a98937bdd171c7285793123",
+      "key": "bestow::senior backend engineer ii - ipc",
+      "company": "Bestow",
+      "title": "Senior Backend Engineer II - IPC",
+      "matchPercent": 87,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a98937bdd171c7285793123",
+      "originalUrl": "https://jobs.ashbyhq.com/bestow/58394129-0a2d-45da-a3d4-01e657f7e2c2/application",
+      "status": "manual_done",
+      "at": "2026-09-13",
+      "via": "manual",
+      "detail": "User submitted from her own browser after the 2026-09-13 email; the datacenter IP had double-flagged it as spam. Ashby confirmation 16:53Z (\"Sr Software Engineer II (IPC Team)\")."
+    },
+    "6a0e6df047fea1610bcaa2e5": {
+      "id": "6a0e6df047fea1610bcaa2e5",
+      "key": "candid health::software engineer (senior)",
+      "company": "Candid Health",
+      "title": "Software Engineer (Senior)",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a0e6df047fea1610bcaa2e5",
+      "originalUrl": "https://jobs.ashbyhq.com/candidhealth/51dcc6d0-af86-4fe8-bd68-a18b924e47f6/application",
+      "status": "manual_done",
+      "at": "2026-09-13",
+      "via": "manual",
+      "detail": "User submitted herself. Ashby confirmation 17:14Z naming \"Software Engineer (Senior)\"."
+    },
+    "6aa06d37ea127c3794697097": {
+      "id": "6aa06d37ea127c3794697097",
+      "key": "writer::software engineer, connectors & mcp",
+      "company": "WRITER",
+      "title": "Software engineer, connectors & MCP",
+      "matchPercent": 84,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa06d37ea127c3794697097",
+      "originalUrl": "https://jobs.ashbyhq.com/writer/4481d8e1-4d86-4173-9cd0-9203c81365db/application",
+      "status": "manual_done",
+      "at": "2026-09-13",
+      "via": "manual",
+      "detail": "User submitted herself. WRITER confirmation 17:11Z naming \"Software engineer, connectors & MCP\"."
+    },
+    "6a95bf1bf28891320e85d998": {
+      "id": "6a95bf1bf28891320e85d998",
+      "key": "crusoe::senior backend software engineer - core backend, cloud customer experience",
+      "company": "Crusoe",
+      "title": "Senior Backend Software Engineer - Core Backend, Cloud Customer Experience",
+      "matchPercent": 84,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a95bf1bf28891320e85d998",
+      "originalUrl": "https://jobs.ashbyhq.com/crusoe/21ff8438-535e-4846-ac5b-fec56acffe48/application",
+      "status": "manual_done",
+      "at": "2026-09-13",
+      "via": "manual",
+      "detail": "User submitted herself. Ashby confirmation 17:10Z naming \"Senior Backend Software Engineer - Core Backend, Cloud Customer Experience\"."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
