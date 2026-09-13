@@ -3825,6 +3825,18 @@
   {
    "label": "level of travel|comfortable with travel|willing to travel|travel requirement",
    "prefer": "as needed|up to 50|50%|up to 25|25%|occasional|some travel|^yes"
+  },
+  {
+   "label": "acknowledge that all information regarding the company|information .*(is|shall be) (treated as )?confidential|confidentiality acknowledg",
+   "prefer": "^yes|acknowledge|agree|i understand|i acknowledge"
+  },
+  {
+   "label": "consent to receive text|sms communications|text message updates",
+   "prefer": "^no\\b|decline|opt out"
+  },
+  {
+   "label": "integrations between multiple systems|saas platforms \\(e\\.?g|hris, ?crm",
+   "prefer": "limited experience|^yes.*limited|^yes\\b"
   }
  ],
  "texts": [
