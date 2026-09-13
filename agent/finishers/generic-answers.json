@@ -1,6 +1,14 @@
 {
  "combos": [
   {
+   "label": "currently authorized to work in the country outlined|authorized to work in the country outlined for this job",
+   "prefer": "requires? a renewal or sponsorship|renewal or sponsorship|requires sponsorship"
+  },
+  {
+   "label": "(legal authorization|legally authorized|authorization) to work in (your|the) country of residence",
+   "prefer": "^yes\\b"
+  },
+  {
    "label": "permanent (work )?authorization|permanently authorized to work|unrestricted (work )?authorization",
    "prefer": "^no\\b"
   },
@@ -3782,6 +3790,10 @@
   }
  ],
  "texts": [
+  {
+   "label": "country of legal residence|what is your country of residence",
+   "text": "United States"
+  },
   {
    "label": "linkedin",
    "text": "https://www.linkedin.com/in/belindamao"
