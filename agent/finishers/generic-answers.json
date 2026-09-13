@@ -39,7 +39,7 @@
   },
   {
    "label": "live outside (of )?the (us|u\\.s\\.|united states)|resid(e|ing) outside (of )?the (us|u\\.s\\.|united states)|located outside (of )?the (us|u\\.s\\.|united states)|based outside (of )?the (us|u\\.s\\.|united states)",
-   "prefer": "^no\\b"
+   "prefer": "^no\\b|\\binside\\b|live inside|within (one of )?the 48|based in the (us|united states)"
   },
   {
    "label": "currently authorized to work in the country outlined|authorized to work in the country outlined for this job",
