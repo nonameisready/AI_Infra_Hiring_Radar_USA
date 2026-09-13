@@ -198,4 +198,8 @@ spawnSync("node", [path.join(TOOLS, "gen-ashby2.mjs"), JSON.stringify(plan)], { 
 const resLine = await waitFor(RESULT_RE, wasResult, 180_000);
 if (!resLine) { console.log(JSON.stringify({ ok: false, stage: "submit", reason: "driver did not return a submit result", plan })); process.exit(1); }
 const res = JSON.parse(resLine);
-console.log(JSON.stringify({ ok: !!res.success, url, spam: !!res.spam, errs: res.errs ?? [], plan }, null, 1));
+// formGone with no spam flag and no field errors means the form submitted but
+// the success probe never saw a confirmation — ambiguous, so it is reported as
+// such and the caller must verify by email rather than re-apply blind.
+const ambiguous = !res.success && !res.spam && res.formGone && !(res.errs ?? []).length;
+console.log(JSON.stringify({ ok: !!res.success, url, spam: !!res.spam, formGone: !!res.formGone, ambiguous, errs: res.errs ?? [], plan }, null, 1));
