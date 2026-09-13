@@ -1,6 +1,10 @@
 {
  "combos": [
   {
+   "label": "are you one of the following:?\\s*•?\\s*u\\.?s\\.? citizen|u\\.?s\\.? citizen or national|citizen or national.{0,60}lawful permanent resident|export control.{0,80}(citizen|person)",
+   "prefer": "^no\\b|none of (the above|these)|^i am not"
+  },
+  {
    "label": "are you related to,? or are you in a close personal relationship|related to .{0,30}or .{0,20}close personal relationship|close personal relationship with (any|an) (current )?(employee|associate)",
    "prefer": "^no\\b"
   },
@@ -3898,6 +3902,10 @@
   }
  ],
  "texts": [
+  {
+   "label": "u\\.?s\\.? export control laws|export administration regulations|\\bitar\\b",
+   "text": "No — I am not a U.S. citizen, national, lawful permanent resident, refugee or asylee. I am a citizen of the People's Republic of China, currently authorized to work in the U.S. on F-1 (CPT/EAD)."
+  },
   {
    "label": "need .{0,25}sponsorship to continue to extend|sponsorship to (continue to )?extend your current work authorization",
    "text": "Yes. My current authorization is F-1 (CPT/EAD) valid through 05/31/2027, and I will need sponsorship — specifically a cap-exempt H-1B transfer, since my H-1B was previously approved and activated and my employment-based I-140 is approved, so no lottery is required."
