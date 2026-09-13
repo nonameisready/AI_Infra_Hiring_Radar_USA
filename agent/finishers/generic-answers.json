@@ -3849,6 +3849,11 @@
   {
    "label": "preferred work location|preferred (office )?location",
    "prefer": "new york|nyc|remote"
+  },
+  {
+   "label": "what (us |u\\.s\\. )?state (do|are) you|state (do|are) you (currently )?(reside|residing|live|living|based)|state of residence",
+   "prefer": "new jersey",
+   "type": "New Jersey"
   }
  ],
  "texts": [
