@@ -3832,6 +3832,10 @@
  ],
  "texts": [
   {
+   "label": "how soon after an offer|how soon (can|could|would) you (be able to )?start|earliest (possible )?start date|when (can|could) you start",
+   "text": "Immediately — I am not currently employed and can start within two weeks of an offer."
+  },
+  {
    "label": "describe a (recent )?project where you used ai|ai-?assisted development|how (do|have) you use(d)? ai (tools )?(in|for) (your )?(development|work|engineering)|experience (with|using) ai(-| )?(assisted|coding) tools",
    "text": "AI-assisted development is a core part of how I work rather than an occasional aid. On a recent backend project I used an AI coding assistant across the whole loop: sketching the design and having it argue the trade-offs back at me, generating the first pass of service and test scaffolding, and — where it earns its keep most — reviewing my own diffs for the edge cases I had stopped seeing after hours in the same file. I treat its output as a fast draft from a capable colleague, not as an authority: every suggestion gets read, run against tests, and rejected when it is wrong, which it regularly is about domain specifics it cannot know. The practical effect is that the mechanical part of the work compresses and I spend my time on the parts that actually decide whether a system holds up — data modelling, failure modes, and latency behaviour under real load."
   },
