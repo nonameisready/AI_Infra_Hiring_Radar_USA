@@ -1,6 +1,26 @@
 {
  "combos": [
   {
+   "label": "ai transcription software|transcribe and summari[sz]e|record (and|&) transcribe",
+   "prefer": "^yes"
+  },
+  {
+   "label": "^accept$|^accept ?\\*$|^i accept$",
+   "prefer": "^accept|^yes|^i agree|^agree"
+  },
+  {
+   "label": "open to relocating to .{0,40}(work|&) from (the )?office|relocating to .{0,30} (and|&) work",
+   "prefer": "^yes"
+  },
+  {
+   "label": "have you mentored (junior|mid)|mentored .{0,25}engineers|led technical projects",
+   "prefer": "^yes"
+  },
+  {
+   "label": "use ai tools? in day.?to.?day|how often do you use ai",
+   "prefer": "use daily|^daily|every ?day|^yes"
+  },
+  {
    "label": "country of (legal )?residence|in which country do you (currently )?(live|reside)",
    "prefer": "^united states|^usa$|^u\\.?s\\.?a?\\.?$",
    "type": "United States"
@@ -3866,6 +3886,10 @@
   }
  ],
  "texts": [
+  {
+   "label": "need .{0,25}sponsorship to continue to extend|sponsorship to (continue to )?extend your current work authorization",
+   "text": "Yes. My current authorization is F-1 (CPT/EAD) valid through 05/31/2027, and I will need sponsorship — specifically a cap-exempt H-1B transfer, since my H-1B was previously approved and activated and my employment-based I-140 is approved, so no lottery is required."
+  },
   {
    "label": "how soon after an offer|how soon (can|could|would) you (be able to )?start|earliest (possible )?start date|when (can|could) you start",
    "text": "Immediately — I am not currently employed and can start within two weeks of an offer."
