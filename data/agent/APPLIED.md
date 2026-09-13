@@ -873,3 +873,27 @@ resolve exactly as KNOWLEDGE.md specifies.
 Polymarket (85%), Merge (88%), Bestow (87%) — Ashby, double-flagged from the
 datacenter IP, answers already worked out. Wynd Labs (88%) still open from
 2026-09-12. Axon and GRVTY ×2 need her own declarations. Emailed.
+
+## 2026-09-13 — 64 manual (user cleared the whole email list), all-time 672
+
+The user reported on 2026-09-13 that she had worked through every job in the
+manual-action emails of 2026-09-12 and 2026-09-13. All 64 remaining
+`user_manual` / `user_personal` items are booked as `manual_done` (via `manual`)
+and removed from pending, so the company-level dedupe keeps them out of every
+future queue — no re-applying.
+
+Each entry keeps, in its `detail`, the reason the agent could not finish it —
+Ashby spam flags, captcha and human-verification gates, personal declarations
+and policy pledges, account/OAuth-gated sites. That is the record of what was
+declined and why, not just that it got done.
+
+By group, as emailed: 16 Ashby spam-flagged, 23 captcha/human-verification,
+14 personal declarations or policy decisions, 24 account-gated, 8 other — minus
+the 21 that the Canonical/JPMorgan-Chase/Bank of America cooldown and the
+Amazon/Capital One/SAS/Cisco/HP never-apply directives removed from the list
+before she got to them.
+
+Three companies contributed more than one role (Apple 3, Doppel 3, Charles
+Schwab 2); those were separate postings she submitted separately, not duplicates.
+
+Manual-action queue after this: 0.
