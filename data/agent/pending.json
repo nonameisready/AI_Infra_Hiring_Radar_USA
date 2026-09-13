@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T14:21:59.472Z",
+  "updatedAt": "2026-09-13T16:42:38.035Z",
   "items": [
     {
       "id": "6a8384dc2dbaf907b07695d1",
@@ -1075,32 +1075,6 @@
       "note": "capitalone.wd12 account exists with a different password (or locked) — reset it yourself, then tell the agent the standard ATS password works"
     },
     {
-      "id": "6a864512d34f700f87fc1428",
-      "key": "eleventh hour games::senior backend engineer",
-      "title": "Senior Backend Engineer",
-      "company": "Eleventh Hour Games",
-      "matchPercent": 83,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a864512d34f700f87fc1428",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=eleventhhourgames&jr_id=6a864512d34f700f87fc1428&token=8731928002",
-      "addedAt": "2026-08-31",
-      "status": "needs_answers",
-      "missing": [
-        "Are you able to be fully available during Eleventh Hours Games' core h",
-        "Do you currently have a remote work setup capable of fulfilling the ne",
-        "Do you have experience working in a fully remote studio environment?*",
-        "Describe a hard problem you solved. Why was it difficult? How did you ",
-        "What tip, trick, or technique did you recently learn that helps you be",
-        "You are reviewing someone’s code, what do you look for?*",
-        "What shipped title(s) do you have credit on as a Backend Engineer?*",
-        "What is your experience with C# and/or Unity?*",
-        "What is your experience with C++ and/or UE?*",
-        "What else should we know when screening your application?*",
-        "Now a fun one! What game have you put the highest amount of playtime h"
-      ],
-      "updatedAt": "2026-09-12",
-      "note": "2026-09-12 cloud batch: form filled, held on [\"Describe a hard problem you solved. Why was it difficult? How did you \"]. Not guessed."
-    },
-    {
       "id": "6a952290c12c90443efce3d6",
       "key": "base-2 solutions::software engineer",
       "title": "Software Engineer",
@@ -1661,8 +1635,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/68c8b662f9c6ff7aedf11c7a",
       "atsUrl": "https://jobs.lever.co/includedhealth/6834927b-8527-4c2c-bc15-855a56f68765/apply?utm_source=jobright&jr_id=68c8b662f9c6ff7aedf11c7a",
       "addedAt": "2026-09-01",
-      "status": "parked",
-      "note": "resolved to jobs.lever.co — assess next wave. lever unconfirmed: Bad gateway Error code 502 Visit cloudfla"
+      "status": "needs_answers",
+      "note": "[]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a907dbaa19886486676165c",
@@ -3014,7 +2990,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a976af2e4e60e4b8da5df4a",
       "atsUrl": "https://jobs.ashbyhq.com/tabs/fabadd5c-4b15-4da3-9d58-c022261a27db/application?utm_source=jobright&jr_id=6a976af2e4e60e4b8da5df4a",
       "addedAt": "2026-09-02",
-      "status": "local replay"
+      "status": "needs_answers",
+      "reason": "2026-09-13 cloud: form asks something no standing rule covers.",
+      "note": "[radio] If you answered \"Yes\" to the previous question, please indicate the type of employment vis",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a8b06a5d34f700f87fcd679",
@@ -3420,7 +3399,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a98937bdd171c7285793123",
       "atsUrl": "https://jobs.ashbyhq.com/bestow/58394129-0a2d-45da-a3d4-01e657f7e2c2/application?utm_source=jobright&jr_id=6a98937bdd171c7285793123",
       "addedAt": "2026-09-03",
-      "status": "local replay"
+      "status": "user_manual",
+      "reason": "2026-09-13 cloud: Ashby's spam filter rejected two submissions from this container's IP. The form is fully worked out — about two minutes from a residential browser.",
+      "note": "We are open to US Remote Employees in the contiguous 48 state region. Do you res",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a9888a4dd171c7285792bec",
@@ -3455,7 +3437,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a542bcfd007ee02d95fde3c",
       "atsUrl": "https://jobs.ashbyhq.com/happyrobot.ai/224e1cd5-4299-483d-a6d6-70e34130ad94/application?utm_source=jobright&jr_id=6a542bcfd007ee02d95fde3c",
       "addedAt": "2026-09-03",
-      "status": "local replay"
+      "status": "needs_answers",
+      "reason": "2026-09-13 cloud: form asks something no standing rule covers.",
+      "note": "[radio] Are you able to work in one of our offices?",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a988fb811f73b6462c8f5f7",
@@ -3707,12 +3692,14 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a85e5a6e459fa3baa864921",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=amplitude&jr_id=6a85e5a6e459fa3baa864921&token=8730197002&utm_source=jobright",
       "addedAt": "2026-09-03",
-      "status": "local replay",
+      "status": "parked",
       "missing": [
         "Security code",
         "A verification code was sent to huiluckylucky@gmail.com. To submit you"
       ],
-      "note": "Amplitude: form auto-requests security code in a nonstandard widget; gh-finish never reaches WAITING_FOR_CODE. Run headed on Mac."
+      "note": "Amplitude: form auto-requests security code in a nonstandard widget; gh-finish never reaches WAITING_FOR_CODE. Run headed on Mac.",
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a6142eaab9bd4676324a506",
@@ -3771,7 +3758,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a9717b2b22f636c81415c94",
       "atsUrl": "https://jobs.ashbyhq.com/zip/f003bb4d-8453-44bd-8ae0-2c1ad244a26e/application?utm_source=jobright&jr_id=6a9717b2b22f636c81415c94",
       "addedAt": "2026-09-03",
-      "status": "local replay"
+      "status": "needs_answers",
+      "reason": "2026-09-13 cloud: form asks something no standing rule covers.",
+      "note": "[radio] What is your current education status?",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a3b1f4cdbedbf5680c72d94",
@@ -3829,13 +3819,15 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a98a01edef18223c8550860",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=syndio&jr_id=6a98a01edef18223c8550860&token=6178939004&utm_source=jobright",
       "addedAt": "2026-09-03",
-      "status": "local replay",
+      "status": "needs_answers",
       "missing": [
         "Which best describes your backend engineering experience?*",
         "Describe one production system you personally designed or scaled. What",
         "Will you now or in the future require visa support to remain legally e"
       ],
-      "note": "Syndio: backend-experience select + visa-support control not matched after 2 rounds (combos exist). Run headed on Mac."
+      "note": "[{\"question\":\"Will you now or in the future require visa support to remain legally employed by Syndio in the US or Canada?*\",\"options\":[\"Authorized now, won't need sponsorship — citizen / permanent resident\",\"Authorized now, but will need sponsorship in the future — e.g., visa transfer, H-1B, TN renewal\",\"Would need visa sponsorship now\",\"Not authorized to work in the US or Canada\"]},{\"question\":\"Which best describes your backend engineering experience?*\",\"options\":[\"Designed or owned distributed production systems where scale/throughput/reliability were core concerns\",\"Built and operated production services, but large-scale/distributed architecture wasn't my focus\",\"Contributed to production services but haven't owned them end-to-end\",\"Mostly prototypes, coursework, or bootcamp projects\"]},{\"question\":\"Which best describes your backend engineering experience?*\",\"options\":[\"Designed or owned distributed production systems where scale/throughput/reliability were core concerns\",\"Built and operated production services, but large-scale/distributed architecture wasn't my focus\",\"Contributed to production services but haven't owned them end-to-end\",\"Mostly prototypes, coursework, or bootcamp projects\"]},{\"question\":\"Will you now or in the future require visa support to remain legally employed by Syndio in the US or Canada?*\",\"options\":[\"Authorized now, won't need sponsorship — citizen / permanent resident\",\"Authorized now, but will need sponsorship in the future — e.g., visa transfer, H-1B, TN renewal\",\"Would need visa sponsorship now\",\"Not authorized to work in the US or Canada\"]},{\"question\":\"Which best describes your backend engineering experience?*\",\"options\":[\"Designed or owned distributed production systems where scale/throughput/reliability were core concerns\",\"Built and operated production services, but large-scale/distributed architecture wasn't my focus\",\"Contributed to production services but haven't owned them end-to-end\",\"Mostly prototypes, coursework, or bootcamp projects\"]},{\"question\":\"Will you now or in the future require visa support to remain legally employed by Syndio in the US or Canada?*\",\"options\":[\"Authorized now, won't need sponsorship — citizen / permanent resident\",\"Authorized now, but will need sponsorship in the future — e.g., visa transfer, H-1B, TN renewal\",\"Would need visa sponsorship now\",\"Not authorized to work in the US or Canada\"]},{\"question\":\"How many years of professional experience do you have building and operating backend systems in production?*\",\"options\":[\"0-2 years\",\"3-4 years\",\"5-6 years\",\"7+ years\"]},{\"question\":\"Which best describes your backend engineering experience?*\",\"options\":[\"Designed or owned distributed production systems where scale/throughput/reliability were core concerns\",\"Built and operated production services, but large-scale/distributed architecture wasn't my focus\",\"Contributed to production services but haven't owned them end-to-end\",\"Mostly prototypes, coursework, or bootcamp projects\"]},{\"question\":\"Which best describes your backend engineering experience?*\",\"options\":[\"Designed or owned distributed production systems where scale/throughput/reliability were core concerns\",\"Built and operated production services, but large-scale/distributed architecture wasn't my focus\",\"Contributed to production services but haven't owned them end-to-end\",\"Mostly prototypes, coursework, or bootcamp projects\"]},{\"question\":\"How many years of professional experience do you have building and operating backend systems in production?*\",\"options\":[\"0-2 years\",\"3-4 years\",\"5-6 years\",\"7+ years\"]},{\"question\":\"Which best describes your backend engineering experience?*\",\"options\":[\"Designed or owned distributed production systems where scale/throughput/reliability were core concerns\",\"Built and operated production services, but large-scale/distributed architecture wasn't my focus\",\"Contributed to production services but haven't owned them end-to-end\",\"Mostly prototypes, coursework, or bootcamp projects\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a9871b4def18223c854f804",
@@ -4052,7 +4044,10 @@
       "status": "needs_answers",
       "missing": [
         "How many years of relevant working experience do you have to the role? ✱"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "note": "[]",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a88e78025fc4e7ae3db2d54",
@@ -4127,7 +4122,7 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7b45463b399d106e4d54ed",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=businessolver&jr_id=6a7b45463b399d106e4d54ed&token=7769658&utm_source=jobright",
       "addedAt": "2026-09-03",
-      "status": "local replay",
+      "status": "needs_answers",
       "missing": [
         "Briefly tell me about your Agentic AI experience:*",
         "1.1 Do you live OUTSIDE of the United States? Only U.S. based candidat",
@@ -4140,7 +4135,9 @@
         "3.1 Businessolver uses text messaging to help move you through the int",
         "2.5 Do you currently work for a client of Businessolver?*"
       ],
-      "note": "Businessolver: 1.1 live-outside-US control not matched after 2 rounds. Run headed on Mac."
+      "note": "[{\"question\":\"1.1 Do you live OUTSIDE of the United States? Only U.S. based candidates (who live within one of the 48 contiguous states) will be considered for this role. BUSINESSOLVER DOES NOT HAVE THE ABILITY TO HIRE (OR PAY) EMPLOYEES OUTSIDE OF THE U.S.*\",\"options\":[\"I live OUTSIDE of the United States.\",\"I live INSIDE the United States.\"]},{\"question\":\"1.1 Do you live OUTSIDE of the United States? Only U.S. based candidates (who live within one of the 48 contiguous states) will be considered for this role. BUSINESSOLVER DOES NOT HAVE THE ABILITY TO HIRE (OR PAY) EMPLOYEES OUTSIDE OF THE U.S.*\",\"options\":[\"I live OUTSIDE of the United States.\",\"I live INSIDE the United States.\"]},{\"question\":\"1.1 Do you live OUTSIDE of the United States? Only U.S. based candidates (who live within one of the 48 contiguous states) will be considered for this role. BUSINESSOLVER DOES NOT HAVE THE ABILITY TO HIRE (OR PAY) EMPLOYEES OUTSIDE OF THE U.S.*\",\"options\":[\"I live OUTSIDE of the United States.\",\"I live INSIDE the United States.\"]},{\"question\":\"1.1 Do you live OUTSIDE of the United States? Only U.S. based candidates (who live within one of the 48 contiguous states) will be considered for this role. BUSINESSOLVER DOES NOT HAVE THE ABILITY TO HIRE (OR PAY) EMPLOYEES OUTSIDE OF THE U.S.*\",\"options\":[\"I live OUTSIDE of the United States.\",\"I live INSIDE the United States.\"]},{\"question\":\"1.1 Do you live OUTSIDE of the United States? Only U.S. based candidates (who live within one of the 48 contiguous states) will be considered for this role. BUSINESSOLVER DOES NOT HAVE THE ABILITY TO HIRE (OR PAY) EMPLOYEES OUTSIDE OF THE U.S.*\",\"options\":[\"I live OUTSIDE of the United States.\",\"I live INSIDE the United States.\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a86bb4025fc4e7ae3da9f6f",
@@ -4391,7 +4388,9 @@
       "atsUrl": "https://jobs.ashbyhq.com/delinea/ec88db58-f50a-47de-ba33-ed8ba00b0e99/application?utm_source=jobright&jr_id=6a7cb55177d5f033c4b90224",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: jobs.ashbyhq.com"
+      "note": "platform: jobs.ashbyhq.com",
+      "reason": "2026-09-13 cloud: Ashby lane could not complete the form (Your form needs correctionsMissing entry for required field:; Missing entry for required field: Preferred First NameMissin; Missing entry for required field: Pr).",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "69fed2d251699d6e54ef4606",
@@ -4774,8 +4773,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6997b996e0bddb6acac676a8",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=crossriverbank&jr_id=6997b996e0bddb6acac676a8&token=7626998003&utm_source=jobright",
       "addedAt": "2026-09-03",
-      "status": "needs_answers",
-      "note": "missing: [\"Do you have any close relatives that are currently employed by Cross R\"]"
+      "status": "parked",
+      "note": "missing: [\"Do you have any close relatives that are currently employed by Cross R\"]",
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a97238ee4e60e4b8da5c4b6",
@@ -5063,7 +5064,9 @@
       "atsUrl": "https://jobs.lever.co/vida/f47f1eb0-0307-4485-8ad1-043987ed129c/apply?utm_source=jobright&jr_id=6a3da700882f121f56a3880b",
       "addedAt": "2026-09-03",
       "status": "needs_answers",
-      "note": "missing: [\"Work authorization ✱\",\"Describe a technically complex project you led end-to-end. What did your role look like, a\",\"Tell us about a time y"
+      "note": "[]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a4c7a63c643fd23fed3a6f3",
@@ -5459,7 +5462,9 @@
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=fellow&jr_id=6a97350ce4e60e4b8da5cb04&token=5227556007&utm_source=jobright",
       "addedAt": "2026-09-03",
       "status": "needs_answers",
-      "note": "missing: [\"Are you located in SF/Bay Area?*\",\"We’re based in the SF Mission District and work primarily from the off\"]"
+      "note": "[{\"question\":\"How would you describe your gender identity? (mark all that apply)\",\"options\":[\"Man\",\"Non-binary\",\"Woman\",\"I prefer to self-describe\"]},{\"question\":\"How would you describe your gender identity? (mark all that apply)\",\"options\":[\"Man\",\"Non-binary\",\"Woman\",\"I prefer to self-describe\"]},{\"question\":\"How would you describe your gender identity? (mark all that apply)\",\"options\":[\"Man\",\"Non-binary\",\"Woman\",\"I prefer to self-describe\"]},{\"question\":\"How would you describe your gender identity? (mark all that apply)\",\"options\":[\"Man\",\"Non-binary\",\"Woman\",\"I prefer to self-describe\"]},{\"question\":\"How would you describe your sexual orientation? (mark all that apply)\",\"options\":[\"Asexual\",\"Bisexual and/or pansexual\",\"Gay\",\"Heterosexual\",\"Lesbian\",\"Queer\",\"I prefer to self-describe\"]},{\"question\":\"Do you identify as transgender? (select one)\",\"options\":[\"Yes\",\"No\",\"I prefer to self-describe\",\"I don't wish to answer\"]},{\"question\":\"Do you have a disability or chronic condition (physical, visual, auditory, cognitive, mental, emotional, or other) that substantially limits one or more of your major life activities, including mobility, communication (seeing, hearing, speaking), and learning? (select one)\",\"options\":[\"Yes\",\"No\",\"I prefer to self-describe\",\"I don't wish to answer\"]},{\"question\":\"Are you a veteran or active member of the United States Armed Forces? (select one)\",\"options\":[\"Yes, I am a veteran or active member\",\"No, I am not a veteran or active member\",\"I prefer to self-describe\",\"I don't wish to answer\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a85aaf6d34f700f87fbd935",
@@ -5483,7 +5488,9 @@
       "atsUrl": "https://jobs.lever.co/matchgroup/eee3f501-72ed-4d28-a25b-8a18288a60d6/apply?utm_source=jobright&jr_id=6a48a27d4f64ba41dcb5943f",
       "addedAt": "2026-09-03",
       "status": "parked",
-      "note": "platform: jobs.lever.co"
+      "note": "platform: jobs.lever.co",
+      "reason": "2026-09-13 cloud: lever hCaptcha challenged this IP",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a95afa94c22023a079351d3",
@@ -5675,7 +5682,9 @@
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=kalepa&jr_id=6a9879a8af954907d65738dd&token=6179747004&utm_source=jobright",
       "addedAt": "2026-09-03",
       "status": "needs_answers",
-      "note": "missing: [\"Do you have 5+ years of experience?*\",\"What languages are you most comfortable coding in?*\",\"Do you have experience with AWS? *\",\"How quic"
+      "note": "[{\"question\":\"Do you have 5+ years of experience?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Will you now or in the future require sponsorship to work within the United States (e.g., H-1B visa status)?*\",\"options\":[\"Yes\",\"No\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a6e1eabc56c0956e8adaba4",
@@ -5699,7 +5708,9 @@
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=abnormalsecurity&jr_id=6a7518fa37da8525e8cdc6cd&token=7733721003&utm_source=jobright",
       "addedAt": "2026-09-03",
       "status": "needs_answers",
-      "note": "missing: [\"Are you currently located in the Bay Area?*\",\"Do you need, or will you need in the future, any immigration related s\",\"Are you currently a"
+      "note": "[{\"question\":\"Gender*\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race*\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status*\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status*\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a9714dbe4e60e4b8da5befe",
@@ -6074,8 +6085,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a9935ba8974952dfc949e8d",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=renaissancelearning-nam&jr_id=6a9935ba8974952dfc949e8d&token=5394130008&utm_source=jobright",
       "addedAt": "2026-09-03",
-      "status": "needs_answers",
-      "note": "missing: [\"Have you previously worked in e-learning or ed-tech? *\",\"If you previously worked at another ed-tech company, please select you\"]"
+      "status": "parked",
+      "note": "missing: [\"Have you previously worked in e-learning or ed-tech? *\",\"If you previously worked at another ed-tech company, please select you\"]",
+      "reason": "2026-09-13 cloud: no_apply_button",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a99468090a313642c64fc36",
@@ -6230,8 +6243,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a27929a7061b51a3a5f1922",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=attotrading&jr_id=6a27929a7061b51a3a5f1922&token=4209286009&utm_source=jobright",
       "addedAt": "2026-09-03",
-      "status": "needs_answers",
-      "note": "missing: [\"Security code\",\"A verification code was sent to huiluckylucky@gmail.com. To submit you\"]"
+      "status": "parked",
+      "note": "missing: [\"Security code\",\"A verification code was sent to huiluckylucky@gmail.com. To submit you\"]",
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "67a15d099d1e49bec8dd0e1f",
@@ -6315,7 +6330,9 @@
       "atsUrl": "https://jobs.lever.co/mhnchicago/f9c8ad64-8972-432d-a922-46a5fc31d0f8/apply?utm_source=jobright&jr_id=6a12ea35619335383fb3b8d1",
       "addedAt": "2026-09-03",
       "status": "needs_answers",
-      "note": "missing: [\"What is your favorite software framework and why? ✱\",\"Which experience on your resume best represents the type of work you want to continu"
+      "note": "[]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a580ad79838a11e5d836789",
@@ -6411,7 +6428,9 @@
       "atsUrl": "https://jobs.lever.co/worldscape-technology/6b5089a8-2daf-4b4e-a739-bcf762cfe29a/apply?utm_source=jobright&jr_id=6a1d75a26b135014dbc96396",
       "addedAt": "2026-09-03",
       "status": "needs_answers",
-      "note": "missing: [\"If you are not located in the listed metropolitan area on this post, are you comfortable r\"]"
+      "note": "[]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a7b763decf5194164fbe2dd",
@@ -8555,8 +8574,9 @@
       "atsUrl": "https://jobs.ashbyhq.com/socure/0fa30965-200d-435b-ad30-7f778b9f8ec7/application?utm_source=jobright&jr_id=696e8497db26b61895116267",
       "addedAt": "2026-09-04",
       "status": "needs_answers",
-      "note": "2026-09-12 cloud: form filled through the persistent Ashby driver, held on questions no standing rule covers: [\"Have you previously held a position at Socure?\",\"Do you currently reside in any of the following states: DE, HI, IA, KY, MS, NE, \",\"Do you live within 45 miles of one of Socure's Tech talent hubs in the US?\"]. Not guessed. Retry next window once these are answered.",
-      "updatedAt": "2026-09-12"
+      "note": "Do you currently reside in any of the following states: DE, HI, IA, KY, MS, NE,  | Do you live within 45 miles of one of Socure's Tech talent hubs in the US?",
+      "updatedAt": "2026-09-13",
+      "reason": "2026-09-13 cloud: form asks something no standing rule covers."
     },
     {
       "id": "6a072b981f7fa33581c9d166",
@@ -8733,7 +8753,9 @@
         "Are you currently located in the New York Area?*",
         "Are you able to come into the NY office for an interview *"
       ],
-      "note": "2026-09-11 cloud window: missing required: What US State do you currently reside in?* | How soon after an offer are you available to start?* | How many years of hands-on backend development experience do you have "
+      "note": "[{\"question\":\"How many years of hands-on backend development experience do you have working with Java, Spring Boot, and system design?*\",\"options\":[\"5 or more years\",\"3–4 years\",\"1–2 years\",\"Less than 1 year\"]},{\"question\":\"How many years of hands-on backend development experience do you have working with Java, Spring Boot, and system design?*\",\"options\":[\"5 or more years\",\"3–4 years\",\"1–2 years\",\"Less than 1 year\"]},{\"question\":\"What US State do you currently reside in?*\",\"options\":[\"CA\",\"Other\"]},{\"question\":\"What US State do you currently reside in?*\",\"options\":[\"CA\",\"Other\"]},{\"question\":\"How many years of hands-on backend development experience do you have working with Java, Spring Boot, and system design?*\",\"options\":[\"5 or more years\",\"3–4 years\",\"1–2 years\",\"Less than 1 year\"]},{\"question\":\"How many years of hands-on backend development experience do you have working with Java, Spring Boot, and system design?*\",\"options\":[\"5 or more years\",\"3–4 years\",\"1–2 years\",\"Less than 1 year\"]},{\"question\":\"Are you comfortable using AI tools in your day-to-day engineering workflow?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"How many years of hands-on backend development experience do you have working with Java, Spring Boot, and system design?*\",\"options\":[\"5 or more years\",\"3–4 years\",\"1–2 years\",\"Less than 1 year\"]},{\"question\":\"How many years of hands-on backend development experience do you have working with Java, Spring Boot, and system design?*\",\"options\":[\"5 or more years\",\"3–4 years\",\"1–2 years\",\"Less than 1 year\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a53fc40e726ec56126a8b3f",
@@ -8768,8 +8790,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a865e53cc81eb647e9f2a6e",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=harbingermotors&jr_id=6a865e53cc81eb647e9f2a6e&token=5216950007&utm_source=jobright",
       "addedAt": "2026-09-04",
-      "status": "needs_answers",
-      "note": "2026-09-11 cloud window: missing required: Security code"
+      "status": "parked",
+      "note": "2026-09-11 cloud window: missing required: Security code",
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a565b42f7517b519ad55118",
@@ -8968,7 +8992,9 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a63cdde87cef057612cab99",
       "atsUrl": "https://jobs.ashbyhq.com/polymarket/fc406d2c-b36c-43eb-b9ac-b82c28f4bd15/application?utm_source=jobright&jr_id=6a63cdde87cef057612cab99",
       "addedAt": "2026-09-04",
-      "status": "local replay"
+      "status": "user_manual",
+      "reason": "2026-09-13 cloud: Ashby's spam filter rejected two submissions from this container's IP. The form is fully worked out — about two minutes from a residential browser.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "68d7490acb1d8e52c9766c1b",
@@ -9143,7 +9169,10 @@
         "Will you require TFD sponsorship to continue your employment, either n",
         "Have you previously applied to TFD or interviewed with the company?*",
         "Please share with us your location details:*"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "note": "[{\"question\":\"Race and Ethnicity\",\"options\":[\"White (Not Hispanic or Latino)\",\"Hispanic or Latino\",\"Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)\",\"American Indian or Native Alaskan (Not Hispanic or Latino)\",\"Asian (Not Hispanic or Latino)\",\"Black or African American (Not Hispanic or Latino)\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not wish to answer\"]},{\"question\":\"Race and Ethnicity\",\"options\":[\"White (Not Hispanic or Latino)\",\"Hispanic or Latino\",\"Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)\",\"American Indian or Native Alaskan (Not Hispanic or Latino)\",\"Asian (Not Hispanic or Latino)\",\"Black or African American (Not Hispanic or Latino)\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline to Self Identify\"]},{\"question\":\"Race and Ethnicity\",\"options\":[\"White (Not Hispanic or Latino)\",\"Hispanic or Latino\",\"Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)\",\"American Indian or Native Alaskan (Not Hispanic or Latino)\",\"Asian (Not Hispanic or Latino)\",\"Black or African American (Not Hispanic or Latino)\"]}]",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a99d80f551435518ebf188b",
@@ -9574,7 +9603,9 @@
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=clear&jr_id=6a468cd7c2d11a6a4666f72b&token=8043844&utm_source=jobright",
       "addedAt": "2026-09-04",
       "status": "parked",
-      "note": "unconfirmed submit: Please complete the reCAPTCHA and resubmit your application.\n\nBack to jobs\nSenior Fullstack Software Engineer\nNew York, "
+      "note": "unconfirmed submit: Please complete the reCAPTCHA and resubmit your application.\n\nBack to jobs\nSenior Fullstack Software Engineer\nNew York, ",
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a5fd384b0f20036bc633481",
@@ -9646,7 +9677,9 @@
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=honor&jr_id=6a520157ae4052672fe9d263&token=8382000002&utm_source=jobright",
       "addedAt": "2026-09-04",
       "status": "needs_answers",
-      "note": "2026-09-11 cloud window: missing required: What state will you be working/residing in?*"
+      "note": "[{\"question\":\"What state will you be working/residing in?*\",\"options\":[\"AL\",\"AK\",\"AZ\",\"AR\",\"CA\",\"CO\",\"CT\",\"DC\",\"DE\",\"FL\"]},{\"question\":\"Which best describes your primary backend experience?\",\"options\":[\"Python\",\"Another backend language with production experience\",\"Mostly frontend or data focused\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a6789292bda4d2842854582",
@@ -9657,8 +9690,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a6789292bda4d2842854582",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=patterndata&jr_id=6a6789292bda4d2842854582&token=5196696007&utm_source=jobright",
       "addedAt": "2026-09-04",
-      "status": "needs_answers",
-      "note": "2026-09-11 cloud window: missing required: Start date year*"
+      "status": "parked",
+      "note": "2026-09-11 cloud window: missing required: Start date year*",
+      "reason": "2026-09-13 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=patterndata&jr_id=6a6789292bda4d2842854582&token=5196696007 | Back to jobs\nSoftware Engineer (Senior-Staff)\nUS - Remote\nApply\n\nWho We Are\n\nPattern Data is an AI-powered platform buil",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a99de48040e5c3d07599767",
@@ -9681,8 +9716,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a872a87d34f700f87fc3d15",
       "atsUrl": "https://jobs.lever.co/zerion/d10ab83b-f425-49c2-bc93-09a14e97c2b8/apply?utm_source=jobright&jr_id=6a872a87d34f700f87fc3d15",
       "addedAt": "2026-09-04",
-      "status": "local replay",
-      "note": "9/4 cloud GH flagged; missing: [\"What’s your location and the country of tax residence? ✱\",\"Would you be comfortable working within our time zone (UTC+ — run on Mac with Qwen."
+      "status": "needs_answers",
+      "note": "[]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a982610dd171c72857906ff",
@@ -9789,8 +9826,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/69c5796d1b5ad0288737428f",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=hackerrank&jr_id=69c5796d1b5ad0288737428f&token=7729208&utm_source=jobright",
       "addedAt": "2026-09-04",
-      "status": "local replay",
-      "note": "9/4 cloud GH flagged; missing: [\"Which primary backend language/stack are you most proficient in?*\",\"Do you have hands-on experience designing schemas  — run on Mac with Qwen."
+      "status": "needs_answers",
+      "note": "[{\"question\":\"Do you use AI Tools in day-to-day development? *\",\"options\":[\"Use daily\",\"Use a few times a week\",\"Use a few times a month\",\"Don't use it\"]},{\"question\":\"What is your notice period?*\",\"options\":[\"Immediate Joiner\",\"Less than 15 days\",\"15 - 30 Days\",\"30 - 45 Days\",\"45 - 60 Days\",\"60 - 90 Days\",\"More than 90 Days\"]},{\"question\":\"Will you now or in the future require sponsorship for employment visa status (e.g. H-1B visa status)?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Do you use AI Tools in day-to-day development? *\",\"options\":[\"Use daily\",\"Use a few times a week\",\"Use a few times a month\",\"Don't use it\"]},{\"question\":\"Which primary backend language/stack are you most proficient in?*\",\"options\":[\"Node.js / JavaScript / TypeScript\",\"Java / Spring Boot\",\"Python (Django/Flask/FastAPI)\",\"Go (Golang)\",\"Ruby on Rails\",\"C# / .NET\",\"PHP\",\"Other\"]},{\"question\":\"Do you use AI Tools in day-to-day development? *\",\"options\":[\"Use daily\",\"Use a few times a week\",\"Use a few times a month\",\"Don't use it\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a55bc36ef22935f2e3f65c4",
@@ -9813,8 +9852,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a57415d367e61670f5aeb45",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=smartstate&jr_id=6a57415d367e61670f5aeb45&token=4792467101&utm_source=jobright",
       "addedAt": "2026-09-04",
-      "status": "local replay",
-      "note": "9/4: GH submit returned no confirmation from cloud IP (15 jobs same pattern = silent IP flag). Retry from Mac home IP (GH token dedupe protects)."
+      "status": "parked",
+      "note": "9/4: GH submit returned no confirmation from cloud IP (15 jobs same pattern = silent IP flag). Retry from Mac home IP (GH token dedupe protects).",
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a9978f090a313642c6507e4",
@@ -9873,9 +9914,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a5664e153b3962b910afd72",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=nexhealth&jr_id=6a5664e153b3962b910afd72&token=5993376004",
       "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "2026-09-12 cloud batch: unconfirmed submit: ",
-      "updatedAt": "2026-09-12"
+      "status": "needs_answers",
+      "note": "[{\"question\":\"Are you currently authorized to work in the country outlined for this job (e.g. H-1B status)?* *\",\"options\":[\"I am authorized to work for any employer in the country outlined in this role (Ie: citizen, permanent resident, etc.)\",\"My current work authorization requires a renewal or sponsorship now or in the future (ie: H1-B, OPT, TN, etc.)\",\"My status to work in the country in this role's location is unknown\"]},{\"question\":\"Are you currently authorized to work in the country outlined for this job (e.g. H-1B status)?* *\",\"options\":[\"I am authorized to work for any employer in the country outlined in this role (Ie: citizen, permanent resident, etc.)\",\"My current work authorization requires a renewal or sponsorship now or in the future (ie: H1-B, OPT, TN, etc.)\",\"My status to work in the country in this role's location is unknown\"]},{\"question\":\"Are you currently authorized to work in the country outlined for this job (e.g. H-1B status)?* *\",\"options\":[\"I am authorized to work for any employer in the country outlined in this role (Ie: citizen, permanent resident, etc.)\",\"My current work authorization requires a renewal or sponsorship now or in the future (ie: H1-B, OPT, TN, etc.)\",\"My status to work in the country in this role's location is unknown\"]},{\"question\":\"Are you currently authorized to work in the country outlined for this job (e.g. H-1B status)?* *\",\"options\":[\"I am authorized to work for any employer in the country outlined in this role (Ie: citizen, permanent resident, etc.)\",\"My current work authorization requires a renewal or sponsorship now or in the future (ie: H1-B, OPT, TN, etc.)\",\"My status to work in the country in this role's location is unknown\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "updatedAt": "2026-09-13",
+      "reason": "2026-09-13 cloud: required questions with no standing answer."
     },
     {
       "id": "6a56ac0553b3962b910b1e0b",
@@ -10128,8 +10170,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a99c8cc551435518ebf1156",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=zonecompanysoftwareconsultingllc&jr_id=6a99c8cc551435518ebf1156&token=5414492008&utm_source=jobright",
       "addedAt": "2026-09-04",
-      "status": "local replay",
-      "note": "9/4 cloud GH flagged; missing: [\"What is your target start date?*\",\"What Country/US-State do you currently reside?*\",\"Consent & Privacy Acknowledgment* — run on Mac with Qwen."
+      "status": "parked",
+      "note": "9/4 cloud GH flagged; missing: [\"What is your target start date?*\",\"What Country/US-State do you currently reside?*\",\"Consent & Privacy Acknowledgment* — run on Mac with Qwen.",
+      "reason": "2026-09-13 cloud: no_apply_button",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a99e44a040e5c3d07599999",
@@ -10284,8 +10328,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a4066b4b526a24fc3130cc8",
       "atsUrl": "https://jobs.lever.co/doxel/1cd32e4c-9c21-4c86-ab89-d0fb23676b7e/apply?utm_source=jobright&jr_id=6a4066b4b526a24fc3130cc8",
       "addedAt": "2026-09-04",
-      "status": "local replay",
-      "note": "9/4 cloud GH flagged; missing: [\"How many years of professional software engineering experience do you have? ✱\"] — run on Mac with Qwen."
+      "status": "needs_answers",
+      "note": "[]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a99f0568a8b765bc55f6693",
@@ -12057,7 +12103,10 @@
         "Do you have at least 8 years of experience as part of a software devel",
         "What is your experience with backend development in a team production ",
         "Do you have expertise in developing ETL or data pipelines that run at "
-      ]
+      ],
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "note": "[{\"question\":\"Do you have at least 8 years of experience as part of a software development team successfully shipping software products, including leading projects from end-to-end and mentoring others?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Do you have at least 8 years of experience as part of a software development team successfully shipping software products, including leading projects from end-to-end and mentoring others?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Do you have at least 8 years of experience as part of a software development team successfully shipping software products, including leading projects from end-to-end and mentoring others?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a5f8ce26e0c3c7c7d3d7855",
@@ -12118,7 +12167,9 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7664267b3417772ade83fe",
       "atsUrl": "https://jobs.ashbyhq.com/farsight/5084cc68-494d-442b-8483-285e4a69d4a3/application?utm_source=jobright&jr_id=6a7664267b3417772ade83fe",
       "addedAt": "2026-09-05",
-      "status": "local replay"
+      "status": "parked",
+      "reason": "2026-09-13 cloud: Ashby lane could not complete the form (failed).",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a53d781e726ec56126a8326",
@@ -12215,7 +12266,10 @@
       "status": "needs_answers",
       "missing": [
         "What interests you in this role and Zanskar (100 words max) ✱"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "note": "[]",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a7b8aececfd297707539d5c",
@@ -12313,7 +12367,10 @@
         "Accept",
         "How we interview: Our hiring process prioritizes authenticity and fair",
         "With your permission, we may use AI transcription software to transcri"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "note": "[{\"question\":\"With your permission, we may use AI transcription software to transcribe and summarize your interview to help us capture accurate notes. Participation is entirely voluntary, and your decision will not affect the outcome of your application. You can withdraw consent at any time. Do you consent to us using AI to transcribe and summarize your interview?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Will you now or in the future require sponsorship for work authorization? (This information will not be used in assessing your qualifications for any position.)*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Gender*\",\"options\":[\"Male\",\"Female\",\"Non-Binary\",\"I prefer to self-describe\",\"I don't wish to answer\"]},{\"question\":\"Are you a veteran or active member of the United States Armed Forces? *\",\"options\":[\"I am a veteran or active member\",\"No, I am not a veteran or active member\",\"I prefer to self-describe\",\"I don't wish to answer\"]}]",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "68e6dccae8daec61499afc48",
@@ -12516,20 +12573,6 @@
       "note": "platform not automated from cloud: brightvisiontechnologies.applytojob.com"
     },
     {
-      "id": "6a7e2e780cd4a0703257e75e",
-      "key": "seatgeek::senior software engineer, business technology",
-      "title": "Senior Software Engineer, Business Technology",
-      "company": "SeatGeek",
-      "matchPercent": 83,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a7e2e780cd4a0703257e75e",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=seatgeek&jr_id=6a7e2e780cd4a0703257e75e&token=8128889&utm_source=jobright",
-      "addedAt": "2026-09-05",
-      "status": "needs_answers",
-      "missing": [
-        "Is the following statement True or False? SeatGeek was founded in 2008"
-      ]
-    },
-    {
       "id": "69f0ceab8d8d624381a98681",
       "key": "mapbox::software development engineer ii, traffic",
       "title": "Software Development Engineer II, Traffic",
@@ -12681,12 +12724,14 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a9b14309c24314c35f97aa4",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=natera&jr_id=6a9b14309c24314c35f97aa4&token=6115665004&utm_source=jobright",
       "addedAt": "2026-09-05",
-      "status": "needs_answers",
+      "status": "parked",
       "missing": [
         "What state do you currently live in?*",
         "Postal Code*",
         "Who is your most recent/current employer?*"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=natera&jr_id=6a9b14309c24314c35f97aa4&token=6115665004 | Senior Software Engineer\nUS Remote\nApply\n\nPOSITION SUMMARY:\n\nA Senior Software Engineer is focused on providing an intui",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a5f90336e0c3c7c7d3d7904",
@@ -15820,11 +15865,13 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a511df88d7d3e6cf1cbf190",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=chainguard&jr_id=6a511df88d7d3e6cf1cbf190&token=4688378006&utm_source=jobright",
       "addedAt": "2026-09-06",
-      "status": "needs_answers",
+      "status": "parked",
       "missing": [
         "At this time, Chainguard is unable to provide employment sponsorship. ",
         "Why are you interested in this role at Chainguard? (While we love AI p"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=chainguard&jr_id=6a511df88d7d3e6cf1cbf190&token=4688378006 | Back to jobs\nSenior Software Engineer (Customer Platform)\nUnited States - Remote\nApply\n\nChainguard is the trusted source",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "69ef7ddb58811370cb1468d7",
@@ -15859,7 +15906,9 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a6279e6f805ef6ff423311c",
       "atsUrl": "https://jobs.ashbyhq.com/tennr/a0387208-fabd-453c-96f1-dcfe77f3af07/application?utm_source=jobright&jr_id=6a6279e6f805ef6ff423311c",
       "addedAt": "2026-09-06",
-      "status": "local replay"
+      "status": "parked",
+      "reason": "2026-09-13 cloud: Ashby lane could not complete the form (failed).",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a532aa68576ec69c014edb0",
@@ -15888,7 +15937,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/68d1b4bca54edb3bf3e1540c",
       "atsUrl": "https://jobs.ashbyhq.com/siro/0bbc84a2-5bde-472d-9349-b2c31139c7ac/application?utm_source=jobright&jr_id=68d1b4bca54edb3bf3e1540c",
       "addedAt": "2026-09-06",
-      "status": "local replay"
+      "status": "needs_answers",
+      "reason": "2026-09-13 cloud: form asks something no standing rule covers.",
+      "note": "[radio] Do you require visa sponsorship to work in the U.S.?",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "68cda7681ad6b16f0289cff0",
@@ -16104,14 +16156,16 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a5ad4ab686b4755d1e167e9",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=ngrokinc&jr_id=6a5ad4ab686b4755d1e167e9&token=5826321004&utm_source=jobright",
       "addedAt": "2026-09-06",
-      "status": "needs_answers",
+      "status": "parked",
       "missing": [
         "Do you currently have legal US work authorization?*",
         "Will you, now or in the future, require the support of ngrok to mainta",
         "Where did you hear about ngrok?*",
         "Do you have experience with Go?*",
         "At this time, we're only able to hire employees working from the follo"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: no_apply_button",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "692079083f782d2f1afc7a00",
@@ -16981,8 +17035,9 @@
       "originalUrl": "https://jobs.ashbyhq.com/trm-labs/f671d26c-dd0e-429e-9c08-58c78c4f5dd7/application?utm_source=jobright&jr_id=6a55b5deec54dd532d812506",
       "addedAt": "2026-09-07",
       "status": "needs_answers",
-      "note": "2026-09-12 cloud: form filled through the persistent Ashby driver, held on questions no standing rule covers: [\"On-Call Requirements: Are you willing and able to participate in this job's on-c\",\"Do you have at least 2 years of experience working in a fully remote environment\",\"Do you want to work in a 100% remote environment on a long-term basis?\",\"Outside Work / Advisory Disclosure\",\"Have you heard of TRM . Not guessed. Retry next window once these are answered.",
-      "updatedAt": "2026-09-12"
+      "note": "Outside Work / Advisory Disclosure",
+      "updatedAt": "2026-09-13",
+      "reason": "2026-09-13 cloud: form asks something no standing rule covers."
     },
     {
       "id": "6a608ceb129b652e9cd291a5",
@@ -17452,8 +17507,10 @@
       "atsUrl": "https://jobs.lever.co/ion/93dfb7db-cd76-4a2e-bb65-c9eb373a8fac/apply?jr_id=6a5bdcbe63a8f619507cc1ab",
       "originalUrl": "https://jobs.lever.co/ion/93dfb7db-cd76-4a2e-bb65-c9eb373a8fac/apply?jr_id=6a5bdcbe63a8f619507cc1ab",
       "addedAt": "2026-09-07",
-      "status": "parked",
-      "note": "platform not automated from cloud: jobs.lever.co"
+      "status": "needs_answers",
+      "note": "[]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a523fcbe726ec56126a2432",
@@ -17478,8 +17535,10 @@
       "atsUrl": "https://jobs.lever.co/woven-by-toyota/ba39a024-c4c3-4966-a696-95db0e1dc445/apply?jr_id=6a63e638e8d8d22e3292b3ab",
       "originalUrl": "https://jobs.lever.co/woven-by-toyota/ba39a024-c4c3-4966-a696-95db0e1dc445/apply?jr_id=6a63e638e8d8d22e3292b3ab",
       "addedAt": "2026-09-07",
-      "status": "parked",
-      "note": "platform not automated from cloud: jobs.lever.co"
+      "status": "needs_answers",
+      "note": "[]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "69e796190a6e09555302b4be",
@@ -17518,7 +17577,9 @@
       "originalUrl": "https://jobs.lever.co/spotify/481e84f8-9048-4da3-9ad4-e2fba06e005f/apply?jr_id=6a888943d34f700f87fc91f4",
       "addedAt": "2026-09-07",
       "status": "parked",
-      "note": "platform not automated from cloud: jobs.lever.co"
+      "note": "platform not automated from cloud: jobs.lever.co",
+      "reason": "2026-09-13 cloud: lever hCaptcha challenged this IP",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "69a810d176bbe83d3afb82bb",
@@ -17618,9 +17679,11 @@
       "matchPercent": 90,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a79dde8b17cba569036402b",
       "originalUrl": "https://jobs.ashbyhq.com/bjakcareer/870de7b5-f623-4a26-b625-86744bba5f24/application?jr_id=6a79dde8b17cba569036402b",
-      "status": "parked",
-      "note": "2026-09-11 cloud window: ashby blocked this IP earlier",
-      "atsUrl": "https://jobs.ashbyhq.com/bjakcareer/870de7b5-f623-4a26-b625-86744bba5f24/application?jr_id=6a79dde8b17cba569036402b"
+      "status": "needs_answers",
+      "note": "[radio] Have you built integrations between multiple systems or SaaS platforms (e.g. HRIS, CRM, Sl",
+      "atsUrl": "https://jobs.ashbyhq.com/bjakcareer/870de7b5-f623-4a26-b625-86744bba5f24/application?jr_id=6a79dde8b17cba569036402b",
+      "reason": "2026-09-13 cloud: form asks something no standing rule covers.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a9efbd3dacf777321a93d58",
@@ -17783,8 +17846,10 @@
       "matchPercent": 84,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7f7334927c79391ad0926c",
       "originalUrl": "https://jobs.lever.co/teamsnap/86869664-1c38-4f5b-9a2a-555cdb565713/apply",
-      "status": "parked",
-      "note": "Lever hCaptcha visible challenge on submit — stopped per policy, not solved. Form fully filled and answers decided: authorized Yes / need sponsorship Yes / NJ / Jersey City / $150-160k / SaaS yes / sports no / how-heard Jobright / not referred / EEO decline. Retry from Mac or user completes captcha. 2026-09-08"
+      "status": "needs_answers",
+      "note": "[]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "arcfield-0908",
@@ -17810,8 +17875,10 @@
       "matchPercent": 82,
       "jobrightUrl": "https://jobright.ai/jobs/info/6a5f90336e0c3c7c7d3d7904",
       "originalUrl": "https://jobs.lever.co/snaplogic/a7fce63d-9e6f-495a-b8cd-894fd1d1ff58/apply",
-      "status": "parked",
-      "note": "Lever platform — visible hCaptcha on submit (verified today on TeamSnap). Retry from Mac. Open question was Work Status (answer: authorized on F-1 CPT/EAD, requires future sponsorship). 2026-09-08"
+      "status": "needs_answers",
+      "note": "[]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a-afs-0908",
@@ -21979,7 +22046,10 @@
       "missing": [
         "This position is a hybrid role in San Francisco or Denver. We will first be prioritizing c",
         "Why are you interested in joining Windfall? ✱"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "note": "[]",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6aa3a78d4238ea18d430d36c",
@@ -22002,7 +22072,7 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa4abe41d92e2d05d115af9",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=ncinoinc&token=4402387009&jr_id=6aa4abe41d92e2d05d115af9",
       "addedAt": "2026-09-12",
-      "status": "needs_answers",
+      "status": "parked",
       "missing": [
         "What attracted you to this role at nCino? *",
         "To the best of your knowledge, are you currently working for a partner",
@@ -22011,7 +22081,9 @@
         "I would like to receive updates from a recruiter about this job via SM",
         "What is your work authorization status? *",
         "Are you currently a F-1 visa holder on Optional Practical Training (OP"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=ncinoinc&token=4402387009&jr_id=6aa4abe41d92e2d05d115af9 | Back to jobs\nNew\nSenior Software Engineer\nUS - North Carolina - HQ\nApply\n\nCurious Minds. Bold Ideas. Extraordinary Impac",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6aa4904df7baf881567cf2d9",
@@ -22178,10 +22250,12 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa3f922422289703bd6473d",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=roadie&jr_id=6aa3f922422289703bd6473d&token=8786983002",
       "addedAt": "2026-09-12",
-      "status": "needs_answers",
+      "status": "parked",
       "missing": [
         "Security code"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6aa3ece0c1928370a285b5b1",
@@ -22280,7 +22354,10 @@
       "missing": [
         "What is your country of legal residence?*",
         "Do you currently have legal authorization to work in your country of r"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "note": "[{\"question\":\"Do you currently have legal authorization to work in your country of residence?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Are you legally authorized to work in your country of residence?*\",\"options\":[\"Yes\",\"No\"]}]",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6aa49fee1d92e2d05d115895",
@@ -22660,7 +22737,10 @@
         "Have you worked for Two Six Technologies or an affiliate in the past? ",
         "Are you a current or former direct employee of any government institut",
         "Please identify your race*"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "note": "[{\"question\":\"Desired Salary*\",\"options\":[\"$40,000-$60,000\",\"$61,000-$80,000\",\"$81,000-$100,000\",\"$101,000-$120,000\",\"$121,000-$140,000\",\"$141,000-$160,000\",\"$161,000-$180,000\",\"$181,000-$200,000\",\"$201,000-$220,000\",\"$221,000-$240,000\"]},{\"question\":\"Gender*\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race*\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status*\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status*\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a5464a88ef95364ead95669",
@@ -22672,7 +22752,9 @@
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=convera&jr_id=6a5464a88ef95364ead95669&token=4608562101",
       "addedAt": "2026-09-12",
       "status": "parked",
-      "note": "unconfirmed submit: Back to jobs\nSenior Software Engineer with Convera USA LLC (Denver, CO)\nDenver\nApply\n\nSenior Software Engineer with Conv"
+      "note": "unconfirmed submit: Back to jobs\nSenior Software Engineer with Convera USA LLC (Denver, CO)\nDenver\nApply\n\nSenior Software Engineer with Conv",
+      "reason": "2026-09-13 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=convera&jr_id=6a5464a88ef95364ead95669&token=4608562101 | Back to jobs\nSenior Software Engineer with Convera USA LLC (Denver, CO)\nDenver\nApply\n\nSenior Software Engineer with Conv",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a1a0edb2b206f3955eb23b3",
@@ -23148,9 +23230,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a91b813a27a2d3c98489701",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=peregrinetechnologies&token=4704814005&jr_id=6a91b813a27a2d3c98489701",
       "addedAt": "2026-09-12",
-      "updatedAt": "2026-09-12",
-      "status": "needs_answers",
-      "note": "2026-09-12 cloud batch: form filled, held on [\"Security code\"]. Not guessed."
+      "updatedAt": "2026-09-13",
+      "status": "parked",
+      "note": "2026-09-12 cloud batch: form filled, held on [\"Security code\"]. Not guessed.",
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error"
     },
     {
       "id": "6a87433ad34f700f87fc4698",
@@ -23200,9 +23283,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a7d0beed77e8156a8e35ad4",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=liftoff&token=8127027&jr_id=6a7d0beed77e8156a8e35ad4",
       "addedAt": "2026-09-12",
-      "updatedAt": "2026-09-12",
+      "updatedAt": "2026-09-13",
       "status": "needs_answers",
-      "note": "2026-09-12 cloud batch: form filled, held on [\"Do you have customer and/or stakeholder facing experience?*\",\"What is your SQL skill level?*\"]. Not guessed."
+      "note": "[{\"question\":\"What is your SQL skill level?*\",\"options\":[\"Advanced\",\"Intermediate\",\"Beginner\",\"No Experience\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer."
     },
     {
       "id": "6a8c3f0e1d96e6541c8bfb7b",
@@ -23278,9 +23362,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a53b27be726ec56126a7b16",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=pushpay&jr_id=6a53b27be726ec56126a7b16&token=7834020",
       "addedAt": "2026-09-12",
-      "updatedAt": "2026-09-12",
+      "updatedAt": "2026-09-13",
       "status": "needs_answers",
-      "note": "2026-09-12 cloud batch: form filled, held on [\"Where did you first learn about this position at Pushpay?*\"]. Not guessed."
+      "note": "[{\"question\":\"Will you now, or anytime in the future, require sponsorship for employment visa status (e.g. H-1B visa status)?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer."
     },
     {
       "id": "6aa3ae91959a10d7230d3368",
@@ -23421,9 +23506,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa510c4a77a53f5a156f60b",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=pathward&token=6188682004&jr_id=6aa510c4a77a53f5a156f60b",
       "addedAt": "2026-09-12",
-      "updatedAt": "2026-09-12",
+      "updatedAt": "2026-09-13",
       "status": "needs_answers",
-      "note": "2026-09-12 cloud batch: form filled, held on [\"State*\",\"Are you a current or previous Pathward employee? *\",\"Are you related to, or are you in a close personal relationship with, \",\"We are excited to learn more about you! Please share what initially sp\"]. Not guessed."
+      "note": "[{\"question\":\"How did you hear about this opportunity?*\",\"options\":[\"Career Fair\",\"Circa\",\"College/University\",\"Corporate Website\",\"Employee Referral\",\"Glassdoor\",\"Indeed\",\"LinkedIn\",\"Search Firm/Agency\",\"Unsolicited\"]},{\"question\":\"Will you now or in the future require Pathward to sponsor you for an employment-based visa or participate in a work authorization benefit in order to employ you (for example, H-1B or OPT)?* If you answer yes to this question, you will not be considered.*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer."
     },
     {
       "id": "6a303c49093df201d07b0493",
@@ -23512,9 +23598,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa3788bcb2e99857c2703de",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=mitratech&token=8180269&jr_id=6aa3788bcb2e99857c2703de",
       "addedAt": "2026-09-12",
-      "updatedAt": "2026-09-12",
+      "updatedAt": "2026-09-13",
       "status": "needs_answers",
-      "note": "2026-09-12 cloud batch: form filled, held on [\"Describe a recent project where you used AI-assisted or agentic coding\",\"Do you have experience using MiSop?*\",\"How would you rate your proficiency with MiSop, and can you briefly sh\",\"Please indicate your desired base salary (in USD).*\"]. Not guessed."
+      "note": "[{\"question\":\"Do you currently, or will you in the future, require employer sponsorship to work in the United States? Examples include H-1B, TN, O-1, employment-based green card sponsorship, or continued employment after F-1 OPT.*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]},{\"question\":\"Do you currently, or will you in the future, require employer sponsorship to work in the United States? Examples include H-1B, TN, O-1, employment-based green card sponsorship, or continued employment after F-1 OPT.*\",\"options\":[\"Yes\",\"No\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer."
     },
     {
       "id": "6aa3f7118275e3a21175e2f1",
@@ -23592,9 +23679,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a51e05102522b5b722ece7c",
       "atsUrl": "https://jobs.lever.co/osaro/56fcf771-5c21-4ec8-b4df-c978acbad4a0/apply?jr_id=6a51e05102522b5b722ece7c",
       "addedAt": "2026-09-12",
-      "updatedAt": "2026-09-12",
+      "updatedAt": "2026-09-13",
       "status": "parked",
-      "note": "2026-09-12 cloud batch: lever hCaptcha challenged this IP"
+      "note": "2026-09-12 cloud batch: lever hCaptcha challenged this IP",
+      "reason": "2026-09-13 cloud: lever hCaptcha challenged this IP"
     },
     {
       "id": "6aa4b9822ed333b4ea5c3c0a",
@@ -23618,9 +23706,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6aa3c2cb959a10d7230d3d42",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cypresscreekrenewables&jr_id=6aa3c2cb959a10d7230d3d42&token=8180722",
       "addedAt": "2026-09-12",
-      "updatedAt": "2026-09-12",
+      "updatedAt": "2026-09-13",
       "status": "needs_answers",
-      "note": "2026-09-12 cloud batch: form filled, held on [\"Which office do you prefer to work from (3 days in office per week)?*\",\"Please enter the Name and Department of any of your close relatives wh\",\"Provide a brief overview of your professional experience in the energy\",\"Briefly describe a relevant ML model that you worked on or contributed\"]. Not guessed."
+      "note": "[{\"question\":\"Which office do you prefer to work from (3 days in office per week)?*\",\"options\":[\"Durham, NC\",\"Washington, DC\",\"Neither\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "reason": "2026-09-13 cloud: required questions with no standing answer."
     },
     {
       "id": "6a3ca944982bb239f81303bc",
@@ -23631,9 +23720,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a3ca944982bb239f81303bc",
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=divergent&jr_id=6a3ca944982bb239f81303bc&token=5281515008",
       "addedAt": "2026-09-12",
-      "updatedAt": "2026-09-12",
+      "updatedAt": "2026-09-13",
       "status": "parked",
-      "note": "2026-09-12 cloud batch: unconfirmed submit: "
+      "note": "2026-09-12 cloud batch: unconfirmed submit: ",
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error"
     },
     {
       "id": "6aa4823cf3aa936e2cdb17e3",
@@ -23735,7 +23825,10 @@
       "jobrightUrl": "https://jobright.ai/jobs/info/6a51bb81bf63b66c7997bb01",
       "atsUrl": "https://jobs.ashbyhq.com/merge/c923ede7-3320-4b81-ada9-b772c9b4a4b9/application?jr_id=6a51bb81bf63b66c7997bb01",
       "addedAt": "2026-09-13",
-      "status": "local replay"
+      "status": "user_manual",
+      "reason": "2026-09-13 cloud: Ashby's spam filter rejected two submissions from this container's IP. The form is fully worked out — about two minutes from a residential browser.",
+      "note": "[radio] What is your current age?",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a84a42be459fa3baa85fad0",
@@ -23751,7 +23844,10 @@
         "Do you have a High School Diploma or Equivalent (GED)?*",
         "Will you be able to work in the location listed in the job description",
         "By submitting your application you confirm that the information you pr"
-      ]
+      ],
+      "reason": "2026-09-13 cloud: required questions with no standing answer.",
+      "note": "[{\"question\":\"I consent to receive text messages regarding my job application status, interview updates, and future job opportunities from Datavant. You can opt out any time by texting STOP. For assistance, text HELP. Message & data rates may apply; Messaging frequency may vary. Visit www.datavant.com/privacy-policy to see our privacy policy. *\",\"options\":[\"Yes, I opt in to receive text messages.\",\"No, I opt out and prefer communication via email or phone call only.\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6aa54b41930bff471a29e1f9",
@@ -23887,7 +23983,9 @@
       "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=picarroinc&jr_id=6a894aade8b6601d12909999&token=5399150008",
       "addedAt": "2026-09-13",
       "status": "parked",
-      "note": "unconfirmed submit: "
+      "note": "unconfirmed submit: ",
+      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
+      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a7b8249b933773d16be7e31",

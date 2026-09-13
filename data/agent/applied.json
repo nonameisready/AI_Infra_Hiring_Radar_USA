@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T14:21:59.472Z",
+  "updatedAt": "2026-09-13T16:42:37.934Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -7666,6 +7666,32 @@
       "at": "2026-09-13",
       "via": "greenhouse (cloud batch)",
       "detail": "Submitted from the cloud container after the Zipcode text answer was added; security code entered and confirmation page rendered."
+    },
+    "6a864512d34f700f87fc1428": {
+      "id": "6a864512d34f700f87fc1428",
+      "key": "eleventh hour games::senior backend engineer",
+      "company": "Eleventh Hour Games",
+      "title": "Senior Backend Engineer",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a864512d34f700f87fc1428",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app",
+      "status": "applied",
+      "at": "2026-09-13",
+      "via": "greenhouse (cloud batch)",
+      "detail": "Submitted from the cloud container after the \"describe a hard problem\" answer was added; confirmation page rendered without a security-code challenge."
+    },
+    "6a7e2e780cd4a0703257e75e": {
+      "id": "6a7e2e780cd4a0703257e75e",
+      "key": "seatgeek::senior software engineer, business technology",
+      "company": "SeatGeek",
+      "title": "Senior Software Engineer, Business Technology",
+      "matchPercent": 83,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a7e2e780cd4a0703257e75e",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app",
+      "status": "applied",
+      "at": "2026-09-13",
+      "via": "greenhouse (cloud batch)",
+      "detail": "Submitted from the cloud container; security code entered and confirmation page rendered."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

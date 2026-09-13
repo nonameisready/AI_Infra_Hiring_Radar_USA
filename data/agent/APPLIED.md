@@ -769,3 +769,107 @@ worked out. About two minutes each from her own browser.
 - Motive — Senior Software Engineer - Backend (77%) — greenhouse, confirmed
 - inKind — Senior Software Engineer (75%) — greenhouse, confirmed
 - Toast — Senior Software Engineer, Care Experience (73%) — greenhouse, confirmed
+
+## 2026-09-13 (cloud window, 5:00am ET)
+
+**18 confirmed today** — the Mac's 8 from the home IP plus 10 from the cloud.
+All-time 608.
+
+Cloud confirmations (each verified by a Greenhouse confirmation page or an
+acknowledgement mail, never by a clicked button):
+
+| # | Company | Title | Match | Via |
+| - | ------- | ----- | ----- | --- |
+| 1 | January | Senior Software Engineer | 88% | ashby |
+| 2 | Personalis, Inc. | Sr. Software Engineer, Clinical Software | 85% | greenhouse |
+| 3 | Trumid | Senior Software Engineer (Trading Systems) | 84% | greenhouse |
+| 4 | Forge | Senior Software Engineer, Customer Domain Engineering | 84% | greenhouse |
+| 5 | OKX | Senior Software Engineer, Payment | 89% | greenhouse |
+| 6 | Point72 | Software Engineer, Macro Quant Analytics Technology | 89% | greenhouse |
+| 7 | DEPT® | Senior, Software Engineer | 87% | greenhouse |
+| 8 | Coalition, Inc. | Senior Software Engineer | 85% | greenhouse |
+| 9 | Eleventh Hour Games | Senior Backend Engineer | 83% | greenhouse |
+| 10 | SeatGeek | Senior Software Engineer, Business Technology | 83% | greenhouse |
+
+Also booked: **Heron Power, SavvyMoney, Kira** as `manual_done` dated 2026-09-12
+— the user submitted them herself after the 09-12 email, and their Ashby
+confirmations arrived that evening.
+
+### A duplicate application went out, and the dedupe that allowed it is fixed
+
+Sigma Computing's **Software Engineer - Compiler** was applied to a second time
+today — nine days after the first application and one day after they declined it.
+Three guards all missed it: Jobright listed the employer as "Sigma" rather than
+"Sigma Computing", the normalised keys differed by a single hyphen, and Greenhouse
+had minted a fresh token for the same role. Dedupe now keys on the `for=` board
+name plus a punctuation-flattened title, which collapses both URLs to one key.
+The row is in applied.json with its history and is deliberately **not** counted
+among the 18.
+
+### The rules file was auto-agreeing to arbitration
+
+Auditing Qwen's learned rules against KNOWLEDGE.md turned up four rules that
+answered **arbitration agreements** with acknowledge/agree/yes. Arbitration is the
+applicant's own signature and parks for her — these were live. Removed, along with
+24 rules whose label was an *answer* rather than a question ("Other" → "Other",
+"Cantonese" → "Cantonese", "Senior" → "Staff (E6)"): they fire on any question
+containing that word, and the "Other" rule is what swallowed Chainguard's
+sponsorship question all morning.
+
+Work authorization was also order-dependent, so the guards now sit first: "for any
+employer / without restrictions" and "permanent work authorization" answer No
+before any plain "authorized to work" rule can answer Yes. Nine phrasings now
+resolve exactly as KNOWLEDGE.md specifies.
+
+### Lane bugs found and fixed
+
+- **No `autofill-profile.json` in a fresh container.** Every finisher reads it at
+  import, so the first 20 jobs — and all 45 of yesterday's — failed instantly with
+  "no ATS url". `make-profile.mjs` added; batch-apply now self-heals.
+- **Greenhouse's security-code step was detected by page wording**, which
+  Greenhouse does not always use. Peregrine and Harbinger mailed codes that were
+  never entered. Now detected by the 8-cell widget, polled for ~20s.
+- **Confirmations were read only from the main document**, which the embedded
+  job_app form leaves empty after submit. Now read across frames, with the
+  `/confirmation` URL accepted as the success signal it is.
+- `gen-ashby1.mjs` never filled Preferred/First/Last name, and a fix for it
+  shipped a regex the template literal mangled into a syntax error that killed two
+  forms before it was caught.
+- Ambiguous Ashby submits (form gone, no spam flag, no errors) are no longer
+  logged as plain failures — January was exactly that case, and its confirmation
+  mail proves it had landed. Re-applying would have double-submitted.
+
+### Honesty calls
+
+- **Dropped** as clearance or US-person gated: Fictiv (the posting restricts the
+  role to US citizens/permanent residents), Boeing, Peraton, BlackSky, Picogrid,
+  TikTok USDS, and Microsoft's CTJ/POLY requisitions — 26 rows.
+- **Parked for the user**: Axon (ATF-style legal declarations), GRVTY ×2
+  (Affirmation / Authorization and Acknowledgement attestations).
+- Verana Health asks for years with **Java and Spring Boot** — a stack she does
+  not have — so the answer is the lowest bracket the form offers, and where no low
+  option exists the form parks rather than overclaiming.
+- **Zerion** is parked deliberately: it asks for comfort working UTC+0/UTC+1
+  hours, and the standing willingness on file covers US arrangements, not European
+  hours. That commitment is hers to make.
+
+### Why the day fell short of 100
+
+1. **Supply, not pacing, is the binding constraint.** A full harvest returned 652
+   cards and exactly **one** job not already in the backlog — Jobright's pool is
+   fully ingested. Combined with one-role-per-company dedupe against a
+   600-company history, the Mac's own queue could only reach 59.
+2. **Ashby is unusable from this IP.** Polymarket, Merge and Bestow each
+   double-flagged as spam with the form fully worked out; the lane stopped itself
+   per the standing rule and a retry after a 2.5h cooldown flagged again.
+3. **Lever visibly challenges the datacenter IP** — 8 postings (Anchorage
+   Digital, Atlas, Finch, LogRocket, Qvest, FloQast, Spotify, OSARO, Match).
+   Never circumvented; parked.
+4. **Every cloud Greenhouse submit needs an emailed code**, which makes the lane
+   strictly serial at roughly one application per 8-10 minutes.
+
+### Needs the user personally
+
+Polymarket (85%), Merge (88%), Bestow (87%) — Ashby, double-flagged from the
+datacenter IP, answers already worked out. Wynd Labs (88%) still open from
+2026-09-12. Axon and GRVTY ×2 need her own declarations. Emailed.
