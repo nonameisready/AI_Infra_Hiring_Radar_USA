@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T11:54:03.453Z",
+  "updatedAt": "2026-09-13T14:21:59.472Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -7614,6 +7614,58 @@
       "at": "2026-09-13",
       "via": "greenhouse (cloud batch)",
       "detail": "Submitted from the cloud container; security code entered and confirmation page rendered."
+    },
+    "6a8faa82d96ad228f125e551": {
+      "id": "6a8faa82d96ad228f125e551",
+      "key": "okx::senior software engineer, payment",
+      "company": "OKX",
+      "title": "Senior Software Engineer, Payment",
+      "matchPercent": 89,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8faa82d96ad228f125e551",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app",
+      "status": "applied",
+      "at": "2026-09-13",
+      "via": "greenhouse (cloud batch)",
+      "detail": "Submitted from the cloud container on the second pass, after the notice-period answer was added; security code entered and confirmation page rendered."
+    },
+    "6a51274178e364789ca595fe": {
+      "id": "6a51274178e364789ca595fe",
+      "key": "point72::software engineer, macro quant analytics technology",
+      "company": "Point72",
+      "title": "Software Engineer, Macro Quant Analytics Technology",
+      "matchPercent": 89,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a51274178e364789ca595fe",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app",
+      "status": "applied",
+      "at": "2026-09-13",
+      "via": "greenhouse (cloud batch)",
+      "detail": "Submitted from the cloud container on the second pass, after the preferred-location and privacy answers were added; security code entered and confirmation page rendered."
+    },
+    "6a887b33cde3717f9e9b5694": {
+      "id": "6a887b33cde3717f9e9b5694",
+      "key": "dept®::senior, software engineer",
+      "company": "DEPT®",
+      "title": "Senior, Software Engineer",
+      "matchPercent": 87,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a887b33cde3717f9e9b5694",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app",
+      "status": "applied",
+      "at": "2026-09-13",
+      "via": "greenhouse (cloud batch)",
+      "detail": "Submitted from the cloud container after the TypeScript-rating and state answers were added; security code entered and confirmation page rendered."
+    },
+    "6a4308ec6c326942b4e84fea": {
+      "id": "6a4308ec6c326942b4e84fea",
+      "key": "coalition, inc.::senior software engineer",
+      "company": "Coalition, Inc.",
+      "title": "Senior Software Engineer",
+      "matchPercent": 85,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a4308ec6c326942b4e84fea",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app",
+      "status": "applied",
+      "at": "2026-09-13",
+      "via": "greenhouse (cloud batch)",
+      "detail": "Submitted from the cloud container after the Zipcode text answer was added; security code entered and confirmation page rendered."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

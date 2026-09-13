@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T11:54:03.453Z",
+  "updatedAt": "2026-09-13T14:21:59.472Z",
   "items": [
     {
       "id": "6a8384dc2dbaf907b07695d1",
@@ -3294,52 +3294,6 @@
       "addedAt": "2026-09-03",
       "status": "parked",
       "note": "platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
-    },
-    {
-      "id": "6a8faa82d96ad228f125e551",
-      "key": "okx::senior software engineer, payment",
-      "title": "Senior Software Engineer, Payment",
-      "company": "OKX",
-      "matchPercent": 89,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a8faa82d96ad228f125e551",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=okx&jr_id=6a8faa82d96ad228f125e551&token=7978592003&utm_source=jobright",
-      "addedAt": "2026-09-03",
-      "status": "needs_answers",
-      "missing": [
-        "What is your notice period to your current employer?*",
-        "English",
-        "Mandarin Chinese",
-        "Spanish",
-        "French",
-        "Arabic",
-        "Bengali",
-        "Cantonese",
-        "Czech",
-        "Dutch",
-        "German",
-        "Greek",
-        "Hebrew",
-        "Hindi",
-        "Hungarian",
-        "Indonesian",
-        "Italian",
-        "Japanese",
-        "Korean",
-        "Bahasa Malaysia",
-        "Norwegian",
-        "Persian (Farsi)",
-        "Polish",
-        "Portuguese",
-        "Romanian",
-        "Russian",
-        "Swedish",
-        "Thai",
-        "Turkish",
-        "Ukrainian",
-        "Vietnamese",
-        "Other"
-      ],
-      "note": "2026-09-11 cloud window: missing required: What is your notice period to your current employer?*"
     },
     {
       "id": "6a8fedf00bd89e205d2481d7",
@@ -12106,29 +12060,6 @@
       ]
     },
     {
-      "id": "6a887b33cde3717f9e9b5694",
-      "key": "dept®::senior, software engineer",
-      "title": "Senior, Software Engineer",
-      "company": "DEPT®",
-      "matchPercent": 87,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a887b33cde3717f9e9b5694",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=dept&jr_id=6a887b33cde3717f9e9b5694&token=8147678",
-      "addedAt": "2026-09-05",
-      "status": "needs_answers",
-      "missing": [
-        "Do you have experience with Python? *",
-        "What level of expertise do you have with Angular? *",
-        "What level of expertise do you have with Typescript? *",
-        "Do you have consultation or client-facing experience? *",
-        "Do you have agency experience? *",
-        "Vim or Emacs? Why?*",
-        "Do you live in any of the following states?*",
-        "DEPT® Privacy Statement*"
-      ],
-      "updatedAt": "2026-09-12",
-      "note": "2026-09-12 cloud batch: form filled, held on [\"What level of expertise do you have with Typescript? *\",\"Do you have agency experience? *\",\"Vim or Emacs? Why?*\",\"Do you live in any of the following states?*\"]. Not guessed."
-    },
-    {
       "id": "6a5f8ce26e0c3c7c7d3d7855",
       "key": "chargebee retention (previously brightback)::senior backend software engineer",
       "title": "Senior Backend Software Engineer",
@@ -12284,21 +12215,6 @@
       "status": "needs_answers",
       "missing": [
         "What interests you in this role and Zanskar (100 words max) ✱"
-      ]
-    },
-    {
-      "id": "6a4308ec6c326942b4e84fea",
-      "key": "coalition, inc.::senior software engineer",
-      "title": "Senior Software Engineer",
-      "company": "Coalition, Inc.",
-      "matchPercent": 85,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a4308ec6c326942b4e84fea",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=coalition&jr_id=6a4308ec6c326942b4e84fea&token=4710478005&utm_source=jobright",
-      "addedAt": "2026-09-05",
-      "status": "needs_answers",
-      "missing": [
-        "Why Coalition (What makes you excited to join our team?)*",
-        "Zipcode*"
       ]
     },
     {
@@ -15870,25 +15786,6 @@
       "addedAt": "2026-09-06",
       "status": "parked",
       "note": "platform not automated from cloud: careers.capgemini.com"
-    },
-    {
-      "id": "6a51274178e364789ca595fe",
-      "key": "point72::software engineer, macro quant analytics technology",
-      "title": "Software Engineer, Macro Quant Analytics Technology",
-      "company": "Point72",
-      "matchPercent": 89,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a51274178e364789ca595fe",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=point72&jr_id=6a51274178e364789ca595fe&token=8060321002&utm_source=jobright",
-      "addedAt": "2026-09-06",
-      "status": "needs_answers",
-      "missing": [
-        "What is your preferred work location?*",
-        "Have you previously applied to work at Point72?*",
-        "Have you served in the military?*",
-        "In which language(s) are you fluent (written) other than English?*",
-        "Privacy *",
-        "In which language(s) are you fluent (spoken) other than English?*"
-      ]
     },
     {
       "id": "6a9b1ec79c24314c35f97d91",
