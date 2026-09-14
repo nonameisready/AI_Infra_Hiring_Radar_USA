@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-14T11:45:26.176Z",
+ "updatedAt": "2026-09-14T12:38:52.015Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -1323,10 +1323,9 @@
    "addedAt": "2026-09-01",
    "status": "needs_answers",
    "note": "[]",
-   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Will you now or in the future require sponsorship for employment visa status (e.g. H-1B st\",\"I acknowledge that all information regarding the company, including its business, products\",\"Do you consent to receive text (SMS) communications from Included Health recruiters regard\",\"Have you owned back",
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"I acknowledge that all information regarding the company, including its business, products\",\"Do you consent to receive text (SMS) communications from Included Health recruiters regard\",\"Have you owned backend systems or services end-to-end (scoping, building, testing, launchi\",\"Which best describe",
    "updatedAt": "2026-09-14",
    "missing": [
-    "Will you now or in the future require sponsorship for employment visa status (e.g. H-1B st",
     "I acknowledge that all information regarding the company, including its business, products",
     "Do you consent to receive text (SMS) communications from Included Health recruiters regard",
     "Have you owned backend systems or services end-to-end (scoping, building, testing, launchi",
@@ -1609,7 +1608,9 @@
    "atsUrl": "https://jobs.lever.co/logrocket/0aa8b60f-1a74-4e53-b23a-8d5dc7c497a8/apply?utm_source=jobright&jr_id=6a95c4ce3843db01599070b6",
    "addedAt": "2026-09-01",
    "status": "parked",
-   "note": "resolved to jobs.lever.co — assess next wave. lever hCaptcha challenged this IP"
+   "note": "resolved to jobs.lever.co — assess next wave. lever hCaptcha challenged this IP",
+   "reason": "2026-09-14 cloud: lever hCaptcha challenged this IP",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a3b1f4f649fdf16293075a7",
@@ -3605,9 +3606,9 @@
    "missing": [
     "How many years of relevant working experience do you have to the role? ✱"
    ],
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"How many years of relevant working experience do you have to the role? ✱\"]",
    "note": "[]",
-   "updatedAt": "2026-09-13"
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a88e78025fc4e7ae3db2d54",
@@ -3766,7 +3767,9 @@
    "atsUrl": "https://jobs.lever.co/anchorage/c5511716-b627-4fbd-82b5-205d15b3d9d2/apply?utm_source=jobright&jr_id=6a1062a512f8b43cf3984bd0",
    "addedAt": "2026-09-03",
    "status": "parked",
-   "note": "platform: jobs.lever.co"
+   "note": "platform: jobs.lever.co",
+   "reason": "2026-09-14 cloud: lever hCaptcha challenged this IP",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a6bafc832f9300c3a3e04c2",
@@ -4573,8 +4576,13 @@
    "addedAt": "2026-09-03",
    "status": "needs_answers",
    "note": "[]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Work authorization ✱\",\"Describe a technically complex project you led end-to-end. What did your role look like, a\",\"Tell us about a time you had to communicate a technical tradeoff or constraint to a non-te\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "Work authorization ✱",
+    "Describe a technically complex project you led end-to-end. What did your role look like, a",
+    "Tell us about a time you had to communicate a technical tradeoff or constraint to a non-te"
+   ]
   },
   {
    "id": "6a4c7a63c643fd23fed3a6f3",
@@ -4971,8 +4979,11 @@
    "addedAt": "2026-09-03",
    "status": "needs_answers",
    "note": "[{\"question\":\"How would you describe your gender identity? (mark all that apply)\",\"options\":[\"Man\",\"Non-binary\",\"Woman\",\"I prefer to self-describe\"]},{\"question\":\"How would you describe your gender identity? (mark all that apply)\",\"options\":[\"Man\",\"Non-binary\",\"Woman\",\"I prefer to self-describe\"]},{\"question\":\"How would you describe your gender identity? (mark all that apply)\",\"options\":[\"Man\",\"Non-binary\",\"Woman\",\"I prefer to self-describe\"]},{\"question\":\"How would you describe your gender identity? (mark all that apply)\",\"options\":[\"Man\",\"Non-binary\",\"Woman\",\"I prefer to self-describe\"]},{\"question\":\"How would you describe your sexual orientation? (mark all that apply)\",\"options\":[\"Asexual\",\"Bisexual and/or pansexual\",\"Gay\",\"Heterosexual\",\"Lesbian\",\"Queer\",\"I prefer to self-describe\"]},{\"question\":\"Do you identify as transgender? (select one)\",\"options\":[\"Yes\",\"No\",\"I prefer to self-describe\",\"I don't wish to answer\"]},{\"question\":\"Do you have a disability or chronic condition (physical, visual, auditory, cognitive, mental, emotional, or other) that substantially limits one or more of your major life activities, including mobility, communication (seeing, hearing, speaking), and learning? (select one)\",\"options\":[\"Yes\",\"No\",\"I prefer to self-describe\",\"I don't wish to answer\"]},{\"question\":\"Are you a veteran or active member of the United States Armed Forces? (select one)\",\"options\":[\"Yes, I am a veteran or active member\",\"No, I am not a veteran or active member\",\"I prefer to self-describe\",\"I don't wish to answer\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"We’re based in the SF Mission District and work primarily from the off\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "We’re based in the SF Mission District and work primarily from the off"
+   ]
   },
   {
    "id": "6a85aaf6d34f700f87fbd935",
@@ -5177,10 +5188,14 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9879a8af954907d65738dd",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=kalepa&jr_id=6a9879a8af954907d65738dd&token=6179747004&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_info",
+   "status": "needs_answers",
    "note": "2026-09-14 cloud: form asks whether she wants an environment where people work more than 40 hours a week. That is her own commitment to make (same class as the European-hours question she declined), so it was not answered. Everything else on the form is worked out: degree, 5+ years Yes, languages Python/Go/TypeScript/SQL, AWS Yes, salary $150,000+, start immediately, authorized Yes, sponsorship Yes. Recorded as q-long-hours.",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-14"
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"How quickly are you looking to start a new role? *\",\"Kalepa is a growth stage startup with ambitious goals. We are willing \"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "How quickly are you looking to start a new role? *",
+    "Kalepa is a growth stage startup with ambitious goals. We are willing "
+   ]
   },
   {
    "id": "6a6e1eabc56c0956e8adaba4",
@@ -5205,8 +5220,12 @@
    "addedAt": "2026-09-03",
    "status": "needs_answers",
    "note": "[{\"question\":\"Gender*\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race*\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status*\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status*\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Are you currently an employee or contractor at Abnormal? (if Yes, plea\",\"Please identify your race*\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "Are you currently an employee or contractor at Abnormal? (if Yes, plea",
+    "Please identify your race*"
+   ]
   },
   {
    "id": "6a9714dbe4e60e4b8da5befe",
@@ -5777,8 +5796,12 @@
    "addedAt": "2026-09-03",
    "status": "needs_answers",
    "note": "[]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"What is your favorite software framework and why? ✱\",\"Which experience on your resume best represents the type of work you want to continue doin\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "What is your favorite software framework and why? ✱",
+    "Which experience on your resume best represents the type of work you want to continue doin"
+   ]
   },
   {
    "id": "6a580ad79838a11e5d836789",
@@ -5875,8 +5898,11 @@
    "addedAt": "2026-09-03",
    "status": "needs_answers",
    "note": "[]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"If you are not located in the listed metropolitan area on this post, are you comfortable r\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "If you are not located in the listed metropolitan area on this post, are you comfortable r"
+   ]
   },
   {
    "id": "6a7b763decf5194164fbe2dd",
@@ -8459,15 +8485,15 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a99a081ad752e2ad5500bb5",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=thefarmersdog&jr_id=6a99a081ad752e2ad5500bb5&token=8782117002&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "needs_answers",
+   "status": "parked",
    "missing": [
     "Will you require TFD sponsorship to continue your employment, either n",
     "Have you previously applied to TFD or interviewed with the company?*",
     "Please share with us your location details:*"
    ],
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
+   "reason": "2026-09-14 cloud: no_popup",
    "note": "[{\"question\":\"Race and Ethnicity\",\"options\":[\"White (Not Hispanic or Latino)\",\"Hispanic or Latino\",\"Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)\",\"American Indian or Native Alaskan (Not Hispanic or Latino)\",\"Asian (Not Hispanic or Latino)\",\"Black or African American (Not Hispanic or Latino)\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not wish to answer\"]},{\"question\":\"Race and Ethnicity\",\"options\":[\"White (Not Hispanic or Latino)\",\"Hispanic or Latino\",\"Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)\",\"American Indian or Native Alaskan (Not Hispanic or Latino)\",\"Asian (Not Hispanic or Latino)\",\"Black or African American (Not Hispanic or Latino)\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline to Self Identify\"]},{\"question\":\"Race and Ethnicity\",\"options\":[\"White (Not Hispanic or Latino)\",\"Hispanic or Latino\",\"Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)\",\"American Indian or Native Alaskan (Not Hispanic or Latino)\",\"Asian (Not Hispanic or Latino)\",\"Black or African American (Not Hispanic or Latino)\"]}]",
-   "updatedAt": "2026-09-13"
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a99d80f551435518ebf188b",
@@ -9560,8 +9586,11 @@
    "addedAt": "2026-09-04",
    "status": "needs_answers",
    "note": "[]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"How many years of professional software engineering experience do you have? ✱\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "How many years of professional software engineering experience do you have? ✱"
+   ]
   },
   {
    "id": "6a99f0568a8b765bc55f6693",
@@ -9598,8 +9627,12 @@
    "addedAt": "2026-09-04",
    "status": "needs_answers",
    "note": "[]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"In a few words, what interested you about VGS? ✱\",\"If you have a GitHub, GitLab, LeetCode, or other coding profile you'd like to share, pleas\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "In a few words, what interested you about VGS? ✱",
+    "If you have a GitHub, GitLab, LeetCode, or other coding profile you'd like to share, pleas"
+   ]
   },
   {
    "id": "6890e8bbf47efe211395145d",
@@ -9648,8 +9681,12 @@
    "addedAt": "2026-09-04",
    "status": "needs_answers",
    "note": "[{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Region (State/County/Province)*\",\"Tenable uses CLEAR to securely verify candidate identity during the in\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "Region (State/County/Province)*",
+    "Tenable uses CLEAR to securely verify candidate identity during the in"
+   ]
   },
   {
    "id": "6a99d8f3040e5c3d07599454",
@@ -10130,8 +10167,17 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7bbfbb3b399d106e4d8422",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=octanelending&jr_id=6a7bbfbb3b399d106e4d8422&token=7653332003&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"Do you require work authorization? *\",\"If applicable, please provide additional context to the previous quest\",\"For co — run on Mac with Qwen."
+   "status": "needs_answers",
+   "note": "9/4 cloud GH flagged; missing: [\"Do you require work authorization? *\",\"If applicable, please provide additional context to the previous quest\",\"For co — run on Mac with Qwen.",
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Do you require work authorization? *\",\"If applicable, please provide additional context to the previous quest\",\"For compliance reasons, we can only hire employees who are based in sp\",\"What is your strongest programming language?*\",\"It is unlawful in Massachusetts to require or administer a lie de",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "Do you require work authorization? *",
+    "If applicable, please provide additional context to the previous quest",
+    "For compliance reasons, we can only hire employees who are based in sp",
+    "What is your strongest programming language?*",
+    "It is unlawful in Massachusetts to require or administer a lie detecto"
+   ]
   },
   {
    "id": "6a9996cf138838706058ebb6",
@@ -10538,8 +10584,13 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a874075cde3717f9e9b10ae",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=wayve&jr_id=6a874075cde3717f9e9b10ae&token=8732317002&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"Can you commit to a minimum of 3 days a week in our Sunnyvale office?*\"] — run on Mac with Qwen."
+   "status": "needs_answers",
+   "note": "9/4 cloud GH flagged; missing: [\"Can you commit to a minimum of 3 days a week in our Sunnyvale office?*\"] — run on Mac with Qwen.",
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Can you commit to a minimum of 3 days a week in our Sunnyvale office?*\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "Can you commit to a minimum of 3 days a week in our Sunnyvale office?*"
+   ]
   },
   {
    "id": "69fa934fa3d34b4f76f662e8",
@@ -10802,8 +10853,13 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a6426455c7e2d715ebaf6d0",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=playlist&jr_id=6a6426455c7e2d715ebaf6d0&token=4695615006&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"Do you now, or will you in the future, require employer-sponsored work\",\"Are you a current or former Mindbody, ClassPa — run on Mac with Qwen."
+   "status": "needs_answers",
+   "note": "9/4 cloud GH flagged; missing: [\"Do you now, or will you in the future, require employer-sponsored work\",\"Are you a current or former Mindbody, ClassPa — run on Mac with Qwen.",
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Are you a current or former Mindbody, ClassPass, EGYM, or Booker emplo\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "Are you a current or former Mindbody, ClassPass, EGYM, or Booker emplo"
+   ]
   },
   {
    "id": "6a9a58bbe6c97d4b970af232",
@@ -10850,8 +10906,10 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a3ea41e78237a036d5e4a18",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=babelstreet&jr_id=6a3ea41e78237a036d5e4a18&token=7939120&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"If yes, is Babel Street considered a competitor to your most recent em\"] — run on Mac with Qwen."
+   "status": "parked",
+   "note": "9/4 cloud GH flagged; missing: [\"If yes, is Babel Street considered a competitor to your most recent em\"] — run on Mac with Qwen.",
+   "reason": "2026-09-14 cloud: no_apply_button",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a5ae75e686b4755d1e1761d",
@@ -11080,8 +11138,10 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4129f2b526a24fc31316ce",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=dvtrading&jr_id=6a4129f2b526a24fc31316ce&token=4687398005&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"Do you have experience working at a proprietary trading firm?*\",\"If yes, select your most recent proprietary trading f — run on Mac with Qwen."
+   "status": "parked",
+   "note": "9/4 cloud GH flagged; missing: [\"Do you have experience working at a proprietary trading firm?*\",\"If yes, select your most recent proprietary trading f — run on Mac with Qwen.",
+   "reason": "2026-09-14 cloud: no_apply_button",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a990906af954907d6574cce",
@@ -11094,18 +11154,6 @@
    "addedAt": "2026-09-04",
    "status": "parked",
    "note": "platform: ouryahoo.wd5.myworkdayjobs.com"
-  },
-  {
-   "id": "6a5e68d3f29acc1a117474ec",
-   "key": "truveta::senior software engineer - backend services",
-   "title": "Senior Software Engineer - Backend Services",
-   "company": "Truveta",
-   "matchPercent": 72,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a5e68d3f29acc1a117474ec",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=truveta&jr_id=6a5e68d3f29acc1a117474ec&token=5995853004&utm_source=jobright",
-   "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"Are you located in the greater Seattle area? *\"] — run on Mac with Qwen."
   },
   {
    "id": "6a72352aee751e0c7934788a",
@@ -11140,8 +11188,13 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8e03db25fc4e7ae3dbf457",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=classpass&jr_id=6a8e03db25fc4e7ae3dbf457&token=4708352006&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"Do you now, or will you in the future, require employer-sponsored work\",\"Are you a current or former Mindbody, ClassPa — run on Mac with Qwen."
+   "status": "needs_answers",
+   "note": "9/4 cloud GH flagged; missing: [\"Do you now, or will you in the future, require employer-sponsored work\",\"Are you a current or former Mindbody, ClassPa — run on Mac with Qwen.",
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Do you identify as LGBTQ?*\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "Do you identify as LGBTQ?*"
+   ]
   },
   {
    "id": "6a552a20268af95237be9bbb",
@@ -11903,8 +11956,8 @@
     "Postal Code*",
     "Who is your most recent/current employer?*"
    ],
-   "reason": "2026-09-13 cloud: no_popup",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: unconfirmed submit: no confirmation, no page text, no error",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a5f90336e0c3c7c7d3d7904",
@@ -15304,8 +15357,8 @@
     "Do you have experience with Go?*",
     "At this time, we're only able to hire employees working from the follo"
    ],
-   "reason": "2026-09-13 cloud: no_apply_button",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: no_apply_button",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "692079083f782d2f1afc7a00",
@@ -16155,7 +16208,9 @@
    "originalUrl": "https://jobs.lever.co/getpoint/11acaae5-2c6f-4cc3-9c6e-9dc63a0ec34e/apply?utm_source=jobright&jr_id=6a0c8d744d932036368795b6",
    "addedAt": "2026-09-07",
    "status": "parked",
-   "note": "platform not automated from cloud: jobs.lever.co"
+   "note": "platform not automated from cloud: jobs.lever.co",
+   "reason": "2026-09-14 cloud: lever hCaptcha challenged this IP",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a55b5deec54dd532d812506",
@@ -16644,8 +16699,12 @@
    "addedAt": "2026-09-07",
    "status": "needs_answers",
    "note": "[]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"If you are an approved agency/recruiting firm engaged on this role please include your can\",\"Would you be open to visiting the New York City office 2-3 days a week? ✱\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "If you are an approved agency/recruiting firm engaged on this role please include your can",
+    "Would you be open to visiting the New York City office 2-3 days a week? ✱"
+   ]
   },
   {
    "id": "6a523fcbe726ec56126a2432",
@@ -16672,8 +16731,11 @@
    "addedAt": "2026-09-07",
    "status": "needs_answers",
    "note": "[]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"U.S. export control laws, including the regulations of the Export Administration Regulatio\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "U.S. export control laws, including the regulations of the Export Administration Regulatio"
+   ]
   },
   {
    "id": "69e796190a6e09555302b4be",
@@ -16953,8 +17015,12 @@
    "originalUrl": "https://jobs.lever.co/teamsnap/86869664-1c38-4f5b-9a2a-555cdb565713/apply",
    "status": "needs_answers",
    "note": "[]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Work Authorization ✱\",\"Target Compensation: Please let us know your required base salary + OTE for this role. ✱\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "Work Authorization ✱",
+    "Target Compensation: Please let us know your required base salary + OTE for this role. ✱"
+   ]
   },
   {
    "id": "arcfield-0908",
@@ -16982,8 +17048,11 @@
    "originalUrl": "https://jobs.lever.co/snaplogic/a7fce63d-9e6f-495a-b8cd-894fd1d1ff58/apply",
    "status": "needs_answers",
    "note": "[]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Work Status ✱\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "Work Status ✱"
+   ]
   },
   {
    "id": "6a-afs-0908",
@@ -21679,16 +21748,13 @@
    "addedAt": "2026-09-12",
    "status": "needs_answers",
    "missing": [
-    "Please select your State*",
-    "Please provide your Zip Code *",
     "Desired Salary*",
     "Have you worked for Two Six Technologies or an affiliate in the past? ",
-    "Are you a current or former direct employee of any government institut",
     "Please identify your race*"
    ],
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Desired Salary*\",\"Have you worked for Two Six Technologies or an affiliate in the past? \",\"Please identify your race*\"]",
    "note": "[{\"question\":\"Desired Salary*\",\"options\":[\"$40,000-$60,000\",\"$61,000-$80,000\",\"$81,000-$100,000\",\"$101,000-$120,000\",\"$121,000-$140,000\",\"$141,000-$160,000\",\"$161,000-$180,000\",\"$181,000-$200,000\",\"$201,000-$220,000\",\"$221,000-$240,000\"]},{\"question\":\"Gender*\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race*\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status*\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status*\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
-   "updatedAt": "2026-09-13"
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a1a0edb2b206f3955eb23b3",
@@ -21761,12 +21827,11 @@
    "status": "needs_answers",
    "missing": [
     "If hired by Warp, will you be based in the U.S. or Canada?*",
-    "Do you have permanent authorization to work for Warp in the U.S. or Ca",
     "Share your favorite blog post, article, or paper you've read in the la"
    ],
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"If hired by Warp, will you be based in the U.S. or Canada?*\",\"Share your favorite blog post, article, or paper you've read in the la\"]",
    "note": "[{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
-   "updatedAt": "2026-09-13"
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6aa168fd2f936e4a53dab880",
@@ -22221,9 +22286,9 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=liftoff&token=8127027&jr_id=6a7d0beed77e8156a8e35ad4",
    "addedAt": "2026-09-12",
    "updatedAt": "2026-09-14",
-   "status": "needs_answers",
+   "status": "parked",
    "note": "[{\"question\":\"What is your SQL skill level?*\",\"options\":[\"Advanced\",\"Intermediate\",\"Beginner\",\"No Experience\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
-   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Do you have customer and/or stakeholder facing experience?*\"]",
+   "reason": "2026-09-14 cloud: unconfirmed submit: no confirmation, no page text, no error",
    "missing": [
     "Do you have customer and/or stakeholder facing experience?*"
    ]
@@ -22432,10 +22497,13 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6aa510c4a77a53f5a156f60b",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=pathward&token=6188682004&jr_id=6aa510c4a77a53f5a156f60b",
    "addedAt": "2026-09-12",
-   "updatedAt": "2026-09-13",
+   "updatedAt": "2026-09-14",
    "status": "needs_answers",
    "note": "[{\"question\":\"How did you hear about this opportunity?*\",\"options\":[\"Career Fair\",\"Circa\",\"College/University\",\"Corporate Website\",\"Employee Referral\",\"Glassdoor\",\"Indeed\",\"LinkedIn\",\"Search Firm/Agency\",\"Unsolicited\"]},{\"question\":\"Will you now or in the future require Pathward to sponsor you for an employment-based visa or participate in a work authorization benefit in order to employ you (for example, H-1B or OPT)?* If you answer yes to this question, you will not be considered.*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer."
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"We are excited to learn more about you! Please share what initially sp\"]",
+   "missing": [
+    "We are excited to learn more about you! Please share what initially sp"
+   ]
   },
   {
    "id": "6a303c49093df201d07b0493",
@@ -22524,10 +22592,15 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6aa3788bcb2e99857c2703de",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=mitratech&token=8180269&jr_id=6aa3788bcb2e99857c2703de",
    "addedAt": "2026-09-12",
-   "updatedAt": "2026-09-13",
+   "updatedAt": "2026-09-14",
    "status": "needs_answers",
    "note": "[{\"question\":\"Do you currently, or will you in the future, require employer sponsorship to work in the United States? Examples include H-1B, TN, O-1, employment-based green card sponsorship, or continued employment after F-1 OPT.*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]},{\"question\":\"Do you currently, or will you in the future, require employer sponsorship to work in the United States? Examples include H-1B, TN, O-1, employment-based green card sponsorship, or continued employment after F-1 OPT.*\",\"options\":[\"Yes\",\"No\"]}]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer."
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Do you have experience using MiSop?*\",\"How would you rate your proficiency with MiSop, and can you briefly sh\",\"Please indicate your desired base salary (in USD).*\"]",
+   "missing": [
+    "Do you have experience using MiSop?*",
+    "How would you rate your proficiency with MiSop, and can you briefly sh",
+    "Please indicate your desired base salary (in USD).*"
+   ]
   },
   {
    "id": "6aa3f7118275e3a21175e2f1",
@@ -22632,10 +22705,16 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6aa3c2cb959a10d7230d3d42",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cypresscreekrenewables&jr_id=6aa3c2cb959a10d7230d3d42&token=8180722",
    "addedAt": "2026-09-12",
-   "updatedAt": "2026-09-13",
+   "updatedAt": "2026-09-14",
    "status": "needs_answers",
    "note": "[{\"question\":\"Which office do you prefer to work from (3 days in office per week)?*\",\"options\":[\"Durham, NC\",\"Washington, DC\",\"Neither\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer."
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Which office do you prefer to work from (3 days in office per week)?*\",\"Please enter the Name and Department of any of your close relatives wh\",\"Provide a brief overview of your professional experience in the energy\",\"Briefly describe a relevant ML model that you worked on or contributed\"]",
+   "missing": [
+    "Which office do you prefer to work from (3 days in office per week)?*",
+    "Please enter the Name and Department of any of your close relatives wh",
+    "Provide a brief overview of your professional experience in the energy",
+    "Briefly describe a relevant ML model that you worked on or contributed"
+   ]
   },
   {
    "id": "6aa4823cf3aa936e2cdb17e3",
@@ -22737,12 +22816,12 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a84a42be459fa3baa85fad0",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=datavant2&jr_id=6a84a42be459fa3baa85fad0&token=4576023008",
    "addedAt": "2026-09-13",
-   "status": "needs_answers",
+   "status": "parked",
    "missing": [
     "Will you be able to work in the location listed in the job description",
     "By submitting your application you confirm that the information you pr"
    ],
-   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Will you be able to work in the location listed in the job description\",\"By submitting your application you confirm that the information you pr\"]",
+   "reason": "2026-09-14 cloud: unconfirmed submit: no confirmation, no page text, no error",
    "note": "[{\"question\":\"I consent to receive text messages regarding my job application status, interview updates, and future job opportunities from Datavant. You can opt out any time by texting STOP. For assistance, text HELP. Message & data rates may apply; Messaging frequency may vary. Visit www.datavant.com/privacy-policy to see our privacy policy. *\",\"options\":[\"Yes, I opt in to receive text messages.\",\"No, I opt out and prefer communication via email or phone call only.\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
    "updatedAt": "2026-09-14"
   },
@@ -22806,9 +22885,10 @@
    "status": "needs_answers",
    "missing": [
     "Are you currently residing in the US?*",
-    "This role requires traveling to work from client sites within the Unit",
     "Confirm"
-   ]
+   ],
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Are you currently residing in the US?*\",\"Confirm\"]",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6aa618c5654b2a9424cf7525",
@@ -23238,18 +23318,6 @@
    "note": "platform not automated from cloud: autostore.wd3.myworkdayjobs.com"
   },
   {
-   "id": "6aa4c864a77a53f5a156e0c3",
-   "key": "newsbreak::senior software engineer, lifecycle & messaging platform",
-   "title": "Senior Software Engineer, Lifecycle & Messaging Platform",
-   "company": "NewsBreak",
-   "matchPercent": 73,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6aa4c864a77a53f5a156e0c3",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=newsbreak&token=4712873006&jr_id=6aa4c864a77a53f5a156e0c3",
-   "addedAt": "2026-09-13",
-   "status": "parked",
-   "note": "unconfirmed submit: "
-  },
-  {
    "id": "6a650179e8d8d22e3292dc34",
    "key": "tiktok::senior backend software engineer – trust and safety (multiple positions)",
    "title": "Senior Backend Software Engineer – Trust and Safety (Multiple Positions)",
@@ -23644,7 +23712,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7d18cedc3dff2d1c0cab45",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=voxieinc&token=4723729005&jr_id=6a7d18cedc3dff2d1c0cab45",
    "addedAt": "2026-09-14",
-   "status": "needs_info",
+   "status": "needs_answers",
    "missing": [
     "Are you currently set up to legally work as an independent contractor ",
     "Which range best fits your target rate for this contract role (paid in",
@@ -23653,7 +23721,8 @@
     "On a scale of 1 (color-coded spreadsheet for everything) to 10 (sticky"
    ],
    "note": "2026-09-14 cloud: contract (1099) role. Blocked on two questions only the applicant can answer — whether she is set up to work legally as an independent contractor on F-1 CPT/EAD, and her target rate for a contract engagement. Recorded as q-contractor-1099; never guessed. Other questions on the form (US-based written/verbal communication, AI-tool usage story, organization self-rating) are answerable and will go in once she replies.",
-   "updatedAt": "2026-09-14"
+   "updatedAt": "2026-09-14",
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Are you currently set up to legally work as an independent contractor \",\"Which range best fits your target rate for this contract role (paid in\",\"This role involves daily written communication and live calls with U.S\",\"Tell us about a time an AI coding tool (Copilot, Claude, Cursor, etc.)\",\"On a s"
   },
   {
    "id": "6a55b825ec54dd532d81284b",

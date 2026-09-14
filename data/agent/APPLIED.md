@@ -949,3 +949,73 @@ was verified against the real option list before being committed.
 - Afresh — Sr. Backend Engineer, Ordering (88%) — greenhouse, confirmed
 - Datadog — Senior Software Engineer - Distributed Systems (75%) — greenhouse, confirmed
 - Elastic — Software Engineer II - Builder Experience - Platform Engineering Productivity (75%) — greenhouse, confirmed
+
+
+## 2026-09-14 — 35 confirmed (4 Mac · 31 cloud), all-time 709
+
+The Mac batch ran at 1:00am ET and submitted four (Pinwheel, Afresh, Datadog,
+Elastic), parking 51. The cloud window merged those results and then worked the
+Greenhouse backlog — and found the reason the backlog existed.
+
+**What unblocked it.** A Greenhouse posting whose earlier attempt stopped at the
+emailed security code shows the code field BEFORE the submit button on the next
+visit. The finisher treated that as unanswerable and refused to submit, so every
+such posting parked as "greenhouse is holding an unfinished verification" — most
+of the backlog. Landing on such a form mails a fresh code, so the fix was to skip
+the first submit click in that case and fall straight into entering the code.
+Most of today's cloud confirmations were postings stuck in exactly that state.
+
+**What stayed blocked.** Ashby flagged this container's IP as spam on two
+submissions (Axle Health) and the lane was stopped. Lever's hCaptcha challenged
+the datacenter IP every time (Finch, Atlas, OSARO, Match, Stand Together).
+Workday sign-in is still silently rejected from the cloud. The Radar top-up could
+not run at all: its Neon Postgres is unreachable from this container, which has
+HTTPS egress only. A second Jobright harvest at 11:50 UTC returned the same 652
+cards as the first — no new supply appeared during the day.
+
+**Dropped rather than submitted**, because an honest answer disqualifies or the
+posting is not hers to take: Nexxen and Chainguard state they cannot sponsor;
+Zerion requires the European working hours she declined; Samsara's posting is
+Remote - Canada with a CAD range; Vannevar Labs and Accenture Federal Services
+are defense work; Kalepa asks whether she wants an environment working more than
+forty hours a week, which is her own commitment to make (q-long-hours).
+
+| # | Company | Title | Match | Via | Link |
+| - | ------- | ----- | ----- | --- | ---- |
+| 1 | nCino | Senior Software Engineer | 92% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=ncinoinc&token=4402387009) |
+| 2 | Pinwheel | Sr. Backend Engineer, AI Projects | 90% | mac (home IP) | [posting](https://job-boards.greenhouse.io/embed/job_app?for=pinwheelapi&token=7991264003) |
+| 3 | Afresh | Sr. Backend Engineer, Ordering | 88% | mac (home IP) | [posting](https://job-boards.greenhouse.io/embed/job_app?for=afresh) |
+| 4 | Verana Health | Senior Software Engineer | 88% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app) |
+| 5 | Honor | Senior Backend Engineer | 88% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=honor&token=8382000002) |
+| 6 | Harbinger | Software Engineer, Enterprise Applications (Backend) | 88% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=harbingermotors&token=5216950007) |
+| 7 | Pattern Data | Software Engineer (Senior-Staff) | 88% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=patterndata&token=5196696007) |
+| 8 | Pushpay | Software Development Engineer 3, Resi | 86% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=pushpay&token=7834020) |
+| 9 | Roadie | Senior Software Engineer - Backend | 86% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=roadie&token=8786983002) |
+| 10 | Amplitude | Senior Software Engineer, Enterprise Engineering | 85% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=amplitude&token=8730197002) |
+| 11 | Syndio | Senior/Staff Software Engineer, Backend (US - Remote or Calgary) | 84% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=syndio) |
+| 12 | Greenhouse Software | Senior Backend Developer | 84% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=smartstate&token=4792467101) |
+| 13 | SmartAsset | Senior Software Engineer | 84% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=smartasset&token=8626665002) |
+| 14 | Cross River | Senior Software Engineer | 83% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=crossriverbank&token=7626998003) |
+| 15 | Vectra AI | Senior Software Engineer | 83% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=vectranetworks&token=8003612) |
+| 16 | Divergent | Senior Full Stack Software Engineer | 82% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=divergent) |
+| 17 | CLEAR | Senior Fullstack Software Engineer | 81% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=clear&token=8043844) |
+| 18 | Picarro | Senior Software Engineer - Cloud Data Platform | 81% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=picarroinc&token=5399150008) |
+| 19 | Convera | Senior Software Engineer with Convera USA LLC (Denver, CO) | 80% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=convera) |
+| 20 | NexHealth | Senior Software Engineer, Platform | 80% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=nexhealth&token=5993376004) |
+| 21 | Xometry | Senior Software Engineer | 80% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=xometry&token=5004988007) |
+| 22 | Quantifind | Senior Software Engineer (Scala) | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=quantifind) |
+| 23 | Atto Trading | Low-Latency Developer | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=attotrading&token=4209286009) |
+| 24 | SentinelOne | Senior Software Engineer - Java | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=sentinellabs&token=7772360003) |
+| 25 | Postman | Backend and System Engineer, Flows | 78% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=postman&token=7485114003) |
+| 26 | Virtru | Senior Software Engineer | 78% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=virtru&token=4711473005) |
+| 27 | Klaviyo | Senior Software Engineer, Asynchronous Processing | 78% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=klaviyo&token=7783904003) |
+| 28 | 6sense | Sr. Software Engineer | 78% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=6sense&token=7834739) |
+| 29 | Coupang | Staff Backend Engineer (Application Infra) | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=coupanginternal) |
+| 30 | Datadog | Senior Software Engineer - Distributed Systems | 75% | mac (home IP) | [posting](https://job-boards.greenhouse.io/embed/job_app?for=datadog) |
+| 31 | Elastic | Software Engineer II - Builder Experience - Platform Engineering Productivity | 75% | mac (home IP) | [posting](https://job-boards.greenhouse.io/embed/job_app?for=elastic&token=8154426) |
+| 32 | PathAI | Senior Software Engineer, Backend | 74% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=pathai) |
+| 33 | NewsBreak | Senior Software Engineer, Lifecycle & Messaging Platform | 73% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=newsbreak&token=4712873006) |
+| 34 | Zipline | Senior Software Engineer, Enterprise Systems | 72% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=flyzipline&token=7800774003) |
+| 35 | Truveta | Senior Software Engineer - Backend Services | 72% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=truveta) |
+
+Parks recorded today, by status: parked 102, needs_answers 35, dropped 6, local replay 3, user_manual 1.
