@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-14T06:50:06.453Z",
+ "updatedAt": "2026-09-14T09:21:06.141Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -23945,7 +23945,9 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69e1303b40a62c1fa93b70e4",
    "atsUrl": "https://jobs.ashbyhq.com/axle-health/0bcdc195-ac3f-40d6-b85c-c4856cefa6d9/application?jr_id=69e1303b40a62c1fa93b70e4",
    "addedAt": "2026-09-14",
-   "status": "local replay"
+   "status": "user_manual",
+   "note": "2026-09-14 cloud: Ashby flagged this container IP as spam on two submissions (form fully worked out; ~2 minutes from a residential browser). Answers: phone 281-250-7589, LinkedIn/GitHub links, location Jersey City; \"open to working from our Santa Monica offices 5 days per week\" = Yes; authorized to work in the US = Yes; require visa sponsorship = Yes.",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a51190a78e364789ca58be2",
@@ -23956,7 +23958,9 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a51190a78e364789ca58be2",
    "atsUrl": "https://jobs.ashbyhq.com/nexxen/c07b0697-35c0-4b60-80f9-5c584c4fb6e4/application?jr_id=6a51190a78e364789ca58be2",
    "addedAt": "2026-09-14",
-   "status": "local replay"
+   "status": "dropped",
+   "note": "2026-09-14 cloud: posting requires candidates authorized to work in the U.S. without current or future sponsorship by Nexxen — she needs cap-exempt H-1B sponsorship, so the honest answer disqualifies. Dropped rather than submitted; do not re-queue.",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a7d18cedc3dff2d1c0cab45",
