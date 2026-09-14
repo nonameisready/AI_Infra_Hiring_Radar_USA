@@ -1,7 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T00:00:00Z",
-  "open": [],
+  "updatedAt": "2026-09-14T09:32:10.792Z",
+  "open": [
+    {
+      "id": "q-contractor-1099",
+      "question": "Voxie 的 Senior Software Engineer 是 contract（1099/独立承包商）岗位，申请表必答两题：(1) Are you currently set up to legally work as an independent contractor? (2) 这个 contract 岗位你的目标时薪/费率区间是多少？F-1 CPT/EAD 身份下能否以独立承包商身份工作，属于你本人和律师才能确认的事实，代理不会替你猜。请回复这两题的答案（以及今后是否要继续投 contract 岗位）。",
+      "field": "employment.contractorStatus,contractRate",
+      "askedAt": "2026-09-14",
+      "blocking": true
+    }
+  ],
   "answered": [
     {
       "id": "q-login-method",

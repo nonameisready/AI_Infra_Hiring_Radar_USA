@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-14T09:21:06.141Z",
+ "updatedAt": "2026-09-14T09:53:36.757Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -8196,30 +8196,6 @@
    "note": "platform not automated from cloud: pru.wd5.myworkdayjobs.com | 9/4 cloud: pru.wd5 registration silently rejected (primary+fallback pw, no email); datacenter IP block - replay on Mac"
   },
   {
-   "id": "6a7c8bacd77e8156a8e325e2",
-   "key": "verana health::senior software engineer",
-   "title": "Senior Software Engineer",
-   "company": "Verana Health",
-   "matchPercent": 88,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a7c8bacd77e8156a8e325e2",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=veranahealth&jr_id=6a7c8bacd77e8156a8e325e2&token=8700261002&utm_source=jobright",
-   "addedAt": "2026-09-04",
-   "status": "needs_answers",
-   "missing": [
-    "What US State do you currently reside in?*",
-    "How soon after an offer are you available to start?*",
-    "Are you comfortable working in a startup-like environment where priori",
-    "How many years of hands-on backend development experience do you have ",
-    "Are you currently located in the San Francisco Bay Area*",
-    "Are you able to come into the SF office for an interview?*",
-    "Are you currently located in the New York Area?*",
-    "Are you able to come into the NY office for an interview *"
-   ],
-   "note": "[{\"question\":\"How many years of hands-on backend development experience do you have working with Java, Spring Boot, and system design?*\",\"options\":[\"5 or more years\",\"3–4 years\",\"1–2 years\",\"Less than 1 year\"]},{\"question\":\"How many years of hands-on backend development experience do you have working with Java, Spring Boot, and system design?*\",\"options\":[\"5 or more years\",\"3–4 years\",\"1–2 years\",\"Less than 1 year\"]},{\"question\":\"What US State do you currently reside in?*\",\"options\":[\"CA\",\"Other\"]},{\"question\":\"What US State do you currently reside in?*\",\"options\":[\"CA\",\"Other\"]},{\"question\":\"How many years of hands-on backend development experience do you have working with Java, Spring Boot, and system design?*\",\"options\":[\"5 or more years\",\"3–4 years\",\"1–2 years\",\"Less than 1 year\"]},{\"question\":\"How many years of hands-on backend development experience do you have working with Java, Spring Boot, and system design?*\",\"options\":[\"5 or more years\",\"3–4 years\",\"1–2 years\",\"Less than 1 year\"]},{\"question\":\"Are you comfortable using AI tools in your day-to-day engineering workflow?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"How many years of hands-on backend development experience do you have working with Java, Spring Boot, and system design?*\",\"options\":[\"5 or more years\",\"3–4 years\",\"1–2 years\",\"Less than 1 year\"]},{\"question\":\"How many years of hands-on backend development experience do you have working with Java, Spring Boot, and system design?*\",\"options\":[\"5 or more years\",\"3–4 years\",\"1–2 years\",\"Less than 1 year\"]}]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
-  },
-  {
    "id": "6a53fc40e726ec56126a8b3f",
    "key": "workday::sr software development engineer",
    "title": "Sr Software Development Engineer",
@@ -9152,10 +9128,10 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a872a87d34f700f87fc3d15",
    "atsUrl": "https://jobs.lever.co/zerion/d10ab83b-f425-49c2-bc93-09a14e97c2b8/apply?utm_source=jobright&jr_id=6a872a87d34f700f87fc3d15",
    "addedAt": "2026-09-04",
-   "status": "needs_answers",
-   "note": "[]",
+   "status": "dropped",
+   "note": "2026-09-14 cloud: role requires working European hours (UTC+0/+1). The applicant declined that schedule (user directive 2026-09-13); onsite/relocation anywhere in the US stays Yes, but working hours are a separate commitment. Dropped so dedupe never re-queues it.",
    "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a982610dd171c72857906ff",
@@ -23971,14 +23947,16 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7d18cedc3dff2d1c0cab45",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=voxieinc&token=4723729005&jr_id=6a7d18cedc3dff2d1c0cab45",
    "addedAt": "2026-09-14",
-   "status": "needs_answers",
+   "status": "needs_info",
    "missing": [
     "Are you currently set up to legally work as an independent contractor ",
     "Which range best fits your target rate for this contract role (paid in",
     "This role involves daily written communication and live calls with U.S",
     "Tell us about a time an AI coding tool (Copilot, Claude, Cursor, etc.)",
     "On a scale of 1 (color-coded spreadsheet for everything) to 10 (sticky"
-   ]
+   ],
+   "note": "2026-09-14 cloud: contract (1099) role. Blocked on two questions only the applicant can answer — whether she is set up to work legally as an independent contractor on F-1 CPT/EAD, and her target rate for a contract engagement. Recorded as q-contractor-1099; never guessed. Other questions on the form (US-based written/verbal communication, AI-tool usage story, organization self-rating) are answerable and will go in once she replies.",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a55b825ec54dd532d81284b",
@@ -24041,18 +24019,6 @@
    "addedAt": "2026-09-14",
    "status": "parked",
    "note": "platform not automated from cloud: www.linkedin.com"
-  },
-  {
-   "id": "68dee71d44d32141e0c03ae2",
-   "key": "postman::backend and system engineer, flows",
-   "title": "Backend and System Engineer, Flows",
-   "company": "Postman",
-   "matchPercent": 78,
-   "jobrightUrl": "https://jobright.ai/jobs/info/68dee71d44d32141e0c03ae2",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=postman&jr_id=68dee71d44d32141e0c03ae2&token=7485114003",
-   "addedAt": "2026-09-14",
-   "status": "parked",
-   "note": "unconfirmed submit: "
   },
   {
    "id": "6aa720d02ed333b4ea5caf58",
