@@ -3947,6 +3947,54 @@
   {
    "label": "customer and/?or stakeholder facing experience|stakeholder[- ]facing experience|client[- ]facing experience",
    "prefer": "^yes"
+  },
+  {
+   "label": "consent to receive text \\(?sms\\)? communications|receive (text|sms) messages from .{0,30}recruit",
+   "prefer": "^no"
+  },
+  {
+   "label": "owned backend (systems|services) end.to.end|end.to.end ownership of backend",
+   "prefer": "^yes|extensive|many times"
+  },
+  {
+   "label": "^do you require work authorization",
+   "prefer": "^yes"
+  },
+  {
+   "label": "^what is your strongest programming language|strongest programming language",
+   "prefer": "python"
+  },
+  {
+   "label": "unlawful in massachusetts to require or administer a lie detector",
+   "prefer": "^yes|^i (acknowledge|understand|agree)|^acknowledge|^confirm"
+  },
+  {
+   "label": "commit to a minimum of \\d days a week in our [a-z ]+ office|minimum of \\d+ days (a|per) week in (the|our) office",
+   "prefer": "^yes"
+  },
+  {
+   "label": "are you a current or former [a-z, ]+ employee",
+   "prefer": "^no"
+  },
+  {
+   "label": "will you be able to work in the location listed in the job description",
+   "prefer": "^yes"
+  },
+  {
+   "label": "by submitting your application you confirm that the information",
+   "prefer": "^yes|^i (confirm|agree|acknowledge)|^confirm|^agree"
+  },
+  {
+   "label": "do you have any current offers you are considering",
+   "prefer": "^no"
+  },
+  {
+   "label": "expertise in developing etl or data pipelines|experience building etl|data pipelines that run at",
+   "prefer": "^yes"
+  },
+  {
+   "label": "daily written communication and live calls with u\\.?s",
+   "prefer": "^yes"
   }
  ],
  "texts": [
@@ -5217,6 +5265,22 @@
   {
    "label": "customer and/?or stakeholder facing experience|stakeholder[- ]facing experience|client[- ]facing experience",
    "text": "Yes — at Bank of America and BlackRock I worked directly with trading, risk and product stakeholders to turn their requirements into platform work, and I presented designs and trade-offs to them regularly."
+  },
+  {
+   "label": "owned backend (systems|services) end.to.end|end.to.end ownership of backend",
+   "text": "Yes — at Bank of America I owned a real-time transaction data platform end to end, from scoping and design through build, testing, launch and on-call operation, scaling it through 10x traffic growth."
+  },
+  {
+   "label": "^what is your strongest programming language|strongest programming language",
+   "text": "Python"
+  },
+  {
+   "label": "expertise in developing etl or data pipelines|experience building etl|data pipelines that run at",
+   "text": "Yes — I have built and operated large-scale data pipelines in Python and PySpark, including batch and streaming paths feeding analytics and risk systems at Bank of America and BlackRock."
+  },
+  {
+   "label": "tell us about a time an ai coding tool|a time an ai (coding )?(tool|assistant)",
+   "text": "I use AI coding tools daily. A recent example: I was adding a new ingestion path to a Python service and used an AI assistant to draft the boundary tests first, which surfaced a timezone assumption in the existing parser that our fixtures had never covered. The draft code itself needed rework — it missed a retry path — but using it to explore the edge cases saved a day and caught a real bug. I treat the output as a first draft to review, not as an answer."
   }
  ],
  "checkboxes": [
@@ -5279,6 +5343,12 @@
   },
   {
    "label": "^accept$|^i accept$|^accept the terms"
+  },
+  {
+   "label": "unlawful in massachusetts to require or administer a lie detector"
+  },
+  {
+   "label": "by submitting your application you confirm that the information"
   }
  ],
  "manualTriggers": [
