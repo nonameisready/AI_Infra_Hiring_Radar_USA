@@ -941,3 +941,11 @@ they could do damage:
 The lesson for the next window: a rule that reads correctly can still pick the
 wrong option, because matching takes the first option that hits. Every new rule
 was verified against the real option list before being committed.
+
+## 2026-09-14 (Mac local batch, home IP)
+
+4 submitted, 51 parked, 4 queued for Qwen. All-time 678.
+- Pinwheel — Sr. Backend Engineer, AI Projects (90%) — greenhouse, confirmed
+- Afresh — Sr. Backend Engineer, Ordering (88%) — greenhouse, confirmed
+- Datadog — Senior Software Engineer - Distributed Systems (75%) — greenhouse, confirmed
+- Elastic — Software Engineer II - Builder Experience - Platform Engineering Productivity (75%) — greenhouse, confirmed
