@@ -3935,6 +3935,18 @@
   {
    "label": "current address \\(country\\)|^address.{0,10}country|^country ?\\*?$",
    "prefer": "^united states|^usa$|^us$"
+  },
+  {
+   "label": "will you need [a-z0-9 .&-]{0,30}sponsorship to (continue|extend)|sponsorship to continue to extend your current work authorization|need .{0,25}sponsorship to (continue|remain|stay)",
+   "prefer": "^yes"
+  },
+  {
+   "label": "^accept$|^i accept$|^accept the terms",
+   "prefer": "^yes|^accept|^i accept|^agree"
+  },
+  {
+   "label": "customer and/?or stakeholder facing experience|stakeholder[- ]facing experience|client[- ]facing experience",
+   "prefer": "^yes"
   }
  ],
  "texts": [
@@ -5197,6 +5209,14 @@
   {
    "label": "current address \\(street|^street address|address line 1",
    "text": "225 Saint Pauls Ave APT 5P"
+  },
+  {
+   "label": "will you need [a-z0-9 .&-]{0,30}sponsorship to (continue|extend)|sponsorship to continue to extend your current work authorization|need .{0,25}sponsorship to (continue|remain|stay)",
+   "text": "Yes — I will need cap-exempt H-1B sponsorship; my current F-1 CPT/EAD authorization runs through 05/31/2027."
+  },
+  {
+   "label": "customer and/?or stakeholder facing experience|stakeholder[- ]facing experience|client[- ]facing experience",
+   "text": "Yes — at Bank of America and BlackRock I worked directly with trading, risk and product stakeholders to turn their requirements into platform work, and I presented designs and trade-offs to them regularly."
   }
  ],
  "checkboxes": [
@@ -5256,6 +5276,9 @@
   },
   {
    "label": "i acknowledge that all information regarding the company|acknowledge that all information.{0,40}(confidential|proprietary)"
+  },
+  {
+   "label": "^accept$|^i accept$|^accept the terms"
   }
  ],
  "manualTriggers": [
