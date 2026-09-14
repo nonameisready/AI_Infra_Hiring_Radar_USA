@@ -120,7 +120,13 @@ for (const [id, j] of Object.entries(ap.jobs)) {
   // Company-level dedupe (user directive 2026-09-06): once ANY application
   // exists at a company (agent or manual), don't queue more roles there —
   // the Qwen queue was filling with same-company duplicates.
-  if (/^applied/.test(j.status ?? "") || /manual|user/i.test(j.via ?? "")) seenCompanies.add(norm(j.company));
+  // Count EVERY entry that represents a real application, not just the ones
+  // whose status starts with "applied": book-generic.mjs writes no status at
+  // all, so 98 confirmed applications (Postman, Ridgeline, …) were invisible
+  // to this check and their companies kept being re-queued. Only the statuses
+  // that mean "never submitted" are excluded.
+  const st = String(j.status ?? "");
+  if (!/^(needs_manual|needs_info|skipped|dropped)$/.test(st)) seenCompanies.add(norm(j.company));
 }
 for (const i of pend.items) { seenIds.add(i.id); if (i.key) seenKeys.add(i.key); tok(i.originalUrl); tok(i.atsUrl); }
 // Standing rule: never apply to defense/clearance companies (applicant cannot
@@ -220,7 +226,7 @@ for (const r of results) {
   const viaRetry = okRetry.has(r.id);
   if (r.status === "submitted" || viaRetry) {
     ap.jobs[r.id] = { key: r.key, title: r.title, company: r.company, matchPercent: r.matchPercent,
-      jobrightUrl: r.jobrightUrl, originalUrl: r.atsUrl, appliedAt: today,
+      jobrightUrl: r.jobrightUrl, originalUrl: r.atsUrl, status: "applied_direct", appliedAt: today,
       via: "greenhouse (mac local batch)", detail: viaRetry ? "Confirmed on Qwen-assisted repass (home IP)" : "Submitted from the user's home IP by local-batch" };
     submitted++;
     continue;
