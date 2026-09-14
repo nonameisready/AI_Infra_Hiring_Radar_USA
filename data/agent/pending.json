@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T10:08:57.111Z",
+  "updatedAt": "2026-09-14T10:20:54.872Z",
   "items": [
     {
       "id": "6a8384dc2dbaf907b07695d1",
@@ -5761,20 +5761,6 @@
       "note": "submitted via Oracle CX driver 2026-09-05"
     },
     {
-      "id": "6a27929a7061b51a3a5f1922",
-      "key": "atto trading::low-latency developer",
-      "title": "Low-Latency Developer",
-      "company": "Atto Trading",
-      "matchPercent": 79,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a27929a7061b51a3a5f1922",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=attotrading&jr_id=6a27929a7061b51a3a5f1922&token=4209286009&utm_source=jobright",
-      "addedAt": "2026-09-03",
-      "status": "parked",
-      "note": "missing: [\"Security code\",\"A verification code was sent to huiluckylucky@gmail.com. To submit you\"]",
-      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
-      "updatedAt": "2026-09-13"
-    },
-    {
       "id": "67a15d099d1e49bec8dd0e1f",
       "key": "maven clinic::senior software engineer, backend engineering",
       "title": "Senior Software Engineer, Backend Engineering",
@@ -8208,20 +8194,6 @@
       "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: amazon.jobs alias account at 10-active-application limit (verified 2026-09-05: application_limit_reach). Cannot apply more until an active application closes or user withdraws some — user decision."
     },
     {
-      "id": "6a865e53cc81eb647e9f2a6e",
-      "key": "harbinger::software engineer, enterprise applications (backend)",
-      "title": "Software Engineer, Enterprise Applications (Backend)",
-      "company": "Harbinger",
-      "matchPercent": 88,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a865e53cc81eb647e9f2a6e",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=harbingermotors&jr_id=6a865e53cc81eb647e9f2a6e&token=5216950007&utm_source=jobright",
-      "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "2026-09-11 cloud window: missing required: Security code",
-      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
-      "updatedAt": "2026-09-13"
-    },
-    {
       "id": "6a9a142613883870605925db",
       "key": "smbc group::software engineer - capital markets job details | sumitomo mitsui banking corporation",
       "title": "Software Engineer - Capital Markets Job Details | Sumitomo Mitsui Banking Corporation",
@@ -8992,20 +8964,6 @@
       "addedAt": "2026-09-04",
       "status": "parked",
       "note": "platform not automated from cloud: ca.linkedin.com"
-    },
-    {
-      "id": "6a468cd7c2d11a6a4666f72b",
-      "key": "clear::senior fullstack software engineer",
-      "title": "Senior Fullstack Software Engineer",
-      "company": "CLEAR",
-      "matchPercent": 81,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a468cd7c2d11a6a4666f72b",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=clear&jr_id=6a468cd7c2d11a6a4666f72b&token=8043844&utm_source=jobright",
-      "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "unconfirmed submit: Please complete the reCAPTCHA and resubmit your application.\n\nBack to jobs\nSenior Fullstack Software Engineer\nNew York, ",
-      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
-      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a5fd384b0f20036bc633481",
@@ -9988,20 +9946,6 @@
       "addedAt": "2026-09-04",
       "status": "parked",
       "note": "platform: virtusapolaris.referrals.selectminds.com"
-    },
-    {
-      "id": "6a99dc371388387060590fd1",
-      "key": "virtru::senior software engineer",
-      "title": "Senior Software Engineer",
-      "company": "Virtru",
-      "matchPercent": 78,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a99dc371388387060590fd1",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=virtru&jr_id=6a99dc371388387060590fd1&token=4711473005&utm_source=jobright",
-      "addedAt": "2026-09-04",
-      "status": "parked",
-      "note": "9/4: GH submit returned no confirmation from cloud IP (15 jobs same pattern = silent IP flag). Retry from Mac home IP (GH token dedupe protects).",
-      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
-      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a9996e5040e5c3d07597345",
@@ -21253,28 +21197,6 @@
       "note": "platform not automated from cloud: ats.rippling.com"
     },
     {
-      "id": "6aa4abe41d92e2d05d115af9",
-      "key": "ncino::senior software engineer",
-      "title": "Senior Software Engineer",
-      "company": "nCino",
-      "matchPercent": 92,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6aa4abe41d92e2d05d115af9",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=ncinoinc&token=4402387009&jr_id=6aa4abe41d92e2d05d115af9",
-      "addedAt": "2026-09-12",
-      "status": "parked",
-      "missing": [
-        "What attracted you to this role at nCino? *",
-        "To the best of your knowledge, are you currently working for a partner",
-        "Some of our roles require travel. What level of travel are you comfort",
-        "Opt-in to receive text messages about jobs at nCino? Please answer wit",
-        "I would like to receive updates from a recruiter about this job via SM",
-        "What is your work authorization status? *",
-        "Are you currently a F-1 visa holder on Optional Practical Training (OP"
-      ],
-      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
-      "updatedAt": "2026-09-13"
-    },
-    {
       "id": "6aa4904df7baf881567cf2d9",
       "key": "fox direct to consumer::senior media platform engineer",
       "title": "Senior Media Platform Engineer",
@@ -21429,22 +21351,6 @@
       "addedAt": "2026-09-12",
       "status": "dropped",
       "note": "2026-09-13: DROPPED — user directive, never apply to this company again. Earlier note: platform not automated from cloud: capitalone.wd12.myworkdayjobs.com"
-    },
-    {
-      "id": "6aa3f922422289703bd6473d",
-      "key": "roadie::senior software engineer - backend",
-      "title": "Senior Software Engineer - Backend",
-      "company": "Roadie",
-      "matchPercent": 86,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6aa3f922422289703bd6473d",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=roadie&jr_id=6aa3f922422289703bd6473d&token=8786983002",
-      "addedAt": "2026-09-12",
-      "status": "parked",
-      "missing": [
-        "Security code"
-      ],
-      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
-      "updatedAt": "2026-09-13"
     },
     {
       "id": "6aa3ece0c1928370a285b5b1",
@@ -23118,20 +23024,6 @@
       "addedAt": "2026-09-13",
       "status": "parked",
       "note": "platform not automated from cloud: careers-powerschool.icims.com"
-    },
-    {
-      "id": "6a894aade8b6601d12909999",
-      "key": "picarro::senior software engineer - cloud data platform",
-      "title": "Senior Software Engineer - Cloud Data Platform",
-      "company": "Picarro",
-      "matchPercent": 81,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a894aade8b6601d12909999",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=picarroinc&jr_id=6a894aade8b6601d12909999&token=5399150008",
-      "addedAt": "2026-09-13",
-      "status": "parked",
-      "note": "unconfirmed submit: ",
-      "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
-      "updatedAt": "2026-09-13"
     },
     {
       "id": "6a7b8249b933773d16be7e31",

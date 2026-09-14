@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T10:08:57.214Z",
+  "updatedAt": "2026-09-14T10:34:32.273Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -8669,6 +8669,103 @@
       "at": "2026-09-14",
       "via": "ashby (cloud driver)",
       "detail": "Greenhouse (cloud driver): re-filled after the 2026-09-13 uncoded attempt was never delivered; emailed security code entered, confirmation page verified."
+    },
+    "6a468cd7c2d11a6a4666f72b": {
+      "id": "6a468cd7c2d11a6a4666f72b",
+      "company": "CLEAR",
+      "title": "Senior Fullstack Software Engineer",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a468cd7c2d11a6a4666f72b",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=clear&token=8043844",
+      "status": "applied",
+      "at": "2026-09-14",
+      "via": "ashby (cloud driver)",
+      "detail": "Greenhouse (cloud driver): re-filled after the 2026-09-13 uncoded attempt was never delivered; NYC 5-days-in-office acknowledged Yes, sponsorship Yes; emailed security code entered, confirmation page verified."
+    },
+    "6aa4945c422289703bd6721f": {
+      "id": "6aa4945c422289703bd6721f",
+      "key": "pathai::senior software engineer, backend",
+      "company": "PathAI",
+      "title": "Senior Software Engineer, Backend",
+      "matchPercent": 74,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa4945c422289703bd6721f",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=pathai",
+      "status": "applied_direct",
+      "at": "2026-09-14",
+      "via": "greenhouse (cloud batch)",
+      "detail": "Submitted in the 2026-09-14 cloud window; emailed security code entered; confirmation verified by the finisher."
+    },
+    "6a894aade8b6601d12909999": {
+      "id": "6a894aade8b6601d12909999",
+      "company": "Picarro",
+      "title": "Senior Software Engineer - Cloud Data Platform",
+      "matchPercent": 81,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a894aade8b6601d12909999",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=picarroinc&token=5399150008",
+      "status": "applied",
+      "at": "2026-09-14",
+      "via": "ashby (cloud driver)",
+      "detail": "Greenhouse (cloud driver): re-filled after the 2026-09-13 uncoded attempt was never delivered; emailed security code entered, confirmation page verified."
+    },
+    "6a99dc371388387060590fd1": {
+      "id": "6a99dc371388387060590fd1",
+      "company": "Virtru",
+      "title": "Senior Software Engineer",
+      "matchPercent": 78,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a99dc371388387060590fd1",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=virtru&token=4711473005",
+      "status": "applied",
+      "at": "2026-09-14",
+      "via": "ashby (cloud driver)",
+      "detail": "Greenhouse (cloud driver): re-filled after the 2026-09-13 uncoded attempt was never delivered; sponsorship answered Yes; emailed security code entered, confirmation page verified."
+    },
+    "6a27929a7061b51a3a5f1922": {
+      "id": "6a27929a7061b51a3a5f1922",
+      "company": "Atto Trading",
+      "title": "Low-Latency Developer",
+      "matchPercent": 79,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a27929a7061b51a3a5f1922",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=attotrading&token=4209286009",
+      "status": "applied",
+      "at": "2026-09-14",
+      "via": "ashby (cloud driver)",
+      "detail": "Greenhouse (cloud driver): re-filled after the 2026-09-13 uncoded attempt was never delivered; emailed security code entered, confirmation page verified."
+    },
+    "6aa4abe41d92e2d05d115af9": {
+      "id": "6aa4abe41d92e2d05d115af9",
+      "company": "nCino",
+      "title": "Senior Software Engineer",
+      "matchPercent": 92,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa4abe41d92e2d05d115af9",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=ncinoinc&token=4402387009",
+      "status": "applied",
+      "at": "2026-09-14",
+      "via": "ashby (cloud driver)",
+      "detail": "Greenhouse (cloud driver): re-filled after the 2026-09-13 attempt was never delivered; work-authorization answered as \"Needs Sponsorship\", F-1 CPT/OPT Yes, sponsorship Yes; emailed security code entered, confirmation page verified."
+    },
+    "6a865e53cc81eb647e9f2a6e": {
+      "id": "6a865e53cc81eb647e9f2a6e",
+      "company": "Harbinger",
+      "title": "Software Engineer, Enterprise Applications (Backend)",
+      "matchPercent": 88,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a865e53cc81eb647e9f2a6e",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=harbingermotors&token=5216950007",
+      "status": "applied",
+      "at": "2026-09-14",
+      "via": "ashby (cloud driver)",
+      "detail": "Greenhouse (cloud driver): re-filled after the 2026-09-13 attempt was never delivered; relocation Yes, sponsorship Yes; emailed security code entered, confirmation page verified."
+    },
+    "6aa3f922422289703bd6473d": {
+      "id": "6aa3f922422289703bd6473d",
+      "company": "Roadie",
+      "title": "Senior Software Engineer - Backend",
+      "matchPercent": 86,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6aa3f922422289703bd6473d",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=roadie&token=8786983002",
+      "status": "applied",
+      "at": "2026-09-14",
+      "via": "ashby (cloud driver)",
+      "detail": "Greenhouse (cloud driver): re-filled after the 2026-09-13 attempt was never delivered; sponsorship Yes, resident state New Jersey; emailed security code entered, confirmation page verified."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
