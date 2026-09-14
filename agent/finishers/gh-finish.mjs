@@ -368,9 +368,15 @@ try {
   out.filledScreenshot = path.join(WORK, `ghfill-${tag}.png`);
   await page.screenshot({ path: out.filledScreenshot, fullPage: true });
 
-  if (SUBMIT && out.missingRequired.length === 0 && !out.securityCodePending) {
-    await page.getByRole("button", { name: /submit application|submit/i }).first().click();
-    await page.waitForTimeout(7000);
+  if (SUBMIT && out.missingRequired.length === 0) {
+    // When Greenhouse is already holding an unfinished verification the submit
+    // button is disabled until a code is entered, and simply landing on the form
+    // mails a fresh one. So skip the first click in that case and fall straight
+    // into the code branch below, which enters the code and then submits.
+    if (!out.securityCodePending) {
+      await page.getByRole("button", { name: /submit application|submit/i }).first().click();
+      await page.waitForTimeout(7000);
+    }
     let text = await page.evaluate(() => document.body?.innerText ?? "");
 
     // Greenhouse can demand an emailed security code before accepting. Detect it
