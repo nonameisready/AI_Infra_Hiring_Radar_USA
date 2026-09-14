@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-14T12:38:52.015Z",
+ "updatedAt": "2026-09-14T12:56:07.072Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -3660,7 +3660,9 @@
    "atsUrl": "https://jobs.lever.co/qvest.us/d9f99104-5fc1-45db-957c-a2648361948c/apply?utm_source=jobright&jr_id=6a5f308dcbd049083469787c",
    "addedAt": "2026-09-03",
    "status": "parked",
-   "note": "lever hCaptcha challenged this IP"
+   "note": "lever hCaptcha challenged this IP",
+   "reason": "2026-09-14 cloud: lever hCaptcha challenged this IP",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a8d6396581f2d7bfdfe7373",
@@ -3707,7 +3709,9 @@
    "atsUrl": "https://jobs.lever.co/floqast/75e541cf-6cf8-4de0-8518-3cb246bb81c1/apply?utm_source=jobright&jr_id=6a95f434c8763a3a87ffd769",
    "addedAt": "2026-09-03",
    "status": "parked",
-   "note": "lever hCaptcha challenged this IP"
+   "note": "lever hCaptcha challenged this IP",
+   "reason": "2026-09-14 cloud: lever hCaptcha challenged this IP",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a7f63b419ce4e6e9d93777f",
@@ -5008,8 +5012,8 @@
    "addedAt": "2026-09-03",
    "status": "parked",
    "note": "platform: jobs.lever.co",
-   "reason": "2026-09-13 cloud: lever hCaptcha challenged this IP",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: lever hCaptcha challenged this IP",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a95afa94c22023a079351d3",
@@ -5188,8 +5192,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9879a8af954907d65738dd",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=kalepa&jr_id=6a9879a8af954907d65738dd&token=6179747004&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
-   "note": "2026-09-14 cloud: form asks whether she wants an environment where people work more than 40 hours a week. That is her own commitment to make (same class as the European-hours question she declined), so it was not answered. Everything else on the form is worked out: degree, 5+ years Yes, languages Python/Go/TypeScript/SQL, AWS Yes, salary $150,000+, start immediately, authorized Yes, sponsorship Yes. Recorded as q-long-hours.",
+   "status": "needs_info",
+   "note": "2026-09-14 cloud: the form asks whether she wants an environment where people work more than 40 hours a week — her own commitment to make (q-long-hours). Everything else on the form is worked out.",
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"How quickly are you looking to start a new role? *\",\"Kalepa is a growth stage startup with ambitious goals. We are willing \"]",
    "updatedAt": "2026-09-14",
    "missing": [
@@ -5578,8 +5582,8 @@
    "addedAt": "2026-09-03",
    "status": "parked",
    "note": "missing: [\"Have you previously worked in e-learning or ed-tech? *\",\"If you previously worked at another ed-tech company, please select you\"]",
-   "reason": "2026-09-13 cloud: no_apply_button",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: no_apply_button",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a99468090a313642c64fc36",
@@ -5782,8 +5786,9 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a60bd97a4c799127e993ff2",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=accenturefederalservices&jr_id=6a60bd97a4c799127e993ff2&token=4698916006&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
-   "note": "missing: [\"Will you be serving as enlisted personnel in either the Reserves or th\",\"Were you an employee of the U.S. Government (including U.S. Congr"
+   "status": "dropped",
+   "note": "missing: [\"Will you be serving as enlisted personnel in either the Reserves or th\",\"Were you an employee of the U.S. Government (including U.S. Congr 2026-09-14: defense/federal contractor — the applicant is a PRC citizen who cannot hold a US clearance. Never apply.",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a12ea35619335383fb3b8d1",
@@ -6001,8 +6006,12 @@
    "addedAt": "2026-09-03",
    "status": "needs_answers",
    "note": "[{\"question\":\"Do you currently have unrestricted work authorization for the United States, or would you require sponsorship for a working visa now or in the future?*\",\"options\":[\"I have unrestricted work authorization and would NOT require sponsorship.\",\"I have work authorization now but would require sponsorship in the future.\",\"I would require sponsorship for a working visa.\"]},{\"question\":\"Do you currently have unrestricted work authorization for the United States, or would you require sponsorship for a working visa now or in the future?*\",\"options\":[\"I have unrestricted work authorization and would NOT require sponsorship.\",\"I have work authorization now but would require sponsorship in the future.\",\"I would require sponsorship for a working visa.\"]},{\"question\":\"Do you currently have unrestricted work authorization for the United States, or would you require sponsorship for a working visa now or in the future?*\",\"options\":[\"I have unrestricted work authorization and would NOT require sponsorship.\",\"I have work authorization now but would require sponsorship in the future.\",\"I would require sponsorship for a working visa.\"]},{\"question\":\"Do you currently have unrestricted work authorization for the United States, or would you require sponsorship for a working visa now or in the future?*\",\"options\":[\"I have unrestricted work authorization and would NOT require sponsorship.\",\"I have work authorization now but would require sponsorship in the future.\",\"I would require sponsorship for a working visa.\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Are you currently an employee of New York State Department of Public S\",\"Do you currently have unrestricted work authorization for the United S\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "Are you currently an employee of New York State Department of Public S",
+    "Do you currently have unrestricted work authorization for the United S"
+   ]
   },
   {
    "id": "6a986377c8ed473c5c763c71",
@@ -6137,8 +6146,8 @@
    "addedAt": "2026-09-03",
    "status": "parked",
    "note": "missing: [\"Are you an existing employee at Life360, Tile, or Jiobit? *\"]",
-   "reason": "2026-09-13 cloud: no_apply_button",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: no_apply_button",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a99756a551435518ebee785",
@@ -6175,8 +6184,8 @@
    "addedAt": "2026-09-03",
    "status": "parked",
    "note": "missing: [\"Are you related to, or in a close personal relationship with, anyone w\",\"By selecting \\\"Yes\\\", I am certifying that, to the best of my kno",
-   "reason": "2026-09-13 cloud: no_apply_button",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: no_apply_button",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a76b79ba26ccc369f836174",
@@ -6344,7 +6353,12 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=onetrust&jr_id=6a972bdfd13b4819f39df772&token=8167257&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "missing: [\"Data Protection Notice *\"]"
+   "note": "missing: [\"Data Protection Notice *\"]",
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Data Protection Notice *\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "Data Protection Notice *"
+   ]
   },
   {
    "id": "6a998515040e5c3d07596b00",
@@ -6392,7 +6406,14 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=neuralink&jr_id=6a15e1d3554b0e12c05869d1&token=6353417003&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "missing: [\"Please provide three examples of accomplishments that highlight your e\",\"Second example:*\",\"Third example:*\",\"Ideal start date in office*\""
+   "note": "missing: [\"Please provide three examples of accomplishments that highlight your e\",\"Second example:*\",\"Third example:*\",\"Ideal start date in office*\"",
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Please provide three examples of accomplishments that highlight your e\",\"Second example:*\",\"Third example:*\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "Please provide three examples of accomplishments that highlight your e",
+    "Second example:*",
+    "Third example:*"
+   ]
   },
   {
    "id": "6a9981cbad752e2ad54ffdc3",
@@ -6476,7 +6497,12 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=dragos&jr_id=6a5eca7927bf767ea68f8b63&token=5364834008&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "missing: [\"Do you currently live in the United States?*\",\"Please briefly describe your experience (if any) with Rust.*\"]"
+   "note": "missing: [\"Do you currently live in the United States?*\",\"Please briefly describe your experience (if any) with Rust.*\"]",
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Please briefly describe your experience (if any) with Rust.*\"]",
+   "updatedAt": "2026-09-14",
+   "missing": [
+    "Please briefly describe your experience (if any) with Rust.*"
+   ]
   },
   {
    "id": "6a61409eeaa37f43e75878e2",
@@ -8485,13 +8511,11 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a99a081ad752e2ad5500bb5",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=thefarmersdog&jr_id=6a99a081ad752e2ad5500bb5&token=8782117002&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "parked",
+   "status": "needs_answers",
    "missing": [
-    "Will you require TFD sponsorship to continue your employment, either n",
-    "Have you previously applied to TFD or interviewed with the company?*",
     "Please share with us your location details:*"
    ],
-   "reason": "2026-09-14 cloud: no_popup",
+   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Please share with us your location details:*\"]",
    "note": "[{\"question\":\"Race and Ethnicity\",\"options\":[\"White (Not Hispanic or Latino)\",\"Hispanic or Latino\",\"Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)\",\"American Indian or Native Alaskan (Not Hispanic or Latino)\",\"Asian (Not Hispanic or Latino)\",\"Black or African American (Not Hispanic or Latino)\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not wish to answer\"]},{\"question\":\"Race and Ethnicity\",\"options\":[\"White (Not Hispanic or Latino)\",\"Hispanic or Latino\",\"Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)\",\"American Indian or Native Alaskan (Not Hispanic or Latino)\",\"Asian (Not Hispanic or Latino)\",\"Black or African American (Not Hispanic or Latino)\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline to Self Identify\"]},{\"question\":\"Race and Ethnicity\",\"options\":[\"White (Not Hispanic or Latino)\",\"Hispanic or Latino\",\"Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)\",\"American Indian or Native Alaskan (Not Hispanic or Latino)\",\"Asian (Not Hispanic or Latino)\",\"Black or African American (Not Hispanic or Latino)\"]}]",
    "updatedAt": "2026-09-14"
   },
@@ -9440,8 +9464,8 @@
    "addedAt": "2026-09-04",
    "status": "parked",
    "note": "9/4 cloud GH flagged; missing: [\"What is your target start date?*\",\"What Country/US-State do you currently reside?*\",\"Consent & Privacy Acknowledgment* — run on Mac with Qwen.",
-   "reason": "2026-09-13 cloud: no_apply_button",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: no_apply_button",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a99e44a040e5c3d07599999",
@@ -9987,8 +10011,8 @@
    "addedAt": "2026-09-04",
    "status": "parked",
    "note": "9/4 cloud GH flagged; missing: [\"What are your compensation expectations? ✱\"] — run on Mac with Qwen.",
-   "reason": "2026-09-13 cloud: lever hCaptcha challenged this IP",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: lever hCaptcha challenged this IP",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a99d3518a8b765bc55f5b94",
@@ -11590,12 +11614,12 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a974281f5337b2cf732131e",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=block&jr_id=6a974281f5337b2cf732131e&token=5400004008&utm_source=jobright",
    "addedAt": "2026-09-05",
-   "status": "needs_answers",
+   "status": "submitted_unconfirmed",
    "missing": [
     "Accept"
    ],
-   "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Accept\"]",
-   "note": "[{\"question\":\"With your permission, we may use AI transcription software to transcribe and summarize your interview to help us capture accurate notes. Participation is entirely voluntary, and your decision will not affect the outcome of your application. You can withdraw consent at any time. Do you consent to us using AI to transcribe and summarize your interview?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Will you now or in the future require sponsorship for work authorization? (This information will not be used in assessing your qualifications for any position.)*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Gender*\",\"options\":[\"Male\",\"Female\",\"Non-Binary\",\"I prefer to self-describe\",\"I don't wish to answer\"]},{\"question\":\"Are you a veteran or active member of the United States Armed Forces? *\",\"options\":[\"I am a veteran or active member\",\"No, I am not a veteran or active member\",\"I prefer to self-describe\",\"I don't wish to answer\"]}]",
+   "reason": "2026-09-14 cloud: unconfirmed submit: no confirmation, no page text, no error",
+   "note": "2026-09-14 cloud: the emailed security code was entered and the submit went through, but Greenhouse returned a blank page and no acknowledgement email has arrived. Check from:greenhouse for a Block confirmation before counting it or re-applying.",
    "updatedAt": "2026-09-14"
   },
   {
@@ -11830,8 +11854,9 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8849d2e8b6601d12906020",
    "atsUrl": "https://careers-entarian.icims.com/jobs/9848/senior-software-engineer/job?jr_id=6a8849d2e8b6601d12906020",
    "addedAt": "2026-09-05",
-   "status": "parked",
-   "note": "platform not automated from cloud: careers-entarian.icims.com"
+   "status": "dropped",
+   "note": "platform not automated from cloud: careers-entarian.icims.com 2026-09-14: defense/federal contractor — the applicant is a PRC citizen who cannot hold a US clearance. Never apply.",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a9b445dd5ff1f3f1c39e813",
@@ -15934,13 +15959,13 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5529beae07d60a8d00f499",
    "atsUrl": "https://jobs.lever.co/standtogether/42f3b691-ef58-4814-af2b-416dfb5caade/apply?utm_source=jobright&jr_id=6a5529beae07d60a8d00f499",
    "addedAt": "2026-09-06",
-   "status": "needs_answers",
+   "status": "parked",
    "missing": [
     "Here at Stand Together, we are very passionate about tacking the issues that matter most t"
    ],
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
+   "reason": "2026-09-14 cloud: lever hCaptcha challenged this IP",
    "note": "[]",
-   "updatedAt": "2026-09-13"
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a8898354afae74a0834c857",
@@ -15963,13 +15988,13 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5df29467b2850e77dee73a",
    "atsUrl": "https://jobs.lever.co/protolabs/717acc9c-6a73-4751-b565-a5bed8107281/apply?utm_source=jobright&jr_id=6a5df29467b2850e77dee73a",
    "addedAt": "2026-09-06",
-   "status": "needs_answers",
+   "status": "dropped",
    "missing": [
     "All Protolabs facilities in the United States are ITAR-compliant operations. Due to ITAR r"
    ],
    "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "note": "[]",
-   "updatedAt": "2026-09-13"
+   "note": "[] 2026-09-14: defense/federal contractor — the applicant is a PRC citizen who cannot hold a US clearance. Never apply.",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a034a1d22395b6dc6d930bc",
@@ -16775,8 +16800,8 @@
    "addedAt": "2026-09-07",
    "status": "parked",
    "note": "platform not automated from cloud: jobs.lever.co",
-   "reason": "2026-09-13 cloud: lever hCaptcha challenged this IP",
-   "updatedAt": "2026-09-13"
+   "reason": "2026-09-14 cloud: lever hCaptcha challenged this IP",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "69a810d176bbe83d3afb82bb",
@@ -17176,8 +17201,9 @@
    "matchPercent": 76,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8ef9f1d7c91d0cf446cd1e",
    "originalUrl": "https://mclaurin.isolvedhire.com/jobs/1851181?jr_id=6a8ef9f1d7c91d0cf446cd1e",
-   "status": "parked",
-   "note": "Batch park: platform not automated from cloud: mclaurin.isolvedhire.com — 2026-09-08 cloud chunk"
+   "status": "dropped",
+   "note": "Batch park: platform not automated from cloud: mclaurin.isolvedhire.com — 2026-09-08 cloud chunk 2026-09-14: defense/federal contractor — the applicant is a PRC citizen who cannot hold a US clearance. Never apply.",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a39969d6484fb75f2b3291c",
@@ -17325,8 +17351,9 @@
    "matchPercent": 77,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9e792e49f4604c7894ef90",
    "originalUrl": "https://phh.tbe.taleo.net/phh01/ats/careers/v2/viewRequisition?org=BASESOLU&cws=37&rid=4388&jr_id=6a9e792e49f4604c7894ef90",
-   "status": "parked",
-   "note": "Batch park: platform not automated from cloud: phh.tbe.taleo.net — 2026-09-08 cloud chunk"
+   "status": "dropped",
+   "note": "Batch park: platform not automated from cloud: phh.tbe.taleo.net — 2026-09-08 cloud chunk 2026-09-14: defense/federal contractor — the applicant is a PRC citizen who cannot hold a US clearance. Never apply.",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a59564963a8f619507c1b8c",
@@ -17753,8 +17780,9 @@
    "matchPercent": 81,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4476b9b156014e414bc885",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=accenturefederalservices&token=4693516006&jr_id=6a4476b9b156014e414bc885",
-   "status": "needs_answers",
-   "note": "Batch needs_answers: [\"Will you be serving as enlisted personnel in either the Reserves or th\",\"Were you an employee of the U.S. Government (including U.S. Congress o\",\"Do you have any family members or people you have cl — 2026-09-08 cloud chunk"
+   "status": "dropped",
+   "note": "Batch needs_answers: [\"Will you be serving as enlisted personnel in either the Reserves or th\",\"Were you an employee of the U.S. Government (including U.S. Congress o\",\"Do you have any family members or people you have cl — 2026-09-08 cloud chunk 2026-09-14: defense/federal contractor — the applicant is a PRC citizen who cannot hold a US clearance. Never apply.",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a95add2c8763a3a87ffb4ea",
@@ -17813,8 +17841,9 @@
    "matchPercent": 82,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7e0a55e51a1e18a240ba39",
    "originalUrl": "https://nwis.wd12.myworkdayjobs.com/nw/job/Ft-George-G-Meade-MD/Software-Engineer_JR101972?jr_id=6a7e0a55e51a1e18a240ba39",
-   "status": "parked",
-   "note": "Batch park: platform not automated from cloud: nwis.wd12.myworkdayjobs.com — 2026-09-08 cloud chunk"
+   "status": "dropped",
+   "note": "Batch park: platform not automated from cloud: nwis.wd12.myworkdayjobs.com — 2026-09-08 cloud chunk 2026-09-14: defense/federal contractor — the applicant is a PRC citizen who cannot hold a US clearance. Never apply.",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a524bcad007ee02d95f6eac",
@@ -18498,8 +18527,9 @@
    "matchPercent": 82,
    "jobrightUrl": "https://jobright.ai/jobs/info/6aa08812dbc0e60e37e0e416",
    "originalUrl": "https://careers-entarian.icims.com/jobs/9880/senior-software-engineer/job?jr_id=6aa08812dbc0e60e37e0e416",
-   "status": "parked",
-   "note": "Batch park: platform not automated from cloud: careers-entarian.icims.com — 2026-09-09 cloud chunk"
+   "status": "dropped",
+   "note": "Batch park: platform not automated from cloud: careers-entarian.icims.com — 2026-09-09 cloud chunk 2026-09-14: defense/federal contractor — the applicant is a PRC citizen who cannot hold a US clearance. Never apply.",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "69611e7aa112b402660fa8bb",
@@ -20477,8 +20507,9 @@
    "title": "Software Engineer – Level 1",
    "matchPercent": 73,
    "jobrightUrl": "https://jobright.ai/jobs/info/6978e2d652f3c27ec645225d",
-   "status": "park",
-   "note": "2026-09-10 batch sweep: park — no ATS url discovered"
+   "status": "dropped",
+   "note": "2026-09-10 batch sweep: park — no ATS url discovered 2026-09-14: defense/federal contractor — the applicant is a PRC citizen who cannot hold a US clearance. Never apply.",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6a02227ac4b08448a0b22fed",
@@ -22678,10 +22709,10 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a51e05102522b5b722ece7c",
    "atsUrl": "https://jobs.lever.co/osaro/56fcf771-5c21-4ec8-b4df-c978acbad4a0/apply?jr_id=6a51e05102522b5b722ece7c",
    "addedAt": "2026-09-12",
-   "updatedAt": "2026-09-13",
+   "updatedAt": "2026-09-14",
    "status": "parked",
    "note": "2026-09-12 cloud batch: lever hCaptcha challenged this IP",
-   "reason": "2026-09-13 cloud: lever hCaptcha challenged this IP"
+   "reason": "2026-09-14 cloud: lever hCaptcha challenged this IP"
   },
   {
    "id": "6aa4b9822ed333b4ea5c3c0a",
@@ -23712,7 +23743,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7d18cedc3dff2d1c0cab45",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=voxieinc&token=4723729005&jr_id=6a7d18cedc3dff2d1c0cab45",
    "addedAt": "2026-09-14",
-   "status": "needs_answers",
+   "status": "needs_info",
    "missing": [
     "Are you currently set up to legally work as an independent contractor ",
     "Which range best fits your target rate for this contract role (paid in",
@@ -23720,7 +23751,7 @@
     "Tell us about a time an AI coding tool (Copilot, Claude, Cursor, etc.)",
     "On a scale of 1 (color-coded spreadsheet for everything) to 10 (sticky"
    ],
-   "note": "2026-09-14 cloud: contract (1099) role. Blocked on two questions only the applicant can answer — whether she is set up to work legally as an independent contractor on F-1 CPT/EAD, and her target rate for a contract engagement. Recorded as q-contractor-1099; never guessed. Other questions on the form (US-based written/verbal communication, AI-tool usage story, organization self-rating) are answerable and will go in once she replies.",
+   "note": "2026-09-14 cloud: contract (1099) role. Blocked on two questions only the applicant can answer — whether she is set up to work legally as an independent contractor on F-1 CPT/EAD, and her target rate for a contract engagement (q-contractor-1099). Never guessed.",
    "updatedAt": "2026-09-14",
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Are you currently set up to legally work as an independent contractor \",\"Which range best fits your target rate for this contract role (paid in\",\"This role involves daily written communication and live calls with U.S\",\"Tell us about a time an AI coding tool (Copilot, Claude, Cursor, etc.)\",\"On a s"
   },
@@ -23760,7 +23791,9 @@
    "atsUrl": "https://jobs.lever.co/zilliz/02848077-ca83-461e-87cd-e8b95d7f0c51/apply?jr_id=6a3a0651214ae004c7a21319",
    "addedAt": "2026-09-14",
    "status": "parked",
-   "note": "lever hCaptcha challenged this IP"
+   "note": "lever hCaptcha challenged this IP",
+   "reason": "2026-09-14 cloud: lever hCaptcha challenged this IP",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6aa379541cc5e5143a60dbc8",
@@ -24382,7 +24415,8 @@
    "atsUrl": "https://jobs.lever.co/bosonai/fef8e0fe-2795-40af-91fd-c545c15c1426/apply?jr_id=6a4ead6815b4965afd58435e",
    "addedAt": "2026-09-14",
    "status": "parked",
-   "reason": "2026-09-14 cloud: lever hCaptcha challenged this IP"
+   "reason": "2026-09-14 cloud: lever hCaptcha challenged this IP",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6aa697a02ed333b4ea5ca755",
@@ -24429,8 +24463,10 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6aa500b5930bff471a29c7e6",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=vannevarlabs&jr_id=6aa500b5930bff471a29c7e6&token=5236303007",
    "addedAt": "2026-09-14",
-   "status": "parked",
-   "reason": "2026-09-14 cloud: unconfirmed submit: note: not submitted — required fields still empty | greenhouse is holding an unfinished verification for this posting"
+   "status": "dropped",
+   "reason": "2026-09-14 cloud: unconfirmed submit: note: not submitted — required fields still empty | greenhouse is holding an unfinished verification for this posting",
+   "note": "2026-09-14: defense/federal contractor — the applicant is a PRC citizen who cannot hold a US clearance. Never apply.",
+   "updatedAt": "2026-09-14"
   },
   {
    "id": "6aa601f6654b2a9424cf6ca5",
