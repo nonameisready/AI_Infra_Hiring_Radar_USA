@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T11:19:17.967Z",
+  "updatedAt": "2026-09-14T11:35:27.089Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -8889,6 +8889,55 @@
       "at": "2026-09-14",
       "via": "ashby (cloud driver)",
       "detail": "Greenhouse (cloud driver): 7+ years, Python Yes, willing to relocate to Austin Yes, sponsorship Yes; emailed security code entered, confirmation page verified."
+    },
+    "6a52ed6c9fbdab22fe13d968": {
+      "id": "6a52ed6c9fbdab22fe13d968",
+      "company": "Xometry",
+      "title": "Senior Software Engineer",
+      "matchPercent": 80,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a52ed6c9fbdab22fe13d968",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=xometry&token=5004988007",
+      "status": "applied",
+      "at": "2026-09-14",
+      "via": "ashby (cloud driver)",
+      "detail": "Greenhouse (cloud driver): located in the US Yes, authorized Yes, sponsorship Yes, available immediately, salary band $150,000-$174,999; emailed security code entered, confirmation page verified."
+    },
+    "6a06fa43078fec52738a2f66": {
+      "id": "6a06fa43078fec52738a2f66",
+      "key": "coupang::staff backend engineer (application infra)",
+      "company": "Coupang",
+      "title": "Staff Backend Engineer (Application Infra)",
+      "matchPercent": 76,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a06fa43078fec52738a2f66",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=coupanginternal",
+      "status": "applied_direct",
+      "at": "2026-09-14",
+      "via": "greenhouse (cloud batch)",
+      "detail": "Submitted in the 2026-09-14 cloud window; emailed security code entered; confirmation verified by the finisher."
+    },
+    "6a8738654afae74a08347591": {
+      "id": "6a8738654afae74a08347591",
+      "company": "Klaviyo",
+      "title": "Senior Software Engineer, Asynchronous Processing",
+      "matchPercent": 78,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a8738654afae74a08347591",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=klaviyo&token=7783904003",
+      "status": "applied",
+      "at": "2026-09-14",
+      "via": "ashby (cloud driver)",
+      "detail": "Greenhouse (cloud driver): UPenn Master's in Computer Science, relocation Yes, authorized Yes, sponsorship Yes, EEO declined; emailed security code entered, confirmation page verified."
+    },
+    "6a51d20078e364789ca5d691": {
+      "id": "6a51d20078e364789ca5d691",
+      "company": "6sense",
+      "title": "Sr. Software Engineer",
+      "matchPercent": 78,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a51d20078e364789ca5d691",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=6sense&token=7834739",
+      "status": "applied",
+      "at": "2026-09-14",
+      "via": "ashby (cloud driver)",
+      "detail": "Greenhouse (cloud driver): sponsorship Yes, EEO declined; emailed security code entered, confirmation page verified."
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."

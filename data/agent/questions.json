@@ -1,11 +1,18 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T09:32:10.792Z",
+  "updatedAt": "2026-09-14T11:25:12.082Z",
   "open": [
     {
       "id": "q-contractor-1099",
       "question": "Voxie 的 Senior Software Engineer 是 contract（1099/独立承包商）岗位，申请表必答两题：(1) Are you currently set up to legally work as an independent contractor? (2) 这个 contract 岗位你的目标时薪/费率区间是多少？F-1 CPT/EAD 身份下能否以独立承包商身份工作，属于你本人和律师才能确认的事实，代理不会替你猜。请回复这两题的答案（以及今后是否要继续投 contract 岗位）。",
       "field": "employment.contractorStatus,contractRate",
+      "askedAt": "2026-09-14",
+      "blocking": true
+    },
+    {
+      "id": "q-long-hours",
+      "question": "创业公司申请表常问：「我们经常每周工作超过 40 小时，你愿意在这种环境里工作吗？」（例：Kalepa Senior Full Stack Engineer）。这属于你本人的工作时间承诺，代理不替你回答——和「欧洲时区」那条一样。请给一个标准答复（Yes / No / 视情况），以后所有同类问题按它回答。",
+      "field": "workingHours.overtime",
       "askedAt": "2026-09-14",
       "blocking": true
     }
