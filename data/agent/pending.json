@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-14T10:45:13.338Z",
+ "updatedAt": "2026-09-14T11:05:25.066Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -4297,20 +4297,6 @@
    "addedAt": "2026-09-03",
    "status": "applied",
    "note": "top-up batch confirmed"
-  },
-  {
-   "id": "6997b996e0bddb6acac676a8",
-   "key": "cross river::senior software engineer",
-   "title": "Senior Software Engineer",
-   "company": "Cross River",
-   "matchPercent": 83,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6997b996e0bddb6acac676a8",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=crossriverbank&jr_id=6997b996e0bddb6acac676a8&token=7626998003&utm_source=jobright",
-   "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "missing: [\"Do you have any close relatives that are currently employed by Cross R\"]",
-   "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
-   "updatedAt": "2026-09-13"
   },
   {
    "id": "6a97238ee4e60e4b8da5c4b6",
@@ -9149,20 +9135,6 @@
    "addedAt": "2026-09-04",
    "status": "dropped",
    "note": "2026-09-13: DROPPED — user directive, one-year cooldown on this company, no new applications until 2027-09-13. Earlier note: platform: jpmc.fa.oraclecloud.com"
-  },
-  {
-   "id": "6a57415d367e61670f5aeb45",
-   "key": "greenhouse software::senior backend developer",
-   "title": "Senior Backend Developer",
-   "company": "Greenhouse Software",
-   "matchPercent": 84,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a57415d367e61670f5aeb45",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=smartstate&jr_id=6a57415d367e61670f5aeb45&token=4792467101&utm_source=jobright",
-   "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "9/4: GH submit returned no confirmation from cloud IP (15 jobs same pattern = silent IP flag). Retry from Mac home IP (GH token dedupe protects).",
-   "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error",
-   "updatedAt": "2026-09-13"
   },
   {
    "id": "6a9978f090a313642c6507e4",
