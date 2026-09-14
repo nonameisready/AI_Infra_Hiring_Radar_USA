@@ -396,7 +396,10 @@ try {
       const codeFile = path.join(WORK, "gh-code.txt");
       fs.rmSync(codeFile, { force: true });
       console.error("WAITING_FOR_CODE " + codeFile);
-      const deadline = Date.now() + 300000;
+      // 10 minutes, not 5: in the cloud window the code is relayed by hand from
+      // Gmail, and a five-minute wait lost Xometry and Plume on 2026-09-14 while
+      // the orchestrator was mid-form on another posting.
+      const deadline = Date.now() + 600000;
       let code = null;
       while (Date.now() < deadline && !code) {
         if (fs.existsSync(codeFile)) {

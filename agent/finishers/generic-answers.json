@@ -1,6 +1,10 @@
 {
  "combos": [
   {
+   "label": "hybrid role in [a-z .,/-]{0,40}(san francisco|denver|new york|seattle|austin|boston|chicago|los angeles)|prioritiz\\\\w+ candidates (who are |that are )?(located|based|living)|are you (located|based) (in|near)[^?]{0,40}\\\\?|willing (and able )?to (work|be) (on-?site|in[- ]office)[^?]{0,40}\\\\?",
+   "prefer": "^yes|willing to relocate|open to relocat"
+  },
+  {
    "label": "are you one of the following:?\\s*•?\\s*u\\.?s\\.? citizen|u\\.?s\\.? citizen or national|citizen or national.{0,60}lawful permanent resident|export control.{0,80}(citizen|person)",
    "prefer": "^no\\b|none of (the above|these)|^i am not"
   },
@@ -14,7 +18,7 @@
   },
   {
    "label": "require visa support to remain legally employed|will you now or in the future require (visa support|sponsorship)",
-   "prefer": "but will need sponsorship|will need sponsorship in the future|need sponsorship in the future|visa transfer|\\bh-?1b\\b"
+   "prefer": "but will need sponsorship|will need sponsorship in the future|need sponsorship in the future|visa transfer|\\bh-?1b\\b|^yes"
   },
   {
    "label": "ai transcription software|transcribe and summari[sz]e|record (and|&) transcribe",
@@ -3899,6 +3903,38 @@
   {
    "label": "comfortable working (within|in) (our|the) (us|u\\.s\\.|eastern|pacific|central|mountain|et|pt|ct)\\b|overlap with (our|the) (us|u\\.s\\.|east coast|west coast) team",
    "prefer": "^yes"
+  },
+  {
+   "label": "when is the earliest you can start|earliest (date )?(that )?you can start|earliest you (can|could) start|earliest availability|earliest possible start",
+   "prefer": "immediate|asap|within (2 weeks|two weeks|a month|30)|less than|2 weeks"
+  },
+  {
+   "label": "willing (and able )?to (work|be) (on-?site|in[- ]office)|able to (work|be) (on-?site|in[- ]office) [0-9]|willing to relocate",
+   "prefer": "^yes|willing to relocate|open to relocat"
+  },
+  {
+   "label": "i acknowledge that all information regarding the company|acknowledge that all information.{0,40}(confidential|proprietary)",
+   "prefer": "^yes|^i acknowledge|^acknowledge|^agree|^accept"
+  },
+  {
+   "label": "(do|will) you currently,? or will you in the future,? require any immigration|require any immigration[- ]related (support|sponsorship|assistance)",
+   "prefer": "^yes"
+  },
+  {
+   "label": "only able to employ individuals who (live|reside) within the united states|do you (currently )?(live|reside) (within|in) the united states",
+   "prefer": "^yes"
+  },
+  {
+   "label": "hands.?on experience with event.?driven architectures|experience with (event.?driven|streaming) (architecture|systems)",
+   "prefer": "^yes"
+  },
+  {
+   "label": "current address \\(state\\)|^address.{0,10}state|state\\/province|^state ?\\*?$",
+   "prefer": "new jersey|^nj$"
+  },
+  {
+   "label": "current address \\(country\\)|^address.{0,10}country|^country ?\\*?$",
+   "prefer": "^united states|^usa$|^us$"
   }
  ],
  "texts": [
@@ -5117,6 +5153,50 @@
   {
    "label": "utc\\s*\\+?\\s*[01]\\b|european (working )?(hours|time ?zone)|\\bcet\\b",
    "text": "I am based in the New York metro area and work US Eastern hours; I am not able to commit to a European (UTC+0/+1) working schedule. I am fully flexible on location within the US, including onsite up to five days a week."
+  },
+  {
+   "label": "when is the earliest you can start|earliest (date )?(that )?you can start|earliest you (can|could) start|earliest availability|earliest possible start",
+   "text": "Immediately — I am not currently employed and can start within two weeks of an offer."
+  },
+  {
+   "label": "hybrid role in [a-z .,/-]{0,40}(san francisco|denver|new york|seattle|austin|boston|chicago|los angeles)|prioritiz\\\\w+ candidates (who are |that are )?(located|based|living)|are you (located|based) (in|near)[^?]{0,40}\\\\?|willing (and able )?to (work|be) (on-?site|in[- ]office)[^?]{0,40}\\\\?",
+   "text": "Yes — I am based in the New York metro area and willing to relocate at my own expense for an on-site or hybrid role anywhere in the US, including a full five days a week in the office."
+  },
+  {
+   "label": "hybrid role in [a-z .,/-]{0,45}(san francisco|denver|new york|seattle|austin|boston|chicago|los angeles)|willing (and able )?to (work|be) (on-?site|in[- ]office)|able to (work|be) (on-?site|in[- ]office) [0-9]",
+   "text": "I am based in the New York metro area (Jersey City, NJ) and willing to relocate at my own expense for this role — I am happy to work on-site or hybrid, up to five days a week in the office."
+  },
+  {
+   "label": "(do|will) you currently,? or will you in the future,? require any immigration|require any immigration[- ]related (support|sponsorship|assistance)",
+   "text": "Yes — I will need cap-exempt H-1B sponsorship (H-1B previously approved and activated, employment-based I-140 approved); I am currently authorized to work on F-1 CPT/EAD valid through 05/31/2027."
+  },
+  {
+   "label": "only able to employ individuals who (live|reside) within the united states|do you (currently )?(live|reside) (within|in) the united states",
+   "text": "Yes — I live in Jersey City, New Jersey (New York metro area)."
+  },
+  {
+   "label": "hands.?on experience with event.?driven architectures|experience with (event.?driven|streaming) (architecture|systems)",
+   "text": "Yes. At Bank of America I built and scaled an event-driven real-time transaction data platform through 10x traffic growth to millions of requests a day, using asynchronous message pipelines, horizontal partitioning and caching to cut p99 latency by 60%."
+  },
+  {
+   "label": "(describe|share|tell us about).{0,60}(generative ai|llm|large language model|ai chatbot)|experience building (generative ai|llm|ai) (chatbots|applications|systems)",
+   "text": "I build LLM systems hands-on: retrieval-augmented generation pipelines over vector databases, and inference services served with vLLM and SgLang, with evaluation harnesses to keep answer quality measurable. Most recently I have been building agentic tooling in Python that calls LLM APIs with structured outputs and tool use, wrapped in the same reliability practices I use for backend services — schema validation, retries with backoff, caching and latency budgets. I also use AI coding tools daily as a core part of how I ship."
+  },
+  {
+   "label": "current address \\(state\\)|^address.{0,10}state|state\\/province|^state ?\\*?$",
+   "text": "New Jersey"
+  },
+  {
+   "label": "current address \\(country\\)|^address.{0,10}country|^country ?\\*?$",
+   "text": "United States"
+  },
+  {
+   "label": "current address \\(city\\)|^address.{0,10}city|^city ?\\*?$",
+   "text": "Jersey City"
+  },
+  {
+   "label": "current address \\(street|^street address|address line 1",
+   "text": "225 Saint Pauls Ave APT 5P"
   }
  ],
  "checkboxes": [
@@ -5173,6 +5253,9 @@
   },
   {
    "label": "batch data processing systems"
+  },
+  {
+   "label": "i acknowledge that all information regarding the company|acknowledge that all information.{0,40}(confidential|proprietary)"
   }
  ],
  "manualTriggers": [
