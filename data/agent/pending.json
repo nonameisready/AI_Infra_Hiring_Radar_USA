@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-14T11:38:51.866Z",
+ "updatedAt": "2026-09-14T11:45:26.176Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -6753,18 +6753,6 @@
    "note": "missing: [\"U.S. citizen\",\"U.S. non-citizen national\",\"U.S. permanent resident (Green Card holder)\",\"Individual granted asylum in the U.S.\",\"Individua"
   },
   {
-   "id": "6a823fc3ad9ff00c26bb8ce0",
-   "key": "sentinelone::senior backend software engineer - agent platform",
-   "title": "Senior Backend Software Engineer - Agent Platform",
-   "company": "SentinelOne",
-   "matchPercent": 75,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a823fc3ad9ff00c26bb8ce0",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sentinellabs&jr_id=6a823fc3ad9ff00c26bb8ce0&token=7814855003&utm_source=jobright",
-   "addedAt": "2026-09-03",
-   "status": "needs_answers",
-   "note": "missing: [\"Current (or most recent) title held:*\",\"Given the possible federal requirements of this role, what is your US \",\"GDPR*\"]"
-  },
-  {
    "id": "6a68bfd7e53d5546ebf59748",
    "key": "bytedance::software development engineer, network automation",
    "title": "Software Development Engineer, Network Automation",
@@ -9758,20 +9746,6 @@
    "addedAt": "2026-09-04",
    "status": "parked",
    "note": "platform: validate.perfdrive.com"
-  },
-  {
-   "id": "6a3d5144122f340d29cefe80",
-   "key": "sentinelone::senior software engineer - java",
-   "title": "Senior Software Engineer - Java",
-   "company": "SentinelOne",
-   "matchPercent": 79,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a3d5144122f340d29cefe80",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sentinellabs&jr_id=6a3d5144122f340d29cefe80&token=7772360003&utm_source=jobright",
-   "addedAt": "2026-09-04",
-   "status": "needs_answers",
-   "note": "[{\"question\":\"Do you have 5+ years of hands-on Java development experience?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Do you have 5+ years of hands-on Java development experience?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Do you have hands-on experience with containerization and cloud infrastructure (e.g., Docker, Kubernetes, or AWS/GCP)?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Do you have production experience building and operating distributed systems?*\",\"options\":[\"Yes\",\"No\"]},{\"question\":\"Given the possible federal requirements of this role, what is your US work authorization?*\",\"options\":[\"None\",\"US Citizen\",\"Permanent Resident\",\"H1 Visa\",\"TN Visa\",\"F1 Visa\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
-   "reason": "2026-09-13 cloud: required questions with no standing answer.",
-   "updatedAt": "2026-09-13"
   },
   {
    "id": "6a5ff01d193b51130967ba14",
@@ -24634,6 +24608,19 @@
     "Have you ever interviewed at Anthropic before?*",
     "Agreement to Arbitrate*"
    ]
+  },
+  {
+   "id": "6a823fc3ad9ff00c26bb8ce0",
+   "key": "sentinelone::senior backend software engineer - agent platform",
+   "title": "Senior Backend Software Engineer - Agent Platform",
+   "company": "SentinelOne",
+   "matchPercent": 75,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a823fc3ad9ff00c26bb8ce0",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sentinellabs&token=7772360003",
+   "addedAt": "2026-09-13",
+   "status": "dropped",
+   "note": "2026-09-14: not applied. SentinelOne already has a 2026-09-14 application (the Java-titled Senior Software Engineer role); one application per company stands.",
+   "updatedAt": "2026-09-14"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."

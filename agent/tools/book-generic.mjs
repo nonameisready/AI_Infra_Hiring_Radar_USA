@@ -13,7 +13,17 @@ const today = process.env.BOOK_DATE
 const ap = JSON.parse(fs.readFileSync(R + '/data/agent/applied.json', 'utf8'));
 const pd = JSON.parse(fs.readFileSync(R + '/data/agent/pending.json', 'utf8'));
 const pArr = pd.items || pd;
-const idx = pArr.findIndex(x => rx.test(x.company || ''));
+// Prefer the pending row whose ATS url carries the same Greenhouse board token
+// as the url we actually submitted to. Matching on the company alone booked the
+// wrong posting twice on 2026-09-14 (Zipline's Maps role instead of Enterprise
+// Systems, SentinelOne's Agent Platform instead of the Java role) because a
+// company with several open roles has several pending rows.
+const tokenOf = (u) => (String(u || '').match(/[?&]token=(\d+)/) || [])[1];
+const wantToken = tokenOf(atsUrl);
+let idx = wantToken
+  ? pArr.findIndex(x => rx.test(x.company || '') && tokenOf(x.atsUrl) === wantToken)
+  : -1;
+if (idx < 0) idx = pArr.findIndex(x => rx.test(x.company || ''));
 if (idx < 0) throw new Error('not in pending: ' + re);
 const j = pArr[idx];
 if (ap.jobs[j.id]) throw new Error('already applied: ' + j.id);
