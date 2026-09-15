@@ -667,3 +667,27 @@ the dashboard and the next run's dedupe both see them.
   Cloud sessions building their own queue must apply it too. Note the company
   regexes are name-based: `\bchase\b` would also catch an unrelated "Chase
   Corporation" if one ever appears in the pool.
+
+## Field note 2026-09-15: the combo pass is now the batch's main failure mode
+
+Eight applications this window died on `locator.evaluate: Timeout ... exceeded`
+with the form already filled — Natera (twice), NYISO, Warp, Tenable, Anthropic,
+Cypress Creek, Kapitus, Abnormal AI, Future Secure AI. Raising Playwright's
+per-action default from 30s to 90s (`GH_ACTION_TIMEOUT_MS` in gh-finish.mjs)
+did not rescue them: Kapitus, Abnormal AI and Future Secure AI all hit the
+90s limit too.
+
+The likely cause is structural, not a slow network. `gh-finish.mjs` loops over
+every rule in generic-answers.json and, for each rule, re-queries every visible
+combobox and evaluates its label in the page. generic-answers.json has grown to
+~1,250 combo rules (Qwen added 414 on 2026-09-14), so a form with thirty
+controls costs on the order of forty thousand DOM round-trips. That is why the
+failures cluster on the biggest forms and got worse as the rule file grew.
+
+The fix is to invert the loop: read every visible control and its label ONCE
+into an array, then match the rules against those cached labels in memory, and
+only touch the page again to set the values that matched. That is a real change
+to a finisher the Mac batch also runs, so it wants to be written and tested
+deliberately rather than mid-window. Until then, expect the heaviest Greenhouse
+forms to park, and do not read a timeout as "the answers were missing" — in
+every case above the answer rules were present and the form was filled.
