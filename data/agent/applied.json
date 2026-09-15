@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T15:43:17.313Z",
+ "updatedAt": "2026-09-15T15:48:25.019Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -9520,6 +9520,19 @@
    "matchPercent": 81,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a76560e4817aa4307047ed8",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=lightningai&jr_id=6a76560e4817aa4307047ed8&token=7837259003&utm_source=jobright",
+   "status": "applied_direct",
+   "at": "2026-09-15",
+   "via": "greenhouse (cloud batch)",
+   "detail": "greenhouse embed (distinct posting by board token); security code relayed; confirmation page reached"
+  },
+  "6a9a473790a313642c654f66": {
+   "id": "6a9a473790a313642c654f66",
+   "key": "cresta::senior full stack engineer - conversation intelligence",
+   "title": "Senior Full Stack Engineer - Conversation Intelligence",
+   "company": "Cresta",
+   "matchPercent": 74,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9a473790a313642c654f66",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cresta&jr_id=6a9a473790a313642c654f66&token=5026012008&utm_source=jobright",
    "status": "applied_direct",
    "at": "2026-09-15",
    "via": "greenhouse (cloud batch)",
