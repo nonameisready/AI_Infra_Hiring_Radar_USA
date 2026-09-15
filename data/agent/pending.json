@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T17:06:05.391Z",
+ "updatedAt": "2026-09-15T17:20:27.293Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -10831,7 +10831,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=launchdarkly&jr_id=6a458f22971cd25b06f8931a&token=7791926003&utm_source=jobright",
    "addedAt": "2026-09-04",
    "status": "park",
-   "note": "2026-09-15 cloud: unconfirmed submit: note: not submitted — Greenhouse is holding an unfinished verification for this posting; the submit button stays disabled until a fresh emailed code is entered. Retry from a session that can read the code, or from the Mac's home IP where the challenge usually does not fire. | greenhouse holding an unfinished verification | code never arrived in time | url: https://job-boards.greenhouse.io/embed/job_app?for=launchdarkly&jr_id=6a458f22971cd25b06f8931a&token=7791926003&utm_source=jobright | Back to jobs\nSenior Backend Engineer, Data Platform\nRemote - US\nApply\nAbout the Job:\n\nSoftware powers the world, and Lau"
+   "note": "2026-09-15 cloud: unconfirmed submit: note: not submitted — Greenhouse is holding an unfinished verification for this posting; the submit button stays disabled until a fresh emailed code is entered. Retry from a session that can read the code, or from the Mac's home IP where the challenge usually does not fire. | greenhouse holding an unfinished verification | url: https://job-boards.greenhouse.io/embed/job_app?for=launchdarkly&jr_id=6a458f22971cd25b06f8931a&token=7791926003&utm_source=jobright | There was an error processing your application. Please try again.\n\nBack to jobs\nSenior Backend Engineer, Data Platform\nR"
   },
   {
    "id": "6a3f5d8fce7cce40b34237cc",
