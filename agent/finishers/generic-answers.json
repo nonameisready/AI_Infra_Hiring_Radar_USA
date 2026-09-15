@@ -1,6 +1,10 @@
 {
  "combos": [
   {
+   "label": "level of experience in ai( development)?|experience level with (ai|machine learning|llms)|how experienced are you with ai",
+   "prefer": "advanced|professional|extensive|daily|expert|3\\+|2-4|intermediate"
+  },
+  {
    "label": "which office (do|would) you (prefer|like)|preferred office location|which of our offices",
    "prefer": "new york|nyc|manhattan|remote|charlotte|denver|durham|boston|chicago|austin|seattle|san francisco|los angeles|santa monica"
   },
@@ -349,7 +353,7 @@
   },
   {
    "label": "disability status",
-   "prefer": "do not want to answer"
+   "prefer": "do not want to answer|decline to self identify|decline"
   },
   {
    "label": "veteran status",
@@ -595,7 +599,7 @@
   },
   {
    "label": "how would you describe your gender identity",
-   "prefer": "don.?t wish|prefer not"
+   "prefer": "don.?t wish|prefer not|decline to self identify|decline"
   },
   {
    "label": "ever worked for .{2,40} as a (full|part).?-?time",
@@ -1258,15 +1262,15 @@
   },
   {
    "label": "what is your gender\\?",
-   "prefer": "^woman"
+   "prefer": "decline to self identify|decline"
   },
   {
    "label": "what is your race/ethnicity",
-   "prefer": "east asian"
+   "prefer": "decline to self identify|decline"
   },
   {
    "label": "how do you identify\\? \\(race",
-   "prefer": "east asian"
+   "prefer": "decline to self identify|decline"
   },
   {
    "label": "none of these apply|citizenship status.*export|export control",
@@ -1725,7 +1729,7 @@
   },
   {
    "label": "Do you wish to answer EEO questions",
-   "prefer": "I do not wish to answer"
+   "prefer": "I do not wish to answer|decline to self identify|decline"
   },
   {
    "label": "Are you willing to use AI tools in your work",
@@ -2041,7 +2045,7 @@
   },
   {
    "label": "EEO/Demographics",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
@@ -2051,17 +2055,17 @@
   },
   {
    "label": "Veteran status",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
    "label": "Disability status",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
    "label": "Sexual orientation",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
@@ -2239,7 +2243,7 @@
   },
   {
    "label": "What pronouns do you use",
-   "prefer": "She/Her"
+   "prefer": "decline to self identify|decline"
   },
   {
    "label": "Are you fluent in English",
@@ -2560,7 +2564,7 @@
   },
   {
    "label": "EEO|Demographics|Gender|Race|Ethnicity|Veteran|Disability|Sexual|Pronouns",
-   "prefer": "I.*do.*not.*wish.*to.*answer|Prefer.*not.*to.*say|Not.*Specified",
+   "prefer": "I.*do.*not.*wish.*to.*answer|Prefer.*not.*to.*say|Not.*Specified|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
@@ -2852,37 +2856,37 @@
   },
   {
    "label": "EEO gender",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
    "label": "EEO race",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
    "label": "EEO veteran",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
    "label": "EEO disability",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
    "label": "EEO sexual orientation",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
    "label": "EEO pronouns",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
    "label": "EEO Hispanic",
-   "prefer": "No",
+   "prefer": "No|decline to self identify|decline",
    "type": "No"
   },
   {
@@ -3244,7 +3248,7 @@
   },
   {
    "label": "EEO.*Hispanic",
-   "prefer": "No",
+   "prefer": "No|decline to self identify|decline",
    "type": "No"
   },
   {
@@ -3337,7 +3341,7 @@
   },
   {
    "label": "EEO demographics",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
@@ -3419,7 +3423,7 @@
   },
   {
    "label": "EEO|demographics|gender|race|veteran|disability|sexual orientation|pronouns",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": ""
   },
   {
@@ -3494,32 +3498,32 @@
   },
   {
    "label": "EEO.*Gender",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
    "label": "EEO.*Race",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
    "label": "EEO.*Veteran",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
    "label": "EEO.*Disability",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
    "label": "EEO.*Sexual.*Orientation",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
    "label": "EEO.*Pronouns",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
@@ -4394,27 +4398,27 @@
   },
   {
    "label": "EEO.*gender",
-   "prefer": "I do not wish to answer"
+   "prefer": "I do not wish to answer|decline to self identify|decline"
   },
   {
    "label": "EEO.*race.*ethnicity",
-   "prefer": "I do not wish to answer"
+   "prefer": "I do not wish to answer|decline to self identify|decline"
   },
   {
    "label": "EEO.*veteran",
-   "prefer": "I do not wish to answer"
+   "prefer": "I do not wish to answer|decline to self identify|decline"
   },
   {
    "label": "EEO.*disability",
-   "prefer": "I do not wish to answer"
+   "prefer": "I do not wish to answer|decline to self identify|decline"
   },
   {
    "label": "EEO.*sexual orientation",
-   "prefer": "I do not wish to answer"
+   "prefer": "I do not wish to answer|decline to self identify|decline"
   },
   {
    "label": "EEO.*pronouns",
-   "prefer": "I do not wish to answer"
+   "prefer": "I do not wish to answer|decline to self identify|decline"
   },
   {
    "label": "Hispanic.*Latino",
@@ -4672,7 +4676,7 @@
   },
   {
    "label": "Please identify your race\\*",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "text"
   },
   {
@@ -4697,7 +4701,7 @@
   },
   {
    "label": "race",
-   "prefer": "I do not wish to answer"
+   "prefer": "I do not wish to answer|decline to self identify|decline"
   },
   {
    "label": "If hired by Warp, will you be based in the U.S. or Canada",
@@ -5257,32 +5261,32 @@
   },
   {
    "label": "gender",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": ""
   },
   {
    "label": "ethnicity",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": ""
   },
   {
    "label": "veteran",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": ""
   },
   {
    "label": "disability",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": ""
   },
   {
    "label": "sexual orientation",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": ""
   },
   {
    "label": "pronouns",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": ""
   },
   {
@@ -5376,7 +5380,7 @@
   },
   {
    "label": "Please identify your race",
-   "prefer": "I do not wish to answer"
+   "prefer": "I do not wish to answer|decline to self identify|decline"
   },
   {
    "label": "If you are not located in the listed metropolitan area on this post, are you comfortable r",
@@ -5428,7 +5432,7 @@
   },
   {
    "label": "EEO|Demographics|Gender|Race|Veteran|Disability|Sexual.*orientation|Pronouns",
-   "prefer": "I do not wish to answer",
+   "prefer": "I do not wish to answer|decline to self identify|decline",
    "type": "I do not wish to answer"
   },
   {
