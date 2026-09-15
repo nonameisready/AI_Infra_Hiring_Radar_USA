@@ -9016,8 +9016,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a998cff040e5c3d07596edc",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=toast&jr_id=6a998cff040e5c3d07596edc&token=7870945&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"What's your postal code? *\"] — run on Mac with Qwen."
+   "status": "applied",
+   "note": "2026-09-15 cloud: submitted and confirmed (security code relayed)."
   },
   {
    "id": "6a613069ab9bd46763249cde",
@@ -10183,8 +10183,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a56709621f64463ad35495d",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=databricks&jr_id=6a56709621f64463ad35495d&token=8183195002&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"U.S. citizen\",\"U.S. non-citizen national\",\"U.S. permanent resident (Green Card holder)\",\"Individual granted asylum in  — run on Mac with Qwen."
+   "status": "applied",
+   "note": "2026-09-15 cloud: submitted and confirmed (security code relayed)."
   },
   {
    "id": "6a70e16bcb96192a3684635c",
@@ -25711,18 +25711,6 @@
    "addedAt": "2026-09-15",
    "status": "needs_answers",
    "note": "2026-09-15 cloud:  missing: [\"What is your Social Security Number?*\"]"
-  },
-  {
-   "id": "6aa5854f930bff471a29efe6",
-   "key": "fanatics::senior software engineer full stack fes",
-   "title": "Senior Software Engineer, Full Stack (FES)",
-   "company": "Fanatics",
-   "matchPercent": 74,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6aa5854f930bff471a29efe6",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=fanaticsinc&token=4401745009&jr_id=6aa5854f930bff471a29efe6",
-   "addedAt": "2026-09-15",
-   "status": "needs_answers",
-   "note": "2026-09-15 cloud:  missing: [\"How did you hear about Fanatics?*\"]"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
