@@ -1,6 +1,34 @@
 {
  "combos": [
   {
+   "label": "(have|hold) (the )?(legal )?authorization to work in (this|the) (job|role|position)('s)?[^?]{0,25}location|authorized to work in this job's location",
+   "prefer": "^yes"
+  },
+  {
+   "label": "legally eligible to work in the united states|eligible to work in the u\\.?s\\.?a?\\b",
+   "prefer": "^yes"
+  },
+  {
+   "label": "currently located in (either )?(canada or the us|the us or canada)|located in (either )?(the )?(us|united states) or canada",
+   "prefer": "^yes"
+  },
+  {
+   "label": "located in one of the following countries or regions:? ?(belarus|cuba|iran|north korea)|belarus, cuba, iran, north korea",
+   "prefer": "^no"
+  },
+  {
+   "label": "require .{0,25}sponsorship to (continue|extend) (or extend )?your (current )?work",
+   "prefer": "^yes"
+  },
+  {
+   "label": "perform (these|the|all) essential (functions|duties) of the (job|position|role)",
+   "prefer": "^yes"
+  },
+  {
+   "label": "may we contact your current employer|can we contact your (present|current) employer",
+   "prefer": "^no"
+  },
+  {
    "label": "^region \\(state|state/county/province|^region\\*?$",
    "prefer": "new jersey"
   },

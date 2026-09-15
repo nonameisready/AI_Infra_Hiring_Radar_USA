@@ -93,19 +93,15 @@ try {
       }
       return "";
     };
-    // Only treat a control as already answered when it plainly is: when in
-    // doubt fall through to unfilled, which is what the old code always did.
-    // Deliberately limited to SELECT and real inputs. A div[aria-haspopup]
-    // wrapper's innerText often contains the question text as well as the
-    // chosen value, so reading it here would mark an untouched control filled
-    // and silently skip the question. Within a pass first-rule-wins is
-    // enforced by marking the snapshot entry instead, so nothing is lost.
-    const filledOf = (e) => {
-      if (e.tagName === "SELECT") return e.value !== "" && e.selectedIndex > 0;
-      if (e.tagName !== "INPUT" && e.tagName !== "TEXTAREA") return false;
-      const t = (e.value ?? "").trim();
-      return !!t && !/^(select|choose|pick)\b/i.test(t) && !/^[-–—.]*$/.test(t);
-    };
+    // ONLY a real <select> can be judged answered from the DOM here.
+    // Greenhouse's remix forms use react-select, whose visible input is a
+    // search box: public/autofill.js writes "Yes" into it cosmetically without
+    // committing a selection, so trusting .value marked those controls answered
+    // and the combo pass skipped them entirely. The required-state sentinel
+    // then stayed empty and the posting was parked as needs_answers with the
+    // question actually unanswered (Moloco, NYISO, Affirm, 2026-09-15).
+    // Everything else falls through to the rules, as it did before snapshotting.
+    const filledOf = (e) => e.tagName === "SELECT" && e.value !== "" && e.selectedIndex > 0;
     return Array.from(document.querySelectorAll(sel)).map((e) => ({
       label: labelOf(e),
       // offsetParent is null for position:fixed too; getClientRects is the
