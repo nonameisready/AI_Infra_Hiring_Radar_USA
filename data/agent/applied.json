@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T16:30:06.789Z",
+ "updatedAt": "2026-09-15T16:35:11.346Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -9602,6 +9602,19 @@
    "at": "2026-09-15",
    "via": "greenhouse (cloud batch)",
    "detail": "greenhouse embed (Merchant & Partner Lifecycle, token 7636414003); security code relayed; confirmation page reached"
+  },
+  "6a5201bdae4052672fe9d292": {
+   "id": "6a5201bdae4052672fe9d292",
+   "key": "cribl::sr software engineer, edge",
+   "title": "Sr Software Engineer, Edge",
+   "company": "Cribl",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5201bdae4052672fe9d292",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cribl&jr_id=6a5201bdae4052672fe9d292&token=6000054004&utm_source=jobright",
+   "status": "applied_direct",
+   "at": "2026-09-15",
+   "via": "greenhouse (cloud batch)",
+   "detail": "greenhouse embed (token 6000054004); security code relayed; confirmation page reached"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
