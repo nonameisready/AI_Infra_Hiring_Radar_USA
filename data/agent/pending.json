@@ -25054,18 +25054,6 @@
    "note": "no ATS url discovered"
   },
   {
-   "id": "6aa898ee82e82a31997c6a18",
-   "key": "twin health::senior software engineer, health pod",
-   "title": "Senior Software Engineer, Health Pod",
-   "company": "Twin Health",
-   "matchPercent": 79,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6aa898ee82e82a31997c6a18",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=twinhealth&token=6167335004&jr_id=6aa898ee82e82a31997c6a18",
-   "addedAt": "2026-09-15",
-   "status": "parked",
-   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[role=\"combobox\"], select, button[aria-haspopup=\"listbox\"], div[aria-haspopup=\"listbox\"]').nth(11)\u001b[22m\n"
-  },
-  {
    "id": "6a82a0242dbaf907b07647b7",
    "key": "dunbar consulting, inc.::developer",
    "title": "Developer",
@@ -25495,8 +25483,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6aa847d7654b2a9424cfbcde",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=freedomconsulting&token=5237831007&jr_id=6aa847d7654b2a9424cfbcde",
    "addedAt": "2026-09-15",
-   "status": "parked",
-   "note": "unconfirmed submit: There was an error processing your application. Please try again.\n\nNew\nSenior Software Engineer 772\nSt. Louis, MO\nApply\n"
+   "status": "dropped",
+   "note": "2026-09-15: blocked — posting requires an ACTIVE TS/SCI clearance (with CI poly). Standing never-apply rule: no defense/clearance roles. The finisher was killed before submitting."
   },
   {
    "id": "6a7e2906ad9ff00c26baa046",
