@@ -1,6 +1,14 @@
 {
  "combos": [
   {
+   "label": "^region \\(state|state/county/province|^region\\*?$",
+   "prefer": "new jersey"
+  },
+  {
+   "label": "working preferences.{0,240}(location flexible|location specific|labeled as either remote)|roles at .{0,40} are labeled as either",
+   "prefer": "hybrid \\(new york city\\)"
+  },
+  {
    "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(previously been employed at|previously worked at|have you ever been employed at)).*",
    "prefer": "^no\\b"
   },
