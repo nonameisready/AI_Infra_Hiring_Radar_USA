@@ -38,7 +38,16 @@ ap.jobs[j.id] = {
   originalUrl: atsUrl || (j.atsUrl || '').split('?')[0],
   status: 'applied',
   at: today,
-  via: process.env.BOOK_VIA || 'ashby (cloud driver)',
+  // Derive the platform from the url instead of assuming Ashby: every
+  // Greenhouse submit booked through this tool on 2026-09-15 was filed as
+  // "ashby (cloud driver)" until this was fixed.
+  via: process.env.BOOK_VIA || (() => {
+    const u = atsUrl || j.atsUrl || j.originalUrl || '';
+    if (/greenhouse/i.test(u)) return 'greenhouse (cloud batch)';
+    if (/ashbyhq/i.test(u)) return 'ashby (cloud driver)';
+    if (/lever\.co/i.test(u)) return 'lever (cloud batch)';
+    return 'cloud batch';
+  })(),
   detail
 };
 ap.updatedAt = new Date().toISOString();
