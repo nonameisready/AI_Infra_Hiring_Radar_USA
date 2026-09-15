@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T06:46:28.735Z",
+ "updatedAt": "2026-09-15T09:44:18.489Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -5192,8 +5192,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9879a8af954907d65738dd",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=kalepa&jr_id=6a9879a8af954907d65738dd&token=6179747004&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_info",
-   "note": "2026-09-14 cloud: the form asks whether she wants an environment where people work more than 40 hours a week — her own commitment to make (q-long-hours). Everything else on the form is worked out.",
+   "status": "dropped",
+   "note": "2026-09-15: dropped on 2026-09-14 (sponsorship/location/working-hours)",
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"How quickly are you looking to start a new role? *\",\"Kalepa is a growth stage startup with ambitious goals. We are willing \"]",
    "updatedAt": "2026-09-14",
    "missing": [
@@ -6144,8 +6144,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a84e57fd34f700f87fbb581",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=life360&jr_id=6a84e57fd34f700f87fbb581&token=8728404002&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "missing: [\"Are you an existing employee at Life360, Tile, or Jiobit? *\"]",
+   "status": "closed",
+   "note": "2026-09-15: the Greenhouse posting is no longer open (board returns \"The job you are looking for is no longer open\").",
    "reason": "2026-09-14 cloud: no_apply_button",
    "updatedAt": "2026-09-14"
   },
@@ -6182,8 +6182,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a55d05eef22935f2e3f7981",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sonyinteractiveentertainmentglobal&jr_id=6a55d05eef22935f2e3f7981&token=6101710004&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "missing: [\"Are you related to, or in a close personal relationship with, anyone w\",\"By selecting \\\"Yes\\\", I am certifying that, to the best of my kno",
+   "status": "closed",
+   "note": "2026-09-15: the Greenhouse posting is no longer open (board returns \"The job you are looking for is no longer open\").",
    "reason": "2026-09-14 cloud: no_apply_button",
    "updatedAt": "2026-09-14"
   },
@@ -7764,8 +7764,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a63e871e8d8d22e3292b493",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=samsara&jr_id=6a63e871e8d8d22e3292b493&token=8050373&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
-   "note": "missing: [\"I confirm I reside in the US except the San Francisco Bay Metro Area, \",\"Processing of Personal Data*\",\"What is the zip code of your prima"
+   "status": "dropped",
+   "note": "2026-09-15: dropped on 2026-09-14 (sponsorship/location/working-hours)"
   },
   {
    "id": "69209fcd00c9ee50eaec6295",
@@ -10930,8 +10930,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a3ea41e78237a036d5e4a18",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=babelstreet&jr_id=6a3ea41e78237a036d5e4a18&token=7939120&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "9/4 cloud GH flagged; missing: [\"If yes, is Babel Street considered a competitor to your most recent em\"] — run on Mac with Qwen.",
+   "status": "closed",
+   "note": "2026-09-15: the Greenhouse posting is no longer open (board returns \"The job you are looking for is no longer open\").",
    "reason": "2026-09-14 cloud: no_apply_button",
    "updatedAt": "2026-09-14"
   },
@@ -11162,8 +11162,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4129f2b526a24fc31316ce",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=dvtrading&jr_id=6a4129f2b526a24fc31316ce&token=4687398005&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "9/4 cloud GH flagged; missing: [\"Do you have experience working at a proprietary trading firm?*\",\"If yes, select your most recent proprietary trading f — run on Mac with Qwen.",
+   "status": "closed",
+   "note": "2026-09-15: the Greenhouse posting is no longer open (board returns \"The job you are looking for is no longer open\").",
    "reason": "2026-09-14 cloud: no_apply_button",
    "updatedAt": "2026-09-14"
   },
@@ -15374,7 +15374,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5ad4ab686b4755d1e167e9",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=ngrokinc&jr_id=6a5ad4ab686b4755d1e167e9&token=5826321004&utm_source=jobright",
    "addedAt": "2026-09-06",
-   "status": "parked",
+   "status": "closed",
    "missing": [
     "Do you currently have legal US work authorization?*",
     "Will you, now or in the future, require the support of ngrok to mainta",
@@ -15383,7 +15383,8 @@
     "At this time, we're only able to hire employees working from the follo"
    ],
    "reason": "2026-09-14 cloud: no_apply_button",
-   "updatedAt": "2026-09-14"
+   "updatedAt": "2026-09-14",
+   "note": "2026-09-15: the Greenhouse posting is no longer open (board returns \"The job you are looking for is no longer open\")."
   },
   {
    "id": "692079083f782d2f1afc7a00",
@@ -16445,8 +16446,8 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=chainguard&jr_id=6a2a2cb50c4972328e7e73a5&token=4688378006&utm_source=jobright",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=chainguard&jr_id=6a2a2cb50c4972328e7e73a5&token=4688378006&utm_source=jobright",
    "addedAt": "2026-09-07",
-   "status": "parked",
-   "note": "[\"At this time, Chainguard is unable to provide employment sponsorship. \",\"Why are you interested in this role at Chainguard? (While we love AI p\"]",
+   "status": "dropped",
+   "note": "2026-09-15: dropped on 2026-09-14 (sponsorship/location/working-hours)",
    "reason": "2026-09-14 cloud: unconfirmed submit: error: page.evaluate: Execution context was destroyed, most likely because of a navigation",
    "updatedAt": "2026-09-14"
   },
@@ -21777,14 +21778,14 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6aa3ba61c5a856ac7e33b401",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=twosixtechnologies&token=6188612004&jr_id=6aa3ba61c5a856ac7e33b401",
    "addedAt": "2026-09-12",
-   "status": "needs_answers",
+   "status": "dropped",
    "missing": [
     "Desired Salary*",
     "Have you worked for Two Six Technologies or an affiliate in the past? ",
     "Please identify your race*"
    ],
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Desired Salary*\",\"Have you worked for Two Six Technologies or an affiliate in the past? \",\"Please identify your race*\"]",
-   "note": "[{\"question\":\"Desired Salary*\",\"options\":[\"$40,000-$60,000\",\"$61,000-$80,000\",\"$81,000-$100,000\",\"$101,000-$120,000\",\"$121,000-$140,000\",\"$141,000-$160,000\",\"$161,000-$180,000\",\"$181,000-$200,000\",\"$201,000-$220,000\",\"$221,000-$240,000\"]},{\"question\":\"Gender*\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race*\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status*\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status*\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
+   "note": "2026-09-15: defense/clearance (twosixtechnologies)",
    "updatedAt": "2026-09-14"
   },
   {
@@ -22306,23 +22307,6 @@
    "updatedAt": "2026-09-12",
    "status": "parked",
    "note": "2026-09-12 cloud batch: platform not automated from cloud: ats.rippling.com"
-  },
-  {
-   "id": "6a7d0beed77e8156a8e35ad4",
-   "key": "liftoff mobile::software engineer, partner engineering",
-   "title": "Software Engineer, Partner Engineering",
-   "company": "Liftoff Mobile",
-   "matchPercent": 88,
-   "jobrightUrl": "https://jobright.ai/jobs/info/6a7d0beed77e8156a8e35ad4",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=liftoff&token=8127027&jr_id=6a7d0beed77e8156a8e35ad4",
-   "addedAt": "2026-09-12",
-   "updatedAt": "2026-09-14",
-   "status": "parked",
-   "note": "[{\"question\":\"What is your SQL skill level?*\",\"options\":[\"Advanced\",\"Intermediate\",\"Beginner\",\"No Experience\"]},{\"question\":\"Gender\",\"options\":[\"Male\",\"Female\",\"Decline To Self Identify\"]},{\"question\":\"Please identify your race\",\"options\":[\"American Indian or Alaskan Native\",\"Asian\",\"Black or African American\",\"White\",\"Native Hawaiian or Other Pacific Islander\",\"Two or More Races\",\"Decline To Self Identify\"]},{\"question\":\"Veteran Status\",\"options\":[\"I am not a protected veteran\",\"I identify as one or more of the classifications of a protected veteran\",\"I don't wish to answer\"]},{\"question\":\"Disability Status\",\"options\":[\"Yes, I have a disability, or have had one in the past\",\"No, I do not have a disability and have not had one in the past\",\"I do not want to answer\"]}]",
-   "reason": "2026-09-14 cloud: unconfirmed submit: no confirmation, no page text, no error",
-   "missing": [
-    "Do you have customer and/or stakeholder facing experience?*"
-   ]
   },
   {
    "id": "6a8c3f0e1d96e6541c8bfb7b",
@@ -23743,7 +23727,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7d18cedc3dff2d1c0cab45",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=voxieinc&token=4723729005&jr_id=6a7d18cedc3dff2d1c0cab45",
    "addedAt": "2026-09-14",
-   "status": "needs_info",
+   "status": "closed",
    "missing": [
     "Are you currently set up to legally work as an independent contractor ",
     "Which range best fits your target rate for this contract role (paid in",
@@ -23751,7 +23735,7 @@
     "Tell us about a time an AI coding tool (Copilot, Claude, Cursor, etc.)",
     "On a scale of 1 (color-coded spreadsheet for everything) to 10 (sticky"
    ],
-   "note": "2026-09-14 cloud: contract (1099) role. Blocked on two questions only the applicant can answer — whether she is set up to work legally as an independent contractor on F-1 CPT/EAD, and her target rate for a contract engagement (q-contractor-1099). Never guessed.",
+   "note": "2026-09-15: the Greenhouse posting is no longer open (board returns \"The job you are looking for is no longer open\").",
    "updatedAt": "2026-09-14",
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Are you currently set up to legally work as an independent contractor \",\"Which range best fits your target rate for this contract role (paid in\",\"This role involves daily written communication and live calls with U.S\",\"Tell us about a time an AI coding tool (Copilot, Claude, Cursor, etc.)\",\"On a s"
   },
