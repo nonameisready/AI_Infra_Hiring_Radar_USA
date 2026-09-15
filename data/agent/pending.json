@@ -7348,18 +7348,6 @@
    "note": "platform: jobs.ashbyhq.com"
   },
   {
-   "id": "69ce99c4cfdc6132f9429eab",
-   "key": "teamlfg::senior game services engineering lead",
-   "title": "Senior Game Services Engineering Lead",
-   "company": "teamLFG",
-   "matchPercent": 72,
-   "jobrightUrl": "https://jobright.ai/jobs/info/69ce99c4cfdc6132f9429eab",
-   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=teamlfg&jr_id=69ce99c4cfdc6132f9429eab&token=5843987004&utm_source=jobright",
-   "addedAt": "2026-09-03",
-   "status": "needs_answers",
-   "note": "2026-09-15 cloud:  missing: [\"By selecting \\\"Yes\\\", I am certifying that, to the best of my knowledge,\"]"
-  },
-  {
    "id": "6a8f05a1f841e649a719030f",
    "key": "lennar::sr software engineer",
    "title": "Sr Software Engineer",
@@ -9382,8 +9370,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9a0255ad752e2ad5503557",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=instacart&jr_id=6a9a0255ad752e2ad5503557&token=8178502&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"Do you identify as a member of the LGBT2QIA+ community?*\"] — run on Mac with Qwen."
+   "status": "applied",
+   "note": "2026-09-15 cloud: submitted and confirmed (security code relayed)."
   },
   {
    "id": "6a8376213eeac101cfaa00dc",
