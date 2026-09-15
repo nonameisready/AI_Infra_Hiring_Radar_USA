@@ -66,38 +66,73 @@ try {
   await page.waitForTimeout(2000);
 
   // Comboboxes: click, read the freshly opened listbox, pick by preference.
+  //
+  // The label of every control is read ONCE into a snapshot, and the rules are
+  // then matched against that snapshot in memory. It used to be the other way
+  // round: for each of the ~1,250 combo rules the page was re-queried for every
+  // combobox and each one's label re-derived with an innerText walk up six
+  // ancestors. That is ~1,250 x N round-trips per form, each forcing a reflow —
+  // on 2026-09-15 it timed out (30s, then 90s) on Natera, Cypress Creek,
+  // Anthropic, Abnormal AI, Kapitus, Future Secure AI and Fellow, losing seven
+  // otherwise-complete applications. One snapshot is one round-trip.
+  const COMBO_SEL = '[role="combobox"], select, button[aria-haspopup="listbox"], div[aria-haspopup="listbox"]';
+  const comboSnapshot = () => page.evaluate((sel) => {
+    const labelOf = (e) => {
+      const direct =
+        e.labels?.[0]?.innerText || e.getAttribute("aria-label") ||
+        e.closest("div,fieldset")?.querySelector("label")?.innerText || "";
+      if (direct.trim()) return direct.trim();
+      // Greenhouse's remix UI: no label association — the question text is
+      // the first meaningful line of an enclosing container.
+      let node = e.parentElement;
+      for (let d = 0; d < 6 && node; d++) {
+        const line = (node.innerText ?? "").split("\n").map((t) => t.trim())
+          .find((t) => t && !/^select\.{0,3}$/i.test(t));
+        if (line) return line;
+        node = node.parentElement;
+      }
+      return "";
+    };
+    // Only treat a control as already answered when it plainly is: when in
+    // doubt fall through to unfilled, which is what the old code always did.
+    const filledOf = (e) => {
+      if (e.tagName === "SELECT") return e.value !== "" && e.selectedIndex > 0;
+      const t = (e.value ?? e.innerText ?? "").trim();
+      return !!t && !/^(select|choose|pick)\b/i.test(t) && !/^[-–—.]*$/.test(t);
+    };
+    return Array.from(document.querySelectorAll(sel)).map((e) => ({
+      label: labelOf(e),
+      // offsetParent is null for position:fixed too; getClientRects is the
+      // cheap check that matches what Playwright calls visible.
+      visible: e.getClientRects().length > 0 && getComputedStyle(e).visibility !== "hidden",
+      filled: filledOf(e),
+    }));
+  }, COMBO_SEL);
+
+  const allCombos = page.locator(COMBO_SEL);
+  let snap = await comboSnapshot();
+  // Answering one question can reveal conditional follow-ups, which the old
+  // per-rule re-query picked up for free. Re-snapshot once at the end of a pass
+  // and run the rules again if the form grew — two snapshots, not 1,250.
+  const triedCombo = new Set();
+  for (let pass = 0; pass < 2; pass++) {
   for (const c of ANSWERS.combos ?? []) {
-    const combo = page.locator('[role="combobox"], select, button[aria-haspopup="listbox"], div[aria-haspopup="listbox"]').filter({ has: page.locator(":scope") });
     // ALL matching controls: the same rule can cover several questions, and
     // Greenhouse renders duplicate desktop/mobile copies of the whole form.
-    const targets = await (async () => {
-      const found = [];
-      const all = page.locator('[role="combobox"], select, button[aria-haspopup="listbox"], div[aria-haspopup="listbox"]');
-      const n = await all.count();
-      for (let i = 0; i < n; i++) {
-        const el = all.nth(i);
-        if (!(await el.isVisible().catch(() => false))) continue;
-        const label = await el.evaluate((e) => {
-          const direct =
-            e.labels?.[0]?.innerText || e.getAttribute("aria-label") ||
-            e.closest("div,fieldset")?.querySelector("label")?.innerText || "";
-          if (direct.trim()) return direct.trim();
-          // Greenhouse's remix UI: no label association — the question text is
-          // the first meaningful line of an enclosing container.
-          let node = e.parentElement;
-          for (let d = 0; d < 6 && node; d++) {
-            const line = (node.innerText ?? "").split("\n").map((t) => t.trim())
-              .find((t) => t && !/^select\.{0,3}$/i.test(t));
-            if (line) return line;
-            node = node.parentElement;
-          }
-          return "";
-        });
-        if (new RegExp(c.label, "i").test(label)) found.push({ el, label });
-      }
-      return found;
-    })();
-    if (!targets.length) { out.combos.push({ label: c.label, result: "not_found" }); continue; }
+    const labelRe = new RegExp(c.label, "i");
+    const targets = [];
+    for (let i = 0; i < snap.length; i++) {
+      const s = snap[i];
+      // Skip what is already answered, so the first rule that matches a
+      // control wins — that is what putting a rule first in the list means.
+      if (!s.visible || s.filled) continue;
+      const seen = `${c.label}\u0000${i}`;
+      if (triedCombo.has(seen) || !labelRe.test(s.label)) continue;
+      triedCombo.add(seen);
+      s.filled = true;
+      targets.push({ el: allCombos.nth(i), label: s.label });
+    }
+    if (!targets.length) { if (pass === 0) out.combos.push({ label: c.label, result: "not_found" }); continue; }
     for (const target of targets) {
 
     const tagName = await target.el.evaluate((e) => e.tagName);
@@ -167,6 +202,10 @@ try {
     }
     await page.waitForTimeout(600);
     }
+  }
+    const next = await comboSnapshot();
+    if (next.length === snap.length) break;
+    snap = next;
   }
 
   // Free-text answers by label.
