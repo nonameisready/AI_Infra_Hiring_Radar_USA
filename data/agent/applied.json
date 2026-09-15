@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T15:19:42.108Z",
+ "updatedAt": "2026-09-15T15:30:06.467Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -9447,6 +9447,45 @@
    "at": "2026-09-15",
    "via": "greenhouse (cloud batch)",
    "detail": "greenhouse embed (distinct posting by board token); security code relayed; confirmation page reached"
+  },
+  "6a9775b8246d697dcee0566e": {
+   "id": "6a9775b8246d697dcee0566e",
+   "key": "coreweave::senior engineer, security products",
+   "title": "Senior Engineer, Security Products",
+   "company": "CoreWeave",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a9775b8246d697dcee0566e",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=coreweave&jr_id=6a9775b8246d697dcee0566e&token=4709751006&utm_source=jobright",
+   "status": "applied_direct",
+   "at": "2026-09-15",
+   "via": "greenhouse (cloud batch)",
+   "detail": "greenhouse embed (distinct posting by board token); security code relayed; confirmation page reached"
+  },
+  "67db65d9f5e7b7a25f7b255f": {
+   "id": "67db65d9f5e7b7a25f7b255f",
+   "key": "databricks::senior staff software engineer - app and partner ecosystem",
+   "title": "Senior Staff Software Engineer - App and Partner Ecosystem",
+   "company": "Databricks",
+   "matchPercent": 75,
+   "jobrightUrl": "https://jobright.ai/jobs/info/67db65d9f5e7b7a25f7b255f",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=databricks&jr_id=67db65d9f5e7b7a25f7b255f&token=7807722002&utm_source=jobright",
+   "status": "applied_direct",
+   "at": "2026-09-15",
+   "via": "greenhouse (cloud batch)",
+   "detail": "greenhouse embed (distinct posting by board token); security code relayed; confirmation page reached"
+  },
+  "6aa87c2ca77a53f5a1579c33": {
+   "id": "6aa87c2ca77a53f5a1579c33",
+   "key": "stripe::software engineer backend",
+   "title": "Software Engineer, Backend",
+   "company": "Stripe",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa87c2ca77a53f5a1579c33",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&token=8198280&jr_id=6aa87c2ca77a53f5a1579c33",
+   "status": "applied_direct",
+   "at": "2026-09-15",
+   "via": "greenhouse (cloud batch)",
+   "detail": "greenhouse embed (token 8198280, distinct from the seven earlier Stripe roles); fresh Jobright match harvested this window; security code relayed; confirmation page reached"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
