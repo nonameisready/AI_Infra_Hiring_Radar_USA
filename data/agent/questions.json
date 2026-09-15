@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T18:00:00.000Z",
+ "updatedAt": "2026-09-15T19:00:00.000Z",
  "open": [],
  "answered": [
   {
@@ -162,6 +162,15 @@
    "askedAt": "2026-09-15",
    "blocking": false,
    "answer": "接受较多出差（25% 以上也可以）。",
+   "answeredAt": "2026-09-15",
+   "answeredBy": "user"
+  },
+  {
+   "id": "q-pledges-nda-arbitration-ai-relocation",
+   "question": "NDA、仲裁协议、AI 使用声明、自费搬家这四类承诺，是否授权代理代答？（此前的规则是只能本人答）",
+   "answer": "全部同意，代理可代答：NDA 同意、仲裁协议同意、AI 使用声明可接受 AI、自费搬家愿意。唯一例外不是偏好问题而是事实问题：若表单要求声明「没有使用 AI 完成本申请」，代理仍须 park，因为表单确实是代理填的，答 Yes 就是假话。",
+   "field": "pledgePolicy",
+   "askedAt": "2026-09-15",
    "answeredAt": "2026-09-15",
    "answeredBy": "user"
   }

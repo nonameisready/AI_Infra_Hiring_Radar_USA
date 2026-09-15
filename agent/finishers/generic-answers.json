@@ -1,6 +1,26 @@
 {
  "combos": [
   {
+   "label": "did you use (any )?ai|was ai used|have you used (any )?ai (tool|assistance)|use of ai in (this|your) application",
+   "prefer": "^yes|disclose|ai.?assist"
+  },
+  {
+   "label": "non-?disclosure agreement|\\bNDA\\b( acknowledg| agreement)?|confidentiality agreement",
+   "prefer": "^yes|^i agree|agree|acknowledge|accept"
+  },
+  {
+   "label": "arbitration agreement|binding arbitration|agree to arbitrat|candidate arbitration|mutual arbitration|dispute resolution agreement",
+   "prefer": "^yes|^i agree|agree|acknowledge|accept"
+  },
+  {
+   "label": "ai (policy|partnership guidelines)( for (application|candidates|interviewers))?|reviewed our ai (policy|guidelines)|confirm your understanding by selecting|acknowledge (our |the )?ai (policy|guidelines)|policy on (the use of )?ai",
+   "prefer": "^yes|^i (agree|have read|understand)|acknowledge|accept"
+  },
+  {
+   "label": "willing to relocate|able to relocate|open to relocat|relocate (before|prior to) starting|relocation (required|is required)|are you willing to move",
+   "prefer": "willing to relocate|^yes|already reside|relocate before starting"
+  },
+  {
    "label": "current offers you are considering|do you have any (other )?(current |competing |outstanding )?offers|other offers (in progress|pending)",
    "prefer": "^no\\b|^none\\b"
   },
@@ -288,7 +308,7 @@
    "prefer": "n/?a|not applicable|^yes"
   },
   {
-   "label": "certify that the information|i certify|i confirm that all the information",
+   "label": "^(?!.*(did not use ai|didn.t use ai|without (the use of |any )?ai|without ai assistance|no ai (was )?(used|involved)|not use any ai|own words|free of ai|ai.free))(?=.*(certify that the information|i certify|i confirm that all the information)).*",
    "prefer": "^yes|agree|acknowledge"
   },
   {
@@ -428,7 +448,7 @@
    "prefer": "moderate|intermediate|some"
   },
   {
-   "label": "automated system or ai|using an ai|ai (tool|assistance)",
+   "label": "^(?!.*(did not use ai|didn.t use ai|without (the use of |any )?ai|without ai assistance|no ai (was )?(used|involved)|not use any ai|own words|free of ai|ai.free))(?=.*(automated system or ai|using an ai|ai (tool|assistance))).*",
    "prefer": "yes|ai.?assist|disclose|acknowledge"
   },
   {
@@ -2672,7 +2692,7 @@
    "type": "I do not wish to answer"
   },
   {
-   "label": "AI.*Usage|AI.*Tools|AI.*Workflow",
+   "label": "^(?!.*(did not use ai|didn.t use ai|without (the use of |any )?ai|without ai assistance|no ai (was )?(used|involved)|not use any ai|own words|free of ai|ai.free))(?=.*(AI.*Usage|AI.*Tools|AI.*Workflow)).*",
    "prefer": "Yes|Proudly|Deeply",
    "type": "Yes"
   },
@@ -3084,7 +3104,7 @@
    "type": "No"
   },
   {
-   "label": "AI.*Usage|AI.*Tools",
+   "label": "^(?!.*(did not use ai|didn.t use ai|without (the use of |any )?ai|without ai assistance|no ai (was )?(used|involved)|not use any ai|own words|free of ai|ai.free))(?=.*(AI.*Usage|AI.*Tools)).*",
    "prefer": "Yes",
    "type": "Yes"
   },
@@ -3269,7 +3289,7 @@
    "type": "No"
   },
   {
-   "label": "AI usage|AI tools|AI in workflow|AI-assisted",
+   "label": "^(?!.*(did not use ai|didn.t use ai|without (the use of |any )?ai|without ai assistance|no ai (was )?(used|involved)|not use any ai|own words|free of ai|ai.free))(?=.*(AI usage|AI tools|AI in workflow|AI-assisted)).*",
    "prefer": "Yes",
    "type": "Yes"
   },
@@ -3531,7 +3551,7 @@
    "type": ""
   },
   {
-   "label": "AI usage|AI tools|artificial intelligence",
+   "label": "^(?!.*(did not use ai|didn.t use ai|without (the use of |any )?ai|without ai assistance|no ai (was )?(used|involved)|not use any ai|own words|free of ai|ai.free))(?=.*(AI usage|AI tools|artificial intelligence)).*",
    "prefer": "Yes, I use AI tools deeply in my daily engineering workflow",
    "type": ""
   },
@@ -4960,7 +4980,7 @@
    "prefer": "Yes"
   },
   {
-   "label": "Confirm",
+   "label": "^(?!.*(did not use ai|didn.t use ai|without (the use of |any )?ai|without ai assistance|no ai (was )?(used|involved)|not use any ai|own words|free of ai|ai.free))(?=.*(Confirm)).*",
    "prefer": "Yes"
   },
   {
@@ -5540,7 +5560,7 @@
    "type": "I do not wish to answer"
   },
   {
-   "label": "AI.*usage|AI.*tools",
+   "label": "^(?!.*(did not use ai|didn.t use ai|without (the use of |any )?ai|without ai assistance|no ai (was )?(used|involved)|not use any ai|own words|free of ai|ai.free))(?=.*(AI.*usage|AI.*tools)).*",
    "prefer": "Yes",
    "type": "Yes"
   },
@@ -7443,6 +7463,15 @@
   },
   {
    "label": "^e-?mail$"
+  },
+  {
+   "label": "non-?disclosure agreement|confidentiality agreement"
+  },
+  {
+   "label": "arbitration agreement|binding arbitration|agree to arbitrat"
+  },
+  {
+   "label": "willing to relocate|agree to relocate"
   }
  ],
  "manualTriggers": [

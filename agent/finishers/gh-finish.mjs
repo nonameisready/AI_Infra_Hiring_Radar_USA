@@ -352,8 +352,12 @@ try {
       let lbl = e.labels?.[0]?.innerText || "";
       let node = e.parentElement;
       for (let d = 0; d < 5 && node && !lbl.trim(); d++) { lbl = node.innerText ?? ""; node = node.parentElement; }
-      // never auto-check own-words/original-work pledges — those are the user's
-      if (/own words|only my own|without (the use of )?ai/i.test(lbl)) continue;
+      // The user agreed on 2026-09-15 to NDAs, arbitration agreements, AI
+      // policies and relocation, so those are no longer held back. What is
+      // still never auto-checked is a box that ASSERTS no AI was used: an
+      // agent filled this form, so ticking it would be a lie regardless of how
+      // relaxed she is about AI.
+      if (/own words|only my own|did not use ai|didn'?t use ai|without (the use of |any )?ai|without ai assistance|no ai (was )?(used|involved)|free of ai/i.test(lbl)) continue;
       if (re.test(lbl)) { e.click(); done.push(lbl.trim().slice(0, 50)); }
     }
     return done;

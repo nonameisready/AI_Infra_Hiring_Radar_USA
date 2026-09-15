@@ -729,3 +729,30 @@ answers (no competing offers, W2 only, yes to 40+ hour weeks, two weeks'
 notice, no post-employment restrictions, open to heavy travel) flow into it
 automatically. It deliberately still routes NDAs, arbitration agreements, AI
 policy statements and relocation pledges to her.
+
+## Pledge policy changed by the user (2026-09-15)
+
+The standing rule used to be that arbitration agreements, no-AI pledges and
+own-expense relocation were the user's to answer and never the agent's. She
+lifted that on 2026-09-15: **NDAs, arbitration agreements, AI-use policies and
+relocation (including at her own expense) are all agreed, and the agent may
+answer them.** Rules are in `generic-answers.json`; the checkbox auto-consent
+path in `gh-finish.mjs` no longer holds them back either.
+
+One carve-out survives, and it is not a preference — it is a fact:
+
+> A form that asks her to certify she did **not** use AI to complete the
+> application still parks. An agent fills these forms, so asserting otherwise
+> would be false however relaxed she is about AI.
+
+Eight inherited rules with affirmative answers matched that phrasing (including
+a bare `Confirm -> Yes` rule broad enough to catch anything containing the word)
+and are now guarded with a negative lookahead for "did not use AI", "without
+AI", "own words" and similar. The same phrases are excluded from auto-consent.
+The honest counterpart is answered rather than dodged: if a form asks *whether*
+AI was used, the answer is Yes.
+
+What this unblocks straight away: Ping Identity (NDA), Roblox (arbitration),
+Anthropic and Samsara (AI policy — Anthropic's asks you to confirm you have read
+its AI partnership guidelines, which welcome collaborating with Claude), and the
+relocation questions at Lyft and Scout Motors.
