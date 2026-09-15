@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T16:35:11.346Z",
+ "updatedAt": "2026-09-15T16:42:52.083Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -8988,7 +8988,8 @@
    "status": "applied_direct",
    "appliedAt": "2026-09-15",
    "via": "greenhouse (mac local batch)",
-   "detail": "Submitted from the user's home IP by local-batch"
+   "detail": "Submitted from the user's home IP by local-batch",
+   "at": "2026-09-15"
   },
   "6aa87bdc930bff471a2a79d4": {
    "key": "airbnb::senior software engineer, storage",
@@ -9000,7 +9001,8 @@
    "status": "applied_direct",
    "appliedAt": "2026-09-15",
    "via": "greenhouse (mac local batch)",
-   "detail": "Submitted from the user's home IP by local-batch"
+   "detail": "Submitted from the user's home IP by local-batch",
+   "at": "2026-09-15"
   },
   "6a7d0beed77e8156a8e35ad4": {
    "id": "6a7d0beed77e8156a8e35ad4",

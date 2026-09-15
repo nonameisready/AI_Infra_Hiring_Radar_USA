@@ -1025,3 +1025,121 @@ Parks recorded today, by status: parked 102, needs_answers 35, dropped 6, local 
 2 submitted, 94 parked, 2 queued for Qwen. All-time 711.
 - BranchLab — Senior Software Development Engineer (82%) — greenhouse, confirmed
 - Airbnb — Senior Software Engineer, Storage (77%) — greenhouse, confirmed
+
+## 2026-09-15 (cloud 5:00am ET window)
+
+49 confirmed from the cloud window on top of the Mac's 2, for **51 confirmed
+today**. All-time **760**.
+
+Every row below reached a Greenhouse confirmation page ("Your application has
+been received"); nothing is booked on an optimistic submit. Greenhouse security
+codes were relayed from Gmail per company, fetched only after the form asked.
+
+| # | Company | Role | Match | Lane | Link |
+|---|---------|------|-------|------|------|
+| 1 | DRW | Senior Software Engineer, Finance (Clojure) | 96% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=drweng&token=8171189) |
+| 2 | Peregrine | Senior Software Engineer, Foundations | 89% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=peregrinetechnologies&token=4704814005) |
+| 3 | Liftoff Mobile | Software Engineer, Partner Engineering | 88% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=liftoff&token=8127027) |
+| 4 | Freenome | Senior Software Engineer II | 88% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=freenome&token=8519753002) |
+| 5 | Datavant | Senior Software Engineer | 88% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=datavant2&token=4576023008) |
+| 6 | Future Secure AI | Platform AI/ML Software Engineer | 88% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=futuresecureai&token=4001542201) |
+| 7 | Komodo Health | Senior Data Platform Engineer | 88% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=komodohealth&token=8807352002) |
+| 8 | Stripe | Software Engineer, Backend | 87% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=stripe&token=8198280) |
+| 9 | Enova International | Senior Software Engineer - Product (Hybrid) | 86% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=enova&token=7867437) |
+| 10 | Kunai, part of the PwC Network | Senior Software Engineer (Scala) | 85% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=kunai&token=5217917007) |
+| 11 | Toast | Senior Software Engineer | 85% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=toast&token=7870945) |
+| 12 | Block | Senior GRC Engineer | 85% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=block&token=5400004008) |
+| 13 | Pathward | Software Engineer Senior | 84% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=pathward&token=6188682004) |
+| 14 | Nearform | Senior Software Engineer - Python & AI | 84% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=nearform&token=7614572003) |
+| 15 | MongoDB | Software Engineer 3 | 84% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=mongodb&token=8083761) |
+| 16 | BranchLab | Senior Software Development Engineer | 82% | mac (home IP) | [posting](https://jobs.ashbyhq.com/branchlab/90d9e079-1357-4b1b-8cba-fbbaa9c0d7f3/application?jr_id=6aa8347e930bff471a2a5c45) |
+| 17 | Surefire Cyber Inc. | Senior Software Engineer (AI Software & Operations) | 81% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=surefirecyber&token=5140853007) |
+| 18 | Fellow | Backend Engineer | 81% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=fellow&token=5227556007) |
+| 19 | CoreWeave | Senior Software Engineer, molab | 81% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=coreweave&token=4665402006) |
+| 20 | CoreWeave | Senior Engineer, Security Products | 81% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=coreweave&token=4709751006) |
+| 21 | Lightning AI | Senior Software Engineer, Agents | 81% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=lightningai&token=7837259003) |
+| 22 | Docugami | Back End Software Engineer | 80% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=docugami&token=4016934003) |
+| 23 | ZoomInfo | Senior Software Engineer - Chorus | 80% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=zoominfo&token=8634701002) |
+| 24 | Glean | Software Engineer, Storage | 80% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=gleanwork&token=4610281005) |
+| 25 | Red Ventures | Senior Software Engineer | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=bankrate&token=8052803) |
+| 26 | Twin Health | Senior Software Engineer, Health Pod | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=twinhealth&token=6167335004) |
+| 27 | Databricks | Sr Software Engineer- CXI | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=databricks&token=8617901002) |
+| 28 | Affirm | Senior Software Engineer, Backend (Merchant & Partner Lifecycle) | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=affirm&token=7636414003) |
+| 29 | Cribl | Sr Software Engineer, Edge | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=cribl&token=6000054004) |
+| 30 | Airbnb | Senior Software Engineer, Storage | 77% | mac (home IP) | [posting](https://job-boards.greenhouse.io/embed/job_app?for=airbnb&token=8165656) |
+| 31 | OneTrust | Software Engineer | 77% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=onetrust&token=8167257) |
+| 32 | Together AI | Senior Software Engineer - Together Cloud Platform | 77% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=togetherai&token=4753072007) |
+| 33 | Databricks | Senior Software Engineer - Application Traffic team | 77% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=databricks&token=8183195002) |
+| 34 | ZoomInfo | Senior Software Engineer - Platform Integrations | 77% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=zoominfo&token=8565628002) |
+| 35 | Neuralink | Software Engineer, Implant Manufacturing | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=neuralink&token=6353417003) |
+| 36 | Dragos, Inc. | Senior Backend Engineer - Backend | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=dragos&token=5364834008) |
+| 37 | Genius Sports | Software Engineer, Ad-Tech | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=geniussports&token=7849723003) |
+| 38 | Toast | Senior Software Engineer, Toast Delivery Services | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=toast&token=8167218) |
+| 39 | Instacart | Senior Software Engineer, Caper AI | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=instacart&token=8175843) |
+| 40 | MongoDB | Senior Software Engineer | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=mongodb&token=8065483) |
+| 41 | Wayve | Senior Software Engineer, Fleet Management | 75% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=wayve&token=8732317002) |
+| 42 | SharkNinja | Senior Analytics Engineer | 75% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=sharkninjaoperatingllc&token=4707454006) |
+| 43 | Apollo.io | Senior Software Engineer (Hybrid, San Francisco) | 75% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=apolloio&token=7986157002) |
+| 44 | Databricks | Senior Staff Software Engineer - App and Partner Ecosystem | 75% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=databricks&token=7807722002) |
+| 45 | Playlist | Sr Software Engineer - Playlist | 74% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=playlist&token=4695615006) |
+| 46 | Fanatics | Senior Software Engineer, Full Stack (FES) | 74% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=fanaticsinc&token=4401745009) |
+| 47 | Cresta | Senior Full Stack Engineer - Conversation Intelligence | 74% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=cresta&token=5026012008) |
+| 48 | Archer | Senior Software Engineer, Backend | 73% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=archer56&token=7589564003) |
+| 49 | BillionToOne | Senior Software Engineer, Prenatal | 73% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=billiontoone&token=4305991005) |
+| 50 | teamLFG | Senior Game Services Engineering Lead | 72% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=teamlfg&token=5843987004) |
+| 51 | Robinhood | Senior Software Engineer, Streaming Platform | 72% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=robinhood&token=8083811) |
+Parks recorded today, by status: needs_answers 43, park 29, parked 22,
+closed 5, dropped 4, user_manual 2.
+
+### What changed in the tooling today
+
+Four defects in the finisher were costing applications that were otherwise
+complete, and all four are fixed:
+
+- **The combo pass re-queried the DOM once per rule.** With ~1,250 rules that is
+  ~1,250 x N round-trips per form, each forcing a reflow, and it timed out (30s,
+  then a raised 90s) on nine postings. Control labels are now read once into a
+  snapshot and the rules matched against it in memory.
+- **react-select controls were skipped as "already answered."** Their visible
+  input is a search box that `public/autofill.js` writes "Yes" into without
+  committing a selection, so the field read as filled, no rule ran, and the
+  posting parked with the question genuinely unanswered (Moloco, NYISO, Affirm).
+- **The first rule to match a label blocked every later one.** Waymo's "Work
+  Authorization" is matched by two rules; the one listing F-1/CPT/EAD matches
+  none of Waymo's wording, so the sponsorship rule never ran. A control now
+  counts as answered only once a rule actually picks a value.
+- **Parallel lanes could apply to the same posting twice.** Lane 5 reached the
+  submit step on Fanatics minutes after lane 2 had submitted it. The lane runner
+  now re-reads applied.json per job and skips what another lane already got.
+
+### Honesty and policy work
+
+- 46 inherited rules answered "No" to "have you previously been employed at X?"
+  regardless of X. That is false at BlackRock (2018-2024) and Bank of America
+  via Innova Solutions (2024-2025), so all 46 are now guarded with a negative
+  lookahead for her real employers; those questions park for a human instead.
+- **Peregrine was auto-applied and should not have been.** The 2026-09-13 record
+  marks it a Palantir-adjacent government/public-safety intelligence platform
+  reserved for the user's own judgement, but the cloud queue builder did not
+  carry that flag. The application is recorded with a POLICY FLAG and Peregrine
+  is now in DEFENSE_BLOCK.
+- A plain-fetch screen of the queues caught three postings requiring a US
+  security clearance that no company name reveals — Freedom Technology Solutions
+  Group (TS/SCI with CI poly), Databricks' Public Sector role, and Assertive
+  Professionals. Two reached a finisher and were killed before submitting; a
+  watchdog now kills any finisher that opens one of them.
+- Anthropic's "AI Policy for Application" and Lyft's relocation pledge were left
+  unanswered on purpose: those are the user's to make, not the agent's.
+
+### Why the day stopped short of 100
+
+Supply, not throughput. After the fixes the lanes were confirming roughly one
+application every two to three minutes. By 16:40 UTC every Greenhouse posting in
+the backlog had been attempted at least once: 55 remained unapplied and all 55
+had already failed a first attempt (closed listing, ATS-side error, or a
+question only the user can answer). Two Jobright harvests returned 67 and 28
+cards, of which 30 and 11 were genuinely new, and only 8 and 8 of those resolved
+to Greenhouse — the rest are Ashby (spam-flagged from this datacenter IP),
+Workday, Oracle, iCIMS, Eightfold and LinkedIn, none of which the cloud lanes can
+submit to. Gmail's search index also stalled around 16:28 UTC, which stops code
+relay and therefore stops confirmed Greenhouse submissions.

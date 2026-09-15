@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T15:43:31.931Z",
+ "updatedAt": "2026-09-15T16:42:02.026Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -4218,8 +4218,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a97023ad13b4819f39de6ed",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&jr_id=6a97023ad13b4819f39de6ed&token=8127182&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "closed",
-   "note": "2026-09-15: the Greenhouse posting is no longer open."
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.click: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /submit application|submit/i }).first()\u001b[22m\n"
   },
   {
    "id": "6a726b25e2b7476e7b2135e5",
@@ -4398,8 +4398,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a96de97d13b4819f39dd632",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=attentive&jr_id=6a96de97d13b4819f39dd632&token=4386872009&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "closed",
-   "note": "2026-09-15: the Greenhouse posting is no longer open."
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.click: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /submit application|submit/i }).first()\u001b[22m\n"
   },
   {
    "id": "6a992dd38a8b765bc55f1ea6",
@@ -4598,7 +4598,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&jr_id=6a4c7a63c643fd23fed3a6f3&token=7235875&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "missing: [\"Why are you excited about Privy?*\",\"We are headquartered in NYC and have a hub in SF. Are you:*\"]"
+   "note": "2026-09-15 cloud: missing: [\"We are headquartered in NYC and have a hub in SF. Are you:*\"]"
   },
   {
    "id": "6a9141d6d96ad228f1264265",
@@ -4922,7 +4922,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sigmacomputing&jr_id=6a51db1102522b5b722ec8e4&token=7767908003&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "missing: [\"Are you open to working 4 days onsite in one of our central offices?*\",\"Would you require a new H-1B sponsorship to work with us?*\"]"
+   "note": "2026-09-15 cloud: missing: [\"Are you open to working 4 days onsite in one of our central offices?*\"]"
   },
   {
    "id": "6a997e27040e5c3d07596882",
@@ -5127,8 +5127,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a6b16c9ca1f9338465f8304",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=coinbase&jr_id=6a6b16c9ca1f9338465f8304&token=8082199&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "platform: job-boards.greenhouse.io"
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=coinbase&jr_id=6a6b16c9ca1f9338465f8304&token=8082199&utm_source=jobright | There was an error processing your application. Please try again.\n\nBack to jobs\nSenior Software Engineer, Data Engineeri"
   },
   {
    "id": "6a96fb99e4e60e4b8da5b186",
@@ -5205,8 +5205,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7518fa37da8525e8cdc6cd",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=abnormalsecurity&jr_id=6a7518fa37da8525e8cdc6cd&token=7733721003&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.evaluate: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[role=\"combobox\"], select, button[aria-haspopup=\"listbox\"], div[aria-haspopup=\"listbox\"]').nth(13)\u001b[22m\n",
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Please identify your race*\"]",
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Are you currently an employee or contractor at Abnormal? (if Yes, plea\",\"Please identify your race*\"]",
    "updatedAt": "2026-09-14",
    "missing": [
@@ -5563,8 +5563,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9935ba8974952dfc949e8d",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=renaissancelearning-nam&jr_id=6a9935ba8974952dfc949e8d&token=5394130008&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[role=\"combobox\"], select, button[aria-haspopup=\"listbox\"], div[aria-haspopup=\"listbox\"]').nth(22)\u001b[22m\n",
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=renaissancelearning-nam&jr_id=6a9935ba8974952dfc949e8d&token=5394130008&utm_source=jobright | There was an error processing your application. Please try again.\n\nBack to jobs\nSenior Software Engineer\nRemote - US\nApp",
    "reason": "2026-09-14 cloud: no_apply_button",
    "updatedAt": "2026-09-14"
   },
@@ -5661,8 +5661,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9611c9cabc9f6703e1bf5f",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=beaconbiosignals&jr_id=6a9611c9cabc9f6703e1bf5f&token=4390033009&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "closed",
-   "note": "2026-09-15: the Greenhouse posting is no longer open."
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.click: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /submit application|submit/i }).first()\u001b[22m\n"
   },
   {
    "id": "6a5e1542f29acc1a117456d8",
@@ -5872,8 +5872,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69e7a8537820c036924d7a90",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=databricks&jr_id=69e7a8537820c036924d7a90&token=8512856002&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "dropped",
-   "note": "2026-09-15: blocked — the posting requires a US security clearance / citizenship. Standing never-apply rule."
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: no confirmation, no page text, no error"
   },
   {
    "id": "6a1d75a26b135014dbc96396",
@@ -5987,7 +5987,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7b26173b399d106e4d49b5",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=nyiso&jr_id=6a7b26173b399d106e4d49b5&token=5209084007&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
+   "status": "park",
    "note": "2026-09-15 cloud: unconfirmed submit: error: locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[role=\"combobox\"], select, button[aria-haspopup=\"listbox\"], div[aria-haspopup=\"listbox\"]').nth(12)\u001b[22m\n",
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Are you currently an employee of New York State Department of Public S\",\"Do you currently have unrestricted work authorization for the United S\"]",
    "updatedAt": "2026-09-14",
@@ -6056,7 +6056,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=kalepa&jr_id=6a98799f11f73b6462c8ed82&token=5737424004&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "missing: [\"Do you have 5+ years of experience?*\",\"What languages are you most comfortable coding in?*\",\"Do you have experience with AWS? *\",\"How quic"
+   "note": "2026-09-15 cloud: missing: [\"How quickly are you looking to start a new role?*\"]"
   },
   {
    "id": "6a988675c8ed473c5c76488c",
@@ -6127,8 +6127,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a84e57fd34f700f87fbb581",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=life360&jr_id=6a84e57fd34f700f87fbb581&token=8728404002&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "closed",
-   "note": "2026-09-15: the Greenhouse posting is no longer open.",
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.click: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /submit application|submit/i }).first()\u001b[22m\n",
    "reason": "2026-09-14 cloud: no_apply_button",
    "updatedAt": "2026-09-14"
   },
@@ -6165,8 +6165,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a55d05eef22935f2e3f7981",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sonyinteractiveentertainmentglobal&jr_id=6a55d05eef22935f2e3f7981&token=6101710004&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "closed",
-   "note": "2026-09-15: the Greenhouse posting is no longer open.",
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.click: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /submit application|submit/i }).first()\u001b[22m\n",
    "reason": "2026-09-14 cloud: no_apply_button",
    "updatedAt": "2026-09-14"
   },
@@ -6204,7 +6204,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=referralsuseonly&jr_id=6a5e564c27bf767ea68f622c&token=8074917&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "missing: [\"Have you led, architected, and implemented components of distributed d\",\"Do you have experience with low-level indexing data structures, o"
+   "note": "2026-09-15 cloud: missing: [\"Have you led, architected, and implemented components of distributed d\",\"Do you have experience with low-level indexing data structures, optimi\",\"Will you require Elastic's sponsorship to continue or extend your work\","
   },
   {
    "id": "6a99722690a313642c65053e",
@@ -6228,7 +6228,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=gitlab&jr_id=6a82ed7a2dbaf907b07655cf&token=8682707002&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "missing: [\"Are you subject to any employment agreements and/or post-employment re\",\"Are you currently located in either Canada or the US?*\"]"
+   "note": "2026-09-15 cloud: missing: [\"Are you subject to any employment agreements and/or post-employment re\",\"Are you currently located in either Canada or the US?*\"]"
   },
   {
    "id": "6a7ca7717c52154b59f5b79f",
@@ -6264,7 +6264,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=moloco&jr_id=697a48d0a8de441ca73577d6&token=7607964003&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "missing: [\"Do you have authorization to work in this job's location?*\"]"
+   "note": "2026-09-15 cloud: missing: [\"Do you have authorization to work in this job's location?*\",\"Will you now or in the future require sponsorship to work for Moloco?*\"]"
   },
   {
    "id": "6a592ab84da96a42cfd8f8ed",
@@ -6707,8 +6707,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a51cd49bf63b66c7997ceb8",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=databricks&jr_id=6a51cd49bf63b66c7997ceb8&token=6544325002&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
-   "note": "missing: [\"U.S. citizen\",\"U.S. non-citizen national\",\"U.S. permanent resident (Green Card holder)\",\"Individual granted asylum in the U.S.\",\"Individua"
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=databricks&jr_id=6a51cd49bf63b66c7997ceb8&token=6544325002&utm_source=jobright | Apply for this job\n\n*\n\nindicates a required field\n\nFirst Name*\nLast Name*\nPreferred First Name*\nEmail*\nPhone\nCountry*\n+1"
   },
   {
    "id": "6a68bfd7e53d5546ebf59748",
@@ -7068,7 +7068,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=speechify&jr_id=6a97caf472b96b1c436f14f4&token=5974513004&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "missing: [\"What is your strongest programming language? *\",\"Are you stronger in Kotlin or Java? *\"]"
+   "note": "2026-09-15 cloud: missing: [\"Are you stronger in Kotlin or Java? *\"]"
   },
   {
    "id": "6a750a9cb17cba5690358fc7",
@@ -7103,8 +7103,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a961ebd9fcec5442373175a",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=kapitus&jr_id=6a961ebd9fcec5442373175a&token=4390052009&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.evaluate: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[role=\"combobox\"], select, button[aria-haspopup=\"listbox\"], div[aria-haspopup=\"listbox\"]').nth(19)\u001b[22m\n"
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Do you live in one of the listed states we hire in? AZ, CA, CO, CT, DC\",\"Do you have any certifications?*\",\"Are you open to travel?*\",\"What date are you available to start?*\"]"
   },
   {
    "id": "6a7b4e9c77e6b569c61bfa24",
@@ -7128,7 +7128,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=chanzuckerberginitiative&jr_id=6a5fd1088c7fd835513bb338&token=8073112&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "2026-09-15 cloud:  missing: [\"Please describe an internal software tool or product you built. Please\",\"Would you like to be invited to our recruiting events and receive info\"]"
+   "note": "2026-09-15 cloud: missing: [\"Would you like to be invited to our recruiting events and receive info\"]"
   },
   {
    "id": "6a83ae629b859b22776703e7",
@@ -7200,7 +7200,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=preciselyusjobs&jr_id=6a994e37f6de551aa0aaf3b3&token=4728754005&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "missing: [\"Do you reside in any of the following locations (Alaska, Hawaii, Monta\",\"Are you a U.S. Citizen and eligible to support FedRAMP-restricted"
+   "note": "2026-09-15 cloud: missing: [\"Are you a U.S. Citizen and eligible to support FedRAMP-restricted cust\",\"Precisely is empowering every employee with AI to unlock new ways of w\",\"Ethnic Identity*\",\"Do you think of yourself as:*\"]"
   },
   {
    "id": "6a2f9bcf093df201d07ae27a",
@@ -7297,7 +7297,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cleerlyhealth&jr_id=6a973607e4e60e4b8da5cb85&token=6000207004&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "missing: [\"Have you worked at a start-up before? *\",\"At Cleerly, we post our salary ranges to job descriptions. This is the\",\"Why are you driven to w"
+   "note": "2026-09-15 cloud: missing: [\"At Cleerly, we post our salary ranges to job descriptions. This is the\",\"Why are you driven to work at Cleerly? *\"]"
   },
   {
    "id": "6a98835bdef18223c854fd31",
@@ -7381,7 +7381,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=pilothq&jr_id=6a681f78ca8eb3452eadaf49&token=8653025002&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "2026-09-15 cloud:  missing: [\"Location requirement: This role is available to candidates based in CA\"]"
+   "note": "2026-09-15 cloud: missing: [\"Location requirement: This role is available to candidates based in CA\"]"
   },
   {
    "id": "6a691a7a36d36c1ff2998349",
@@ -7695,7 +7695,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=waymo&jr_id=6a613920d51f6101c8fba5b6&token=7947243&utm_source=jobright",
    "addedAt": "2026-09-03",
    "status": "needs_answers",
-   "note": "2026-09-15 cloud:  missing: [\"Work Authorization*\",\"Are you a current or former Alphabet employee, intern, vendor, contrac\"]"
+   "note": "2026-09-15 cloud: missing: [\"Work Authorization*\",\"To ensure a fair and accurate assessment of each candidate's unique ca\"]"
   },
   {
    "id": "6a71660402d93145bf88f474",
@@ -7973,8 +7973,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a97c41672b96b1c436f140c",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=speechify&jr_id=6a97c41672b96b1c436f140c&token=5974180004&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "unconfirmed submit: Back to jobs\nSoftware Engineer, Platform - Las Vegas, NV, USA\nLas Vegas, NV, USA\nApply\n\nThe mission of Speechify is to m"
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: error: page.evaluate: Execution context was destroyed, most likely because of a navigation"
   },
   {
    "id": "6a99607e8a8b765bc55f2b70",
@@ -8081,8 +8081,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a99d213ad752e2ad5502303",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=coinbase&jr_id=6a99d213ad752e2ad5502303&token=8174949&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "unconfirmed submit: Please complete the reCAPTCHA and resubmit your application.\n\nBack to jobs\nNew\nSenior Software Engineer, Agent Verificat"
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=coinbase&jr_id=6a99d213ad752e2ad5502303&token=8174949&utm_source=jobright | There was an error processing your application. Please try again.\n\nBack to jobs\nSenior Software Engineer, Agent Verifica"
   },
   {
    "id": "6a43e88ab156014e414bab62",
@@ -8096,7 +8096,8 @@
    "status": "needs_answers",
    "missing": [
     "Location (City)*"
-   ]
+   ],
+   "note": "2026-09-15 cloud: missing: [\"Location (City)*\"]"
   },
   {
    "id": "6a99dc27551435518ebf1b08",
@@ -8119,13 +8120,13 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a861f3f74e02153f145ab88",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=airbnb&jr_id=6a861f3f74e02153f145ab88&token=8138002&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "closed",
+   "status": "park",
    "missing": [
     "Candidate AI Usage Attestation:*"
    ],
    "reason": "2026-09-14 cloud: no_apply_button",
    "updatedAt": "2026-09-14",
-   "note": "2026-09-15: the Greenhouse posting is no longer open."
+   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.click: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /submit application|submit/i }).first()\u001b[22m\n"
   },
   {
    "id": "6a99936790a313642c6510b2",
@@ -8136,8 +8137,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a99936790a313642c6510b2",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=zuora&jr_id=6a99936790a313642c6510b2&token=7966286&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "unconfirmed submit: Please complete the reCAPTCHA and resubmit your application.\n\nCreate a Job Alert\n\nInterested in building your career at "
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=zuora&jr_id=6a99936790a313642c6510b2&token=7966286&utm_source=jobright | Create a Job Alert\n\nInterested in building your career at Zuora? Get future opportunities sent straight to your email.\n\n"
   },
   {
    "id": "6a6f583241b41d325296cb2f",
@@ -8399,7 +8400,7 @@
     "Please share with us your location details:*"
    ],
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Please share with us your location details:*\"]",
-   "note": "2026-09-15 cloud:  missing: [\"Please share with us your location details:*\"]",
+   "note": "2026-09-15 cloud: missing: [\"Please share with us your location details:*\"]",
    "updatedAt": "2026-09-14"
   },
   {
@@ -8566,8 +8567,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5131618d7d3e6cf1cbfb68",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=upstart&jr_id=6a5131618d7d3e6cf1cbfb68&token=8041657&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "unconfirmed submit: Please complete the reCAPTCHA and resubmit your application.\n\nBack to jobs\nSenior Software Engineer, Upstart Bank\nUnited"
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Please identify your race*\"]"
   },
   {
    "id": "6a7bbe2eecfd29770753abd7",
@@ -8866,8 +8867,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a3d1aa54d047136e0932317",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=affirm&jr_id=6a3d1aa54d047136e0932317&token=7708921003&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"Do you now or in the future require sponsorship for employment visa st\"] — run on Mac with Qwen."
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Do you now or in the future require sponsorship for employment visa st\",\"Have you previously been employed at Affirm for any length of time?*\"]"
   },
   {
    "id": "6a99c0c1040e5c3d075988c6",
@@ -9013,7 +9014,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=hackerrank&jr_id=69c5796d1b5ad0288737428f&token=7729208&utm_source=jobright",
    "addedAt": "2026-09-04",
    "status": "needs_answers",
-   "note": "2026-09-15 cloud:  missing: [\"Do you have any current offers you are considering?*\"]",
+   "note": "2026-09-15 cloud: missing: [\"What is your notice period?*\",\"Do you have any current offers you are considering?*\"]",
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Do you have any current offers you are considering?*\"]",
    "updatedAt": "2026-09-14",
    "missing": [
@@ -9053,8 +9054,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a3e3237d261407de9802a97",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=ridgeline&jr_id=6a3e3237d261407de9802a97&token=7566778003&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "closed",
-   "note": "2026-09-15: the Greenhouse posting is no longer open."
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.click: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /submit application|submit/i }).first()\u001b[22m\n"
   },
   {
    "id": "6a5e37bef29acc1a1174626c",
@@ -9309,8 +9310,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a52caeb8ef95364ead8febe",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=vercel&jr_id=6a52caeb8ef95364ead8febe&token=5633880004&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"Are you currently based in any of these countries? Please note these a\",\"Your authorization to work in the country whe — run on Mac with Qwen."
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Are you currently based in any of these countries? Please note these a\",\"Your authorization to work in the country where you live. Please choos\",\"Do you live in one of the following states? Alabama, Alaska, Delaware,\","
   },
   {
    "id": "6a7cbc5fdc3dff2d1c0c8c95",
@@ -9321,8 +9322,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7cbc5fdc3dff2d1c0c8c95",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=verkada&jr_id=6a7cbc5fdc3dff2d1c0c8c95&token=5210623007&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4: GH submit returned no confirmation from cloud IP (15 jobs same pattern = silent IP flag). Retry from Mac home IP (GH token dedupe protects)."
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Please identify your race*\"]"
   },
   {
    "id": "6a57966e21f64463ad359e55",
@@ -9346,7 +9347,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=zonecompanysoftwareconsultingllc&jr_id=6a99c8cc551435518ebf1156&token=5414492008&utm_source=jobright",
    "addedAt": "2026-09-04",
    "status": "needs_answers",
-   "note": "2026-09-15 cloud:  missing: [\"Are you applying via an automated script or spoofing?*\",\"To confirm you are a human applicant, please select the THIRD option f\"]",
+   "note": "2026-09-15 cloud: missing: [\"Are you applying via an automated script or spoofing?*\",\"To confirm you are a human applicant, please select the THIRD option f\"]",
    "reason": "2026-09-14 cloud: no_apply_button",
    "updatedAt": "2026-09-14"
   },
@@ -9586,8 +9587,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7c7c327c52154b59f5a227",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=tenableinc&jr_id=6a7c7c327c52154b59f5a227&token=5387057008&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[role=\"combobox\"], select, button[aria-haspopup=\"listbox\"], div[aria-haspopup=\"listbox\"]').nth(14)\u001b[22m\n",
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Region (State/County/Province)*\"]",
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Region (State/County/Province)*\",\"Tenable uses CLEAR to securely verify candidate identity during the in\"]",
    "updatedAt": "2026-09-14",
    "missing": [
@@ -9796,8 +9797,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5a8203c8e3a473cb8ac20e",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=twilio&jr_id=6a5a8203c8e3a473cb8ac20e&token=8056276&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "closed",
-   "note": "2026-09-15: the Greenhouse posting is no longer open."
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.click: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /submit application|submit/i }).first()\u001b[22m\n"
   },
   {
    "id": "6a462808c2d11a6a4666c8a5",
@@ -10002,8 +10003,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7cf05ba346cb6c8d5f1001",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=launchdarkly&jr_id=6a7cf05ba346cb6c8d5f1001&token=7860525003&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4: GH submit returned no confirmation from cloud IP (15 jobs same pattern = silent IP flag). Retry from Mac home IP (GH token dedupe protects)."
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: note: not submitted — Greenhouse is holding an unfinished verification for this posting; the submit button stays disabled until a fresh emailed code is entered. Retry from a session that can read the code, or from the Mac's home IP where the challenge usually does not fire. | greenhouse holding an unfinished verification | url: https://job-boards.greenhouse.io/embed/job_app?for=launchdarkly&jr_id=6a7cf05ba346cb6c8d5f1001&token=7860525003&utm_source=jobright | There was an error processing your application. Please try again.\n\nBack to jobs\nSenior Backend Engineer, Billing\nRemote "
   },
   {
    "id": "6a53a74d8ef95364ead92e2c",
@@ -10074,8 +10075,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7bbfbb3b399d106e4d8422",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=octanelending&jr_id=6a7bbfbb3b399d106e4d8422&token=7653332003&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[role=\"combobox\"], select, button[aria-haspopup=\"listbox\"], div[aria-haspopup=\"listbox\"]').nth(10)\u001b[22m\n",
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Do you require work authorization? *\",\"For compliance reasons, we can only hire employees who are based in sp\"]",
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Do you require work authorization? *\",\"If applicable, please provide additional context to the previous quest\",\"For compliance reasons, we can only hire employees who are based in sp\",\"What is your strongest programming language?*\",\"It is unlawful in Massachusetts to require or administer a lie de",
    "updatedAt": "2026-09-14",
    "missing": [
@@ -10239,8 +10240,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9a020f90a313642c6540cd",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=instacart&jr_id=6a9a020f90a313642c6540cd&token=8178568&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "closed",
-   "note": "2026-09-15: the Greenhouse posting is no longer open."
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.click: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /submit application|submit/i }).first()\u001b[22m\n"
   },
   {
    "id": "6a9a15628a8b765bc55f7694",
@@ -10419,8 +10420,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a7ca50483621355407aae25",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=discord&jr_id=6a7ca50483621355407aae25&token=8697883002&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4: GH submit returned no confirmation from cloud IP (15 jobs same pattern = silent IP flag). Retry from Mac home IP (GH token dedupe protects)."
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Please identify your race*\"]"
   },
   {
    "id": "6a55c80def22935f2e3f6fa3",
@@ -10743,8 +10744,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9a58bbe6c97d4b970af232",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=coinbase&jr_id=6a9a58bbe6c97d4b970af232&token=8179114&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4: GH submit returned no confirmation from cloud IP (15 jobs same pattern = silent IP flag). Retry from Mac home IP (GH token dedupe protects)."
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: code never arrived in time | url: https://job-boards.greenhouse.io/embed/job_app?for=coinbase&jr_id=6a9a58bbe6c97d4b970af232&token=8179114&utm_source=jobright | Back to jobs\nSenior Infrastructure Engineer, Trading\nRemote - USA\nApply\n\nReady to do the most impactful work of your car"
   },
   {
    "id": "6a99a0c48a8b765bc55f459c",
@@ -10829,8 +10830,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a458f22971cd25b06f8931a",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=launchdarkly&jr_id=6a458f22971cd25b06f8931a&token=7791926003&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4: GH submit returned no confirmation from cloud IP (15 jobs same pattern = silent IP flag). Retry from Mac home IP (GH token dedupe protects)."
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: note: not submitted — Greenhouse is holding an unfinished verification for this posting; the submit button stays disabled until a fresh emailed code is entered. Retry from a session that can read the code, or from the Mac's home IP where the challenge usually does not fire. | greenhouse holding an unfinished verification | code never arrived in time | url: https://job-boards.greenhouse.io/embed/job_app?for=launchdarkly&jr_id=6a458f22971cd25b06f8931a&token=7791926003&utm_source=jobright | Back to jobs\nSenior Backend Engineer, Data Platform\nRemote - US\nApply\nAbout the Job:\n\nSoftware powers the world, and Lau"
   },
   {
    "id": "6a3f5d8fce7cce40b34237cc",
@@ -11061,8 +11062,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a8e03db25fc4e7ae3dbf457",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=classpass&jr_id=6a8e03db25fc4e7ae3dbf457&token=4708352006&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "parked",
-   "note": "2026-09-15 cloud: unconfirmed submit: note: not submitted — Greenhouse is holding an unfinished verification for this posting; the submit button stays disabled until a fresh emailed code is entered. Retry from a session that can read the code, or from the Mac's home IP where the challenge usually does not fire. | greenhouse holding an unfinished verification | url: https://job-boards.greenhouse.io/embed/job_app?for=classpass&jr_id=6a8e03db25fc4e7ae3dbf457&token=4708352006&utm_source=jobright | Create a Job Alert\n\nInterested in building your career at ClassPass? Get future opportunities sent straight to your emai",
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Do you now, or will you in the future, require employer-sponsored work\"]",
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Do you identify as LGBTQ?*\"]",
    "updatedAt": "2026-09-14",
    "missing": [
@@ -11150,11 +11151,11 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a887c40d34f700f87fc8cb1",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=instacart&jr_id=6a887c40d34f700f87fc8cb1&token=8130034&utm_source=jobright",
    "addedAt": "2026-09-05",
-   "status": "closed",
+   "status": "park",
    "missing": [
     "Do you identify as a member of the LGBT2QIA+ community?*"
    ],
-   "note": "2026-09-15: the Greenhouse posting is no longer open."
+   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.click: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /submit application|submit/i }).first()\u001b[22m\n"
   },
   {
    "id": "6a434579501d340b4a82ef69",
@@ -11790,7 +11791,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9b14309c24314c35f97aa4",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=natera&jr_id=6a9b14309c24314c35f97aa4&token=6115665004&utm_source=jobright",
    "addedAt": "2026-09-05",
-   "status": "parked",
+   "status": "park",
    "missing": [
     "What state do you currently live in?*",
     "Postal Code*",
@@ -11984,7 +11985,8 @@
    "missing": [
     "Are you currently authorized to reside and work in the country where t",
     "Do you have any experience working in or supporting FedRAMP-authorized"
-   ]
+   ],
+   "note": "2026-09-15 cloud: missing: [\"Do you have any experience working in or supporting FedRAMP-authorized\"]"
   },
   {
    "id": "6a831d85b5a0ac0e84a2387e",
@@ -13717,8 +13719,8 @@
    "matchPercent": 74,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4bd2805d7b097d2df3e4ed",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=globalhealthcareexchangeinc&jr_id=6a4bd2805d7b097d2df3e4ed&token=4707263005",
-   "status": "parked",
-   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[role=\"combobox\"], select, button[aria-haspopup=\"listbox\"], div[aria-haspopup=\"listbox\"]').nth(27)\u001b[22m\n"
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"3. How many years have you developed enterprise applications using Jav\",\"4. Which Java frameworks have you used extensively?*\",\"5. Which design patterns have you implemented?*\",\"6. Which AWS services have you used in p"
   },
   {
    "id": "699c5323ce78e77b4fe105e4",
@@ -21663,7 +21665,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a211501902d19201c7b60ab",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=warp&jr_id=6a211501902d19201c7b60ab&token=4324888004",
    "addedAt": "2026-09-12",
-   "status": "parked",
+   "status": "park",
    "missing": [
     "If hired by Warp, will you be based in the U.S. or Canada?*",
     "Share your favorite blog post, article, or paper you've read in the la"
@@ -21845,7 +21847,8 @@
     "What is the zip code of your primary residence?*",
     "AI Policy for Interviewers*",
     "Where have you learned about Samsara? Select all that apply.*"
-   ]
+   ],
+   "note": "2026-09-15 cloud: missing: [\"AI Policy for Interviewers*\",\"Where have you learned about Samsara? Select all that apply.*\"]"
   },
   {
    "id": "6a348e2e649fdf16292f67b5",
@@ -21902,7 +21905,7 @@
     "Do you currently work for Scout Motors? *",
     "Do you have any conflicts of interest that could affect your ability t"
    ],
-   "note": "2026-09-15 cloud:  missing: [\"The job description includes a stated initial base pay range. Final pa\",\"This role is based out of the Scout Motors location in Fremont, Califo\",\"Do you have any conflicts of interest that could aff"
+   "note": "2026-09-15 cloud: missing: [\"This role is based out of the Scout Motors location in Fremont, Califo\",\"Which Scout Motors location are you closest to?*\",\"I confirm that the information I have provided in my application and r\",\"Do you have any confl"
   },
   {
    "id": "69ea8fff58811370cb134061",
@@ -22400,7 +22403,7 @@
    "addedAt": "2026-09-12",
    "updatedAt": "2026-09-14",
    "status": "needs_answers",
-   "note": "2026-09-15 cloud:  missing: [\"How would you rate your proficiency with MiSop, and can you briefly sh\",\"Please indicate your desired base salary (in USD).*\"]",
+   "note": "2026-09-15 cloud: missing: [\"How would you rate your proficiency with MiSop, and can you briefly sh\",\"Please indicate your desired base salary (in USD).*\"]",
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Do you have experience using MiSop?*\",\"How would you rate your proficiency with MiSop, and can you briefly sh\",\"Please indicate your desired base salary (in USD).*\"]",
    "missing": [
     "Do you have experience using MiSop?*",
@@ -22512,8 +22515,8 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=cypresscreekrenewables&jr_id=6aa3c2cb959a10d7230d3d42&token=8180722",
    "addedAt": "2026-09-12",
    "updatedAt": "2026-09-14",
-   "status": "parked",
-   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[role=\"combobox\"], select, button[aria-haspopup=\"listbox\"], div[aria-haspopup=\"listbox\"]').nth(16)\u001b[22m\n",
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=cypresscreekrenewables&jr_id=6aa3c2cb959a10d7230d3d42&token=8180722 | There was an error processing your application. Please try again.\n\nBack to jobs\nNew\nSoftware Engineer\nDurham, NC; Chicag",
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Which office do you prefer to work from (3 days in office per week)?*\",\"Please enter the Name and Department of any of your close relatives wh\",\"Provide a brief overview of your professional experience in the energy\",\"Briefly describe a relevant ML model that you worked on or contributed\"]",
    "missing": [
     "Which office do you prefer to work from (3 days in office per week)?*",
@@ -23029,7 +23032,8 @@
     "Which Scout Motors location are you closest to?*",
     "Where did you hear about this role?*",
     "Do you have any conflicts of interest that could affect your ability t"
-   ]
+   ],
+   "note": "2026-09-15 cloud: missing: [\"This role is based out of the Scout Motors location in Fremont, Califo\",\"Which Scout Motors location are you closest to?*\",\"Do you have any conflicts of interest that could affect your ability t\"]"
   },
   {
    "id": "6a7d7298d77e8156a8e366c1",
@@ -23074,7 +23078,8 @@
     "What is your proximity to Fremont, California?*",
     "Do you have any professional or personal connections to individuals cu",
     "Do you have any conflicts of interest that could affect your ability t"
-   ]
+   ],
+   "note": "2026-09-15 cloud: missing: [\"What is your proximity to Fremont, California?*\",\"Do you have any conflicts of interest that could affect your ability t\"]"
   },
   {
    "id": "6a1f3e3309442629a6858c0b",
@@ -23689,8 +23694,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a4ffe99f57ed168c34178c6",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=ridgeline&jr_id=6a4ffe99f57ed168c34178c6&token=7800098003",
    "addedAt": "2026-09-14",
-   "status": "parked",
-   "note": "unconfirmed submit: "
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: no confirmation, no page text, no error"
   },
   {
    "id": "6a4699328204a812e98c92b2",
@@ -24430,7 +24435,7 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a51d4d402522b5b722ec2d9",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=anthropic&token=5245851008&jr_id=6a51d4d402522b5b722ec2d9",
    "addedAt": "2026-09-14",
-   "status": "parked",
+   "status": "needs_answers",
    "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"AI Policy for Application*\",\"Why Anthropic?*\",\"Have you ever interviewed at Anthropic before?*\",\"Agreement to Arbitrate*\"]",
    "missing": [
     "AI Policy for Application*",
@@ -24438,7 +24443,7 @@
     "Have you ever interviewed at Anthropic before?*",
     "Agreement to Arbitrate*"
    ],
-   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[role=\"combobox\"], select, button[aria-haspopup=\"listbox\"], div[aria-haspopup=\"listbox\"]').nth(15)\u001b[22m\n"
+   "note": "2026-09-15 cloud: missing: [\"AI Policy for Application*\"]"
   },
   {
    "id": "6a823fc3ad9ff00c26bb8ce0",
@@ -25152,7 +25157,8 @@
    "missing": [
     "Work Authorization*",
     "Are you a current or former Alphabet employee, intern, vendor, contrac"
-   ]
+   ],
+   "note": "2026-09-15 cloud: missing: [\"Work Authorization*\",\"To ensure a fair and accurate assessment of each candidate's unique ca\"]"
   },
   {
    "id": "6aa8adb56d0edc2d91b06f5e",
@@ -25175,8 +25181,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6aa82c4c2ed333b4ea5cdc1f",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=tailorcare2023&token=4712121006&jr_id=6aa82c4c2ed333b4ea5cdc1f",
    "addedAt": "2026-09-15",
-   "status": "parked",
-   "note": "2026-09-15 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=tailorcare2023&token=4712121006&jr_id=6aa82c4c2ed333b4ea5cdc1f | There was an error processing your application. Please try again.\n\nBack to jobs\nNew\nSenior Software Engineer\nUnited Stat"
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.click: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /submit application|submit/i }).first()\u001b[22m\n"
   },
   {
    "id": "6aa8a80be52865942acfd3f4",
@@ -25485,8 +25491,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6aa847d7654b2a9424cfbcde",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=freedomconsulting&token=5237831007&jr_id=6aa847d7654b2a9424cfbcde",
    "addedAt": "2026-09-15",
-   "status": "dropped",
-   "note": "2026-09-15: blocked — the posting requires a US security clearance / citizenship. Standing never-apply rule."
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: no confirmation, no page text, no error"
   },
   {
    "id": "6a7e2906ad9ff00c26baa046",
@@ -25618,7 +25624,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=risingtidessolutionsllc&token=5423327008&jr_id=6aa81e8a654b2a9424cfab65",
    "addedAt": "2026-09-15",
    "status": "needs_answers",
-   "note": "2026-09-15 cloud:  missing: [\"What about this specific role feels like a strong match for your exper\",\"We want to know that you took the time to learn about RTS Labs. Please\"]"
+   "note": "2026-09-15 cloud: missing: [\"What about this specific role feels like a strong match for your exper\",\"We want to know that you took the time to learn about RTS Labs. Please\"]"
   },
   {
    "id": "6aa86e18930bff471a2a741c",
@@ -25629,8 +25635,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6aa86e18930bff471a2a741c",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=lyft&token=8806580002&jr_id=6aa86e18930bff471a2a741c",
    "addedAt": "2026-09-15",
-   "status": "parked",
-   "note": "2026-09-15 cloud: unconfirmed submit: no confirmation, no page text, no error"
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"May we contact your current employer?*\",\"Can you perform these essential functions of the job with reasonable a\",\"Please review the linked document:*\",\"This position is based in the United States. Do you currently resi"
   },
   {
    "id": "6aa81764a77a53f5a1577272",
@@ -25642,7 +25648,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=pingidentity&token=8797384002&jr_id=6aa81764a77a53f5a1577272",
    "addedAt": "2026-09-15",
    "status": "needs_answers",
-   "note": "2026-09-15 cloud:  missing: [\"Non-Disclosure Agreement*\"]"
+   "note": "2026-09-15 cloud: missing: [\"Non-Disclosure Agreement*\"]"
   },
   {
    "id": "6a9ae52fd5ff1f3f1c39ba33",
@@ -25653,8 +25659,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9ae52fd5ff1f3f1c39ba33",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=assertiveprofessionals&jr_id=6a9ae52fd5ff1f3f1c39ba33&token=4180226009",
    "addedAt": "2026-09-15",
-   "status": "dropped",
-   "note": "2026-09-15: blocked — the posting requires a US security clearance / citizenship. Standing never-apply rule."
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"What is your Social Security Number?*\"]"
   },
   {
    "id": "6aa83dcb2ed333b4ea5ce169",
@@ -25897,6 +25903,72 @@
    "atsUrl": "https://www.linkedin.com/jobs/view/4461907291?jr_id=6aa8beb9eff87f571fc9797d",
    "status": "parked",
    "note": "2026-09-15 cloud harvest: unsupported ATS host for the cloud finishers (www.linkedin.com)"
+  },
+  {
+   "id": "6aa49d2ff3aa936e2cdb1eef",
+   "key": "affirm::senior software engineer backend loan origination and reporting",
+   "company": "Affirm",
+   "title": "Senior Software Engineer, Backend (Loan Origination and Reporting)",
+   "matchPercent": 92,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa49d2ff3aa936e2cdb1eef",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=affirm&token=7906337003&jr_id=6aa49d2ff3aa936e2cdb1eef",
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=affirm&token=7906337003&jr_id=6aa49d2ff3aa936e2cdb1eef | New\nSenior Software Engineer, Backend (Loan Origination and Reporting)\nRemote US\nApply\n\nAt Affirm, we exist for the mome"
+  },
+  {
+   "id": "6a70bf22357dfc6ff2b3abbd",
+   "key": "gitlab::senior backend engineer platform readiness",
+   "company": "GitLab",
+   "title": "Senior Backend Engineer, Platform Readiness",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a70bf22357dfc6ff2b3abbd",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=gitlab&token=8644572002&jr_id=6a70bf22357dfc6ff2b3abbd",
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Are you subject to any employment agreements and/or post-employment re\"]"
+  },
+  {
+   "id": "6a3edb084d047136e0937e29",
+   "key": "ridgeline::senior software engineer migrations engineering",
+   "company": "Ridgeline",
+   "title": "Senior Software Engineer, Migrations Engineering",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a3edb084d047136e0937e29",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=ridgeline&jr_id=6a3edb084d047136e0937e29&token=7753361003",
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: url: https://job-boards.greenhouse.io/embed/job_app?for=ridgeline&jr_id=6a3edb084d047136e0937e29&token=7753361003 | Back to jobs\nSenior Software Engineer, Migrations Engineering\nReno, NV; San Ramon, CA\nApply\nSenior Software Engineer, Mi"
+  },
+  {
+   "id": "6aa53678930bff471a29db73",
+   "key": "speechify::senior software engineer core experiences orlando fl usa",
+   "company": "Speechify",
+   "title": "Senior Software Engineer, Core Experiences - Orlando, FL, USA",
+   "matchPercent": 73,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa53678930bff471a29db73",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=speechify&token=5974547004&jr_id=6aa53678930bff471a29db73",
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Are you stronger in Kotlin or Java? *\"]"
+  },
+  {
+   "id": "6a832e993eeac101cfa9df7a",
+   "key": "waymo::senior software engineer booking",
+   "company": "Waymo",
+   "title": "Senior Software Engineer, Booking",
+   "matchPercent": 71,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a832e993eeac101cfa9df7a",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=waymo&token=7905695&jr_id=6a832e993eeac101cfa9df7a",
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Work Authorization*\",\"To ensure a fair and accurate assessment of each candidate's unique ca\"]"
+  },
+  {
+   "id": "6a395e4c649fdf16293006e3",
+   "key": "impact com::senior software engineer",
+   "company": "impact.com",
+   "title": "Senior Software Engineer",
+   "matchPercent": 70,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a395e4c649fdf16293006e3",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=impact&jr_id=6a395e4c649fdf16293006e3&token=8459601002",
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Kindly ensure your application is complete; incomplete applications wi\",\"Do you have hands-on, production experience developing or implementing\",\"Have you ever worked on any ecommerce platforms or integrated services\"]"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
