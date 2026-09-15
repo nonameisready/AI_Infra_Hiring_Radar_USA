@@ -22,6 +22,12 @@ const browser = await chromium.launch({
          ...(process.env.HTTPS_PROXY ? ["--ssl-version-max=tls1.2"] : [])],
 });
 const page = await (await browser.newContext({ viewport: process.env.HEADED ? null : { width: 1440, height: 1400 } })).newPage();
+// Playwright's 30s default is not enough for the heaviest Greenhouse forms:
+// the combo pass walks every answer rule against every visible control, and
+// Natera, NYISO, Warp, Tenable and Anthropic all died on "locator.evaluate:
+// Timeout 30000ms exceeded" with the form already filled. The per-job cap in
+// the batch runner is the real safety net, so give a slow page room to answer.
+page.setDefaultTimeout(Number(process.env.GH_ACTION_TIMEOUT_MS ?? 90000));
 
 try {
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
