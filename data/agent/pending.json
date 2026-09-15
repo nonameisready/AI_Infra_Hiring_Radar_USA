@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T15:14:37.189Z",
+ "updatedAt": "2026-09-15T15:43:31.931Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -4218,8 +4218,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a97023ad13b4819f39de6ed",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&jr_id=6a97023ad13b4819f39de6ed&token=8127182&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
-   "note": "missing: [\"Degree*\"]"
+   "status": "closed",
+   "note": "2026-09-15: the Greenhouse posting is no longer open."
   },
   {
    "id": "6a726b25e2b7476e7b2135e5",
@@ -4398,8 +4398,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a96de97d13b4819f39dd632",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=attentive&jr_id=6a96de97d13b4819f39dd632&token=4386872009&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
-   "note": "missing: [\"Do you have 1 year of professional experience implementing Operational\",\"Do you have 1 year of professional experience designing and worki"
+   "status": "closed",
+   "note": "2026-09-15: the Greenhouse posting is no longer open."
   },
   {
    "id": "6a992dd38a8b765bc55f1ea6",
@@ -5661,8 +5661,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9611c9cabc9f6703e1bf5f",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=beaconbiosignals&jr_id=6a9611c9cabc9f6703e1bf5f&token=4390033009&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
-   "note": "missing: [\"In 1-2 sentences, please tell us what drew you to apply to Beacon Bios\",\"Senior Software Engineer: In 4–6 sentences, describe a tricky dat"
+   "status": "closed",
+   "note": "2026-09-15: the Greenhouse posting is no longer open."
   },
   {
    "id": "6a5e1542f29acc1a117456d8",
@@ -5872,8 +5872,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/69e7a8537820c036924d7a90",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=databricks&jr_id=69e7a8537820c036924d7a90&token=8512856002&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "needs_answers",
-   "note": "missing: [\"Do you currently hold a current Top Secret / SCI (TS/SCI) security cle\",\"U.S. citizen\",\"U.S. non-citizen national\",\"U.S. permanent residen"
+   "status": "dropped",
+   "note": "2026-09-15: blocked — the posting requires a US security clearance / citizenship. Standing never-apply rule."
   },
   {
    "id": "6a1d75a26b135014dbc96396",
@@ -6127,8 +6127,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a84e57fd34f700f87fbb581",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=life360&jr_id=6a84e57fd34f700f87fbb581&token=8728404002&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /submit application|submit/i }).first()\u001b[22m\n",
+   "status": "closed",
+   "note": "2026-09-15: the Greenhouse posting is no longer open.",
    "reason": "2026-09-14 cloud: no_apply_button",
    "updatedAt": "2026-09-14"
   },
@@ -6165,8 +6165,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a55d05eef22935f2e3f7981",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=sonyinteractiveentertainmentglobal&jr_id=6a55d05eef22935f2e3f7981&token=6101710004&utm_source=jobright",
    "addedAt": "2026-09-03",
-   "status": "parked",
-   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /submit application|submit/i }).first()\u001b[22m\n",
+   "status": "closed",
+   "note": "2026-09-15: the Greenhouse posting is no longer open.",
    "reason": "2026-09-14 cloud: no_apply_button",
    "updatedAt": "2026-09-14"
   },
@@ -8119,12 +8119,13 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a861f3f74e02153f145ab88",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=airbnb&jr_id=6a861f3f74e02153f145ab88&token=8138002&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "parked",
+   "status": "closed",
    "missing": [
     "Candidate AI Usage Attestation:*"
    ],
    "reason": "2026-09-14 cloud: no_apply_button",
-   "updatedAt": "2026-09-14"
+   "updatedAt": "2026-09-14",
+   "note": "2026-09-15: the Greenhouse posting is no longer open."
   },
   {
    "id": "6a99936790a313642c6510b2",
@@ -9052,8 +9053,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a3e3237d261407de9802a97",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=ridgeline&jr_id=6a3e3237d261407de9802a97&token=7566778003&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"This role is A Hybrid role Based in our San Ramon, office. Are you loc\"] — run on Mac with Qwen."
+   "status": "closed",
+   "note": "2026-09-15: the Greenhouse posting is no longer open."
   },
   {
    "id": "6a5e37bef29acc1a1174626c",
@@ -9795,8 +9796,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a5a8203c8e3a473cb8ac20e",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=twilio&jr_id=6a5a8203c8e3a473cb8ac20e&token=8056276&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"Please indicate whether you are either a citizen or resident of any of\"] — run on Mac with Qwen."
+   "status": "closed",
+   "note": "2026-09-15: the Greenhouse posting is no longer open."
   },
   {
    "id": "6a462808c2d11a6a4666c8a5",
@@ -10238,8 +10239,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9a020f90a313642c6540cd",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=instacart&jr_id=6a9a020f90a313642c6540cd&token=8178568&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4 cloud GH flagged; missing: [\"Do you identify as a member of the LGBT2QIA+ community?*\"] — run on Mac with Qwen."
+   "status": "closed",
+   "note": "2026-09-15: the Greenhouse posting is no longer open."
   },
   {
    "id": "6a9a15628a8b765bc55f7694",
@@ -10998,8 +10999,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a99c341138838706059024c",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&jr_id=6a99c341138838706059024c&token=8177930&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4: GH submit returned no confirmation from cloud IP (15 jobs same pattern = silent IP flag). Retry from Mac home IP (GH token dedupe protects)."
+   "status": "closed",
+   "note": "2026-09-15: the Greenhouse posting is no longer open."
   },
   {
    "id": "6a4129f2b526a24fc31316ce",
@@ -11149,10 +11150,11 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a887c40d34f700f87fc8cb1",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=instacart&jr_id=6a887c40d34f700f87fc8cb1&token=8130034&utm_source=jobright",
    "addedAt": "2026-09-05",
-   "status": "needs_answers",
+   "status": "closed",
    "missing": [
     "Do you identify as a member of the LGBT2QIA+ community?*"
-   ]
+   ],
+   "note": "2026-09-15: the Greenhouse posting is no longer open."
   },
   {
    "id": "6a434579501d340b4a82ef69",
@@ -25484,7 +25486,7 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=freedomconsulting&token=5237831007&jr_id=6aa847d7654b2a9424cfbcde",
    "addedAt": "2026-09-15",
    "status": "dropped",
-   "note": "2026-09-15: blocked — posting requires an ACTIVE TS/SCI clearance (with CI poly). Standing never-apply rule: no defense/clearance roles. The finisher was killed before submitting."
+   "note": "2026-09-15: blocked — the posting requires a US security clearance / citizenship. Standing never-apply rule."
   },
   {
    "id": "6a7e2906ad9ff00c26baa046",
@@ -25651,8 +25653,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a9ae52fd5ff1f3f1c39ba33",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=assertiveprofessionals&jr_id=6a9ae52fd5ff1f3f1c39ba33&token=4180226009",
    "addedAt": "2026-09-15",
-   "status": "needs_answers",
-   "note": "2026-09-15 cloud:  missing: [\"What is your Social Security Number?*\"]"
+   "status": "dropped",
+   "note": "2026-09-15: blocked — the posting requires a US security clearance / citizenship. Standing never-apply rule."
   },
   {
    "id": "6aa83dcb2ed333b4ea5ce169",
