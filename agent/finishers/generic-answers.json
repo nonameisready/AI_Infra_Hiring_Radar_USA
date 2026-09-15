@@ -1,6 +1,30 @@
 {
  "combos": [
   {
+   "label": "^work authorization",
+   "prefer": "require.{0,80}sponsorship|will require.{0,40}sponsorship"
+  },
+  {
+   "label": "current or former alphabet|worked at alphabet|alphabet employee, intern, vendor",
+   "prefer": "never worked"
+  },
+  {
+   "label": "state/region in which you (currently )?reside|which state do you (currently )?(live|reside)",
+   "prefer": "another state in the us|new jersey"
+  },
+  {
+   "label": "certif(y|ying) that.{0,60}(information|answers)|information (i.?ve |i have )?provided is (true|accurate)|true and (accurate|complete|correct)",
+   "prefer": "^yes"
+  },
+  {
+   "label": "lgbtqia|lgbtq|do you (consider yourself|identify as).{0,25}(lgbt|queer)|sexual orientation",
+   "prefer": "decline|prefer not|do not wish|don.?t wish|not specified|choose not"
+  },
+  {
+   "label": "able to provide proof of (your )?(legal )?work authorization|proof of (your )?(legal )?(right|authorization) to work|documentation (of|proving) your (legal )?right to work",
+   "prefer": "^yes"
+  },
+  {
    "label": "level of experience in ai( development)?|experience level with (ai|machine learning|llms)|how experienced are you with ai",
    "prefer": "advanced|professional|extensive|daily|expert|3\\+|2-4|intermediate"
   },
@@ -71,7 +95,7 @@
   },
   {
    "label": "where did you (first )?(learn|hear) about (this|the) (position|role|job|opening)|how did you first (learn|hear) about",
-   "prefer": "job board|linkedin|online|job posting|website|other|indeed"
+   "prefer": "job board|linkedin|online|job posting|website|other"
   },
   {
    "label": "which best describes your primary backend|primary backend (experience|language)|main backend language",
@@ -145,7 +169,7 @@
   },
   {
    "label": "how did you (hear|learn)",
-   "prefer": "job board|other"
+   "prefer": "job board|other|job board|linkedin|other"
   },
   {
    "label": "years of.*experience",
@@ -1242,7 +1266,7 @@
   },
   {
    "label": "how you heard about this opportunity",
-   "prefer": "other|job board"
+   "prefer": "other|job board|job board|linkedin|other"
   },
   {
    "label": "in the future require sponsorship",
@@ -1458,7 +1482,7 @@
   },
   {
    "label": "how did you first hear about|how did you find this position",
-   "prefer": "job board|online|search|other"
+   "prefer": "job board|online|search|other|job board|linkedin|other"
   },
   {
    "label": "require any reasonable accommodations",
@@ -1725,7 +1749,7 @@
   },
   {
    "label": "How did you hear about us",
-   "prefer": "Job board"
+   "prefer": "Job board|job board|linkedin|other"
   },
   {
    "label": "Do you wish to answer EEO questions",
@@ -2070,7 +2094,7 @@
   },
   {
    "label": "How did you hear about us",
-   "prefer": "Job board",
+   "prefer": "Job board|job board|linkedin|other",
    "type": "Job board"
   },
   {
@@ -2185,7 +2209,7 @@
   },
   {
    "label": "Where did you hear about ngrok",
-   "prefer": "Job board",
+   "prefer": "Job board|job board|linkedin|other",
    "type": ""
   },
   {
@@ -2604,12 +2628,12 @@
   },
   {
    "label": "How did you first hear about Planet",
-   "prefer": "Job board",
+   "prefer": "Job board|job board|linkedin|other",
    "type": ""
   },
   {
    "label": "How did you find this position",
-   "prefer": "Job board",
+   "prefer": "Job board|job board|linkedin|other",
    "type": ""
   },
   {
@@ -3061,7 +3085,7 @@
   },
   {
    "label": "How did you hear",
-   "prefer": "Job board",
+   "prefer": "Job board|job board|linkedin|other",
    "type": "Job board"
   },
   {
@@ -3151,7 +3175,7 @@
   },
   {
    "label": "How did you hear|Hear about|Source",
-   "prefer": "Job board",
+   "prefer": "Job board|job board|linkedin|other",
    "type": "Job board"
   },
   {
@@ -3196,7 +3220,7 @@
   },
   {
    "label": "how did you hear",
-   "prefer": "Job board",
+   "prefer": "Job board|job board|linkedin|other",
    "type": "Job board"
   },
   {
@@ -3253,7 +3277,7 @@
   },
   {
    "label": "How.*Hear.*About",
-   "prefer": "Job Board",
+   "prefer": "Job Board|job board|linkedin|other",
    "type": "Job Board"
   },
   {
@@ -4891,7 +4915,7 @@
   },
   {
    "label": "Where did you hear about this role",
-   "prefer": "Job board",
+   "prefer": "Job board|job board|linkedin|other",
    "type": "radio"
   },
   {
@@ -5256,7 +5280,7 @@
   },
   {
    "label": "hear about us",
-   "prefer": "Job board",
+   "prefer": "Job board|job board|linkedin|other",
    "type": ""
   },
   {
@@ -5482,7 +5506,7 @@
   },
   {
    "label": "How did you first hear about Planet before applying for this position",
-   "prefer": "Job board",
+   "prefer": "Job board|job board|linkedin|other",
    "type": ""
   },
   {
