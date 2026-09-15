@@ -565,7 +565,7 @@ One-time Mac setup:
 1. mkdir -p ~/.jobright-agent && chmod 700 ~/.jobright-agent
 2. ~/.jobright-agent/env (chmod 600):
      export JOBRIGHT_PASSWORD='...'
-     export RESUME_PDF="$HOME/Downloads/Hui_Mao_Senior_Backend_Software_Engineer_Resume.pdf"
+     export RESUME_PDF="$HOME/Downloads/HUI_MAO_AI_Engineer_2026.pdf"
 3. Gmail OAuth (Google Cloud Console → OAuth client, Desktop app):
      ~/.jobright-agent/gmail-oauth.json = {"client_id":"...","client_secret":"..."}
      node agent/gmail-auth.mjs   (approve once; token saved outside the repo)

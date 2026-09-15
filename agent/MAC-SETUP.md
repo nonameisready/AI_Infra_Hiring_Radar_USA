@@ -18,7 +18,7 @@ zsh agent/launchd/install-mac.sh
 mkdir -p ~/.jobright-agent && chmod 700 ~/.jobright-agent
 cat > ~/.jobright-agent/env <<'EOF'
 export JOBRIGHT_PASSWORD='你的Jobright密码'
-export RESUME_PDF="$HOME/Downloads/Hui_Mao_Backend_Software_Engineer.pdf"
+export RESUME_PDF="$HOME/Downloads/HUI_MAO_AI_Engineer_2026.pdf"
 EOF
 chmod 600 ~/.jobright-agent/env
 ```

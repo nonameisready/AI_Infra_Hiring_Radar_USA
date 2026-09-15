@@ -7,7 +7,7 @@
  * residential connection they submit like any normal applicant — because they
  * are: your machine, your resume, your authorization.
  *
- *   node agent/local-replay.mjs --resume ~/Downloads/Hui_Mao_Backend.pdf
+ *   node agent/local-replay.mjs --resume ~/Downloads/HUI_MAO_AI_Engineer_2026.pdf
  *   node agent/local-replay.mjs --resume <pdf> --dry     # fill + screenshot, never submit
  *   node agent/local-replay.mjs --resume <pdf> --only ashby|greenhouse
  *
@@ -43,7 +43,7 @@ if (!RESUME_SRC || !fs.existsSync(RESUME_SRC)) {
 
 // Scratch dir with everything the finishers expect.
 const WORK = fs.mkdtempSync(path.join(os.tmpdir(), "agent-replay-"));
-fs.copyFileSync(RESUME_SRC, path.join(WORK, "Hui_Mao_Backend_Software_Engineer.pdf"));
+fs.copyFileSync(RESUME_SRC, path.join(WORK, "HUI_MAO_AI_Engineer_2026.pdf"));
 const profile = JSON.parse(fs.readFileSync(path.join(REPO, "data/agent/profile.json"), "utf8"));
 const memory = JSON.parse(fs.readFileSync(path.join(REPO, "data/agent/memory.json"), "utf8"));
 fs.writeFileSync(

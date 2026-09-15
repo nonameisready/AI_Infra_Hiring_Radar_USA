@@ -4,7 +4,7 @@
  "fullName": "Hui Mao",
  "email": "huiluckylucky@gmail.com",
  "phone": "281-250-7589",
- "headline": "Senior Software Engineer — Backend / Distributed Systems / AI Infrastructure",
+ "headline": "Senior AI Engineer — Agentic Systems, LLM Applications & AI Infrastructure",
  "yearsExperience": 7,
  "location": "New York, NY",
  "willingToRelocate": true,
@@ -37,6 +37,11 @@
  ],
  "recentEmployers": [
   {
+   "company": "Aurora AI Ventures (pre-seed AI startup)",
+   "title": "Founding AI Engineer",
+   "period": "Jan 2026 - Present"
+  },
+  {
    "company": "Bank of America (via Innova Solutions)",
    "title": "Senior Software Engineer",
    "period": "Jun 2024 - Dec 2025"
@@ -63,11 +68,23 @@
   "RAG systems",
   "vector databases",
   "vLLM",
-  "SgLang"
+  "SgLang",
+  "Multi-agent orchestration",
+  "LLM orchestration",
+  "Tool-using agents",
+  "Model routing",
+  "NATS JetStream",
+  "PostgreSQL",
+  "DuckDB",
+  "pgvector",
+  "MLflow",
+  "GitHub Actions",
+  "Azure"
  ],
- "resumeFile": "Hui_Mao_Backend_Software_Engineer.pdf",
- "resumeNote": "The canonical resume lives in Jobright (already uploaded there). For direct-site applications the agent downloads the default resume from the radar app (Settings → resumes) or asks for a fresh copy.",
+ "resumeFile": "HUI_MAO_AI_Engineer_2026.pdf",
+ "resumeNote": "Canonical resume = HUI_MAO_AI_Engineer_2026.pdf (user provided 2026-09-14), uploaded to Jobright as the primary resume; cloud sessions pull it via agent/tools/fetch-resume.mjs. Mac keeps a copy at ~/Downloads/HUI_MAO_AI_Engineer_2026.pdf (RESUME_PDF in ~/.jobright-agent/env). The old backend-titled resume is superseded.",
  "employmentRestrictions": "None - not subject to any employment agreements or post-employment restrictions (confirmed by user 2026-08-26)",
  "primaryLanguage": "Python (also Go, TypeScript)",
- "openSourceLinks": "https://github.com/nonameisready"
+ "openSourceLinks": "https://github.com/nonameisready",
+ "currentEmployment": "Founding AI Engineer at Aurora AI Ventures (her own pre-seed AI startup: EarningsStory, Adscream, AI research systems), Jan 2026 - Present. CURRENTLY EMPLOYED = Yes. Still available to start immediately / within 2 weeks. Current-employer fields: Aurora AI Ventures."
 }

@@ -16,7 +16,7 @@ import path from "node:path";
 
 const WORK = process.env.AGENT_WORK_DIR;
 if (!WORK) throw new Error("AGENT_WORK_DIR is required");
-const OUT = path.join(WORK, "Hui_Mao_Backend_Software_Engineer.pdf");
+const OUT = path.join(WORK, "HUI_MAO_AI_Engineer_2026.pdf");
 
 const browser = await chromium.launch({
   headless: true,

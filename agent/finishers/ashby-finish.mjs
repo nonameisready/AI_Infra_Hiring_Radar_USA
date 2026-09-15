@@ -5,7 +5,7 @@ import path from "node:path";
 const WORK = process.env.AGENT_WORK_DIR;
 const url = process.argv[2];
 const SUBMIT = process.argv.includes("--submit");
-const RESUME = path.join(WORK, "Hui_Mao_Backend_Software_Engineer.pdf");
+const RESUME = path.join(WORK, "HUI_MAO_AI_Engineer_2026.pdf");
 const tag = Date.now();
 const out = { url, actions: [] };
 

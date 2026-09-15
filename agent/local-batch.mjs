@@ -37,7 +37,7 @@ sh("git reset --hard origin/main");
 
 // 1) work dir the finishers expect
 const WORK = fs.mkdtempSync(path.join(os.tmpdir(), "agent-batch-"));
-fs.copyFileSync(RESUME, path.join(WORK, "Hui_Mao_Backend_Software_Engineer.pdf"));
+fs.copyFileSync(RESUME, path.join(WORK, "HUI_MAO_AI_Engineer_2026.pdf"));
 const profile = JSON.parse(fs.readFileSync(path.join(REPO, "data/agent/profile.json"), "utf8"));
 const memory = JSON.parse(fs.readFileSync(path.join(REPO, "data/agent/memory.json"), "utf8"));
 fs.writeFileSync(path.join(WORK, "autofill-profile.json"), JSON.stringify({

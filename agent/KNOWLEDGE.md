@@ -12,22 +12,33 @@ source of truth; regenerate this file when they change materially.
 - Address: 225 Saint Pauls Ave APT 5P, Jersey City, New Jersey 07306. Location
   answer: "New York, NY" (city field: New York; state: New Jersey when asked
   where she RESIDES; NYC metro either way).
-- Senior Backend Software Engineer — 7 years. Python, Go, TypeScript, SQL,
-  PySpark, distributed systems, AWS. Most proficient language: Python.
-- Employment: Bank of America (via Innova Solutions), Senior Software Engineer,
-  Jun 2024 – Dec 2025, New York (most recent; NOT currently employed — can
-  start immediately, within 2 weeks). Before that BlackRock – Hedge Fund
+- Senior AI Engineer — Agentic Systems, LLM Applications & AI Infrastructure;
+  7+ years. Python, Go, TypeScript, SQL, PySpark, distributed systems, AWS,
+  RAG, tool-using agents, LLM orchestration, model routing. Most proficient
+  language: Python. (Resume: HUI_MAO_AI_Engineer_2026.pdf, user 2026-09-14.)
+- Employment: CURRENTLY EMPLOYED — Founding AI Engineer at Aurora AI Ventures
+  (her own pre-seed AI startup), Jan 2026 – Present: EarningsStory multi-agent
+  investment research, Adscream generative-video platform (Go/NATS/Postgres),
+  AI scientific-question-discovery research. Because it is her own startup she
+  can still start immediately / within 2 weeks. "Current employer" = Aurora AI
+  Ventures. Before that Bank of America (via Innova Solutions), Senior Software
+  Engineer, Jun 2024 – Dec 2025, New York; and BlackRock – Hedge Fund
   Solutions, Quantitative Research / Software Engineer, Oct 2018 – Feb 2024.
 - Education: M.S. Computer Science, University of Pennsylvania (2019–2021);
   M.S. Applied Math & Statistics, Rice (2017); B.A. Economics, Shanghai
   University of Finance and Economics (2012). "Highest degree": Master's.
 - LinkedIn: https://www.linkedin.com/in/belindamao · GitHub: github.com/nonameisready
 - Salary expectation: $150,000+ base (dropdowns: pick the band containing 150k).
-- Signature achievements to draw on for essays: scaled a real-time
+- Signature achievements to draw on for essays: founding engineer of an
+  agentic investment-research OS (multi-agent SEC-filing RAG pipelines,
+  valuation/market-intelligence agents, hourly SEC poller with cost-aware
+  LLM scheduling) and a distributed Go generative-video platform (NATS
+  JetStream queues, model routing, Stripe billing); scaled a real-time
   transaction-data platform at BoA through 10x traffic growth (millions of
   requests/day), horizontal partitioning + caching, cut p99 latency 60%;
-  five years of quant/data systems at BlackRock; ships code to production
-  daily; uses AI tools deeply as a core part of her workflow.
+  five years of quant/data systems at BlackRock (~$1T retirement AUM, ~$20B
+  HFS); ships code to production daily; uses AI tools deeply as a core part
+  of her workflow.
 
 ## Work authorization (answer EXACTLY like this, never embellish)
 
@@ -61,7 +72,8 @@ source of truth; regenerate this file when they change materially.
   Never infer the timezone answer from the relocation answer.
 - Available to start: immediately / within 2 weeks / less than a month.
 - Previously worked for <this company>: No (unless the company is BoA,
-  BlackRock, Innova Solutions). Relatives at the company: No. Referral: No.
+  BlackRock, Innova Solutions, Aurora AI Ventures). Relatives at the
+  company: No. Referral: No.
 - Non-compete or restrictive agreement: No. Conflicts of interest: No.
 - 18+: Yes. Background check: consent Yes. Lived outside the US 12+ months in
   past 7 years: No. Smoker: No. Securities licenses: No / "None".

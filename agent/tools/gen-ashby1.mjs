@@ -5,7 +5,7 @@ const url = process.argv[2];
 const A = [];
 A.push({ do: 'goto', url });
 A.push({ do: 'wait', ms: 6000 });
-A.push({ do: 'upload', sel: 'input[id=_systemfield_resume], input[type=file]', path: W + '/Hui_Mao_Backend_Software_Engineer.pdf' });
+A.push({ do: 'upload', sel: 'input[id=_systemfield_resume], input[type=file]', path: W + '/HUI_MAO_AI_Engineer_2026.pdf' });
 A.push({ do: 'wait', ms: 7000 });
 A.push({ do: 'evalJs', code: `(function(){var n=document.getElementById('_systemfield_name');var e=document.getElementById('_systemfield_email');return 'PRE name='+(n?JSON.stringify(n.value):'none')+' email='+(e?JSON.stringify(e.value):'none')})()` });
 A.push({ do: 'evalJs', code: `(function(){['_systemfield_name','_systemfield_email'].forEach(function(id){var el=document.getElementById(id);if(el&&el.value){Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype,'value').set.call(el,'');el.dispatchEvent(new Event('input',{bubbles:true}))}});var t=document.querySelector('input[type=tel]');if(t&&t.value){Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype,'value').set.call(t,'');t.dispatchEvent(new Event('input',{bubbles:true}));}if(t)t.id=t.id||'telfield';return 'cleared'})()` });

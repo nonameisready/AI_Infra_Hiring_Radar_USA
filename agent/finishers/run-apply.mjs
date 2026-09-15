@@ -15,7 +15,7 @@ const directUrl = directIdx > 0 ? process.argv[directIdx + 1] : null;
 
 const AUTOFILL = fs.readFileSync(path.join(REPO, "public/autofill.js"), "utf8");
 const PROFILE = JSON.parse(fs.readFileSync(path.join(WORK, "autofill-profile.json"), "utf8"));
-const RESUME = path.join(WORK, "Hui_Mao_Backend_Software_Engineer.pdf");
+const RESUME = path.join(WORK, "HUI_MAO_AI_Engineer_2026.pdf");
 const tag = Date.now();
 
 const browser = await chromium.launch({
@@ -126,7 +126,7 @@ try {
   await ats.evaluate(`(() => { ${AUTOFILL} })()`);
   const report = await ats.evaluate(
     ([p, r, opts]) => window.__radarAutofill({ profile: p, resume: r }, opts),
-    [PROFILE, { base64: resumeB64, fileName: "Hui_Mao_Backend_Software_Engineer.pdf", mimeType: "application/pdf" }, { submit: false, overwrite: false }],
+    [PROFILE, { base64: resumeB64, fileName: "HUI_MAO_AI_Engineer_2026.pdf", mimeType: "application/pdf" }, { submit: false, overwrite: false }],
   );
   step("autofilled-1", {
     filled: report.filled.map((f) => `${f.label}=${String(f.value).slice(0, 40)}`),

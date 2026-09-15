@@ -60,7 +60,7 @@ try {
   if (await applyNow.count()) { await applyNow.click(); await page.waitForTimeout(6000); }
 
   // resume first — Rippling parses it and prefills name/email/company/phone
-  const resume = path.join(WORK, "Hui_Mao_Backend_Software_Engineer.pdf");
+  const resume = path.join(WORK, "HUI_MAO_AI_Engineer_2026.pdf");
   await page.locator('input[type="file"]').first().setInputFiles(resume);
   await page.waitForTimeout(10_000);
 

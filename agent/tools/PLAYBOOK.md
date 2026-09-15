@@ -9,7 +9,7 @@ agent/KNOWLEDGE.md — tools never decide answers; the orchestrator does.
 ```
 export AGENT_WORK_DIR=<scratch dir>            # all tools read this
 ln -sfn <repo>/node_modules $AGENT_WORK_DIR/node_modules
-cp <resume pdf> $AGENT_WORK_DIR/Hui_Mao_Backend_Software_Engineer.pdf
+cp <resume pdf> $AGENT_WORK_DIR/HUI_MAO_AI_Engineer_2026.pdf
 cd $AGENT_WORK_DIR && AGENT_WORK_DIR=$AGENT_WORK_DIR \
   DRIVER_UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" \
   PLAYWRIGHT_CHROMIUM_PATH=<chromium> nohup node driver.mjs wd about:blank --resume >> wd-driver.log 2>&1 &

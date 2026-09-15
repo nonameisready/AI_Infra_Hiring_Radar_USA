@@ -6,7 +6,7 @@
 // meant for the Mac local batch first.
 //
 //   node agent/finishers/lever-finish.mjs <applyUrl> <answers.json> [--submit]
-// Env: AGENT_WORK_DIR (resume Hui_Mao_Backend_Software_Engineer.pdf +
+// Env: AGENT_WORK_DIR (resume HUI_MAO_AI_Engineer_2026.pdf +
 //      autofill-profile.json live there), HEADED=1 optional.
 import fs from "node:fs";
 import path from "node:path";
@@ -39,7 +39,7 @@ try {
   await page.waitForTimeout(4000);
 
   // resume first — Lever parses it and may prefill fields
-  const resume = path.join(WORK, "Hui_Mao_Backend_Software_Engineer.pdf");
+  const resume = path.join(WORK, "HUI_MAO_AI_Engineer_2026.pdf");
   await page.locator('input[name="resume"]').setInputFiles(resume).catch(() => {});
   await page.waitForTimeout(5000);
 
