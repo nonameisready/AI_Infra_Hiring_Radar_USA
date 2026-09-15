@@ -1028,8 +1028,8 @@ Parks recorded today, by status: parked 102, needs_answers 35, dropped 6, local 
 
 ## 2026-09-15 (cloud 5:00am ET window)
 
-49 confirmed from the cloud window on top of the Mac's 2, for **51 confirmed
-today**. All-time **760**.
+50 confirmed from the cloud window on top of the Mac's 2, for **52 confirmed
+today**. All-time **761**.
 
 Every row below reached a Greenhouse confirmation page ("Your application has
 been received"); nothing is booked on an optimistic submit. Greenhouse security
@@ -1058,38 +1058,40 @@ codes were relayed from Gmail per company, fetched only after the form asked.
 | 19 | CoreWeave | Senior Software Engineer, molab | 81% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=coreweave&token=4665402006) |
 | 20 | CoreWeave | Senior Engineer, Security Products | 81% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=coreweave&token=4709751006) |
 | 21 | Lightning AI | Senior Software Engineer, Agents | 81% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=lightningai&token=7837259003) |
-| 22 | Docugami | Back End Software Engineer | 80% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=docugami&token=4016934003) |
-| 23 | ZoomInfo | Senior Software Engineer - Chorus | 80% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=zoominfo&token=8634701002) |
-| 24 | Glean | Software Engineer, Storage | 80% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=gleanwork&token=4610281005) |
-| 25 | Red Ventures | Senior Software Engineer | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=bankrate&token=8052803) |
-| 26 | Twin Health | Senior Software Engineer, Health Pod | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=twinhealth&token=6167335004) |
-| 27 | Databricks | Sr Software Engineer- CXI | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=databricks&token=8617901002) |
-| 28 | Affirm | Senior Software Engineer, Backend (Merchant & Partner Lifecycle) | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=affirm&token=7636414003) |
-| 29 | Cribl | Sr Software Engineer, Edge | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=cribl&token=6000054004) |
-| 30 | Airbnb | Senior Software Engineer, Storage | 77% | mac (home IP) | [posting](https://job-boards.greenhouse.io/embed/job_app?for=airbnb&token=8165656) |
-| 31 | OneTrust | Software Engineer | 77% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=onetrust&token=8167257) |
-| 32 | Together AI | Senior Software Engineer - Together Cloud Platform | 77% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=togetherai&token=4753072007) |
-| 33 | Databricks | Senior Software Engineer - Application Traffic team | 77% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=databricks&token=8183195002) |
-| 34 | ZoomInfo | Senior Software Engineer - Platform Integrations | 77% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=zoominfo&token=8565628002) |
-| 35 | Neuralink | Software Engineer, Implant Manufacturing | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=neuralink&token=6353417003) |
-| 36 | Dragos, Inc. | Senior Backend Engineer - Backend | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=dragos&token=5364834008) |
-| 37 | Genius Sports | Software Engineer, Ad-Tech | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=geniussports&token=7849723003) |
-| 38 | Toast | Senior Software Engineer, Toast Delivery Services | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=toast&token=8167218) |
-| 39 | Instacart | Senior Software Engineer, Caper AI | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=instacart&token=8175843) |
-| 40 | MongoDB | Senior Software Engineer | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=mongodb&token=8065483) |
-| 41 | Wayve | Senior Software Engineer, Fleet Management | 75% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=wayve&token=8732317002) |
-| 42 | SharkNinja | Senior Analytics Engineer | 75% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=sharkninjaoperatingllc&token=4707454006) |
-| 43 | Apollo.io | Senior Software Engineer (Hybrid, San Francisco) | 75% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=apolloio&token=7986157002) |
-| 44 | Databricks | Senior Staff Software Engineer - App and Partner Ecosystem | 75% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=databricks&token=7807722002) |
-| 45 | Playlist | Sr Software Engineer - Playlist | 74% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=playlist&token=4695615006) |
-| 46 | Fanatics | Senior Software Engineer, Full Stack (FES) | 74% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=fanaticsinc&token=4401745009) |
-| 47 | Cresta | Senior Full Stack Engineer - Conversation Intelligence | 74% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=cresta&token=5026012008) |
-| 48 | Archer | Senior Software Engineer, Backend | 73% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=archer56&token=7589564003) |
-| 49 | BillionToOne | Senior Software Engineer, Prenatal | 73% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=billiontoone&token=4305991005) |
-| 50 | teamLFG | Senior Game Services Engineering Lead | 72% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=teamlfg&token=5843987004) |
-| 51 | Robinhood | Senior Software Engineer, Streaming Platform | 72% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=robinhood&token=8083811) |
-Parks recorded today, by status: needs_answers 43, park 29, parked 22,
-closed 5, dropped 4, user_manual 2.
+| 22 | Speechify | Software Engineer, Platform - Columbia, SC, USA | 81% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=speechify&token=5974250004) |
+| 23 | Docugami | Back End Software Engineer | 80% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=docugami&token=4016934003) |
+| 24 | ZoomInfo | Senior Software Engineer - Chorus | 80% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=zoominfo&token=8634701002) |
+| 25 | Glean | Software Engineer, Storage | 80% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=gleanwork&token=4610281005) |
+| 26 | Red Ventures | Senior Software Engineer | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=bankrate&token=8052803) |
+| 27 | Twin Health | Senior Software Engineer, Health Pod | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=twinhealth&token=6167335004) |
+| 28 | Databricks | Sr Software Engineer- CXI | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=databricks&token=8617901002) |
+| 29 | Affirm | Senior Software Engineer, Backend (Merchant & Partner Lifecycle) | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=affirm&token=7636414003) |
+| 30 | Cribl | Sr Software Engineer, Edge | 79% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=cribl&token=6000054004) |
+| 31 | Airbnb | Senior Software Engineer, Storage | 77% | mac (home IP) | [posting](https://job-boards.greenhouse.io/embed/job_app?for=airbnb&token=8165656) |
+| 32 | OneTrust | Software Engineer | 77% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=onetrust&token=8167257) |
+| 33 | Together AI | Senior Software Engineer - Together Cloud Platform | 77% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=togetherai&token=4753072007) |
+| 34 | Databricks | Senior Software Engineer - Application Traffic team | 77% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=databricks&token=8183195002) |
+| 35 | ZoomInfo | Senior Software Engineer - Platform Integrations | 77% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=zoominfo&token=8565628002) |
+| 36 | Neuralink | Software Engineer, Implant Manufacturing | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=neuralink&token=6353417003) |
+| 37 | Dragos, Inc. | Senior Backend Engineer - Backend | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=dragos&token=5364834008) |
+| 38 | Genius Sports | Software Engineer, Ad-Tech | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=geniussports&token=7849723003) |
+| 39 | Toast | Senior Software Engineer, Toast Delivery Services | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=toast&token=8167218) |
+| 40 | Instacart | Senior Software Engineer, Caper AI | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=instacart&token=8175843) |
+| 41 | MongoDB | Senior Software Engineer | 76% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=mongodb&token=8065483) |
+| 42 | Wayve | Senior Software Engineer, Fleet Management | 75% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=wayve&token=8732317002) |
+| 43 | SharkNinja | Senior Analytics Engineer | 75% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=sharkninjaoperatingllc&token=4707454006) |
+| 44 | Apollo.io | Senior Software Engineer (Hybrid, San Francisco) | 75% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=apolloio&token=7986157002) |
+| 45 | Databricks | Senior Staff Software Engineer - App and Partner Ecosystem | 75% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=databricks&token=7807722002) |
+| 46 | Playlist | Sr Software Engineer - Playlist | 74% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=playlist&token=4695615006) |
+| 47 | Fanatics | Senior Software Engineer, Full Stack (FES) | 74% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=fanaticsinc&token=4401745009) |
+| 48 | Cresta | Senior Full Stack Engineer - Conversation Intelligence | 74% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=cresta&token=5026012008) |
+| 49 | Archer | Senior Software Engineer, Backend | 73% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=archer56&token=7589564003) |
+| 50 | BillionToOne | Senior Software Engineer, Prenatal | 73% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=billiontoone&token=4305991005) |
+| 51 | teamLFG | Senior Game Services Engineering Lead | 72% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=teamlfg&token=5843987004) |
+| 52 | Robinhood | Senior Software Engineer, Streaming Platform | 72% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=robinhood&token=8083811) |
+
+Parks recorded today, by status: needs_answers 47, park 30, parked 28,
+closed 4, dropped 4, user_manual 2.
 
 ### What changed in the tooling today
 

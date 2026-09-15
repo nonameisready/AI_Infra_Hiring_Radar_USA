@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T16:45:36.602Z",
+ "updatedAt": "2026-09-15T17:06:05.391Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -11000,8 +11000,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a99c341138838706059024c",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=stripe&jr_id=6a99c341138838706059024c&token=8177930&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "closed",
-   "note": "2026-09-15: the Greenhouse posting is no longer open."
+   "status": "park",
+   "note": "2026-09-15 cloud: unconfirmed submit: error: locator.click: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /submit application|submit/i }).first()\u001b[22m\n"
   },
   {
    "id": "6a4129f2b526a24fc31316ce",
@@ -11050,8 +11050,8 @@
    "jobrightUrl": "https://jobright.ai/jobs/info/6a3acaed797099171917ba7b",
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=roblox&jr_id=6a3acaed797099171917ba7b&token=8017352&utm_source=jobright",
    "addedAt": "2026-09-04",
-   "status": "local replay",
-   "note": "9/4: GH submit returned no confirmation from cloud IP (15 jobs same pattern = silent IP flag). Retry from Mac home IP (GH token dedupe protects)."
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Please review and acknowledge Roblox's Candidate Arbitration Agreement\"]"
   },
   {
    "id": "6a8e03db25fc4e7ae3dbf457",
@@ -23786,7 +23786,8 @@
     "Phone Call",
     "Text Message",
     "WhatsApp"
-   ]
+   ],
+   "note": "2026-09-15 cloud: missing: [\"Email\",\"Phone Call\",\"Text Message\",\"WhatsApp\"]"
   },
   {
    "id": "6a8867984afae74a0834b783",
@@ -26035,6 +26036,28 @@
    "atsUrl": "https://jobs.ashbyhq.com/openai/b6a86e39-8059-4ccf-8d33-1bf5bd92fa86/application?utm_source=8Jq3QyqAGm&source=jobright&jr_id=6aa5489a42411952ff9a802d",
    "status": "parked",
    "note": "2026-09-15 cloud harvest r2: unsupported ATS host for the cloud finishers (jobs.ashbyhq.com)"
+  },
+  {
+   "id": "6a14024f83d714428983333e",
+   "key": "vercel::software engineer workflows",
+   "company": "Vercel",
+   "title": "Software Engineer, Workflows",
+   "matchPercent": 74,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a14024f83d714428983333e",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=vercel&jr_id=6a14024f83d714428983333e&token=5798416004",
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Are you currently based in any of these countries? Please note these a\",\"Your authorization to work in the country where you live. Please choos\",\"Do you live in one of the following states? Alabama, Alaska, Delaware,\","
+  },
+  {
+   "id": "6a8d3cb3cde3717f9e9c059d",
+   "key": "verkada::senior staff software engineer platform infrastructure",
+   "company": "Verkada",
+   "title": "Senior/Staff Software Engineer, Platform Infrastructure",
+   "matchPercent": 71,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a8d3cb3cde3717f9e9c059d",
+   "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=verkada&jr_id=6a8d3cb3cde3717f9e9c059d&token=5220950007",
+   "status": "needs_answers",
+   "note": "2026-09-15 cloud: missing: [\"Please identify your race*\"]"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
