@@ -125,17 +125,22 @@ try {
     const targets = [];
     for (let i = 0; i < snap.length; i++) {
       const s = snap[i];
-      // Skip what is already answered, so the first rule that matches a
-      // control wins — that is what putting a rule first in the list means.
+      // Skip what another rule has already successfully answered, so the
+      // first rule that actually fills a control wins.
       if (!s.visible || s.filled) continue;
       const seen = `${c.label}\u0000${i}`;
       if (triedCombo.has(seen) || !labelRe.test(s.label)) continue;
       triedCombo.add(seen);
-      s.filled = true;
-      targets.push({ el: allCombos.nth(i), label: s.label });
+      targets.push({ el: allCombos.nth(i), label: s.label, slot: s });
     }
     if (!targets.length) { if (pass === 0) out.combos.push({ label: c.label, result: "not_found" }); continue; }
     for (const target of targets) {
+    // A control counts as answered only once a rule actually picks a value.
+    // Marking it answered because a rule merely matched its label let the
+    // first matching rule block every later one: Waymo's "Work Authorization"
+    // is matched by two rules, and the one listing F-1/CPT/EAD matches none of
+    // Waymo's options, so the sponsorship rule that does match never ran.
+    const comboMark = out.combos.length;
 
     const tagName = await target.el.evaluate((e) => e.tagName);
     if (tagName === "SELECT") {
@@ -203,6 +208,7 @@ try {
       await page.locator("body").click({ position: { x: 5, y: 5 } }).catch(() => {});
     }
     await page.waitForTimeout(600);
+    if (out.combos.slice(comboMark).some((r) => r && r.picked)) target.slot.filled = true;
     }
   }
     const next = await comboSnapshot();

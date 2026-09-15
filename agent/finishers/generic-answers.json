@@ -1,6 +1,10 @@
 {
  "combos": [
   {
+   "label": "^work authorization",
+   "prefer": "require,? or in the future will require|sponsorship to obtain work authorization|will require.{0,40}sponsorship to obtain"
+  },
+  {
    "label": "(have|hold) (the )?(legal )?authorization to work in (this|the) (job|role|position)('s)?[^?]{0,25}location|authorized to work in this job's location",
    "prefer": "^yes"
   },
