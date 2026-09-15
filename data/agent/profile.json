@@ -17,7 +17,7 @@
  "usAuthorized": true,
  "workAuthNote": "user 2026-09-08: H-1B approved AND activated in the past — petition by BlackRock (employer 10/2018-02/2024); user NOT currently employed by any H-1B sponsor. So she is CAP-COUNTED: any new employer files a cap-EXEMPT H-1B petition/transfer, no lottery. CURRENT operative status/work authorization: F-1 CPT/EAD valid through 05/31/2027 (user-confirmed still valid). Form answers: 'have you held H-1B / is H-1B approved' → Yes; current-status dropdowns → F-1 unless user's lawyer confirms otherwise (see chat 2026-09-08); sponsorship → ALWAYS Yes, with free-text 'Cap-exempt H-1B transfer only — H-1B previously approved & activated (via BlackRock) and employment-based I-140 APPROVED, so no lottery needed and H-1B extendable beyond 6 years (AC21)'. I-140-approved questions → Yes (user re-confirmed 2026-09-08). Still Yes to legally-authorized; never claim citizen/green-card/LPR, and never claim I-485 pending (unverified, audited out 2026-09-01).",
  "salaryExpectation": "$150,000+ base",
- "noticePeriod": "",
+ "noticePeriod": "2 weeks",
  "education": [
   {
    "school": "University of Pennsylvania",
@@ -86,5 +86,10 @@
  "employmentRestrictions": "None - not subject to any employment agreements or post-employment restrictions (confirmed by user 2026-08-26)",
  "primaryLanguage": "Python (also Go, TypeScript)",
  "openSourceLinks": "https://github.com/nonameisready",
- "currentEmployment": "Founding AI Engineer at Aurora AI Ventures (her own pre-seed AI startup: EarningsStory, Adscream, AI research systems), Jan 2026 - Present. CURRENTLY EMPLOYED = Yes. Still available to start immediately / within 2 weeks. Current-employer fields: Aurora AI Ventures."
+ "currentEmployment": "Founding AI Engineer at Aurora AI Ventures (her own pre-seed AI startup: EarningsStory, Adscream, AI research systems), Jan 2026 - Present. CURRENTLY EMPLOYED = Yes. Still available to start immediately / within 2 weeks. Current-employer fields: Aurora AI Ventures.",
+ "employmentTypeNote": "W2 only (user 2026-09-15): cannot work as an independent contractor / 1099 under F-1 CPT/EAD. Do not queue contract or 1099 postings.",
+ "workingHoursNote": "User 2026-09-15: yes to environments that regularly work more than 40 hours a week.",
+ "travelWillingness": "Open to travel, including more than 25% (user 2026-09-15).",
+ "postEmploymentRestrictions": "None (user 2026-09-15). NOTE: this is separate from employment history — she DID work at BlackRock (2018-2024) and Bank of America via Innova Solutions (2024-2025), so 'have you worked at X' must still be answered truthfully.",
+ "competingOffers": "None (user 2026-09-15)."
 }

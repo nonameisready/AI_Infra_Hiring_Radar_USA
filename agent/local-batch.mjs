@@ -143,6 +143,12 @@ const USER_BLOCK =
 // User directive 2026-09-13: applied to these enough for now — no new
 // applications for a year. A cooldown, not a permanent block: it expires on
 // its own date, so keep the date here rather than deleting the companies.
+// User directive 2026-09-15: she can only work W2. Independent-contractor /
+// 1099 engagements are not open to her under F-1 CPT/EAD, so a contract
+// posting is wasted effort rather than a park. Matched on the title, which is
+// where Jobright puts it; "contract" alone would catch "contract management"
+// and similar product roles, so each alternative is anchored.
+const CONTRACT_BLOCK = /\b(1099|c2c|corp[- ]to[- ]corp)\b|\bcontract(or)? (role|position|opportunity)\b|\((contract|contractor|1099)\)|\b(contract|contractor)\s*[-–—:]\s|[-–—:]\s*(contract|contractor|1099)\s*$|\bindependent contractor\b|\bw2 or c2c\b/i;
 const COOLDOWN = [
   { re: /\bcanonical\b/i, until: "2027-09-13" },
   { re: /jpmorgan|\bchase\b/i, until: "2027-09-13" },
@@ -157,6 +163,7 @@ for (const j of matches.jobs) {
   if (DEFENSE_BLOCK.test(j.company ?? "")) { log(`blocked (defense/clearance): ${j.company}`); continue; }
   if (NO_REAPPLY.test(j.company ?? "")) { log(`blocked (no-reapply, user directive): ${j.company}`); continue; }
   if (USER_BLOCK.test(j.company ?? "")) { log(`blocked (user directive, never apply): ${j.company}`); continue; }
+  if (CONTRACT_BLOCK.test(j.title ?? "")) { log(`blocked (W2 only, user directive): ${j.company} — ${j.title}`); continue; }
   const cool = cooling(j.company);
   if (cool) { log(`blocked (user cooldown until ${cool.until}): ${j.company}`); continue; }
   if (seenCompanies.has(norm(j.company))) { log(`skipped (company already applied): ${j.company} — ${j.title}`); continue; }

@@ -1,6 +1,30 @@
 {
  "combos": [
   {
+   "label": "current offers you are considering|do you have any (other )?(current |competing |outstanding )?offers|other offers (in progress|pending)",
+   "prefer": "^no\\b|^none\\b"
+  },
+  {
+   "label": "set ?up to (legally )?work as an independent contractor|able to work (as )?(a )?1099|work on a 1099 basis|are you (an )?independent contractor",
+   "prefer": "^no\\b"
+  },
+  {
+   "label": "(more|greater) than 40 hours|over 40 hours|work(ing)? (long|extended) hours|regularly work more than|beyond (a )?(standard|typical) 40",
+   "prefer": "^yes"
+  },
+  {
+   "label": "notice period|how much notice|how soon (can|could) you (start|begin)|when (can|could) you start|what date are you available to start|earliest (possible )?start date|availability to start",
+   "prefer": "2 ?weeks|two weeks|^14 days"
+  },
+  {
+   "label": "subject to any (employment agreement|non-?compete|post-?employment|restrictive covenant)|non-?compete (agreement|clause)|post-?employment restrictions|restrictive covenants",
+   "prefer": "^no\\b"
+  },
+  {
+   "label": "open to travel|willing(ness)? to travel|able to travel|travel requirement|comfortable with .{0,20}travel|how much travel",
+   "prefer": "^yes|75%|50%|up to 50|25%|more than 25|as needed"
+  },
+  {
    "label": "^work authorization",
    "prefer": "require,? or in the future will require|sponsorship to obtain work authorization|will require.{0,40}sponsorship to obtain"
   },
@@ -5679,6 +5703,14 @@
   }
  ],
  "texts": [
+  {
+   "label": "notice period|when (can|could) you start|available to start|earliest start date",
+   "text": "Two weeks from an accepted offer."
+  },
+  {
+   "label": "current offers you are considering|other offers",
+   "text": "No — I do not have any offers under consideration at the moment."
+  },
   {
    "label": "used an ai (coding )?tool|ai coding (tool|assistant).{0,40}(change|changed|improve)|how (do|have) you use ai (tools )?in your (work|workflow)|describe.{0,30}ai.{0,20}(workflow|development)",
    "text": "AI tools are part of how I build, not an add-on. Building EarningsStory's multi-agent research pipeline, I moved from writing every parser and prompt by hand to pairing with a coding assistant on the scaffolding — schema-driven SEC filing extractors, test fixtures, the evaluation harness — which cut the time to stand up a new agent from days to hours and let me spend my attention on the parts that actually needed judgement: cost-aware model routing, retrieval quality, and where the pipeline was silently wrong. The same habit carries into review: I use AI to get a second reading of a diff before I send it, and I treat its output as a draft I own rather than an answer I trust."
