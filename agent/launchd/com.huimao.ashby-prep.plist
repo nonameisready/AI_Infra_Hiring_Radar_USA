@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.huimao.ashby-prep</string>
+  <!-- Runs at 1:30am, after the 1:00am Greenhouse batch has finished and
+       refreshed pending.json, so the Ashby worklist reflects the same day's
+       harvest. Prep only: it opens no browser and submits nothing, because
+       Ashby rejects automated submits regardless of IP (see RUNBOOK, section
+       "Ashby verdict"). It just leaves data/agent/ASHBY-TODO.md ready so a
+       sitting is click-and-confirm. The submits themselves are run by hand:
+       node agent/ashby-batch.mjs with a count flag. -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-lc</string>
+    <string>source ~/.jobright-agent/env 2>/dev/null; cd ~/AI_Infra_Hiring_Radar_USA &amp;&amp; REPO_DIR="$PWD" AGENT_WORK_DIR="$HOME/.jobright-agent/work" node agent/ashby-batch.mjs --prep >> /tmp/ashby-prep.log 2>&amp;1</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>1</integer><key>Minute</key><integer>30</integer></dict>
+  <key>StandardOutPath</key><string>/tmp/ashby-prep.log</string>
+  <key>StandardErrorPath</key><string>/tmp/ashby-prep.log</string>
+</dict>
+</plist>

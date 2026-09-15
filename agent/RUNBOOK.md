@@ -691,3 +691,41 @@ to a finisher the Mac batch also runs, so it wants to be written and tested
 deliberately rather than mid-window. Until then, expect the heaviest Greenhouse
 forms to park, and do not read a timeout as "the answers were missing" — in
 every case above the answer rules were present and the form was filled.
+
+## Ashby daily flow on the Mac (2026-09-15)
+
+The user asked for the Ashby backlog (92 postings) to be run automatically
+every day. It cannot be fully automatic, and the reason is the 2026-08-27
+verdict above, not a missing feature: Ashby's spam detection rejects Playwright
+submissions **regardless of IP or headless mode**, tested from this user's own
+residential network with a real headed browser. Making it submit anyway means
+defeating an anti-bot control, which the standing rules forbid.
+
+So the day is split at the submit click, and only the half that needs no human
+is scheduled:
+
+- **`com.huimao.ashby-prep`, 1:30am daily** (after the 1:00am Greenhouse batch
+  has refreshed pending.json). Runs `agent/ashby-batch.mjs --prep`: no browser,
+  no submit. It applies the same standing blocks as the Greenhouse batch —
+  defense/clearance, user block, cooldown, and the 2026-09-15 W2-only rule that
+  drops 1099/contract postings — dedupes against applied.json by Jobright id,
+  company::title and the Ashby posting uuid, and writes
+  `data/agent/ASHBY-TODO.md`: the day's worklist in match order plus the
+  standing answer sheet.
+- **`node agent/ashby-batch.mjs --count 10`, run by the user when she has
+  ~20 minutes.** Headed and ASSIST mode: the agent opens each form, uploads the
+  resume and answers every question, then stops; she reviews and clicks Submit.
+  `ashby-finish.mjs` watches for the confirmation page, and only a real
+  confirmation is booked. Each confirmation is written to applied.json
+  immediately, so a crash mid-run cannot lose a submitted application. Results
+  push to `ashby-local-results` like the Greenhouse batch.
+  `--dry` fills and screenshots without ever submitting.
+
+Spam-flag discipline is unchanged: two flags parks the lane for the day, two in
+a row stops it immediately and it retries ~3h later.
+
+The answer sheet is generated from profile.json, so the user's 2026-09-15
+answers (no competing offers, W2 only, yes to 40+ hour weeks, two weeks'
+notice, no post-employment restrictions, open to heavy travel) flow into it
+automatically. It deliberately still routes NDAs, arbitration agreements, AI
+policy statements and relocation pledges to her.

@@ -65,7 +65,7 @@ else
 fi
 
 echo "\n== 5/6 安装 launchd 定时任务 =="
-for p in com.huimao.qwen-server com.huimao.local-batch com.huimao.brain-rules; do
+for p in com.huimao.qwen-server com.huimao.local-batch com.huimao.brain-rules com.huimao.ashby-prep; do
   sed "s#/usr/local/bin/node#$NODE_BIN#g" "$REPO/agent/launchd/$p.plist" > "$LA/$p.plist"
   launchctl unload "$LA/$p.plist" 2>/dev/null
   launchctl load "$LA/$p.plist" && ok "已装载 $p" || bad "装载失败 $p"
@@ -82,7 +82,11 @@ fi
 
 echo "\n================= 结果 ================="
 if [[ $MISSING -eq 0 ]]; then
-  ok "全部就绪。今晚 1:00 会自动跑；日志: tail -f /tmp/local-batch.log"
+  ok "全部就绪。今晚 1:00 跑 Greenhouse，1:30 生成 Ashby 待投清单"
+  info "日志: tail -f /tmp/local-batch.log  /  tail -f /tmp/ashby-prep.log"
+  info "Ashby 需要你点 Submit（它会拒绝自动提交，见 RUNBOOK）。有空时跑:"
+  echo "    cd ~/AI_Infra_Hiring_Radar_USA && node agent/ashby-batch.mjs --count 10"
+  echo "    清单在 data/agent/ASHBY-TODO.md，标准答案也在里面"
   info "现在手动试跑一单（不真提交）: source $CFG/env && node agent/local-batch.mjs --dry --cap 2"
 else
   info "还有上面标 ✘/ℹ 的项目没完成 — 处理后重跑本脚本即可。"
