@@ -5580,6 +5580,907 @@
    "label": "Agreement to Arbitrate",
    "prefer": "I agree",
    "type": ""
+  },
+  {
+   "label": "English",
+   "prefer": "English",
+   "type": ""
+  },
+  {
+   "label": "Mandarin Chinese",
+   "prefer": "Mandarin Chinese",
+   "type": ""
+  },
+  {
+   "label": "Other",
+   "prefer": "I do not wish to answer",
+   "type": ""
+  },
+  {
+   "label": "Security code",
+   "prefer": ".*",
+   "type": "skip"
+  },
+  {
+   "label": "verification code",
+   "prefer": ".*",
+   "type": "skip"
+  },
+  {
+   "label": "How many years of relevant working experience do you have to the role",
+   "prefer": "5-10 years",
+   "type": ""
+  },
+  {
+   "label": "Have you customized or extended a LIMS",
+   "prefer": "No",
+   "type": "radio"
+  },
+  {
+   "label": "What's your proficiency level in Python",
+   "prefer": "Expert|Proficient|Advanced",
+   "type": "dropdown"
+  },
+  {
+   "label": "What do you think are our most complex technical challenges based on t",
+   "prefer": ".*",
+   "type": "text"
+  },
+  {
+   "label": "Our interviews require you to be on video. Can you confirm that you ca",
+   "prefer": "Yes",
+   "type": "radio"
+  },
+  {
+   "label": "What did you get when you cracked the code\\*",
+   "prefer": ".*",
+   "type": "text"
+  },
+  {
+   "label": "Do you have agency experience",
+   "prefer": "No"
+  },
+  {
+   "label": "Do you live in any of the following states",
+   "prefer": "New Jersey"
+  },
+  {
+   "label": "Are you open to working 4 days onsite in one of our central offices",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "What interests you in this role and Zanskar",
+   "prefer": ".*",
+   "type": "text"
+  },
+  {
+   "label": "How we interview",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Is the following statement True or False\\? SeatGeek was founded in 2008",
+   "prefer": "True"
+  },
+  {
+   "label": "Who is your most recent/current employer",
+   "prefer": "Aurora AI Ventures"
+  },
+  {
+   "label": "18 years or older",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Background check consent",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Lived outside US 12+ months",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Charged with felony",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Fugitive from justice",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Controlled substance user",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Permanent resident of another country",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "EEO gender",
+   "prefer": "I do not wish to answer",
+   "type": ""
+  },
+  {
+   "label": "EEO race",
+   "prefer": "I do not wish to answer",
+   "type": ""
+  },
+  {
+   "label": "EEO veteran",
+   "prefer": "I do not wish to answer",
+   "type": ""
+  },
+  {
+   "label": "EEO disability",
+   "prefer": "I do not wish to answer",
+   "type": ""
+  },
+  {
+   "label": "EEO sexual orientation",
+   "prefer": "I do not wish to answer",
+   "type": ""
+  },
+  {
+   "label": "EEO pronouns",
+   "prefer": "I do not wish to answer",
+   "type": ""
+  },
+  {
+   "label": "In which language\\(s\\) are you fluent \\(written\\) other than English",
+   "prefer": "Chinese",
+   "type": ""
+  },
+  {
+   "label": "In which language\\(s\\) are you fluent \\(spoken\\) other than English",
+   "prefer": "Chinese",
+   "type": ""
+  },
+  {
+   "label": "I have independently debugged and resolved complex production issues",
+   "prefer": "Yes",
+   "type": "radio"
+  },
+  {
+   "label": "I have designed, built, and maintained production-grade APIs",
+   "prefer": "Yes",
+   "type": "radio"
+  },
+  {
+   "label": "I have hands-on experience designing and scaling backend systems",
+   "prefer": "Yes",
+   "type": "radio"
+  },
+  {
+   "label": "I have built or worked on event-driven systems",
+   "prefer": "Yes",
+   "type": "radio"
+  },
+  {
+   "label": "The state I reside in is",
+   "prefer": "New Jersey",
+   "type": "dropdown"
+  },
+  {
+   "label": "I understand that this position will require a final round interview",
+   "prefer": "Yes",
+   "type": "radio"
+  },
+  {
+   "label": "This role is restricted by U.S. federal regulations to U.S. citizens",
+   "prefer": "No",
+   "type": "radio"
+  },
+  {
+   "label": "What pronouns do you use",
+   "prefer": "She/Her",
+   "type": "dropdown"
+  },
+  {
+   "label": "All Protolabs facilities in the United States are ITAR-compliant operations. Due to ITAR regulations, you must be a U.S. citizen or a U.S. permanent resident to work at these facilities.",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "This position is a hybrid role in San Francisco or Denver",
+   "prefer": "Hybrid",
+   "type": ""
+  },
+  {
+   "label": "What level of travel are you comfort",
+   "prefer": ".*",
+   "type": "Open to all levels of travel"
+  },
+  {
+   "label": "Opt-in to receive text messages about jobs at nCino",
+   "prefer": ".*",
+   "type": "Yes"
+  },
+  {
+   "label": "I would like to receive updates from a recruiter about this job via SM",
+   "prefer": ".*",
+   "type": "Yes"
+  },
+  {
+   "label": "What is your work authorization status",
+   "prefer": "F-1.*",
+   "type": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved"
+  },
+  {
+   "label": "Are you currently a F-1 visa holder on Optional Practical Training",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "work authorization|visa|sponsorship|citizen|permanent resident|green card|I-140|I-485",
+   "prefer": ".*F-1.*|.*EAD.*|.*H-1B.*|.*Yes.*|.*No.*"
+  },
+  {
+   "label": "relocation|onsite|hybrid|remote|commute",
+   "prefer": ".*Yes.*|.*Relocate.*"
+  },
+  {
+   "label": "start date|available|immediately|within 2 weeks",
+   "prefer": ".*Immediately.*|.*Within 2 weeks.*"
+  },
+  {
+   "label": "previous employer|worked for|referral|relative|conflict|non-compete",
+   "prefer": ".*No.*"
+  },
+  {
+   "label": "background check|18|smoker|securities|convicted|felony|fugitive|mental|restraining|controlled substance",
+   "prefer": ".*Yes.*|.*No.*"
+  },
+  {
+   "label": "EEO|demographics|gender|race|veteran|disability|pronouns|Hispanic",
+   "prefer": ".*Prefer not to say.*|.*Decline.*|.*Not Specified.*"
+  },
+  {
+   "label": "AI|artificial intelligence|tools|usage|AI-assisted",
+   "prefer": ".*Yes.*|.*Proudly.*"
+  },
+  {
+   "label": "experience|5 years|software|programming|SDLC|design|microservices|API|backend|payment|market data",
+   "prefer": ".*Yes.*"
+  },
+  {
+   "label": "Golang|TypeScript|C#|specialist|8 years",
+   "prefer": ".*No.*"
+  },
+  {
+   "label": "country of legal residence",
+   "prefer": "United States"
+  },
+  {
+   "label": "legal authorization to work in your country of residence",
+   "prefer": "Yes"
+  },
+  {
+   "label": "soonest date you can start",
+   "prefer": "immediately",
+   "type": ""
+  },
+  {
+   "label": "Can you provide verification of both your identity and authorization",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Do you have any contractual obligations, agreements, relationships, or",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you a fugitive from justice",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you an alien illegally or unlawfully in the United States",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you an alien who has been admitted to the United States under a no",
+   "prefer": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved",
+   "type": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved"
+  },
+  {
+   "label": "Are you an unlawful user of, or addicted to, marijuana or any depressa",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you subject to a court order, including a Military Protection Orde",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you under indictment or information in any court for a felony, or",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Have you ever been adjudicated as a mental defective OR have you ever",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Have you ever been convicted in any court, including a military court",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Have you ever been discharged from the Armed Forces under dishonorable",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Desired Salary",
+   "prefer": "150,000"
+  },
+  {
+   "label": "Have you worked for Two Six Technologies or an affiliate in the past",
+   "prefer": "No"
+  },
+  {
+   "label": "Are you a current or former direct employee of any government institution",
+   "prefer": "No"
+  },
+  {
+   "label": "This role is based out of the Scout Motors location in Fremont, Califo",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Which Scout Motors location are you closest to\\?",
+   "prefer": "Fremont, California",
+   "type": ""
+  },
+  {
+   "label": "Where did you hear about this role\\?\\*",
+   "prefer": "Job board",
+   "type": ""
+  },
+  {
+   "label": "Do you currently work for Scout Motors\\? \\*",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "previously held a position at Socure",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "currently reside in any of the following states",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "live within 45 miles of one of Socure's Tech talent hubs",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "On-Call Requirements",
+   "prefer": ".*willing.*able.*",
+   "type": ""
+  },
+  {
+   "label": "experience working in a fully remote environment",
+   "prefer": ".*2 years.*",
+   "type": ""
+  },
+  {
+   "label": "work in a 100% remote environment",
+   "prefer": ".*long-term.*",
+   "type": ""
+  },
+  {
+   "label": "Outside Work / Advisory Disclosure",
+   "prefer": ".*no.*",
+   "type": ""
+  },
+  {
+   "label": "heard of TRM",
+   "prefer": ".*yes.*",
+   "type": ""
+  },
+  {
+   "label": "Security code",
+   "prefer": ".*",
+   "type": "<user to enter code>"
+  },
+  {
+   "label": "Are you legally authorized to work in the United States",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Do you require visa sponsorship now or in the future",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Are you eligible to begin employment immediately",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Have you ever been employed by this company",
+   "prefer": "No"
+  },
+  {
+   "label": "Do you have any relatives currently employed by this company",
+   "prefer": "No"
+  },
+  {
+   "label": "Do you have a non-compete or restrictive agreement",
+   "prefer": "No"
+  },
+  {
+   "label": "Are you 18 years of age or older",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Have you lived outside the United States for 12 or more months in the past 7 years",
+   "prefer": "No"
+  },
+  {
+   "label": "Do you hold any securities licenses",
+   "prefer": "None"
+  },
+  {
+   "label": "Have you ever been convicted of a crime",
+   "prefer": "No"
+  },
+  {
+   "label": "Have you ever been charged with or under indictment for a felony",
+   "prefer": "No"
+  },
+  {
+   "label": "Have you been adjudicated mentally defective or committed to an institution",
+   "prefer": "No"
+  },
+  {
+   "label": "Have you been dishonorably discharged from the military",
+   "prefer": "No"
+  },
+  {
+   "label": "Are you subject to a restraining order",
+   "prefer": "No"
+  },
+  {
+   "label": "Are you an unlawful user of a controlled substance",
+   "prefer": "No"
+  },
+  {
+   "label": "Do you wish to decline to answer",
+   "prefer": "I do not wish to answer"
+  },
+  {
+   "label": "Are you a current or previous Pathward employee",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Are you related to, or are you in a close personal relationship with",
+   "prefer": "No",
+   "type": ""
+  },
+  {
+   "label": "Do you have a High School Diploma or Equivalent",
+   "prefer": "High School Diploma or Equivalent",
+   "type": ""
+  },
+  {
+   "label": "Employment Eligibility Information",
+   "prefer": "F-1.*CPT.*EAD",
+   "type": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved"
+  },
+  {
+   "label": "Visa Requirement Status",
+   "prefer": "Yes|Requires.*Visa.*Sponsorship|Visa.*Sponsorship.*Required",
+   "type": "Yes"
+  },
+  {
+   "label": "Affirmation",
+   "prefer": "Yes|I.*Affirm|I.*Agree|I.*Confirm",
+   "type": "Yes"
+  },
+  {
+   "label": "Authorization and Acknowledgement",
+   "prefer": "Yes|I.*Authorize|I.*Acknowledge|I.*Consent",
+   "type": "Yes"
+  },
+  {
+   "label": "Which Scout Motors location are you closest to",
+   "prefer": "Fremont"
+  },
+  {
+   "label": "Do you have manufacturing, OEM, and/or automotive experience",
+   "prefer": "No",
+   "type": "radio"
+  },
+  {
+   "label": "Are you able to meet the travel requirements",
+   "prefer": "Yes",
+   "type": "radio"
+  },
+  {
+   "label": "Does the salary range stated in the job description fit your compensation",
+   "prefer": "Yes",
+   "type": "radio"
+  },
+  {
+   "label": "Do you have any professional or personal connections to individuals",
+   "prefer": "No",
+   "type": "radio"
+  },
+  {
+   "label": "Do you have any conflicts of interest",
+   "prefer": "No",
+   "type": "radio"
+  },
+  {
+   "label": "Which range best fits your target rate for this contract role",
+   "prefer": "\\$150,000"
+  },
+  {
+   "label": "This role involves daily written communication and live calls with U\\.S",
+   "prefer": "Yes"
+  },
+  {
+   "label": "U\\.S\\. export control laws",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Export Administration Regulations",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "sanctioned countries",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "U\\.S\\. citizen",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "green card",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "I-485 pending",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "security clearance",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "When is the earliest you can start this job",
+   "prefer": "Immediately"
+  },
+  {
+   "label": "Phone Call",
+   "prefer": "Prefer not to say",
+   "type": ""
+  },
+  {
+   "label": "Text Message",
+   "prefer": "Prefer not to say",
+   "type": ""
+  },
+  {
+   "label": "WhatsApp",
+   "prefer": "Prefer not to say",
+   "type": ""
+  },
+  {
+   "label": "I acknowledge that all information regarding the company",
+   "prefer": "I acknowledge",
+   "type": ""
+  },
+  {
+   "label": "Work authorization",
+   "prefer": "F-1.*CPT",
+   "type": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved"
+  },
+  {
+   "label": "If you are not located in the listed metropolitan area on this post, are you comfortable relocating",
+   "prefer": "Yes"
+  },
+  {
+   "label": "Do you have any relatives working at this company",
+   "prefer": "No"
+  },
+  {
+   "label": "Do you have a referral for this position",
+   "prefer": "No"
+  },
+  {
+   "label": "Do you hold any securities licenses",
+   "prefer": "No"
+  },
+  {
+   "label": "Have you ever been convicted of a crime or court-martialled",
+   "prefer": "No"
+  },
+  {
+   "label": "Are you a US citizen or national",
+   "prefer": "No"
+  },
+  {
+   "label": "Are you a permanent resident of another country",
+   "prefer": "No"
+  },
+  {
+   "label": "Are you a US person for export control purposes",
+   "prefer": "No"
+  },
+  {
+   "label": "Are you currently an employee of New York State Department of Public S",
+   "prefer": "No"
+  },
+  {
+   "label": "Do you currently have unrestricted work authorization for the United S",
+   "prefer": "No"
+  },
+  {
+   "label": "Data Protection Notice",
+   "prefer": ".*",
+   "type": "Agree"
+  },
+  {
+   "label": "Legally authorized to work in the US",
+   "prefer": ".*Yes.*",
+   "type": "Yes"
+  },
+  {
+   "label": "Requires visa sponsorship",
+   "prefer": ".*Yes.*",
+   "type": "Yes"
+  },
+  {
+   "label": "Currently authorized to work in the US",
+   "prefer": ".*Yes.*",
+   "type": "Yes"
+  },
+  {
+   "label": "Eligible to begin employment immediately",
+   "prefer": ".*Yes.*",
+   "type": "Yes"
+  },
+  {
+   "label": "Previously worked for OneTrust",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "Have relatives working at OneTrust",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "Have a referral",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "Non-compete or restrictive agreement",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "18 years of age or older",
+   "prefer": ".*Yes.*",
+   "type": "Yes"
+  },
+  {
+   "label": "Consent to background check",
+   "prefer": ".*Yes.*",
+   "type": "Yes"
+  },
+  {
+   "label": "Lived outside the US 12+ months in past 7 years",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "Smoker",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "Securities licenses",
+   "prefer": ".*None.*",
+   "type": "None"
+  },
+  {
+   "label": "Convicted of a crime",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "Charged with or under indictment for a felony",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "Fugitive from justice",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "Adjudicated mentally defective",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "Dishonorably discharged",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "Subject to a restraining order",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "Unlawful user of a controlled substance",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "US citizen",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "Permanent resident of another country",
+   "prefer": ".*No.*",
+   "type": "No"
+  },
+  {
+   "label": "EEO/DEI",
+   "prefer": ".*I do not wish to answer.*",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "Please briefly describe your experience.*Rust",
+   "prefer": ".*",
+   "type": "No"
+  },
+  {
+   "label": "Visa.*Sponsorship|Work.*Authorization|Eligible.*Work",
+   "prefer": "F-1.*CPT",
+   "type": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved"
+  },
+  {
+   "label": "Start.*Date|Available.*Immediately",
+   "prefer": "Immediately",
+   "type": "Immediately"
+  },
+  {
+   "label": "Relocation|Onsite|Hybrid|Remote",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Background.*Check|Convicted|Indictment|Fugitive|Restraining|Dishonorable|Controlled.*Substance",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "EEO|Demographics|Gender|Race|Ethnicity|Veteran|Disability|Sexual.*Orientation|Pronouns",
+   "prefer": "I do not wish to answer",
+   "type": "I do not wish to answer"
+  },
+  {
+   "label": "5.*Years.*Software|SDLC|System.*Design|Microservices|APIs|Backend|Payment|Market.*Data",
+   "prefer": "Yes",
+   "type": "Yes"
+  },
+  {
+   "label": "Golang|TypeScript.*UI|C#|.*NET|8.*Years.*Golang",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Axon|GRVTY|Amazon|Capital.*One|SAS|Cisco|HP|Canonical|JPMorgan|Chase|Bank.*of.*America",
+   "prefer": "No",
+   "type": "No"
+  },
+  {
+   "label": "Do you reside in or maintain an established permanent residence",
+   "prefer": "New York, NY",
+   "type": ""
+  },
+  {
+   "label": "Do you have any current offers you are considering",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "How many years of professional software engineering experience do you have",
+   "prefer": "5-10 years"
+  },
+  {
+   "label": "GitHub|GitLab|LeetCode|coding profile",
+   "prefer": "github\\.com/nonameisready"
+  },
+  {
+   "label": "Tenable uses CLEAR to securely verify candidate identity",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "For compliance reasons, we can only hire employees who are based in",
+   "prefer": "New York, NY"
+  },
+  {
+   "label": "What is your strongest programming language",
+   "prefer": "Python"
+  },
+  {
+   "label": "Can you commit to a minimum of 3 days a week in our Sunnyvale office",
+   "prefer": "Yes",
+   "type": ""
+  },
+  {
+   "label": "Do you identify as a member of the LGBT2QIA+ community",
+   "prefer": "I do not wish to answer"
+  },
+  {
+   "label": "approved agency/recruiting firm",
+   "prefer": "no",
+   "type": ""
+  },
+  {
+   "label": "open to visiting the New York City office 2-3 days a week",
+   "prefer": "yes",
+   "type": ""
+  },
+  {
+   "label": "U\\.S\\. export control laws",
+   "prefer": "No",
+   "type": "radio"
+  },
+  {
+   "label": "Export Administration Regulations",
+   "prefer": "No",
+   "type": "radio"
+  },
+  {
+   "label": "sanctioned countries",
+   "prefer": "No",
+   "type": "radio"
+  },
+  {
+   "label": "permanent resident of another country",
+   "prefer": "No",
+   "type": "radio"
+  },
+  {
+   "label": "Which office do you prefer to work from",
+   "prefer": "Onsite",
+   "type": ""
+  },
+  {
+   "label": "AI Policy for Application",
+   "prefer": "I agree to the AI Policy",
+   "type": ""
   }
  ],
  "texts": [
@@ -7194,6 +8095,346 @@
   {
    "label": "Why Anthropic\\?",
    "text": "I am drawn to Anthropic's mission to build safe, beneficial AI systems, and I want to apply my 7 years of backend engineering experience at scale to your inference infrastructure. My background includes scaling real-time transaction platforms to handle millions of requests per day and optimizing latency by 60% through horizontal partitioning and caching, which directly translates to the performance challenges in inference. I am eager to leverage my expertise in Python, Go, and distributed systems to help Anthropic ship code to production daily while ensuring reliability and safety."
+  },
+  {
+   "label": "Describe a hard problem you solved. Why was it difficult. How did you",
+   "text": "At Bank of America, I scaled a real-time transaction data platform to handle 10x traffic growth, processing millions of requests daily. The difficulty lay in maintaining sub-second latency while data volume exploded, which required implementing horizontal partitioning and advanced caching strategies. This effort successfully cut p99 latency by 60% and ensured system reliability under heavy load."
+  },
+  {
+   "label": "What tip, trick, or technique did you recently learn that helps you be",
+   "text": "I recently deepened my expertise in building agentic systems with LLM orchestration and model routing, allowing me to design self-healing pipelines that automatically select the most cost-effective model for specific tasks, significantly reducing operational costs while maintaining high accuracy."
+  },
+  {
+   "label": "You are reviewing someone’s code, what do you look for",
+   "text": "I focus on correctness, performance, and maintainability, specifically checking for race conditions in distributed systems, proper error handling, and adherence to the language's idioms. I also verify that the code is well-tested, has clear logging for observability, and follows the team's architectural patterns."
+  },
+  {
+   "label": "What else should we know when screening your application",
+   "text": "I am a Senior AI Engineer with 7+ years of experience in Python, Go, and distributed systems, currently founding an AI startup while having previously scaled high-volume platforms at Bank of America and BlackRock. I am legally authorized to work in the US on an F-1 CPT/EAD visa with a cap-exempt H-1B transfer, and I am available to start immediately."
+  },
+  {
+   "label": "Describe one production system you personally designed or scaled",
+   "text": "I designed and scaled a real-time transaction data platform at Bank of America that handled millions of requests per day. By implementing horizontal partitioning and advanced caching strategies, I successfully reduced p99 latency by 60% while managing a 10x traffic growth. Additionally, I am currently the founding engineer at Aurora AI Ventures, where I built a distributed Go-based generative-video platform using NATS JetStream queues and model routing to handle high-throughput video generation."
+  },
+  {
+   "label": "Briefly tell me about your Agentic AI experience",
+   "text": "As a Founding AI Engineer, I have built agentic systems from the ground up, including an investment-research OS with multi-agent SEC-filing RAG pipelines and valuation agents, as well as a distributed Go-based generative-video platform. My work involves orchestrating LLMs, managing tool-using agents, and implementing cost-aware scheduling for hourly SEC polling, all while shipping code to production daily."
+  },
+  {
+   "label": "If you indicated yes to the question above, please share each fact",
+   "text": "N/A"
+  },
+  {
+   "label": "Please also share your current, or most recent, job title",
+   "text": "Founding AI Engineer"
+  },
+  {
+   "label": "What lab software systems",
+   "text": "None. My background is in general-purpose distributed systems, AI infrastructure, and fintech data platforms (Bank of America, BlackRock, Aurora AI Ventures). I have not worked with specific clinical lab software systems like LIMS or ELN."
+  },
+  {
+   "label": "Have you customized or extended a LIMS",
+   "text": "No. I have not customized or extended a LIMS or ELN. My experience involves building custom agentic systems, RAG pipelines, and distributed Go/Python platforms from scratch, rather than extending existing clinical lab software."
+  },
+  {
+   "label": "What CI/CD tools have you used",
+   "text": "I have extensive experience with CI/CD pipelines for distributed systems and AI applications, utilizing tools such as GitHub Actions, Docker, Kubernetes, and AWS CodePipeline to deploy microservices and agent-based architectures."
+  },
+  {
+   "label": "What's your proficiency level in Python",
+   "text": "Expert. Python is my most proficient language, used daily for building agentic systems, LLM orchestration, data pipelines, and backend services."
+  },
+  {
+   "label": "What do you think are our most complex technical challenges based on t",
+   "text": "Based on Lithic's work in embedded finance and treasury infrastructure, the most complex challenges likely involve ensuring sub-millisecond latency for real-time transaction processing while maintaining strict regulatory compliance and data consistency across distributed systems. Additionally, building a secure, scalable multi-tenant architecture that can handle high-volume B2B payments without compromising on security or developer experience is a significant technical hurdle."
+  },
+  {
+   "label": "What did you get when you cracked the code\\*",
+   "text": "Belinda"
+  },
+  {
+   "label": "Vim or Emacs? Why",
+   "text": "Vim. I prefer its modal editing efficiency and deep customization capabilities, which align with my workflow as a senior engineer who ships code daily and optimizes for speed in distributed systems development."
+  },
+  {
+   "label": "DEPT® Privacy Statement",
+   "text": "I agree to the privacy statement."
+  },
+  {
+   "label": "What interests you in this role and Zanskar",
+   "text": "As a Senior AI Engineer with 7+ years of experience scaling distributed systems at Bank of America and BlackRock, I am drawn to Zanskar's focus on high-performance backend infrastructure. My background in building multi-agent systems and optimizing real-time transaction platforms aligns directly with the challenges of this role. I am eager to apply my expertise in Python, Go, and distributed architectures to drive Zanskar's engineering goals, while leveraging my startup experience to deliver immediate, production-ready value."
+  },
+  {
+   "label": "Why Coalition",
+   "text": "I am excited to join Coalition because your mission to protect the world's most critical infrastructure aligns perfectly with my background in building high-scale, distributed systems. At Bank of America and BlackRock, I engineered real-time transaction platforms handling millions of requests daily and managed data systems for trillions in assets, skills directly transferable to securing critical infrastructure. As a founding AI engineer, I have also built agentic systems and distributed Go platforms, and I am eager to apply this deep engineering experience to Coalition's mission of making the world safer."
+  },
+  {
+   "label": "What interests you in this role and Zanskar",
+   "text": "As a founding AI Engineer with 7+ years of experience scaling distributed systems at Bank of America and BlackRock, I am drawn to Zanskar's mission to build robust, scalable infrastructure. My background in developing agentic investment-research OS and high-throughput Go/NATS platforms aligns perfectly with the challenges of a Senior/Staff role. I am eager to apply my expertise in Python, LLM orchestration, and system design to drive Zanskar's growth, starting immediately within two weeks."
+  },
+  {
+   "label": "Privacy",
+   "text": "I consent to the processing of my personal data for the purpose of this application."
+  },
+  {
+   "label": "Why are you interested in this role at Chainguard",
+   "text": "As a Senior AI Engineer with deep experience building distributed systems at scale (Bank of America, BlackRock) and founding my own agentic AI startup, I am drawn to Chainguard's mission to secure the software supply chain. Your focus on container security and the new generation of infrastructure aligns perfectly with my background in building high-performance, secure Go and Python systems. I am eager to apply my expertise in distributed systems, RAG pipelines, and model routing to help build a more resilient platform for the industry."
+  },
+  {
+   "label": "Do you currently have legal US work authorization",
+   "text": "Yes. I am a PRC citizen authorized to work in the US on an F-1 (CPT/EAD) visa valid through 05/31/2027, with a previously approved and activated cap-exempt H-1B status and an approved employment-based I-140."
+  },
+  {
+   "label": "Why are you interested in joining Windfall",
+   "text": "I am drawn to Windfall's mission to democratize financial access through innovative technology. As a founding AI Engineer with a background in scaling high-frequency transaction systems at Bank of America and building distributed agentic systems at my own startup, I am eager to apply my expertise in Python, Go, and LLM orchestration to solve complex backend challenges at Windfall. My experience in optimizing real-time data pipelines and building secure, scalable financial infrastructure aligns directly with your goals, and I am ready to contribute immediately to your engineering team."
+  },
+  {
+   "label": "What attracted you to this role at nCino",
+   "text": "I am drawn to nCino's leadership in cloud-native banking solutions and the opportunity to apply my experience in building scalable, distributed systems to mission-critical financial infrastructure. My background in high-volume transaction processing at Bank of America and developing agentic AI systems for investment research aligns perfectly with nCino's need for robust, real-time data handling and innovative engineering. I am eager to contribute to a platform that empowers financial institutions to modernize their operations."
+  },
+  {
+   "label": "Security code",
+   "text": "SKIP"
+  },
+  {
+   "label": "work authorization|visa|sponsorship|citizen|permanent resident|green card|I-140|I-485",
+   "text": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved. Requires visa sponsorship now or in the future: Yes."
+  },
+  {
+   "label": "relocation|onsite|hybrid|remote|commute",
+   "text": "Yes, willing to relocate at own expense and work onsite/hybrid up to 5 days a week in any US city."
+  },
+  {
+   "label": "start date|available|immediately|within 2 weeks",
+   "text": "Available immediately / within 2 weeks."
+  },
+  {
+   "label": "previous employer|worked for|referral|relative|conflict|non-compete",
+   "text": "No previous employment with this company, no relatives, no referral, no non-compete, no conflicts of interest."
+  },
+  {
+   "label": "background check|18|smoker|securities|convicted|felony|fugitive|mental|restraining|controlled substance",
+   "text": "Yes, 18+. Consent to background check. No criminal convictions, no indictments, no fugitive status, no mental adjudication, no restraining orders, no controlled substance use, no dishonorable discharge."
+  },
+  {
+   "label": "EEO|demographics|gender|race|veteran|disability|pronouns|Hispanic",
+   "text": "I do not wish to answer."
+  },
+  {
+   "label": "AI|artificial intelligence|tools|usage|AI-assisted",
+   "text": "Yes, I use AI tools deeply in my daily engineering workflow."
+  },
+  {
+   "label": "experience|5 years|software|programming|SDLC|design|microservices|API|backend|payment|market data",
+   "text": "Yes, 7+ years of experience in software engineering, including Python, Go, distributed systems, RAG, and fintech scale."
+  },
+  {
+   "label": "Golang|TypeScript|C#|specialist|8 years",
+   "text": "No, I do not have 8 years of specialized experience in these specific stacks."
+  },
+  {
+   "label": "Share your favorite blog post, article, or paper you've read in the last",
+   "text": "I recently read 'Designing Data-Intensive Applications' by Martin Kleppmann, which deeply resonated with my work building distributed systems at BlackRock and Aurora AI. The book's insights on consistency models and log-structured storage directly informed the architecture of our real-time transaction platform and our multi-agent RAG pipelines, making it a foundational reference for my engineering decisions."
+  },
+  {
+   "label": "What is the zip code of your primary residence",
+   "text": "07306"
+  },
+  {
+   "label": "AI Policy for Interviewers",
+   "text": "I agree to complete the interview and assessment personally without using AI tools to generate my responses, though I use AI tools deeply in my daily engineering workflow."
+  },
+  {
+   "label": "The job description includes a stated initial base pay range\\. Final pa",
+   "text": "$150,000+"
+  },
+  {
+   "label": "Have you previously built or maintained internal tools, internal platforms, or b",
+   "text": "Yes. As a founding AI Engineer, I built and maintain internal systems including an agentic investment-research OS with multi-agent SEC-filing RAG pipelines and a distributed Go generative-video platform using NATS JetStream queues and model routing. I also scaled real-time transaction-data platforms at Bank of America and BlackRock, handling millions of requests daily with horizontal partitioning and caching."
+  },
+  {
+   "label": "Please share what initially sp",
+   "text": "I am drawn to Pathward's mission of empowering financial institutions through innovative technology. As a Senior AI Engineer with over seven years of experience scaling distributed systems at Bank of America and BlackRock, I am eager to apply my expertise in agentic AI systems, RAG pipelines, and high-throughput transaction processing to help Pathward drive the next generation of fintech solutions."
+  },
+  {
+   "label": "By submitting your application you confirm that the information you pr",
+   "text": "I confirm that the information provided is true and accurate to the best of my knowledge."
+  },
+  {
+   "label": "Employment Eligibility Information",
+   "text": "PRC citizen. Currently authorized to work in the US on F-1 (CPT/EAD) valid through 05/31/2027. H-1B previously approved and activated (cap-counted); requires cap-exempt H-1B transfer for new employment. Employment-based I-140 approved. Not a US citizen or permanent resident."
+  },
+  {
+   "label": "This role is based out of the Scout Motors location in Fremont, Califo",
+   "text": "Yes, I am willing to relocate to Fremont, California at my own expense."
+  },
+  {
+   "label": "What is your proximity to Fremont, California",
+   "text": "I am currently based in Jersey City, New Jersey, but I am fully willing to relocate to California at my own expense to be onsite in Fremont."
+  },
+  {
+   "label": "Tell us about a time an AI coding tool",
+   "text": "As a founding AI Engineer, I integrate AI coding tools like GitHub Copilot and Cursor into my daily workflow to accelerate development. For example, while building the Adscream generative-video platform, I used these tools to rapidly prototype Go/NATS microservices and debug complex distributed state issues, allowing me to ship features faster while maintaining high code quality. I use AI as a core part of my engineering process to enhance productivity, not to replace my own judgment."
+  },
+  {
+   "label": "What is your experience engineering performance-critical software",
+   "text": "I have 7+ years of experience engineering performance-critical software, including scaling real-time transaction platforms at Bank of America to handle millions of requests daily, reducing p99 latency by 60% through horizontal partitioning and caching, and building distributed Go-based generative-video platforms with NATS JetStream queues."
+  },
+  {
+   "label": "I acknowledge that all information regarding the company",
+   "text": "I acknowledge that all information regarding the company, including its business, products, and services, is accurate and I agree to the terms."
+  },
+  {
+   "label": "Do you consent to receive text",
+   "text": "Yes, I consent to receive text (SMS) communications from Included Health recruiters regarding my application and interview process."
+  },
+  {
+   "label": "Have you owned backend systems",
+   "text": "Yes, I have owned backend systems end-to-end, including scoping, building, testing, and launching. As a Founding AI Engineer and Senior Software Engineer, I have architected and deployed distributed systems like the Adscream generative-video platform and the EarningsStory multi-agent investment research OS, handling everything from initial design to production scaling."
+  },
+  {
+   "label": "Which best describes your experience ensuring backend systems are reliable",
+   "text": "I have extensive experience ensuring backend systems are reliable, performant, and scalable. At Bank of America, I scaled a real-time transaction-data platform through 10x traffic growth, implementing horizontal partitioning and caching to cut p99 latency by 60%. At BlackRock and in my current startup, I have built resilient, high-throughput systems using Go, NATS JetStream, and distributed Python agents, ensuring 99.9% uptime and cost-aware LLM scheduling."
+  },
+  {
+   "label": "Describe a technically complex project you led end-to-end. What did your role look like",
+   "text": "As the Founding AI Engineer at Aurora AI Ventures, I architected and led the end-to-end development of EarningsStory, an agentic investment-research operating system. My role involved designing a multi-agent architecture where specialized agents handle SEC-filing RAG pipelines, valuation modeling, and market intelligence, while I implemented the core orchestration layer using Python and Go. I built a cost-aware hourly SEC poller with dynamic LLM scheduling to optimize inference costs, deployed the system on AWS, and shipped code to production daily, achieving real-time data processing capabilities that scaled to millions of requests per day."
+  },
+  {
+   "label": "Tell us about a time you had to communicate a technical tradeoff or constraint to a non-te",
+   "text": "While scaling a real-time transaction-data platform at Bank of America through a 10x traffic growth, I identified that increasing horizontal partitioning and caching would significantly improve performance but required a temporary increase in infrastructure costs and a complex migration strategy. I communicated this tradeoff to non-technical stakeholders by framing the decision in terms of business impact: explaining that the upfront investment in horizontal partitioning would cut p99 latency by 60%, directly improving user experience and reducing churn, while the alternative would have led to system instability during peak trading hours. I provided a clear roadmap showing how the technical constraint of memory limits was mitigated by the caching strategy, ensuring the business could meet its SLA targets without compromising reliability."
+  },
+  {
+   "label": "What is your favorite software framework and why",
+   "text": "Python is my preferred framework due to its extensive ecosystem for AI, LLM orchestration, and distributed systems, which aligns with my background as a Senior AI Engineer building agentic systems and RAG pipelines."
+  },
+  {
+   "label": "Which experience on your resume best represents the type of work you want to continue doing",
+   "text": "My role as Founding AI Engineer at Aurora AI Ventures, where I architected multi-agent investment research systems and distributed generative-video platforms, best represents the work I want to continue. This experience combines my core strengths in Python, Go, and distributed systems to solve complex problems at scale, similar to the challenges faced at Medical Home Network."
+  },
+  {
+   "label": "What is your current work authorization status",
+   "text": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved"
+  },
+  {
+   "label": "What is your current location",
+   "text": "New York, NY"
+  },
+  {
+   "label": "What is your highest degree",
+   "text": "Master's"
+  },
+  {
+   "label": "What is your expected base salary",
+   "text": "$150,000+"
+  },
+  {
+   "label": "What is your gender",
+   "text": "I do not wish to answer"
+  },
+  {
+   "label": "What is your race or ethnicity",
+   "text": "I do not wish to answer"
+  },
+  {
+   "label": "Are you a veteran",
+   "text": "I do not wish to answer"
+  },
+  {
+   "label": "Do you have a disability",
+   "text": "I do not wish to answer"
+  },
+  {
+   "label": "What are your pronouns",
+   "text": "I do not wish to answer"
+  },
+  {
+   "label": "Are you Hispanic or Latino",
+   "text": "No"
+  },
+  {
+   "label": "Data Protection Notice",
+   "text": "I have read and agree to the Data Protection Notice."
+  },
+  {
+   "label": "Visa Status Details",
+   "text": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved."
+  },
+  {
+   "label": "Please provide three examples of accomplishments that highlight your e",
+   "text": "As a founding AI Engineer, I architected a multi-agent investment research OS featuring hourly SEC-filing RAG pipelines and cost-aware LLM scheduling, enabling real-time market intelligence. I also built a distributed Go-based generative-video platform using NATS JetStream queues and model routing, scaling it to handle high-throughput video generation. Additionally, I scaled a real-time transaction-data platform at Bank of America through 10x traffic growth, implementing horizontal partitioning and caching to cut p99 latency by 60%."
+  },
+  {
+   "label": "Second example",
+   "text": "As a founding AI Engineer, I architected a multi-agent investment research OS featuring hourly SEC-filing RAG pipelines and cost-aware LLM scheduling, enabling real-time market intelligence. I also built a distributed Go-based generative-video platform using NATS JetStream queues and model routing, scaling it to handle high-throughput video generation. Additionally, I scaled a real-time transaction-data platform at Bank of America through 10x traffic growth, implementing horizontal partitioning and caching to cut p99 latency by 60%."
+  },
+  {
+   "label": "Third example",
+   "text": "As a founding AI Engineer, I architected a multi-agent investment research OS featuring hourly SEC-filing RAG pipelines and cost-aware LLM scheduling, enabling real-time market intelligence. I also built a distributed Go-based generative-video platform using NATS JetStream queues and model routing, scaling it to handle high-throughput video generation. Additionally, I scaled a real-time transaction-data platform at Bank of America through 10x traffic growth, implementing horizontal partitioning and caching to cut p99 latency by 60%."
+  },
+  {
+   "label": "Please briefly describe your experience.*Rust",
+   "text": "I have no professional experience with Rust. My core engineering stack consists of Python, Go, TypeScript, and SQL, with extensive experience in distributed systems, LLM orchestration, and RAG pipelines. While I am proficient in multiple languages, Rust is not part of my production experience."
+  },
+  {
+   "label": "Visa.*Status|Work.*Authorization|Eligible.*to.*Work",
+   "text": "F-1 (CPT/EAD), valid through 05/31/2027; cap-exempt H-1B transfer only (H-1B previously approved & activated) and employment-based I-140 approved"
+  },
+  {
+   "label": "Start.*Date|Available.*to.*Start",
+   "text": "Immediately"
+  },
+  {
+   "label": "Relocation|Onsite|Hybrid|Commute|Work.*Location",
+   "text": "Yes, willing to work onsite/hybrid in any US city and will relocate at own expense."
+  },
+  {
+   "label": "Background.*Check|Legal.*Declarations|Convicted|Indictment|Fugitive|Restraining|Dishonorable|Controlled.*Substance",
+   "text": "No to all legal self-declarations (convicted, charged, fugitive, mentally defective, dishonorably discharged, restraining order, unlawful user of controlled substance)."
+  },
+  {
+   "label": "EEO|Demographics|Gender|Race|Ethnicity|Veteran|Disability|Sexual.*Orientation|Pronouns",
+   "text": "I do not wish to answer."
+  },
+  {
+   "label": "AI.*Usage|AI.*Tools|AI.*Workflow",
+   "text": "Yes, I use AI tools deeply in my daily engineering workflow."
+  },
+  {
+   "label": "Experience.*Yes|5.*Years.*Software|SDLC|System.*Design|Microservices|APIs|Backend|Payment|Market.*Data",
+   "text": "Yes, I have 7+ years of experience in software engineering, including fintech scale, system design, microservices, APIs, and backend development."
+  },
+  {
+   "label": "Narrow.*Stack|Golang|TypeScript.*UI|C#|.*NET|8.*Years.*Golang",
+   "text": "No, I do not have 8 years of Golang, TypeScript UI specialism, or C#/.NET experience."
+  },
+  {
+   "label": "Do you reside in or maintain an established permanent residence",
+   "text": "New York, NY"
+  },
+  {
+   "label": "Do you have any current offers you are considering",
+   "text": "Yes, I am currently considering other opportunities, including this role at HackerRank."
+  },
+  {
+   "label": "In a few words, what interested you about VGS",
+   "text": "As a Senior AI Engineer specializing in distributed systems and agentic architectures, I am drawn to VGS's mission to modernize payments infrastructure. My experience scaling high-throughput transaction platforms at Bank of America and building distributed Go-based systems aligns directly with VGS's need for robust, scalable payment solutions. I am eager to apply my background in LLM orchestration and system design to help VGS continue building the future of financial connectivity."
+  },
+  {
+   "label": "If applicable, please provide additional context to the previous quest",
+   "text": "I am a PRC citizen currently authorized to work in the US on an F-1 (CPT/EAD) visa valid through 05/31/2027. I am cap-exempt for H-1B transfer purposes and have an approved employment-based I-140. I am legally authorized to work and can start immediately."
+  },
+  {
+   "label": "Provide a brief overview of your professional experience in the energy",
+   "text": "I am a Senior AI Engineer with over 7 years of experience building distributed systems and AI infrastructure. While my background is primarily in fintech (Bank of America, BlackRock) and AI startups (Aurora AI Ventures), I have extensive experience applying these scalable engineering patterns to complex data problems. I specialize in Python, Go, and distributed systems, and I am eager to apply my expertise in agentic systems and RAG pipelines to the energy sector's data challenges."
+  },
+  {
+   "label": "Briefly describe a relevant ML model that you worked on or contributed",
+   "text": "I recently architected an agentic investment-research operating system featuring multi-agent SEC-filing RAG pipelines and valuation/market-intelligence agents. This system utilizes hourly SEC polling with cost-aware LLM scheduling to automate financial data analysis. Additionally, I built a distributed Go-based generative-video platform with model routing capabilities. My work focuses on LLM orchestration, tool-using agents, and scaling real-time data platforms to handle millions of requests daily."
+  },
+  {
+   "label": "Why Anthropic",
+   "text": "As a founding AI Engineer specializing in agentic systems and distributed infrastructure, I am drawn to Anthropic's mission to build safe, beneficial AI. My background includes building multi-agent investment research OS and high-throughput distributed systems at scale (e.g., scaling BoA transaction platforms to millions of requests/day). I want to apply my expertise in Python, Go, and LLM orchestration to Anthropic's inference infrastructure to ensure reliability and safety at the scale required for next-generation models."
   }
  ],
  "checkboxes": [
