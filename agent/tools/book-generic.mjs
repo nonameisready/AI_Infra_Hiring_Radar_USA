@@ -35,7 +35,10 @@ ap.jobs[j.id] = {
   title: j.title,
   matchPercent: j.matchPercent,
   jobrightUrl: j.jobrightUrl,
-  originalUrl: atsUrl || (j.atsUrl || '').split('?')[0],
+  // Keep the query string: on a Greenhouse embed url, ?for= and ?token= ARE
+  // the posting's identity, and dropping them leaves a dead link in the record
+  // (and defeats the board-token dedupe that reads originalUrl).
+  originalUrl: atsUrl || j.atsUrl || '',
   status: 'applied',
   at: today,
   // Derive the platform from the url instead of assuming Ashby: every
