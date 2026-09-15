@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T16:09:27.275Z",
+ "updatedAt": "2026-09-15T16:19:37.907Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -9559,6 +9559,32 @@
    "matchPercent": 80,
    "jobrightUrl": "https://jobright.ai/jobs/info/6a6a81bb48355b3f12bf161c",
    "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=gleanwork&jr_id=6a6a81bb48355b3f12bf161c&token=4610281005&utm_source=jobright",
+   "status": "applied_direct",
+   "at": "2026-09-15",
+   "via": "greenhouse (cloud batch)",
+   "detail": "greenhouse embed (distinct posting by board token); security code relayed; confirmation page reached"
+  },
+  "6a79fd2b9ee17f276dbf08cb": {
+   "id": "6a79fd2b9ee17f276dbf08cb",
+   "key": "mongodb::senior software engineer",
+   "title": "Senior Software Engineer",
+   "company": "MongoDB",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a79fd2b9ee17f276dbf08cb",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=mongodb&jr_id=6a79fd2b9ee17f276dbf08cb&token=8065483&utm_source=jobright",
+   "status": "applied_direct",
+   "at": "2026-09-15",
+   "via": "greenhouse (cloud batch)",
+   "detail": "greenhouse embed (distinct posting by board token); security code relayed; confirmation page reached"
+  },
+  "6a580ad79838a11e5d836789": {
+   "id": "6a580ad79838a11e5d836789",
+   "key": "databricks::sr software engineer- cxi",
+   "title": "Sr Software Engineer- CXI",
+   "company": "Databricks",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a580ad79838a11e5d836789",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=databricks&jr_id=6a580ad79838a11e5d836789&token=8617901002&utm_source=jobright",
    "status": "applied_direct",
    "at": "2026-09-15",
    "via": "greenhouse (cloud batch)",
