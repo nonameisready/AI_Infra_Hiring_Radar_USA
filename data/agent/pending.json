@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T13:23:53.243Z",
+ "updatedAt": "2026-09-15T15:14:37.189Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -25665,6 +25665,248 @@
    "addedAt": "2026-09-15",
    "status": "needs_answers",
    "note": "2026-09-15 cloud:  missing: [\"What is your Social Security Number?*\"]"
+  },
+  {
+   "id": "6aa83dcb2ed333b4ea5ce169",
+   "key": "wells fargo::senior software engineer network analytics platform",
+   "company": "Wells Fargo",
+   "title": "Senior Software Engineer - Network Analytics Platform",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa83dcb2ed333b4ea5ce169",
+   "atsUrl": "https://wf.wd1.myworkdayjobs.com/wellsfargojobs/job/CHARLOTTE-NC/Senior-Software-Engineer---Network-Analytics-Platform_R-573983?jr_id=6aa83dcb2ed333b4ea5ce169",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: account-gated ATS (wf.wd1.myworkdayjobs.com) — Mac/user lane"
+  },
+  {
+   "id": "6a83fb0bc72fae4bcc8d66c3",
+   "key": "ayr energy::senior software engineer",
+   "company": "Ayr Energy",
+   "title": "Senior Software Engineer",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a83fb0bc72fae4bcc8d66c3",
+   "atsUrl": "https://ats.rippling.com/ayr-careers/jobs/727794d3-dba4-4562-8e8b-608a4fafb6de?jr_id=6a83fb0bc72fae4bcc8d66c3",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: unsupported ATS host for the cloud finishers (ats.rippling.com)"
+  },
+  {
+   "id": "6a84a80558ded76ad8fe8987",
+   "key": "snowflake::senior software engineer billing platform",
+   "company": "Snowflake",
+   "title": "Senior Software Engineer - Billing Platform",
+   "matchPercent": 88,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a84a80558ded76ad8fe8987",
+   "atsUrl": "https://careers.snowflake.com/us/en/job/SNCOUSBFE477105BDF4040976C48735A835439EXTERNALENUS52892674342B45199A577097E4EF4A8A/$%7Btitle%7D?jr_id=6a84a80558ded76ad8fe8987",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: unsupported ATS host for the cloud finishers (careers.snowflake.com)"
+  },
+  {
+   "id": "6aa91e496d0edc2d91b08509",
+   "key": "smbc group::software engineer capital markets",
+   "company": "SMBC Group",
+   "title": "Software Engineer - Capital Markets",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa91e496d0edc2d91b08509",
+   "atsUrl": "https://careers.smbcgroup.com/smbc/job/Charlotte-Software-Engineer-Capital-Markets-NC-28202/1425349300/?feedId=391600&utm_campaign=jobright&mode=job&iis=SOURCE&iisn=jobright&jr_id=6aa91e496d0edc2d91b08509",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: unsupported ATS host for the cloud finishers (careers.smbcgroup.com)"
+  },
+  {
+   "id": "6aa9499510b1cd4f4160532f",
+   "key": "ihg hotels resorts::software engineer",
+   "company": "IHG Hotels & Resorts",
+   "title": "Software Engineer",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa9499510b1cd4f4160532f",
+   "atsUrl": "https://fa-evax-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/161157?jr_id=6aa9499510b1cd4f4160532f",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: account-gated ATS (fa-evax-saasfaprod1.fa.ocs.oraclecloud.com) — Mac/user lane"
+  },
+  {
+   "id": "6aa8837f3a9f0a4fe6f19b99",
+   "key": "nvidia::senior software engineer data ingestion autonomous vehicles",
+   "company": "NVIDIA",
+   "title": "Senior Software Engineer, Data Ingestion - Autonomous Vehicles",
+   "matchPercent": 86,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa8837f3a9f0a4fe6f19b99",
+   "atsUrl": "https://nvidia.eightfold.ai/careers?pid=893397686835&jr_id=6aa8837f3a9f0a4fe6f19b99",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: account-gated ATS (nvidia.eightfold.ai) — Mac/user lane"
+  },
+  {
+   "id": "67f169896fb366531740d365",
+   "key": "snowflake::software engineer backend",
+   "company": "Snowflake",
+   "title": "Software Engineer - Backend",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/67f169896fb366531740d365",
+   "atsUrl": "https://jobs.ashbyhq.com/snowflake/3eb872af-0ab1-4986-8f72-e7321fcd1538/application?jr_id=67f169896fb366531740d365",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: ashby — this datacenter IP is spam-flagged; needs the user browser or the Mac"
+  },
+  {
+   "id": "6aa87b94654b2a9424cfd1c2",
+   "key": "beacon ai::senior software engineer backend",
+   "company": "Beacon AI",
+   "title": "Senior Software Engineer, Backend",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa87b94654b2a9424cfd1c2",
+   "atsUrl": "https://jobs.ashbyhq.com/beaconai/4a738871-1a92-4482-a45a-d0b65a425676/application?jr_id=6aa87b94654b2a9424cfd1c2",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: ashby — this datacenter IP is spam-flagged; needs the user browser or the Mac"
+  },
+  {
+   "id": "6a68f3235d01972698ee56fe",
+   "key": "crowdstrike::sr backend engineer hybrid",
+   "company": "CrowdStrike",
+   "title": "Sr. Backend Engineer (Hybrid)",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a68f3235d01972698ee56fe",
+   "atsUrl": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote-NY/Sr-Backend-Engineer--Hybrid--Austin-_R28425?jr_id=6a68f3235d01972698ee56fe",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: account-gated ATS (crowdstrike.wd5.myworkdayjobs.com) — Mac/user lane"
+  },
+  {
+   "id": "6aa8ad2c17ddad6a8a47c934",
+   "key": "bright vision technologies::go applications engineer",
+   "company": "Bright Vision Technologies",
+   "title": "Go Applications Engineer",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa8ad2c17ddad6a8a47c934",
+   "atsUrl": "https://brightvisiontechnologies.applytojob.com/apply/9zTNtLWUJ3/Go-Applications-Engineer?jr_id=6aa8ad2c17ddad6a8a47c934",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: unsupported ATS host for the cloud finishers (brightvisiontechnologies.applytojob.com)"
+  },
+  {
+   "id": "6a648094e8d8d22e3292ce76",
+   "key": "evenup::software engineer ai document generation",
+   "company": "EvenUp",
+   "title": "Software Engineer, AI Document Generation",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a648094e8d8d22e3292ce76",
+   "atsUrl": "https://jobs.ashbyhq.com/evenup/15f853ac-2cec-4d39-9527-ae46d51f6930/application?jr_id=6a648094e8d8d22e3292ce76",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: ashby — this datacenter IP is spam-flagged; needs the user browser or the Mac"
+  },
+  {
+   "id": "6aa9413110b1cd4f416050a1",
+   "key": "capgemini::senior software engineer job details capgemini",
+   "company": "Capgemini",
+   "title": "Senior Software Engineer Job Details | Capgemini",
+   "matchPercent": 79,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa9413110b1cd4f416050a1",
+   "atsUrl": "https://careers.capgemini.com/job/Dallas%2C-TX-Senior-Software-Engineer-TX-75201/1435001033/?jr_id=6aa9413110b1cd4f416050a1",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: unsupported ATS host for the cloud finishers (careers.capgemini.com)"
+  },
+  {
+   "id": "6aa93dd610b1cd4f41604fb4",
+   "key": "tata consultancy services::python developer",
+   "company": "Tata Consultancy Services",
+   "title": "Python Developer",
+   "matchPercent": 78,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa93dd610b1cd4f41604fb4",
+   "atsUrl": "chrome-error://chromewebdata/",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: unsupported ATS host for the cloud finishers (chromewebdata)"
+  },
+  {
+   "id": "6aa92eca6d0edc2d91b0870b",
+   "key": "oracle::senior software engineer platform",
+   "company": "Oracle",
+   "title": "Senior Software Engineer, Platform",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa92eca6d0edc2d91b0870b",
+   "atsUrl": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/345401?jr_id=6aa92eca6d0edc2d91b0870b",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: account-gated ATS (eeho.fa.us2.oraclecloud.com) — Mac/user lane"
+  },
+  {
+   "id": "6aa89cef930bff471a2a80a6",
+   "key": "united global technologies::senior software engineer",
+   "company": "United Global Technologies",
+   "title": "Senior Software Engineer",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa89cef930bff471a2a80a6",
+   "atsUrl": "https://www.linkedin.com/jobs/view/4465278062?jr_id=6aa89cef930bff471a2a80a6",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: unsupported ATS host for the cloud finishers (www.linkedin.com)"
+  },
+  {
+   "id": "6aa187702f936e4a53dac208",
+   "key": "expedia group::software development engineer iii advertising technology",
+   "company": "Expedia Group",
+   "title": "Software Development Engineer III, Advertising Technology",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa187702f936e4a53dac208",
+   "atsUrl": "https://expedia.wd108.myworkdayjobs.com/search/job/USA---Illinois---Chicago/Software-Development-Engineer-III--Advertising-Technology_R-109549-1?jr_id=6aa187702f936e4a53dac208",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: account-gated ATS (expedia.wd108.myworkdayjobs.com) — Mac/user lane"
+  },
+  {
+   "id": "6aa85f84930bff471a2a6ee8",
+   "key": "capgemini::python developer",
+   "company": "Capgemini",
+   "title": "Python Developer",
+   "matchPercent": 75,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa85f84930bff471a2a6ee8",
+   "atsUrl": "https://careers.capgemini.com/job/New-York%2C-NY-Python-Developer-NY-10001/1436849333/?jr_id=6aa85f84930bff471a2a6ee8",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: unsupported ATS host for the cloud finishers (careers.capgemini.com)"
+  },
+  {
+   "id": "6aa9410709ae03adcacdc660",
+   "key": "capgemini::senior software engineer job details capgemini",
+   "company": "Capgemini",
+   "title": "Senior Software Engineer Job Details | Capgemini",
+   "matchPercent": 72,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa9410709ae03adcacdc660",
+   "atsUrl": "https://careers.capgemini.com/job/Bogota-Senior-Software-Engineer/1436821633/?jr_id=6aa9410709ae03adcacdc660",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: unsupported ATS host for the cloud finishers (careers.capgemini.com)"
+  },
+  {
+   "id": "6a5540d9268af95237bea518",
+   "key": "netflix::distributed systems engineer l5 data platform",
+   "company": "Netflix",
+   "title": "Distributed Systems Engineer (L5) - Data Platform",
+   "matchPercent": 72,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a5540d9268af95237bea518",
+   "atsUrl": "https://netflix.wd108.myworkdayjobs.com/netflix/job/USA---Remote/Distributed-Systems-Engineer--L5----Data-Platform_JR28718?jr_id=6a5540d9268af95237bea518",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: account-gated ATS (netflix.wd108.myworkdayjobs.com) — Mac/user lane"
+  },
+  {
+   "id": "6aa891a2a77a53f5a157a0d6",
+   "key": "apple::sr software development engineer ase storage",
+   "company": "Apple",
+   "title": "Sr. Software Development Engineer, ASE Storage",
+   "matchPercent": 71,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa891a2a77a53f5a157a0d6",
+   "atsUrl": "https://jobs.apple.com/en-us/details/200679102-3337/sr-software-development-engineer-ase-storage?team=SFTWR&jr_id=6aa891a2a77a53f5a157a0d6",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: unsupported ATS host for the cloud finishers (jobs.apple.com)"
+  },
+  {
+   "id": "6aa83d4c2ed333b4ea5ce11b",
+   "key": "apple::sr software engineer enterprise technology services",
+   "company": "Apple",
+   "title": "Sr. Software Engineer, Enterprise Technology Services",
+   "matchPercent": 71,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa83d4c2ed333b4ea5ce11b",
+   "atsUrl": "https://jobs.apple.com/en-us/details/200677070-0157/sr-software-engineer-enterprise-technology-services?team=SFTWR&jr_id=6aa83d4c2ed333b4ea5ce11b",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: unsupported ATS host for the cloud finishers (jobs.apple.com)"
+  },
+  {
+   "id": "6aa8beb9eff87f571fc9797d",
+   "key": "clairity inc::senior software eng",
+   "company": "Clairity, Inc.",
+   "title": "Senior Software Eng",
+   "matchPercent": 70,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa8beb9eff87f571fc9797d",
+   "atsUrl": "https://www.linkedin.com/jobs/view/4461907291?jr_id=6aa8beb9eff87f571fc9797d",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest: unsupported ATS host for the cloud finishers (www.linkedin.com)"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
