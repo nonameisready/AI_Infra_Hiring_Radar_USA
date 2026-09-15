@@ -7408,6 +7408,9 @@
   },
   {
    "label": "^united states( of america)?$"
+  },
+  {
+   "label": "^e-?mail$"
   }
  ],
  "manualTriggers": [
