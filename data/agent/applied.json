@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T14:31:23.935Z",
+ "updatedAt": "2026-09-15T14:41:46.759Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -9346,6 +9346,43 @@
    "at": "2026-09-15",
    "via": "greenhouse (cloud batch)",
    "detail": "greenhouse embed (token 8183195002, distinct from the four earlier Databricks roles); security code relayed; confirmation page reached"
+  },
+  "6a97350ce4e60e4b8da5cb04": {
+   "id": "6a97350ce4e60e4b8da5cb04",
+   "company": "Fellow",
+   "title": "Backend Engineer",
+   "matchPercent": 81,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a97350ce4e60e4b8da5cb04",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=fellow&jr_id=6a97350ce4e60e4b8da5cb04&token=5227556007&utm_source=jobright",
+   "status": "applied",
+   "at": "2026-09-15",
+   "via": "greenhouse (cloud batch)",
+   "detail": "greenhouse embed, security code relayed from Gmail, confirmation page reached"
+  },
+  "6a974281f5337b2cf732131e": {
+   "id": "6a974281f5337b2cf732131e",
+   "company": "Block",
+   "title": "Senior GRC Engineer",
+   "matchPercent": 85,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a974281f5337b2cf732131e",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=block&jr_id=6a974281f5337b2cf732131e&token=5400004008&utm_source=jobright",
+   "status": "applied",
+   "at": "2026-09-15",
+   "via": "greenhouse (cloud batch)",
+   "detail": "greenhouse embed, security code relayed from Gmail, confirmation page reached"
+  },
+  "6a21a160ca8f0b365d7a7539": {
+   "id": "6a21a160ca8f0b365d7a7539",
+   "key": "zoominfo::senior software engineer - platform integrations",
+   "title": "Senior Software Engineer - Platform Integrations",
+   "company": "ZoomInfo",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a21a160ca8f0b365d7a7539",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=zoominfo&jr_id=6a21a160ca8f0b365d7a7539&token=8565628002&utm_source=jobright",
+   "status": "applied_direct",
+   "at": "2026-09-15",
+   "via": "greenhouse (cloud batch)",
+   "detail": "greenhouse embed (token 8565628002), security code relayed from Gmail, confirmation page reached"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
