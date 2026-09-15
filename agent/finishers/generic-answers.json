@@ -978,7 +978,7 @@
   },
   {
    "label": "^work authorization",
-   "prefer": "^i am authorized to work in the us for any employer|f-?1|cpt|ead"
+   "prefer": "f-?1|\\bcpt\\b|\\bead\\b|employment authorization"
   },
   {
    "label": "^sponsorship requirements?",
@@ -5693,7 +5693,7 @@
   },
   {
    "label": "^current company",
-   "text": "Bank of America (via Innova Solutions) — most recent role; currently between positions"
+   "text": "Aurora AI Ventures"
   },
   {
    "label": "postal/?\\s*zip code",
@@ -5749,7 +5749,7 @@
   },
   {
    "label": "notice period",
-   "text": "None — currently between roles, available immediately."
+   "text": "None — I can start immediately or within two weeks."
   },
   {
    "label": "which state do you currently live in|what state do you currently reside",
@@ -5881,11 +5881,11 @@
   },
   {
    "label": "current company",
-   "text": "Bank of America (via Innova Solutions)"
+   "text": "Aurora AI Ventures"
   },
   {
    "label": "current title",
-   "text": "Senior Software Engineer"
+   "text": "Founding AI Engineer"
   },
   {
    "label": "if you have startup experience",
@@ -5913,11 +5913,11 @@
   },
   {
    "label": "^company name",
-   "text": "Bank of America (via Innova Solutions)"
+   "text": "Aurora AI Ventures"
   },
   {
    "label": "^title\\s*\\*?$",
-   "text": "Senior Software Engineer"
+   "text": "Founding AI Engineer"
   },
   {
    "label": "^start date month",
@@ -5961,7 +5961,7 @@
   },
   {
    "label": "^(today'?s )?date\\s*\\*?$",
-   "text": "08/31/2026"
+   "text": "09/15/2026"
   },
   {
    "label": "location \\(city\\)",
@@ -6260,7 +6260,7 @@
    "text": "7 years"
   },
   {
-   "label": "what are your",
+   "label": "what are your thoughts on prizepicks|what are your .{0,40}prizepicks",
    "text": "I visited PrizePicks.com and was impressed by the company's innovative approach to gamifying daily fantasy sports. My background in scaling high-traffic, real-time transaction platforms at Bank of America and BlackRock aligns well with the engineering challenges of building a robust, low-latency gamification engine. I am eager to apply my expertise in distributed systems and Python/Go to help scale your platform while leveraging AI tools to accelerate development."
   },
   {
@@ -7194,6 +7194,18 @@
   {
    "label": "Why Anthropic\\?",
    "text": "I am drawn to Anthropic's mission to build safe, beneficial AI systems, and I want to apply my 7 years of backend engineering experience at scale to your inference infrastructure. My background includes scaling real-time transaction platforms to handle millions of requests per day and optimizing latency by 60% through horizontal partitioning and caching, which directly translates to the performance challenges in inference. I am eager to leverage my expertise in Python, Go, and distributed systems to help Anthropic ship code to production daily while ensuring reliability and safety."
+  },
+  {
+   "label": "experience with backend development|backend development in a team production|describe your experience (with|in) (backend|server-side|distributed)",
+   "text": "I have seven years of production backend engineering in teams. At Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%. At BlackRock I spent five years building quantitative research and data systems for roughly $1T in retirement assets. Today, as founding engineer at Aurora AI Ventures, I build multi-agent LLM systems in Python and a distributed Go video platform on NATS JetStream and Postgres. I work in code review, CI/CD and on-call rotations every day and ship to production continuously."
+  },
+  {
+   "label": "why are you (excited|interested) (about|in)|what (specifically )?(interests|excites|appeals to) you about (this|the) (role|position|opportunity)|what aspects of this role",
+   "text": "This role sits exactly where my work has been heading: production backend systems and applied AI. I spent seven years building high-throughput financial data platforms at Bank of America and BlackRock, and for the past year I have been the founding engineer of an agentic AI startup, building multi-agent research systems and a distributed Go media platform. I am looking for a team where that combination — real distributed-systems depth plus hands-on LLM engineering — is the core of the product rather than a side project, and where I can ship to production daily."
+  },
+  {
+   "label": "base [^?]{0,20}expectation|base salary expectation|expected base (salary|compensation)",
+   "text": "$150,000+ base"
   }
  ],
  "checkboxes": [
