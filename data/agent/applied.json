@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T15:58:39.378Z",
+ "updatedAt": "2026-09-15T16:09:27.275Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -9550,6 +9550,19 @@
    "at": "2026-09-15",
    "via": "greenhouse (cloud batch)",
    "detail": "greenhouse embed (Chorus role, distinct posting by board token); security code relayed; confirmation page reached"
+  },
+  "6a6a81bb48355b3f12bf161c": {
+   "id": "6a6a81bb48355b3f12bf161c",
+   "key": "glean::software engineer, storage",
+   "title": "Software Engineer, Storage",
+   "company": "Glean",
+   "matchPercent": 80,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a6a81bb48355b3f12bf161c",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=gleanwork&jr_id=6a6a81bb48355b3f12bf161c&token=4610281005&utm_source=jobright",
+   "status": "applied_direct",
+   "at": "2026-09-15",
+   "via": "greenhouse (cloud batch)",
+   "detail": "greenhouse embed (distinct posting by board token); security code relayed; confirmation page reached"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
