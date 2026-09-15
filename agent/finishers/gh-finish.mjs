@@ -95,9 +95,15 @@ try {
     };
     // Only treat a control as already answered when it plainly is: when in
     // doubt fall through to unfilled, which is what the old code always did.
+    // Deliberately limited to SELECT and real inputs. A div[aria-haspopup]
+    // wrapper's innerText often contains the question text as well as the
+    // chosen value, so reading it here would mark an untouched control filled
+    // and silently skip the question. Within a pass first-rule-wins is
+    // enforced by marking the snapshot entry instead, so nothing is lost.
     const filledOf = (e) => {
       if (e.tagName === "SELECT") return e.value !== "" && e.selectedIndex > 0;
-      const t = (e.value ?? e.innerText ?? "").trim();
+      if (e.tagName !== "INPUT" && e.tagName !== "TEXTAREA") return false;
+      const t = (e.value ?? "").trim();
       return !!t && !/^(select|choose|pick)\b/i.test(t) && !/^[-–—.]*$/.test(t);
     };
     return Array.from(document.querySelectorAll(sel)).map((e) => ({

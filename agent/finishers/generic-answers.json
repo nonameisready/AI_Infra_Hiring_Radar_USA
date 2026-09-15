@@ -1,11 +1,27 @@
 {
  "combos": [
   {
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(previously been employed at|previously worked at|have you ever been employed at)).*",
+   "prefer": "^no\\b"
+  },
+  {
+   "label": "conflicts? of interest",
+   "prefer": "^no\\b|none"
+  },
+  {
+   "label": "this (role|position) is based (out )?of|role is based in|based out of the .{0,40}location",
+   "prefer": "^yes"
+  },
+  {
+   "label": "stated initial base pay range|base pay range.{0,40}(acknowledg|understand)|acknowledge the (posted |stated )?(pay|salary) range",
+   "prefer": "^yes|acknowledge|understand"
+  },
+  {
    "label": "^work authorization",
    "prefer": "require.{0,80}sponsorship|will require.{0,40}sponsorship"
   },
   {
-   "label": "current or former alphabet|worked at alphabet|alphabet employee, intern, vendor",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(current or former alphabet|worked at alphabet|alphabet employee, intern, vendor)).*",
    "prefer": "never worked"
   },
   {
@@ -86,7 +102,7 @@
    "type": "United States"
   },
   {
-   "label": "are you a (current or (previous|former)|former|previous) .{0,30}employee|current or former employee of",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(are you a (current or (previous|former)|former|previous) .{0,30}employee|current or former employee of)).*",
    "prefer": "^no\\b"
   },
   {
@@ -239,7 +255,7 @@
    "type": "Computer Science"
   },
   {
-   "label": "ever (worked|been employed) (for|at|by)",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(ever (worked|been employed) (for|at|by))).*",
    "prefer": "^no"
   },
   {
@@ -251,11 +267,11 @@
    "prefer": "^yes|acknowledge|agree|i understand"
   },
   {
-   "label": "(currently|previously),? (or .* )?worked (at|for)",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*((currently|previously),? (or .* )?worked (at|for))).*",
    "prefer": "^no"
   },
   {
-   "label": "ever worked (for|at) .* (employee|intern|contractor)",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(ever worked (for|at) .* (employee|intern|contractor))).*",
    "prefer": "never worked"
   },
   {
@@ -388,7 +404,7 @@
    "prefer": "^yes$"
   },
   {
-   "label": "ever been employed by .*(subsidiaries|affiliates)",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(ever been employed by .*(subsidiaries|affiliates))).*",
    "prefer": "^no$"
   },
   {
@@ -460,7 +476,7 @@
    "prefer": "^no"
   },
   {
-   "label": "previously been employed (with|by)|ever provided services to|currently work for,? or",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(previously been employed (with|by)|ever provided services to|currently work for,? or)).*",
    "prefer": "^no"
   },
   {
@@ -513,7 +529,7 @@
    "prefer": "^yes"
   },
   {
-   "label": "ever worked for (figma|fivetran|customer\\.io) before|worked for .* before,? as an employee",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(ever worked for (figma|fivetran|customer\\.io) before|worked for .* before,? as an employee)).*",
    "prefer": "^no"
   },
   {
@@ -521,11 +537,11 @@
    "prefer": "decline|don.?t wish|prefer not|do not wish"
   },
   {
-   "label": "partner agency that uses|worked for, a company or partner",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(partner agency that uses|worked for, a company or partner)).*",
    "prefer": "^no"
   },
   {
-   "label": "are you a former .* employee",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(are you a former .* employee)).*",
    "prefer": "^no"
   },
   {
@@ -626,7 +642,7 @@
    "prefer": "don.?t wish|prefer not|decline to self identify|decline"
   },
   {
-   "label": "ever worked for .{2,40} as a (full|part).?-?time",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(ever worked for .{2,40} as a (full|part).?-?time)).*",
    "prefer": "^no"
   },
   {
@@ -654,7 +670,7 @@
    "prefer": "job board|other|linkedin"
   },
   {
-   "label": "previously been employed at affirm",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(previously been employed at affirm)).*",
    "prefer": "^no"
   },
   {
@@ -674,7 +690,7 @@
    "prefer": "^no"
   },
   {
-   "label": "worked at accenture in the past",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(worked at accenture in the past)).*",
    "prefer": "^no"
   },
   {
@@ -726,7 +742,7 @@
    "prefer": "^no"
   },
   {
-   "label": "worked at snowflake in the past",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(worked at snowflake in the past)).*",
    "prefer": "^no"
   },
   {
@@ -861,7 +877,7 @@
    "type": "New Jersey"
   },
   {
-   "label": "previously been employed (at|by)|been employed by .* before|worked (at|for) (this company|us) before",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(previously been employed (at|by)|been employed by .* before|worked (at|for) (this company|us) before)).*",
    "prefer": "^no"
   },
   {
@@ -925,7 +941,7 @@
    "prefer": "^yes"
   },
   {
-   "label": "employed by upstart",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(employed by upstart)).*",
    "prefer": "^no"
   },
   {
@@ -945,7 +961,7 @@
    "prefer": "decline|prefer not|don'?t wish"
   },
   {
-   "label": "worked at a startup",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(worked at a startup)).*",
    "prefer": "^no"
   },
   {
@@ -989,11 +1005,11 @@
    "prefer": "^yes"
   },
   {
-   "label": "(previously|ever) been (previously )?employed by realtor",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*((previously|ever) been (previously )?employed by realtor)).*",
    "prefer": "^no"
   },
   {
-   "label": "relative\\(?s?\\)? employed by realtor",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(relative\\(?s?\\)? employed by realtor)).*",
    "prefer": "^no"
   },
   {
@@ -1077,7 +1093,7 @@
    "prefer": "^new york"
   },
   {
-   "label": "previously been employed (at|by) .* for any length|been employed by .* before",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(previously been employed (at|by) .* for any length|been employed by .* before)).*",
    "prefer": "^no|have not (previously )?been employed|never been employed"
   },
   {
@@ -1157,7 +1173,7 @@
    "prefer": "^yes"
   },
   {
-   "label": "have you worked at \\w+\\?|have you (ever )?been employed by \\w+",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(have you worked at \\w+\\?|have you (ever )?been employed by \\w+)).*",
    "prefer": "^no\\b|have not worked|never worked|have not been employed|not previously"
   },
   {
@@ -1169,7 +1185,7 @@
    "prefer": "^no"
   },
   {
-   "label": "relatives employed by",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(relatives employed by)).*",
    "prefer": "^no"
   },
   {
@@ -1189,11 +1205,11 @@
    "prefer": "python"
   },
   {
-   "label": "have you worked at doordash",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(have you worked at doordash)).*",
    "prefer": "have not worked"
   },
   {
-   "label": "employed by rubrik or contract",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(employed by rubrik or contract)).*",
    "prefer": "^no\\b|have not|never"
   },
   {
@@ -1209,7 +1225,7 @@
    "prefer": "^yes"
   },
   {
-   "label": "ever held a position with this company or any of its subsidi",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(ever held a position with this company or any of its subsidi)).*",
    "prefer": "^no"
   },
   {
@@ -1321,7 +1337,7 @@
    "prefer": "daily|regular|frequent|often|multiple times"
   },
   {
-   "label": "worked for carta at any other time",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(worked for carta at any other time)).*",
    "prefer": "^no"
   },
   {
@@ -1333,7 +1349,7 @@
    "prefer": "^no"
   },
   {
-   "label": "previously been an employee of businessolver",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(previously been an employee of businessolver)).*",
    "prefer": "^no"
   },
   {
@@ -1393,7 +1409,7 @@
    "prefer": "master"
   },
   {
-   "label": "close relatives.*currently employed|relatives.*employed by",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(close relatives.*currently employed|relatives.*employed by)).*",
    "prefer": "^no"
   },
   {
@@ -1768,7 +1784,7 @@
    "prefer": "No"
   },
   {
-   "label": "Have you previously been an employee of Businessolver",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Have you previously been an employee of Businessolver)).*",
    "prefer": "No"
   },
   {
@@ -1944,7 +1960,7 @@
    "type": ""
   },
   {
-   "label": "currently employed or previously employed by one of our parent",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(currently employed or previously employed by one of our parent)).*",
    "prefer": "No",
    "type": ""
   },
@@ -2018,7 +2034,7 @@
    "type": "Yes"
   },
   {
-   "label": "Previously worked for SnapLogic",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Previously worked for SnapLogic)).*",
    "prefer": "No",
    "type": "No"
   },
@@ -2572,7 +2588,7 @@
    "type": "Yes"
   },
   {
-   "label": "Previously.*Worked|Relatives|Referral",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Previously.*Worked|Relatives|Referral)).*",
    "prefer": "No",
    "type": "No"
   },
@@ -2688,7 +2704,7 @@
    "prefer": "Yes"
   },
   {
-   "label": "Are you currently employed or previously employed by one of our parent",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Are you currently employed or previously employed by one of our parent)).*",
    "prefer": "No"
   },
   {
@@ -2711,7 +2727,7 @@
    "type": "Yes"
   },
   {
-   "label": "Previously worked for this company",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Previously worked for this company)).*",
    "prefer": "No",
    "type": "No"
   },
@@ -2839,7 +2855,7 @@
    "type": "No"
   },
   {
-   "label": "worked for this company",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(worked for this company)).*",
    "prefer": "No",
    "type": "No"
   },
@@ -3074,7 +3090,7 @@
    "type": "Yes"
   },
   {
-   "label": "Previously worked",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Previously worked)).*",
    "prefer": "No",
    "type": "No"
   },
@@ -3113,7 +3129,7 @@
    "prefer": "No"
   },
   {
-   "label": "Have you previously been an employee of Businessolver\\?",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Have you previously been an employee of Businessolver\\?)).*",
    "prefer": "No"
   },
   {
@@ -3144,7 +3160,7 @@
    "type": "Yes"
   },
   {
-   "label": "Previously worked for|Employed by|Worked at|Referral|Relative",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Previously worked for|Employed by|Worked at|Referral|Relative)).*",
    "prefer": "No",
    "type": "No"
   },
@@ -3209,7 +3225,7 @@
    "type": "None"
   },
   {
-   "label": "previously worked",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(previously worked)).*",
    "prefer": "No",
    "type": "No"
   },
@@ -3232,7 +3248,7 @@
    "prefer": "No"
   },
   {
-   "label": "Have you ever been employed by a foreign government\\?",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Have you ever been employed by a foreign government\\?)).*",
    "prefer": "No"
   },
   {
@@ -3251,7 +3267,7 @@
    "type": "Yes"
   },
   {
-   "label": "Previously.*Employed.*Vercel",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Previously.*Employed.*Vercel)).*",
    "prefer": "No",
    "type": "No"
   },
@@ -3436,7 +3452,7 @@
    "type": ""
   },
   {
-   "label": "previously worked for this company|relatives|referral",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(previously worked for this company|relatives|referral)).*",
    "prefer": "No",
    "type": ""
   },
@@ -3606,7 +3622,7 @@
    "type": "Yes"
   },
   {
-   "label": "Previously.*Worked.*Vercel",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Previously.*Worked.*Vercel)).*",
    "prefer": "No",
    "type": "No"
   },
@@ -3676,7 +3692,7 @@
    "type": "Yes"
   },
   {
-   "label": "have you (ever )?(previously )?(worked|held a position|been employed|been an employee)",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(have you (ever )?(previously )?(worked|held a position|been employed|been an employee))).*",
    "prefer": "^No$",
    "type": "No"
   },
@@ -3743,7 +3759,7 @@
    "prefer": "^yes"
   },
   {
-   "label": "previously held a position at",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(previously held a position at)).*",
    "prefer": "^no"
   },
   {
@@ -4013,7 +4029,7 @@
    "prefer": "^yes"
   },
   {
-   "label": "are you a current or former [a-z, ]+ employee",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(are you a current or former [a-z, ]+ employee)).*",
    "prefer": "^no"
   },
   {
@@ -4341,7 +4357,7 @@
    "prefer": "Yes"
   },
   {
-   "label": "Previously worked for SnapLogic",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Previously worked for SnapLogic)).*",
    "prefer": "No"
   },
   {
@@ -4716,7 +4732,7 @@
    "prefer": "150000"
   },
   {
-   "label": "Have you worked for Two Six Technologies",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Have you worked for Two Six Technologies)).*",
    "prefer": "No"
   },
   {
@@ -4786,7 +4802,7 @@
    "type": ""
   },
   {
-   "label": "Have you previously held a position at Socure",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Have you previously held a position at Socure)).*",
    "prefer": "No"
   },
   {
@@ -4852,7 +4868,7 @@
    "prefer": "Job board"
   },
   {
-   "label": "current or previous Pathward employee",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(current or previous Pathward employee)).*",
    "prefer": "No"
   },
   {
@@ -5029,7 +5045,7 @@
    "type": "Yes"
   },
   {
-   "label": "Previously.*Worked.*Company",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Previously.*Worked.*Company)).*",
    "prefer": "No",
    "type": "No"
   },
@@ -5369,7 +5385,7 @@
    "type": ""
   },
   {
-   "label": "previously worked for",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(previously worked for)).*",
    "prefer": "No",
    "type": ""
   },
@@ -5500,7 +5516,7 @@
    "type": "No"
   },
   {
-   "label": "Previously.*worked.*for.*Vercel",
+   "label": "^(?!.*(blackrock|bank of america|\\bbofa\\b|innova solutions|aurora ai ventures))(?=.*(Previously.*worked.*for.*Vercel)).*",
    "prefer": "No",
    "type": "No"
   },
@@ -7349,6 +7365,9 @@
   },
   {
    "label": "by submitting your application you confirm that the information"
+  },
+  {
+   "label": "^united states( of america)?$"
   }
  ],
  "manualTriggers": [
