@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T16:42:02.026Z",
+ "updatedAt": "2026-09-15T16:45:36.602Z",
  "items": [
   {
    "id": "6a8384dc2dbaf907b07695d1",
@@ -25969,6 +25969,72 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=impact&jr_id=6a395e4c649fdf16293006e3&token=8459601002",
    "status": "needs_answers",
    "note": "2026-09-15 cloud: missing: [\"Kindly ensure your application is complete; incomplete applications wi\",\"Do you have hands-on, production experience developing or implementing\",\"Have you ever worked on any ecommerce platforms or integrated services\"]"
+  },
+  {
+   "id": "6aa9198c10b1cd4f41604959",
+   "key": "stripe::backend engineer core technology",
+   "company": "Stripe",
+   "title": "Backend Engineer, Core Technology",
+   "matchPercent": 96,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa9198c10b1cd4f41604959",
+   "atsUrl": "https://stripe.com/careers/listing/backend-engineer-core-technology/6042172?gh_src=73vnei&jr_id=6aa9198c10b1cd4f41604959",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest r2: unsupported ATS host for the cloud finishers (stripe.com)"
+  },
+  {
+   "id": "6aa9675a10b1cd4f41605d27",
+   "key": "innorev technologies inc::node js developer",
+   "company": "Innorev Technologies Inc",
+   "title": "Node JS Developer",
+   "matchPercent": 87,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa9675a10b1cd4f41605d27",
+   "atsUrl": "https://www.linkedin.com/jobs/view/4466516736?jr_id=6aa9675a10b1cd4f41605d27",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest r2: unsupported ATS host for the cloud finishers (www.linkedin.com)"
+  },
+  {
+   "id": "6aa9613010b1cd4f41605b74",
+   "key": "bright vision technologies::rust developer",
+   "company": "Bright Vision Technologies",
+   "title": "Rust Developer",
+   "matchPercent": 84,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa9613010b1cd4f41605b74",
+   "atsUrl": "https://brightvisiontechnologies.applytojob.com/apply/3R3jZbywhH/Rust-Developer?jr_id=6aa9613010b1cd4f41605b74",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest r2: unsupported ATS host for the cloud finishers (brightvisiontechnologies.applytojob.com)"
+  },
+  {
+   "id": "6aa961c36d0edc2d91b0960d",
+   "key": "moonpay::senior staff software engineer moonpay enterprise",
+   "company": "MoonPay",
+   "title": "Senior/Staff Software Engineer - Moonpay Enterprise",
+   "matchPercent": 83,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa961c36d0edc2d91b0960d",
+   "atsUrl": "https://www.linkedin.com/jobs/view/4466525585?jr_id=6aa961c36d0edc2d91b0960d",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest r2: unsupported ATS host for the cloud finishers (www.linkedin.com)"
+  },
+  {
+   "id": "6aa8757e2ed333b4ea5cf957",
+   "key": "apple::security infrastructure software engineer sear",
+   "company": "Apple",
+   "title": "Security Infrastructure Software Engineer, SEAR",
+   "matchPercent": 76,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa8757e2ed333b4ea5cf957",
+   "atsUrl": "https://jobs.apple.com/en-us/details/200683652-0157/security-infrastructure-software-engineer-sear?team=SFTWR&jr_id=6aa8757e2ed333b4ea5cf957",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest r2: unsupported ATS host for the cloud finishers (jobs.apple.com)"
+  },
+  {
+   "id": "6aa5489a42411952ff9a802d",
+   "key": "openai::software engineer api frontiers",
+   "company": "OpenAI",
+   "title": "Software Engineer, API Frontiers",
+   "matchPercent": 73,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa5489a42411952ff9a802d",
+   "atsUrl": "https://jobs.ashbyhq.com/openai/b6a86e39-8059-4ccf-8d33-1bf5bd92fa86/application?utm_source=8Jq3QyqAGm&source=jobright&jr_id=6aa5489a42411952ff9a802d",
+   "status": "parked",
+   "note": "2026-09-15 cloud harvest r2: unsupported ATS host for the cloud finishers (jobs.ashbyhq.com)"
   }
  ],
  "note": "Jobs the agent could not submit automatically — shown in the Jobright Agent tab for manual applying. Each item: { id, title, company, matchPercent, jobrightUrl, originalUrl, reason, status: needs_manual|needs_info, addedAt }. Items marked done (in the tab locally, or by telling Claude) move to applied.json as manual_done."
