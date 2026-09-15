@@ -1019,3 +1019,9 @@ forty hours a week, which is her own commitment to make (q-long-hours).
 | 35 | Truveta | Senior Software Engineer - Backend Services | 72% | cloud | [posting](https://job-boards.greenhouse.io/embed/job_app?for=truveta) |
 
 Parks recorded today, by status: parked 102, needs_answers 35, dropped 6, local replay 3, user_manual 1.
+
+## 2026-09-15 (Mac local batch, home IP)
+
+2 submitted, 94 parked, 2 queued for Qwen. All-time 711.
+- BranchLab — Senior Software Development Engineer (82%) — greenhouse, confirmed
+- Airbnb — Senior Software Engineer, Storage (77%) — greenhouse, confirmed

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-14T12:55:48.389Z",
+ "updatedAt": "2026-09-15T06:46:28.735Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -8977,6 +8977,30 @@
    "at": "2026-09-14",
    "via": "greenhouse (cloud batch)",
    "detail": "The finisher reported no confirmation page, but NewsBreak sent an application acknowledgement to Gmail at 11:16 UTC after the emailed security code was entered — booked on that evidence."
+  },
+  "6aa8347e930bff471a2a5c45": {
+   "key": "branchlab::senior software development engineer",
+   "title": "Senior Software Development Engineer",
+   "company": "BranchLab",
+   "matchPercent": 82,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa8347e930bff471a2a5c45",
+   "originalUrl": "https://jobs.ashbyhq.com/branchlab/90d9e079-1357-4b1b-8cba-fbbaa9c0d7f3/application?jr_id=6aa8347e930bff471a2a5c45",
+   "status": "applied_direct",
+   "appliedAt": "2026-09-15",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Submitted from the user's home IP by local-batch"
+  },
+  "6aa87bdc930bff471a2a79d4": {
+   "key": "airbnb::senior software engineer, storage",
+   "title": "Senior Software Engineer, Storage",
+   "company": "Airbnb",
+   "matchPercent": 77,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6aa87bdc930bff471a2a79d4",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=airbnb&token=8165656&jr_id=6aa87bdc930bff471a2a79d4",
+   "status": "applied_direct",
+   "appliedAt": "2026-09-15",
+   "via": "greenhouse (mac local batch)",
+   "detail": "Submitted from the user's home IP by local-batch"
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
