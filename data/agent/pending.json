@@ -10816,23 +10816,6 @@
       "note": "platform: expedia.wd108.myworkdayjobs.com"
     },
     {
-      "id": "6a6426455c7e2d715ebaf6d0",
-      "key": "playlist::sr software engineer - playlist",
-      "title": "Sr Software Engineer - Playlist",
-      "company": "Playlist",
-      "matchPercent": 74,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a6426455c7e2d715ebaf6d0",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=playlist&jr_id=6a6426455c7e2d715ebaf6d0&token=4695615006&utm_source=jobright",
-      "addedAt": "2026-09-04",
-      "status": "needs_answers",
-      "note": "9/4 cloud GH flagged; missing: [\"Do you now, or will you in the future, require employer-sponsored work\",\"Are you a current or former Mindbody, ClassPa — run on Mac with Qwen.",
-      "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Are you a current or former Mindbody, ClassPass, EGYM, or Booker emplo\"]",
-      "updatedAt": "2026-09-14",
-      "missing": [
-        "Are you a current or former Mindbody, ClassPass, EGYM, or Booker emplo"
-      ]
-    },
-    {
       "id": "6a9a58bbe6c97d4b970af232",
       "key": "coinbase::senior infrastructure engineer, trading",
       "title": "Senior Infrastructure Engineer, Trading",
@@ -24803,18 +24786,6 @@
       "addedAt": "2026-09-15",
       "status": "parked",
       "note": "platform not automated from cloud: gevernova.wd5.myworkdayjobs.com"
-    },
-    {
-      "id": "6aa84347930bff471a2a62f4",
-      "key": "enova international::senior software engineer - product (hybrid)",
-      "title": "Senior Software Engineer - Product (Hybrid)",
-      "company": "Enova International",
-      "matchPercent": 86,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6aa84347930bff471a2a62f4",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=enova&token=7867437&jr_id=6aa84347930bff471a2a62f4",
-      "addedAt": "2026-09-15",
-      "status": "parked",
-      "note": "unconfirmed submit: "
     },
     {
       "id": "6a958b8a3843db01599059db",

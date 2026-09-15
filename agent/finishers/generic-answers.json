@@ -1,11 +1,15 @@
 {
  "combos": [
   {
+   "label": "which office (do|would) you (prefer|like)|preferred office location|which of our offices",
+   "prefer": "new york|nyc|manhattan|remote|charlotte|denver|durham|boston|chicago|austin|seattle|san francisco|los angeles|santa monica"
+  },
+  {
    "label": "eligible to work in (any of )?the following|which of the following countries|country.{0,20}(are you|you are) (legally )?(eligible|authorized) to work",
    "prefer": "^united states$|united states of america"
   },
   {
-   "label": "come into the office|in the office (at a minimum|a minimum) of|minimum of [0-9]+ days? (a|per) week|able (and willing )?to commit to (the )?(hybrid|in-?office|on-?site)|comfortable (to be |being |working )?(in|at|from) (the|our|an|this)? ?office",
+   "label": "come into the office|in the office (at a minimum|a minimum) of|minimum of [0-9]+ days? (a|per) week|able (and willing )?to commit to (the )?(hybrid|in-?office|on-?site)|comfortable (to be |being |working )?(in|at|from) (the|our|an|this)? ?office|work (primarily |mostly |mainly )?(from|in|out of) (the|our) office|we.{0,3}re based in|primarily (from|in) the office|this (role|position) is (fully )?(on-?site|in-?office)",
    "prefer": "^yes"
   },
   {
@@ -3649,7 +3653,7 @@
    "type": "No"
   },
   {
-   "label": "comfortable (to be |being |working )?(in|at|from) (the|our|an|this)? ?office|willing to work on-?site",
+   "label": "comfortable (to be |being |working )?(in|at|from) (the|our|an|this)? ?office|work (primarily |mostly |mainly )?(from|in|out of) (the|our) office|we.{0,3}re based in|primarily (from|in) the office|this (role|position) is (fully )?(on-?site|in-?office)|willing to work on-?site",
    "prefer": "^(Yes|I am)",
    "type": "Yes"
   },
@@ -5592,6 +5596,22 @@
  ],
  "texts": [
   {
+   "label": "used an ai (coding )?tool|ai coding (tool|assistant).{0,40}(change|changed|improve)|how (do|have) you use ai (tools )?in your (work|workflow)|describe.{0,30}ai.{0,20}(workflow|development)",
+   "text": "AI tools are part of how I build, not an add-on. Building EarningsStory's multi-agent research pipeline, I moved from writing every parser and prompt by hand to pairing with a coding assistant on the scaffolding — schema-driven SEC filing extractors, test fixtures, the evaluation harness — which cut the time to stand up a new agent from days to hours and let me spend my attention on the parts that actually needed judgement: cost-aware model routing, retrieval quality, and where the pipeline was silently wrong. The same habit carries into review: I use AI to get a second reading of a diff before I send it, and I treat its output as a draft I own rather than an answer I trust."
+  },
+  {
+   "label": "name and department of any of your (close )?relatives|names? of (any )?relatives who (work|are employed)|list any (friends|relatives) (who )?(work|employed)",
+   "text": "None — I have no relatives or close personal contacts employed at the company."
+  },
+  {
+   "label": "describe an internal (software )?tool|internal tool or product you (built|have built)|tool you built for (an )?internal",
+   "text": "At Bank of America I built and owned an internal real-time transaction-data platform that other product teams queried directly; it grew through 10x traffic to millions of requests a day, and I re-architected it with horizontal partitioning and caching to cut p99 latency by 60%. At BlackRock I built internal quantitative research tooling and data pipelines used across the Hedge Fund Solutions team. Most recently, at Aurora AI Ventures, I built the internal agent-orchestration and evaluation tooling behind our multi-agent research system — the harness engineers use to run, compare and debug agent pipelines."
+  },
+  {
+   "label": "invited to (our )?recruiting events|receive information about (future )?(roles|opportunities)|join (our )?talent (community|network)",
+   "text": "Yes"
+  },
+  {
    "label": "share (with us )?your location details|your location details|please (share|provide|tell us) your (current )?location",
    "text": "Jersey City, New Jersey — the New York City metro area. I am open to onsite, hybrid or remote arrangements anywhere in the US and will relocate if the role requires it."
   },
@@ -5604,7 +5624,7 @@
    "text": "Yes. At Bank of America I owned a real-time transaction-data platform that other product teams built on: it grew through 10x traffic to millions of requests a day, and I re-architected it with horizontal partitioning and caching to cut p99 latency by 60%. At BlackRock I built and maintained quantitative research and data systems used across the Hedge Fund Solutions team."
   },
   {
-   "label": "come into the office|in the office (at a minimum|a minimum) of|minimum of [0-9]+ days? (a|per) week|able (and willing )?to commit to (the )?(hybrid|in-?office|on-?site)|comfortable (to be |being |working )?(in|at|from) (the|our|an|this)? ?office",
+   "label": "come into the office|in the office (at a minimum|a minimum) of|minimum of [0-9]+ days? (a|per) week|able (and willing )?to commit to (the )?(hybrid|in-?office|on-?site)|comfortable (to be |being |working )?(in|at|from) (the|our|an|this)? ?office|work (primarily |mostly |mainly )?(from|in|out of) (the|our) office|we.{0,3}re based in|primarily (from|in) the office|this (role|position) is (fully )?(on-?site|in-?office)",
    "text": "Yes — I can commit to that schedule. I live in the New York metro area (Jersey City, NJ), so a New York office is an easy commute, and I am happy to work onsite up to five days a week or to relocate for a role based elsewhere in the US."
   },
   {
