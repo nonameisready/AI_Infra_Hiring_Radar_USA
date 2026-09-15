@@ -22144,8 +22144,8 @@
    "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=peregrinetechnologies&token=4704814005&jr_id=6a91b813a27a2d3c98489701",
    "addedAt": "2026-09-12",
    "updatedAt": "2026-09-13",
-   "status": "parked",
-   "note": "2026-09-12 cloud batch: form filled, held on [\"Security code\"]. Not guessed.",
+   "status": "applied",
+   "note": "2026-09-15 cloud: submitted and confirmed — but see POLICY FLAG in applied.json: Palantir-adjacent gov-intelligence company, should not have been auto-applied.",
    "reason": "2026-09-13 cloud: unconfirmed submit: no confirmation, no page text, no error"
   },
   {

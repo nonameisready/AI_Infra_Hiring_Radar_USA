@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T13:43:16.129Z",
+ "updatedAt": "2026-09-15T13:56:48.857Z",
  "jobs": {
   "6a5582404119652ff38661ee": {
    "id": "6a5582404119652ff38661ee",
@@ -9234,6 +9234,19 @@
    "at": "2026-09-15",
    "via": "greenhouse (cloud batch)",
    "detail": "greenhouse embed (token 8171189, distinct from the two Aug roles); security code relayed from Gmail; confirmation page \"Your application has been received\""
+  },
+  "6a91b813a27a2d3c98489701": {
+   "id": "6a91b813a27a2d3c98489701",
+   "key": "peregrine::senior software engineer, foundations",
+   "title": "Senior Software Engineer, Foundations",
+   "company": "Peregrine",
+   "matchPercent": 89,
+   "jobrightUrl": "https://jobright.ai/jobs/info/6a91b813a27a2d3c98489701",
+   "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=peregrinetechnologies&token=4704814005&jr_id=6a91b813a27a2d3c98489701",
+   "status": "applied_direct",
+   "at": "2026-09-15",
+   "via": "greenhouse (cloud batch)",
+   "detail": "greenhouse embed (token 4704814005), security code relayed, confirmation page reached. POLICY FLAG: Peregrine is the government/public-safety intelligence platform the 2026-09-13 record marked Palantir-adjacent and reserved for the user to decide personally; the cloud queue builder did not carry that flag and auto-submitted. Company added to the block list afterwards. Surfaced to the user."
   }
  },
  "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
