@@ -1,132 +1,153 @@
 {
-  "version": 1,
-  "updatedAt": "2026-09-14T11:25:12.082Z",
-  "open": [
-    {
-      "id": "q-competing-offers",
-      "question": "HackerRank 的 Senior Backend Engineer 申请表必答：「Do you have any current offers you are considering?」这是只有你本人知道的事实（手上有没有在考虑的 offer），代理不会替你编。请给一个标准答复（有／没有；如果有，要不要写出公司名或只写「有，正在考虑中」），以后同类问题按它回答。",
-      "field": "jobSearch.competingOffers",
-      "askedAt": "2026-09-15",
-      "blocking": true
-    },
-    {
-      "id": "q-contractor-1099",
-      "question": "Voxie 的 Senior Software Engineer 是 contract（1099/独立承包商）岗位，申请表必答两题：(1) Are you currently set up to legally work as an independent contractor? (2) 这个 contract 岗位你的目标时薪/费率区间是多少？F-1 CPT/EAD 身份下能否以独立承包商身份工作，属于你本人和律师才能确认的事实，代理不会替你猜。请回复这两题的答案（以及今后是否要继续投 contract 岗位）。",
-      "field": "employment.contractorStatus,contractRate",
-      "askedAt": "2026-09-14",
-      "blocking": true
-    },
-    {
-      "id": "q-long-hours",
-      "question": "创业公司申请表常问：「我们经常每周工作超过 40 小时，你愿意在这种环境里工作吗？」（例：Kalepa Senior Full Stack Engineer）。这属于你本人的工作时间承诺，代理不替你回答——和「欧洲时区」那条一样。请给一个标准答复（Yes / No / 视情况），以后所有同类问题按它回答。",
-      "field": "workingHours.overtime",
-      "askedAt": "2026-09-14",
-      "blocking": true
-    }
-  ],
-  "answered": [
-    {
-      "id": "q-login-method",
-      "question": "Jobright 登录方式：设置密码并存入 Claude 环境变量 JOBRIGHT_PASSWORD。",
-      "field": "loginMethod",
-      "askedAt": "2026-08-23",
-      "answer": "已设置。2026-08-26 验证通过：JOBRIGHT_PASSWORD 在环境中，密码登录成功且无需验证码，推荐列表抓取正常。",
-      "answeredAt": "2026-08-26"
-    },
-    {
-      "id": "q-work-auth",
-      "question": "工作授权状态，以及是否需要公司 sponsor 签证（现在或将来）？",
-      "field": "workAuth,needsSponsor,usAuthorized",
-      "askedAt": "2026-08-23",
-      "answer": "H-1B 曾由 BlackRock 递交并批准生效（cap-counted）；现不在该雇主在职 → 新雇主可免抽签递交 cap-exempt H-1B。当前实际身份 = F-1 CPT/EAD（至 05/31/2027，用户确认有效）。身份下拉选 F-1；有文本框强调 cap-exempt transfer 免抽签。需要 sponsor：Yes。有合法工作授权：Yes。若用户律师确认当前仍持 H-1B 身份再改为 H-1B（见 2026-09-08 对话）。",
-      "answeredAt": "2026-09-08"
-    },
-    {
-      "id": "q-location",
-      "question": "目前所在城市/州，以及能否 relocate？",
-      "field": "location",
-      "askedAt": "2026-08-23",
-      "answer": "New York, NY（NYC）。可以 relocate。",
-      "answeredAt": "2026-08-26"
-    },
-    {
-      "id": "q-linkedin",
-      "question": "LinkedIn 个人主页 URL？",
-      "field": "linkedin",
-      "askedAt": "2026-08-23",
-      "answer": "https://www.linkedin.com/in/belindamao（用户 2026-08-26 补充提供）",
-      "answeredAt": "2026-08-26"
-    },
-    {
-      "id": "q-salary",
-      "question": "期望薪资范围？",
-      "field": "salaryExpectation",
-      "askedAt": "2026-08-23",
-      "answer": "$150,000 以上（base）。",
-      "answeredAt": "2026-08-26"
-    },
-    {
-      "id": "q-employment-restrictions",
-      "question": "你是否受任何雇佣协议或离职后限制约束（例如竞业限制 non-compete、post-employment restrictions）？GitLab 等公司的申请表必答。另外：GitLab 还问开源贡献链接和主力语言——主力语言我打算答 'Python (also Go, TypeScript)'，开源链接用 https://github.com/nonameisready，可以吗？",
-      "field": "employmentRestrictions,primaryLanguage,openSourceLinks",
-      "askedAt": "2026-08-26",
-      "blocking": true,
-      "answer": "No — 不受任何雇佣协议/竞业限制约束。主力语言 Python (also Go, TypeScript)；开源链接 github.com/nonameisready。",
-      "answeredAt": "2026-08-26"
-    },
-    {
-      "id": "q-skill-ratings-and-ai-disclosure",
-      "question": "How to answer stack self-ratings, and AI-disclosure questions on applications?",
-      "field": "skillRatings,aiDisclosure",
-      "askedAt": "2026-08-27",
-      "answer": "TypeScript: strong/proficient. JavaScript, Node and other non-core stacks: moderate. 'Strong in all of JS/TS/Node?' → No (honest). AI-disclosure questions: always answer truthfully that AI assistance was used with the applicant's authorization and review — never deny AI use, never impersonate a human.",
-      "answeredAt": "2026-08-27"
-    },
-    {
-      "id": "q-graduation-dates",
-      "question": "Graduation month/year for each degree (required by ATS registration forms): (1) University of Pennsylvania, M.S. Computer Science; (2) Rice University, M.S. Applied Mathematics & Statistics; (3) Shanghai University of Finance and Economics, B.A. Economics. Approximate month is fine if exact is unknown (e.g. 2018-05).",
-      "field": "education[].graduation",
-      "askedAt": "2026-08-27",
-      "blocking": true,
-      "answer": "UPenn M.S. CS: May 2021; Rice M.S.: Dec 2017; SUFE B.A.: May 2012 (user, 2026-08-27)",
-      "answeredAt": "2026-08-27"
-    },
-    {
-      "id": "q-compliance-family",
-      "question": "Compliance/personal disclosures needed by Bloomberg and American Express applications (asked 2026-08-27): (1) any relatives/spouse/partner employed by or providing services to Bloomberg? (2) family or close personal relationship with anyone at American Express or its obvious competitors (banks/payment companies)? (3) you or family: partner/principal/shareholder/employee of PricewaterhouseCoopers or affiliates in past 3 years, or any PwC relationship? (4) you or immediate family a Prominent Government Official in last 5 years? (5) ever worked for, been offered a position at, or hired by American Express or subsidiaries (incl. Accertify)? (6) do you currently run any paid side work you'd continue (your resume's EarningsStory/Adscream projects — are they revenue-generating businesses)?",
-      "field": "compliance.family,compliance.pwc,compliance.gov,compliance.amexHistory,compliance.sideWork",
-      "askedAt": "2026-08-27",
-      "blocking": true,
-      "answer": "All No (Bloomberg relatives, Amex competitor relationships, PwC, government official, prior Amex history). Side work: Yes — EarningsStory/Adscream are active side projects.",
-      "answeredAt": "2026-08-27"
-    },
-    {
-      "id": "q-i140-status",
-      "question": "Amazon work-eligibility form (all 3 Amazon applications): 'Has an I-140 (Immigration Visa Petition) been filed and approved on your behalf?' — answer Yes only if an employment-based I-140 was APPROVED (not just filed). If your I-485 is family-based, or the I-140 is still pending, the answer is No. One word (Yes/No) unblocks all three Amazon submissions — the applications are saved as drafts.",
-      "field": "immigration.i140Approved",
-      "askedAt": "2026-08-28",
-      "blocking": true,
-      "answer": "Yes — an employment-based I-140 has been filed and approved (user, 2026-08-28).",
-      "answeredAt": "2026-08-28"
-    },
-    {
-      "id": "q-timezone-europe",
-      "question": "Zerion 等欧洲公司问「能否按 UTC+0/UTC+1 时区作息工作」（纽约时间凌晨三四点开始）。标准答复里的「美国境内任何城市、任何到岗安排都可以」不覆盖这一条，需要本人决定。",
-      "field": "workingHours.timezone",
-      "askedAt": "2026-09-13",
-      "blocking": true,
-      "answer": "不接受欧洲作息（UTC+0/UTC+1 上班时间）→ 一律答 No。美国境内任何城市、onsite/hybrid/5 天到岗、搬迁仍然全部 Yes —— 这两件事不是一回事，不要互相推导。要求按欧洲时区作息的职位按诚实答 No 处理并 drop。",
-      "answeredAt": "2026-09-13"
-    },
-    {
-      "id": "q-criminal-history",
-      "question": "很多申请表（Axon 等）要求本人声明的法律问题，一次回答可长期使用：(1) 是否曾在任何法院（含军事法庭）被判有罪？(2) 目前是否因重罪被起诉/被控？(3) 是否为在逃通缉犯？(4) 是否曾被法院裁定为精神障碍或被强制送医？(5) 是否曾被军队以不名誉方式退役？(6) 是否受任何法院保护令约束？(7) 是否为管制药品的非法使用者？通常全部是 No，但这些是你本人的法律声明，代理绝不替你猜。",
-      "field": "compliance.criminalHistory",
-      "askedAt": "2026-09-13",
-      "blocking": true,
-      "answer": "全部 No（用户 2026-09-13 亲自确认，七问逐条 No）。这是本人法律声明，agent 不得推断；此后同类声明一律 No，清单之外的新声明仍需回问本人。另：用户指令永不投递 Axon。",
-      "answeredAt": "2026-09-13"
-    }
-  ],
-  "note": "The agent appends questions it cannot answer here, keeps the job in pending.json, and continues. When the user answers (in the Agent tab while running locally, or by telling Claude in any session), the answer moves to `answered`, profile.json/memory.json are updated, and the next run uses it automatically. `blocking: true` means applications that need this answer are held as needs_info instead of being submitted with a guess."
+ "version": 1,
+ "updatedAt": "2026-09-15T14:50:00.000Z",
+ "open": [
+  {
+   "id": "q-competing-offers",
+   "question": "HackerRank 的 Senior Backend Engineer 申请表必答：「Do you have any current offers you are considering?」这是只有你本人知道的事实（手上有没有在考虑的 offer），代理不会替你编。请给一个标准答复（有／没有；如果有，要不要写出公司名或只写「有，正在考虑中」），以后同类问题按它回答。",
+   "field": "jobSearch.competingOffers",
+   "askedAt": "2026-09-15",
+   "blocking": true
+  },
+  {
+   "id": "q-contractor-1099",
+   "question": "Voxie 的 Senior Software Engineer 是 contract（1099/独立承包商）岗位，申请表必答两题：(1) Are you currently set up to legally work as an independent contractor? (2) 这个 contract 岗位你的目标时薪/费率区间是多少？F-1 CPT/EAD 身份下能否以独立承包商身份工作，属于你本人和律师才能确认的事实，代理不会替你猜。请回复这两题的答案（以及今后是否要继续投 contract 岗位）。",
+   "field": "employment.contractorStatus,contractRate",
+   "askedAt": "2026-09-14",
+   "blocking": true
+  },
+  {
+   "id": "q-long-hours",
+   "question": "创业公司申请表常问：「我们经常每周工作超过 40 小时，你愿意在这种环境里工作吗？」（例：Kalepa Senior Full Stack Engineer）。这属于你本人的工作时间承诺，代理不替你回答——和「欧洲时区」那条一样。请给一个标准答复（Yes / No / 视情况），以后所有同类问题按它回答。",
+   "field": "workingHours.overtime",
+   "askedAt": "2026-09-14",
+   "blocking": true
+  },
+  {
+   "id": "q-notice-period",
+   "question": "多家表单必答「What is your notice period?」／「What date are you available to start?」（例：HackerRank、Kapitus）。profile.json 里 noticePeriod 是空的，这属于只有你本人能定的事实，代理不会替你猜。请给一个标准答复（例如「两周」「四周」「立即可入职」），以后同类问题按它回答。",
+   "field": "jobSearch.noticePeriod",
+   "askedAt": "2026-09-15",
+   "blocking": true
+  },
+  {
+   "id": "q-post-employment-restrictions",
+   "question": "GitLab 等表单必答「Are you subject to any employment agreements and/or post-employment restrictions?」（竞业禁止／离职后限制）。你和 BlackRock、Bank of America（Innova Solutions）签过什么协议只有你和律师清楚，代理不会替你答「没有」。请回复：有／没有；如果有，是否需要在表单里说明。",
+   "field": "legal.postEmploymentRestrictions",
+   "askedAt": "2026-09-15",
+   "blocking": true
+  },
+  {
+   "id": "q-travel-willingness",
+   "question": "部分表单必答「Are you open to travel?」（例：Kapitus）。这和「每周工作超过 40 小时」一样属于你本人的承诺，代理不替你答。请给一个标准答复（Yes／No／可接受的出差比例，例如「可接受 25% 以内」），以后同类问题按它回答。",
+   "field": "jobSearch.travelWillingness",
+   "askedAt": "2026-09-15",
+   "blocking": false
+  }
+ ],
+ "answered": [
+  {
+   "id": "q-login-method",
+   "question": "Jobright 登录方式：设置密码并存入 Claude 环境变量 JOBRIGHT_PASSWORD。",
+   "field": "loginMethod",
+   "askedAt": "2026-08-23",
+   "answer": "已设置。2026-08-26 验证通过：JOBRIGHT_PASSWORD 在环境中，密码登录成功且无需验证码，推荐列表抓取正常。",
+   "answeredAt": "2026-08-26"
+  },
+  {
+   "id": "q-work-auth",
+   "question": "工作授权状态，以及是否需要公司 sponsor 签证（现在或将来）？",
+   "field": "workAuth,needsSponsor,usAuthorized",
+   "askedAt": "2026-08-23",
+   "answer": "H-1B 曾由 BlackRock 递交并批准生效（cap-counted）；现不在该雇主在职 → 新雇主可免抽签递交 cap-exempt H-1B。当前实际身份 = F-1 CPT/EAD（至 05/31/2027，用户确认有效）。身份下拉选 F-1；有文本框强调 cap-exempt transfer 免抽签。需要 sponsor：Yes。有合法工作授权：Yes。若用户律师确认当前仍持 H-1B 身份再改为 H-1B（见 2026-09-08 对话）。",
+   "answeredAt": "2026-09-08"
+  },
+  {
+   "id": "q-location",
+   "question": "目前所在城市/州，以及能否 relocate？",
+   "field": "location",
+   "askedAt": "2026-08-23",
+   "answer": "New York, NY（NYC）。可以 relocate。",
+   "answeredAt": "2026-08-26"
+  },
+  {
+   "id": "q-linkedin",
+   "question": "LinkedIn 个人主页 URL？",
+   "field": "linkedin",
+   "askedAt": "2026-08-23",
+   "answer": "https://www.linkedin.com/in/belindamao（用户 2026-08-26 补充提供）",
+   "answeredAt": "2026-08-26"
+  },
+  {
+   "id": "q-salary",
+   "question": "期望薪资范围？",
+   "field": "salaryExpectation",
+   "askedAt": "2026-08-23",
+   "answer": "$150,000 以上（base）。",
+   "answeredAt": "2026-08-26"
+  },
+  {
+   "id": "q-employment-restrictions",
+   "question": "你是否受任何雇佣协议或离职后限制约束（例如竞业限制 non-compete、post-employment restrictions）？GitLab 等公司的申请表必答。另外：GitLab 还问开源贡献链接和主力语言——主力语言我打算答 'Python (also Go, TypeScript)'，开源链接用 https://github.com/nonameisready，可以吗？",
+   "field": "employmentRestrictions,primaryLanguage,openSourceLinks",
+   "askedAt": "2026-08-26",
+   "blocking": true,
+   "answer": "No — 不受任何雇佣协议/竞业限制约束。主力语言 Python (also Go, TypeScript)；开源链接 github.com/nonameisready。",
+   "answeredAt": "2026-08-26"
+  },
+  {
+   "id": "q-skill-ratings-and-ai-disclosure",
+   "question": "How to answer stack self-ratings, and AI-disclosure questions on applications?",
+   "field": "skillRatings,aiDisclosure",
+   "askedAt": "2026-08-27",
+   "answer": "TypeScript: strong/proficient. JavaScript, Node and other non-core stacks: moderate. 'Strong in all of JS/TS/Node?' → No (honest). AI-disclosure questions: always answer truthfully that AI assistance was used with the applicant's authorization and review — never deny AI use, never impersonate a human.",
+   "answeredAt": "2026-08-27"
+  },
+  {
+   "id": "q-graduation-dates",
+   "question": "Graduation month/year for each degree (required by ATS registration forms): (1) University of Pennsylvania, M.S. Computer Science; (2) Rice University, M.S. Applied Mathematics & Statistics; (3) Shanghai University of Finance and Economics, B.A. Economics. Approximate month is fine if exact is unknown (e.g. 2018-05).",
+   "field": "education[].graduation",
+   "askedAt": "2026-08-27",
+   "blocking": true,
+   "answer": "UPenn M.S. CS: May 2021; Rice M.S.: Dec 2017; SUFE B.A.: May 2012 (user, 2026-08-27)",
+   "answeredAt": "2026-08-27"
+  },
+  {
+   "id": "q-compliance-family",
+   "question": "Compliance/personal disclosures needed by Bloomberg and American Express applications (asked 2026-08-27): (1) any relatives/spouse/partner employed by or providing services to Bloomberg? (2) family or close personal relationship with anyone at American Express or its obvious competitors (banks/payment companies)? (3) you or family: partner/principal/shareholder/employee of PricewaterhouseCoopers or affiliates in past 3 years, or any PwC relationship? (4) you or immediate family a Prominent Government Official in last 5 years? (5) ever worked for, been offered a position at, or hired by American Express or subsidiaries (incl. Accertify)? (6) do you currently run any paid side work you'd continue (your resume's EarningsStory/Adscream projects — are they revenue-generating businesses)?",
+   "field": "compliance.family,compliance.pwc,compliance.gov,compliance.amexHistory,compliance.sideWork",
+   "askedAt": "2026-08-27",
+   "blocking": true,
+   "answer": "All No (Bloomberg relatives, Amex competitor relationships, PwC, government official, prior Amex history). Side work: Yes — EarningsStory/Adscream are active side projects.",
+   "answeredAt": "2026-08-27"
+  },
+  {
+   "id": "q-i140-status",
+   "question": "Amazon work-eligibility form (all 3 Amazon applications): 'Has an I-140 (Immigration Visa Petition) been filed and approved on your behalf?' — answer Yes only if an employment-based I-140 was APPROVED (not just filed). If your I-485 is family-based, or the I-140 is still pending, the answer is No. One word (Yes/No) unblocks all three Amazon submissions — the applications are saved as drafts.",
+   "field": "immigration.i140Approved",
+   "askedAt": "2026-08-28",
+   "blocking": true,
+   "answer": "Yes — an employment-based I-140 has been filed and approved (user, 2026-08-28).",
+   "answeredAt": "2026-08-28"
+  },
+  {
+   "id": "q-timezone-europe",
+   "question": "Zerion 等欧洲公司问「能否按 UTC+0/UTC+1 时区作息工作」（纽约时间凌晨三四点开始）。标准答复里的「美国境内任何城市、任何到岗安排都可以」不覆盖这一条，需要本人决定。",
+   "field": "workingHours.timezone",
+   "askedAt": "2026-09-13",
+   "blocking": true,
+   "answer": "不接受欧洲作息（UTC+0/UTC+1 上班时间）→ 一律答 No。美国境内任何城市、onsite/hybrid/5 天到岗、搬迁仍然全部 Yes —— 这两件事不是一回事，不要互相推导。要求按欧洲时区作息的职位按诚实答 No 处理并 drop。",
+   "answeredAt": "2026-09-13"
+  },
+  {
+   "id": "q-criminal-history",
+   "question": "很多申请表（Axon 等）要求本人声明的法律问题，一次回答可长期使用：(1) 是否曾在任何法院（含军事法庭）被判有罪？(2) 目前是否因重罪被起诉/被控？(3) 是否为在逃通缉犯？(4) 是否曾被法院裁定为精神障碍或被强制送医？(5) 是否曾被军队以不名誉方式退役？(6) 是否受任何法院保护令约束？(7) 是否为管制药品的非法使用者？通常全部是 No，但这些是你本人的法律声明，代理绝不替你猜。",
+   "field": "compliance.criminalHistory",
+   "askedAt": "2026-09-13",
+   "blocking": true,
+   "answer": "全部 No（用户 2026-09-13 亲自确认，七问逐条 No）。这是本人法律声明，agent 不得推断；此后同类声明一律 No，清单之外的新声明仍需回问本人。另：用户指令永不投递 Axon。",
+   "answeredAt": "2026-09-13"
+  }
+ ],
+ "note": "The agent appends questions it cannot answer here, keeps the job in pending.json, and continues. When the user answers (in the Agent tab while running locally, or by telling Claude in any session), the answer moves to `answered`, profile.json/memory.json are updated, and the next run uses it automatically. `blocking: true` means applications that need this answer are held as needs_info instead of being submitted with a guess."
 }
