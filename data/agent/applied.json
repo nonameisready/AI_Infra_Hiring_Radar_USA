@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T14:04:38.121Z",
+  "updatedAt": "2026-09-15T14:15:03.729Z",
   "jobs": {
     "6a5582404119652ff38661ee": {
       "id": "6a5582404119652ff38661ee",
@@ -9271,6 +9271,18 @@
       "at": "2026-09-15",
       "via": "greenhouse (cloud batch)",
       "detail": "greenhouse embed, security code relayed from Gmail, confirmation page reached"
+    },
+    "6a51d3388d7d3e6cf1cc3742": {
+      "id": "6a51d3388d7d3e6cf1cc3742",
+      "company": "Future Secure AI",
+      "title": "Platform AI/ML Software Engineer",
+      "matchPercent": 88,
+      "jobrightUrl": "https://jobright.ai/jobs/info/6a51d3388d7d3e6cf1cc3742",
+      "originalUrl": "https://job-boards.greenhouse.io/embed/job_app?for=futuresecureai&token=4001542201&jr_id=6a51d3388d7d3e6cf1cc3742",
+      "status": "applied",
+      "at": "2026-09-15",
+      "via": "greenhouse (cloud batch)",
+      "detail": "greenhouse embed, country work-eligibility checkbox (United States) + security code relayed, confirmation page reached"
     }
   },
   "note": "Registry of every Jobright job the agent has already handled — the dedupe source of truth. Keyed by Jobright job id; each entry also carries a normalized `company::title` key so the same posting seen under a new id is still skipped. Statuses: applied_jobright | applied_direct | needs_manual | needs_info | skipped | manual_done."
