@@ -3,6 +3,13 @@
   "updatedAt": "2026-09-14T11:25:12.082Z",
   "open": [
     {
+      "id": "q-competing-offers",
+      "question": "HackerRank 的 Senior Backend Engineer 申请表必答：「Do you have any current offers you are considering?」这是只有你本人知道的事实（手上有没有在考虑的 offer），代理不会替你编。请给一个标准答复（有／没有；如果有，要不要写出公司名或只写「有，正在考虑中」），以后同类问题按它回答。",
+      "field": "jobSearch.competingOffers",
+      "askedAt": "2026-09-15",
+      "blocking": true
+    },
+    {
       "id": "q-contractor-1099",
       "question": "Voxie 的 Senior Software Engineer 是 contract（1099/独立承包商）岗位，申请表必答两题：(1) Are you currently set up to legally work as an independent contractor? (2) 这个 contract 岗位你的目标时薪/费率区间是多少？F-1 CPT/EAD 身份下能否以独立承包商身份工作，属于你本人和律师才能确认的事实，代理不会替你猜。请回复这两题的答案（以及今后是否要继续投 contract 岗位）。",
       "field": "employment.contractorStatus,contractRate",

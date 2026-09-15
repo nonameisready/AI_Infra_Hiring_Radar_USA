@@ -10564,23 +10564,6 @@
       "note": "2026-09-10: Ashby says Job not found — posting removed."
     },
     {
-      "id": "6a874075cde3717f9e9b10ae",
-      "key": "wayve::senior software engineer, fleet management",
-      "title": "Senior Software Engineer, Fleet Management",
-      "company": "Wayve",
-      "matchPercent": 75,
-      "jobrightUrl": "https://jobright.ai/jobs/info/6a874075cde3717f9e9b10ae",
-      "atsUrl": "https://job-boards.greenhouse.io/embed/job_app?for=wayve&jr_id=6a874075cde3717f9e9b10ae&token=8732317002&utm_source=jobright",
-      "addedAt": "2026-09-04",
-      "status": "needs_answers",
-      "note": "9/4 cloud GH flagged; missing: [\"Can you commit to a minimum of 3 days a week in our Sunnyvale office?*\"] — run on Mac with Qwen.",
-      "reason": "2026-09-14 cloud: required questions no standing answer covers — [\"Can you commit to a minimum of 3 days a week in our Sunnyvale office?*\"]",
-      "updatedAt": "2026-09-14",
-      "missing": [
-        "Can you commit to a minimum of 3 days a week in our Sunnyvale office?*"
-      ]
-    },
-    {
       "id": "69fa934fa3d34b4f76f662e8",
       "key": "replit::staff software engineer, money partnerships",
       "title": "Staff Software Engineer, Money Partnerships",

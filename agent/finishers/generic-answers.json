@@ -1,6 +1,14 @@
 {
  "combos": [
   {
+   "label": "eligible to work in (any of )?the following|which of the following countries|country.{0,20}(are you|you are) (legally )?(eligible|authorized) to work",
+   "prefer": "^united states$|united states of america"
+  },
+  {
+   "label": "come into the office|in the office (at a minimum|a minimum) of|minimum of [0-9]+ days? (a|per) week|able (and willing )?to commit to (the )?(hybrid|in-?office|on-?site)|comfortable (to be |being |working )?(in|at|from) (the|our|an|this)? ?office",
+   "prefer": "^yes"
+  },
+  {
    "label": "hybrid role in [a-z .,/-]{0,40}(san francisco|denver|new york|seattle|austin|boston|chicago|los angeles)|prioritiz\\\\w+ candidates (who are |that are )?(located|based|living)|are you (located|based) (in|near)[^?]{0,40}\\\\?|willing (and able )?to (work|be) (on-?site|in[- ]office)[^?]{0,40}\\\\?",
    "prefer": "^yes|willing to relocate|open to relocat"
   },
@@ -3641,7 +3649,7 @@
    "type": "No"
   },
   {
-   "label": "comfortable (working )?(in|from) (the |an )?office|willing to work on-?site",
+   "label": "comfortable (to be |being |working )?(in|at|from) (the|our|an|this)? ?office|willing to work on-?site",
    "prefer": "^(Yes|I am)",
    "type": "Yes"
   },
@@ -5584,6 +5592,22 @@
  ],
  "texts": [
   {
+   "label": "share (with us )?your location details|your location details|please (share|provide|tell us) your (current )?location",
+   "text": "Jersey City, New Jersey — the New York City metro area. I am open to onsite, hybrid or remote arrangements anywhere in the US and will relocate if the role requires it."
+  },
+  {
+   "label": "cloud data platforms and orchestration|what (cloud )?data (platforms|tools).{0,40}(used|experience)|orchestration tools have you used",
+   "text": "On AWS I have built and run production data and ML pipelines in Python and PySpark over PostgreSQL, DuckDB and pgvector, containerised with Docker and deployed through GitHub Actions CI/CD, with MLflow for model tracking; at Aurora AI Ventures the orchestration layer is a Go service on NATS JetStream that queues and routes work across models. I have also worked on Azure. I have not used Airflow, dbt or Snowflake in production."
+  },
+  {
+   "label": "owned a data platform or data foundation|platform that other teams (built|build) on|owned a (platform|service) other teams",
+   "text": "Yes. At Bank of America I owned a real-time transaction-data platform that other product teams built on: it grew through 10x traffic to millions of requests a day, and I re-architected it with horizontal partitioning and caching to cut p99 latency by 60%. At BlackRock I built and maintained quantitative research and data systems used across the Hedge Fund Solutions team."
+  },
+  {
+   "label": "come into the office|in the office (at a minimum|a minimum) of|minimum of [0-9]+ days? (a|per) week|able (and willing )?to commit to (the )?(hybrid|in-?office|on-?site)|comfortable (to be |being |working )?(in|at|from) (the|our|an|this)? ?office",
+   "text": "Yes — I can commit to that schedule. I live in the New York metro area (Jersey City, NJ), so a New York office is an easy commute, and I am happy to work onsite up to five days a week or to relocate for a role based elsewhere in the US."
+  },
+  {
    "label": "u\\.?s\\.? export control laws|export administration regulations|\\bitar\\b",
    "text": "No — I am not a U.S. citizen, national, lawful permanent resident, refugee or asylee. I am a citizen of the People's Republic of China, currently authorized to work in the U.S. on F-1 (CPT/EAD)."
   },
@@ -7200,11 +7224,11 @@
    "text": "I have seven years of production backend engineering in teams. At Bank of America I scaled a real-time transaction-data platform through 10x traffic growth to millions of requests a day, using horizontal partitioning and caching to cut p99 latency by 60%. At BlackRock I spent five years building quantitative research and data systems for roughly $1T in retirement assets. Today, as founding engineer at Aurora AI Ventures, I build multi-agent LLM systems in Python and a distributed Go video platform on NATS JetStream and Postgres. I work in code review, CI/CD and on-call rotations every day and ship to production continuously."
   },
   {
-   "label": "why are you (excited|interested) (about|in)|what (specifically )?(interests|excites|appeals to) you about (this|the) (role|position|opportunity)|what aspects of this role",
+   "label": "why are you (excited|interested) (about|in)|what (specifically )?(interests|excites|appeals to) you about (this|the) (role|position|opportunity)|what aspects of this role|what about this (specific )?role|feels like a strong match|why (do you want to|are you looking to) (join|work)",
    "text": "This role sits exactly where my work has been heading: production backend systems and applied AI. I spent seven years building high-throughput financial data platforms at Bank of America and BlackRock, and for the past year I have been the founding engineer of an agentic AI startup, building multi-agent research systems and a distributed Go media platform. I am looking for a team where that combination — real distributed-systems depth plus hands-on LLM engineering — is the core of the product rather than a side project, and where I can ship to production daily."
   },
   {
-   "label": "base [^?]{0,20}expectation|base salary expectation|expected base (salary|compensation)",
+   "label": "base [^?]{0,20}expectation|base salary expectation|expected base (salary|compensation)|desired base salary|indicate your desired (base )?salary|base salary (range|requirement)",
    "text": "$150,000+ base"
   }
  ],
@@ -7217,6 +7241,9 @@
   },
   {
    "label": "i confirm that all the information|certify that the information"
+  },
+  {
+   "label": "^confirm$|^i confirm\\b|^confirmation$"
   },
   {
    "label": "in-person work|in-?office (work|days)|hybrid (schedule|model)"
